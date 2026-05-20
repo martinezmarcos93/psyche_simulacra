@@ -34,7 +34,7 @@ def draw_symbols_chart(symbols_data: dict) -> plt.Figure:
     ax.set_facecolor("#0E1117")
 
     # Dibujar barras
-    bars = ax.barh(names, values, color=colors, edgecolor="rgba(255,255,255,0.05)", height=0.6)
+    bars = ax.barh(names, values, color=colors, edgecolor=(1.0, 1.0, 1.0, 0.05), height=0.6)
 
     # Añadir valores a las barras
     for bar in bars:

@@ -80,7 +80,7 @@ def draw_quantum_network(social_network_data: dict, agents_data: list[dict]) -> 
             cmap=node_cmap,
             vmin=0.0, vmax=1.0,
             node_size=600,
-            edgecolors="rgba(255, 255, 255, 0.25)",
+            edgecolors=(1.0, 1.0, 1.0, 0.25),
             linewidths=1.5,
             ax=ax
         )
