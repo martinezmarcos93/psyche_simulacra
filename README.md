@@ -103,14 +103,14 @@ PSYCHE SIMULACRA/
 │   │   ├── schedule.py           # ✅ ScheduleSystem
 │   │   ├── agent_core.py         # ✅ AgentCore (orquestador)
 │   │   ├── psyche/
-│   │   │   ├── archetypes.py     # ⏳ Vectores arquetípicos
-│   │   │   ├── complexes.py      # ⏳ Complejos jungianos
-│   │   │   ├── traits.py         # ⏳ Big Five + clínico
-│   │   │   ├── dreams.py         # ⏳ DreamEngine
+│   │   │   ├── archetypes.py     # ✅ Vectores arquetípicos
+│   │   │   ├── complexes.py      # ✅ Complejos jungianos
+│   │   │   ├── traits.py         # ✅ Big Five + clínico
+│   │   │   ├── dreams.py         # ✅ DreamEngine
 │   │   │   └── individuation.py  # ⏳ Transformación arquetípica
 │   │   └── quantum/
-│   │       ├── superposition.py  # ⏳ Estados conductuales
-│   │       ├── collapse.py       # ⏳ Colapso por contexto
+│   │       ├── superposition.py  # ✅ Estados conductuales
+│   │       ├── collapse.py       # ✅ Colapso por contexto
 │   │       └── entanglement.py   # ⏳ Entrelazamiento social
 │   ├── social/
 │   │   ├── interaction.py        # ⏳ InteractionEngine
@@ -212,14 +212,14 @@ Los 15 agentes beta y el entry point funcional.
 - `scripts/run_simulation.py` — entry point con `--resume`, `--days`, `--seed`
 - Criterio cumplido: **6/8 ítems del beta scope** (campo colectivo y vault en Fases 7-8)
 
-### ⏳ Fase 6 — Psicología
-Las capas psicológica y cuántica de los agentes.
-- `archetypes.py` — 12 vectores jungianos con pesos dinámicos
-- `complexes.py` — 6 complejos activables por umbral contextual
-- `traits.py` — Big Five simplificado + rasgos clínicos
-- `superposition.py` / `collapse.py` — mecánica de decisión cuántica
-- `dreams.py` — procesamiento nocturno, generación de proto-símbolo
-- Criterio: agentes con personalidad diferenciada visible en el comportamiento
+### ✅ Fase 6 — Psicología
+Las capas psicológica y cuántica de los agentes cargadas desde las semillas e integradas activamente en la simulación.
+- `archetypes.py` — 12 vectores jungianos con pesos dinámicos.
+- `complexes.py` — 6 complejos activables por umbral de supervivencia contextual.
+- `traits.py` — Big Five (apertura, responsabilidad, extraversión, amabilidad, neuroticismo) + 9 dimensiones clínicas.
+- `superposition.py` / `collapse.py` — mecánica de decisión cuántica basada en la personalidad, rasgos y contexto.
+- `dreams.py` — procesamiento nocturno diario con aplicación de deltas oníricos al vector arquetípico.
+- Criterio cumplido: **15 agentes cargados desde initial_personas.yaml con perfiles arquetípicos y rasgos diferenciados sobreviven 30 días de simulación sin colapsar por competencia de recursos.**
 
 ### ⏳ Fase 7 — Sistemas sociales
 Las capas de interacción, red y campo colectivo.

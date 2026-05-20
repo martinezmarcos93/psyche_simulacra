@@ -329,18 +329,7 @@ class TestPhase3Criterion:
     def test_15_agents_survive_30_days(self):
         clock = SimulationClock(start_dia=0, start_hora=0)
         world = WorldCore(seed=42)
-        core  = AgentCore(world)
-
-        cx, cy = world.terrain.center
-        roles  = ["generico", "cazador", "recolector", "explorador", "guardian"]
-        for i in range(15):
-            core.add_agent(Agent(
-                agent_id = f"agente_{i}",
-                nombre   = f"Persona {i}",
-                posicion = (cx, cy),
-                rol      = roles[i % len(roles)],
-                seed     = i * 7,
-            ))
+        core  = AgentCore.from_yaml("data/seeds/initial_personas.yaml", world)
 
         clock.on_tick(world.on_tick, priority=10)
         clock.on_day(world.on_day,   priority=10)

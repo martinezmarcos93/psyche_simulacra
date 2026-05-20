@@ -101,6 +101,7 @@ class AgentCore:
                 sexo     = entry.get("sexo", "M"),
                 seed     = i,
             )
+            agent.load_psyche_from_yaml(entry)
             core.add_agent(agent)
         return core
 

@@ -8,27 +8,32 @@ from core.interface import ActionType, WorldAction, WorldSnapshot
 from core.time import TimePoint
 from .needs import Needs, CRITICAL_THRESHOLD, OVERRIDE_THRESHOLD
 from .schedule import ScheduleSystem
+from .psyche.archetypes import ArchetypeVector
+from .psyche.complexes import ComplexProfile
+from .psyche.traits import TraitProfile
+from .psyche.dreams import DreamEngine, Dream
+from .quantum.superposition import BehavioralState
+from .quantum.collapse import collapse_state
 
 if TYPE_CHECKING:
     pass
 
-# Days at critical threshold before death
-_DIAS_HAMBRE_MUERTE = 3
-_DIAS_SED_MUERTE    = 2
-
-# How much a successful gather/hunt satisfies the need
+_DIAS_HAMBRE_MUERTE   = 3
+_DIAS_SED_MUERTE      = 2
 _COMIDA_POR_RECOLECTA = 0.35
 _COMIDA_POR_CAZA      = 0.55
 _AGUA_POR_BEBER       = 0.60
+_DREAM_HORA           = 22   # se sueña en esta hora del día simulado
 
 
 class Agent:
     """
     Agente con 4 capas:
-      - Biológica  : activa (Needs + ScheduleSystem)
-      - Psicológica: placeholder (Phase 6)
-      - Social     : placeholder (Phase 7)
-      - Simbólica  : placeholder (Phase 7)
+      - Biológica   : Needs + ScheduleSystem
+      - Psicológica : ArchetypeVector + ComplexProfile + TraitProfile + DreamEngine
+      - Cuántica    : BehavioralState + collapse_state
+      - Social      : placeholder (Phase 7)
+      - Simbólica   : placeholder (Phase 7)
     """
 
     def __init__(
@@ -53,16 +58,63 @@ class Agent:
         self.needs    = Needs()
         self.schedule = ScheduleSystem(rol=rol)
 
-        # Emotional state (simplified; full version in Phase 6)
-        self.humor    = 0.5   # 0=very bad, 1=very good
-        self.energia  = 0.8   # 0=drained, 1=full
-        self.ansiedad = 0.2   # 0=calm, 1=panic
+        # Psychological layer
+        self.archetypes = ArchetypeVector()
+        self.complexes  = ComplexProfile()
+        self.traits     = TraitProfile()
+        self._dream_engine = DreamEngine()
+        self.dreams: list[Dream] = []
+
+        # Quantum layer
+        self.behavioral_state = BehavioralState()
+        # Estado base estable para el decay (refleja la personalidad duradera)
+        self._base_state: BehavioralState | None = None
+
+        # Emotional state (driven by layer integration)
+        self.humor    = 0.5
+        self.energia  = 0.8
+        self.ansiedad = 0.2
 
         # Death counters
         self._dias_hambre_critica = 0
         self._dias_sed_critica    = 0
 
         self._rng = random.Random(seed)
+
+    # ── Inicialización desde YAML ─────────────────────────────────────────────
+
+    def load_psyche_from_yaml(self, data: dict) -> None:
+        """Carga la capa psicológica desde los datos del YAML de seeds."""
+        if "arquetipos" in data:
+            self.archetypes = ArchetypeVector.from_dict(data["arquetipos"])
+
+        if "complejos" in data:
+            raw = dict(data["complejos"])
+            triggers = raw.pop("triggers", {})
+            self.complexes = ComplexProfile.from_dict(raw)
+            self.complexes.custom_triggers = triggers
+
+        if "big_five" in data:
+            self.traits = TraitProfile.from_dict(data["big_five"])
+        elif "rasgos" in data:
+            self.traits = TraitProfile.from_dict(data["rasgos"])
+
+        if "estado_cuantico" in data:
+            vc = data["estado_cuantico"].get("vector_conductual", {})
+            self.behavioral_state = BehavioralState.from_dict(vc)
+        else:
+            # Derivar el estado inicial del arquetipo dominante
+            self.behavioral_state = BehavioralState.from_archetype_dominant(
+                self.archetypes.dominant()
+            )
+
+        # Guardar el estado base para el decay natural
+        self._base_state = BehavioralState(
+            cooperacion  = self.behavioral_state.cooperacion,
+            competencia  = self.behavioral_state.competencia,
+            aislamiento  = self.behavioral_state.aislamiento,
+            manipulacion = self.behavioral_state.manipulacion,
+        )
 
     # ── Tick update ──────────────────────────────────────────────────────────
 
@@ -71,7 +123,7 @@ class Agent:
         tp:       TimePoint,
         snapshot: WorldSnapshot,
     ) -> None:
-        """Called once per tick by AgentCore."""
+        """Llamado una vez por tick por AgentCore."""
         actividad = self.schedule.get_activity(tp.hora_del_dia)
 
         if actividad == "dormir":
@@ -79,22 +131,60 @@ class Agent:
         else:
             self.needs.update_waking()
 
-        # Apply results of the action submitted last tick
+        # Aplicar resultado de la acción del tick anterior
         if self.id in snapshot.action_results:
             result = snapshot.action_results[self.id]
             if result.success and result.resource_gained:
                 self._apply_resource_gain(result.resource_gained)
 
-        # Emotional coupling to needs (simplified)
-        self.ansiedad = min(1.0, self.needs.stress_level * 1.2)
-        self.humor    = max(0.0, 1.0 - self.needs.stress_level)
+        # Complejos decaen por tick
+        self.complexes.decay_tick()
+
+        # Decay del estado cuántico hacia el estado base
+        if self._base_state is not None:
+            self.behavioral_state.decay_toward_base(self._base_state, rate=0.01)
+
+        # Sueño: procesamiento onírico una vez por día en hora definida
+        if tp.hora_del_dia == _DREAM_HORA and actividad == "dormir":
+            self._process_dream(tp.dia_simulado)
+
+        # Estado emocional integrado
+        self._update_emotional_state()
+
+    def _update_emotional_state(self) -> None:
+        """Integra biología, psicología y cuántica en el estado emocional."""
+        stress = self.needs.stress_level
+        mood_base = self.traits.mood_modifier()
+        complejo_ansiedad = 0.10 if self.complexes.activos else 0.0
+
+        self.ansiedad = min(1.0, stress * (1.0 + self.traits.stress_sensitivity()) + complejo_ansiedad)
+        self.humor    = max(0.0, 1.0 - stress + mood_base * 0.3)
         self.energia  = max(0.0, 1.0 - self.needs.fatiga)
 
+    def _process_dream(self, dia: int) -> None:
+        """Genera un sueño y aplica sus deltas arquetípicos."""
+        dream = self._dream_engine.generate_dream(
+            dia             = dia,
+            dominante       = self.archetypes.dominant(),
+            tension         = self.archetypes.tension(),
+            complejo_activo = self.complexes.most_active(),
+            rng             = self._rng,
+        )
+        self.dreams.append(dream)
+        # Guardar solo los últimos 7 sueños
+        if len(self.dreams) > 7:
+            self.dreams = self.dreams[-7:]
+
+        # Aplicar deltas al vector arquetípico
+        self.archetypes.update_from_event.__func__  # touch to avoid lint warnings
+        for arch_key, delta in dream.delta_arquetipo.items():
+            attr = "self_" if arch_key == "self" else arch_key
+            if hasattr(self.archetypes, attr):
+                current = getattr(self.archetypes, attr)
+                setattr(self.archetypes, attr, max(0.0, min(1.0, current + delta)))
+
     def check_death(self) -> str | None:
-        """
-        Call once per simulated day.
-        Returns cause of death string or None if alive.
-        """
+        """Llamado una vez por día. Devuelve causa de muerte o None."""
         if self.needs.hambre >= CRITICAL_THRESHOLD:
             self._dias_hambre_critica += 1
         else:
@@ -113,6 +203,20 @@ class Agent:
             return "inanicion"
         return None
 
+    def on_day(self, tp: TimePoint) -> None:
+        """Llamado al inicio de cada nuevo día."""
+        self.complexes.decay_day()
+        # Activar complejos por contexto de supervivencia
+        events: list[str] = []
+        if self.needs.hambre > OVERRIDE_THRESHOLD:
+            events.append("fracaso")
+        if self.needs.sed > OVERRIDE_THRESHOLD:
+            events.append("fracaso")
+        if not self.is_alive:
+            events.append("muerte")
+        if events:
+            self.complexes.check_activation(events)
+
     # ── Decision ─────────────────────────────────────────────────────────────
 
     def decide_action(
@@ -120,16 +224,13 @@ class Agent:
         tp:       TimePoint,
         snapshot: WorldSnapshot,
     ) -> WorldAction | None:
-        """
-        Returns a single WorldAction or None.
-        Survival needs override the normal schedule.
-        """
+        """Devuelve una WorldAction o None. Integra psicología en la decisión."""
         if not self.is_alive:
             return None
 
         actividad = self.schedule.get_activity(tp.hora_del_dia)
 
-        # Critical survival overrides schedule
+        # Necesidades críticas siempre sobreescriben
         if self.needs.survival_override_active():
             critical = self.needs.most_critical_need()
             if critical == "sed":
@@ -137,10 +238,14 @@ class Agent:
             if critical == "hambre":
                 return self._find_food_action(tp, snapshot)
             if critical == "fatiga":
-                return None  # rest in place
+                return None
 
-        # Normal schedule
-        if actividad == "dormir" or actividad == "descansar":
+        # Colapso cuántico para decisiones no-críticas
+        if actividad == "interactuar":
+            return self._decide_via_collapse(tp, snapshot)
+
+        # Rutina normal de la agenda
+        if actividad in ("dormir", "descansar"):
             return None
         if actividad == "buscar_alimento":
             return self._find_food_action(tp, snapshot)
@@ -149,17 +254,58 @@ class Agent:
         if actividad == "cazar":
             return self._hunt_action(tp, snapshot)
         if actividad == "explorar":
-            return self._explore_action(tp, snapshot)
-        # interactuar — no WorldAction yet (Phase 7)
+            return self._choose_explore_or_gather(tp, snapshot)
         return None
 
-    # ── Action builders ──────────────────────────────────────────────────────
-
-    def _find_food_action(
+    def _decide_via_collapse(
         self,
         tp:       TimePoint,
         snapshot: WorldSnapshot,
     ) -> WorldAction | None:
+        """
+        Usa el motor cuántico para decidir la acción en horas sociales.
+        En Fase 7 esto dispara InteractionEngine; por ahora elige entre
+        explorar y buscar recursos.
+        """
+        context = {
+            "peligro":         snapshot.survival_risk,
+            "recursos_escasos": snapshot.resource_pressure > 0.7,
+            "hay_aliados":     False,  # Fase 7
+            "hay_amenaza":     snapshot.survival_risk > 0.5,
+        }
+
+        arch_biases = {
+            a: self.archetypes.action_bias(a) for a in
+            ("cooperacion", "competencia", "aislamiento", "manipulacion")
+        }
+        complex_biases = {
+            a: self.complexes.action_bias(a) for a in
+            ("cooperacion", "competencia", "aislamiento", "manipulacion")
+        }
+        trait_biases = {
+            a: self.traits.action_bias(a) for a in
+            ("cooperacion", "competencia", "aislamiento", "manipulacion")
+        }
+
+        accion = collapse_state(
+            state            = self.behavioral_state,
+            context          = context,
+            archetype_biases = arch_biases,
+            complex_biases   = complex_biases,
+            trait_biases     = trait_biases,
+            rng              = self._rng,
+        )
+
+        # Traducir colapso a WorldAction disponible en Fase 6
+        if accion in ("cooperacion", "manipulacion"):
+            return self._find_food_action(tp, snapshot)
+        if accion == "competencia":
+            return self._hunt_action(tp, snapshot)
+        return self._explore_action(tp, snapshot)  # aislamiento → explorar solo
+
+    # ── Action builders ──────────────────────────────────────────────────────
+
+    def _find_food_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
         coord = self.posicion
         food  = self._get_nearby_food(coord, snapshot)
         if food is None:
@@ -173,11 +319,7 @@ class Agent:
             priority = 0.7,
         )
 
-    def _find_water_action(
-        self,
-        tp:       TimePoint,
-        snapshot: WorldSnapshot,
-    ) -> WorldAction | None:
+    def _find_water_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
         coord = self.posicion
         resources = snapshot.recursos_por_hex.get(coord, {})
         water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea"]
@@ -193,14 +335,10 @@ class Agent:
                 )
         return self._explore_action(tp, snapshot)
 
-    def _hunt_action(
-        self,
-        tp:       TimePoint,
-        snapshot: WorldSnapshot,
-    ) -> WorldAction | None:
-        coord   = self.posicion
-        fauna   = snapshot.fauna_visible.get(coord, {})
-        target  = "grande" if fauna.get("grande", 0) > 0.2 else "pequena"
+    def _hunt_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
+        coord  = self.posicion
+        fauna  = snapshot.fauna_visible.get(coord, {})
+        target = "grande" if fauna.get("grande", 0) > 0.2 else "pequena"
         if fauna.get(target, 0) <= 0.05:
             return self._find_food_action(tp, snapshot)
         return WorldAction(
@@ -212,18 +350,13 @@ class Agent:
             priority = 0.6,
         )
 
-    def _explore_action(
-        self,
-        tp:       TimePoint,
-        snapshot: WorldSnapshot,
-    ) -> WorldAction:
-        # Simplified movement: agent physically moves to a neighbor this tick.
-        # Full pathfinding comes in a later phase.
+    def _explore_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction:
         q, r = self.posicion
+        # Rasgos influyen en la dirección de exploración (por ahora, aleatoria)
         directions = [(1,0),(-1,0),(0,1),(0,-1),(1,-1),(-1,1)]
         dq, dr = self._rng.choice(directions)
         target = (q + dq, r + dr)
-        self.posicion = target  # commit move immediately
+        self.posicion = target
         return WorldAction(
             agent_id = self.id,
             tick     = tp.tick,
@@ -233,19 +366,22 @@ class Agent:
             priority = 0.3,
         )
 
-    def _get_nearby_food(
-        self,
-        coord:    tuple[int, int],
-        snapshot: WorldSnapshot,
-    ) -> str | None:
+    def _choose_explore_or_gather(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
+        """
+        Exploradores y agentes con alta apertura prefieren explorar;
+        los demás buscan recursos.
+        """
+        if self._rng.random() < self.traits.exploration_drive():
+            return self._explore_action(tp, snapshot)
+        return self._find_food_action(tp, snapshot)
+
+    def _get_nearby_food(self, coord: tuple[int, int], snapshot: WorldSnapshot) -> str | None:
         resources = snapshot.recursos_por_hex.get(coord, {})
         food_types = ["frutos", "raices", "plantas", "semillas", "peces"]
         for ft in food_types:
             if resources.get(ft, 0) > 0.1:
                 return ft
         return None
-
-    # ── Resource application ─────────────────────────────────────────────────
 
     def _apply_resource_gain(self, resources: dict) -> None:
         food_types  = {"frutos", "raices", "plantas", "semillas", "carne", "peces"}
@@ -255,6 +391,16 @@ class Agent:
                 self.needs.eat(qty * _COMIDA_POR_RECOLECTA)
             elif rtype in water_types:
                 self.needs.drink(qty * _AGUA_POR_BEBER)
+
+    # ── Acceso psicológico rápido ─────────────────────────────────────────────
+
+    @property
+    def arquetipo_dominante(self) -> str:
+        return self.archetypes.dominant()
+
+    @property
+    def estado_conductual(self) -> str:
+        return self.behavioral_state.ultimo_colapso
 
     # ── Serialization ────────────────────────────────────────────────────────
 
@@ -273,12 +419,31 @@ class Agent:
             "ansiedad": self.ansiedad,
             "dias_hambre_critica": self._dias_hambre_critica,
             "dias_sed_critica":    self._dias_sed_critica,
+            # Psicología (para inspector/dashboard)
+            "arquetipo_dominante": self.arquetipo_dominante,
+            "estado_conductual":   self.estado_conductual,
         }
 
     def to_dict(self) -> dict:
         return {
             **self.snapshot(),
-            "schedule": self.schedule.to_dict(),
+            "schedule":         self.schedule.to_dict(),
+            "archetypes":       self.archetypes.to_dict(),
+            "complexes":        self.complexes.to_dict(),
+            "traits":           self.traits.to_dict(),
+            "behavioral_state": self.behavioral_state.to_dict(),
+            "base_state":       self._base_state.to_dict() if self._base_state else None,
+            "dreams":           [
+                {
+                    "dia":          d.dia,
+                    "simbolo":      d.simbolo,
+                    "arquetipo":    d.arquetipo,
+                    "complejo":     d.complejo,
+                    "procesamiento": d.procesamiento,
+                    "insight":      d.insight,
+                }
+                for d in self.dreams
+            ],
         }
 
     @classmethod
@@ -298,4 +463,17 @@ class Agent:
         a.ansiedad = data.get("ansiedad", 0.2)
         a._dias_hambre_critica = data.get("dias_hambre_critica", 0)
         a._dias_sed_critica    = data.get("dias_sed_critica", 0)
+
+        # Psicología
+        if "archetypes" in data:
+            a.archetypes = ArchetypeVector.from_dict(data["archetypes"])
+        if "complexes" in data:
+            a.complexes = ComplexProfile.from_dict(data["complexes"])
+        if "traits" in data:
+            a.traits = TraitProfile.from_dict(data["traits"])
+        if "behavioral_state" in data:
+            a.behavioral_state = BehavioralState.from_dict(data["behavioral_state"])
+        if "base_state" in data and data["base_state"]:
+            a._base_state = BehavioralState.from_dict(data["base_state"])
+
         return a
