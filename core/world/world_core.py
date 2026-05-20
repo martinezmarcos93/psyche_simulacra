@@ -93,47 +93,46 @@ class WorldCore:
         action:  WorldAction,
         climate: ClimateState,
     ) -> ActionResult | None:
-        match action.type:
-            case ActionType.RECOLECTAR:
-                resource = action.params.get("resource", "")
-                amount   = action.params.get("amount", 0.1)
-                return self.resources.consume(action.coord, resource, amount, action.agent_id)
+        if action.type == ActionType.RECOLECTAR:
+            resource = action.params.get("resource", "")
+            amount   = action.params.get("amount", 0.1)
+            return self.resources.consume(action.coord, resource, amount, action.agent_id)
 
-            case ActionType.CAZAR:
-                fauna_type = action.params.get("fauna_type", "pequena")
-                amount     = action.params.get("amount", 0.1)
-                return self.fauna.hunt(action.coord, fauna_type, amount, action.agent_id)
+        elif action.type == ActionType.CAZAR:
+            fauna_type = action.params.get("fauna_type", "pequena")
+            amount     = action.params.get("amount", 0.1)
+            return self.fauna.hunt(action.coord, fauna_type, amount, action.agent_id)
 
-            case ActionType.ENCENDER_FUEGO:
-                return self.fire.ignite(action.coord, action.agent_id, climate)
+        elif action.type == ActionType.ENCENDER_FUEGO:
+            return self.fire.ignite(action.coord, action.agent_id, climate)
 
-            case ActionType.MANTENER_FUEGO:
-                return self.fire.maintain(action.agent_id)
+        elif action.type == ActionType.MANTENER_FUEGO:
+            return self.fire.maintain(action.agent_id)
 
-            case ActionType.EXPLORAR:
-                newly = self.terrain.reveal(
-                    action.coord[0], action.coord[1], radius=1
-                )
-                return ActionResult(
-                    agent_id      = action.agent_id,
-                    action_type   = ActionType.EXPLORAR,
-                    success       = True,
-                    world_effects = {"nuevos_hexes": len(newly)},
-                    discoveries   = [{"tipo": "hex", "coord": c} for c in newly],
-                )
+        elif action.type == ActionType.EXPLORAR:
+            newly = self.terrain.reveal(
+                action.coord[0], action.coord[1], radius=1
+            )
+            return ActionResult(
+                agent_id      = action.agent_id,
+                action_type   = ActionType.EXPLORAR,
+                success       = True,
+                world_effects = {"nuevos_hexes": len(newly)},
+                discoveries   = [{"tipo": "hex", "coord": c} for c in newly],
+            )
 
-            case ActionType.CONSTRUIR_REFUGIO:
-                ok = self.terrain.add_structure(
-                    action.coord[0], action.coord[1], "refugio"
-                )
-                return ActionResult(
-                    agent_id    = action.agent_id,
-                    action_type = ActionType.CONSTRUIR_REFUGIO,
-                    success     = ok,
-                )
+        elif action.type == ActionType.CONSTRUIR_REFUGIO:
+            ok = self.terrain.add_structure(
+                action.coord[0], action.coord[1], "refugio"
+            )
+            return ActionResult(
+                agent_id    = action.agent_id,
+                action_type = ActionType.CONSTRUIR_REFUGIO,
+                success     = ok,
+            )
 
-            case _:
-                return None
+        else:
+            return None
 
     def _produce_snapshot(
         self,

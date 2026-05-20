@@ -4,23 +4,23 @@ nombre: Kairos
 rol: cazador
 edad: 32
 sexo: M
-is_alive: True
-posicion: [50, 28]
-humor: 0.271
+is_alive: False
+posicion: [49, 29]
+humor: 0.169
 energia: 0.135
 ansiedad: 0.950
 needs:
-  hambre: 0.919
+  hambre: 1.000
   fatiga: 0.865
-  sed: 0.815
+  sed: 1.000
   sociabilidad: 1.000
-arquetipo_dominante: heroe
+arquetipo_dominante: self
 estado_conductual: manipulacion
 arquetipos:
-  self: 0.833
+  self: 0.877
   persona: 0.500
   sombra: 0.264
-  anima_animus: 0.400
+  anima_animus: 0.428
   heroe: 0.853
   sabio: 0.400
   trickster: 0.250
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Kairos
 
-> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(50, 28)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(49, 29)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓░░░░░░░]` | 0.27 |
+| **Humor** | `[▓▓░░░░░░░░]` | 0.17 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.95 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.833` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Self** | `0.877` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.264` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.428` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.853` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
@@ -104,10 +104,6 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* El heroe compensa la energía de lo reprimido.
-- **Día 4:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* El heroe encuentra paz provisional con la oscuridad.
 - **Día 5:** Soñó con `'montaña'` (arquetipo `heroe`).
   - *Insight:* El heroe encuentra paz provisional con la oscuridad.
 - **Día 6:** Soñó con `'montaña'` (arquetipo `heroe`).
@@ -118,6 +114,10 @@ arquetipos:
   - *Insight:* El heroe encuentra paz provisional con la oscuridad.
 - **Día 9:** Soñó con `'montaña'` (arquetipo `heroe`).
   - *Insight:* El heroe encuentra paz provisional con la oscuridad.
+- **Día 10:** Soñó con `'montaña'` (arquetipo `heroe`).
+  - *Insight:* El heroe encuentra paz provisional con la oscuridad.
+- **Día 11:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
 
 ---
 
@@ -169,3 +169,6 @@ arquetipos:
 - Día 7: Soñó con 'montaña' (heroe). Insight: El heroe compensa la energía de lo reprimido.
 - Día 8: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
 - Día 9: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
+- Día 10: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
+- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 12: Falleció a causa de deshidratacion.

@@ -20,9 +20,9 @@ if TYPE_CHECKING:
 
 _DIAS_HAMBRE_MUERTE   = 3
 _DIAS_SED_MUERTE      = 2
-_COMIDA_POR_RECOLECTA = 0.35
-_COMIDA_POR_CAZA      = 0.55
-_AGUA_POR_BEBER       = 0.60
+_COMIDA_POR_RECOLECTA = 4.0
+_COMIDA_POR_CAZA      = 8.0
+_AGUA_POR_BEBER       = 5.0
 _DREAM_HORA           = 22   # se sueña en esta hora del día simulado
 
 

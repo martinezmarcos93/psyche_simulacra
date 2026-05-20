@@ -4,23 +4,23 @@ nombre: Iris
 rol: explorador
 edad: 21
 sexo: F
-is_alive: True
-posicion: [42, 33]
-humor: 0.176
+is_alive: False
+posicion: [40, 31]
+humor: 0.137
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.972
+  hambre: 0.956
   fatiga: 0.865
-  sed: 0.855
+  sed: 0.966
   sociabilidad: 1.000
 arquetipo_dominante: self
 estado_conductual: competencia
 arquetipos:
-  self: 0.913
+  self: 0.991
   persona: 0.500
   sombra: 0.250
-  anima_animus: 0.400
+  anima_animus: 0.513
   heroe: 0.500
   sabio: 0.400
   trickster: 0.480
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Iris
 
-> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(42, 33)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(40, 31)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓░░░░░░░░]` | 0.18 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.14 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.913` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Self** | `0.991` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.513` | `▓▓▓▓▓▓░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
@@ -104,20 +104,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 11:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 12:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 13:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 14:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 5:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 15:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 16:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 6:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 7:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 8:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 9:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 17:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
 
 ---
 
@@ -159,3 +159,12 @@ arquetipos:
 - Día 7: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 10: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 12: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 13: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 15: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 17: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 18: Falleció a causa de deshidratacion.

@@ -4,23 +4,23 @@ nombre: Peitho
 rol: explorador
 edad: 26
 sexo: F
-is_alive: True
-posicion: [35, 22]
-humor: 0.154
+is_alive: False
+posicion: [39, 37]
+humor: 0.146
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.964
+  hambre: 0.956
   fatiga: 0.865
-  sed: 0.895
+  sed: 0.920
   sociabilidad: 1.000
 arquetipo_dominante: self
 estado_conductual: competencia
 arquetipos:
-  self: 0.799
+  self: 1.000
   persona: 0.594
   sombra: 0.350
-  anima_animus: 0.400
+  anima_animus: 0.428
   heroe: 0.500
   sabio: 0.400
   trickster: 0.780
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(35, 22)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(39, 37)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓░░░░░░░░]` | 0.15 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.15 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
@@ -50,7 +50,7 @@ arquetipos:
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.90 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.799` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.594` | `▓▓▓▓▓▓▓░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.428` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.780` | `▓▓▓▓▓▓▓▓▓░░░` |
@@ -106,20 +106,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
-- **Día 4:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
-- **Día 5:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster compensa la energía de lo reprimido.
-- **Día 6:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
-- **Día 7:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster compensa la energía de lo reprimido.
-- **Día 8:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster compensa la energía de lo reprimido.
-- **Día 9:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
-  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
+- **Día 11:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 12:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 13:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 14:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 15:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 16:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 17:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
 
 ---
 
@@ -156,3 +156,12 @@ arquetipos:
 - Día 7: Soñó con 'puerta_falsa' (trickster). Insight: El trickster compensa la energía de lo reprimido.
 - Día 8: Soñó con 'puerta_falsa' (trickster). Insight: El trickster compensa la energía de lo reprimido.
 - Día 9: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 10: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 12: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 13: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 15: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 17: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 18: Falleció a causa de inanicion.

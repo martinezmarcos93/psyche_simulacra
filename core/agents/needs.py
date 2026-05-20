@@ -9,7 +9,7 @@ _SED_DECAY_WAKING     = 0.040
 
 # Decay per tick while sleeping
 _HAMBRE_DECAY_SLEEPING = 0.008
-_FATIGA_RECOVER_SLEEP  = 0.045  # fatigue goes DOWN while sleeping
+_FATIGA_RECOVER_SLEEP  = 0.075  # fatigue goes DOWN while sleeping
 _SED_DECAY_SLEEPING    = 0.005
 
 OVERRIDE_THRESHOLD = 0.80   # need is critical — overrides schedule

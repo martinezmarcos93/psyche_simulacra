@@ -21,3 +21,22 @@ Se implementó un `bounds checking` (validación de límites) en `_explore_actio
 
 **Impacto:**
 Los agentes ahora permanecen confinados al entorno simulado. Cuando agotan los recursos en el borde, se ven obligados a regresar hacia zonas previamente exploradas o a competir por el espacio, lo que reactiva la dinámica social y frena las muertes ilógicas por inanición, permitiendo a la simulación avanzar años sin colapsar por este motivo geométrico.
+
+---
+
+## Bug #002: El Letargo Sediento (Desbalance Metabólico)
+
+**Síntoma:**
+Aún tras solucionar el éxodo al vacío (Bug #001), simulaciones largas mostraban una extinción total cerca del día 100. Todos los agentes morían de `deshidratacion` y algunos de `inanicion`.
+
+**Análisis:**
+El análisis numérico del metabolismo en `core/agents/needs.py` y `core/agents/agent.py` reveló dos problemas fatales:
+1. **Rendimiento de Recursos Mínimo:** La acción de beber agua consumía 1 hora (1 tick), pero el agua recolectada (`0.20` unidades) multiplicada por `_AGUA_POR_BEBER` (`0.60`) apenas saciaba un `12%` de la sed. Dado que la sed aumentaba `68%` por día, el agente requería agotar múltiples hexágonos enteros diariamente solo para sobrevivir, deforestando la isla de agua virtualmente al instante.
+2. **Fatiga Acumulativa (Letargo):** El decaimiento de fatiga al dormir (`0.045` por tick) era insuficiente para compensar la fatiga ganada despiertos (`0.035` por tick). En 4 días, la fatiga superaba el umbral crítico de supervivencia (`0.80`). Al intentar resolver la fatiga, el agente "descansaba" en lugar de beber agua. Al permanecer despierto, la fatiga seguía aumentando y la sed se volvía mortal.
+
+**Solución:**
+1. Se ajustó `_FATIGA_RECOVER_SLEEP` en `needs.py` a `0.075` para que 8 horas de sueño restauren por completo el cansancio de 16 horas de actividad.
+2. Se reajustaron drásticamente los factores de conversión metabólicos en `agent.py`: `_COMIDA_POR_RECOLECTA = 4.0`, `_COMIDA_POR_CAZA = 8.0` y `_AGUA_POR_BEBER = 5.0`.
+
+**Impacto:**
+Ahora una recolección exitosa de agua o comida sacia la necesidad en un 80-100%, permitiendo al agente hidratarse/alimentarse rápidamente y destinar el resto de sus horas del día a socializar, explorar o mantener el fuego, habilitando la verdadera emergencia social y permitiendo la supervivencia más allá de cientos de días.

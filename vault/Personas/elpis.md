@@ -4,23 +4,23 @@ nombre: Elpis
 rol: recolector
 edad: 22
 sexo: F
-is_alive: True
-posicion: [34, 30]
-humor: 0.166
+is_alive: False
+posicion: [32, 27]
+humor: 0.124
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.972
+  hambre: 1.000
   fatiga: 0.865
-  sed: 0.909
+  sed: 1.000
   sociabilidad: 1.000
 arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.858
+  self: 0.846
   persona: 0.500
   sombra: 0.250
-  anima_animus: 0.417
+  anima_animus: 0.447
   heroe: 0.500
   sabio: 0.400
   trickster: 0.250
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Elpis
 
-> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(34, 30)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(32, 27)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓░░░░░░░░]` | 0.17 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.12 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.91 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.858` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Self** | `0.846` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.417` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.447` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
@@ -108,8 +108,6 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
 - **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
 - **Día 5:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
@@ -121,6 +119,8 @@ arquetipos:
 - **Día 8:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
 - **Día 9:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 10:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self compensa la energía de lo reprimido.
 
 ---
@@ -176,3 +176,6 @@ arquetipos:
 - Día 8: Sufrió explotación y hostilidad de Chara, cediendo recursos biológicos.
 - Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 10: Sufrió explotación y hostilidad de Chara, cediendo recursos biológicos.
+- Día 10: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 11: Falleció a causa de inanicion.
