@@ -87,6 +87,7 @@ class SimulationRunner:
             self.buffer.record_deaths(new_deaths)
             for _ in new_deaths:
                 self.session.record_death()
+                self.agents.collective_field.absorb_event("muerte", intensity=1.0)
             self._death_cursor = len(death_log)
 
         # Snapshots de agentes y escenario (buffered)

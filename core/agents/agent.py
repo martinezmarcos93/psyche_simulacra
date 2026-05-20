@@ -223,6 +223,8 @@ class Agent:
         self,
         tp:       TimePoint,
         snapshot: WorldSnapshot,
+        collective_field: CollectiveField | None = None,
+        hay_aliados: bool = False,
     ) -> WorldAction | None:
         """Devuelve una WorldAction o None. Integra psicología en la decisión."""
         if not self.is_alive:
@@ -242,7 +244,7 @@ class Agent:
 
         # Colapso cuántico para decisiones no-críticas
         if actividad == "interactuar":
-            return self._decide_via_collapse(tp, snapshot)
+            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados)
 
         # Rutina normal de la agenda
         if actividad in ("dormir", "descansar"):
@@ -261,16 +263,17 @@ class Agent:
         self,
         tp:       TimePoint,
         snapshot: WorldSnapshot,
+        collective_field: CollectiveField | None = None,
+        hay_aliados: bool = False,
     ) -> WorldAction | None:
         """
         Usa el motor cuántico para decidir la acción en horas sociales.
-        En Fase 7 esto dispara InteractionEngine; por ahora elige entre
-        explorar y buscar recursos.
+        Considera la influencia del campo colectivo y la presencia de aliados.
         """
         context = {
             "peligro":         snapshot.survival_risk,
             "recursos_escasos": snapshot.resource_pressure > 0.7,
-            "hay_aliados":     False,  # Fase 7
+            "hay_aliados":     hay_aliados,
             "hay_amenaza":     snapshot.survival_risk > 0.5,
         }
 
@@ -287,21 +290,71 @@ class Agent:
             ("cooperacion", "competencia", "aislamiento", "manipulacion")
         }
 
+        # Obtener influencia del campo memético colectivo
+        field_influence = collective_field.radiate() if collective_field is not None else None
+
         accion = collapse_state(
             state            = self.behavioral_state,
             context          = context,
             archetype_biases = arch_biases,
             complex_biases   = complex_biases,
             trait_biases     = trait_biases,
+            field_influence  = field_influence,
             rng              = self._rng,
         )
 
-        # Traducir colapso a WorldAction disponible en Fase 6
+        # Traducir colapso a WorldAction (Fase 7: socializar localmente vs explorar solo)
+        if accion == "aislamiento":
+            return self._explore_action(tp, snapshot)  # Se aleja del grupo
+
+        # Si coopera, compite o manipula, prioriza permanecer en su hexágono para propiciar encuentros
+        coord = self.posicion
         if accion in ("cooperacion", "manipulacion"):
-            return self._find_food_action(tp, snapshot)
-        if accion == "competencia":
-            return self._hunt_action(tp, snapshot)
-        return self._explore_action(tp, snapshot)  # aislamiento → explorar solo
+            food = self._get_nearby_food(coord, snapshot)
+            if food is not None:
+                return WorldAction(
+                    agent_id = self.id,
+                    tick     = tp.tick,
+                    type     = ActionType.RECOLECTAR,
+                    coord    = coord,
+                    params   = {"resource": food, "amount": 0.15},
+                    priority = 0.7,
+                )
+            # Intentar agua local
+            resources = snapshot.recursos_por_hex.get(coord, {})
+            water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea"]
+            for water in water_sources:
+                if resources.get(water, 0) > 0.1:
+                    return WorldAction(
+                        agent_id = self.id,
+                        tick     = tp.tick,
+                        type     = ActionType.RECOLECTAR,
+                        coord    = coord,
+                        params   = {"resource": water, "amount": 0.20},
+                        priority = 0.9,
+                    )
+        elif accion == "competencia":
+            fauna = snapshot.fauna_visible.get(coord, {})
+            target = "grande" if fauna.get("grande", 0) > 0.2 else "pequena"
+            if fauna.get(target, 0) > 0.05:
+                return WorldAction(
+                    agent_id = self.id,
+                    tick     = tp.tick,
+                    type     = ActionType.CAZAR,
+                    coord    = coord,
+                    params   = {"fauna_type": target, "amount": 0.10},
+                    priority = 0.6,
+                )
+
+        # Si no hay recursos locales que recolectar/cazar, realiza movimiento local estático para socializar
+        return WorldAction(
+            agent_id = self.id,
+            tick     = tp.tick,
+            type     = ActionType.MOVERSE,
+            coord    = coord,
+            params   = {"socializing": True},
+            priority = 0.5,
+        )
 
     # ── Action builders ──────────────────────────────────────────────────────
 

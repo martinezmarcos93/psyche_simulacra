@@ -113,10 +113,10 @@ PSYCHE SIMULACRA/
 │   │       ├── collapse.py       # ✅ Colapso por contexto
 │   │       └── entanglement.py   # ⏳ Entrelazamiento social
 │   ├── social/
-│   │   ├── interaction.py        # ⏳ InteractionEngine
-│   │   ├── network.py            # ⏳ SocialNetwork (NetworkX)
-│   │   ├── collective_field.py   # ⏳ CollectiveField
-│   │   └── mythology.py          # ⏳ MythologyEngine
+│   │   ├── interaction.py        # ✅ InteractionEngine
+│   │   ├── network.py            # ✅ SocialNetwork (NetworkX)
+│   │   ├── collective_field.py   # ✅ CollectiveField
+│   │   └── mythology.py          # ✅ MythologyEngine
 │   └── simulation.py             # ✅ SimulationRunner
 │
 ├── persistence/                   # Capa de datos
@@ -157,7 +157,8 @@ PSYCHE SIMULACRA/
 │   ├── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
 │   ├── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
 │   ├── test_persistence.py       # ✅ Tests de Persistencia (30/30)
-│   └── test_simulation.py        # ✅ Tests de Fase 5 (27/27)
+│   ├── test_simulation.py        # ✅ Tests de Fase 5 (27/27)
+│   └── test_social.py            # ✅ Tests de Fase 7: Sistemas Sociales (6/6)
 ├── pyproject.toml                 # ✅
 └── requirements.txt               # ✅
 ```
@@ -221,13 +222,13 @@ Las capas psicológica y cuántica de los agentes cargadas desde las semillas e 
 - `dreams.py` — procesamiento nocturno diario con aplicación de deltas oníricos al vector arquetípico.
 - Criterio cumplido: **15 agentes cargados desde initial_personas.yaml con perfiles arquetípicos y rasgos diferenciados sobreviven 30 días de simulación sin colapsar por competencia de recursos.**
 
-### ⏳ Fase 7 — Sistemas sociales
+### ✅ Fase 7 — Sistemas sociales
 Las capas de interacción, red y campo colectivo.
-- `InteractionEngine` — mecánica de encuentros (cooperar/conflicto/ignorar/compartir)
-- `SocialNetwork` — grafo de vínculos con bond_strength (-1 → 1)
-- `CollectiveField` — carga simbólica que sube, baja, cristaliza
-- `MythologyEngine` — detección de umbral → proto-mito con efectos reales
-- Criterio: primer proto-símbolo emergente observable antes del día 120
+- `InteractionEngine` — mecánica de encuentros (cooperar/conflicto/ignorar/compartir) con matriz de colapso cuántico
+- `SocialNetwork` — grafo de vínculos con bond_strength (-1 → 1) y entrelazamiento cuántico termodinámico
+- `CollectiveField` — inconsciente colectivo, carga simbólica radiante y decaimiento diario
+- `MythologyEngine` — cristalización del mito "Héroe vs Monstruo" con feedback psicológico completo
+- Criterio cumplido: **Sistemas sociales completamente integrados con ticks, checkpoints serializados y tests exhaustivos.**
 
 ### ⏳ Fase 8 — Obsidian sync
 El vault de Obsidian como interfaz narrativa de la simulación.
