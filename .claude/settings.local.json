@@ -7,7 +7,8 @@
       "PowerShell(pip *)",
       "Bash(python -m pytest tests/ -v --tb=short)",
       "Bash(python -m pytest tests/test_quantum.py -v --tb=short)",
-      "Bash(python -m pytest tests/ --tb=short -q)"
+      "Bash(python -m pytest tests/ --tb=short -q)",
+      "Bash(python -m pytest tests/test_persistence.py -v --tb=short)"
     ]
   }
 }

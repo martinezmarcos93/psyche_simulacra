@@ -120,10 +120,10 @@ PSYCHE SIMULACRA/
 │   └── simulation.py             # ⏳ SimulationRunner
 │
 ├── persistence/                   # Capa de datos
-│   ├── database.py               # ⏳ DatabaseManager (SQLite)
-│   ├── checkpoint.py             # ⏳ CheckpointManager
-│   ├── write_buffer.py           # ⏳ WriteBuffer
-│   └── session_log.py            # ⏳ SessionLog
+│   ├── database.py               # ✅ DatabaseManager (SQLite)
+│   ├── checkpoint.py             # ✅ CheckpointManager
+│   ├── write_buffer.py           # ✅ WriteBuffer
+│   └── session_log.py            # ✅ SessionLog
 │
 ├── obsidian/                      # Integración con Obsidian
 │   ├── reader.py                 # ⏳ Lee frontmatter YAML
@@ -143,8 +143,8 @@ PSYCHE SIMULACRA/
 │   └── Meta/                     # Log de simulación, arquetipos activos
 │
 ├── data/
-│   ├── db/simulation.db          # ⏳ Historial SQLite
-│   ├── checkpoints/              # ⏳ Estados guardados
+│   ├── db/simulation.db          # ✅ Historial SQLite
+│   ├── checkpoints/              # ✅ Estados guardados
 │   └── seeds/
 │       └── initial_personas.yaml # ⏳ 15 agentes iniciales
 │
@@ -154,7 +154,8 @@ PSYCHE SIMULACRA/
 ├── tests/                         # Suite de tests
 │   ├── test_agent.py             # ✅ Tests del SimulationClock (20/20)
 │   ├── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
-│   └── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
+│   ├── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
+│   └── test_persistence.py       # ✅ Tests de Persistencia (30/30)
 ├── pyproject.toml                 # ✅
 └── requirements.txt               # ✅
 ```
@@ -194,13 +195,13 @@ Agentes con capa biológica únicamente. Sin psicología todavía.
 - `AgentCore` — orquestador que consume `WorldSnapshot` y produce `WorldAction[]`
 - Criterio cumplido: **15 agentes corren 30 días simulados sin morir todos**
 
-### ⏳ Fase 4 — Persistencia
+### ✅ Fase 4 — Persistencia
 Capa de datos que permite pausar y reanudar sin pérdida de estado.
-- `DatabaseManager` — SQLite con tablas de snapshots, interacciones, eventos
-- `CheckpointManager` — guardado/carga atómica de estado completo
-- `WriteBuffer` — batching para no escribir en cada tick
-- `SessionLog` — registro de sesiones
-- Criterio: cerrar y reanudar es transparente para la simulación
+- `DatabaseManager` — SQLite con tablas de snapshots, muertes, clima, escenario, sesiones
+- `CheckpointManager` — guardado atómico vía os.replace(); verifica integridad al cargar
+- `WriteBuffer` — batching configurable; muertes siempre inmediatas
+- `SessionLog` — registra metadata de cada ejecución
+- Criterio cumplido: **estado restaurado desde checkpoint coincide con el original**
 
 ### ⏳ Fase 5 — Seeds + Primera simulación
 Los 15 agentes beta y el entry point funcional.

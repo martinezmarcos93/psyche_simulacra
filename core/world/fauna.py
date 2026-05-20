@@ -141,3 +141,23 @@ class FaunaSystem:
             if summary:
                 result[coord] = summary
         return result
+
+    # ── Checkpoint ───────────────────────────────────────────────────────────
+
+    def get_density_snapshot(
+        self,
+        explored_coords: list[tuple[int, int]],
+    ) -> dict[str, dict[str, float]]:
+        """Serializa densidades de fauna exploradas como {"q,r": {...}}."""
+        return {
+            f"{q},{r}": dict(self._density[(q, r)])
+            for (q, r) in explored_coords
+            if (q, r) in self._density
+        }
+
+    def restore_density(self, data: dict[str, dict[str, float]]) -> None:
+        """Restaura desde el formato {"q,r": {...}}."""
+        for key, densities in data.items():
+            q, r = (int(x) for x in key.split(","))
+            if (q, r) in self._density:
+                self._density[(q, r)].update(densities)

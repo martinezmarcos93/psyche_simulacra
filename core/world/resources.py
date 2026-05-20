@@ -127,3 +127,23 @@ class ResourceSystem:
                 if cap > 0 and current / cap < 0.30:
                     depleted += 1
         return depleted / total if total else 0.0
+
+    # ── Checkpoint ───────────────────────────────────────────────────────────
+
+    def get_amounts_snapshot(
+        self,
+        explored_coords: list[tuple[int, int]],
+    ) -> dict[str, dict[str, float]]:
+        """Serializa cantidades de recursos explorados como {"q,r": {...}}."""
+        return {
+            f"{q},{r}": dict(self._amounts[(q, r)])
+            for (q, r) in explored_coords
+            if (q, r) in self._amounts
+        }
+
+    def restore_amounts(self, data: dict[str, dict[str, float]]) -> None:
+        """Restaura desde el formato {"q,r": {...}}."""
+        for key, amounts in data.items():
+            q, r = (int(x) for x in key.split(","))
+            if (q, r) in self._amounts:
+                self._amounts[(q, r)].update(amounts)

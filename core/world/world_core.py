@@ -205,3 +205,24 @@ class WorldCore:
             "fire": self.fire.to_dict(),
             "explored_coords": list(self.terrain.explored_coords()),
         }
+
+    def full_state_dict(self) -> dict:
+        """Estado completo para checkpoint — incluye recursos y fauna de hexes explorados."""
+        explored = self.terrain.explored_coords()
+        return {
+            "fire":             self.fire.to_dict(),
+            "explored_coords":  [[q, r] for (q, r) in explored],
+            "resource_amounts": self.resources.get_amounts_snapshot(explored),
+            "fauna_density":    self.fauna.get_density_snapshot(explored),
+        }
+
+    def restore_from_state_dict(self, data: dict) -> None:
+        """Restaura el mundo desde un dict de checkpoint."""
+        explored_raw = data.get("explored_coords", [])
+        for qr in explored_raw:
+            q, r = qr[0], qr[1]
+            self.terrain.reveal(q, r, radius=0)
+
+        self.fire = self.fire.from_dict(data.get("fire", {}))
+        self.resources.restore_amounts(data.get("resource_amounts", {}))
+        self.fauna.restore_density(data.get("fauna_density", {}))
