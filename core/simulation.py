@@ -146,6 +146,14 @@ class SimulationRunner:
 
             self.clock.on_day(_stopper, priority=99)
 
+        # Parar si todos mueren
+        def _extinction_check(tp: TimePoint) -> None:
+            if self.alive_count == 0:
+                print(f"\n[💀] EXTINCIÓN TOTAL detectada en el Día {tp.dia_simulado}. Deteniendo simulación.")
+                self.clock.shutdown()
+        
+        self.clock.on_day(_extinction_check, priority=100)
+
         try:
             self.clock.start()
         except KeyboardInterrupt:

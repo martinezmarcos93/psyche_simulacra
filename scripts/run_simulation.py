@@ -70,10 +70,14 @@ def main() -> None:
         )
 
     n_agentes = len(runner.agents.agents)
-    print(f"Agentes cargados: {n_agentes} | Corriendo {args.days} días simulados...")
-    print("(Ctrl+C para parar limpiamente y guardar checkpoint)\n")
-
-    runner.run(n_days=args.days)
+    if args.days <= 0:
+        print(f"Agentes cargados: {n_agentes} | Corriendo indefinidamente...")
+        print("(Ctrl+C para parar limpiamente y guardar checkpoint)\n")
+        runner.run(n_days=None)
+    else:
+        print(f"Agentes cargados: {n_agentes} | Corriendo {args.days} días simulados...")
+        print("(Ctrl+C para parar limpiamente y guardar checkpoint)\n")
+        runner.run(n_days=args.days)
 
     vivos  = runner.alive_count
     muertes = n_agentes - vivos

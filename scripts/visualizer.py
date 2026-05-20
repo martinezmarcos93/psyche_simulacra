@@ -243,7 +243,8 @@ def main() -> None:
     viz = Visualizer(runner, target_fps=args.fps)
     
     # Iniciar motor de simulación en background
-    viz.start_simulation_thread(args.days)
+    days_to_run = None if args.days <= 0 else args.days
+    viz.start_simulation_thread(days_to_run)
     
     viz.run()
     
