@@ -1,6 +1,6 @@
 # 📋 Bitácora Global de la Simulación
 
-**Última Sincronización:** Día `2`
+**Última Sincronización:** Día `1000`
 
 ---
 
@@ -10,4 +10,4 @@ Acontecimientos existenciales y decesos registrados a lo largo del ciclo vital:
 
 | Día | Evento | Descripción |
 | :---: | :--- | :--- |
-| - | 🌱 Inicio | La simulación ha comenzado sin decesos registrados. |
+| **Día 20** | 💀 Deceso | [[leon]] (Leon) falleció a causa de `deshidratacion`. |

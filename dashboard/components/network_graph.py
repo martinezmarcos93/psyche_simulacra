@@ -185,7 +185,7 @@ def draw_quantum_network(social_network_data: dict, agents_data: list[dict]) -> 
     ax.axis("off")
     
     # Crear elementos de leyenda personalizados
-    from matplotlib.lines import Line225, Line2D
+    from matplotlib.lines import Line2D
     legend_elements = [
         Line2D([0], [0], color='#00D2B4', lw=2, label='Vínculo Positivo'),
         Line2D([0], [0], color='#FF4B4B', lw=2, label='Vínculo Negativo'),

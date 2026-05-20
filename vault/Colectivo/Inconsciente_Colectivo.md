@@ -11,9 +11,9 @@ Representa la concentración de energía psíquica en los símbolos universales 
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.000` | `░░░░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░░░` |
+| **Sombra** | `0.000` | `░░░░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░░░` |
