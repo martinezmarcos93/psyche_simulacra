@@ -7,6 +7,7 @@ from core.time import SimulationClock, TimePoint
 from core.world import WorldCore
 from core.agents import AgentCore
 from persistence import DatabaseManager, WriteBuffer, CheckpointManager, SessionLog
+from obsidian.sync import ObsidianSync
 
 _DEFAULT_DB          = "data/db/simulation.db"
 _DEFAULT_CHECKPOINTS = "data/checkpoints"
@@ -35,6 +36,7 @@ class SimulationRunner:
         self.buffer = WriteBuffer(self.db)
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
         self.session = SessionLog(self.db)
+        self.obsidian_sync = ObsidianSync(vault_path="vault")
 
         self._last_cp_dia:  int = -1
         self._death_cursor: int = 0
@@ -96,6 +98,16 @@ class SimulationRunner:
             self.buffer.add_scenario(dia, self.world.current_snapshot)
 
         self.session.record_day()
+
+        # Sincronizar con el vault de Obsidian (Fase 8)
+        self.obsidian_sync.sync_day(
+            dia=dia,
+            agents=self.agents.agents,
+            social_network=self.agents.social_network,
+            collective_field=self.agents.collective_field,
+            mythology_engine=self.agents.mythology_engine,
+            death_log=self.agents.death_log,
+        )
 
         # Checkpoint automático cada N días
         if dia > 0 and dia % _CHECKPOINT_EVERY == 0 and dia != self._last_cp_dia:
@@ -182,6 +194,7 @@ class SimulationRunner:
         """Crea una nueva simulación desde el archivo de semillas."""
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
         runner.agents = AgentCore.from_yaml(seed_file, runner.world)
+        runner.obsidian_sync.sync_from_vault(runner.agents.agents)
         runner._wire_handlers()
         runner.session.start(dia_inicio=0)
         return runner
@@ -210,6 +223,7 @@ class SimulationRunner:
 
         # Restaurar agentes
         runner.agents = AgentCore.from_dict(data["agentes"], runner.world)
+        runner.obsidian_sync.sync_from_vault(runner.agents.agents)
 
         # Re-wiring con el clock y agents restaurados
         runner._wire_handlers()

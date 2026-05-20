@@ -81,6 +81,9 @@ class Agent:
 
         self._rng = random.Random(seed)
 
+        # Episodic Memory Log (Fase 8)
+        self.episodic_log: list[str] = []
+
     # ── Inicialización desde YAML ─────────────────────────────────────────────
 
     def load_psyche_from_yaml(self, data: dict) -> None:
@@ -171,6 +174,9 @@ class Agent:
             rng             = self._rng,
         )
         self.dreams.append(dream)
+        self.episodic_log.append(
+            f"Día {dia}: Soñó con '{dream.simbolo}' ({dream.arquetipo}). Insight: {dream.insight}"
+        )
         # Guardar solo los últimos 7 sueños
         if len(self.dreams) > 7:
             self.dreams = self.dreams[-7:]
@@ -480,6 +486,7 @@ class Agent:
     def to_dict(self) -> dict:
         return {
             **self.snapshot(),
+            "episodic_log":      list(self.episodic_log),
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
             "complexes":        self.complexes.to_dict(),
@@ -528,5 +535,7 @@ class Agent:
             a.behavioral_state = BehavioralState.from_dict(data["behavioral_state"])
         if "base_state" in data and data["base_state"]:
             a._base_state = BehavioralState.from_dict(data["base_state"])
+
+        a.episodic_log = data.get("episodic_log", [])
 
         return a

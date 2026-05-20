@@ -230,12 +230,12 @@ Las capas de interacción, red y campo colectivo.
 - `MythologyEngine` — cristalización del mito "Héroe vs Monstruo" con feedback psicológico completo
 - Criterio cumplido: **Sistemas sociales completamente integrados con ticks, checkpoints serializados y tests exhaustivos.**
 
-### ⏳ Fase 8 — Obsidian sync
+### ✅ Fase 8 — Obsidian sync
 El vault de Obsidian como interfaz narrativa de la simulación.
-- `reader.py` — carga agentes desde frontmatter YAML al iniciar
-- `writer.py` — escribe estado actualizado al final de cada día simulado
-- `sync.py` — ciclo bidireccional, log de eventos significativos por agente
-- Criterio: vault actualizado y legible en Obsidian tras cada sesión
+- `reader.py` — carga agentes desde frontmatter YAML al iniciar (sincronización bidireccional)
+- `writer.py` — escribe estado actualizado con diseño premium (barras de progreso unicode `▓▓▓▓░░░░`, tablas de relaciones y complejos)
+- `sync.py` — ciclo bidireccional y persistencia diaria de decesos, inconsciente colectivo y mitología emergente
+- Criterio cumplido: **Vault de Obsidian completamente funcional, estructurado y estilizado narrativamente con sincronización bidireccional y memoria episódica.**
 
 ### ⏳ Fase 9 — Dashboard
 Visualización en tiempo real de la simulación.

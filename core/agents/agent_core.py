@@ -77,7 +77,8 @@ class AgentCore:
             self.agents,
             self.social_network,
             self.collective_field,
-            self.mythology_engine
+            self.mythology_engine,
+            dia=tp.dia_simulado
         )
 
         # Propagación de entrelazamientos emocionales (Fase 7)
@@ -101,6 +102,7 @@ class AgentCore:
                 continue
             cause = agent.check_death()
             if cause is not None:
+                agent.episodic_log.append(f"Día {tp.dia_simulado}: Falleció a causa de {cause}.")
                 self._death_log.append({
                     "tick":     tp.tick,
                     "dia":      tp.dia_simulado,

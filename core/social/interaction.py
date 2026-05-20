@@ -23,6 +23,7 @@ class InteractionEngine:
         network: SocialNetwork,
         collective_field: CollectiveField,
         mythology_engine: MythologyEngine | None = None,
+        dia: int = 0,
     ) -> None:
         """
         Agrupa a todos los agentes vivos por coordenadas, los empareja y
@@ -51,7 +52,7 @@ class InteractionEngine:
             while len(shuffled) >= 2:
                 a = shuffled.pop()
                 b = shuffled.pop()
-                self.resolve_encounter(a, b, network, collective_field, mythology_engine)
+                self.resolve_encounter(a, b, network, collective_field, mythology_engine, dia)
 
     def resolve_encounter(
         self,
@@ -60,6 +61,7 @@ class InteractionEngine:
         network: SocialNetwork,
         collective_field: CollectiveField,
         mythology_engine: MythologyEngine | None = None,
+        dia: int = 0,
     ) -> None:
         """
         Resuelve un encuentro individual cara a cara entre el agente A y el agente B,
@@ -118,6 +120,9 @@ class InteractionEngine:
                 if a._rng.random() < 0.30:
                     network.entangle(a.id, b.id)
 
+            a.episodic_log.append(f"Día {dia}: Cooperó de forma mutua y armónica con {b.nombre}. Su lazo social se fortaleció.")
+            b.episodic_log.append(f"Día {dia}: Cooperó de forma mutua y armónica con {a.nombre}. Su lazo social se fortaleció.")
+
             collective_field.absorb_interaction("cooperacion", "cooperacion", "cooperacion_pura")
 
         # Caso Cooperación - Competencia (Conflicto / Explotación)
@@ -148,6 +153,9 @@ class InteractionEngine:
             if victim._rng.random() < 0.10:
                 network.entangle(victim.id, exploiter.id)
 
+            victim.episodic_log.append(f"Día {dia}: Sufrió explotación y hostilidad de {exploiter.nombre}, cediendo recursos biológicos.")
+            exploiter.episodic_log.append(f"Día {dia}: Se impuso competitivamente ante {victim.nombre}, absorbiendo sus recursos biológicos.")
+
             collective_field.absorb_interaction("cooperacion", "competencia", "conflicto_explotacion")
 
         # Caso Competencia - Competencia (Choque Violento)
@@ -166,6 +174,9 @@ class InteractionEngine:
             # El trauma severo del conflicto violento entrelaza a los dos rivales
             if a._rng.random() < 0.15:
                 network.entangle(a.id, b.id)
+
+            a.episodic_log.append(f"Día {dia}: Se enfrentó en un choque violento y destructivo contra {b.nombre}.")
+            b.episodic_log.append(f"Día {dia}: Se enfrentó en un choque violento y destructivo contra {a.nombre}.")
 
             collective_field.absorb_interaction("competencia", "competencia", "choque_violento")
 
@@ -188,6 +199,9 @@ class InteractionEngine:
             cooperator.needs.hambre = min(1.0, cooperator.needs.hambre + 0.10)
             manipulator.needs.hambre = max(0.0, manipulator.needs.hambre - 0.10)
 
+            cooperator.episodic_log.append(f"Día {dia}: Cedió ingenuamente ante la manipulación de {manipulator.nombre}.")
+            manipulator.episodic_log.append(f"Día {dia}: Manipuló con éxito y astucia a {cooperator.nombre} para ceder recursos.")
+
             collective_field.absorb_interaction("manipulacion", "cooperacion", "exito_manipulacion")
 
         # Caso Manipulación - Competencia (Fracaso de manipulación)
@@ -205,6 +219,9 @@ class InteractionEngine:
             manipulator.humor = max(0.0, manipulator.humor - 0.08)
             manipulator.ansiedad = min(1.0, manipulator.ansiedad + 0.10)
 
+            manipulator.episodic_log.append(f"Día {dia}: Intentó manipular a {competitor.nombre}, pero fue descubierto.")
+            competitor.episodic_log.append(f"Día {dia}: Detectó y rechazó un intento de manipulación de {manipulator.nombre}.")
+
             collective_field.absorb_interaction("manipulacion", "competencia", "fracaso_manipulacion")
 
         # Caso Manipulación - Manipulación (Juegos Mentales)
@@ -215,3 +232,6 @@ class InteractionEngine:
 
             a.ansiedad = min(1.0, a.ansiedad + 0.04)
             b.ansiedad = min(1.0, b.ansiedad + 0.04)
+
+            a.episodic_log.append(f"Día {dia}: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con {b.nombre}.")
+            b.episodic_log.append(f"Día {dia}: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con {a.nombre}.")
