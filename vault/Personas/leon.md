@@ -5,22 +5,22 @@ rol: generico
 edad: 16
 sexo: M
 is_alive: True
-posicion: [30, 42]
-humor: 0.212
+posicion: [41, 33]
+humor: 0.200
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.919
+  hambre: 0.867
   fatiga: 0.865
-  sed: 0.815
+  sed: 0.890
   sociabilidad: 1.000
-arquetipo_dominante: anima_animus
+arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.982
+  self: 1.000
   persona: 0.500
   sombra: 0.300
-  anima_animus: 1.000
+  anima_animus: 0.993
   heroe: 0.450
   sabio: 0.400
   trickster: 0.250
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Leon
 
-> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(30, 42)`
+> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(41, 33)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓░░░░░░░░]` | 0.21 |
+| **Humor** | `[▓▓░░░░░░░░]` | 0.20 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.87 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.982` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.993` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Heroe** | `0.450` | `▓▓▓▓▓░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
@@ -97,20 +97,10 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 23:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 0:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 24:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 25:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 26:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 1:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 28:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 29:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
 
 ---
 
@@ -118,31 +108,3 @@ arquetipos:
 
 - Día 0: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 1: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 2: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 3: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 6: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 7: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 10: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 12: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 13: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 15: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 17: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 18: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 19: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 20: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 21: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
-- Día 22: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 23: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 24: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 25: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 26: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 27: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 28: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 29: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.

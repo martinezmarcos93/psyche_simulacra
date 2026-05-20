@@ -237,13 +237,14 @@ El vault de Obsidian como interfaz narrativa de la simulación.
 - `sync.py` — ciclo bidireccional y persistencia diaria de decesos, inconsciente colectivo y mitología emergente
 - Criterio cumplido: **Vault de Obsidian completamente funcional, estructurado y estilizado narrativamente con sincronización bidireccional y memoria episódica.**
 
-### ⏳ Fase 9 — Dashboard
-Visualización en tiempo real de la simulación.
-- Grafo de red social interactivo
-- Campo colectivo con mapa de carga simbólica
-- Inspector de agente individual
-- Métricas de emergencia
-- Criterio: dashboard corre en paralelo a la simulación sin ralentizarla
+### ✅ Fase 9 — Dashboard
+Visualización interactiva, no bloqueante y en tiempo real de la simulación.
+- **Punto de Entrada Streamlit (`dashboard/app.py`):** Interfaz premium estructurada en pestañas con tema oscuro glassmorphic y telemetría de emergencia global.
+- **Concurrencia Segura y Cero Bloqueo:** Consultas directas a base de datos en modo WAL con conexiones SQLite de solo lectura (`uri=True`, `?mode=ro`) y lectura atómica de checkpoints JSON.
+- **Grafo Cuántico-Social (`network_graph.py`):** Visualización interactiva con NetworkX y Matplotlib. Diferenciación de agentes vivos/fallecidos y resaltado neon para entrelazamientos cuánticos.
+- **Inconsciente Colectivo (`collective_field.py`):** Gráfico de barras horizontales estilizado con cargas simbólicas, medidor de tensión global y panel de mitos cristalizados (Héroe vs Monstruo).
+- **Inspector Profundo de Agentes (`agent_inspector.py`):** Selector interactivo con estado psicobiológico completo, barras de necesidades en HTML/CSS, gráfico de arquetipos dominantes, estado de complejos activos, bitácora de sueños y línea de tiempo scrollable para memoria episódica.
+- Criterio cumplido: **Dashboard completamente interactivo, estéticamente premium y no bloqueante que opera en tiempo real paralelo a la simulación.**
 
 ---
 
