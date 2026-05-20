@@ -117,7 +117,7 @@ PSYCHE SIMULACRA/
 │   │   ├── network.py            # ⏳ SocialNetwork (NetworkX)
 │   │   ├── collective_field.py   # ⏳ CollectiveField
 │   │   └── mythology.py          # ⏳ MythologyEngine
-│   └── simulation.py             # ⏳ SimulationRunner
+│   └── simulation.py             # ✅ SimulationRunner
 │
 ├── persistence/                   # Capa de datos
 │   ├── database.py               # ✅ DatabaseManager (SQLite)
@@ -146,16 +146,18 @@ PSYCHE SIMULACRA/
 │   ├── db/simulation.db          # ✅ Historial SQLite
 │   ├── checkpoints/              # ✅ Estados guardados
 │   └── seeds/
-│       └── initial_personas.yaml # ⏳ 15 agentes iniciales
+│       └── initial_personas.yaml # ✅ 15 agentes iniciales
 │
 ├── config/                        # ⏳ YAML de configuración
-├── scripts/                       # ⏳ Entry points
+├── scripts/                       # Entry points
+│   └── run_simulation.py         # ✅ Nueva sesión y reanudación
 ├── src/                           # Documentación de diseño (11 docs)
 ├── tests/                         # Suite de tests
 │   ├── test_agent.py             # ✅ Tests del SimulationClock (20/20)
 │   ├── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
 │   ├── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
-│   └── test_persistence.py       # ✅ Tests de Persistencia (30/30)
+│   ├── test_persistence.py       # ✅ Tests de Persistencia (30/30)
+│   └── test_simulation.py        # ✅ Tests de Fase 5 (27/27)
 ├── pyproject.toml                 # ✅
 └── requirements.txt               # ✅
 ```
@@ -203,12 +205,12 @@ Capa de datos que permite pausar y reanudar sin pérdida de estado.
 - `SessionLog` — registra metadata de cada ejecución
 - Criterio cumplido: **estado restaurado desde checkpoint coincide con el original**
 
-### ⏳ Fase 5 — Seeds + Primera simulación
+### ✅ Fase 5 — Seeds + Primera simulación
 Los 15 agentes beta y el entry point funcional.
-- `data/seeds/initial_personas.yaml` — 15 agentes con diversidad arquetípica
-- `SimulationRunner` — orquestador que conecta clock, world y agents
-- `scripts/run.py` y `scripts/resume.py`
-- Criterio: checklist del beta scope completo (doc `src/03`)
+- `data/seeds/initial_personas.yaml` — 15 agentes con diversidad arquetípica real (héroe, sombra, trickster, sabio, jóvenes…)
+- `SimulationRunner` — orquestador que conecta clock, world, agents y persistencia; `new_session()` y `resume()`
+- `scripts/run_simulation.py` — entry point con `--resume`, `--days`, `--seed`
+- Criterio cumplido: **6/8 ítems del beta scope** (campo colectivo y vault en Fases 7-8)
 
 ### ⏳ Fase 6 — Psicología
 Las capas psicológica y cuántica de los agentes.

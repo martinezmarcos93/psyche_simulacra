@@ -1,0 +1,231 @@
+# PSYCHE SIMULACRA — Personas iniciales beta v1.0
+# 15 agentes con diversidad arquetípica para la primera simulación
+# Los pesos arquetípicos son placeholder — se activarán en Fase 6
+
+meta:
+  version: "1.0"
+  seed: 42
+  n_agentes: 15
+  descripcion: "Grupo fundador — diversidad arquetípica mínima para emergencia"
+
+agents:
+
+  # ── PERFILES EXTREMOS — generan los primeros eventos significativos ────────
+
+  - id: "kairos"
+    nombre: "Kairos"
+    edad: 32
+    sexo: "M"
+    rol: "cazador"
+    posicion: [40, 30]
+    arquetipos:
+      heroe: 0.88
+      guerrero: 0.72
+      gobernante: 0.60
+      sombra: 0.20
+    big_five: {apertura: 0.65, responsabilidad: 0.80, extraversion: 0.75, amabilidad: 0.55, neuroticismo: 0.30}
+    notas: "El más fuerte físicamente. Tendencia al liderazgo por acción directa."
+
+  - id: "moros"
+    nombre: "Moros"
+    edad: 28
+    sexo: "M"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      sombra: 0.87
+      trickster: 0.50
+      huerfano: 0.65
+      heroe: 0.15
+    big_five: {apertura: 0.45, responsabilidad: 0.30, extraversion: 0.40, amabilidad: 0.20, neuroticismo: 0.78}
+    notas: "Instintos primarios sin sublimar. Genera conflicto. Necesario para que emerja el tabú."
+
+  - id: "peitho"
+    nombre: "Peitho"
+    edad: 26
+    sexo: "F"
+    rol: "explorador"
+    posicion: [40, 30]
+    arquetipos:
+      trickster: 0.82
+      amante: 0.65
+      creador: 0.58
+      sombra: 0.35
+    big_five: {apertura: 0.85, responsabilidad: 0.35, extraversion: 0.80, amabilidad: 0.50, neuroticismo: 0.45}
+    notas: "Rompe reglas antes de que existan. Primer agente de cambio cultural."
+
+  - id: "sophron"
+    nombre: "Sophron"
+    edad: 45
+    sexo: "M"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      sabio: 0.85
+      mago: 0.70
+      heroe: 0.40
+      trickster: 0.20
+    big_five: {apertura: 0.90, responsabilidad: 0.75, extraversion: 0.45, amabilidad: 0.80, neuroticismo: 0.20}
+    notas: "Memoria del grupo. Primero en dar significado a los eventos."
+
+  # ── PERFILES MEDIOS — tendencia héroe/madre ──────────────────────────────
+
+  - id: "arete"
+    nombre: "Arete"
+    edad: 30
+    sexo: "F"
+    rol: "recolector"
+    posicion: [40, 30]
+    arquetipos:
+      madre: 0.72
+      heroe: 0.55
+      cuidador: 0.68
+      sombra: 0.25
+    big_five: {apertura: 0.60, responsabilidad: 0.78, extraversion: 0.55, amabilidad: 0.82, neuroticismo: 0.28}
+    notas: "Cohesionadora natural. Probable primer foco de la red social."
+
+  - id: "bios"
+    nombre: "Bios"
+    edad: 34
+    sexo: "M"
+    rol: "cazador"
+    posicion: [40, 30]
+    arquetipos:
+      heroe: 0.65
+      guerrero: 0.60
+      creador: 0.45
+      sombra: 0.30
+    big_five: {apertura: 0.55, responsabilidad: 0.70, extraversion: 0.65, amabilidad: 0.60, neuroticismo: 0.35}
+    notas: "Equilibrado, competente. Seguidor de Kairos o rival, según el contexto."
+
+  - id: "chara"
+    nombre: "Chara"
+    edad: 27
+    sexo: "F"
+    rol: "recolector"
+    posicion: [40, 30]
+    arquetipos:
+      madre: 0.68
+      amante: 0.60
+      inocente: 0.55
+      sombra: 0.20
+    big_five: {apertura: 0.65, responsabilidad: 0.72, extraversion: 0.60, amabilidad: 0.78, neuroticismo: 0.30}
+    notas: "Afectiva, construye vínculos rápido. Primer puente entre subgrupos."
+
+  - id: "doron"
+    nombre: "Doron"
+    edad: 38
+    sexo: "M"
+    rol: "guardian"
+    posicion: [40, 30]
+    arquetipos:
+      gobernante: 0.62
+      guerrero: 0.58
+      heroe: 0.52
+      sombra: 0.35
+    big_five: {apertura: 0.45, responsabilidad: 0.82, extraversion: 0.58, amabilidad: 0.55, neuroticismo: 0.25}
+    notas: "Protector de facto. Primero en establecer normas informales."
+
+  # ── PERFILES MEDIOS — tendencia sumisión/conformidad ────────────────────
+
+  - id: "elpis"
+    nombre: "Elpis"
+    edad: 22
+    sexo: "F"
+    rol: "recolector"
+    posicion: [40, 30]
+    arquetipos:
+      inocente: 0.70
+      huerfano: 0.55
+      madre: 0.40
+      sombra: 0.25
+    big_five: {apertura: 0.55, responsabilidad: 0.60, extraversion: 0.40, amabilidad: 0.75, neuroticismo: 0.50}
+    notas: "Conformista. Amplifica las normas que ya existen."
+
+  - id: "filia"
+    nombre: "Filia"
+    edad: 29
+    sexo: "F"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      amante: 0.68
+      inocente: 0.58
+      cuidador: 0.52
+      sombra: 0.22
+    big_five: {apertura: 0.50, responsabilidad: 0.65, extraversion: 0.45, amabilidad: 0.80, neuroticismo: 0.42}
+    notas: "Sigue a los líderes. Importante para masa crítica en rituales."
+
+  - id: "gigas"
+    nombre: "Gigas"
+    edad: 35
+    sexo: "M"
+    rol: "cazador"
+    posicion: [40, 30]
+    arquetipos:
+      guerrero: 0.65
+      gobernante: 0.45
+      huerfano: 0.48
+      sombra: 0.40
+    big_five: {apertura: 0.38, responsabilidad: 0.62, extraversion: 0.52, amabilidad: 0.42, neuroticismo: 0.45}
+    notas: "Fuerza bruta sin visión. Sigue al más fuerte."
+
+  # ── PERFILES VULNERABLES ─────────────────────────────────────────────────
+
+  - id: "hados"
+    nombre: "Hados"
+    edad: 24
+    sexo: "M"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      huerfano: 0.78
+      sombra: 0.55
+      inocente: 0.30
+      heroe: 0.20
+    big_five: {apertura: 0.42, responsabilidad: 0.38, extraversion: 0.30, amabilidad: 0.45, neuroticismo: 0.82}
+    notas: "Alta ansiedad, vínculos débiles. Candidato a primer trauma grupal."
+
+  - id: "iris"
+    nombre: "Iris"
+    edad: 21
+    sexo: "F"
+    rol: "explorador"
+    posicion: [40, 30]
+    arquetipos:
+      creador: 0.80
+      mago: 0.65
+      trickster: 0.48
+      sombra: 0.25
+    big_five: {apertura: 0.95, responsabilidad: 0.38, extraversion: 0.55, amabilidad: 0.62, neuroticismo: 0.48}
+    notas: "Procesadora de símbolos. Primera en reconocer patrones en los sueños colectivos."
+
+  # ── CRÍAS / JÓVENES — activan módulo de cuidado en adultos ──────────────
+
+  - id: "kore"
+    nombre: "Kore"
+    edad: 14
+    sexo: "F"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      inocente: 0.85
+      huerfano: 0.40
+      madre: 0.15
+      sombra: 0.10
+    big_five: {apertura: 0.70, responsabilidad: 0.45, extraversion: 0.55, amabilidad: 0.78, neuroticismo: 0.38}
+    notas: "Su supervivencia activa cuidado colectivo. Su muerte generaría primer proto-símbolo."
+
+  - id: "leon"
+    nombre: "Leon"
+    edad: 16
+    sexo: "M"
+    rol: "generico"
+    posicion: [40, 30]
+    arquetipos:
+      huerfano: 0.70
+      heroe: 0.45
+      guerrero: 0.38
+      sombra: 0.30
+    big_five: {apertura: 0.60, responsabilidad: 0.42, extraversion: 0.65, amabilidad: 0.58, neuroticismo: 0.42}
+    notas: "Joven en busca de rol. Seguirá a quien le dé identidad."

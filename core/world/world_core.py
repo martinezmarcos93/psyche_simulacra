@@ -18,6 +18,7 @@ class WorldCore:
     """
 
     def __init__(self, seed: int = 42) -> None:
+        self._seed     = seed
         self.terrain   = TerrainGrid(seed=seed)
         self.climate   = ClimateSystem(seed=seed)
         self.resources = ResourceSystem(self.terrain)
@@ -210,6 +211,7 @@ class WorldCore:
         """Estado completo para checkpoint — incluye recursos y fauna de hexes explorados."""
         explored = self.terrain.explored_coords()
         return {
+            "seed":             self._seed,
             "fire":             self.fire.to_dict(),
             "explored_coords":  [[q, r] for (q, r) in explored],
             "resource_amounts": self.resources.get_amounts_snapshot(explored),
