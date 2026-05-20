@@ -257,9 +257,41 @@ pip install -e ".[dev]"
 # Solo producción (sin herramientas de test)
 pip install -e .
 
-# Con dashboard
+# Con dashboard (Streamlit)
 pip install -e ".[dashboard]"
 ```
+
+---
+
+## Ejecución
+
+El motor de PSYCHE SIMULACRA está diseñado para ejecutarse de tres formas distintas, dependiendo de si buscas velocidad, análisis o inmersión.
+
+### 1. Motor Headless (A toda velocidad)
+Ideal para avanzar siglos de historia rápidamente en segundo plano. Corre cientos de días en un par de segundos de forma silenciosa.
+```bash
+# Iniciar una nueva simulación desde el Día 0
+python scripts/run_simulation.py --days 1000
+
+# Reanudar desde el último autoguardado (checkpoint)
+python scripts/run_simulation.py --resume --days 1000
+```
+
+### 2. Dashboard Analítico (Streamlit)
+Ideal para analizar la red social, el inconsciente colectivo y explorar la psique de cada agente mediante gráficos de datos y telemetría interactiva. Funciona de forma paralela sin interrumpir el motor.
+```bash
+python -m streamlit run dashboard/app.py
+```
+
+### 3. Visualizador Inmersivo (Pygame)
+Ideal para observar en tiempo real a los agentes moverse por el mundo, expandiendo sus territorios y revelando biomas. Operacionalmente, limita la velocidad de simulación para que sea humanamente visible.
+```bash
+# Reanudar y observar la simulación en tiempo real
+python scripts/visualizer.py --resume --days 1000
+```
+> **Nota:** Puedes cerrar la ventana de Pygame en cualquier momento con la `X`. El proceso esperará automáticamente a guardar el checkpoint de forma segura antes de cerrarse.
+
+---
 
 ## Tests
 
