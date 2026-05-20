@@ -1,0 +1,4 @@
+core
+dashboard
+obsidian
+persistence

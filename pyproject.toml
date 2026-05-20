@@ -1,0 +1,29 @@
+[project]
+name = "psyche-simulacra"
+version = "0.1.0"
+description = "Simulación de emergencia del inconsciente colectivo"
+requires-python = ">=3.11"
+
+dependencies = [
+    "mesa>=2.4",
+    "networkx>=3.4",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "pyyaml>=6.0",
+    "loguru>=0.7",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.35"]
+dev = ["pytest>=8.0", "pytest-cov>=5.0"]
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["core*", "persistence*", "obsidian*", "dashboard*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
