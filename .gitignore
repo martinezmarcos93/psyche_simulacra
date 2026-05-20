@@ -1,0 +1,75 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribución / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# ── Pytest / Coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── Proyecto — datos generados en runtime ────────────────────────────────────
+data/db/*.db
+data/checkpoints/
+data/exports/
+data/sessions/
+
+# Semillas iniciales SÍ se versionan (son configuración, no datos)
+!data/seeds/
+
+# ── Vault de Obsidian — excluir si es gitsubmodule ────────────────────────────
+# Descomenta si el vault vive en su propio repo:
+# vault/
+
+# ── IDE / editores ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Sistema operativo ─────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Variables de entorno ──────────────────────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Jupyter (por si se usan notebooks de análisis) ───────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Mypy / Ruff / linters ────────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/

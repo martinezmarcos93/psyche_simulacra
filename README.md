@@ -98,10 +98,10 @@ PSYCHE SIMULACRA/
 │   │   ├── fire.py               # ✅ FireSystem
 │   │   └── world_core.py         # ✅ WorldCore (orquestador)
 │   ├── agents/                   # Núcleo 2 — Los agentes
-│   │   ├── agent.py              # ⏳ Agent (4 capas)
-│   │   ├── needs.py              # ⏳ NeedsSystem
-│   │   ├── schedule.py           # ⏳ ScheduleSystem
-│   │   ├── agent_core.py         # ⏳ AgentCore (orquestador)
+│   │   ├── agent.py              # ✅ Agent (capa biológica activa)
+│   │   ├── needs.py              # ✅ NeedsSystem
+│   │   ├── schedule.py           # ✅ ScheduleSystem
+│   │   ├── agent_core.py         # ✅ AgentCore (orquestador)
 │   │   ├── psyche/
 │   │   │   ├── archetypes.py     # ⏳ Vectores arquetípicos
 │   │   │   ├── complexes.py      # ⏳ Complejos jungianos
@@ -153,7 +153,8 @@ PSYCHE SIMULACRA/
 ├── src/                           # Documentación de diseño (11 docs)
 ├── tests/                         # Suite de tests
 │   ├── test_agent.py             # ✅ Tests del SimulationClock (20/20)
-│   └── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
+│   ├── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
+│   └── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
 ├── pyproject.toml                 # ✅
 └── requirements.txt               # ✅
 ```
@@ -185,13 +186,13 @@ El mundo físico que existe independientemente de los agentes.
 - `WorldCore` — orquestador registrado en SimulationClock (priority=10)
 - Criterio cumplido: **1 año simulado (8640 ticks) en 1.56s** (límite: 5s)
 
-### ⏳ Fase 3 — Núcleo 2: Agente mínimo
+### ✅ Fase 3 — Núcleo 2: Agente mínimo
 Agentes con capa biológica únicamente. Sin psicología todavía.
 - `Agent` — estructura base con las 4 capas (biológica activa, resto vacío)
 - `NeedsSystem` — hambre, fatiga, sed con decay y umbrales
 - `ScheduleSystem` — rutinas diarias por rol (dormir, buscar alimento, interactuar)
 - `AgentCore` — orquestador que consume `WorldSnapshot` y produce `WorldAction[]`
-- Criterio: 15 agentes corren 30 días simulados sin morir todos
+- Criterio cumplido: **15 agentes corren 30 días simulados sin morir todos**
 
 ### ⏳ Fase 4 — Persistencia
 Capa de datos que permite pausar y reanudar sin pérdida de estado.

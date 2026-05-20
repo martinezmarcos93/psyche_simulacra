@@ -4,7 +4,10 @@
       "Bash(Get-ChildItem -Path \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\" -Recurse -File)",
       "Bash(Select-Object FullName)",
       "Bash(Sort-Object FullName)",
-      "PowerShell(pip *)"
+      "PowerShell(pip *)",
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(python -m pytest tests/test_quantum.py -v --tb=short)",
+      "Bash(python -m pytest tests/ --tb=short -q)"
     ]
   }
 }
