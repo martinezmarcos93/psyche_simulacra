@@ -37,7 +37,7 @@ def draw_archetypes_chart(archetypes_data: dict) -> plt.Figure:
     # Colores degradados en azul-púrpura para arquetipos
     colors = plt.cm.Purples(np.linspace(0.4, 0.9, len(names)))
 
-    bars = ax.barh(names, values, color="#9F7AEA", edgecolor="rgba(255,255,255,0.05)", height=0.6)
+    bars = ax.barh(names, values, color="#9F7AEA", edgecolor=(1.0, 1.0, 1.0, 0.05), height=0.6)
     
     # Colorear de manera especial el dominante (el valor más alto)
     if bars:
