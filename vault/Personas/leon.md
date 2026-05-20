@@ -4,23 +4,23 @@ nombre: Leon
 rol: generico
 edad: 16
 sexo: M
-is_alive: False
-posicion: [40, 30]
-humor: 0.141
+is_alive: True
+posicion: [51, 24]
+humor: 0.190
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.939
+  hambre: 0.936
   fatiga: 0.865
-  sed: 0.975
+  sed: 0.855
   sociabilidad: 1.000
-arquetipo_dominante: anima_animus
-estado_conductual: cooperacion
+arquetipo_dominante: self
+estado_conductual: competencia
 arquetipos:
-  self: 0.988
+  self: 0.851
   persona: 0.500
   sombra: 0.300
-  anima_animus: 1.000
+  anima_animus: 0.468
   heroe: 0.450
   sabio: 0.400
   trickster: 0.250
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Leon
 
-> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(40, 30)`
-> **Estado Vital:** **💀 Desconectado / Fallecido**
+> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(51, 24)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
 
@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓░░░░░░░░░]` | 0.14 |
+| **Humor** | `[▓▓░░░░░░░░]` | 0.19 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
@@ -50,7 +50,7 @@ arquetipos:
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.988` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.851` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.468` | `▓▓▓▓▓▓░░░░░░` |
 | **Heroe** | `0.450` | `▓▓▓▓▓░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
@@ -91,16 +91,85 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[bios]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[doron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[iris]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
+| [[kairos]] | `-0.62` | `▓▓░░░░░░░░` | Ninguno |
+| [[kore]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.40` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 5:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 6:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 7:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 8:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 9:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Bios. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Bios. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 0: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Bios.
+- Día 1: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 2: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 2: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 2: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 2: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 3: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 3: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 3: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 3: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 3: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 3: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 3: Detectó y rechazó un intento de manipulación de Kairos.
+- Día 3: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 4: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 4: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 6: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.

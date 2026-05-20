@@ -4,26 +4,26 @@ nombre: Peitho
 rol: explorador
 edad: 26
 sexo: F
-is_alive: False
-posicion: [40, 30]
-humor: 0.135
+is_alive: True
+posicion: [35, 22]
+humor: 0.154
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.948
+  hambre: 0.964
   fatiga: 0.865
-  sed: 0.955
+  sed: 0.895
   sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.771
-  persona: 0.629
+  self: 0.799
+  persona: 0.594
   sombra: 0.350
-  anima_animus: 0.525
+  anima_animus: 0.400
   heroe: 0.500
   sabio: 0.400
-  trickster: 0.764
+  trickster: 0.780
   madre: 0.400
   padre: 0.400
   nino_divino: 0.300
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(40, 30)`
-> **Estado Vital:** **💀 Desconectado / Fallecido**
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(35, 22)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓░░░░░░░░░]` | 0.14 |
+| **Humor** | `[▓▓░░░░░░░░]` | 0.15 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.95 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.90 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,13 +61,13 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.771` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Persona** | `0.629` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.799` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Persona** | `0.594` | `▓▓▓▓▓▓▓░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.525` | `▓▓▓▓▓▓░░░░░░` |
+| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.764` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.780` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
@@ -91,16 +91,68 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[doron]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[elpis]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[gigas]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kairos]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[kore]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[leon]] | `+0.40` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 3:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
+- **Día 4:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
+- **Día 5:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster compensa la energía de lo reprimido.
+- **Día 6:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
+- **Día 7:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster compensa la energía de lo reprimido.
+- **Día 8:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster compensa la energía de lo reprimido.
+- **Día 9:** Soñó con `'puerta_falsa'` (arquetipo `trickster`).
+  - *Insight:* El trickster encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Filia. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Bios. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Gigas. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Moros. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Doron.
+- Día 0: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 1: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
+- Día 1: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 1: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 1: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Kairos.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Kairos.
+- Día 1: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 1: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 2: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 3: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 4: Se impuso competitivamente ante Elpis, absorbiendo sus recursos biológicos.
+- Día 4: Se impuso competitivamente ante Elpis, absorbiendo sus recursos biológicos.
+- Día 4: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 5: Soñó con 'puerta_falsa' (trickster). Insight: El trickster compensa la energía de lo reprimido.
+- Día 6: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'puerta_falsa' (trickster). Insight: El trickster compensa la energía de lo reprimido.
+- Día 8: Soñó con 'puerta_falsa' (trickster). Insight: El trickster compensa la energía de lo reprimido.
+- Día 9: Soñó con 'puerta_falsa' (trickster). Insight: El trickster encuentra paz provisional con la oscuridad.

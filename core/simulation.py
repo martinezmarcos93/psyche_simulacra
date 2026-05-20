@@ -192,6 +192,37 @@ class SimulationRunner:
         checkpoint_dir: str = _DEFAULT_CHECKPOINTS,
     ) -> SimulationRunner:
         """Crea una nueva simulación desde el archivo de semillas."""
+        # Limpiar base de datos vieja
+        db_file = Path(db_path)
+        if db_file.exists():
+            try:
+                db_file.unlink()
+                Path(f"{db_path}-wal").unlink(missing_ok=True)
+                Path(f"{db_path}-shm").unlink(missing_ok=True)
+            except Exception:
+                pass
+
+        # Limpiar checkpoints viejos
+        cp_path = Path(checkpoint_dir)
+        if cp_path.exists():
+            for f in cp_path.glob("checkpoint_*.json"):
+                try:
+                    f.unlink()
+                except Exception:
+                    pass
+
+        # Limpiar archivos viejos del Obsidian vault
+        vault_dir = Path("vault")
+        if vault_dir.exists():
+            for sub in ["Personas", "Colectivo", "Meta"]:
+                sub_dir = vault_dir / sub
+                if sub_dir.exists():
+                    for f in sub_dir.glob("*.md"):
+                        try:
+                            f.unlink()
+                        except Exception:
+                            pass
+
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
         runner.agents = AgentCore.from_yaml(seed_file, runner.world)
         runner.obsidian_sync.sync_from_vault(runner.agents.agents)

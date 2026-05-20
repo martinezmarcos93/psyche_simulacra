@@ -5,19 +5,19 @@ rol: cazador
 edad: 35
 sexo: M
 is_alive: False
-posicion: [40, 30]
-humor: 0.186
-energia: 0.220
-ansiedad: 0.950
+posicion: [42, 29]
+humor: 0.093
+energia: 0.135
+ansiedad: 1.000
 needs:
-  hambre: 0.932
-  fatiga: 0.760
+  hambre: 1.000
+  fatiga: 0.865
   sed: 1.000
   sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.721
+  self: 0.720
   persona: 0.500
   sombra: 0.400
   anima_animus: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Gigas
 
-> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(40, 30)`
+> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(42, 29)`
 > **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓░░░░░░░░]` | 0.19 |
-| **Energía** | `[▓▓░░░░░░░░]` | 0.22 |
-| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.95 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.09 |
+| **Energía** | `[▓░░░░░░░░░]` | 0.14 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.93 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -61,7 +61,7 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.721` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.720` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -91,16 +91,66 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[chara]] | `+0.72` | `▓▓▓▓▓▓▓▓▓░` | ⚛️ Entrelazado |
+| [[hados]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[iris]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kairos]] | `+0.32` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[kore]] | `-0.12` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[moros]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 0:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 1:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 2:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 5:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Moros. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Moros. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 1: Cedió ingenuamente ante la manipulación de Kairos.
+- Día 1: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 2: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 3: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 6: Falleció a causa de deshidratacion.

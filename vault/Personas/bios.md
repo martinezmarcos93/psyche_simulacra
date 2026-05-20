@@ -5,7 +5,7 @@ rol: cazador
 edad: 34
 sexo: M
 is_alive: False
-posicion: [40, 30]
+posicion: [40, 33]
 humor: 0.214
 energia: 0.146
 ansiedad: 0.996
@@ -15,7 +15,7 @@ needs:
   sed: 1.000
   sociabilidad: 0.980
 arquetipo_dominante: heroe
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
   self: 0.592
   persona: 0.500
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Bios
 
-> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(40, 30)`
+> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(40, 33)`
 > **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
@@ -91,16 +91,79 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[chara]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[doron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[elpis]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kore]] | `-0.00` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[leon]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 0:** Soñó con `'montaña'` (arquetipo `heroe`).
+  - *Insight:* El heroe encuentra paz provisional con la oscuridad.
+- **Día 1:** Soñó con `'montaña'` (arquetipo `heroe`).
+  - *Insight:* El heroe encuentra paz provisional con la oscuridad.
+- **Día 2:** Soñó con `'montaña'` (arquetipo `heroe`).
+  - *Insight:* El heroe encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Filia. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 0: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 0: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 0: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
+- Día 0: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 0: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
+- Día 1: Se impuso competitivamente ante Elpis, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Elpis, absorbiendo sus recursos biológicos.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 2: Soñó con 'montaña' (heroe). Insight: El heroe encuentra paz provisional con la oscuridad.
+- Día 3: Falleció a causa de deshidratacion.

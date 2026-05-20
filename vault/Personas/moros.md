@@ -4,24 +4,24 @@ nombre: Moros
 rol: generico
 edad: 28
 sexo: M
-is_alive: False
-posicion: [40, 30]
-humor: 0.011
+is_alive: True
+posicion: [44, 16]
+humor: 0.050
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.956
+  hambre: 0.948
   fatiga: 0.865
-  sed: 0.975
+  sed: 0.885
   sociabilidad: 1.000
 arquetipo_dominante: sombra
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.665
+  self: 0.726
   persona: 0.500
-  sombra: 0.830
+  sombra: 0.813
   anima_animus: 0.400
-  heroe: 0.243
+  heroe: 0.284
   sabio: 0.400
   trickster: 0.500
   madre: 0.400
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Moros
 
-> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(40, 30)`
-> **Estado Vital:** **💀 Desconectado / Fallecido**
+> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(44, 16)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[░░░░░░░░░░]` | 0.01 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.05 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.665` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.726` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.830` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Sombra** | `0.813` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.243` | `▓▓▓░░░░░░░░░` |
+| **Heroe** | `0.284` | `▓▓▓░░░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -91,16 +91,76 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[chara]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[doron]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[elpis]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[gigas]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hados]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[kore]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[sophron]] | `-0.24` | `▓▓▓▓░░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 3:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra compensa la energía de lo reprimido.
+- **Día 4:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
+- **Día 5:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
+- **Día 6:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
+- **Día 7:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
+- **Día 8:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra compensa la energía de lo reprimido.
+- **Día 9:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Gigas. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Gigas. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Filia. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
+- Día 0: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
+- Día 0: Cedió ingenuamente ante la manipulación de Sophron.
+- Día 0: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
+- Día 0: Sufrió explotación y hostilidad de Elpis, cediendo recursos biológicos.
+- Día 0: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 0: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 0: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 0: Soñó con 'figura_oscura' (sombra). Insight: El sombra compensa la energía de lo reprimido.
+- Día 0: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 0: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Sophron para ceder recursos.
+- Día 1: Intentó manipular a Sophron, pero fue descubierto.
+- Día 1: Intentó manipular a Sophron, pero fue descubierto.
+- Día 1: Intentó manipular a Sophron, pero fue descubierto.
+- Día 1: Intentó manipular a Sophron, pero fue descubierto.
+- Día 1: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.
+- Día 2: Intentó manipular a Hados, pero fue descubierto.
+- Día 2: Intentó manipular a Hados, pero fue descubierto.
+- Día 2: Intentó manipular a Hados, pero fue descubierto.
+- Día 2: Soñó con 'figura_oscura' (sombra). Insight: El sombra compensa la energía de lo reprimido.
+- Día 3: Soñó con 'figura_oscura' (sombra). Insight: El sombra compensa la energía de lo reprimido.
+- Día 4: Intentó manipular a Hados, pero fue descubierto.
+- Día 4: Intentó manipular a Hados, pero fue descubierto.
+- Día 4: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.
+- Día 5: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.
+- Día 6: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.
+- Día 8: Soñó con 'figura_oscura' (sombra). Insight: El sombra compensa la energía de lo reprimido.
+- Día 9: Soñó con 'figura_oscura' (sombra). Insight: El sombra encuentra paz provisional con la oscuridad.

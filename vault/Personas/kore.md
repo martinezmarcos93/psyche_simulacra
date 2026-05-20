@@ -4,23 +4,23 @@ nombre: Kore
 rol: generico
 edad: 14
 sexo: F
-is_alive: False
-posicion: [40, 30]
-humor: 0.137
+is_alive: True
+posicion: [25, 37]
+humor: 0.207
 energia: 0.135
 ansiedad: 1.000
 needs:
-  hambre: 0.992
+  hambre: 0.920
   fatiga: 0.865
-  sed: 1.000
+  sed: 0.885
   sociabilidad: 1.000
 arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 1.000
+  self: 0.720
   persona: 0.500
   sombra: 0.100
-  anima_animus: 0.541
+  anima_animus: 0.506
   heroe: 0.500
   sabio: 0.400
   trickster: 0.250
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Kore
 
-> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(40, 30)`
-> **Estado Vital:** **💀 Desconectado / Fallecido**
+> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(25, 37)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓░░░░░░░░░]` | 0.14 |
+| **Humor** | `[▓▓░░░░░░░░]` | 0.21 |
 | **Energía** | `[▓░░░░░░░░░]` | 0.14 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.99 | ⚠️ Alerta / Crítico |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 | ⚠️ Alerta / Crítico |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,10 +61,10 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.720` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.100` | `▓░░░░░░░░░░░` |
-| **Anima animus** | `0.541` | `▓▓▓▓▓▓░░░░░░` |
+| **Anima animus** | `0.506` | `▓▓▓▓▓▓░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
@@ -91,16 +91,89 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `+0.80` | `▓▓▓▓▓▓▓▓▓░` | ⚛️ Entrelazado |
+| [[bios]] | `-0.78` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[chara]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[gigas]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[hados]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[iris]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 5:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 6:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 7:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 8:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 9:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Moros. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Bios. Su lazo social se fortaleció.
+- Día 0: Cedió ingenuamente ante la manipulación de Bios.
+- Día 0: Sufrió explotación y hostilidad de Bios, cediendo recursos biológicos.
+- Día 0: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 0: Sufrió explotación y hostilidad de Bios, cediendo recursos biológicos.
+- Día 0: Sufrió explotación y hostilidad de Bios, cediendo recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Bios, cediendo recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Bios, cediendo recursos biológicos.
+- Día 1: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 1: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Gigas, cediendo recursos biológicos.
+- Día 2: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 3: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 3: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 3: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 3: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 3: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 6: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 6: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.

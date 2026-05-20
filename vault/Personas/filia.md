@@ -5,7 +5,7 @@ rol: generico
 edad: 29
 sexo: F
 is_alive: False
-posicion: [40, 30]
+posicion: [43, 24]
 humor: 0.132
 energia: 0.135
 ansiedad: 1.000
@@ -15,7 +15,7 @@ needs:
   sed: 1.000
   sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: aislamiento
 arquetipos:
   self: 0.705
   persona: 0.500
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Filia
 
-> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(40, 30)`
+> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(43, 24)`
 > **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
@@ -91,16 +91,53 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| *Ninguno* | - | - | - |
+| [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hados]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[kairos]] | `-0.58` | `▓▓░░░░░░░░` | Ninguno |
+| [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[sophron]] | `+0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 0:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 1:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 2:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 3:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-*La memoria de este agente está en blanco.*
+- Día 0: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Bios. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Moros. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Hados. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Elpis. Su lazo social se fortaleció.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Kairos.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Kairos.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Kairos.
+- Día 0: Detectó y rechazó un intento de manipulación de Sophron.
+- Día 0: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 2: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 3: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 5: Falleció a causa de deshidratacion.

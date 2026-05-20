@@ -6,7 +6,15 @@ Los mitos son cristalizaciones de alta intensidad en el inconsciente colectivo q
 
 ## ⚔️ Mito Activo: Héroe vs Monstruo
 
-> *No hay ningún mito del Héroe vs Monstruo cristalizado actualmente en el inconsciente colectivo.*
+⚠️ **¡Mito Cristalizado Activo!**
+
+- **Día de Cristalización:** Día `1`
+- **Héroe Asignado:** [[kairos]] (Kairos)
+- **Monstruo / Chivo Expiatorio:** [[moros]] (Moros)
+
+### 🎭 Impacto Psicológico
+- **El Héroe:** Recibe bonificaciones emocionales continuas (+0.05 Humor, -0.05 Ansiedad por día).
+- **El Monstruo:** Experimenta una carga de pánico y aislamiento (+0.08 Ansiedad, -0.05 Humor por día).
 
 ---
 
@@ -14,4 +22,4 @@ Los mitos son cristalizaciones de alta intensidad en el inconsciente colectivo q
 
 | Mito | Estado | Protagonistas | Sincronía |
 | :--- | :---: | :--- | :---: |
-| *Ninguno* | - | - | - |
+| Heroe_vs_monstruo | 🟢 Activo | Héroe: [[kairos]], Monstruo: [[moros]] | Día 1 |
