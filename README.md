@@ -126,16 +126,16 @@ PSYCHE SIMULACRA/
 │   └── session_log.py            # ✅ SessionLog
 │
 ├── obsidian/                      # Integración con Obsidian
-│   ├── reader.py                 # ⏳ Lee frontmatter YAML
-│   ├── writer.py                 # ⏳ Escribe estado del agente
-│   └── sync.py                   # ⏳ Sincronización bidireccional
+│   ├── reader.py                 # ✅ Lee frontmatter YAML
+│   ├── writer.py                 # ✅ Escribe estado del agente
+│   └── sync.py                   # ✅ Sincronización bidireccional
 │
 ├── dashboard/                     # Visualización (Streamlit)
-│   ├── app.py                    # ⏳
+│   ├── app.py                    # ✅
 │   └── components/
-│       ├── network_graph.py      # ⏳
-│       ├── collective_field.py   # ⏳
-│       └── agent_inspector.py    # ⏳
+│       ├── network_graph.py      # ✅
+│       ├── collective_field.py   # ✅
+│       └── agent_inspector.py    # ✅
 │
 ├── vault/                         # Vault de Obsidian
 │   ├── Personas/                 # Perfil de cada agente
@@ -148,7 +148,7 @@ PSYCHE SIMULACRA/
 │   └── seeds/
 │       └── initial_personas.yaml # ✅ 15 agentes iniciales
 │
-├── config/                        # ⏳ YAML de configuración
+├── config/                        # ✅ YAML de configuración
 ├── scripts/                       # Entry points
 │   └── run_simulation.py         # ✅ Nueva sesión y reanudación
 ├── src/                           # Documentación de diseño (11 docs)

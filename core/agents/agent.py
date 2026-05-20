@@ -413,8 +413,19 @@ class Agent:
         q, r = self.posicion
         # Rasgos influyen en la dirección de exploración (por ahora, aleatoria)
         directions = [(1,0),(-1,0),(0,1),(0,-1),(1,-1),(-1,1)]
-        dq, dr = self._rng.choice(directions)
-        target = (q + dq, r + dr)
+        
+        valid_targets = []
+        for dq, dr in directions:
+            nq, nr = q + dq, r + dr
+            # Mantener dentro de la grilla 80x60
+            if 0 <= nq < 80 and 0 <= nr < 60:
+                valid_targets.append((nq, nr))
+                
+        if valid_targets:
+            target = self._rng.choice(valid_targets)
+        else:
+            target = (q, r)  # Fallback si no hay salidas válidas
+            
         self.posicion = target
         return WorldAction(
             agent_id = self.id,
