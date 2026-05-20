@@ -56,3 +56,21 @@ Este documento establece las directrices arquitectónicas y los objetivos a impl
   - Condicionar la construcción de ciertas estructuras a estados psicológicos (ej. una tribu dominada por el complejo de "Inferioridad" o "Abandono" construirá murallas defensivas; una tribu dominada por "Self" o "Trascendencia" construirá altares).
 - [ ] **Radiación Psicológica (Auras):** 
   - Implementar que las estructuras emitan un "aura" modificadora que altere los ritmos de decaimiento de `ansiedad` o `humor` de los agentes que transiten o vivan en esos hexágonos.
+
+---
+
+## 🔬 Fase 5: Validación Científica de la Emergencia (Rigor Cuantitativo)
+
+**Objetivo:** Transformar la simulación de un experimento anecdótico a un modelo científico validable (Generative Social Science). Demostrar que los "mitos" son verdaderas propiedades emergentes medibles matemáticamente y no meros artefactos de programación.
+
+### Tareas de Código:
+- [ ] **Operacionalización de Fenómenos (MythologyEngine):**
+  - Definir patrones numéricos estrictos para la consolidación de un "mito".
+  - Ejemplo: Un mito de *Héroe vs Monstruo* solo cristaliza si la "carga heroica" (centralidad de un agente + éxito en conflictos) supera un umbral `X`, y la "carga de amenaza" en el `CollectiveField` supera un umbral `Y` simultáneamente.
+- [ ] **Métricas Cuantitativas de Emergencia:**
+  - Implementar cálculos de **Mean Information Gain (MIG)** o **Energía Libre Variacional** sobre el estado del `CollectiveField`.
+  - Crear un tracker temporal para identificar cuándo el campo simbólico pasa de ruido blanco (caos) a un estado sincronizado, demostrando matemáticamente la cristalización de una creencia cultural.
+- [ ] **Suite de Análisis de Sensibilidad (Robustez):**
+  - Desarrollar un nuevo módulo de testing riguroso: `tests/test_emergence_robustness.py`.
+  - Automatizar la ejecución de 50 o 100 simulaciones variando levemente las semillas iniciales (`--seed`) y alterando en un ~5% los perfiles de `initial_personas.yaml` o la distribución espacial de recursos.
+  - Generar reportes estadísticos que prueben que la emergencia del Inconsciente Colectivo ocurre bajo diversas condiciones y no depende de un *hardcode* o configuración única.
