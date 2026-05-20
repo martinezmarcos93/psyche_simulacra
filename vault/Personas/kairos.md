@@ -4,22 +4,22 @@ nombre: Kairos
 rol: cazador
 edad: 32
 sexo: M
-is_alive: True
-posicion: [26, 56]
-humor: 0.647
-energia: 0.665
-ansiedad: 0.598
+is_alive: False
+posicion: [18, 53]
+humor: 0.550
+energia: 0.545
+ansiedad: 0.726
 needs:
-  hambre: 0.428
-  fatiga: 0.335
-  sed: 0.657
+  hambre: 0.264
+  fatiga: 0.455
+  sed: 1.000
   sociabilidad: 1.000
 arquetipo_dominante: sombra
-estado_conductual: manipulacion
+estado_conductual: competencia
 arquetipos:
   self: 0.905
   persona: 0.500
-  sombra: 0.963
+  sombra: 1.000
   anima_animus: 0.905
   heroe: 0.834
   sabio: 0.400
@@ -32,8 +32,8 @@ arquetipos:
 ---
 # 👤 Persona: Kairos
 
-> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(26, 56)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(18, 53)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.60 |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.55 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.54 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓░░░░░░]` | 0.43 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.66 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[▓▓▓░░░░░░░]` | 0.26 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.46 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -63,7 +63,7 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.905` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.963` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Anima animus** | `0.905` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Heroe** | `0.834` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -92,7 +92,7 @@ arquetipos:
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
 | [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[chara]] | `+0.00` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[chara]] | `-0.70` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
 | [[doron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[filia]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
@@ -108,20 +108,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 993:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+- **Día 1007:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
   - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 994:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+- **Día 1008:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
   - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 995:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+- **Día 1009:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
   - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 996:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 997:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 998:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+- **Día 1010:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
   - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 999:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+- **Día 1011:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
+- **Día 1012:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
+- **Día 1013:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
+  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
 
 ---
 
@@ -1177,3 +1177,38 @@ arquetipos:
 - Día 997: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
 - Día 998: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
 - Día 999: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1000: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1001: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1002: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1003: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1004: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1005: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1006: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1007: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1008: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1009: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1010: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 1010: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1010: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1010: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1010: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1010: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1010: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1011: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1012: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1012: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1012: Se enfrentó en un choque violento y destructivo contra Chara.
+- Día 1012: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1012: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1012: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
+- Día 1013: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1014: Falleció a causa de deshidratacion.

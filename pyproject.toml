@@ -11,6 +11,7 @@ dependencies = [
     "scipy>=1.13",
     "pyyaml>=6.0",
     "loguru>=0.7",
+    "pygame>=2.5.0",
 ]
 
 [project.optional-dependencies]
