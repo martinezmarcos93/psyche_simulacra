@@ -12,7 +12,8 @@
       "Bash(python -m pytest tests/test_simulation.py -v --tb=short)",
       "Bash(python -c \"import rich; print\\('rich', rich.__version__\\)\")",
       "Bash(python -c \"from rich.console import Console; c = Console\\(\\); c.print\\('[bold green]rich OK[/bold green]'\\)\")",
-      "Bash(python -c \"import importlib.util, sys; spec = importlib.util.spec_from_file_location\\('main', 'main.py'\\); mod = importlib.util.module_from_spec\\(spec\\); spec.loader.exec_module\\(mod\\); print\\('main.py importado OK'\\)\")"
+      "Bash(python -c \"import importlib.util, sys; spec = importlib.util.spec_from_file_location\\('main', 'main.py'\\); mod = importlib.util.module_from_spec\\(spec\\); spec.loader.exec_module\\(mod\\); print\\('main.py importado OK'\\)\")",
+      "Bash(python -c ' *)"
     ]
   }
 }

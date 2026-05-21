@@ -1,0 +1,10 @@
+{
+  "dia_final": 1417,
+  "agentes_vivos": 14,
+  "agentes_total": 15,
+  "unico_deceso": "Kairos (Día 1014, deshidratación)",
+  "commit_origen": "7cbf08e",
+  "nota": "DB y checkpoints no recuperables (estaban en .gitignore). Vault completo.",
+  "archivado_en": "2026-05-20T23:09:55.963290",
+  "archivos_recuperados": 18
+}
