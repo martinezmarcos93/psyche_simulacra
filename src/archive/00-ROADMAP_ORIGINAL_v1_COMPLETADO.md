@@ -1,5 +1,11 @@
+> **ARCHIVO — COMPLETADO** | Fecha: 2026-05-21
+> Roadmap original v1.0. Todas las fases implementadas y superadas.
+> El proyecto implementado incluye sistemas no previstos: tribus, mitología geográfica, narrativa LLM, cultura material y métricas de emergencia científica.
+
+---
+
 # PSYCHE SIMULACRA
-## Simulación del Inconsciente Colectivo — Roadmap Técnico v1.0
+## Simulación del Inconsciente Colectivo — Roadmap Técnico v1.0 [COMPLETADO]
 
 > *Una sociedad de 100 agentes psicológicamente ricos, modelados con Jung, psiquiatría computacional y mecánicas cuánticas de socialización, documentados vivos en Obsidian.*
 

@@ -1,0 +1,2706 @@
+meta:
+  version: '2.0'
+  seed: 42
+  n_agentes: 100
+  descripcion: Grupo de 100 agentes con diversidad arquetipica amplia — generado proceduralmente
+agents:
+- id: barea
+  nombre: Barea
+  edad: 40
+  sexo: F
+  rol: generico
+  posicion:
+  - 27
+  - 34
+  arquetipos:
+    self_: 0.654
+    persona: 0.469
+    sombra: 0.311
+    anima_animus: 0.48
+    heroe: 0.182
+    sabio: 0.841
+    trickster: 0.39
+    madre: 0.216
+    padre: 0.311
+    nino_divino: 0.304
+    gobernante: 0.308
+    rebelde: 0.291
+  big_five:
+    apertura: 0.85
+    responsabilidad: 0.763
+    extraversion: 0.401
+    amabilidad: 0.739
+    neuroticismo: 0.169
+- id: medon
+  nombre: Medon
+  edad: 49
+  sexo: M
+  rol: generico
+  posicion:
+  - 40
+  - 28
+  arquetipos:
+    self_: 0.747
+    persona: 0.389
+    sombra: 0.153
+    anima_animus: 0.444
+    heroe: 0.177
+    sabio: 0.827
+    trickster: 0.295
+    madre: 0.287
+    padre: 0.186
+    nino_divino: 0.337
+    gobernante: 0.216
+    rebelde: 0.227
+  big_five:
+    apertura: 0.921
+    responsabilidad: 0.639
+    extraversion: 0.453
+    amabilidad: 0.685
+    neuroticismo: 0.41
+- id: lysane
+  nombre: Lysane
+  edad: 47
+  sexo: F
+  rol: recolector
+  posicion:
+  - 26
+  - 39
+  arquetipos:
+    self_: 0.501
+    persona: 0.361
+    sombra: 0.459
+    anima_animus: 0.534
+    heroe: 0.316
+    sabio: 0.311
+    trickster: 0.309
+    madre: 0.429
+    padre: 0.354
+    nino_divino: 0.443
+    gobernante: 0.474
+    rebelde: 0.335
+  big_five:
+    apertura: 0.514
+    responsabilidad: 0.539
+    extraversion: 0.368
+    amabilidad: 0.611
+    neuroticismo: 0.437
+- id: ivar
+  nombre: Ivar
+  edad: 31
+  sexo: M
+  rol: recolector
+  posicion:
+  - 27
+  - 18
+  arquetipos:
+    self_: 0.24
+    persona: 0.185
+    sombra: 0.228
+    anima_animus: 0.415
+    heroe: 0.884
+    sabio: 0.435
+    trickster: 0.341
+    madre: 0.301
+    padre: 0.56
+    nino_divino: 0.337
+    gobernante: 0.643
+    rebelde: 0.19
+  big_five:
+    apertura: 0.715
+    responsabilidad: 0.765
+    extraversion: 0.65
+    amabilidad: 0.526
+    neuroticismo: 0.364
+- id: peria
+  nombre: Peria
+  edad: 8
+  sexo: F
+  rol: generico
+  posicion:
+  - 54
+  - 29
+  arquetipos:
+    self_: 0.495
+    persona: 0.207
+    sombra: 0.217
+    anima_animus: 0.483
+    heroe: 0.413
+    sabio: 0.389
+    trickster: 0.26
+    madre: 0.475
+    padre: 0.401
+    nino_divino: 0.796
+    gobernante: 0.383
+    rebelde: 0.414
+  big_five:
+    apertura: 0.754
+    responsabilidad: 0.316
+    extraversion: 0.663
+    amabilidad: 0.798
+    neuroticismo: 0.32
+- id: selene
+  nombre: Selene
+  edad: 45
+  sexo: F
+  rol: recolector
+  posicion:
+  - 34
+  - 23
+  arquetipos:
+    self_: 0.363
+    persona: 0.671
+    sombra: 0.445
+    anima_animus: 0.382
+    heroe: 0.576
+    sabio: 0.21
+    trickster: 0.37
+    madre: 0.274
+    padre: 0.584
+    nino_divino: 0.211
+    gobernante: 0.981
+    rebelde: 0.156
+  big_five:
+    apertura: 0.522
+    responsabilidad: 0.909
+    extraversion: 0.82
+    amabilidad: 0.382
+    neuroticismo: 0.262
+- id: brennus
+  nombre: Brennus
+  edad: 48
+  sexo: M
+  rol: recolector
+  posicion:
+  - 36
+  - 18
+  arquetipos:
+    self_: 0.181
+    persona: 0.412
+    sombra: 0.335
+    anima_animus: 0.198
+    heroe: 0.896
+    sabio: 0.369
+    trickster: 0.179
+    madre: 0.267
+    padre: 0.443
+    nino_divino: 0.314
+    gobernante: 0.498
+    rebelde: 0.288
+  big_five:
+    apertura: 0.581
+    responsabilidad: 0.811
+    extraversion: 0.717
+    amabilidad: 0.66
+    neuroticismo: 0.46
+- id: kleis
+  nombre: Kleis
+  edad: 26
+  sexo: F
+  rol: cazador
+  posicion:
+  - 37
+  - 31
+  arquetipos:
+    self_: 0.299
+    persona: 0.459
+    sombra: 0.369
+    anima_animus: 0.365
+    heroe: 0.509
+    sabio: 0.474
+    trickster: 0.361
+    madre: 0.364
+    padre: 0.39
+    nino_divino: 0.389
+    gobernante: 0.36
+    rebelde: 0.314
+  big_five:
+    apertura: 0.552
+    responsabilidad: 0.434
+    extraversion: 0.6
+    amabilidad: 0.533
+    neuroticismo: 0.284
+- id: decia
+  nombre: Decia
+  edad: 33
+  sexo: F
+  rol: recolector
+  posicion:
+  - 38
+  - 35
+  arquetipos:
+    self_: 0.375
+    persona: 0.266
+    sombra: 0.889
+    anima_animus: 0.362
+    heroe: 0.139
+    sabio: 0.269
+    trickster: 0.467
+    madre: 0.332
+    padre: 0.288
+    nino_divino: 0.364
+    gobernante: 0.409
+    rebelde: 0.412
+  big_five:
+    apertura: 0.318
+    responsabilidad: 0.278
+    extraversion: 0.481
+    amabilidad: 0.177
+    neuroticismo: 0.759
+- id: meroe
+  nombre: Meroe
+  edad: 29
+  sexo: F
+  rol: guardian
+  posicion:
+  - 47
+  - 27
+  arquetipos:
+    self_: 0.341
+    persona: 0.334
+    sombra: 0.287
+    anima_animus: 0.346
+    heroe: 0.408
+    sabio: 0.509
+    trickster: 0.3
+    madre: 0.392
+    padre: 0.45
+    nino_divino: 0.332
+    gobernante: 0.468
+    rebelde: 0.413
+  big_five:
+    apertura: 0.554
+    responsabilidad: 0.682
+    extraversion: 0.637
+    amabilidad: 0.604
+    neuroticismo: 0.424
+- id: drex
+  nombre: Drex
+  edad: 25
+  sexo: M
+  rol: explorador
+  posicion:
+  - 51
+  - 40
+  arquetipos:
+    self_: 0.42
+    persona: 0.294
+    sombra: 0.347
+    anima_animus: 0.509
+    heroe: 0.403
+    sabio: 0.496
+    trickster: 0.46
+    madre: 0.547
+    padre: 0.441
+    nino_divino: 0.537
+    gobernante: 0.521
+    rebelde: 0.445
+  big_five:
+    apertura: 0.517
+    responsabilidad: 0.564
+    extraversion: 0.439
+    amabilidad: 0.643
+    neuroticismo: 0.343
+- id: oris
+  nombre: Oris
+  edad: 44
+  sexo: F
+  rol: generico
+  posicion:
+  - 40
+  - 26
+  arquetipos:
+    self_: 0.353
+    persona: 0.306
+    sombra: 0.809
+    anima_animus: 0.36
+    heroe: 0.136
+    sabio: 0.269
+    trickster: 0.504
+    madre: 0.343
+    padre: 0.213
+    nino_divino: 0.241
+    gobernante: 0.391
+    rebelde: 0.45
+  big_five:
+    apertura: 0.439
+    responsabilidad: 0.27
+    extraversion: 0.407
+    amabilidad: 0.216
+    neuroticismo: 0.851
+- id: lakon
+  nombre: Lakon
+  edad: 59
+  sexo: M
+  rol: recolector
+  posicion:
+  - 39
+  - 19
+  arquetipos:
+    self_: 0.206
+    persona: 0.436
+    sombra: 0.413
+    anima_animus: 0.308
+    heroe: 0.46
+    sabio: 0.357
+    trickster: 0.253
+    madre: 0.152
+    padre: 0.509
+    nino_divino: 0.245
+    gobernante: 0.883
+    rebelde: 0.407
+  big_five:
+    apertura: 0.363
+    responsabilidad: 0.749
+    extraversion: 0.757
+    amabilidad: 0.429
+    neuroticismo: 0.253
+- id: galen
+  nombre: Galen
+  edad: 28
+  sexo: M
+  rol: guardian
+  posicion:
+  - 34
+  - 31
+  arquetipos:
+    self_: 0.281
+    persona: 0.255
+    sombra: 0.468
+    anima_animus: 0.356
+    heroe: 0.361
+    sabio: 0.398
+    trickster: 0.307
+    madre: 0.415
+    padre: 0.294
+    nino_divino: 0.395
+    gobernante: 0.31
+    rebelde: 0.837
+  big_five:
+    apertura: 0.755
+    responsabilidad: 0.223
+    extraversion: 0.681
+    amabilidad: 0.403
+    neuroticismo: 0.599
+- id: kress
+  nombre: Kress
+  edad: 43
+  sexo: M
+  rol: generico
+  posicion:
+  - 36
+  - 28
+  arquetipos:
+    self_: 0.486
+    persona: 0.382
+    sombra: 0.483
+    anima_animus: 0.505
+    heroe: 0.348
+    sabio: 0.302
+    trickster: 0.285
+    madre: 0.426
+    padre: 0.55
+    nino_divino: 0.374
+    gobernante: 0.456
+    rebelde: 0.491
+  big_five:
+    apertura: 0.482
+    responsabilidad: 0.484
+    extraversion: 0.564
+    amabilidad: 0.585
+    neuroticismo: 0.46
+- id: garan
+  nombre: Garan
+  edad: 21
+  sexo: M
+  rol: guardian
+  posicion:
+  - 44
+  - 24
+  arquetipos:
+    self_: 0.276
+    persona: 0.424
+    sombra: 0.478
+    anima_animus: 0.438
+    heroe: 0.314
+    sabio: 0.41
+    trickster: 0.829
+    madre: 0.194
+    padre: 0.234
+    nino_divino: 0.306
+    gobernante: 0.401
+    rebelde: 0.448
+  big_five:
+    apertura: 0.714
+    responsabilidad: 0.25
+    extraversion: 0.662
+    amabilidad: 0.568
+    neuroticismo: 0.51
+- id: glaukia
+  nombre: Glaukia
+  edad: 29
+  sexo: F
+  rol: explorador
+  posicion:
+  - 29
+  - 40
+  arquetipos:
+    self_: 0.359
+    persona: 0.496
+    sombra: 0.528
+    anima_animus: 0.314
+    heroe: 0.183
+    sabio: 0.416
+    trickster: 0.861
+    madre: 0.266
+    padre: 0.25
+    nino_divino: 0.287
+    gobernante: 0.242
+    rebelde: 0.496
+  big_five:
+    apertura: 0.926
+    responsabilidad: 0.215
+    extraversion: 0.92
+    amabilidad: 0.56
+    neuroticismo: 0.393
+- id: thalia
+  nombre: Thalia
+  edad: 41
+  sexo: F
+  rol: generico
+  posicion:
+  - 31
+  - 41
+  arquetipos:
+    self_: 0.421
+    persona: 0.456
+    sombra: 0.446
+    anima_animus: 0.528
+    heroe: 0.489
+    sabio: 0.406
+    trickster: 0.503
+    madre: 0.44
+    padre: 0.367
+    nino_divino: 0.346
+    gobernante: 0.532
+    rebelde: 0.355
+  big_five:
+    apertura: 0.451
+    responsabilidad: 0.469
+    extraversion: 0.555
+    amabilidad: 0.506
+    neuroticismo: 0.376
+- id: talos
+  nombre: Talos
+  edad: 45
+  sexo: M
+  rol: cazador
+  posicion:
+  - 53
+  - 28
+  arquetipos:
+    self_: 0.329
+    persona: 0.337
+    sombra: 0.495
+    anima_animus: 0.372
+    heroe: 0.518
+    sabio: 0.469
+    trickster: 0.355
+    madre: 0.283
+    padre: 0.536
+    nino_divino: 0.303
+    gobernante: 0.474
+    rebelde: 0.412
+  big_five:
+    apertura: 0.555
+    responsabilidad: 0.473
+    extraversion: 0.471
+    amabilidad: 0.535
+    neuroticismo: 0.428
+- id: meleager
+  nombre: Meleager
+  edad: 45
+  sexo: M
+  rol: explorador
+  posicion:
+  - 35
+  - 39
+  arquetipos:
+    self_: 0.594
+    persona: 0.391
+    sombra: 0.293
+    anima_animus: 0.467
+    heroe: 0.265
+    sabio: 0.879
+    trickster: 0.34
+    madre: 0.223
+    padre: 0.218
+    nino_divino: 0.296
+    gobernante: 0.183
+    rebelde: 0.202
+  big_five:
+    apertura: 0.963
+    responsabilidad: 0.779
+    extraversion: 0.423
+    amabilidad: 0.705
+    neuroticismo: 0.237
+- id: wulfar
+  nombre: Wulfar
+  edad: 48
+  sexo: M
+  rol: recolector
+  posicion:
+  - 29
+  - 24
+  arquetipos:
+    self_: 0.23
+    persona: 0.568
+    sombra: 0.247
+    anima_animus: 0.232
+    heroe: 0.412
+    sabio: 0.42
+    trickster: 0.162
+    madre: 0.165
+    padre: 0.782
+    nino_divino: 0.322
+    gobernante: 0.759
+    rebelde: 0.353
+  big_five:
+    apertura: 0.509
+    responsabilidad: 0.827
+    extraversion: 0.533
+    amabilidad: 0.678
+    neuroticismo: 0.152
+- id: vespa
+  nombre: Vespa
+  edad: 38
+  sexo: F
+  rol: recolector
+  posicion:
+  - 53
+  - 33
+  arquetipos:
+    self_: 0.581
+    persona: 0.181
+    sombra: 0.168
+    anima_animus: 0.471
+    heroe: 0.335
+    sabio: 0.384
+    trickster: 0.191
+    madre: 0.905
+    padre: 0.173
+    nino_divino: 0.284
+    gobernante: 0.217
+    rebelde: 0.301
+  big_five:
+    apertura: 0.539
+    responsabilidad: 0.827
+    extraversion: 0.491
+    amabilidad: 0.738
+    neuroticismo: 0.168
+- id: rhadys
+  nombre: Rhadys
+  edad: 49
+  sexo: M
+  rol: guardian
+  posicion:
+  - 53
+  - 36
+  arquetipos:
+    self_: 0.417
+    persona: 0.59
+    sombra: 0.232
+    anima_animus: 0.318
+    heroe: 0.344
+    sabio: 0.387
+    trickster: 0.406
+    madre: 0.206
+    padre: 0.841
+    nino_divino: 0.192
+    gobernante: 0.706
+    rebelde: 0.197
+  big_five:
+    apertura: 0.505
+    responsabilidad: 0.822
+    extraversion: 0.461
+    amabilidad: 0.629
+    neuroticismo: 0.237
+- id: graia
+  nombre: Graia
+  edad: 43
+  sexo: F
+  rol: generico
+  posicion:
+  - 28
+  - 39
+  arquetipos:
+    self_: 0.343
+    persona: 0.351
+    sombra: 0.494
+    anima_animus: 0.439
+    heroe: 0.497
+    sabio: 0.333
+    trickster: 0.311
+    madre: 0.341
+    padre: 0.32
+    nino_divino: 0.352
+    gobernante: 0.318
+    rebelde: 0.296
+  big_five:
+    apertura: 0.599
+    responsabilidad: 0.605
+    extraversion: 0.429
+    amabilidad: 0.671
+    neuroticismo: 0.279
+- id: orion
+  nombre: Orion
+  edad: 43
+  sexo: M
+  rol: cazador
+  posicion:
+  - 48
+  - 27
+  arquetipos:
+    self_: 0.469
+    persona: 0.535
+    sombra: 0.415
+    anima_animus: 0.413
+    heroe: 0.302
+    sabio: 0.291
+    trickster: 0.397
+    madre: 0.367
+    padre: 0.348
+    nino_divino: 0.305
+    gobernante: 0.54
+    rebelde: 0.506
+  big_five:
+    apertura: 0.397
+    responsabilidad: 0.502
+    extraversion: 0.625
+    amabilidad: 0.6
+    neuroticismo: 0.418
+- id: imene
+  nombre: Imene
+  edad: 60
+  sexo: F
+  rol: explorador
+  posicion:
+  - 42
+  - 38
+  arquetipos:
+    self_: 0.269
+    persona: 0.567
+    sombra: 0.314
+    anima_animus: 0.268
+    heroe: 0.701
+    sabio: 0.37
+    trickster: 0.412
+    madre: 0.277
+    padre: 0.576
+    nino_divino: 0.178
+    gobernante: 0.909
+    rebelde: 0.193
+  big_five:
+    apertura: 0.43
+    responsabilidad: 0.893
+    extraversion: 0.663
+    amabilidad: 0.46
+    neuroticismo: 0.281
+- id: cephalos
+  nombre: Cephalos
+  edad: 30
+  sexo: M
+  rol: recolector
+  posicion:
+  - 36
+  - 21
+  arquetipos:
+    self_: 0.542
+    persona: 0.389
+    sombra: 0.419
+    anima_animus: 0.547
+    heroe: 0.458
+    sabio: 0.427
+    trickster: 0.392
+    madre: 0.331
+    padre: 0.378
+    nino_divino: 0.484
+    gobernante: 0.449
+    rebelde: 0.485
+  big_five:
+    apertura: 0.531
+    responsabilidad: 0.605
+    extraversion: 0.605
+    amabilidad: 0.668
+    neuroticismo: 0.387
+- id: renia
+  nombre: Renia
+  edad: 53
+  sexo: F
+  rol: recolector
+  posicion:
+  - 29
+  - 18
+  arquetipos:
+    self_: 0.531
+    persona: 0.215
+    sombra: 0.193
+    anima_animus: 0.536
+    heroe: 0.299
+    sabio: 0.355
+    trickster: 0.418
+    madre: 0.841
+    padre: 0.396
+    nino_divino: 0.391
+    gobernante: 0.375
+    rebelde: 0.285
+  big_five:
+    apertura: 0.628
+    responsabilidad: 0.763
+    extraversion: 0.498
+    amabilidad: 0.801
+    neuroticismo: 0.411
+- id: nausicaa
+  nombre: Nausicaa
+  edad: 29
+  sexo: F
+  rol: generico
+  posicion:
+  - 40
+  - 35
+  arquetipos:
+    self_: 0.319
+    persona: 0.331
+    sombra: 0.442
+    anima_animus: 0.481
+    heroe: 0.317
+    sabio: 0.299
+    trickster: 0.489
+    madre: 0.511
+    padre: 0.372
+    nino_divino: 0.493
+    gobernante: 0.352
+    rebelde: 0.281
+  big_five:
+    apertura: 0.53
+    responsabilidad: 0.448
+    extraversion: 0.43
+    amabilidad: 0.551
+    neuroticismo: 0.47
+- id: demos
+  nombre: Demos
+  edad: 60
+  sexo: M
+  rol: cazador
+  posicion:
+  - 37
+  - 28
+  arquetipos:
+    self_: 0.299
+    persona: 0.451
+    sombra: 0.297
+    anima_animus: 0.273
+    heroe: 0.403
+    sabio: 0.485
+    trickster: 0.338
+    madre: 0.304
+    padre: 0.831
+    nino_divino: 0.162
+    gobernante: 0.723
+    rebelde: 0.351
+  big_five:
+    apertura: 0.465
+    responsabilidad: 0.697
+    extraversion: 0.472
+    amabilidad: 0.668
+    neuroticismo: 0.335
+- id: boreas
+  nombre: Boreas
+  edad: 16
+  sexo: M
+  rol: recolector
+  posicion:
+  - 30
+  - 34
+  arquetipos:
+    self_: 0.411
+    persona: 0.24
+    sombra: 0.098
+    anima_animus: 0.177
+    heroe: 0.865
+    sabio: 0.357
+    trickster: 0.396
+    madre: 0.154
+    padre: 0.525
+    nino_divino: 0.412
+    gobernante: 0.646
+    rebelde: 0.17
+  big_five:
+    apertura: 0.661
+    responsabilidad: 0.696
+    extraversion: 0.67
+    amabilidad: 0.501
+    neuroticismo: 0.355
+- id: kalliope
+  nombre: Kalliope
+  edad: 48
+  sexo: F
+  rol: recolector
+  posicion:
+  - 38
+  - 28
+  arquetipos:
+    self_: 0.319
+    persona: 0.446
+    sombra: 0.533
+    anima_animus: 0.335
+    heroe: 0.296
+    sabio: 0.317
+    trickster: 0.859
+    madre: 0.228
+    padre: 0.211
+    nino_divino: 0.174
+    gobernante: 0.414
+    rebelde: 0.641
+  big_five:
+    apertura: 0.857
+    responsabilidad: 0.211
+    extraversion: 0.814
+    amabilidad: 0.475
+    neuroticismo: 0.475
+- id: adras
+  nombre: Adras
+  edad: 17
+  sexo: M
+  rol: cazador
+  posicion:
+  - 35
+  - 29
+  arquetipos:
+    self_: 0.251
+    persona: 0.189
+    sombra: 0.534
+    anima_animus: 0.374
+    heroe: 0.365
+    sabio: 0.364
+    trickster: 0.432
+    madre: 0.385
+    padre: 0.317
+    nino_divino: 0.215
+    gobernante: 0.396
+    rebelde: 0.871
+  big_five:
+    apertura: 0.828
+    responsabilidad: 0.411
+    extraversion: 0.619
+    amabilidad: 0.434
+    neuroticismo: 0.676
+- id: aglaia
+  nombre: Aglaia
+  edad: 18
+  sexo: F
+  rol: generico
+  posicion:
+  - 43
+  - 23
+  arquetipos:
+    self_: 0.486
+    persona: 0.17
+    sombra: 0.405
+    anima_animus: 0.45
+    heroe: 0.346
+    sabio: 0.41
+    trickster: 0.336
+    madre: 0.451
+    padre: 0.42
+    nino_divino: 0.834
+    gobernante: 0.38
+    rebelde: 0.179
+  big_five:
+    apertura: 0.651
+    responsabilidad: 0.495
+    extraversion: 0.519
+    amabilidad: 0.884
+    neuroticismo: 0.531
+- id: zylas
+  nombre: Zylas
+  edad: 14
+  sexo: M
+  rol: generico
+  posicion:
+  - 44
+  - 39
+  arquetipos:
+    self_: 0.49
+    persona: 0.543
+    sombra: 0.526
+    anima_animus: 0.481
+    heroe: 0.505
+    sabio: 0.524
+    trickster: 0.489
+    madre: 0.342
+    padre: 0.497
+    nino_divino: 0.339
+    gobernante: 0.331
+    rebelde: 0.348
+  big_five:
+    apertura: 0.568
+    responsabilidad: 0.584
+    extraversion: 0.401
+    amabilidad: 0.584
+    neuroticismo: 0.386
+- id: macron
+  nombre: Macron
+  edad: 16
+  sexo: M
+  rol: explorador
+  posicion:
+  - 35
+  - 32
+  arquetipos:
+    self_: 0.159
+    persona: 0.399
+    sombra: 0.504
+    anima_animus: 0.425
+    heroe: 0.262
+    sabio: 0.204
+    trickster: 0.821
+    madre: 0.362
+    padre: 0.387
+    nino_divino: 0.249
+    gobernante: 0.285
+    rebelde: 0.545
+  big_five:
+    apertura: 0.892
+    responsabilidad: 0.464
+    extraversion: 0.694
+    amabilidad: 0.507
+    neuroticismo: 0.468
+- id: lachesis
+  nombre: Lachesis
+  edad: 21
+  sexo: F
+  rol: generico
+  posicion:
+  - 40
+  - 20
+  arquetipos:
+    self_: 0.318
+    persona: 0.541
+    sombra: 0.512
+    anima_animus: 0.476
+    heroe: 0.545
+    sabio: 0.541
+    trickster: 0.497
+    madre: 0.379
+    padre: 0.493
+    nino_divino: 0.284
+    gobernante: 0.425
+    rebelde: 0.403
+  big_five:
+    apertura: 0.501
+    responsabilidad: 0.487
+    extraversion: 0.408
+    amabilidad: 0.534
+    neuroticismo: 0.451
+- id: cimber
+  nombre: Cimber
+  edad: 31
+  sexo: M
+  rol: generico
+  posicion:
+  - 45
+  - 35
+  arquetipos:
+    self_: 0.239
+    persona: 0.539
+    sombra: 0.283
+    anima_animus: 0.322
+    heroe: 0.445
+    sabio: 0.275
+    trickster: 0.339
+    madre: 0.325
+    padre: 0.634
+    nino_divino: 0.16
+    gobernante: 0.892
+    rebelde: 0.419
+  big_five:
+    apertura: 0.538
+    responsabilidad: 0.884
+    extraversion: 0.632
+    amabilidad: 0.504
+    neuroticismo: 0.162
+- id: myrrha
+  nombre: Myrrha
+  edad: 48
+  sexo: F
+  rol: generico
+  posicion:
+  - 39
+  - 36
+  arquetipos:
+    self_: 0.48
+    persona: 0.322
+    sombra: 0.392
+    anima_animus: 0.307
+    heroe: 0.412
+    sabio: 0.39
+    trickster: 0.537
+    madre: 0.289
+    padre: 0.38
+    nino_divino: 0.4
+    gobernante: 0.537
+    rebelde: 0.511
+  big_five:
+    apertura: 0.674
+    responsabilidad: 0.666
+    extraversion: 0.582
+    amabilidad: 0.414
+    neuroticismo: 0.367
+- id: okaios
+  nombre: Okaios
+  edad: 39
+  sexo: M
+  rol: explorador
+  posicion:
+  - 34
+  - 24
+  arquetipos:
+    self_: 0.411
+    persona: 0.386
+    sombra: 0.815
+    anima_animus: 0.175
+    heroe: 0.2
+    sabio: 0.412
+    trickster: 0.583
+    madre: 0.164
+    padre: 0.24
+    nino_divino: 0.417
+    gobernante: 0.362
+    rebelde: 0.451
+  big_five:
+    apertura: 0.547
+    responsabilidad: 0.212
+    extraversion: 0.349
+    amabilidad: 0.22
+    neuroticismo: 0.733
+- id: lyris
+  nombre: Lyris
+  edad: 30
+  sexo: F
+  rol: generico
+  posicion:
+  - 34
+  - 22
+  arquetipos:
+    self_: 0.695
+    persona: 0.444
+    sombra: 0.366
+    anima_animus: 0.593
+    heroe: 0.186
+    sabio: 0.957
+    trickster: 0.247
+    madre: 0.363
+    padre: 0.309
+    nino_divino: 0.397
+    gobernante: 0.184
+    rebelde: 0.264
+  big_five:
+    apertura: 0.905
+    responsabilidad: 0.739
+    extraversion: 0.437
+    amabilidad: 0.687
+    neuroticismo: 0.241
+- id: alethea
+  nombre: Alethea
+  edad: 28
+  sexo: F
+  rol: recolector
+  posicion:
+  - 40
+  - 34
+  arquetipos:
+    self_: 0.465
+    persona: 0.346
+    sombra: 0.395
+    anima_animus: 0.632
+    heroe: 0.328
+    sabio: 0.353
+    trickster: 0.158
+    madre: 0.932
+    padre: 0.42
+    nino_divino: 0.456
+    gobernante: 0.179
+    rebelde: 0.342
+  big_five:
+    apertura: 0.56
+    responsabilidad: 0.639
+    extraversion: 0.632
+    amabilidad: 0.803
+    neuroticismo: 0.316
+- id: feros
+  nombre: Feros
+  edad: 50
+  sexo: M
+  rol: cazador
+  posicion:
+  - 38
+  - 37
+  arquetipos:
+    self_: 0.555
+    persona: 0.437
+    sombra: 0.313
+    anima_animus: 0.576
+    heroe: 0.38
+    sabio: 0.934
+    trickster: 0.326
+    madre: 0.358
+    padre: 0.345
+    nino_divino: 0.364
+    gobernante: 0.212
+    rebelde: 0.242
+  big_five:
+    apertura: 0.975
+    responsabilidad: 0.65
+    extraversion: 0.441
+    amabilidad: 0.811
+    neuroticismo: 0.262
+- id: cyma
+  nombre: Cyma
+  edad: 53
+  sexo: F
+  rol: generico
+  posicion:
+  - 30
+  - 39
+  arquetipos:
+    self_: 0.64
+    persona: 0.44
+    sombra: 0.375
+    anima_animus: 0.523
+    heroe: 0.349
+    sabio: 0.895
+    trickster: 0.369
+    madre: 0.3
+    padre: 0.308
+    nino_divino: 0.3
+    gobernante: 0.183
+    rebelde: 0.245
+  big_five:
+    apertura: 0.876
+    responsabilidad: 0.661
+    extraversion: 0.32
+    amabilidad: 0.826
+    neuroticismo: 0.138
+- id: xanthe
+  nombre: Xanthe
+  edad: 40
+  sexo: F
+  rol: generico
+  posicion:
+  - 45
+  - 27
+  arquetipos:
+    self_: 0.403
+    persona: 0.207
+    sombra: 0.327
+    anima_animus: 0.613
+    heroe: 0.211
+    sabio: 0.47
+    trickster: 0.249
+    madre: 0.923
+    padre: 0.356
+    nino_divino: 0.323
+    gobernante: 0.378
+    rebelde: 0.413
+  big_five:
+    apertura: 0.563
+    responsabilidad: 0.82
+    extraversion: 0.492
+    amabilidad: 0.81
+    neuroticismo: 0.267
+- id: jocasta
+  nombre: Jocasta
+  edad: 31
+  sexo: F
+  rol: generico
+  posicion:
+  - 26
+  - 23
+  arquetipos:
+    self_: 0.354
+    persona: 0.486
+    sombra: 0.529
+    anima_animus: 0.375
+    heroe: 0.329
+    sabio: 0.319
+    trickster: 0.457
+    madre: 0.299
+    padre: 0.48
+    nino_divino: 0.542
+    gobernante: 0.305
+    rebelde: 0.423
+  big_five:
+    apertura: 0.495
+    responsabilidad: 0.634
+    extraversion: 0.553
+    amabilidad: 0.651
+    neuroticismo: 0.345
+- id: brysis
+  nombre: Brysis
+  edad: 8
+  sexo: F
+  rol: generico
+  posicion:
+  - 30
+  - 23
+  arquetipos:
+    self_: 0.608
+    persona: 0.354
+    sombra: 0.163
+    anima_animus: 0.457
+    heroe: 0.382
+    sabio: 0.264
+    trickster: 0.314
+    madre: 0.464
+    padre: 0.288
+    nino_divino: 0.841
+    gobernante: 0.243
+    rebelde: 0.18
+  big_five:
+    apertura: 0.659
+    responsabilidad: 0.366
+    extraversion: 0.491
+    amabilidad: 0.77
+    neuroticismo: 0.437
+- id: stenos
+  nombre: Stenos
+  edad: 27
+  sexo: M
+  rol: explorador
+  posicion:
+  - 35
+  - 24
+  arquetipos:
+    self_: 0.357
+    persona: 0.356
+    sombra: 0.69
+    anima_animus: 0.443
+    heroe: 0.409
+    sabio: 0.284
+    trickster: 0.391
+    madre: 0.294
+    padre: 0.212
+    nino_divino: 0.301
+    gobernante: 0.33
+    rebelde: 0.863
+  big_five:
+    apertura: 0.737
+    responsabilidad: 0.406
+    extraversion: 0.616
+    amabilidad: 0.305
+    neuroticismo: 0.523
+- id: kyron
+  nombre: Kyron
+  edad: 41
+  sexo: M
+  rol: generico
+  posicion:
+  - 44
+  - 30
+  arquetipos:
+    self_: 0.342
+    persona: 0.263
+    sombra: 0.256
+    anima_animus: 0.181
+    heroe: 0.903
+    sabio: 0.387
+    trickster: 0.366
+    madre: 0.317
+    padre: 0.516
+    nino_divino: 0.174
+    gobernante: 0.433
+    rebelde: 0.378
+  big_five:
+    apertura: 0.654
+    responsabilidad: 0.843
+    extraversion: 0.651
+    amabilidad: 0.539
+    neuroticismo: 0.276
+- id: alcis
+  nombre: Alcis
+  edad: 51
+  sexo: M
+  rol: recolector
+  posicion:
+  - 50
+  - 23
+  arquetipos:
+    self_: 0.171
+    persona: 0.551
+    sombra: 0.321
+    anima_animus: 0.293
+    heroe: 0.456
+    sabio: 0.547
+    trickster: 0.245
+    madre: 0.409
+    padre: 0.799
+    nino_divino: 0.178
+    gobernante: 0.593
+    rebelde: 0.219
+  big_five:
+    apertura: 0.519
+    responsabilidad: 0.856
+    extraversion: 0.552
+    amabilidad: 0.572
+    neuroticismo: 0.344
+- id: calix
+  nombre: Calix
+  edad: 50
+  sexo: M
+  rol: guardian
+  posicion:
+  - 50
+  - 36
+  arquetipos:
+    self_: 0.401
+    persona: 0.53
+    sombra: 0.432
+    anima_animus: 0.452
+    heroe: 0.449
+    sabio: 0.513
+    trickster: 0.449
+    madre: 0.321
+    padre: 0.298
+    nino_divino: 0.399
+    gobernante: 0.362
+    rebelde: 0.354
+  big_five:
+    apertura: 0.52
+    responsabilidad: 0.658
+    extraversion: 0.549
+    amabilidad: 0.572
+    neuroticismo: 0.491
+- id: vergil
+  nombre: Vergil
+  edad: 32
+  sexo: M
+  rol: recolector
+  posicion:
+  - 28
+  - 38
+  arquetipos:
+    self_: 0.383
+    persona: 0.471
+    sombra: 0.415
+    anima_animus: 0.313
+    heroe: 0.3
+    sabio: 0.364
+    trickster: 0.847
+    madre: 0.392
+    padre: 0.271
+    nino_divino: 0.369
+    gobernante: 0.326
+    rebelde: 0.52
+  big_five:
+    apertura: 0.922
+    responsabilidad: 0.335
+    extraversion: 0.8
+    amabilidad: 0.569
+    neuroticismo: 0.571
+- id: ulax
+  nombre: Ulax
+  edad: 19
+  sexo: M
+  rol: generico
+  posicion:
+  - 42
+  - 38
+  arquetipos:
+    self_: 0.197
+    persona: 0.217
+    sombra: 0.19
+    anima_animus: 0.291
+    heroe: 0.875
+    sabio: 0.411
+    trickster: 0.226
+    madre: 0.26
+    padre: 0.499
+    nino_divino: 0.241
+    gobernante: 0.464
+    rebelde: 0.325
+  big_five:
+    apertura: 0.579
+    responsabilidad: 0.779
+    extraversion: 0.733
+    amabilidad: 0.525
+    neuroticismo: 0.248
+- id: hestia
+  nombre: Hestia
+  edad: 39
+  sexo: F
+  rol: recolector
+  posicion:
+  - 36
+  - 20
+  arquetipos:
+    self_: 0.307
+    persona: 0.585
+    sombra: 0.393
+    anima_animus: 0.411
+    heroe: 0.481
+    sabio: 0.311
+    trickster: 0.403
+    madre: 0.234
+    padre: 0.563
+    nino_divino: 0.252
+    gobernante: 0.908
+    rebelde: 0.331
+  big_five:
+    apertura: 0.376
+    responsabilidad: 0.905
+    extraversion: 0.599
+    amabilidad: 0.486
+    neuroticismo: 0.201
+- id: zoia
+  nombre: Zoia
+  edad: 41
+  sexo: F
+  rol: guardian
+  posicion:
+  - 42
+  - 29
+  arquetipos:
+    self_: 0.155
+    persona: 0.227
+    sombra: 0.987
+    anima_animus: 0.242
+    heroe: 0.184
+    sabio: 0.42
+    trickster: 0.461
+    madre: 0.192
+    padre: 0.23
+    nino_divino: 0.363
+    gobernante: 0.287
+    rebelde: 0.325
+  big_five:
+    apertura: 0.392
+    responsabilidad: 0.198
+    extraversion: 0.363
+    amabilidad: 0.269
+    neuroticismo: 0.712
+- id: fyria
+  nombre: Fyria
+  edad: 39
+  sexo: F
+  rol: cazador
+  posicion:
+  - 31
+  - 23
+  arquetipos:
+    self_: 0.67
+    persona: 0.36
+    sombra: 0.368
+    anima_animus: 0.533
+    heroe: 0.261
+    sabio: 0.936
+    trickster: 0.333
+    madre: 0.214
+    padre: 0.27
+    nino_divino: 0.328
+    gobernante: 0.271
+    rebelde: 0.294
+  big_five:
+    apertura: 1.0
+    responsabilidad: 0.674
+    extraversion: 0.539
+    amabilidad: 0.62
+    neuroticismo: 0.246
+- id: ixion
+  nombre: Ixion
+  edad: 50
+  sexo: M
+  rol: guardian
+  posicion:
+  - 40
+  - 32
+  arquetipos:
+    self_: 0.358
+    persona: 0.36
+    sombra: 0.458
+    anima_animus: 0.449
+    heroe: 0.401
+    sabio: 0.313
+    trickster: 0.454
+    madre: 0.386
+    padre: 0.164
+    nino_divino: 0.28
+    gobernante: 0.25
+    rebelde: 0.937
+  big_five:
+    apertura: 0.736
+    responsabilidad: 0.314
+    extraversion: 0.616
+    amabilidad: 0.416
+    neuroticismo: 0.571
+- id: lykos
+  nombre: Lykos
+  edad: 46
+  sexo: M
+  rol: explorador
+  posicion:
+  - 30
+  - 31
+  arquetipos:
+    self_: 0.305
+    persona: 0.526
+    sombra: 0.501
+    anima_animus: 0.519
+    heroe: 0.531
+    sabio: 0.392
+    trickster: 0.387
+    madre: 0.381
+    padre: 0.384
+    nino_divino: 0.302
+    gobernante: 0.341
+    rebelde: 0.366
+  big_five:
+    apertura: 0.64
+    responsabilidad: 0.645
+    extraversion: 0.5
+    amabilidad: 0.634
+    neuroticismo: 0.572
+- id: rheia
+  nombre: Rheia
+  edad: 52
+  sexo: F
+  rol: generico
+  posicion:
+  - 48
+  - 22
+  arquetipos:
+    self_: 0.482
+    persona: 0.355
+    sombra: 0.277
+    anima_animus: 0.452
+    heroe: 0.155
+    sabio: 0.294
+    trickster: 0.208
+    madre: 0.934
+    padre: 0.314
+    nino_divino: 0.535
+    gobernante: 0.264
+    rebelde: 0.36
+  big_five:
+    apertura: 0.623
+    responsabilidad: 0.816
+    extraversion: 0.587
+    amabilidad: 0.92
+    neuroticismo: 0.262
+- id: desma
+  nombre: Desma
+  edad: 15
+  sexo: F
+  rol: generico
+  posicion:
+  - 45
+  - 35
+  arquetipos:
+    self_: 0.465
+    persona: 0.154
+    sombra: 0.289
+    anima_animus: 0.402
+    heroe: 0.383
+    sabio: 0.266
+    trickster: 0.316
+    madre: 0.504
+    padre: 0.329
+    nino_divino: 0.882
+    gobernante: 0.173
+    rebelde: 0.413
+  big_five:
+    apertura: 0.778
+    responsabilidad: 0.485
+    extraversion: 0.341
+    amabilidad: 0.77
+    neuroticismo: 0.334
+- id: nephele
+  nombre: Nephele
+  edad: 52
+  sexo: F
+  rol: explorador
+  posicion:
+  - 27
+  - 38
+  arquetipos:
+    self_: 0.43
+    persona: 0.254
+    sombra: 0.251
+    anima_animus: 0.549
+    heroe: 0.168
+    sabio: 0.324
+    trickster: 0.215
+    madre: 0.835
+    padre: 0.307
+    nino_divino: 0.397
+    gobernante: 0.354
+    rebelde: 0.186
+  big_five:
+    apertura: 0.582
+    responsabilidad: 0.831
+    extraversion: 0.498
+    amabilidad: 0.717
+    neuroticismo: 0.201
+- id: damon
+  nombre: Damon
+  edad: 25
+  sexo: M
+  rol: generico
+  posicion:
+  - 51
+  - 22
+  arquetipos:
+    self_: 0.167
+    persona: 0.36
+    sombra: 0.095
+    anima_animus: 0.274
+    heroe: 0.845
+    sabio: 0.397
+    trickster: 0.204
+    madre: 0.161
+    padre: 0.516
+    nino_divino: 0.417
+    gobernante: 0.521
+    rebelde: 0.297
+  big_five:
+    apertura: 0.648
+    responsabilidad: 0.867
+    extraversion: 0.744
+    amabilidad: 0.611
+    neuroticismo: 0.327
+- id: exan
+  nombre: Exan
+  edad: 21
+  sexo: M
+  rol: generico
+  posicion:
+  - 51
+  - 29
+  arquetipos:
+    self_: 0.268
+    persona: 0.258
+    sombra: 0.132
+    anima_animus: 0.269
+    heroe: 0.903
+    sabio: 0.365
+    trickster: 0.2
+    madre: 0.337
+    padre: 0.378
+    nino_divino: 0.222
+    gobernante: 0.629
+    rebelde: 0.172
+  big_five:
+    apertura: 0.584
+    responsabilidad: 0.784
+    extraversion: 0.764
+    amabilidad: 0.549
+    neuroticismo: 0.291
+- id: phoibos
+  nombre: Phoibos
+  edad: 32
+  sexo: M
+  rol: generico
+  posicion:
+  - 35
+  - 32
+  arquetipos:
+    self_: 0.443
+    persona: 0.395
+    sombra: 0.466
+    anima_animus: 0.375
+    heroe: 0.291
+    sabio: 0.515
+    trickster: 0.375
+    madre: 0.55
+    padre: 0.354
+    nino_divino: 0.545
+    gobernante: 0.536
+    rebelde: 0.3
+  big_five:
+    apertura: 0.581
+    responsabilidad: 0.537
+    extraversion: 0.469
+    amabilidad: 0.633
+    neuroticismo: 0.32
+- id: galatia
+  nombre: Galatia
+  edad: 23
+  sexo: F
+  rol: guardian
+  posicion:
+  - 53
+  - 37
+  arquetipos:
+    self_: 0.463
+    persona: 0.398
+    sombra: 0.314
+    anima_animus: 0.344
+    heroe: 0.454
+    sabio: 0.378
+    trickster: 0.536
+    madre: 0.289
+    padre: 0.321
+    nino_divino: 0.401
+    gobernante: 0.38
+    rebelde: 0.4
+  big_five:
+    apertura: 0.584
+    responsabilidad: 0.598
+    extraversion: 0.479
+    amabilidad: 0.645
+    neuroticismo: 0.388
+- id: uritha
+  nombre: Uritha
+  edad: 23
+  sexo: F
+  rol: explorador
+  posicion:
+  - 49
+  - 23
+  arquetipos:
+    self_: 0.6
+    persona: 0.285
+    sombra: 0.254
+    anima_animus: 0.507
+    heroe: 0.22
+    sabio: 0.362
+    trickster: 0.27
+    madre: 0.899
+    padre: 0.397
+    nino_divino: 0.419
+    gobernante: 0.283
+    rebelde: 0.183
+  big_five:
+    apertura: 0.666
+    responsabilidad: 0.719
+    extraversion: 0.641
+    amabilidad: 0.775
+    neuroticismo: 0.37
+- id: calyce
+  nombre: Calyce
+  edad: 34
+  sexo: F
+  rol: guardian
+  posicion:
+  - 47
+  - 29
+  arquetipos:
+    self_: 0.472
+    persona: 0.428
+    sombra: 0.358
+    anima_animus: 0.361
+    heroe: 0.323
+    sabio: 0.472
+    trickster: 0.469
+    madre: 0.327
+    padre: 0.378
+    nino_divino: 0.341
+    gobernante: 0.546
+    rebelde: 0.494
+  big_five:
+    apertura: 0.606
+    responsabilidad: 0.587
+    extraversion: 0.601
+    amabilidad: 0.541
+    neuroticismo: 0.49
+- id: creon
+  nombre: Creon
+  edad: 38
+  sexo: M
+  rol: generico
+  posicion:
+  - 45
+  - 20
+  arquetipos:
+    self_: 0.675
+    persona: 0.474
+    sombra: 0.344
+    anima_animus: 0.439
+    heroe: 0.261
+    sabio: 0.888
+    trickster: 0.305
+    madre: 0.184
+    padre: 0.236
+    nino_divino: 0.41
+    gobernante: 0.29
+    rebelde: 0.185
+  big_five:
+    apertura: 0.935
+    responsabilidad: 0.762
+    extraversion: 0.342
+    amabilidad: 0.648
+    neuroticismo: 0.157
+- id: bron
+  nombre: Bron
+  edad: 46
+  sexo: M
+  rol: cazador
+  posicion:
+  - 53
+  - 19
+  arquetipos:
+    self_: 0.504
+    persona: 0.42
+    sombra: 0.362
+    anima_animus: 0.324
+    heroe: 0.532
+    sabio: 0.341
+    trickster: 0.536
+    madre: 0.42
+    padre: 0.357
+    nino_divino: 0.301
+    gobernante: 0.333
+    rebelde: 0.538
+  big_five:
+    apertura: 0.535
+    responsabilidad: 0.677
+    extraversion: 0.497
+    amabilidad: 0.58
+    neuroticismo: 0.361
+- id: erytheis
+  nombre: Erytheis
+  edad: 31
+  sexo: F
+  rol: recolector
+  posicion:
+  - 31
+  - 39
+  arquetipos:
+    self_: 0.388
+    persona: 0.319
+    sombra: 0.394
+    anima_animus: 0.479
+    heroe: 0.161
+    sabio: 0.496
+    trickster: 0.383
+    madre: 0.978
+    padre: 0.358
+    nino_divino: 0.491
+    gobernante: 0.221
+    rebelde: 0.207
+  big_five:
+    apertura: 0.533
+    responsabilidad: 0.737
+    extraversion: 0.724
+    amabilidad: 0.848
+    neuroticismo: 0.184
+- id: yaron
+  nombre: Yaron
+  edad: 29
+  sexo: M
+  rol: guardian
+  posicion:
+  - 51
+  - 39
+  arquetipos:
+    self_: 0.26
+    persona: 0.272
+    sombra: 0.226
+    anima_animus: 0.336
+    heroe: 0.884
+    sabio: 0.432
+    trickster: 0.275
+    madre: 0.242
+    padre: 0.524
+    nino_divino: 0.236
+    gobernante: 0.644
+    rebelde: 0.417
+  big_five:
+    apertura: 0.61
+    responsabilidad: 0.808
+    extraversion: 0.726
+    amabilidad: 0.466
+    neuroticismo: 0.341
+- id: hector
+  nombre: Hector
+  edad: 42
+  sexo: M
+  rol: generico
+  posicion:
+  - 33
+  - 22
+  arquetipos:
+    self_: 0.306
+    persona: 0.358
+    sombra: 0.384
+    anima_animus: 0.446
+    heroe: 0.347
+    sabio: 0.514
+    trickster: 0.323
+    madre: 0.368
+    padre: 0.436
+    nino_divino: 0.364
+    gobernante: 0.486
+    rebelde: 0.415
+  big_five:
+    apertura: 0.582
+    responsabilidad: 0.498
+    extraversion: 0.512
+    amabilidad: 0.595
+    neuroticismo: 0.434
+- id: velia
+  nombre: Velia
+  edad: 46
+  sexo: F
+  rol: recolector
+  posicion:
+  - 40
+  - 25
+  arquetipos:
+    self_: 0.208
+    persona: 0.245
+    sombra: 0.587
+    anima_animus: 0.472
+    heroe: 0.445
+    sabio: 0.277
+    trickster: 0.361
+    madre: 0.295
+    padre: 0.379
+    nino_divino: 0.266
+    gobernante: 0.388
+    rebelde: 0.836
+  big_five:
+    apertura: 0.662
+    responsabilidad: 0.303
+    extraversion: 0.673
+    amabilidad: 0.338
+    neuroticismo: 0.53
+- id: karis
+  nombre: Karis
+  edad: 18
+  sexo: F
+  rol: guardian
+  posicion:
+  - 38
+  - 34
+  arquetipos:
+    self_: 0.402
+    persona: 0.428
+    sombra: 0.503
+    anima_animus: 0.448
+    heroe: 0.445
+    sabio: 0.315
+    trickster: 0.306
+    madre: 0.381
+    padre: 0.546
+    nino_divino: 0.431
+    gobernante: 0.379
+    rebelde: 0.319
+  big_five:
+    apertura: 0.493
+    responsabilidad: 0.537
+    extraversion: 0.539
+    amabilidad: 0.605
+    neuroticismo: 0.391
+- id: daphne
+  nombre: Daphne
+  edad: 39
+  sexo: F
+  rol: generico
+  posicion:
+  - 45
+  - 34
+  arquetipos:
+    self_: 0.188
+    persona: 0.445
+    sombra: 0.398
+    anima_animus: 0.256
+    heroe: 0.478
+    sabio: 0.316
+    trickster: 0.378
+    madre: 0.31
+    padre: 0.548
+    nino_divino: 0.282
+    gobernante: 0.877
+    rebelde: 0.302
+  big_five:
+    apertura: 0.487
+    responsabilidad: 0.852
+    extraversion: 0.684
+    amabilidad: 0.549
+    neuroticismo: 0.228
+- id: tainis
+  nombre: Tainis
+  edad: 15
+  sexo: F
+  rol: generico
+  posicion:
+  - 45
+  - 33
+  arquetipos:
+    self_: 0.352
+    persona: 0.457
+    sombra: 0.542
+    anima_animus: 0.436
+    heroe: 0.341
+    sabio: 0.294
+    trickster: 0.41
+    madre: 0.422
+    padre: 0.475
+    nino_divino: 0.489
+    gobernante: 0.383
+    rebelde: 0.502
+  big_five:
+    apertura: 0.58
+    responsabilidad: 0.584
+    extraversion: 0.611
+    amabilidad: 0.586
+    neuroticismo: 0.377
+- id: eudora
+  nombre: Eudora
+  edad: 50
+  sexo: F
+  rol: recolector
+  posicion:
+  - 36
+  - 31
+  arquetipos:
+    self_: 0.503
+    persona: 0.261
+    sombra: 0.359
+    anima_animus: 0.625
+    heroe: 0.399
+    sabio: 0.448
+    trickster: 0.167
+    madre: 0.78
+    padre: 0.187
+    nino_divino: 0.434
+    gobernante: 0.329
+    rebelde: 0.292
+  big_five:
+    apertura: 0.68
+    responsabilidad: 0.763
+    extraversion: 0.62
+    amabilidad: 0.875
+    neuroticismo: 0.246
+- id: xeron
+  nombre: Xeron
+  edad: 30
+  sexo: M
+  rol: generico
+  posicion:
+  - 45
+  - 33
+  arquetipos:
+    self_: 0.332
+    persona: 0.347
+    sombra: 0.431
+    anima_animus: 0.341
+    heroe: 0.543
+    sabio: 0.36
+    trickster: 0.358
+    madre: 0.336
+    padre: 0.47
+    nino_divino: 0.366
+    gobernante: 0.374
+    rebelde: 0.532
+  big_five:
+    apertura: 0.566
+    responsabilidad: 0.526
+    extraversion: 0.596
+    amabilidad: 0.673
+    neuroticismo: 0.277
+- id: ysolde
+  nombre: Ysolde
+  edad: 23
+  sexo: F
+  rol: recolector
+  posicion:
+  - 35
+  - 19
+  arquetipos:
+    self_: 0.358
+    persona: 0.473
+    sombra: 0.374
+    anima_animus: 0.399
+    heroe: 0.349
+    sabio: 0.409
+    trickster: 0.335
+    madre: 0.425
+    padre: 0.532
+    nino_divino: 0.468
+    gobernante: 0.317
+    rebelde: 0.446
+  big_five:
+    apertura: 0.684
+    responsabilidad: 0.535
+    extraversion: 0.493
+    amabilidad: 0.558
+    neuroticismo: 0.345
+- id: brenna
+  nombre: Brenna
+  edad: 17
+  sexo: F
+  rol: guardian
+  posicion:
+  - 29
+  - 31
+  arquetipos:
+    self_: 0.369
+    persona: 0.408
+    sombra: 0.464
+    anima_animus: 0.317
+    heroe: 0.54
+    sabio: 0.544
+    trickster: 0.323
+    madre: 0.456
+    padre: 0.518
+    nino_divino: 0.408
+    gobernante: 0.456
+    rebelde: 0.484
+  big_five:
+    apertura: 0.537
+    responsabilidad: 0.636
+    extraversion: 0.632
+    amabilidad: 0.644
+    neuroticismo: 0.391
+- id: zephyra
+  nombre: Zephyra
+  edad: 8
+  sexo: F
+  rol: generico
+  posicion:
+  - 31
+  - 31
+  arquetipos:
+    self_: 0.444
+    persona: 0.388
+    sombra: 0.197
+    anima_animus: 0.58
+    heroe: 0.251
+    sabio: 0.257
+    trickster: 0.284
+    madre: 0.642
+    padre: 0.4
+    nino_divino: 0.76
+    gobernante: 0.387
+    rebelde: 0.153
+  big_five:
+    apertura: 0.67
+    responsabilidad: 0.436
+    extraversion: 0.607
+    amabilidad: 0.774
+    neuroticismo: 0.487
+- id: festus
+  nombre: Festus
+  edad: 61
+  sexo: M
+  rol: recolector
+  posicion:
+  - 54
+  - 22
+  arquetipos:
+    self_: 0.38
+    persona: 0.495
+    sombra: 0.276
+    anima_animus: 0.202
+    heroe: 0.447
+    sabio: 0.473
+    trickster: 0.274
+    madre: 0.219
+    padre: 0.858
+    nino_divino: 0.364
+    gobernante: 0.71
+    rebelde: 0.303
+  big_five:
+    apertura: 0.502
+    responsabilidad: 0.777
+    extraversion: 0.642
+    amabilidad: 0.483
+    neuroticismo: 0.289
+- id: phoibe
+  nombre: Phoibe
+  edad: 27
+  sexo: F
+  rol: generico
+  posicion:
+  - 38
+  - 39
+  arquetipos:
+    self_: 0.386
+    persona: 0.176
+    sombra: 0.415
+    anima_animus: 0.411
+    heroe: 0.152
+    sabio: 0.4
+    trickster: 0.254
+    madre: 0.805
+    padre: 0.239
+    nino_divino: 0.436
+    gobernante: 0.307
+    rebelde: 0.305
+  big_five:
+    apertura: 0.615
+    responsabilidad: 0.846
+    extraversion: 0.589
+    amabilidad: 0.924
+    neuroticismo: 0.24
+- id: iambe
+  nombre: Iambe
+  edad: 33
+  sexo: F
+  rol: generico
+  posicion:
+  - 48
+  - 21
+  arquetipos:
+    self_: 0.452
+    persona: 0.534
+    sombra: 0.379
+    anima_animus: 0.34
+    heroe: 0.538
+    sabio: 0.409
+    trickster: 0.403
+    madre: 0.547
+    padre: 0.381
+    nino_divino: 0.47
+    gobernante: 0.526
+    rebelde: 0.484
+  big_five:
+    apertura: 0.559
+    responsabilidad: 0.622
+    extraversion: 0.396
+    amabilidad: 0.608
+    neuroticismo: 0.315
+- id: oinone
+  nombre: Oinone
+  edad: 19
+  sexo: F
+  rol: explorador
+  posicion:
+  - 42
+  - 32
+  arquetipos:
+    self_: 0.423
+    persona: 0.378
+    sombra: 0.528
+    anima_animus: 0.31
+    heroe: 0.504
+    sabio: 0.524
+    trickster: 0.335
+    madre: 0.425
+    padre: 0.324
+    nino_divino: 0.511
+    gobernante: 0.399
+    rebelde: 0.464
+  big_five:
+    apertura: 0.533
+    responsabilidad: 0.501
+    extraversion: 0.581
+    amabilidad: 0.555
+    neuroticismo: 0.455
+- id: xanthos
+  nombre: Xanthos
+  edad: 50
+  sexo: M
+  rol: cazador
+  posicion:
+  - 27
+  - 35
+  arquetipos:
+    self_: 0.275
+    persona: 0.368
+    sombra: 0.261
+    anima_animus: 0.345
+    heroe: 0.762
+    sabio: 0.447
+    trickster: 0.351
+    madre: 0.306
+    padre: 0.503
+    nino_divino: 0.167
+    gobernante: 0.565
+    rebelde: 0.418
+  big_five:
+    apertura: 0.674
+    responsabilidad: 0.739
+    extraversion: 0.736
+    amabilidad: 0.543
+    neuroticismo: 0.199
+- id: persis
+  nombre: Persis
+  edad: 56
+  sexo: F
+  rol: generico
+  posicion:
+  - 37
+  - 30
+  arquetipos:
+    self_: 0.271
+    persona: 0.606
+    sombra: 0.401
+    anima_animus: 0.172
+    heroe: 0.471
+    sabio: 0.41
+    trickster: 0.386
+    madre: 0.186
+    padre: 0.639
+    nino_divino: 0.418
+    gobernante: 0.857
+    rebelde: 0.256
+  big_five:
+    apertura: 0.635
+    responsabilidad: 0.989
+    extraversion: 0.76
+    amabilidad: 0.419
+    neuroticismo: 0.357
+- id: malia
+  nombre: Malia
+  edad: 41
+  sexo: F
+  rol: generico
+  posicion:
+  - 43
+  - 30
+  arquetipos:
+    self_: 0.502
+    persona: 0.347
+    sombra: 0.373
+    anima_animus: 0.354
+    heroe: 0.533
+    sabio: 0.476
+    trickster: 0.31
+    madre: 0.499
+    padre: 0.393
+    nino_divino: 0.487
+    gobernante: 0.519
+    rebelde: 0.284
+  big_five:
+    apertura: 0.539
+    responsabilidad: 0.589
+    extraversion: 0.551
+    amabilidad: 0.692
+    neuroticismo: 0.44
+- id: neria
+  nombre: Neria
+  edad: 17
+  sexo: F
+  rol: cazador
+  posicion:
+  - 33
+  - 41
+  arquetipos:
+    self_: 0.162
+    persona: 0.211
+    sombra: 0.878
+    anima_animus: 0.354
+    heroe: 0.185
+    sabio: 0.418
+    trickster: 0.467
+    madre: 0.213
+    padre: 0.397
+    nino_divino: 0.306
+    gobernante: 0.306
+    rebelde: 0.436
+  big_five:
+    apertura: 0.292
+    responsabilidad: 0.312
+    extraversion: 0.523
+    amabilidad: 0.285
+    neuroticismo: 0.772
+- id: evander
+  nombre: Evander
+  edad: 31
+  sexo: M
+  rol: generico
+  posicion:
+  - 27
+  - 35
+  arquetipos:
+    self_: 0.536
+    persona: 0.518
+    sombra: 0.526
+    anima_animus: 0.449
+    heroe: 0.395
+    sabio: 0.414
+    trickster: 0.543
+    madre: 0.534
+    padre: 0.461
+    nino_divino: 0.492
+    gobernante: 0.366
+    rebelde: 0.392
+  big_five:
+    apertura: 0.59
+    responsabilidad: 0.635
+    extraversion: 0.522
+    amabilidad: 0.521
+    neuroticismo: 0.455
+- id: jora
+  nombre: Jora
+  edad: 43
+  sexo: F
+  rol: cazador
+  posicion:
+  - 27
+  - 35
+  arquetipos:
+    self_: 0.391
+    persona: 0.392
+    sombra: 0.423
+    anima_animus: 0.385
+    heroe: 0.349
+    sabio: 0.369
+    trickster: 0.301
+    madre: 0.401
+    padre: 0.38
+    nino_divino: 0.425
+    gobernante: 0.504
+    rebelde: 0.294
+  big_five:
+    apertura: 0.502
+    responsabilidad: 0.512
+    extraversion: 0.587
+    amabilidad: 0.626
+    neuroticismo: 0.427
+- id: heron
+  nombre: Heron
+  edad: 51
+  sexo: M
+  rol: cazador
+  posicion:
+  - 49
+  - 39
+  arquetipos:
+    self_: 0.301
+    persona: 0.16
+    sombra: 0.866
+    anima_animus: 0.24
+    heroe: 0.19
+    sabio: 0.403
+    trickster: 0.497
+    madre: 0.41
+    padre: 0.182
+    nino_divino: 0.42
+    gobernante: 0.279
+    rebelde: 0.424
+  big_five:
+    apertura: 0.515
+    responsabilidad: 0.344
+    extraversion: 0.529
+    amabilidad: 0.085
+    neuroticismo: 0.741
+- id: isidor
+  nombre: Isidor
+  edad: 38
+  sexo: M
+  rol: recolector
+  posicion:
+  - 40
+  - 35
+  arquetipos:
+    self_: 0.325
+    persona: 0.26
+    sombra: 0.903
+    anima_animus: 0.388
+    heroe: 0.074
+    sabio: 0.345
+    trickster: 0.523
+    madre: 0.356
+    padre: 0.236
+    nino_divino: 0.205
+    gobernante: 0.234
+    rebelde: 0.535
+  big_five:
+    apertura: 0.46
+    responsabilidad: 0.299
+    extraversion: 0.367
+    amabilidad: 0.112
+    neuroticismo: 0.75
+- id: ristos
+  nombre: Ristos
+  edad: 56
+  sexo: M
+  rol: generico
+  posicion:
+  - 35
+  - 22
+  arquetipos:
+    self_: 0.203
+    persona: 0.51
+    sombra: 0.216
+    anima_animus: 0.299
+    heroe: 0.497
+    sabio: 0.501
+    trickster: 0.356
+    madre: 0.282
+    padre: 0.801
+    nino_divino: 0.345
+    gobernante: 0.616
+    rebelde: 0.348
+  big_five:
+    apertura: 0.422
+    responsabilidad: 0.797
+    extraversion: 0.581
+    amabilidad: 0.557
+    neuroticismo: 0.237
+- id: hakon
+  nombre: Hakon
+  edad: 33
+  sexo: M
+  rol: recolector
+  posicion:
+  - 42
+  - 19
+  arquetipos:
+    self_: 0.377
+    persona: 0.599
+    sombra: 0.163
+    anima_animus: 0.152
+    heroe: 0.47
+    sabio: 0.505
+    trickster: 0.168
+    madre: 0.191
+    padre: 0.884
+    nino_divino: 0.209
+    gobernante: 0.6
+    rebelde: 0.322
+  big_five:
+    apertura: 0.507
+    responsabilidad: 0.961
+    extraversion: 0.488
+    amabilidad: 0.593
+    neuroticismo: 0.24
+- id: kimon
+  nombre: Kimon
+  edad: 56
+  sexo: M
+  rol: generico
+  posicion:
+  - 26
+  - 18
+  arquetipos:
+    self_: 0.293
+    persona: 0.474
+    sombra: 0.155
+    anima_animus: 0.37
+    heroe: 0.583
+    sabio: 0.4
+    trickster: 0.396
+    madre: 0.179
+    padre: 0.723
+    nino_divino: 0.176
+    gobernante: 0.643
+    rebelde: 0.292
+  big_five:
+    apertura: 0.537
+    responsabilidad: 0.842
+    extraversion: 0.499
+    amabilidad: 0.546
+    neuroticismo: 0.291
+- id: idris
+  nombre: Idris
+  edad: 39
+  sexo: M
+  rol: generico
+  posicion:
+  - 40
+  - 36
+  arquetipos:
+    self_: 0.346
+    persona: 0.468
+    sombra: 0.361
+    anima_animus: 0.504
+    heroe: 0.302
+    sabio: 0.548
+    trickster: 0.455
+    madre: 0.289
+    padre: 0.389
+    nino_divino: 0.382
+    gobernante: 0.409
+    rebelde: 0.452
+  big_five:
+    apertura: 0.542
+    responsabilidad: 0.552
+    extraversion: 0.577
+    amabilidad: 0.517
+    neuroticismo: 0.326
+- id: theron
+  nombre: Theron
+  edad: 20
+  sexo: M
+  rol: cazador
+  posicion:
+  - 54
+  - 34
+  arquetipos:
+    self_: 0.398
+    persona: 0.212
+    sombra: 0.394
+    anima_animus: 0.393
+    heroe: 0.822
+    sabio: 0.307
+    trickster: 0.223
+    madre: 0.4
+    padre: 0.431
+    nino_divino: 0.297
+    gobernante: 0.505
+    rebelde: 0.328
+  big_five:
+    apertura: 0.709
+    responsabilidad: 0.873
+    extraversion: 0.767
+    amabilidad: 0.555
+    neuroticismo: 0.38
+- id: pyrros
+  nombre: Pyrros
+  edad: 39
+  sexo: M
+  rol: explorador
+  posicion:
+  - 28
+  - 27
+  arquetipos:
+    self_: 0.194
+    persona: 0.368
+    sombra: 0.857
+    anima_animus: 0.255
+    heroe: 0.294
+    sabio: 0.392
+    trickster: 0.451
+    madre: 0.188
+    padre: 0.417
+    nino_divino: 0.346
+    gobernante: 0.285
+    rebelde: 0.508
+  big_five:
+    apertura: 0.443
+    responsabilidad: 0.296
+    extraversion: 0.257
+    amabilidad: 0.251
+    neuroticismo: 0.715
+- id: perion
+  nombre: Perion
+  edad: 52
+  sexo: M
+  rol: cazador
+  posicion:
+  - 38
+  - 42
+  arquetipos:
+    self_: 0.368
+    persona: 0.451
+    sombra: 0.492
+    anima_animus: 0.402
+    heroe: 0.342
+    sabio: 0.429
+    trickster: 0.381
+    madre: 0.33
+    padre: 0.438
+    nino_divino: 0.383
+    gobernante: 0.488
+    rebelde: 0.36
+  big_five:
+    apertura: 0.651
+    responsabilidad: 0.581
+    extraversion: 0.547
+    amabilidad: 0.592
+    neuroticismo: 0.488

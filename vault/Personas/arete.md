@@ -6,9 +6,9 @@ edad: 30
 sexo: F
 is_alive: True
 posicion: [52, 30]
-humor: 0.923
+humor: 0.924
 energia: 0.592
-ansiedad: 0.249
+ansiedad: 0.248
 needs:
   hambre: 0.044
   fatiga: 0.415

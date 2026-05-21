@@ -19,7 +19,9 @@
       "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\\\\test_simulation.py::TestSimulationRunnerNewSession::test_snapshots_guardados_en_db\" -x -q)",
       "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\" -q)",
       "Bash(python -m pytest tests/test_metrics.py -v)",
-      "Bash(python -m pytest --tb=short -q)"
+      "Bash(python -m pytest --tb=short -q)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Copy-Item *)"
     ]
   }
 }

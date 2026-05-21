@@ -26,7 +26,8 @@ DB_PATH         = ROOT / "data" / "db" / "simulation.db"
 CHECKPOINTS_DIR = ROOT / "data" / "checkpoints"
 ARCHIVE_DIR     = ROOT / "data" / "archive"
 VAULT_DIR       = ROOT / "vault"
-SEEDS_FILE      = ROOT / "data" / "seeds" / "initial_personas.yaml"
+SEEDS_DIR       = ROOT / "data" / "seeds"
+SEEDS_FILE      = SEEDS_DIR / "initial_personas.yaml"
 VISUALIZER      = ROOT / "scripts" / "visualizer.py"
 DASHBOARD       = ROOT / "dashboard" / "app.py"
 
@@ -105,6 +106,44 @@ def _archive(state: dict) -> Path:
 
 
 # ── Helpers de UI ─────────────────────────────────────────────────────────────
+
+def _count_agents(yaml_path: Path) -> int:
+    """Devuelve el número de agentes en un archivo YAML de semillas."""
+    try:
+        import yaml as _yaml
+        with open(yaml_path, encoding="utf-8") as f:
+            data = _yaml.safe_load(f)
+        return len(data.get("agents", []))
+    except Exception:
+        return 0
+
+
+def _select_seeds_file(console: Console) -> Path:
+    """Muestra los archivos de semillas disponibles y devuelve el elegido."""
+    candidates = sorted(SEEDS_DIR.glob("*.yaml"))
+    if not candidates:
+        return SEEDS_FILE
+    if len(candidates) == 1:
+        return candidates[0]
+
+    console.print("\n[bold]Archivos de semillas disponibles:[/bold]")
+    t = Table(box=box.SIMPLE, show_header=False, padding=(0, 1))
+    t.add_column(style="bold cyan", width=4)
+    t.add_column()
+    t.add_column(style="dim")
+    for i, f in enumerate(candidates):
+        n = _count_agents(f)
+        t.add_row(f"[{i + 1}]", f.name, f"{n} agentes")
+    console.print(t)
+
+    choice = Prompt.ask(
+        "Seleccionar semillas",
+        choices=[str(i + 1) for i in range(len(candidates))],
+        default="1",
+        console=console,
+    )
+    return candidates[int(choice) - 1]
+
 
 def _ask_days(console: Console, default: str = "0") -> int | None:
     """Devuelve None para 'hasta extinción', o el número de días."""
@@ -206,6 +245,9 @@ def _action_new(console: Console, state: dict | None) -> None:
         archive_path = _archive(state)
         console.print(f"[green]Archivada en:[/green] {archive_path.relative_to(ROOT)}\n")
 
+    seeds_path = _select_seeds_file(console)
+    console.print(f"[dim]Semillas: {seeds_path.name}[/dim]")
+
     raw_seed = Prompt.ask("Semilla aleatoria", default="42", console=console)
     try:
         seed = int(raw_seed)
@@ -217,7 +259,7 @@ def _action_new(console: Console, state: dict | None) -> None:
 
     from core.simulation import SimulationRunner
     runner = SimulationRunner.new_session(
-        seed_file      = str(SEEDS_FILE),
+        seed_file      = str(seeds_path),
         seed           = seed,
         db_path        = str(DB_PATH),
         checkpoint_dir = str(CHECKPOINTS_DIR),

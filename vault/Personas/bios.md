@@ -6,9 +6,9 @@ edad: 34
 sexo: M
 is_alive: True
 posicion: [41, 17]
-humor: 0.855
-energia: 0.663
-ansiedad: 0.312
+humor: 0.844
+energia: 0.662
+ansiedad: 0.329
 needs:
   hambre: 0.104
   fatiga: 0.335
@@ -42,9 +42,9 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.31 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.33 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |

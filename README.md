@@ -2,26 +2,22 @@
 
 Laboratorio computacional de emergencia del inconsciente colectivo.
 
-Un sistema de simulación de agentes (ABM) donde 100+ individuos psicológicamente
-complejos interactúan en un mundo físico real, generando jerarquías, símbolos,
-tabúes, mitos y rituales sin que ninguno de estos fenómenos esté programado.
-El inconsciente colectivo emerge — no se construye.
+Un sistema ABM (Agent-Based Model) donde 100 individuos psicológicamente complejos interactúan en un mundo físico real, generando jerarquías, tribus, símbolos, tabúes, mitos, estructuras culturales y leyendas sin que ninguno de estos fenómenos esté programado directamente.
+
+**El inconsciente colectivo emerge — no se construye.**
 
 ---
 
 ## Concepto
 
-Cada agente carga un vector arquetípico jungiano (12 arquetipos), rasgos
-dimensionales (Big Five + clínico), complejos activables por contexto, memoria
-episódica, sueños y vínculos sociales. Sus interacciones alimentan un campo
-colectivo que acumula carga simbólica. Cuando esa carga supera un umbral,
-cristaliza en proto-mitos con efectos conductuales reales sobre el grupo.
+Cada agente carga un vector arquetípico jungiano (12 arquetipos), rasgos dimensionales (Big Five + clínico), complejos activables, memoria episódica, sueños y vínculos sociales. Sus interacciones alimentan campos colectivos que acumulan carga simbólica. Cuando esa carga supera umbrales, cristaliza en proto-mitos con efectos conductuales reales. Las tribus que emergen desarrollan culturas materiales distintas y divergen psicológicamente a lo largo del tiempo.
 
 El experimento busca responder:
 - ¿Cuándo emerge el primer mito?
 - ¿El tabú del incesto aparece antes o después del primer mito?
 - ¿El héroe emerge del poder o de la narrativa?
 - ¿La cooperación o la jerarquía aparece primero?
+- ¿Cuánto tarda una tribu en desarrollar una identidad arquetípica diferenciable de otra?
 
 ---
 
@@ -32,48 +28,114 @@ El experimento busca responder:
   Perfiles vivos          ABM tick-based         Visualización del
   Red simbólica           Lógica psico-social     inconsciente colectivo
   Narrativa emergente     Mecánicas cuánticas
+  Leyendas tribales       Tribus + Mitología
 ```
 
 ### Dos núcleos sincrónicos
 
 ```
-SimulationClock (entidad independiente)
+SimulationClock (tick = 1 hora simulada)
         │
-        ├─── priority=10 ──> WorldCore   (Núcleo 1: mundo físico)
-        │                    Clima, terreno, fauna, recursos
-        │                    No conoce la psicología
+        ├─── priority=10 ──> WorldCore   (mundo físico)
+        │                    Clima, terreno hexagonal, fauna, recursos, fuego
         │
-        └─── priority=20 ──> AgentCore  (Núcleo 2: agentes)
-                             Psicología, decisiones, interacciones
-                             No modifica el mundo directamente
+        └─── priority=20 ──> AgentCore   (agentes)
+                             Psicología, decisiones cuánticas, interacciones
+                             Tribus, cultura material, narrativa LLM
 ```
 
-**Ciclo de un tick (1 hora simulada):**
+**Ciclo de un día simulado (24 ticks):**
 1. `WorldCore` actualiza clima, recursos, fauna → produce `WorldSnapshot`
-2. `AgentCore` lee el snapshot → cada agente decide → produce lista de `WorldAction`
-3. Las acciones se aplican al mundo para el tick siguiente
-4. Persistencia a SQLite + checkpoints
+2. `AgentCore` lee el snapshot → cada agente colapsa estado cuántico → interacciones zonales
+3. Al final del día: clustering tribal, construcción de estructuras, síntesis narrativa
+4. Persistencia a SQLite + checkpoints JSON + vault Obsidian
 
 ### Cuatro capas del agente
 
 | Capa | Contenido |
 |------|-----------|
-| Biológica | hambre, fatiga, salud, edad |
-| Psicológica | 12 arquetipos, 6 complejos, Big Five, estado emocional, memoria episódica |
-| Social | vínculos (grafo NetworkX), rol, status, deudas |
-| Simbólica | carga de campo, proto-símbolos, sueños, herencia simbólica |
+| Biológica | hambre, fatiga, sed, salud, edad, reproducción |
+| Psicológica | 12 arquetipos jungianos, 6 complejos, Big Five + 9 rasgos clínicos, sueños, memoria episódica |
+| Social | vínculos (grafo NetworkX), rol, deudas simbólicas, tribu |
+| Simbólica | carga de campo colectivo, proto-símbolos, herencia cultural |
 
 ---
 
-## Escala temporal (beta)
+## Sistemas implementados
+
+### Mundo físico
+- **TerrainGrid** — grilla hexagonal 80×60 con 12 biomas (bosque, pradera, río, montaña, sabana, pantano, cueva, valle fértil, costa, desierto, colinas, lago)
+- **ClimateSystem** — temperatura, precipitación, luminosidad, viento, eventos climáticos estacionales
+- **ResourceSystem** — recursos por hex con regeneración estacional
+- **FaunaSystem** — densidad con comportamiento estacional
+- **FireSystem** — propagación, decaimiento, efecto del clima
+
+### Psicología de agentes
+- **ArchetypeVector** — 12 pesos jungianos independientes (0→1): self, persona, sombra, anima/animus, héroe, sabio, trickster, madre, padre, niño divino, gobernante, rebelde
+- **ComplexProfile** — 6 complejos activables por umbral contextual: inferioridad, abandono, poder, culpa, materno, trascendencia
+- **TraitProfile** — Big Five + 9 dimensiones clínicas (ansiedad, impulsividad, disociación, empatía, paranoia, narcisismo, agresividad, etc.)
+- **DreamEngine** — procesamiento onírico nocturno con tabla de 25 símbolos y deltas arquetípicos
+
+### Mecánica cuántica de decisión
+- **BehavioralSuperposition** — vector de probabilidades conductuales (cooperar, competir, aislar, manipular)
+- **CollapseEngine** — colapso modulado por arquetipos, complejos, campo colectivo y entrelazamiento social
+
+### Sistemas sociales
+- **SocialNetwork** — grafo NetworkX con `bond_strength` ∈ [-1, 1], entrelazamiento cuántico termodinámico
+- **InteractionEngine** — encuentros zonales: cooperación pura, conflicto/explotación, choque violento, manipulación
+- **CollectiveField** — inconsciente colectivo global: símbolos (héroe, sombra, muerte, fuego, comida, trickster, madre), presión emocional, decaimiento diario
+- **MythologyEngine** — cristalización del mito "Héroe vs Monstruo" cuando el campo supera umbrales; retroalimenta conducta
+
+### Tribus y divergencia cultural
+- **TribeManager** — clustering via `greedy_modularity_communities` (NetworkX) cada 30 días
+- **CollectiveField local** — cada tribu tiene su propio inconsciente colectivo (ICL)
+- **MythologyEngine local** — mitos independientes por tribu
+- **Deriva por bioma** — 0.001/día de push hacia arquetipos del bioma habitado (12 biomas × afinidades)
+
+### Cultura material
+- **CultureEngine** — 4 tipos de estructuras con auras psicológicas:
+  - **Tótem** — radio 2, impulsa gobernante, permanente
+  - **Altar** — radio 2, reduce ansiedad, impulsa sabio/self, permanente
+  - **Muralla** — radio 1, tensa a forasteros (+0.025 ansiedad), permanente
+  - **Hoguera** — radio 3, mejora humor, impulsa madre, dura 30 días
+- Triggers basados en complejos y arquetipos tribales dominantes
+- Cooldown de 50 días entre construcciones por tribu
+
+### Narrativa con LLM
+- **NarratorEngine** — daemon en background procesando cola de eventos narrativos
+- 4 tipos de leyendas generadas con Ollama (llama3.2 u otro modelo local):
+  - **Mito fundacional** — al formarse una nueva tribu
+  - **Crónica** — cada 100 días por tribu
+  - **Elegía** — por muertes con arquetipo dominante ≥ 0.70
+  - **Profecía** — al cristalizar un nuevo mito
+- Fallback con plantillas si Ollama no está disponible
+- Deduplicación por archivo y por sesión; persistencia entre reinicios
+
+### Métricas de emergencia científica
+- **KL Divergencia** — divergencia psicológica entre culturas tribales
+- **VFE proxy** — entropía del campo colectivo (incertidumbre del inconsciente)
+- **IMI** — fracción de varianza arquetípica explicada por membresía tribal (0 = no hay divergencia, 1 = identidades tribales perfectas)
+- Exportación automática a `data/metrics/emergence_series.csv` y `emergence_summary.json`
+- `scripts/run_robustness.py` — suite de N ejecuciones con semillas distintas
+
+### Persistencia y observabilidad
+- **SQLite** (WAL) — snapshots de agentes, clima, escenario, muertes, sesiones
+- **CheckpointManager** — guardado atómico JSON cada 10 días + al apagar
+- **Obsidian Vault** — sincronización diaria: `vault/Personas/`, `vault/Colectivo/`, `vault/Tribus/`, `vault/Colectivo/Leyendas/`
+- **Dashboard Streamlit** — red social, campo colectivo, inspector de agentes (solo lectura, corre en paralelo)
+- **Visualizador Pygame** — mapa hexagonal en tiempo real con zoom y panning
+
+---
+
+## Escala temporal
 
 ```
 1 tick      = 1 hora simulada
 1 día       = 24 ticks
-1 min real  = 1 día simulado
-1 hora real = ~60 días simulados (~2 meses)
+~1 min real = 1 día simulado (a máxima velocidad headless)
+~1 hora real = ~60 días simulados
 
-Sesión de 2h → 120 días simulados (~4 meses de vida del grupo)
+Sesión nocturna de 8h → ~480 días simulados (> 1 año de vida del grupo)
 ```
 
 ---
@@ -83,272 +145,238 @@ Sesión de 2h → 120 días simulados (~4 meses de vida del grupo)
 ```
 PSYCHE SIMULACRA/
 │
-├── core/                          # Motor central
+├── core/
 │   ├── time/
-│   │   └── simulation_clock.py   # ✅ SimulationClock, TimePoint, ClockState
+│   │   └── simulation_clock.py        SimulationClock, TimePoint
 │   ├── interface/
-│   │   ├── world_action.py       # ✅ WorldAction, ActionType
-│   │   ├── world_snapshot.py     # ✅ WorldSnapshot (inmutable)
-│   │   └── action_result.py      # ✅ ActionResult
-│   ├── world/                    # Núcleo 1 — El mundo físico
-│   │   ├── climate.py            # ✅ ClimateSystem
-│   │   ├── terrain.py            # ✅ TerrainGrid hexagonal 80×60
-│   │   ├── resources.py          # ✅ ResourceSystem
-│   │   ├── fauna.py              # ✅ FaunaSystem
-│   │   ├── fire.py               # ✅ FireSystem
-│   │   └── world_core.py         # ✅ WorldCore (orquestador)
-│   ├── agents/                   # Núcleo 2 — Los agentes
-│   │   ├── agent.py              # ✅ Agent (capa biológica activa)
-│   │   ├── needs.py              # ✅ NeedsSystem
-│   │   ├── schedule.py           # ✅ ScheduleSystem
-│   │   ├── agent_core.py         # ✅ AgentCore (orquestador)
+│   │   ├── world_action.py
+│   │   ├── world_snapshot.py
+│   │   └── action_result.py
+│   ├── world/
+│   │   ├── climate.py                 ClimateSystem
+│   │   ├── terrain.py                 TerrainGrid hexagonal 80x60
+│   │   ├── resources.py               ResourceSystem
+│   │   ├── fauna.py                   FaunaSystem
+│   │   ├── fire.py                    FireSystem
+│   │   ├── culture_engine.py          CultureEngine (estructuras + auras)
+│   │   └── world_core.py              WorldCore (orquestador)
+│   ├── agents/
+│   │   ├── agent.py                   Agent (4 capas)
+│   │   ├── needs.py                   NeedsSystem
+│   │   ├── schedule.py                ScheduleSystem
+│   │   ├── agent_core.py              AgentCore (orquestador)
 │   │   ├── psyche/
-│   │   │   ├── archetypes.py     # ✅ Vectores arquetípicos
-│   │   │   ├── complexes.py      # ✅ Complejos jungianos
-│   │   │   ├── traits.py         # ✅ Big Five + clínico
-│   │   │   ├── dreams.py         # ✅ DreamEngine
-│   │   │   └── individuation.py  # ⏳ Transformación arquetípica
+│   │   │   ├── archetypes.py          ArchetypeVector (12 jungianos)
+│   │   │   ├── complexes.py           ComplexProfile (6 complejos)
+│   │   │   ├── traits.py              TraitProfile (Big Five + clinico)
+│   │   │   └── dreams.py              DreamEngine
 │   │   └── quantum/
-│   │       ├── superposition.py  # ✅ Estados conductuales
-│   │       ├── collapse.py       # ✅ Colapso por contexto
-│   │       └── entanglement.py   # ⏳ Entrelazamiento social
+│   │       ├── superposition.py       BehavioralSuperposition
+│   │       └── collapse.py            CollapseEngine
 │   ├── social/
-│   │   ├── interaction.py        # ✅ InteractionEngine
-│   │   ├── network.py            # ✅ SocialNetwork (NetworkX)
-│   │   ├── collective_field.py   # ✅ CollectiveField
-│   │   └── mythology.py          # ✅ MythologyEngine
-│   └── simulation.py             # ✅ SimulationRunner
+│   │   ├── interaction.py             InteractionEngine
+│   │   ├── network.py                 SocialNetwork (NetworkX)
+│   │   ├── collective_field.py        CollectiveField
+│   │   ├── mythology.py               MythologyEngine
+│   │   └── tribe_manager.py           TribeManager + ICL local
+│   ├── narrative/
+│   │   ├── config.py                  OLLAMA_BASE_URL, modelo, flags
+│   │   ├── ollama_client.py           Cliente HTTP sin dependencias externas
+│   │   ├── prompts.py                 4 constructores de prompt en espanol
+│   │   └── narrator.py               NarratorEngine (daemon background)
+│   ├── metrics/
+│   │   ├── emergence.py              EmergenceMetrics (KL, VFE, IMI)
+│   │   └── exporter.py               MetricsExporter (CSV + JSON)
+│   └── simulation.py                 SimulationRunner (orquestador principal)
 │
-├── persistence/                   # Capa de datos
-│   ├── database.py               # ✅ DatabaseManager (SQLite)
-│   ├── checkpoint.py             # ✅ CheckpointManager
-│   ├── write_buffer.py           # ✅ WriteBuffer
-│   └── session_log.py            # ✅ SessionLog
+├── persistence/
+│   ├── database.py                   DatabaseManager (SQLite WAL)
+│   ├── checkpoint.py                 CheckpointManager
+│   ├── write_buffer.py               WriteBuffer (batching)
+│   └── session_log.py                SessionLog
 │
-├── obsidian/                      # Integración con Obsidian
-│   ├── reader.py                 # ✅ Lee frontmatter YAML
-│   ├── writer.py                 # ✅ Escribe estado del agente
-│   └── sync.py                   # ✅ Sincronización bidireccional
+├── obsidian/
+│   ├── reader.py                     Lee frontmatter YAML
+│   ├── writer.py                     Escribe Personas, Tribus, Colectivo
+│   └── sync.py                       Sincronizacion bidireccional
 │
-├── dashboard/                     # Visualización (Streamlit)
-│   ├── app.py                    # ✅
+├── dashboard/
+│   ├── app.py                        Streamlit (solo lectura)
 │   └── components/
-│       ├── network_graph.py      # ✅
-│       ├── collective_field.py   # ✅
-│       └── agent_inspector.py    # ✅
+│       ├── network_graph.py
+│       ├── collective_field.py
+│       └── agent_inspector.py
 │
-├── vault/                         # Vault de Obsidian
-│   ├── Personas/                 # Perfil de cada agente
-│   ├── Colectivo/                # Campo memético, eventos, mitología
-│   └── Meta/                     # Log de simulación, arquetipos activos
+├── vault/                            Vault de Obsidian (generado en runtime)
+│   ├── Personas/                     Un .md por agente
+│   ├── Colectivo/                    Campo, mitologia, cultura material
+│   │   └── Leyendas/                 Narrativa generada por LLM
+│   ├── Tribus/                       Un .md por tribu
+│   └── Meta/                         Log de simulacion
 │
 ├── data/
-│   ├── db/simulation.db          # ✅ Historial SQLite
-│   ├── checkpoints/              # ✅ Estados guardados
+│   ├── db/simulation.db              Historial SQLite completo
+│   ├── checkpoints/                  Estados JSON guardados
+│   ├── metrics/                      Series temporales de emergencia
+│   │   ├── emergence_series.csv
+│   │   └── emergence_summary.json
+│   ├── archive/                      Simulaciones completadas
 │   └── seeds/
-│       └── initial_personas.yaml # ✅ 15 agentes iniciales
+│       ├── initial_personas.yaml     15 agentes beta (perfiles extremos)
+│       └── 100_personas.yaml         100 agentes (generados proceduralmente)
 │
-├── config/                        # ✅ YAML de configuración
-├── scripts/                       # Entry points
-│   ├── run_simulation.py         # ✅ Nueva sesión y reanudación (headless)
-│   └── visualizer.py             # ✅ Visualizador en tiempo real (Pygame)
-├── main.py                        # ✅ Launcher interactivo (menú TUI)
-├── src/                           # Documentación de diseño (11 docs)
-├── tests/                         # Suite de tests
-│   ├── test_agent.py             # ✅ Tests del SimulationClock (20/20)
-│   ├── test_network.py           # ✅ Tests del Núcleo 1 (31/31)
-│   ├── test_quantum.py           # ✅ Tests del Núcleo 2 (38/38)
-│   ├── test_persistence.py       # ✅ Tests de Persistencia (30/30)
-│   ├── test_simulation.py        # ✅ Tests de Fase 5 (27/27)
-│   └── test_social.py            # ✅ Tests de Fase 7: Sistemas Sociales (6/6)
-├── pyproject.toml                 # ✅
-└── requirements.txt               # ✅
+├── scripts/
+│   ├── run_simulation.py             Motor headless (argparse completo)
+│   ├── generate_personas.py          Generador procedural de agentes YAML
+│   ├── run_robustness.py             Suite de N ejecuciones paralelas
+│   └── visualizer.py                 Visualizador Pygame en tiempo real
+│
+├── tests/                            181 tests (pytest)
+│   ├── test_agent.py
+│   ├── test_network.py
+│   ├── test_quantum.py
+│   ├── test_persistence.py
+│   ├── test_simulation.py
+│   ├── test_social.py
+│   ├── test_obsidian.py
+│   └── test_metrics.py              KL divergence, VFE, IMI, exporter
+│
+├── src/                              Documentos de diseno originales
+│   └── archive/                      Roadmaps completados
+│
+├── main.py                           Launcher interactivo (TUI con Rich)
+├── pyproject.toml
+└── requirements.txt
 ```
 
-**Leyenda:** ✅ implementado · ⏳ pendiente
-
 ---
 
-## Roadmap de implementación
-
-### ✅ Fase 0 — Fundación
-Configuración del proyecto, dependencias, estructura de directorios.
-- `pyproject.toml`, `requirements.txt`
-- Directorios: `core/time/`, `core/world/`, `core/agents/`, `core/interface/`, `persistence/`, `config/`
-
-### ✅ Fase 1 — Reloj + Tipos de Interfaz
-El eje temporal y los tipos de datos que comunican los dos núcleos.
-- `SimulationClock` con handlers por prioridad, pause/resume, shutdown limpio, serialización
-- `WorldAction`, `WorldSnapshot` (inmutable), `ActionResult`
-- 20 tests pasando
-
-### ✅ Fase 2 — Núcleo 1: El Mundo
-El mundo físico que existe independientemente de los agentes.
-- `ClimateSystem` — temperatura, precipitación, luminosidad, viento, eventos climáticos
-- `TerrainGrid` — grilla hexagonal 80×60 con 12 biomas, exploración incremental
-- `ResourceSystem` — recursos por hex con regeneración estacional
-- `FaunaSystem` — densidad de fauna con comportamiento estacional y ruido natural
-- `FireSystem` — fuego con decaimiento, efecto del clima y mantenimiento por agentes
-- `WorldCore` — orquestador registrado en SimulationClock (priority=10)
-- Criterio cumplido: **1 año simulado (8640 ticks) en 1.56s** (límite: 5s)
-
-### ✅ Fase 3 — Núcleo 2: Agente mínimo
-Agentes con capa biológica únicamente. Sin psicología todavía.
-- `Agent` — estructura base con las 4 capas (biológica activa, resto vacío)
-- `NeedsSystem` — hambre, fatiga, sed con decay y umbrales
-- `ScheduleSystem` — rutinas diarias por rol (dormir, buscar alimento, interactuar)
-- `AgentCore` — orquestador que consume `WorldSnapshot` y produce `WorldAction[]`
-- Criterio cumplido: **15 agentes corren 30 días simulados sin morir todos**
-
-### ✅ Fase 4 — Persistencia
-Capa de datos que permite pausar y reanudar sin pérdida de estado.
-- `DatabaseManager` — SQLite con tablas de snapshots, muertes, clima, escenario, sesiones
-- `CheckpointManager` — guardado atómico vía os.replace(); verifica integridad al cargar
-- `WriteBuffer` — batching configurable; muertes siempre inmediatas
-- `SessionLog` — registra metadata de cada ejecución
-- Criterio cumplido: **estado restaurado desde checkpoint coincide con el original**
-
-### ✅ Fase 5 — Seeds + Primera simulación
-Los 15 agentes beta y el entry point funcional.
-- `data/seeds/initial_personas.yaml` — 15 agentes con diversidad arquetípica real (héroe, sombra, trickster, sabio, jóvenes…)
-- `SimulationRunner` — orquestador que conecta clock, world, agents y persistencia; `new_session()` y `resume()`
-- `scripts/run_simulation.py` — entry point con `--resume`, `--days`, `--seed`
-- Criterio cumplido: **6/8 ítems del beta scope** (campo colectivo y vault en Fases 7-8)
-
-### ✅ Fase 6 — Psicología
-Las capas psicológica y cuántica de los agentes cargadas desde las semillas e integradas activamente en la simulación.
-- `archetypes.py` — 12 vectores jungianos con pesos dinámicos.
-- `complexes.py` — 6 complejos activables por umbral de supervivencia contextual.
-- `traits.py` — Big Five (apertura, responsabilidad, extraversión, amabilidad, neuroticismo) + 9 dimensiones clínicas.
-- `superposition.py` / `collapse.py` — mecánica de decisión cuántica basada en la personalidad, rasgos y contexto.
-- `dreams.py` — procesamiento nocturno diario con aplicación de deltas oníricos al vector arquetípico.
-- Criterio cumplido: **15 agentes cargados desde initial_personas.yaml con perfiles arquetípicos y rasgos diferenciados sobreviven 30 días de simulación sin colapsar por competencia de recursos.**
-
-### ✅ Fase 7 — Sistemas sociales
-Las capas de interacción, red y campo colectivo.
-- `InteractionEngine` — mecánica de encuentros (cooperar/conflicto/ignorar/compartir) con matriz de colapso cuántico
-- `SocialNetwork` — grafo de vínculos con bond_strength (-1 → 1) y entrelazamiento cuántico termodinámico
-- `CollectiveField` — inconsciente colectivo, carga simbólica radiante y decaimiento diario
-- `MythologyEngine` — cristalización del mito "Héroe vs Monstruo" con feedback psicológico completo
-- Criterio cumplido: **Sistemas sociales completamente integrados con ticks, checkpoints serializados y tests exhaustivos.**
-
-### ✅ Fase 8 — Obsidian sync
-El vault de Obsidian como interfaz narrativa de la simulación.
-- `reader.py` — carga agentes desde frontmatter YAML al iniciar (sincronización bidireccional)
-- `writer.py` — escribe estado actualizado con diseño premium (barras de progreso unicode `▓▓▓▓░░░░`, tablas de relaciones y complejos)
-- `sync.py` — ciclo bidireccional y persistencia diaria de decesos, inconsciente colectivo y mitología emergente
-- Criterio cumplido: **Vault de Obsidian completamente funcional, estructurado y estilizado narrativamente con sincronización bidireccional y memoria episódica.**
-
-### ✅ Fase 9 — Dashboard
-Visualización interactiva, no bloqueante y en tiempo real de la simulación.
-- **Punto de Entrada Streamlit (`dashboard/app.py`):** Interfaz premium estructurada en pestañas con tema oscuro glassmorphic y telemetría de emergencia global.
-- **Concurrencia Segura y Cero Bloqueo:** Consultas directas a base de datos en modo WAL con conexiones SQLite de solo lectura (`uri=True`, `?mode=ro`) y lectura atómica de checkpoints JSON.
-- **Grafo Cuántico-Social (`network_graph.py`):** Visualización interactiva con NetworkX y Matplotlib. Diferenciación de agentes vivos/fallecidos y resaltado neon para entrelazamientos cuánticos.
-- **Inconsciente Colectivo (`collective_field.py`):** Gráfico de barras horizontales estilizado con cargas simbólicas, medidor de tensión global y panel de mitos cristalizados (Héroe vs Monstruo).
-- **Inspector Profundo de Agentes (`agent_inspector.py`):** Selector interactivo con estado psicobiológico completo, barras de necesidades en HTML/CSS, gráfico de arquetipos dominantes, estado de complejos activos, bitácora de sueños y línea de tiempo scrollable para memoria episódica.
-- Criterio cumplido: **Dashboard completamente interactivo, estéticamente premium y no bloqueante que opera en tiempo real paralelo a la simulación.**
-
----
-
-## Instalación
+## Instalacion
 
 ```bash
-# Clonar e instalar
-pip install -e ".[dev]"
-
-# Solo producción (sin herramientas de test)
-pip install -e .
-
-# Con dashboard (Streamlit)
-pip install -e ".[dashboard]"
+pip install -e ".[dev]"          # desarrollo + tests
+pip install -e .                 # solo produccion
+pip install -e ".[dashboard]"    # con Streamlit
 ```
+
+**Dependencias opcionales:**
+- `pygame` — para el visualizador en tiempo real
+- Ollama con `llama3.2` descargado — para narrativa LLM local
+  ```bash
+  ollama pull llama3.2
+  ```
 
 ---
 
-## Ejecución
+## Ejecucion
 
-### Llave maestra (recomendado)
+### Launcher interactivo (recomendado)
 
 ```bash
 python main.py
 ```
 
-Menú interactivo que detecta la simulación activa, muestra el día y los agentes vivos, y permite continuar o iniciar una nueva de forma segura. Al iniciar una nueva simulación, **archiva automáticamente** la anterior en `data/archive/` antes de borrar cualquier dato.
+Menu TUI que detecta la simulacion activa, muestra el dia y los agentes vivos.
+Al iniciar nueva simulacion, **archiva automaticamente la anterior** en `data/archive/`.
+Permite seleccionar entre archivos de semillas disponibles (15 o 100 agentes).
 
----
+### Motor headless (maxima velocidad)
 
-El motor también puede ejecutarse directamente:
-
-### 1. Motor Headless (máxima velocidad)
-Ideal para avanzar cientos de días en segundos. Sin visualización, solo datos.
 ```bash
-# Reanudar desde el último checkpoint (0 = hasta extinción total)
+# Nueva sesion con 100 agentes, correr hasta extincion
+python scripts/run_simulation.py --seeds-file data/seeds/100_personas.yaml --days 0
+
+# Reanudar desde ultimo checkpoint
 python scripts/run_simulation.py --resume --days 0
 
-# Reanudar N días más
-python scripts/run_simulation.py --resume --days 1000
+# Reanudar N dias mas
+python scripts/run_simulation.py --resume --days 500
 ```
 
-### 2. Dashboard Analítico (Streamlit)
-Solo lectura — no corre la simulación. Muestra la red social, el inconsciente colectivo y la psique de cada agente mientras el motor corre en paralelo.
+### Visualizador Pygame
+
+```bash
+python scripts/visualizer.py --resume --fps 10 --days 0
+```
+
+### Dashboard analitico (solo lectura, corre en paralelo)
+
 ```bash
 python -m streamlit run dashboard/app.py
+# Abrir http://localhost:8501
 ```
 
-### 3. Visualizador Inmersivo (Pygame)
-Corre el motor a velocidad reducida y muestra el mapa hexagonal con los agentes en tiempo real. Zoom con rueda, panning con clic.
+### Generar nuevas semillas de agentes
+
 ```bash
-# Reanudar y observar en tiempo real
-python scripts/visualizer.py --resume --days 0 --fps 10
+python scripts/generate_personas.py --n 100 --seed 42
+python scripts/generate_personas.py --n 50 --seed 7 --output data/seeds/grupo_pequeno.yaml
 ```
-> **Nota:** Cerrá la ventana con la `X`. El proceso guarda el checkpoint antes de salir.
+
+### Suite de robustez
+
+```bash
+python scripts/run_robustness.py --runs 10 --days 200
+# Resultados en data/metrics/robustez.json
+```
 
 ---
 
 ## Tests
 
 ```bash
-pytest
-pytest -v              # verbose
-pytest --tb=short      # traceback corto
+pytest               # 181 tests
+pytest -v            # verbose
+pytest --tb=short    # traceback corto
+pytest tests/test_metrics.py -v   # solo metricas de emergencia
 ```
 
 ---
 
-## Stack técnico
+## Variables de entorno (narrativa LLM)
 
-| Componente | Tecnología |
+```bash
+OLLAMA_BASE_URL=http://localhost:11434   # default
+OLLAMA_MODEL=llama3.2                    # default
+OLLAMA_TIMEOUT=120                       # segundos
+NARRATIVE_ENABLED=1                      # 0 para desactivar
+```
+
+---
+
+## Stack tecnico
+
+| Componente | Tecnologia |
 |------------|-----------|
-| Motor ABM | Mesa |
+| Motor ABM | SimulationClock propio (tick-based, sin Mesa) |
 | Grafos sociales | NetworkX |
-| Cálculo numérico | NumPy + SciPy |
 | Vault | PyYAML (frontmatter Obsidian) |
-| Persistencia | SQLite (stdlib) |
+| Persistencia | SQLite stdlib (WAL mode) |
 | Dashboard | Streamlit |
 | Visualizador | Pygame |
 | Launcher TUI | Rich |
-| Logging | Loguru |
+| Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
 | Tests | pytest |
 
 ---
 
-## Documentación de diseño
+## Documentacion de diseno
 
-Los documentos de diseño están en `src/`:
+Los documentos originales de diseno estan en `src/`:
 
 | Archivo | Contenido |
 |---------|-----------|
-| `00-PSYCHE_SIMULACRA_ROADMAP.md` | Roadmap completo por fases |
 | `01-PSYCHE_IDEAS_IMPLEMENTACION.md` | Backlog de ideas con estimaciones |
-| `02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoría del inconsciente colectivo |
-| `03-PSYCHE_BETA_SCOPE.md` | MVP: 15 agentes, criterios de éxito |
+| `02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoria del inconsciente colectivo |
+| `03-PSYCHE_BETA_SCOPE.md` | MVP: criterios de exito |
 | `04-PSYCHE_SISTEMA_VIDA.md` | Nacimiento, muerte, herencia |
-| `05-PSYCHE_LECCIONES_SIMULACIONES.md` | Lecciones de Sims, RimWorld, Spore, B&W2 |
+| `05-PSYCHE_LECCIONES_SIMULACIONES.md` | Lecciones de Sims, RimWorld, Spore |
 | `06-PSYCHE_ESCENARIO_INICIAL.md` | Mundo hexagonal: 12 biomas |
 | `07-PSYCHE_AUDITORIA_PERSISTENCIA.md` | Esquema de BD y checkpoints |
-| `08-PSYCHE_EL_MUNDO.md` | Diseño completo de recursos y biomas |
+| `08-PSYCHE_EL_MUNDO.md` | Diseno completo de recursos y biomas |
 | `09-PSYCHE_ARQUITECTURA_NUCLEOS.md` | WorldCore + AgentCore |
 | `10-PSYCHE_SIMULATION_CLOCK.md` | SimulationClock |
+| `archive/00-ROADMAP_ORIGINAL_v1_COMPLETADO.md` | Roadmap original completado |
 
 ---
 
