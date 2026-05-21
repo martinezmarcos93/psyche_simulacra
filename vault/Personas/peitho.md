@@ -6,9 +6,9 @@ edad: 26
 sexo: F
 is_alive: True
 posicion: [37, 30]
-humor: 0.676
+humor: 0.677
 energia: 0.645
-ansiedad: 0.544
+ansiedad: 0.543
 needs:
   hambre: 0.064
   fatiga: 0.335
@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.54 |
 
 ### Necesidades Biológicas

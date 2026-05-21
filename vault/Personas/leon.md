@@ -6,7 +6,7 @@ edad: 16
 sexo: M
 is_alive: True
 posicion: [47, 20]
-humor: 0.698
+humor: 0.699
 energia: 0.642
 ansiedad: 0.525
 needs:
@@ -44,7 +44,7 @@ arquetipos:
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.53 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.52 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |

@@ -6,9 +6,9 @@ edad: 22
 sexo: F
 is_alive: True
 posicion: [38, 30]
-humor: 0.938
+humor: 0.948
 energia: 0.663
-ansiedad: 0.209
+ansiedad: 0.194
 needs:
   hambre: 0.064
   fatiga: 0.335
@@ -17,12 +17,12 @@ needs:
 arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.979
+  self: 0.980
   persona: 0.500
   sombra: 0.250
   anima_animus: 0.732
   heroe: 0.510
-  sabio: 0.407
+  sabio: 0.408
   trickster: 0.250
   madre: 0.415
   padre: 0.400
@@ -42,9 +42,9 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.21 |
+| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.19 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
@@ -61,12 +61,12 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.979` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.980` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.732` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Heroe** | `0.510` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.407` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.408` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.415` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |

@@ -6,7 +6,7 @@ edad: 14
 sexo: F
 is_alive: True
 posicion: [33, 31]
-humor: 0.965
+humor: 0.966
 energia: 0.703
 ansiedad: 0.182
 needs:

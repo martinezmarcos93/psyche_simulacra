@@ -13,6 +13,7 @@ from core.social.interaction import InteractionEngine
 from core.social.collective_field import CollectiveField
 from core.social.mythology import MythologyEngine
 from core.social.tribe_manager import TribeManager
+from core.world.culture_engine import CultureEngine
 
 if TYPE_CHECKING:
     from core.world import WorldCore
@@ -60,6 +61,8 @@ class AgentCore:
         self.mythology_engine   = MythologyEngine()
         # Tribus y campos locales (Fase 2)
         self.tribe_manager      = TribeManager()
+        # Cultura material — estructuras y auras (Fase 4)
+        self.culture_engine     = CultureEngine()
 
     # ── Population management ─────────────────────────────────────────────────
 
@@ -136,6 +139,15 @@ class AgentCore:
             terrain,
             tp.dia_simulado,
         )
+
+        # 2c. Cultura material: construcción de estructuras y aplicación de auras (Fase 4)
+        if terrain is not None:
+            self.culture_engine.on_day(
+                self.agents,
+                self.tribe_manager.tribes,
+                terrain,
+                tp.dia_simulado,
+            )
 
         # 3. Control de vitalidad (hambre, sed, vejez)
         for agent in list(self.agents.values()):
@@ -369,6 +381,7 @@ class AgentCore:
             "collective_field":  self.collective_field.to_dict(),
             "mythology_engine":  self.mythology_engine.to_dict(),
             "tribe_manager":     self.tribe_manager.to_dict(),
+            "culture_engine":    self.culture_engine.to_dict(),
         }
 
     @classmethod
@@ -396,6 +409,9 @@ class AgentCore:
 
         if "tribe_manager" in data:
             core.tribe_manager = TribeManager.from_dict(data["tribe_manager"])
+
+        if "culture_engine" in data:
+            core.culture_engine = CultureEngine.from_dict(data["culture_engine"])
 
         return core
 

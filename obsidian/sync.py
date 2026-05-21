@@ -20,7 +20,8 @@ class ObsidianSync:
         collective_field,
         mythology_engine,
         death_log:     list,
-        tribe_manager = None,
+        tribe_manager   = None,
+        culture_engine  = None,
     ) -> None:
         """Saves the end-of-day simulation state to the Obsidian vault markdown documents."""
         # 1. Write each agent's individual markdown note (Personas/{agent_id}.md)
@@ -39,6 +40,10 @@ class ObsidianSync:
         # 5. Write per-tribe files (Tribus/{tribe_id}.md)
         if tribe_manager is not None:
             self.writer.write_tribes(tribe_manager, agents, dia)
+
+        # 6. Write culture material registry (Colectivo/Cultura_Material.md)
+        if culture_engine is not None:
+            self.writer.write_cultura(culture_engine, agents, dia)
 
     def sync_from_vault(self, agents: dict) -> None:
         """Reads frontmatters from the vault and updates agent psychological parameters or traits.

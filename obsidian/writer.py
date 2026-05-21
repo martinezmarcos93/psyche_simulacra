@@ -396,6 +396,64 @@ class ObsidianWriter:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(full_content)
 
+    def write_cultura(self, culture_engine, agents, dia: int) -> None:
+        """Writes Colectivo/Cultura_Material.md with all active structures and their auras."""
+        self._ensure_dirs()
+
+        _TIPO_EMOJI = {"totem": "🗿", "altar": "⛩️", "muralla": "🧱", "hoguera": "🔥"}
+        _TIPO_NOMBRE = {"totem": "Tótem", "altar": "Altar", "muralla": "Muralla", "hoguera": "Hoguera Sagrada"}
+
+        body = [
+            "# 🏛️ Cultura Material",
+            "",
+            f"> **Día:** `{dia}` | **Estructuras activas:** `{len(culture_engine.structures)}`",
+            "",
+            "---",
+            "",
+            "## 🏗️ Registro de Estructuras",
+            "",
+            "| Tipo | Tribu | Coordenada | Día erigida | Radio | Aura Humor | Aura Ansiedad |",
+            "| :--- | :--- | :---: | :---: | :---: | :---: | :---: |",
+        ]
+
+        if culture_engine.structures:
+            for s in sorted(culture_engine.structures, key=lambda x: x.day_built):
+                emoji = _TIPO_EMOJI.get(s.tipo, "")
+                nombre = _TIPO_NOMBRE.get(s.tipo, s.tipo)
+                humor_str = f"{s.humor_d:+.3f}" if s.humor_d else "—"
+                ans_str   = f"{s.ansiedad_d:+.3f}" if s.ansiedad_d else "—"
+                dur_str   = f"(exp. día {s.day_built + s.duration})" if s.duration else ""
+                body.append(
+                    f"| {emoji} {nombre} | `{s.tribe_id}` | `{s.coord}` "
+                    f"| Día {s.day_built} {dur_str}| {s.radio} hex | `{humor_str}` | `{ans_str}` |"
+                )
+        else:
+            body.append("| *Ninguna estructura erigida aún.* | — | — | — | — | — | — |")
+
+        # Detalle por tipo
+        tipos_presentes = list({s.tipo for s in culture_engine.structures})
+        if tipos_presentes:
+            body.extend(["", "---", "", "## 🌀 Auras por Tipo de Estructura", ""])
+            for tipo in sorted(tipos_presentes):
+                emoji  = _TIPO_EMOJI.get(tipo, "")
+                nombre = _TIPO_NOMBRE.get(tipo, tipo)
+                count  = sum(1 for s in culture_engine.structures if s.tipo == tipo)
+                ejemplar = next(s for s in culture_engine.structures if s.tipo == tipo)
+                arch_str = ", ".join(f"{k}: +{v:.4f}/día" for k, v in ejemplar.arch_push.items())
+                body.extend([
+                    f"### {emoji} {nombre} ({count} activa{'s' if count != 1 else ''})",
+                    f"- **Radio:** {ejemplar.radio} hexes",
+                    f"- **Para miembros:** humor `{ejemplar.humor_d:+.3f}`, ansiedad `{ejemplar.ansiedad_d:+.3f}`/día",
+                    f"- **Para forasteros:** humor `{ejemplar.humor_d_ext:+.3f}`, ansiedad `{ejemplar.ansiedad_d_ext:+.3f}`/día",
+                    f"- **Impulso arquetípico:** {arch_str or '—'}",
+                    "",
+                ])
+
+        full_content = "\n".join(body) + "\n"
+        file_path = os.path.join(self.colectivo_path, "Cultura_Material.md")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(full_content)
+
     def write_simulation_log(self, death_log, current_dia: int) -> None:
         """Writes Meta/Simulacion_Log.md acting as a history timeline of simulation events.
         

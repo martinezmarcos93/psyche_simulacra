@@ -6,9 +6,9 @@ edad: 29
 sexo: F
 is_alive: True
 posicion: [46, 24]
-humor: 0.778
+humor: 0.788
 energia: 0.665
-ansiedad: 0.442
+ansiedad: 0.427
 needs:
   hambre: 0.044
   fatiga: 0.335
@@ -22,7 +22,7 @@ arquetipos:
   sombra: 0.221
   anima_animus: 0.725
   heroe: 0.508
-  sabio: 0.407
+  sabio: 0.408
   trickster: 0.250
   madre: 0.414
   padre: 0.402
@@ -42,9 +42,9 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.43 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
@@ -66,7 +66,7 @@ arquetipos:
 | **Sombra** | `0.221` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.725` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Heroe** | `0.508` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.407` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.408` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.414` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.402` | `▓▓▓▓▓░░░░░░░` |

@@ -7,7 +7,7 @@ sexo: M
 is_alive: True
 posicion: [50, 21]
 humor: 0.825
-energia: 0.491
+energia: 0.490
 ansiedad: 0.318
 needs:
   hambre: 0.084
@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.83 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
 | **Energía** | `[▓▓▓▓▓░░░░░]` | 0.49 |
 | **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.32 |
 
