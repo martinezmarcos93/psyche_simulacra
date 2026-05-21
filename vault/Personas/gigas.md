@@ -7,8 +7,8 @@ sexo: M
 is_alive: True
 posicion: [47, 19]
 humor: 0.848
-energia: 0.664
-ansiedad: 0.295
+energia: 0.665
+ansiedad: 0.296
 needs:
   hambre: 0.164
   fatiga: 0.335

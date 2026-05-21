@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
 | **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.54 |
 
 ### Necesidades Biológicas

@@ -7,6 +7,7 @@ from core.time import SimulationClock, TimePoint
 from core.world import WorldCore
 from core.agents import AgentCore
 from core.narrative.narrator import NarratorEngine
+from core.metrics import EmergenceMetrics, MetricsExporter
 from persistence import DatabaseManager, WriteBuffer, CheckpointManager, SessionLog
 from obsidian.sync import ObsidianSync
 
@@ -37,8 +38,10 @@ class SimulationRunner:
         self.buffer = WriteBuffer(self.db)
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
         self.session = SessionLog(self.db)
-        self.obsidian_sync = ObsidianSync(vault_path="vault")
-        self.narrator      = NarratorEngine(vault_path="vault")
+        self.obsidian_sync      = ObsidianSync(vault_path="vault")
+        self.narrator           = NarratorEngine(vault_path="vault")
+        self.emergence_metrics  = EmergenceMetrics()
+        self.metrics_exporter   = MetricsExporter()
 
         self._last_cp_dia:  int = -1
         self._death_cursor: int = 0
@@ -108,6 +111,18 @@ class SimulationRunner:
 
         # Eventos narrativos (Fase 3)
         self._queue_narrative_events(dia, new_deaths)
+
+        # Métricas de emergencia (Fase 5)
+        day_m = self.emergence_metrics.compute_day(
+            dia=dia,
+            agents=self.agents.agents,
+            tribe_manager=self.agents.tribe_manager,
+            collective_field=self.agents.collective_field,
+            culture_engine=self.agents.culture_engine,
+        )
+        self.metrics_exporter.record(day_m)
+        if dia % 10 == 0:
+            self.metrics_exporter.flush()
 
         # Sincronizar con el vault de Obsidian (Fase 8)
         self.obsidian_sync.sync_day(
@@ -295,6 +310,11 @@ class SimulationRunner:
         try:
             self.narrator.drain(timeout=60)
             self.narrator.stop()
+        except Exception:
+            pass
+        try:
+            self.metrics_exporter.flush()
+            self.metrics_exporter.export_summary()
         except Exception:
             pass
         try:

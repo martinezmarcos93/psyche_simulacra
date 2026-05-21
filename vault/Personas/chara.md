@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
 | **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
 

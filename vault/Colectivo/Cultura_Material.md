@@ -8,8 +8,8 @@
 
 | Tipo | Tribu | Coordenada | Día erigida | Radio | Aura Humor | Aura Ansiedad |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| ⛩️ Altar | `tribe_filia` | `(46, 24)` | Día 30 | 2 hex | `+0.010` | `-0.015` |
 | ⛩️ Altar | `tribe_elpis` | `(38, 30)` | Día 30 | 2 hex | `+0.010` | `-0.015` |
+| ⛩️ Altar | `tribe_bios` | `(41, 17)` | Día 30 | 2 hex | `+0.010` | `-0.015` |
 
 ---
 
