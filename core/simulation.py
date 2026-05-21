@@ -107,6 +107,7 @@ class SimulationRunner:
             collective_field=self.agents.collective_field,
             mythology_engine=self.agents.mythology_engine,
             death_log=self.agents.death_log,
+            tribe_manager=self.agents.tribe_manager,
         )
 
         # Checkpoint automático cada N días

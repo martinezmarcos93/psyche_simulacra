@@ -19,30 +19,26 @@ class ObsidianSync:
         social_network,
         collective_field,
         mythology_engine,
-        death_log: list
+        death_log:     list,
+        tribe_manager = None,
     ) -> None:
-        """Saves the end-of-day simulation state to the Obsidian vault markdown documents.
-        
-        Args:
-            dia: The current simulated day.
-            agents: A dictionary of agent instances mapped by ID.
-            social_network: The active SocialNetwork instance.
-            collective_field: The active CollectiveField instance.
-            mythology_engine: The active MythologyEngine instance.
-            death_log: The list of death dictionaries recorded in the simulation.
-        """
+        """Saves the end-of-day simulation state to the Obsidian vault markdown documents."""
         # 1. Write each agent's individual markdown note (Personas/{agent_id}.md)
         for agent in agents.values():
             self.writer.write_agent(agent, social_network)
-            
+
         # 2. Write global unconscious collective field state (Colectivo/Inconsciente_Colectivo.md)
         self.writer.write_collective_field(collective_field)
-        
+
         # 3. Write myth crystallization states (Colectivo/Mitologia.md)
         self.writer.write_mythology(mythology_engine, agents)
-        
+
         # 4. Write simulation event and death log timeline (Meta/Simulacion_Log.md)
         self.writer.write_simulation_log(death_log, dia)
+
+        # 5. Write per-tribe files (Tribus/{tribe_id}.md)
+        if tribe_manager is not None:
+            self.writer.write_tribes(tribe_manager, agents, dia)
 
     def sync_from_vault(self, agents: dict) -> None:
         """Reads frontmatters from the vault and updates agent psychological parameters or traits.

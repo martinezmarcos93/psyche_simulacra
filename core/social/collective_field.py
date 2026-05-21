@@ -50,11 +50,15 @@ class CollectiveField:
             self.emotional_pressure = min(1.0, self.emotional_pressure + 0.06)
 
     def absorb_event(self, event_type: str, intensity: float = 1.0) -> None:
-        """Absorbe eventos de alta significancia, como la muerte de un agente."""
+        """Absorbe eventos de alta significancia, como la muerte o el nacimiento de un agente."""
         if event_type == "muerte":
             self.symbols["muerte"] = min(1.0, self.symbols["muerte"] + 0.40 * intensity)
             self.symbols["sombra"] = min(1.0, self.symbols["sombra"] + 0.20 * intensity)
             self.emotional_pressure = min(1.0, self.emotional_pressure + 0.30 * intensity)
+        elif event_type == "nacimiento":
+            self.symbols["madre"]  = min(1.0, self.symbols["madre"]  + 0.25 * intensity)
+            self.symbols["heroe"]  = min(1.0, self.symbols["heroe"]  + 0.10 * intensity)
+            self.emotional_pressure = max(0.0, self.emotional_pressure - 0.10 * intensity)
 
     def decay(self, rate: float = 0.02) -> None:
         """Aplica decaimiento diario (u horaria si se requiere) de cargas meméticas."""

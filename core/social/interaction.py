@@ -8,6 +8,7 @@ if TYPE_CHECKING:
     from core.social.network import SocialNetwork
     from core.social.collective_field import CollectiveField
     from core.social.mythology import MythologyEngine
+    from core.social.tribe_manager import TribeManager
 
 
 class InteractionEngine:
@@ -19,11 +20,12 @@ class InteractionEngine:
 
     def process_zone_interactions(
         self,
-        agents: dict[str, Agent],
-        network: SocialNetwork,
+        agents:           dict[str, Agent],
+        network:          SocialNetwork,
         collective_field: CollectiveField,
         mythology_engine: MythologyEngine | None = None,
-        dia: int = 0,
+        dia:              int = 0,
+        tribe_manager:    TribeManager | None = None,
     ) -> None:
         """
         Agrupa a todos los agentes vivos por coordenadas, los empareja y
@@ -52,16 +54,43 @@ class InteractionEngine:
             while len(shuffled) >= 2:
                 a = shuffled.pop()
                 b = shuffled.pop()
-                self.resolve_encounter(a, b, network, collective_field, mythology_engine, dia)
+                self.resolve_encounter(a, b, network, collective_field, mythology_engine, dia, tribe_manager)
+
+    def _absorb(
+        self,
+        state_a:          str,
+        state_b:          str,
+        outcome:          str,
+        global_field:     CollectiveField,
+        tribe_manager:    TribeManager | None,
+        a_id:             str,
+        b_id:             str,
+    ) -> None:
+        """Alimenta el campo global y, si corresponde, los campos tribales locales."""
+        global_field.absorb_interaction(state_a, state_b, outcome)
+        if tribe_manager is None:
+            return
+        la = tribe_manager.get_local_field(a_id)
+        lb = tribe_manager.get_local_field(b_id)
+        if la is lb and la is not None:
+            # Misma tribu — campo compartido
+            la.absorb_interaction(state_a, state_b, outcome)
+        else:
+            # Tribus distintas — cada una absorbe el eco
+            if la is not None:
+                la.absorb_interaction(state_a, state_b, outcome)
+            if lb is not None and lb is not la:
+                lb.absorb_interaction(state_a, state_b, outcome)
 
     def resolve_encounter(
         self,
-        a: Agent,
-        b: Agent,
-        network: SocialNetwork,
+        a:                Agent,
+        b:                Agent,
+        network:          SocialNetwork,
         collective_field: CollectiveField,
         mythology_engine: MythologyEngine | None = None,
-        dia: int = 0,
+        dia:              int = 0,
+        tribe_manager:    TribeManager | None = None,
     ) -> None:
         """
         Resuelve un encuentro individual cara a cara entre el agente A y el agente B,
@@ -123,7 +152,8 @@ class InteractionEngine:
             a.episodic_log.append(f"Día {dia}: Cooperó de forma mutua y armónica con {b.nombre}. Su lazo social se fortaleció.")
             b.episodic_log.append(f"Día {dia}: Cooperó de forma mutua y armónica con {a.nombre}. Su lazo social se fortaleció.")
 
-            collective_field.absorb_interaction("cooperacion", "cooperacion", "cooperacion_pura")
+            self._absorb("cooperacion", "cooperacion", "cooperacion_pura",
+                         collective_field, tribe_manager, a.id, b.id)
 
         # Caso Cooperación - Competencia (Conflicto / Explotación)
         elif (state_a == "cooperacion" and state_b == "competencia") or \
@@ -156,7 +186,8 @@ class InteractionEngine:
             victim.episodic_log.append(f"Día {dia}: Sufrió explotación y hostilidad de {exploiter.nombre}, cediendo recursos biológicos.")
             exploiter.episodic_log.append(f"Día {dia}: Se impuso competitivamente ante {victim.nombre}, absorbiendo sus recursos biológicos.")
 
-            collective_field.absorb_interaction("cooperacion", "competencia", "conflicto_explotacion")
+            self._absorb("cooperacion", "competencia", "conflicto_explotacion",
+                         collective_field, tribe_manager, a.id, b.id)
 
         # Caso Competencia - Competencia (Choque Violento)
         elif state_a == "competencia" and state_b == "competencia":
@@ -178,7 +209,8 @@ class InteractionEngine:
             a.episodic_log.append(f"Día {dia}: Se enfrentó en un choque violento y destructivo contra {b.nombre}.")
             b.episodic_log.append(f"Día {dia}: Se enfrentó en un choque violento y destructivo contra {a.nombre}.")
 
-            collective_field.absorb_interaction("competencia", "competencia", "choque_violento")
+            self._absorb("competencia", "competencia", "choque_violento",
+                         collective_field, tribe_manager, a.id, b.id)
 
         # Caso Manipulación - Cooperación (Éxito de manipulación)
         elif (state_a == "manipulacion" and state_b == "cooperacion") or \
@@ -202,7 +234,8 @@ class InteractionEngine:
             cooperator.episodic_log.append(f"Día {dia}: Cedió ingenuamente ante la manipulación de {manipulator.nombre}.")
             manipulator.episodic_log.append(f"Día {dia}: Manipuló con éxito y astucia a {cooperator.nombre} para ceder recursos.")
 
-            collective_field.absorb_interaction("manipulacion", "cooperacion", "exito_manipulacion")
+            self._absorb("manipulacion", "cooperacion", "exito_manipulacion",
+                         collective_field, tribe_manager, a.id, b.id)
 
         # Caso Manipulación - Competencia (Fracaso de manipulación)
         elif (state_a == "manipulacion" and state_b == "competencia") or \
@@ -222,7 +255,8 @@ class InteractionEngine:
             manipulator.episodic_log.append(f"Día {dia}: Intentó manipular a {competitor.nombre}, pero fue descubierto.")
             competitor.episodic_log.append(f"Día {dia}: Detectó y rechazó un intento de manipulación de {manipulator.nombre}.")
 
-            collective_field.absorb_interaction("manipulacion", "competencia", "fracaso_manipulacion")
+            self._absorb("manipulacion", "competencia", "fracaso_manipulacion",
+                         collective_field, tribe_manager, a.id, b.id)
 
         # Caso Manipulación - Manipulación (Juegos Mentales)
         elif state_a == "manipulacion" and state_b == "manipulacion":

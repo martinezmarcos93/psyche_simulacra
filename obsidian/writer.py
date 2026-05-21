@@ -2,7 +2,7 @@ import os
 
 class ObsidianWriter:
     """Generates gorgeous, premium-styled markdown files in the Obsidian vault.
-    
+
     Uses visual unicode progress bars (▓▓▓▓░░░░) and tables to represent agent states,
     social networks, the collective unconscious, active myths, and simulation logs.
     """
@@ -11,12 +11,14 @@ class ObsidianWriter:
         self.personas_path = os.path.join(vault_path, "Personas")
         self.colectivo_path = os.path.join(vault_path, "Colectivo")
         self.meta_path = os.path.join(vault_path, "Meta")
+        self.tribus_path = os.path.join(vault_path, "Tribus")
 
     def _ensure_dirs(self) -> None:
         """Creates the vault subdirectory structure if it doesn't exist."""
         os.makedirs(self.personas_path, exist_ok=True)
         os.makedirs(self.colectivo_path, exist_ok=True)
         os.makedirs(self.meta_path, exist_ok=True)
+        os.makedirs(self.tribus_path, exist_ok=True)
 
     def generate_progress_bar(self, value: float, length: int = 10) -> str:
         """Generates a visual unicode progress bar.
@@ -318,6 +320,81 @@ class ObsidianWriter:
         file_path = os.path.join(self.colectivo_path, "Mitologia.md")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(full_content)
+
+    def write_tribes(self, tribe_manager, agents, dia: int) -> None:
+        """Writes Tribus/{tribe_id}.md for each active tribe.
+
+        Args:
+            tribe_manager: TribeManager instance.
+            agents: Dict of agent instances.
+            dia: Current simulated day.
+        """
+        self._ensure_dirs()
+
+        for tribe_id, member_ids in tribe_manager.tribes.items():
+            display_name = tribe_manager.get_tribe_display_name(tribe_id, agents)
+            local_field  = tribe_manager.local_fields.get(tribe_id)
+            local_myths  = tribe_manager.local_myths.get(tribe_id)
+            alive_members = [agents[aid] for aid in member_ids if aid in agents and agents[aid].is_alive]
+
+            body = [
+                f"# 🏕️ {display_name}",
+                "",
+                f"> **Día:** `{dia}` | **Miembros vivos:** `{len(alive_members)}`",
+                "",
+                "---",
+                "",
+                "## 👥 Composición de la Tribu",
+                "",
+                "| Agente | Rol | Edad | Arquetipo Dominante |",
+                "| :--- | :--- | :---: | :--- |",
+            ]
+            for agent in sorted(alive_members, key=lambda a: a.nombre):
+                body.append(f"| [[{agent.id}]] ({agent.nombre}) | {agent.rol} | {agent.edad} | {agent.arquetipo_dominante} |")
+
+            # Campo colectivo local
+            body.extend([
+                "",
+                "---",
+                "",
+                "## 🌀 Inconsciente Colectivo Local",
+                "",
+            ])
+            if local_field is not None:
+                pressure_bar = self.generate_progress_bar(local_field.emotional_pressure, length=12)
+                body.append(f"> **Presión emocional:** `{local_field.emotional_pressure:.3f}` `[{pressure_bar}]`")
+                body.extend([
+                    "",
+                    "| Símbolo | Fuerza | Barra Visual |",
+                    "| :--- | :---: | :--- |",
+                ])
+                for sym, val in sorted(local_field.symbols.items(), key=lambda x: x[1], reverse=True):
+                    bar = self.generate_progress_bar(val, length=10)
+                    body.append(f"| **{sym.capitalize()}** | `{val:.3f}` | `{bar}` |")
+            else:
+                body.append("> *Campo sin inicializar.*")
+
+            # Mitología local
+            body.extend([
+                "",
+                "---",
+                "",
+                "## 📜 Mitología Local",
+                "",
+            ])
+            if local_myths and local_myths.active_myths:
+                for myth in local_myths.active_myths:
+                    status = "🟢 Activo" if myth.get("active") else "🔴 Disuelto"
+                    name   = myth.get("name", "desconocido").replace("_", " ").capitalize()
+                    day_c  = myth.get("day_crystallized", 0)
+                    body.append(f"- **{name}** — {status} (Día {day_c})")
+            else:
+                body.append("> *Ningún mito cristalizado aún en esta tribu.*")
+
+            full_content = "\n".join(body) + "\n"
+            file_path = os.path.join(self.tribus_path, f"{tribe_id}.md")
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(full_content)
 
     def write_simulation_log(self, death_log, current_dia: int) -> None:
         """Writes Meta/Simulacion_Log.md acting as a history timeline of simulation events.

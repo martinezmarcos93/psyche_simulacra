@@ -5,34 +5,34 @@ rol: guardian
 edad: 38
 sexo: M
 is_alive: True
-posicion: [44, 28]
-humor: 0.918
-energia: 0.425
-ansiedad: 0.224
+posicion: [49, 22]
+humor: 0.730
+energia: 0.483
+ansiedad: 0.468
 needs:
   hambre: 0.064
-  fatiga: 0.575
-  sed: 0.015
+  fatiga: 0.535
+  sed: 0.519
   sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: competencia
 arquetipos:
-  self: 0.706
+  self: 1.000
   persona: 0.500
-  sombra: 0.350
-  anima_animus: 0.400
-  heroe: 0.520
-  sabio: 0.400
-  trickster: 0.250
-  madre: 0.400
-  padre: 0.400
-  nino_divino: 0.300
-  gobernante: 0.620
-  rebelde: 0.300
+  sombra: 0.352
+  anima_animus: 0.576
+  heroe: 0.532
+  sabio: 0.407
+  trickster: 0.251
+  madre: 0.411
+  padre: 0.401
+  nino_divino: 0.301
+  gobernante: 0.621
+  rebelde: 0.301
 ---
 # 👤 Persona: Doron
 
-> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(44, 28)`
+> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(49, 22)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 |
-| **Energía** | `[▓▓▓▓░░░░░░]` | 0.42 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.48 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.47 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[░░░░░░░░░░]` | 0.01 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.58 | 🟢 Descansado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.52 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.54 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.706` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.520` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.620` | `▓▓▓▓▓▓▓░░░░░` |
-| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.352` | `▓▓▓▓░░░░░░░░` |
+| **Anima animus** | `0.576` | `▓▓▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.532` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.407` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.251` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.411` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.621` | `▓▓▓▓▓▓▓░░░░░` |
+| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -93,28 +93,32 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[chara]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[elpis]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[elpis]] | `-0.48` | `▓▓▓░░░░░░░` | Ninguno |
 | [[gigas]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[hados]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hados]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[kairos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[moros]] | `-0.94` | `░░░░░░░░░░` | Ninguno |
-| [[peitho]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[sophron]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[leon]] | `-0.14` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[moros]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[sophron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 0:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante encuentra paz provisional con la oscuridad.
-- **Día 1:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante encuentra paz provisional con la oscuridad.
-- **Día 2:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante encuentra paz provisional con la oscuridad.
-- **Día 3:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante encuentra paz provisional con la oscuridad.
-- **Día 4:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 23:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 24:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 25:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 26:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 27:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 28:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 29:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
 
 ---
@@ -139,27 +143,99 @@ arquetipos:
 - Día 0: Se enfrentó en un choque violento y destructivo contra Peitho.
 - Día 0: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante encuentra paz provisional con la oscuridad.
 - Día 1: Se impuso competitivamente ante Gigas, absorbiendo sus recursos biológicos.
-- Día 1: Se impuso competitivamente ante Sophron, absorbiendo sus recursos biológicos.
-- Día 1: Se impuso competitivamente ante Sophron, absorbiendo sus recursos biológicos.
-- Día 1: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 1: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 1: Detectó y rechazó un intento de manipulación de Sophron.
 - Día 1: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante encuentra paz provisional con la oscuridad.
-- Día 1: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 1: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Moros.
 - Día 2: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante encuentra paz provisional con la oscuridad.
+- Día 3: Sufrió explotación y hostilidad de Elpis, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Elpis, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Elpis, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
 - Día 3: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante encuentra paz provisional con la oscuridad.
+- Día 4: Se enfrentó en un choque violento y destructivo contra Sophron.
 - Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 5: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 5: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 5: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 5: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 6: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 6: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
+- Día 6: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
+- Día 6: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 6: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Sophron, pero fue descubierto.
+- Día 8: Intentó manipular a Peitho, pero fue descubierto.
+- Día 8: Intentó manipular a Peitho, pero fue descubierto.
+- Día 8: Intentó manipular a Peitho, pero fue descubierto.
+- Día 8: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 8: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
+- Día 8: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 8: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 8: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 10: Intentó manipular a Sophron, pero fue descubierto.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 10: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Se enfrentó en un choque violento y destructivo contra Sophron.
+- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 12: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 13: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 15: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 17: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 18: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 19: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 21: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 22: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 23: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 24: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 25: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 26: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 28: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 29: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.

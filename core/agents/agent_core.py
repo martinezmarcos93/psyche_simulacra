@@ -12,6 +12,7 @@ from core.social.network import SocialNetwork
 from core.social.interaction import InteractionEngine
 from core.social.collective_field import CollectiveField
 from core.social.mythology import MythologyEngine
+from core.social.tribe_manager import TribeManager
 
 if TYPE_CHECKING:
     from core.world import WorldCore
@@ -57,6 +58,8 @@ class AgentCore:
         self.interaction_engine = InteractionEngine()
         self.collective_field   = CollectiveField()
         self.mythology_engine   = MythologyEngine()
+        # Tribus y campos locales (Fase 2)
+        self.tribe_manager      = TribeManager()
 
     # ── Population management ─────────────────────────────────────────────────
 
@@ -93,8 +96,9 @@ class AgentCore:
                 continue
             agent.update_biological(tp, snapshot)
             hay_aliados = pos_counts.get(agent.posicion, 0) > 1
-            # En la hora de interactuar, Agent usará la radiación del campo para collapse
-            action = agent.decide_action(tp, snapshot, self.collective_field, hay_aliados)
+            # Usa el campo tribal local (si existe) para el colapso cuántico
+            local_field = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+            action = agent.decide_action(tp, snapshot, local_field, hay_aliados)
             if action is not None:
                 actions.append(action)
 
@@ -104,7 +108,8 @@ class AgentCore:
             self.social_network,
             self.collective_field,
             self.mythology_engine,
-            dia=tp.dia_simulado
+            dia=tp.dia_simulado,
+            tribe_manager=self.tribe_manager,
         )
 
         # Propagación de entrelazamientos emocionales (Fase 7)
@@ -115,12 +120,22 @@ class AgentCore:
 
     def on_day(self, tp: TimePoint) -> None:
         """Called once per simulated day — runs death checks and social dynamics."""
-        # 1. Decaimiento y evolución del campo memético (Fase 7)
+        # 1. Decaimiento y evolución del campo memético global (Fase 7)
         self.collective_field.decay()
 
-        # 2. Cristalización y feedback mítico (Fase 7)
+        # 2. Cristalización y feedback mítico global (Fase 7)
         self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
         self.mythology_engine.apply_myth_effects(self.agents)
+
+        # 2b. Mecánicas tribales: re-clustering, campos locales, mitos locales, deriva de bioma (Fase 2)
+        terrain = getattr(self.world_ref, "terrain", None)
+        self.tribe_manager.on_day(
+            self.agents,
+            self.social_network,
+            self.collective_field,
+            terrain,
+            tp.dia_simulado,
+        )
 
         # 3. Control de vitalidad (hambre, sed, vejez)
         for agent in list(self.agents.values()):
@@ -165,6 +180,10 @@ class AgentCore:
             "nombre":   agent.nombre,
             "causa":    causa,
         })
+        # La muerte sacude el campo tribal local (el global se absorbe en _persist_day)
+        local_field = self.tribe_manager.get_local_field(agent.id)
+        if local_field is not None:
+            local_field.absorb_event("muerte", intensity=0.8)
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
         if len(self.agents) >= _LIMITE_POBLACION:
@@ -200,6 +219,10 @@ class AgentCore:
                     self.social_network.set_bond(child.id, a.id, 0.90)
                     self.social_network.set_bond(child.id, b.id, 0.90)
                     self.collective_field.absorb_event("nacimiento", intensity=0.8)
+                    # También en el campo tribal de los padres
+                    local_field = self.tribe_manager.get_local_field(a.id)
+                    if local_field is not None:
+                        local_field.absorb_event("nacimiento", intensity=0.8)
                     self._birth_log.append({
                         "dia":      tp.dia_simulado,
                         "id":       child.id,
@@ -345,6 +368,7 @@ class AgentCore:
             "social_network":    self.social_network.to_dict(),
             "collective_field":  self.collective_field.to_dict(),
             "mythology_engine":  self.mythology_engine.to_dict(),
+            "tribe_manager":     self.tribe_manager.to_dict(),
         }
 
     @classmethod
@@ -369,6 +393,9 @@ class AgentCore:
 
         if "mythology_engine" in data:
             core.mythology_engine = MythologyEngine.from_dict(data["mythology_engine"])
+
+        if "tribe_manager" in data:
+            core.tribe_manager = TribeManager.from_dict(data["tribe_manager"])
 
         return core
 
