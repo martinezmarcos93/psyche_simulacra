@@ -25,6 +25,11 @@ _COMIDA_POR_CAZA      = 8.0
 _AGUA_POR_BEBER       = 5.0
 _DREAM_HORA           = 22   # se sueña en esta hora del día simulado
 
+# Ciclo de vida
+_EDAD_INFANCIA        = 15   # antes de esta edad el agente es dependiente
+_EDAD_VEJEZ_INICIO    = 50   # a partir de aquí hay riesgo de muerte por vejez
+_PROB_BASE_VEJEZ      = 0.01 # probabilidad anual base; se duplica cada 5 años
+
 
 class Agent:
     """
@@ -79,10 +84,37 @@ class Agent:
         self._dias_hambre_critica = 0
         self._dias_sed_critica    = 0
 
+        # Ciclo de vida
+        self._padres:                tuple[str, str] | None = None
+        self._cooldown_reproduccion: int = 0
+
         self._rng = random.Random(seed)
 
         # Episodic Memory Log (Fase 8)
         self.episodic_log: list[str] = []
+
+    # ── Ciclo de vida ────────────────────────────────────────────────────────
+
+    @property
+    def es_infante(self) -> bool:
+        return self.edad < _EDAD_INFANCIA
+
+    def _need_factor(self) -> float:
+        """Factor de decay de necesidades según edad. 0.2 en la infancia, 1.0 en adultos."""
+        if self.edad >= _EDAD_INFANCIA:
+            return 1.0
+        if self.edad <= 4:
+            return 0.2
+        # Transición lineal 0.2 → 1.0 entre los 4 y los 15 años
+        return 0.2 + (self.edad - 4) * (0.8 / (_EDAD_INFANCIA - 4))
+
+    def _vigor_por_edad(self) -> float:
+        """Multiplicador de energía efectiva. Declina gradualmente a partir de los 40."""
+        if self.edad <= 40:
+            return 1.0
+        if self.edad <= 65:
+            return max(0.70, 1.0 - (self.edad - 40) * 0.012)
+        return max(0.40, 0.70 - (self.edad - 65) * 0.015)
 
     # ── Inicialización desde YAML ─────────────────────────────────────────────
 
@@ -129,10 +161,11 @@ class Agent:
         """Llamado una vez por tick por AgentCore."""
         actividad = self.schedule.get_activity(tp.hora_del_dia)
 
+        nf = self._need_factor()
         if actividad == "dormir":
-            self.needs.update_sleeping()
+            self.needs.update_sleeping(need_factor=nf)
         else:
-            self.needs.update_waking()
+            self.needs.update_waking(need_factor=nf)
 
         # Aplicar resultado de la acción del tick anterior
         if self.id in snapshot.action_results:
@@ -162,7 +195,7 @@ class Agent:
 
         self.ansiedad = min(1.0, stress * (1.0 + self.traits.stress_sensitivity()) + complejo_ansiedad)
         self.humor    = max(0.0, 1.0 - stress + mood_base * 0.3)
-        self.energia  = max(0.0, 1.0 - self.needs.fatiga)
+        self.energia  = max(0.0, (1.0 - self.needs.fatiga) * self._vigor_por_edad())
 
     def _process_dream(self, dia: int) -> None:
         """Genera un sueño y aplica sus deltas arquetípicos."""
@@ -207,6 +240,15 @@ class Agent:
         if self._dias_hambre_critica >= _DIAS_HAMBRE_MUERTE:
             self.is_alive = False
             return "inanicion"
+
+        # Senectud: probabilidad diaria exponencial a partir de _EDAD_VEJEZ_INICIO
+        # Prob. anual = 2^((edad - inicio) / 5) * base → se duplica cada 5 años de más
+        if self.edad >= _EDAD_VEJEZ_INICIO:
+            prob_anual = (2 ** ((self.edad - _EDAD_VEJEZ_INICIO) / 5)) * _PROB_BASE_VEJEZ
+            if self._rng.random() < min(1.0, prob_anual / 365):
+                self.is_alive = False
+                return "vejez"
+
         return None
 
     def on_day(self, tp: TimePoint) -> None:
@@ -487,8 +529,10 @@ class Agent:
             "humor":    self.humor,
             "energia":  self.energia,
             "ansiedad": self.ansiedad,
-            "dias_hambre_critica": self._dias_hambre_critica,
-            "dias_sed_critica":    self._dias_sed_critica,
+            "dias_hambre_critica":    self._dias_hambre_critica,
+            "dias_sed_critica":       self._dias_sed_critica,
+            "padres":                 list(self._padres) if self._padres else None,
+            "cooldown_reproduccion":  self._cooldown_reproduccion,
             # Psicología (para inspector/dashboard)
             "arquetipo_dominante": self.arquetipo_dominante,
             "estado_conductual":   self.estado_conductual,
@@ -532,8 +576,11 @@ class Agent:
         a.humor    = data.get("humor", 0.5)
         a.energia  = data.get("energia", 0.8)
         a.ansiedad = data.get("ansiedad", 0.2)
-        a._dias_hambre_critica = data.get("dias_hambre_critica", 0)
-        a._dias_sed_critica    = data.get("dias_sed_critica", 0)
+        a._dias_hambre_critica       = data.get("dias_hambre_critica", 0)
+        a._dias_sed_critica          = data.get("dias_sed_critica", 0)
+        padres_raw                   = data.get("padres")
+        a._padres                    = tuple(padres_raw) if padres_raw else None
+        a._cooldown_reproduccion     = data.get("cooldown_reproduccion", 0)
 
         # Psicología
         if "archetypes" in data:

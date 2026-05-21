@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import random
 from typing import TYPE_CHECKING
 
 from core.time import TimePoint
 from core.interface import WorldAction
 from .agent import Agent
+from .psyche.archetypes import ARCHETYPE_NAMES
+from .psyche.traits import TraitProfile
 from core.social.network import SocialNetwork
 from core.social.interaction import InteractionEngine
 from core.social.collective_field import CollectiveField
@@ -12,6 +15,23 @@ from core.social.mythology import MythologyEngine
 
 if TYPE_CHECKING:
     from core.world import WorldCore
+
+# Pool de nombres para la descendencia (nombres no usados por los fundadores)
+_NOMBRES_POOL = [
+    "Zelos", "Nike", "Kratos", "Bia", "Anteros", "Tyche", "Nemesis",
+    "Eunomia", "Dike", "Eirene", "Thanatos", "Hypnos", "Morpheus",
+    "Oizys", "Geras", "Momos", "Thallo", "Auxo", "Karpo", "Aglaea",
+    "Euphrosyne", "Phanes", "Ananke", "Aether", "Hemera", "Nyx",
+    "Zelus", "Alke", "Harmonia", "Arke", "Calais", "Zetes", "Chloris",
+    "Acantha", "Adrasteia", "Aeolus", "Aletheia", "Alke", "Alpheus",
+]
+
+_BOND_REPRODUCCION    = 0.70   # vínculo mínimo para reproducirse
+_EDAD_MIN_REPRO       = 16
+_EDAD_MAX_REPRO       = 45
+_PROB_REPRO_DIARIA    = 0.003  # 0.3% por par elegible por día (~1 nac./año con 3 pares)
+_COOLDOWN_REPRO       = 300    # días de espera post-nacimiento por padre
+_LIMITE_POBLACION     = 150    # máximo de agentes simultáneos
 
 
 class AgentCore:
@@ -25,6 +45,12 @@ class AgentCore:
         self.world_ref:  WorldCore          = world_ref
         self.agents:     dict[str, Agent]   = {}
         self._death_log: list[dict]         = []
+        self._birth_log: list[dict]         = []
+
+        # Ciclo de vida — estado de reproducción
+        self._rng               = random.Random()
+        self._nombres_usados:   set[str] = set()
+        self._proximo_id_hijo:  int = 0
 
         # Inicialización de Capas de Sistemas Sociales (Fase 7)
         self.social_network     = SocialNetwork()
@@ -96,26 +122,177 @@ class AgentCore:
         self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
         self.mythology_engine.apply_myth_effects(self.agents)
 
-        # 3. Control de vitalidad
+        # 3. Control de vitalidad (hambre, sed, vejez)
         for agent in list(self.agents.values()):
             if not agent.is_alive:
                 continue
             cause = agent.check_death()
             if cause is not None:
-                agent.episodic_log.append(f"Día {tp.dia_simulado}: Falleció a causa de {cause}.")
-                self._death_log.append({
-                    "tick":     tp.tick,
-                    "dia":      tp.dia_simulado,
-                    "agent_id": agent.id,
-                    "nombre":   agent.nombre,
-                    "causa":    cause,
-                })
+                self._register_death(agent, tp, cause)
+
+        # 3b. Orfandad: infantes cuyos dos padres han muerto
+        for agent in list(self.agents.values()):
+            if not agent.is_alive or not agent.es_infante or agent._padres is None:
+                continue
+            pa = self.agents.get(agent._padres[0])
+            pb = self.agents.get(agent._padres[1])
+            if (pa is None or not pa.is_alive) and (pb is None or not pb.is_alive):
+                self._register_death(agent, tp, "orfandad")
 
         # 4. Envejecimiento anual (un año simulado = 365 días)
         if tp.dia_simulado > 0 and tp.dia_simulado % 365 == 0:
             for agent in self.agents.values():
                 if agent.is_alive:
                     agent.edad += 1
+
+        # 5. Decrementar cooldowns de reproducción
+        for agent in self.agents.values():
+            if agent.is_alive and agent._cooldown_reproduccion > 0:
+                agent._cooldown_reproduccion -= 1
+
+        # 6. Reproducción
+        self._check_reproduccion(tp)
+
+    # ── Helpers ciclo de vida ─────────────────────────────────────────────────
+
+    def _register_death(self, agent: Agent, tp: TimePoint, causa: str) -> None:
+        agent.is_alive = False
+        agent.episodic_log.append(f"Día {tp.dia_simulado}: Falleció a causa de {causa}.")
+        self._death_log.append({
+            "tick":     tp.tick,
+            "dia":      tp.dia_simulado,
+            "agent_id": agent.id,
+            "nombre":   agent.nombre,
+            "causa":    causa,
+        })
+
+    def _check_reproduccion(self, tp: TimePoint) -> None:
+        if len(self.agents) >= _LIMITE_POBLACION:
+            return
+        alive = [a for a in self.agents.values() if a.is_alive]
+        reproduced: set[str] = set()
+
+        for i, a in enumerate(alive):
+            if a.id in reproduced:
+                continue
+            if a._cooldown_reproduccion > 0:
+                continue
+            if not (_EDAD_MIN_REPRO <= a.edad <= _EDAD_MAX_REPRO):
+                continue
+            if a.needs.hambre >= 0.3 or a.needs.sed >= 0.3 or a.needs.fatiga >= 0.5:
+                continue
+
+            for b in alive[i + 1:]:
+                if b.id in reproduced:
+                    continue
+                if b._cooldown_reproduccion > 0:
+                    continue
+                if not (_EDAD_MIN_REPRO <= b.edad <= _EDAD_MAX_REPRO):
+                    continue
+                if b.needs.hambre >= 0.3 or b.needs.sed >= 0.3 or b.needs.fatiga >= 0.5:
+                    continue
+                if self.social_network.get_bond(a.id, b.id) < _BOND_REPRODUCCION:
+                    continue
+
+                if self._rng.random() < _PROB_REPRO_DIARIA:
+                    child = self._generate_offspring(a, b, tp.dia_simulado)
+                    self.add_agent(child)
+                    self.social_network.set_bond(child.id, a.id, 0.90)
+                    self.social_network.set_bond(child.id, b.id, 0.90)
+                    self.collective_field.absorb_event("nacimiento", intensity=0.8)
+                    self._birth_log.append({
+                        "dia":      tp.dia_simulado,
+                        "id":       child.id,
+                        "nombre":   child.nombre,
+                        "padre_a":  a.id,
+                        "padre_b":  b.id,
+                    })
+                    print(f"  [👶] Día {tp.dia_simulado}: Nació {child.nombre} "
+                          f"(hijo de {a.nombre} y {b.nombre})")
+                    reproduced.add(a.id)
+                    reproduced.add(b.id)
+                    break
+
+    def _generate_offspring(
+        self,
+        parent_a: Agent,
+        parent_b: Agent,
+        dia:      int,
+    ) -> Agent:
+        """Crea un nuevo agente con psicología heredada de ambos padres."""
+        hijo_id = f"hijo_{self._proximo_id_hijo:03d}"
+        self._proximo_id_hijo += 1
+
+        # Nombre desde el pool, evitando repeticiones
+        disponibles = [n for n in _NOMBRES_POOL if n.lower() not in self._nombres_usados]
+        nombre = disponibles[self._rng.randrange(len(disponibles))] if disponibles \
+            else f"Descendiente_{hijo_id}"
+        self._nombres_usados.add(nombre.lower())
+
+        sexo     = self._rng.choice(["M", "F"])
+        rol      = self._rng.choice([parent_a.rol, parent_b.rol])
+        posicion = parent_a.posicion
+
+        child = Agent(
+            agent_id = hijo_id,
+            nombre   = nombre,
+            posicion = posicion,
+            rol      = rol,
+            edad     = 0,
+            sexo     = sexo,
+            seed     = self._proximo_id_hijo,
+        )
+        child._padres = (parent_a.id, parent_b.id)
+
+        noise = 0.08  # desviación estándar del ruido genético
+
+        # ── Herencia de arquetipos ──────────────────────────────────────────
+        for raw_name in ARCHETYPE_NAMES:
+            attr = "self_" if raw_name == "self" else raw_name
+            val_a = getattr(parent_a.archetypes, attr, 0.4)
+            val_b = getattr(parent_b.archetypes, attr, 0.4)
+            inherited = (val_a + val_b) / 2.0 + self._rng.gauss(0, noise)
+            setattr(child.archetypes, attr, max(0.0, min(1.0, inherited)))
+
+        # ── Herencia de rasgos Big Five + clínico ──────────────────────────
+        for attr in TraitProfile().to_dict():
+            val_a = getattr(parent_a.traits, attr, 0.5)
+            val_b = getattr(parent_b.traits, attr, 0.5)
+            inherited = (val_a + val_b) / 2.0 + self._rng.gauss(0, noise)
+            setattr(child.traits, attr, max(0.0, min(1.0, inherited)))
+
+        # ── Herencia de complejos (predisposición latente) ─────────────────
+        for cn in ["abandono", "inferioridad", "poder", "culpa", "materno", "trascendencia"]:
+            pred_a = getattr(parent_a.complexes, cn, 0.3)
+            pred_b = getattr(parent_b.complexes, cn, 0.3)
+            # El hijo hereda hasta la mitad de la predisposición más alta
+            inherited = max(pred_a, pred_b) * 0.5
+            setattr(child.complexes, cn, max(0.20, inherited))
+
+        # ── Estado cuántico derivado del arquetipo dominante ───────────────
+        from .quantum.superposition import BehavioralState
+        child.behavioral_state = BehavioralState.from_archetype_dominant(
+            child.archetypes.dominant()
+        )
+        child._base_state = BehavioralState(
+            cooperacion  = child.behavioral_state.cooperacion,
+            competencia  = child.behavioral_state.competencia,
+            aislamiento  = child.behavioral_state.aislamiento,
+            manipulacion = child.behavioral_state.manipulacion,
+        )
+
+        # ── Cooldown en los padres ─────────────────────────────────────────
+        parent_a._cooldown_reproduccion = _COOLDOWN_REPRO
+        parent_b._cooldown_reproduccion = _COOLDOWN_REPRO
+
+        # ── Memoria episódica de nacimiento ───────────────────────────────
+        child.episodic_log.append(
+            f"Día {dia}: Nació. Padres: {parent_a.nombre} y {parent_b.nombre}."
+        )
+        parent_a.episodic_log.append(f"Día {dia}: Nació {nombre}.")
+        parent_b.episodic_log.append(f"Día {dia}: Nació {nombre}.")
+
+        return child
 
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():
@@ -154,13 +331,20 @@ class AgentCore:
             core.add_agent(agent)
         return core
 
+    @property
+    def birth_log(self) -> list[dict]:
+        return self._birth_log
+
     def to_dict(self) -> dict:
         return {
-            "agents":    [a.to_dict() for a in self.agents.values()],
-            "death_log": self._death_log,
-            "social_network": self.social_network.to_dict(),
-            "collective_field": self.collective_field.to_dict(),
-            "mythology_engine": self.mythology_engine.to_dict(),
+            "agents":            [a.to_dict() for a in self.agents.values()],
+            "death_log":         self._death_log,
+            "birth_log":         self._birth_log,
+            "nombres_usados":    list(self._nombres_usados),
+            "proximo_id_hijo":   self._proximo_id_hijo,
+            "social_network":    self.social_network.to_dict(),
+            "collective_field":  self.collective_field.to_dict(),
+            "mythology_engine":  self.mythology_engine.to_dict(),
         }
 
     @classmethod
@@ -168,7 +352,10 @@ class AgentCore:
         core = cls(world_ref)
         for adict in data.get("agents", []):
             core.add_agent(Agent.from_dict(adict))
-        core._death_log = data.get("death_log", [])
+        core._death_log        = data.get("death_log", [])
+        core._birth_log        = data.get("birth_log", [])
+        core._nombres_usados   = set(data.get("nombres_usados", []))
+        core._proximo_id_hijo  = data.get("proximo_id_hijo", 0)
 
         # Restauración de capas de Sistemas Sociales (Fase 7)
         if "social_network" in data:

@@ -23,16 +23,16 @@ class Needs:
     sed:         float = 0.0   # 0=hydrated, 1=dehydrated
     sociabilidad: float = 0.5  # 0=satiated, 1=isolated
 
-    def update_waking(self) -> None:
-        self.hambre      = min(1.0, self.hambre      + _HAMBRE_DECAY_WAKING)
-        self.fatiga      = min(1.0, self.fatiga      + _FATIGA_DECAY_WAKING)
-        self.sed         = min(1.0, self.sed         + _SED_DECAY_WAKING)
+    def update_waking(self, need_factor: float = 1.0) -> None:
+        self.hambre      = min(1.0, self.hambre      + _HAMBRE_DECAY_WAKING  * need_factor)
+        self.fatiga      = min(1.0, self.fatiga      + _FATIGA_DECAY_WAKING  * need_factor)
+        self.sed         = min(1.0, self.sed         + _SED_DECAY_WAKING     * need_factor)
         self.sociabilidad = min(1.0, self.sociabilidad + 0.010)
 
-    def update_sleeping(self) -> None:
-        self.hambre      = min(1.0, self.hambre      + _HAMBRE_DECAY_SLEEPING)
+    def update_sleeping(self, need_factor: float = 1.0) -> None:
+        self.hambre      = min(1.0, self.hambre      + _HAMBRE_DECAY_SLEEPING * need_factor)
         self.fatiga      = max(0.0, self.fatiga      - _FATIGA_RECOVER_SLEEP)
-        self.sed         = min(1.0, self.sed         + _SED_DECAY_SLEEPING)
+        self.sed         = min(1.0, self.sed         + _SED_DECAY_SLEEPING    * need_factor)
 
     def eat(self, amount: float) -> None:
         self.hambre = max(0.0, self.hambre - amount)
