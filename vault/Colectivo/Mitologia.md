@@ -6,15 +6,7 @@ Los mitos son cristalizaciones de alta intensidad en el inconsciente colectivo q
 
 ## ⚔️ Mito Activo: Héroe vs Monstruo
 
-⚠️ **¡Mito Cristalizado Activo!**
-
-- **Día de Cristalización:** Día `1`
-- **Héroe Asignado:** [[kairos]] (Kairos)
-- **Monstruo / Chivo Expiatorio:** [[moros]] (Moros)
-
-### 🎭 Impacto Psicológico
-- **El Héroe:** Recibe bonificaciones emocionales continuas (+0.05 Humor, -0.05 Ansiedad por día).
-- **El Monstruo:** Experimenta una carga de pánico y aislamiento (+0.08 Ansiedad, -0.05 Humor por día).
+> *No hay ningún mito del Héroe vs Monstruo cristalizado actualmente en el inconsciente colectivo.*
 
 ---
 
@@ -22,4 +14,12 @@ Los mitos son cristalizaciones de alta intensidad en el inconsciente colectivo q
 
 | Mito | Estado | Protagonistas | Sincronía |
 | :--- | :---: | :--- | :---: |
-| Heroe_vs_monstruo | 🟢 Activo | Héroe: [[kairos]], Monstruo: [[moros]] | Día 1 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[kyron]], Monstruo: [[zoia]] | Día 1 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[ulax]], Monstruo: [[brennus]] | Día 338 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[brennus]], Monstruo: [[barea]] | Día 1034 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[cimber]], Monstruo: [[selene]] | Día 1059 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[desma]], Monstruo: [[lakon]] | Día 2483 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[talos]], Monstruo: [[meleager]] | Día 2868 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[ivar]], Monstruo: [[desma]] | Día 6742 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[stenos]], Monstruo: [[hijo_003]] | Día 11628 |
+| Heroe_vs_monstruo | 🔴 Disuelto | Héroe: [[hijo_001]], Monstruo: [[hijo_004]] | Día 12380 |
