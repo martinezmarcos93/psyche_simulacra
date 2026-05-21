@@ -15,7 +15,9 @@
       "Bash(python -c \"import importlib.util, sys; spec = importlib.util.spec_from_file_location\\('main', 'main.py'\\); mod = importlib.util.module_from_spec\\(spec\\); spec.loader.exec_module\\(mod\\); print\\('main.py importado OK'\\)\")",
       "Bash(python -c ' *)",
       "Bash(python -m pytest tests/ -x --tb=short -q)",
-      "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\" -x -q)"
+      "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\" -x -q)",
+      "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\\\\test_simulation.py::TestSimulationRunnerNewSession::test_snapshots_guardados_en_db\" -x -q)",
+      "Bash(python -m pytest \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\" -q)"
     ]
   }
 }

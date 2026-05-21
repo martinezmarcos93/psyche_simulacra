@@ -6,6 +6,7 @@ from pathlib import Path
 from core.time import SimulationClock, TimePoint
 from core.world import WorldCore
 from core.agents import AgentCore
+from core.narrative.narrator import NarratorEngine
 from persistence import DatabaseManager, WriteBuffer, CheckpointManager, SessionLog
 from obsidian.sync import ObsidianSync
 
@@ -37,9 +38,15 @@ class SimulationRunner:
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
         self.session = SessionLog(self.db)
         self.obsidian_sync = ObsidianSync(vault_path="vault")
+        self.narrator      = NarratorEngine(vault_path="vault")
 
         self._last_cp_dia:  int = -1
         self._death_cursor: int = 0
+
+        # Estado interno para detección de eventos narrativos
+        self._prev_tribe_ids:    set[str]       = set()
+        self._last_cronica_dia:  dict[str, int] = {}
+        self._prev_myth_keys:    set[str]       = set()
 
         # NO se llama _wire_handlers() aquí — se llama desde los constructores de clase
 
@@ -99,6 +106,9 @@ class SimulationRunner:
 
         self.session.record_day()
 
+        # Eventos narrativos (Fase 3)
+        self._queue_narrative_events(dia, new_deaths)
+
         # Sincronizar con el vault de Obsidian (Fase 8)
         self.obsidian_sync.sync_day(
             dia=dia,
@@ -116,6 +126,117 @@ class SimulationRunner:
             self._save_checkpoint(reason=f"auto_dia_{dia}")
         elif len(self.buffer) >= 200:
             self.buffer.flush()
+
+    def _queue_narrative_events(self, dia: int, new_deaths: list[dict]) -> None:
+        """Detecta eventos relevantes y los encola en el narrador."""
+        tm      = self.agents.tribe_manager
+        terrain = self.world.terrain
+        agents  = self.agents.agents
+
+        # 1. Nuevas tribus detectadas (mito fundacional)
+        current_tribe_ids = set(tm.tribes.keys())
+        for tribe_id in current_tribe_ids - self._prev_tribe_ids:
+            member_ids = tm.tribes.get(tribe_id, [])
+            alive      = [agents[aid] for aid in member_ids if aid in agents and agents[aid].is_alive]
+            nombres    = [a.nombre for a in alive]
+            arquetipo  = alive[0].archetypes.dominant() if alive else "heroe"
+            # Bioma dominante
+            bioma_counts: dict[str, int] = {}
+            for a in alive:
+                hx = terrain.get(*a.posicion)
+                if hx:
+                    bioma_counts[hx.biome] = bioma_counts.get(hx.biome, 0) + 1
+            bioma = max(bioma_counts, key=bioma_counts.__getitem__) if bioma_counts else "tierra desconocida"
+            lf = tm.local_fields.get(tribe_id)
+            simbolos = lf.symbols if lf else {}
+            self.narrator.on_new_tribe(tribe_id, dia, {
+                "tribe_name": tm.get_tribe_display_name(tribe_id, agents),
+                "nombres":    nombres,
+                "bioma":      bioma,
+                "arquetipo":  arquetipo,
+                "simbolos":   dict(simbolos),
+            })
+        self._prev_tribe_ids = current_tribe_ids
+
+        # 2. Crónica periódica por tribu (cada 100 días)
+        for tribe_id, member_ids in tm.tribes.items():
+            last = self._last_cronica_dia.get(tribe_id, -100)
+            if dia - last >= 100:
+                self._last_cronica_dia[tribe_id] = dia
+                alive = [agents[aid] for aid in member_ids if aid in agents and agents[aid].is_alive]
+                arquetipo   = alive[0].archetypes.dominant() if alive else "heroe"
+                lf          = tm.local_fields.get(tribe_id)
+                presion     = lf.emotional_pressure if lf else 0.0
+                simbolo_dom = max(lf.symbols, key=lf.symbols.__getitem__) if lf and lf.symbols else "sombra"
+                # Eventos recientes: últimas muertes + nacimientos del log
+                eventos = [
+                    f"Muerte de {d['nombre']} (día {d['dia']}, {d['causa']})"
+                    for d in self.agents.death_log[-10:]
+                    if d.get("agent_id") in set(member_ids)
+                ] + [
+                    f"Nacimiento de {b['nombre']} (día {b['dia']})"
+                    for b in self.agents.birth_log[-5:]
+                    if b.get("padre_a") in set(member_ids) or b.get("padre_b") in set(member_ids)
+                ]
+                self.narrator.on_cronica_day(tribe_id, dia, {
+                    "tribe_name":  tm.get_tribe_display_name(tribe_id, agents),
+                    "dia_inicio":  last + 1,
+                    "n_miembros":  len(alive),
+                    "arquetipo":   arquetipo,
+                    "presion":     presion,
+                    "simbolo_dom": simbolo_dom,
+                    "eventos":     eventos,
+                })
+
+        # 3. Elegías para muertes de figuras prominentes (arquetipo dominante > 0.70)
+        for death in new_deaths:
+            aid  = death.get("agent_id", "")
+            dead = agents.get(aid)
+            if dead is None:
+                continue
+            raw  = dead.archetypes.dominant()
+            attr = "self_" if raw == "self" else raw
+            val  = getattr(dead.archetypes, attr, 0.0)
+            if val >= 0.70:
+                tribe_id = tm.get_tribe_id(aid)
+                self.narrator.on_death(aid, dia, {
+                    "nombre":     dead.nombre,
+                    "edad":       dead.edad,
+                    "causa":      death.get("causa", "causas desconocidas"),
+                    "arquetipo":  raw,
+                    "tribe_name": tm.get_tribe_display_name(tribe_id, agents) if tribe_id else "sin tribu",
+                    "memorias":   dead.episodic_log[-5:],
+                    "agent_id":   aid,
+                })
+
+        # 4. Profecías por cristalización de mitos (global y locales)
+        all_myth_engines = [
+            (None, self.agents.mythology_engine)
+        ] + [
+            (tid, me) for tid, me in tm.local_myths.items()
+        ]
+        for tribe_id, myth_engine in all_myth_engines:
+            for myth in myth_engine.active_myths:
+                if not myth.get("active"):
+                    continue
+                key = f"{tribe_id or 'global'}_{myth.get('day_crystallized', 0)}"
+                if key in self._prev_myth_keys:
+                    continue
+                self._prev_myth_keys.add(key)
+                hero_id    = myth.get("hero_id")
+                monster_id = myth.get("monster_id")
+                hero_name  = agents[hero_id].nombre if hero_id and hero_id in agents else "el Elegido"
+                mon_name   = agents[monster_id].nombre if monster_id and monster_id in agents else "la Sombra"
+                t_id       = tribe_id or (tm.get_tribe_id(hero_id) if hero_id else None)
+                lf         = tm.local_fields.get(t_id) if t_id else self.agents.collective_field
+                self.narrator.on_myth_crystallized(t_id or "global", dia, {
+                    "tribe_name":    tm.get_tribe_display_name(t_id, agents) if t_id else "el Campo Global",
+                    "arquetipo":     "heroe",
+                    "heroe_nombre":  hero_name,
+                    "antagonista":   mon_name,
+                    "presion":       lf.emotional_pressure if lf else 0.0,
+                    "simbolos":      dict(lf.symbols) if lf else {},
+                })
 
     def _save_checkpoint(self, reason: str = "auto") -> Path:
         self.buffer.flush()
@@ -155,6 +276,7 @@ class SimulationRunner:
         
         self.clock.on_day(_extinction_check, priority=100)
 
+        self.narrator.start()
         try:
             self.clock.start()
         except KeyboardInterrupt:
@@ -168,6 +290,12 @@ class SimulationRunner:
     # ── Cierre limpio ─────────────────────────────────────────────────────────
 
     def _shutdown_gracefully(self) -> None:
+        # Esperar a que el narrador termine los eventos pendientes
+        try:
+            self.narrator.drain(timeout=60)
+            self.narrator.stop()
+        except Exception:
+            pass
         try:
             self.buffer.flush()
             self.cp_mgr.save(
@@ -223,7 +351,7 @@ class SimulationRunner:
         # Limpiar archivos viejos del Obsidian vault
         vault_dir = Path("vault")
         if vault_dir.exists():
-            for sub in ["Personas", "Colectivo", "Meta"]:
+            for sub in ["Personas", "Colectivo", "Meta", "Tribus"]:
                 sub_dir = vault_dir / sub
                 if sub_dir.exists():
                     for f in sub_dir.glob("*.md"):
@@ -231,6 +359,14 @@ class SimulationRunner:
                             f.unlink()
                         except Exception:
                             pass
+            # Subcarpeta de leyendas narrativas
+            leyendas_dir = vault_dir / "Colectivo" / "Leyendas"
+            if leyendas_dir.exists():
+                for f in leyendas_dir.glob("*.md"):
+                    try:
+                        f.unlink()
+                    except Exception:
+                        pass
 
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
         runner.agents = AgentCore.from_yaml(seed_file, runner.world)

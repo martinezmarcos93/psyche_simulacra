@@ -44,7 +44,7 @@ arquetipos:
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.85 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.29 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.30 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |

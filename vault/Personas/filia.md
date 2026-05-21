@@ -8,7 +8,7 @@ is_alive: True
 posicion: [46, 24]
 humor: 0.778
 energia: 0.665
-ansiedad: 0.443
+ansiedad: 0.442
 needs:
   hambre: 0.044
   fatiga: 0.335
