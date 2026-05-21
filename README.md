@@ -150,7 +150,9 @@ PSYCHE SIMULACRA/
 │
 ├── config/                        # ✅ YAML de configuración
 ├── scripts/                       # Entry points
-│   └── run_simulation.py         # ✅ Nueva sesión y reanudación
+│   ├── run_simulation.py         # ✅ Nueva sesión y reanudación (headless)
+│   └── visualizer.py             # ✅ Visualizador en tiempo real (Pygame)
+├── main.py                        # ✅ Launcher interactivo (menú TUI)
 ├── src/                           # Documentación de diseño (11 docs)
 ├── tests/                         # Suite de tests
 │   ├── test_agent.py             # ✅ Tests del SimulationClock (20/20)
@@ -265,31 +267,41 @@ pip install -e ".[dashboard]"
 
 ## Ejecución
 
-El motor de PSYCHE SIMULACRA está diseñado para ejecutarse de tres formas distintas, dependiendo de si buscas velocidad, análisis o inmersión.
+### Llave maestra (recomendado)
 
-### 1. Motor Headless (A toda velocidad)
-Ideal para avanzar siglos de historia rápidamente en segundo plano. Corre cientos de días en un par de segundos de forma silenciosa.
 ```bash
-# Iniciar una nueva simulación desde el Día 0
-python scripts/run_simulation.py --days 1000
+python main.py
+```
 
-# Reanudar desde el último autoguardado (checkpoint)
+Menú interactivo que detecta la simulación activa, muestra el día y los agentes vivos, y permite continuar o iniciar una nueva de forma segura. Al iniciar una nueva simulación, **archiva automáticamente** la anterior en `data/archive/` antes de borrar cualquier dato.
+
+---
+
+El motor también puede ejecutarse directamente:
+
+### 1. Motor Headless (máxima velocidad)
+Ideal para avanzar cientos de días en segundos. Sin visualización, solo datos.
+```bash
+# Reanudar desde el último checkpoint (0 = hasta extinción total)
+python scripts/run_simulation.py --resume --days 0
+
+# Reanudar N días más
 python scripts/run_simulation.py --resume --days 1000
 ```
 
 ### 2. Dashboard Analítico (Streamlit)
-Ideal para analizar la red social, el inconsciente colectivo y explorar la psique de cada agente mediante gráficos de datos y telemetría interactiva. Funciona de forma paralela sin interrumpir el motor.
+Solo lectura — no corre la simulación. Muestra la red social, el inconsciente colectivo y la psique de cada agente mientras el motor corre en paralelo.
 ```bash
 python -m streamlit run dashboard/app.py
 ```
 
 ### 3. Visualizador Inmersivo (Pygame)
-Ideal para observar en tiempo real a los agentes moverse por el mundo, expandiendo sus territorios y revelando biomas. Operacionalmente, limita la velocidad de simulación para que sea humanamente visible.
+Corre el motor a velocidad reducida y muestra el mapa hexagonal con los agentes en tiempo real. Zoom con rueda, panning con clic.
 ```bash
-# Reanudar y observar la simulación en tiempo real
-python scripts/visualizer.py --resume --days 1000
+# Reanudar y observar en tiempo real
+python scripts/visualizer.py --resume --days 0 --fps 10
 ```
-> **Nota:** Puedes cerrar la ventana de Pygame en cualquier momento con la `X`. El proceso esperará automáticamente a guardar el checkpoint de forma segura antes de cerrarse.
+> **Nota:** Cerrá la ventana con la `X`. El proceso guarda el checkpoint antes de salir.
 
 ---
 
@@ -313,6 +325,8 @@ pytest --tb=short      # traceback corto
 | Vault | PyYAML (frontmatter Obsidian) |
 | Persistencia | SQLite (stdlib) |
 | Dashboard | Streamlit |
+| Visualizador | Pygame |
+| Launcher TUI | Rich |
 | Logging | Loguru |
 | Tests | pytest |
 

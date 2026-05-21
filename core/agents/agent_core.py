@@ -111,6 +111,12 @@ class AgentCore:
                     "causa":    cause,
                 })
 
+        # 4. Envejecimiento anual (un año simulado = 365 días)
+        if tp.dia_simulado > 0 and tp.dia_simulado % 365 == 0:
+            for agent in self.agents.values():
+                if agent.is_alive:
+                    agent.edad += 1
+
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():
             agent.schedule.adjust_for_season(tp.estacion)
