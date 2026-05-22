@@ -44,7 +44,7 @@ arquetipos:
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.56 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.45 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
@@ -155,20 +155,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 7029:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 7030:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 7031:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 7032:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 7033:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 7034:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 7035:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

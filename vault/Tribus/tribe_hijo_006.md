@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `27656` | **Miembros vivos:** `1`
+> **Día:** `27675` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hijo_006]] (Tyche) | recolector | 43 | anima_animus |
+| [[hijo_006]] (Tyche) | recolector | 43 | self |
 
 ---
 

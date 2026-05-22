@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.45 |
+| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.46 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.65 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
 
@@ -109,20 +109,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 344:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 345:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 346:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 347:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 348:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 349:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 350:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

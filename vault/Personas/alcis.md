@@ -131,20 +131,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1016:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1017:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 1018:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1019:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1020:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 1021:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 1022:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

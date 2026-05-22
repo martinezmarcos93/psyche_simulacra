@@ -143,20 +143,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 11351:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 11352:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 11353:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 11354:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 11355:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 11356:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 11357:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -108,20 +108,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 202:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 203:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 204:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 205:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 206:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 207:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 208:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

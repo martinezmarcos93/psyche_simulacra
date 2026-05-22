@@ -133,20 +133,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1025:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1026:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1027:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* La tensión del heroe se intensifica; algo presiona desde abajo.
-- **Día 1028:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* La tensión del heroe se intensifica; algo presiona desde abajo.
-- **Día 1029:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* La tensión del heroe se intensifica; algo presiona desde abajo.
-- **Día 1030:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* La tensión del heroe se intensifica; algo presiona desde abajo.
-- **Día 1031:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* El heroe proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

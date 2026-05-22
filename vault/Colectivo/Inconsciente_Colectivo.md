@@ -1,6 +1,6 @@
 # 🌌 Inconsciente Colectivo
 
-> **Presión Emocional Global:** `0.013`
+> **Presión Emocional Global:** `0.009`
 > `[░░░░░░░░░░░░░░░]`
 
 ---
@@ -11,8 +11,8 @@ Representa la concentración de energía psíquica en los símbolos universales 
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Muerte** | `0.017` | `░░░░░░░░░░░░` |
-| **Sombra** | `0.009` | `░░░░░░░░░░░░` |
+| **Muerte** | `0.011` | `░░░░░░░░░░░░` |
+| **Sombra** | `0.006` | `░░░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░░░` |

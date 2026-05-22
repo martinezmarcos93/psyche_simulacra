@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `27656` | **Miembros vivos:** `1`
+> **Día:** `27675` | **Miembros vivos:** `1`
 
 ---
 

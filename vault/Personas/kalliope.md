@@ -120,20 +120,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 352:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 353:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 354:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 355:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra compensa la energía de lo reprimido.
-- **Día 356:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 357:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 358:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -121,20 +121,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 651:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 652:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 653:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre proyecta su sombra hacia afuera.
-- **Día 654:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 655:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 656:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 657:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

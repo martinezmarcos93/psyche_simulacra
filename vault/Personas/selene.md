@@ -140,20 +140,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 2474:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 2475:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 2476:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 2477:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 2478:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 2479:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 2480:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

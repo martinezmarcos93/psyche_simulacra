@@ -154,20 +154,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 6733:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus proyecta su sombra hacia afuera.
-- **Día 6734:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
-- **Día 6735:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 6736:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra encuentra paz provisional con la oscuridad.
-- **Día 6737:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 6738:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 6739:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

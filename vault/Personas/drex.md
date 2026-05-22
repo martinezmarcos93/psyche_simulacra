@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓░░░░░░░░]` | 0.23 |
-| **Energía** | `[▓▓▓░░░░░░░]` | 0.26 |
+| **Energía** | `[▓▓▓░░░░░░░]` | 0.27 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.98 |
 
 ### Necesidades Biológicas
@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓▓▓▓▓░]` | 0.85 | ⚠️ Alerta / Crítico |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.74 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.73 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -107,20 +107,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 9:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 10:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 11:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 12:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 13:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 14:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 15:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

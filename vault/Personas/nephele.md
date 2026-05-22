@@ -152,20 +152,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4513:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 4514:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 4515:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 4516:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 4517:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 4518:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 4519:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

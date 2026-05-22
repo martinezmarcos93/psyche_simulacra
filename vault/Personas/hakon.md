@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓░░░░░░░]` | 0.28 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.58 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.57 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -101,20 +101,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 8:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre encuentra paz provisional con la oscuridad.
-- **Día 9:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre encuentra paz provisional con la oscuridad.
-- **Día 10:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre encuentra paz provisional con la oscuridad.
-- **Día 11:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre encuentra paz provisional con la oscuridad.
-- **Día 12:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre compensa la energía de lo reprimido.
-- **Día 13:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre compensa la energía de lo reprimido.
-- **Día 14:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

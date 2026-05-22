@@ -1,6 +1,6 @@
 # 🏛️ Cultura Material
 
-> **Día:** `27656` | **Estructuras activas:** `238`
+> **Día:** `27675` | **Estructuras activas:** `238`
 
 ---
 

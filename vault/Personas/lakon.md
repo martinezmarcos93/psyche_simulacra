@@ -137,20 +137,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 2859:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2860:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 2861:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 2862:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* La tensión del self se intensifica; algo presiona desde abajo.
-- **Día 2863:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self proyecta su sombra hacia afuera.
-- **Día 2864:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2865:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

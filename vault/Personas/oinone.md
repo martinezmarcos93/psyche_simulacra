@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.57 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
 
 ### Necesidades Biológicas
@@ -122,20 +122,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 330:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 331:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 332:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 333:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 334:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 335:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 336:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

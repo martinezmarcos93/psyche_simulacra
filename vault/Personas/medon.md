@@ -133,20 +133,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1729:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
-- **Día 1730:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
-- **Día 1731:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre proyecta su sombra hacia afuera.
-- **Día 1732:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1733:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre proyecta su sombra hacia afuera.
-- **Día 1734:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1735:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

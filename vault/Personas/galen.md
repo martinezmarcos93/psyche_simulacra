@@ -103,20 +103,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 6:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 7:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde compensa la energía de lo reprimido.
-- **Día 8:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 9:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 10:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde compensa la energía de lo reprimido.
-- **Día 11:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 12:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

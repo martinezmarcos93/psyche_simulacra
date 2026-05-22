@@ -43,14 +43,14 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓░░░░░░░]` | 0.26 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -124,20 +124,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 287:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
-- **Día 288:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 289:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 290:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 291:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 292:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self compensa la energía de lo reprimido.
-- **Día 293:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

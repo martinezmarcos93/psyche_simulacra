@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓░░░░░░░]` | 0.34 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.65 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 |
 
 ### Necesidades Biológicas
@@ -123,20 +123,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 314:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 315:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 316:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 317:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 318:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 319:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 320:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* La tensión del anima_animus se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

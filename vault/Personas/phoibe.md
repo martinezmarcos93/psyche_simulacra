@@ -131,20 +131,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 2876:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 2877:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 2878:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 2879:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2880:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2881:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 2882:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -146,20 +146,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 11609:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 11610:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 11611:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 11612:** Soñó con `'montaña'` (arquetipo `heroe`).
-  - *Insight:* El heroe proyecta su sombra hacia afuera.
-- **Día 11613:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 11614:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 11615:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

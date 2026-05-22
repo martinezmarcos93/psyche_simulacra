@@ -69,7 +69,7 @@ arquetipos:
 | **Sabio** | `0.925` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Trickster** | `0.337` | `▓▓▓▓░░░░░░░░` |
 | **Madre** | `0.350` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.292` | `▓▓▓░░░░░░░░░` |
+| **Padre** | `0.292` | `▓▓▓▓░░░░░░░░` |
 | **Nino divino** | `0.565` | `▓▓▓▓▓▓▓░░░░░` |
 | **Gobernante** | `0.303` | `▓▓▓▓░░░░░░░░` |
 | **Rebelde** | `0.303` | `▓▓▓▓░░░░░░░░` |
@@ -106,20 +106,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 307:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 308:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 309:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 310:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 311:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 312:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 313:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

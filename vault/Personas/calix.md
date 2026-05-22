@@ -50,7 +50,7 @@ arquetipos:
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.70 | 🟢 Hidratado |
+| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.69 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -135,20 +135,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 2195:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* La tensión del sabio se intensifica; algo presiona desde abajo.
-- **Día 2196:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 2197:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2198:** Soñó con `'estrella_lejana'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta su sombra hacia afuera.
-- **Día 2199:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 2200:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 2201:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

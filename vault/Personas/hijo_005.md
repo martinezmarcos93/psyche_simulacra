@@ -5,22 +5,22 @@ rol: recolector
 edad: 68
 sexo: F
 is_alive: True
-posicion: [7, 11]
-humor: 0.966
+posicion: [12, 12]
+humor: 0.896
 energia: 0.447
-ansiedad: 0.204
+ansiedad: 0.295
 needs:
-  hambre: 0.104
+  hambre: 0.084
   fatiga: 0.335
-  sed: 0.095
+  sed: 0.295
   sociabilidad: 1.000
 arquetipo_dominante: self
 estado_conductual: competencia
 arquetipos:
   self: 1.000
   persona: 0.311
-  sombra: 0.992
-  anima_animus: 0.992
+  sombra: 0.994
+  anima_animus: 1.000
   heroe: 1.000
   sabio: 1.000
   trickster: 0.763
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Bia
 
-> **Rol:** `recolector` | **Edad:** 68 | **Sexo:** F | **Ubicación:** `(7, 11)`
+> **Rol:** `recolector` | **Edad:** 68 | **Sexo:** F | **Ubicación:** `(12, 12)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.90 |
 | **Energía** | `[▓▓▓▓░░░░░░]` | 0.45 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.20 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.30 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Hidratado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
+| **Sed** | `[▓▓▓░░░░░░░]` | 0.30 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -63,8 +63,8 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.311` | `▓▓▓▓░░░░░░░░` |
-| **Sombra** | `0.992` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Anima animus** | `0.992` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.994` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Heroe** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Sabio** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Trickster** | `0.763` | `▓▓▓▓▓▓▓▓▓░░░` |
@@ -126,20 +126,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 27650:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus compensa la energía de lo reprimido.
-- **Día 27651:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 27668:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27652:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 27669:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27653:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+- **Día 27670:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 27671:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
+- **Día 27672:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
   - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27654:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27655:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
-- **Día 27656:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
-  - *Insight:* El self encuentra paz provisional con la oscuridad.
+- **Día 27673:** Soñó con `'centro_del_mundo'` (arquetipo `self`).
+  - *Insight:* El self compensa la energía de lo reprimido.
+- **Día 27674:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus encuentra paz provisional con la oscuridad.
 
 ---
 
@@ -25904,3 +25904,21 @@ arquetipos:
 - Día 27654: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 27655: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
 - Día 27656: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27657: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27658: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27659: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27660: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27661: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 27662: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 27663: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 27664: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 27665: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 27666: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 27667: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27668: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27669: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27670: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 27671: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 27672: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27673: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 27674: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.

@@ -152,20 +152,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 15053:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* La tensión del padre se intensifica; algo presiona desde abajo.
-- **Día 15054:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* La tensión del padre se intensifica; algo presiona desde abajo.
-- **Día 15055:** Soñó con `'tormenta_que_pasa'` (arquetipo `padre`).
-  - *Insight:* El padre proyecta su sombra hacia afuera.
-- **Día 15056:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 15057:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 15058:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* La tensión del sombra se intensifica; algo presiona desde abajo.
-- **Día 15059:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

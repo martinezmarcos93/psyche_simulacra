@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.55 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
 
 ### Necesidades Biológicas
@@ -99,20 +99,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino encuentra paz provisional con la oscuridad.
-- **Día 4:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino encuentra paz provisional con la oscuridad.
-- **Día 5:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino compensa la energía de lo reprimido.
-- **Día 6:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino compensa la energía de lo reprimido.
-- **Día 7:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino compensa la energía de lo reprimido.
-- **Día 8:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino encuentra paz provisional con la oscuridad.
-- **Día 9:** Soñó con `'luz_primera'` (arquetipo `nino_divino`).
-  - *Insight:* El nino_divino encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -21,7 +21,16 @@
       "Bash(python -m pytest tests/test_metrics.py -v)",
       "Bash(python -m pytest --tb=short -q)",
       "PowerShell(New-Item *)",
-      "PowerShell(Copy-Item *)"
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(python -c $script)",
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\analyze_db.py\")",
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\analyze_stats.py\")",
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\query_births.py\")",
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\query_survivors.py\")",
+      "Bash(grep -E \"\\\\.\\(py|js|json|yml|yaml|txt\\)$\")",
+      "Bash(python3)",
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\read_docx.py\")"
     ]
   }
 }

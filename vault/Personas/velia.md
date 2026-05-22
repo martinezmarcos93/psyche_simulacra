@@ -103,20 +103,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 17:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde compensa la energía de lo reprimido.
-- **Día 18:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde compensa la energía de lo reprimido.
-- **Día 19:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 20:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde encuentra paz provisional con la oscuridad.
-- **Día 21:** Soñó con `'fuego_libre'` (arquetipo `rebelde`).
-  - *Insight:* El rebelde compensa la energía de lo reprimido.
-- **Día 22:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante encuentra paz provisional con la oscuridad.
-- **Día 23:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante compensa la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

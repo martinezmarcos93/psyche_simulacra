@@ -131,20 +131,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1562:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1563:** Soñó con `'figura_oscura'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta su sombra hacia afuera.
-- **Día 1564:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
-- **Día 1565:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
-- **Día 1566:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
-- **Día 1567:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre proyecta su sombra hacia afuera.
-- **Día 1568:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* La tensión del madre se intensifica; algo presiona desde abajo.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

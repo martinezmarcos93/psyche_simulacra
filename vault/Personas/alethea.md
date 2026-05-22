@@ -105,20 +105,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 7:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre encuentra paz provisional con la oscuridad.
-- **Día 8:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre compensa la energía de lo reprimido.
-- **Día 9:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre encuentra paz provisional con la oscuridad.
-- **Día 10:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre encuentra paz provisional con la oscuridad.
-- **Día 11:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre compensa la energía de lo reprimido.
-- **Día 12:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre encuentra paz provisional con la oscuridad.
-- **Día 13:** Soñó con `'rio_quieto'` (arquetipo `madre`).
-  - *Insight:* El madre encuentra paz provisional con la oscuridad.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 
