@@ -39,7 +39,12 @@
       "Bash(python -c \"from core.agents.agent import Agent; print\\('agent OK'\\)\")",
       "Bash(python -c \"from core.agents.agent_core import AgentCore; print\\('agent_core OK'\\)\")",
       "Bash(find core/metrics -name \"*.py\")",
-      "Bash(dir core\\\\metrics /b)"
+      "Bash(dir core\\\\metrics /b)",
+      "Bash(dir data *)",
+      "Bash(dir data\\\\archive /b)",
+      "Bash(dir data\\\\db /b)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('main.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(git check-ignore *)"
     ]
   }
 }

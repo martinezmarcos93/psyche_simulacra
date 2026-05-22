@@ -79,3 +79,9 @@ logs/
 # ── Mypy / Ruff / linters ────────────────────────────────────────────────────
 .mypy_cache/
 .ruff_cache/
+
+# ── Documentos privados de diseño ────────────────────────────────────────────
+_privado/
+_PRIVADO*/
+NOTAS_*.md
+_notas*.md

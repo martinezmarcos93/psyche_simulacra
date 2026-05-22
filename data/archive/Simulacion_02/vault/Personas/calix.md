@@ -1,0 +1,2662 @@
+---
+id: calix
+nombre: Calix
+rol: guardian
+edad: 56
+sexo: M
+is_alive: False
+posicion: [13, 27]
+humor: 0.797
+energia: 0.588
+ansiedad: 0.405
+needs:
+  hambre: 0.064
+  fatiga: 0.335
+  sed: 0.695
+  sociabilidad: 1.000
+arquetipo_dominante: sombra
+estado_conductual: aislamiento
+arquetipos:
+  self: 0.976
+  persona: 0.530
+  sombra: 1.000
+  anima_animus: 0.977
+  heroe: 0.971
+  sabio: 0.974
+  trickster: 0.458
+  madre: 0.975
+  padre: 0.428
+  nino_divino: 0.480
+  gobernante: 0.589
+  rebelde: 0.402
+---
+# 👤 Persona: Calix
+
+> **Rol:** `guardian` | **Edad:** 56 | **Sexo:** M | **Ubicación:** `(13, 27)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.41 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.69 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.976` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.530` | `▓▓▓▓▓▓░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.977` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.971` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sabio** | `0.974` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.458` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.975` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.428` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
+| **Gobernante** | `0.589` | `▓▓▓▓▓▓▓░░░░░` |
+| **Rebelde** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[calyce]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[cephalos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[creon]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
+| [[damon]] | `-0.21` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[demos]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[desma]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erytheis]] | `+0.18` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[eudora]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[exan]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[festus]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[fyria]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[galatia]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hector]] | `-0.60` | `▓▓░░░░░░░░` | Ninguno |
+| [[heron]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[hestia]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[hijo_000]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_001]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ivar]] | `+0.07` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[jocasta]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[jora]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kimon]] | `-0.60` | `▓▓░░░░░░░░` | Ninguno |
+| [[lakon]] | `-0.04` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[lykos]] | `-0.36` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[malia]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[medon]] | `+0.80` | `▓▓▓▓▓▓▓▓▓░` | ⚛️ Entrelazado |
+| [[nephele]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[oinone]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[oris]] | `-0.87` | `▓░░░░░░░░░` | Ninguno |
+| [[peria]] | `+0.18` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[persis]] | `-0.67` | `▓▓░░░░░░░░` | Ninguno |
+| [[phoibos]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[rheia]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[selene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[stenos]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[ulax]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[vergil]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[yaron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ysolde]] | `-0.81` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[zylas]] | `+0.34` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+*Aún no se registran experiencias oníricas en esta psique.*
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 0: Soñó con 'escenario_vacio' (persona). Insight: El persona encuentra paz provisional con la oscuridad.
+- Día 1: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 1: Soñó con 'escenario_vacio' (persona). Insight: El persona encuentra paz provisional con la oscuridad.
+- Día 1: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 1: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 2: Soñó con 'escenario_vacio' (persona). Insight: El persona encuentra paz provisional con la oscuridad.
+- Día 3: Soñó con 'escenario_vacio' (persona). Insight: El persona encuentra paz provisional con la oscuridad.
+- Día 4: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 5: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 6: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 7: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 8: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 9: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 10: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 10: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 10: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 10: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 11: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 12: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 12: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 13: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 15: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 17: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 18: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 18: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 18: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 18: Sufrió explotación y hostilidad de Malia, cediendo recursos biológicos.
+- Día 18: Sufrió explotación y hostilidad de Malia, cediendo recursos biológicos.
+- Día 18: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 19: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 19: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 20: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 21: Detectó y rechazó un intento de manipulación de Calyce.
+- Día 21: Detectó y rechazó un intento de manipulación de Calyce.
+- Día 21: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 22: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 23: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 24: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 24: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 24: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 24: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 25: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 26: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 27: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 28: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 29: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 30: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 31: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 32: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 33: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 34: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 35: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 36: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 36: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 36: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 36: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 37: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 38: Detectó y rechazó un intento de manipulación de Creon.
+- Día 38: Detectó y rechazó un intento de manipulación de Creon.
+- Día 38: Se impuso competitivamente ante Creon, absorbiendo sus recursos biológicos.
+- Día 38: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 39: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 40: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 41: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 42: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 43: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 44: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 45: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 46: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 47: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 48: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 49: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 50: Cooperó de forma mutua y armónica con Vergil. Su lazo social se fortaleció.
+- Día 50: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 51: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 52: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 53: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 54: Cooperó de forma mutua y armónica con Eudora. Su lazo social se fortaleció.
+- Día 54: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 55: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 56: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 57: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 58: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 59: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 60: Se impuso competitivamente ante Damon, absorbiendo sus recursos biológicos.
+- Día 60: Se impuso competitivamente ante Damon, absorbiendo sus recursos biológicos.
+- Día 60: Se impuso competitivamente ante Damon, absorbiendo sus recursos biológicos.
+- Día 60: Detectó y rechazó un intento de manipulación de Damon.
+- Día 60: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 61: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 62: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 63: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 64: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 65: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 66: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 67: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 68: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 69: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 70: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 71: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 72: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 73: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 74: Cooperó de forma mutua y armónica con Vergil. Su lazo social se fortaleció.
+- Día 74: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 75: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 76: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 77: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 78: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 79: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 80: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 81: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 82: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 83: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 84: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 85: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 86: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 87: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 88: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 89: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 90: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 91: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 92: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 93: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 94: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 95: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 96: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 97: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 98: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 99: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 100: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 101: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 102: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 103: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 104: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 105: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 106: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 107: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 108: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 109: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 110: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 111: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 112: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 113: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 114: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 115: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 116: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 117: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 118: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 119: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 120: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 121: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 122: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 123: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 124: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 125: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 126: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 127: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 128: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 129: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 130: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 131: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 132: Cedió ingenuamente ante la manipulación de Oinone.
+- Día 132: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 133: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 134: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 135: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 136: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 137: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 138: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 139: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 140: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 141: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 142: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 143: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 144: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 145: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 146: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 147: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 148: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 149: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 150: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 151: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 152: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 153: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 154: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 155: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 156: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 157: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 158: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 159: Cooperó de forma mutua y armónica con Kimon. Su lazo social se fortaleció.
+- Día 159: Cooperó de forma mutua y armónica con Kimon. Su lazo social se fortaleció.
+- Día 159: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 160: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 161: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 162: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 163: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 164: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 165: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 166: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 167: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 168: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 169: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 170: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 171: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 172: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 173: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 174: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 175: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 176: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 177: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 178: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 179: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 180: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 181: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 182: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 183: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 184: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 185: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 186: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 187: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 188: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 189: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 190: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 191: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 192: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 193: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 194: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 195: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 196: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 197: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 198: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 199: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 200: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 201: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 202: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 203: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 204: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 205: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 206: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 207: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 208: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 209: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 210: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 211: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 212: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 213: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 214: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 215: Sufrió explotación y hostilidad de Selene, cediendo recursos biológicos.
+- Día 215: Sufrió explotación y hostilidad de Selene, cediendo recursos biológicos.
+- Día 215: Cedió ingenuamente ante la manipulación de Selene.
+- Día 215: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 216: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 216: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 216: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 216: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 216: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 216: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 216: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 217: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 218: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 219: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 220: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 221: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 222: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 223: Sufrió explotación y hostilidad de Lykos, cediendo recursos biológicos.
+- Día 223: Sufrió explotación y hostilidad de Lykos, cediendo recursos biológicos.
+- Día 223: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 224: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 225: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 226: Cooperó de forma mutua y armónica con Festus. Su lazo social se fortaleció.
+- Día 226: Cooperó de forma mutua y armónica con Festus. Su lazo social se fortaleció.
+- Día 226: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 227: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 228: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 229: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 230: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 231: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 232: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 233: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 234: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 235: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 236: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 237: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 238: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 239: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 240: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 241: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 242: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 243: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 244: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 245: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 246: Cooperó de forma mutua y armónica con Ivar. Su lazo social se fortaleció.
+- Día 246: Cooperó de forma mutua y armónica con Ivar. Su lazo social se fortaleció.
+- Día 246: Cooperó de forma mutua y armónica con Ivar. Su lazo social se fortaleció.
+- Día 246: Cooperó de forma mutua y armónica con Ivar. Su lazo social se fortaleció.
+- Día 246: Cooperó de forma mutua y armónica con Ivar. Su lazo social se fortaleció.
+- Día 246: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 247: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 248: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 249: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Ivar.
+- Día 250: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 251: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 252: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 253: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 254: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 255: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 256: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 257: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 258: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 259: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 260: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 261: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 262: Cooperó de forma mutua y armónica con Exan. Su lazo social se fortaleció.
+- Día 262: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 263: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 264: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 265: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 266: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 267: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 268: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 269: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 270: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 271: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 272: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 273: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 274: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 275: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 276: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 277: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 278: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 279: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 280: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 281: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 282: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 283: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 284: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 285: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 286: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 287: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 288: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 289: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 290: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 291: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 291: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 291: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 291: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 292: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 293: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 293: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 293: Cooperó de forma mutua y armónica con Exan. Su lazo social se fortaleció.
+- Día 294: Cooperó de forma mutua y armónica con Exan. Su lazo social se fortaleció.
+- Día 294: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 295: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 296: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 297: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 298: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 299: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 300: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 301: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 302: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 303: Detectó y rechazó un intento de manipulación de Ivar.
+- Día 303: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 304: Sufrió explotación y hostilidad de Ulax, cediendo recursos biológicos.
+- Día 304: Cedió ingenuamente ante la manipulación de Ivar.
+- Día 304: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 304: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 304: Sufrió explotación y hostilidad de Fyria, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Fyria, cediendo recursos biológicos.
+- Día 304: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 305: Sufrió explotación y hostilidad de Ulax, cediendo recursos biológicos.
+- Día 305: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 306: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 307: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 308: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 309: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 310: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 311: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 312: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 313: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 314: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 315: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 316: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 317: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 318: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 319: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 320: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 321: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 322: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 323: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 324: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 325: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 326: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 327: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 328: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 329: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 330: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 331: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 332: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 333: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 334: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 335: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 336: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 337: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 338: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 339: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 340: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 341: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 342: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 343: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 344: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 345: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 346: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 347: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 348: Cooperó de forma mutua y armónica con Jocasta. Su lazo social se fortaleció.
+- Día 348: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 349: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 350: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 351: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 352: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 353: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 354: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 355: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 356: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 357: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 358: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 359: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 360: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 361: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 362: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 363: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 364: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 365: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 366: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 367: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 368: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 369: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 370: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 371: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 372: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 373: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 374: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 375: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 376: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 377: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 378: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 379: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 380: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 381: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 382: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 383: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 384: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 385: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 386: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 387: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 388: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 389: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 390: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 391: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 392: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 393: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 394: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 395: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 396: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 397: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 398: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 399: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 400: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 401: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 402: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 403: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 404: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 405: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 406: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 407: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 408: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 409: Intentó manipular a Persis, pero fue descubierto.
+- Día 409: Intentó manipular a Persis, pero fue descubierto.
+- Día 409: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 410: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 411: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 412: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 413: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 414: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 415: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 416: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 417: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 418: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 419: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 420: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 421: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 422: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 423: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 424: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 425: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 426: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 427: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 428: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Persis.
+- Día 428: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Persis.
+- Día 428: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Persis.
+- Día 428: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 429: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 430: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 431: Cooperó de forma mutua y armónica con Persis. Su lazo social se fortaleció.
+- Día 431: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 432: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 433: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 434: Detectó y rechazó un intento de manipulación de Hector.
+- Día 434: Detectó y rechazó un intento de manipulación de Hector.
+- Día 434: Detectó y rechazó un intento de manipulación de Hector.
+- Día 434: Detectó y rechazó un intento de manipulación de Hector.
+- Día 434: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 435: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 436: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 437: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 438: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 439: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 440: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 441: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 442: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 443: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 444: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 445: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 446: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 447: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 448: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 449: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 450: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 451: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 452: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 453: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 454: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 455: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 456: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 457: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 458: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 459: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 460: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 461: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 462: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 463: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 464: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 465: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 466: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 467: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 468: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 469: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 470: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 471: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 472: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 473: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 474: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 475: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 476: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 477: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 478: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 479: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 480: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 481: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 482: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 483: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 484: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 485: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 486: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 487: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 488: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 489: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 490: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 491: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 492: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 493: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 494: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 495: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 496: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 497: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 498: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 499: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 500: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 501: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 502: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 503: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 504: Intentó manipular a Hestia, pero fue descubierto.
+- Día 504: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 505: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 506: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 507: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 508: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 509: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 510: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 511: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 512: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 513: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 514: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 515: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 516: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 517: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 518: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 519: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 520: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 521: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 522: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 523: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 524: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 524: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 525: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 526: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 527: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 528: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 529: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 530: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 531: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 532: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 533: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 534: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 535: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 536: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 537: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 538: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 539: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 540: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 541: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 542: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 543: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 544: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 545: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 546: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 547: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 548: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 549: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 550: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 551: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 552: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 553: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 554: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 555: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 556: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 557: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 558: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 559: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 560: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 561: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 562: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 563: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 564: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 565: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 566: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 567: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 568: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 569: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 570: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 571: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 572: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 573: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 574: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 575: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 576: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 577: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 578: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 579: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 580: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 581: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 582: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 583: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 584: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 585: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 586: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 587: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 588: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 589: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 590: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 591: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 592: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 593: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 594: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 595: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 596: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 597: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 598: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 599: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 600: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 601: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 602: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 603: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 604: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 605: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 606: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 607: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 608: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 609: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 610: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 611: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 612: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 613: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 614: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 615: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 616: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 617: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 618: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 619: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 620: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 621: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 622: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 623: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 624: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 625: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 626: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 627: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 628: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 629: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 630: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 631: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 632: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 633: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 634: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 635: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 636: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 637: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 638: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 639: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 640: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 641: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 642: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 643: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 644: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 645: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 646: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 647: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 648: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 649: Se impuso competitivamente ante Lakon, absorbiendo sus recursos biológicos.
+- Día 649: Se impuso competitivamente ante Lakon, absorbiendo sus recursos biológicos.
+- Día 649: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 650: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
+- Día 650: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 651: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 652: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 653: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 654: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 655: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 656: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 657: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 658: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 658: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 659: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 660: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 661: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 662: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 663: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 664: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 665: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 665: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 666: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 667: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 668: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 669: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 670: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 671: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 672: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 673: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 674: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 675: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 676: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 677: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 678: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 679: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 680: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 681: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 682: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 683: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 684: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 685: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 686: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 687: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 688: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 689: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 690: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 691: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 692: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 693: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 694: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 694: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 695: Se impuso competitivamente ante Oris, absorbiendo sus recursos biológicos.
+- Día 695: Se impuso competitivamente ante Oris, absorbiendo sus recursos biológicos.
+- Día 695: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 696: Intentó manipular a Oris, pero fue descubierto.
+- Día 696: Intentó manipular a Oris, pero fue descubierto.
+- Día 696: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 697: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 698: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 699: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 700: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 701: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 702: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 703: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 704: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 705: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 706: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 707: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 708: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 709: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 710: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 711: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 712: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 713: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 714: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 715: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 716: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 717: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 718: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 719: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 720: Cooperó de forma mutua y armónica con Jora. Su lazo social se fortaleció.
+- Día 720: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 721: Cooperó de forma mutua y armónica con Jora. Su lazo social se fortaleció.
+- Día 721: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 721: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 721: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 721: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 721: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 721: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 722: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 723: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 724: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 725: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 726: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 727: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 728: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 729: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 730: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 731: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 732: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 733: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 734: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 735: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 736: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 737: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 738: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 739: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 740: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 741: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 742: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 743: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 744: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 745: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 746: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 747: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 748: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 749: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 750: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 751: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 752: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 753: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 754: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 755: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 756: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 757: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 758: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 759: Cedió ingenuamente ante la manipulación de Euphrosyne.
+- Día 759: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
+- Día 759: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 759: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 759: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 759: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 759: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 759: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 760: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 761: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 762: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 763: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 764: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 765: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 766: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 767: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 768: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 769: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 770: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 771: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 771: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 771: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 772: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 773: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
+- Día 773: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 774: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 775: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 776: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 777: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 778: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 779: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 780: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 781: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 782: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 783: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 784: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 785: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 786: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 787: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 788: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 789: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 790: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 791: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 792: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 793: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 794: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 795: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 796: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 797: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 798: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 799: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 800: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 801: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 802: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 803: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 804: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 805: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 806: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 807: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 808: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 809: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 810: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 811: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 812: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 813: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 814: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 815: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 816: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 817: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 818: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 819: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 820: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 821: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 822: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 823: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 824: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 825: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 826: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 827: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 828: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 829: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 830: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 831: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 832: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 833: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 834: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 835: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 836: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 837: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 838: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 839: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 840: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 841: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 842: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 843: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 844: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 845: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 846: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 847: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 848: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 849: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 850: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 851: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 852: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 853: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 854: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 855: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 856: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 857: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 858: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 859: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 860: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 861: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 862: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 863: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 864: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 865: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 866: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 867: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 868: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 869: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 870: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 871: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 872: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 873: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 874: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 875: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 876: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 877: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 878: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 879: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 880: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 881: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 882: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 883: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 884: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 885: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 886: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 887: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 888: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 889: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 890: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 891: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 892: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 893: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 894: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 895: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 896: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 897: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 898: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 899: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 900: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 901: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 902: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 903: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 904: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 905: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 906: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 907: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 908: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 909: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 910: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 911: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 912: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 913: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 914: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 915: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 916: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 917: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 918: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 919: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 920: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 921: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 922: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 923: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 924: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 925: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 926: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 927: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 928: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 929: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 930: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 931: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 932: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 933: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 934: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 935: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 936: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 937: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 938: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 939: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 940: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 941: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 942: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 943: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 944: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 945: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 946: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 947: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 948: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 949: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 950: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 951: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 952: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 953: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 954: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 955: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 956: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 957: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 958: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 959: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 960: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 961: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 962: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 963: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 964: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 965: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 966: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 967: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 968: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 969: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 970: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 971: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 972: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 973: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 974: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 975: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 976: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 977: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 978: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 979: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 980: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 981: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 982: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 983: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 984: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 985: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 986: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 987: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 988: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 989: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 990: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 991: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 992: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 993: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 994: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 995: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 996: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 997: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 998: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 999: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1000: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1001: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1002: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1003: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1004: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1005: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1006: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1007: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1008: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1009: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1010: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1011: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1012: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1013: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1014: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1015: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1016: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1017: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1018: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1019: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1020: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1021: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1022: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1023: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1024: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1025: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1026: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1027: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1028: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1029: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1030: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1031: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1032: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1033: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1034: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1035: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1036: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1037: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1038: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1039: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1040: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1041: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1042: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1043: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1044: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1045: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1046: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1047: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1048: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1049: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1050: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1051: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1052: Cooperó de forma mutua y armónica con Erytheis. Su lazo social se fortaleció.
+- Día 1052: Cooperó de forma mutua y armónica con Erytheis. Su lazo social se fortaleció.
+- Día 1052: Cooperó de forma mutua y armónica con Erytheis. Su lazo social se fortaleció.
+- Día 1052: Cooperó de forma mutua y armónica con Erytheis. Su lazo social se fortaleció.
+- Día 1052: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1053: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1054: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1055: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1056: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1057: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1058: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1059: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1060: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1061: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1062: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1063: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1064: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1065: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1066: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1067: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1068: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1069: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1070: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 1070: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1071: Cooperó de forma mutua y armónica con Erytheis. Su lazo social se fortaleció.
+- Día 1071: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1072: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1073: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1074: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1075: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1076: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1077: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1078: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1079: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1080: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1081: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1082: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1083: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1084: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1085: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1086: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1087: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1088: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1089: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1090: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1091: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1092: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1093: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1094: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1095: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1096: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1097: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1098: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1099: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1100: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1101: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1102: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1103: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1104: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1105: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1106: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1107: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1108: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1109: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1110: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1111: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1112: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1113: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1114: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1115: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1116: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1117: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1118: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1119: Intentó manipular a Persis, pero fue descubierto.
+- Día 1119: Intentó manipular a Persis, pero fue descubierto.
+- Día 1119: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1120: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1121: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1122: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1123: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1124: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1125: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1126: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1127: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1128: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1129: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1130: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1131: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1132: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1133: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1134: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1135: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1136: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1137: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1138: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1139: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1140: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1141: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1142: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1143: Intentó manipular a Persis, pero fue descubierto.
+- Día 1143: Intentó manipular a Persis, pero fue descubierto.
+- Día 1143: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1144: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1145: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1146: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1147: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1148: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1149: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1150: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1151: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1152: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1153: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1154: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1155: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1156: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1157: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1158: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1159: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1160: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1161: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1162: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1163: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1164: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1165: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1166: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1167: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1168: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1169: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1170: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1171: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1172: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1173: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1174: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1175: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1176: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1177: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1178: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1179: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1180: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1181: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1182: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1183: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1184: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1185: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1186: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1187: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1188: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1189: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1190: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1191: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1192: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1193: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1194: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1195: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1196: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1197: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1198: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1199: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1200: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1201: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1202: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1203: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1204: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1205: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1206: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1207: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1208: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1209: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1210: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1211: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1212: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1213: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1214: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1215: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1216: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1217: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1218: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1219: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1220: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1221: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1222: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1223: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1224: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1225: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1226: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1227: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1228: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1229: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1230: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1231: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1232: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1233: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1234: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1235: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1236: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1237: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1238: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1239: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1240: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1241: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1242: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1243: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1244: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1245: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1246: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1247: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1248: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1249: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1250: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1251: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1252: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1253: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1254: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1255: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1256: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1257: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1258: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1259: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1260: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1261: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1262: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1263: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1264: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1265: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1266: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1267: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1268: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1269: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1270: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1271: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1272: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1273: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1274: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1275: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1276: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1277: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1278: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1279: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1280: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1281: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1282: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1283: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1284: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1285: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1286: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1287: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1288: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1289: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1290: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1291: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1292: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1293: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1294: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1295: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1296: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1297: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1298: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1299: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1300: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1301: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1302: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1303: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1304: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1305: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1306: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1307: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1308: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1309: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1310: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1311: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1312: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1313: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1314: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1315: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1316: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1317: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1318: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1319: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1320: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1321: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1322: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1323: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1324: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1325: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1326: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1327: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1328: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1329: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1330: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1331: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1332: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1333: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1334: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1335: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1336: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1337: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1338: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1339: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1340: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1341: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1342: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1343: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1344: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1345: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1346: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1347: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1348: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1349: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1350: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1351: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1352: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1353: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1354: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1355: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1356: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1357: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1358: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1359: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1360: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1361: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1362: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Cephalos.
+- Día 1362: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1363: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1364: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1365: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1366: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1367: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1368: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1369: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1370: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1371: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1372: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1373: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1374: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1375: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1376: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1377: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1378: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1379: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
+- Día 1379: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1379: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1379: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1379: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1379: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1379: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Se enfrentó en un choque violento y destructivo contra Desma.
+- Día 1381: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1382: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1383: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1384: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1385: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1386: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1387: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1388: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1389: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1390: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1391: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1392: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1393: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1394: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1395: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1396: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1397: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1398: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1399: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1400: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1401: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1402: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1403: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1404: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1405: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1406: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1407: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1408: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1409: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1410: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1411: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1412: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1413: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1414: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1415: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1416: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1417: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1418: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1419: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1420: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1421: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1422: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1423: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1424: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1425: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1426: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1427: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1428: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1429: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1430: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1431: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
+- Día 1432: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1433: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1434: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1435: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1436: Manipuló con éxito y astucia a Rheia para ceder recursos.
+- Día 1436: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1437: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1438: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1439: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1440: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
+- Día 1441: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 1442: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1443: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1444: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1445: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1446: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1447: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1448: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus encuentra paz provisional con la oscuridad.
+- Día 1449: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1450: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
+- Día 1451: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
+- Día 1452: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 1453: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1454: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1455: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1456: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1457: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1458: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1459: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1460: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1461: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1462: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 1463: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1464: Intentó manipular a Jora, pero fue descubierto.
+- Día 1464: Intentó manipular a Jora, pero fue descubierto.
+- Día 1464: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1465: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 1465: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 1465: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1466: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1467: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1468: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1469: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1470: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1471: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1472: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1473: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1474: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1475: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1476: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1477: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1478: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1479: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1480: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1481: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1482: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1483: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1484: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1485: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1486: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1487: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1488: Detectó y rechazó un intento de manipulación de Selene.
+- Día 1488: Detectó y rechazó un intento de manipulación de Selene.
+- Día 1488: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
+- Día 1488: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1489: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1490: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1491: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1492: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1493: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1494: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1495: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1496: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1497: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1498: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1499: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1500: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1501: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1502: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1503: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1504: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1505: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1506: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1507: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1508: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1509: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1510: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1511: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1512: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1513: Soñó con 'estrella_lejana' (sabio). Insight: El sabio encuentra paz provisional con la oscuridad.
+- Día 1514: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1515: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1516: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1517: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1518: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1519: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1520: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1521: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1522: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1523: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1524: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1525: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1526: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1527: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1528: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1529: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1530: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1531: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1532: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1533: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1534: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1535: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1536: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1537: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1538: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1539: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1540: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1541: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1542: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1543: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1544: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1545: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1546: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1547: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1548: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1549: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1550: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1551: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1552: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1553: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1554: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1555: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1556: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1557: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1558: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1559: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1560: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1561: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1562: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1563: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1564: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1565: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1566: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 1566: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1567: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1567: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1567: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1567: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1567: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1567: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1568: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1569: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1570: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1571: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1572: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1573: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1574: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1574: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1574: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1574: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1574: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1574: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1574: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1574: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1574: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Sufrió explotación y hostilidad de Cephalos, cediendo recursos biológicos.
+- Día 1575: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1576: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1577: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1578: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1579: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1580: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 1580: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 1580: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 1580: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1581: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1582: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1583: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1584: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1585: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1586: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1587: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1588: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1589: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1590: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1591: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1592: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1593: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1594: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1595: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1596: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1597: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1598: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1599: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1600: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1601: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1602: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1603: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1604: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1605: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1606: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1607: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1608: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1609: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1610: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1611: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1612: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1613: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1614: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1615: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1616: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1617: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1618: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1619: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1620: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1621: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1622: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1623: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1624: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1625: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1626: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1627: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1628: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1629: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1630: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1631: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1631: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1631: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1631: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1631: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1631: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1632: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1633: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1634: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1635: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1636: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1637: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1638: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1639: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1640: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1641: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1642: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1643: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1644: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1645: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1646: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1647: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1648: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1649: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1650: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1651: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1652: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1653: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1654: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1655: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1656: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1657: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1658: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1659: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1660: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1661: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1662: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1663: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 1663: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 1663: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1664: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1665: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1666: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1667: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1668: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
+- Día 1668: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1669: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1670: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1671: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1672: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1673: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1674: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1675: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1676: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1677: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1678: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1679: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1680: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1681: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1682: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1683: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1684: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1685: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1686: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1687: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1688: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1689: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1690: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1691: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1692: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1693: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1694: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1695: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1696: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1697: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1698: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1699: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1700: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1701: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1702: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1703: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1704: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1705: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1706: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1707: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1708: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1709: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1710: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1711: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1712: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1713: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1714: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1715: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1716: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1717: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1718: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1719: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1720: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1721: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1722: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1723: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1724: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1725: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1726: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1727: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1728: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1729: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1730: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1731: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1732: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1733: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1734: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1735: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1736: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1737: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1738: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1739: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1740: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1741: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1742: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1743: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1744: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1745: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1746: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1747: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1748: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1749: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1750: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1751: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1752: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1753: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1754: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1755: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1756: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1757: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1758: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1759: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1760: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1761: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1762: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1763: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1764: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1765: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1766: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1767: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1768: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1769: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1770: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1771: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1772: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1773: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1774: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1775: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1776: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1777: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1778: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1779: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1780: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 1780: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 1780: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 1780: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 1780: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1781: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1782: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1783: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1784: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1785: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1786: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1787: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1788: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1789: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1790: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1791: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1792: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1793: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1794: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1795: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1796: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1797: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1798: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1799: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1800: Cedió ingenuamente ante la manipulación de Kimon.
+- Día 1800: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1801: Cedió ingenuamente ante la manipulación de Kimon.
+- Día 1801: Cedió ingenuamente ante la manipulación de Kimon.
+- Día 1801: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1802: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1803: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1804: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1805: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1806: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1807: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1808: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1809: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1810: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1811: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1812: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1813: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1814: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1815: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1816: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1817: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1818: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 1819: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1820: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1821: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1822: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1823: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1824: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1825: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1826: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1827: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1828: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1829: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1830: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1831: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1832: Cedió ingenuamente ante la manipulación de Oris.
+- Día 1832: Cedió ingenuamente ante la manipulación de Oris.
+- Día 1832: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1832: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1833: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1834: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1835: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1836: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1837: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1838: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1839: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1840: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1841: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 1841: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1842: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1843: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1844: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1845: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1846: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1847: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1848: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1849: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1850: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1851: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1852: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1853: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1854: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1855: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1856: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1857: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1858: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1859: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1860: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1861: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1862: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1863: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1864: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1865: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1866: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1867: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1868: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1869: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1870: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1871: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1872: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1873: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1874: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1875: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1876: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1877: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1878: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1879: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1880: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1881: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1882: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1883: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1884: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1885: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
+- Día 1885: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
+- Día 1885: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1886: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1887: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1888: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1889: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1890: Cedió ingenuamente ante la manipulación de Chloris.
+- Día 1890: Cedió ingenuamente ante la manipulación de Chloris.
+- Día 1890: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1890: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1890: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1890: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1890: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1890: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Sufrió explotación y hostilidad de Chloris, cediendo recursos biológicos.
+- Día 1891: Se enfrentó en un choque violento y destructivo contra Chloris.
+- Día 1891: Se enfrentó en un choque violento y destructivo contra Chloris.
+- Día 1891: Se enfrentó en un choque violento y destructivo contra Chloris.
+- Día 1891: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1891: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1892: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1893: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1894: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1895: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1896: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1897: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1898: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1899: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1900: Cedió ingenuamente ante la manipulación de Chloris.
+- Día 1900: Cedió ingenuamente ante la manipulación de Chloris.
+- Día 1900: Cedió ingenuamente ante la manipulación de Chloris.
+- Día 1900: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1900: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1900: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1900: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1900: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1900: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Se impuso competitivamente ante Chloris, absorbiendo sus recursos biológicos.
+- Día 1901: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
+- Día 1901: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1902: Cedió ingenuamente ante la manipulación de Peria.
+- Día 1902: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1903: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1904: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1905: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1906: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1907: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1908: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1908: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1908: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1908: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1908: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1908: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1909: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1909: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1909: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1909: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1910: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1911: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1912: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1913: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1914: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1915: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1916: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1917: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1918: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1919: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1920: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1921: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1922: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1923: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1924: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1925: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1926: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1927: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1928: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1929: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1930: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1931: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1932: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1933: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1934: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1935: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1936: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1937: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1938: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1939: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1940: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1941: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1942: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1943: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1944: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1945: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1946: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1947: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1948: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1949: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1950: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 1951: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1952: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1953: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1954: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1955: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1956: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1957: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1958: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1959: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1960: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1961: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1962: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1963: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1964: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1965: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1966: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1967: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1968: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1969: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1970: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1971: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 1972: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1973: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1974: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1975: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1976: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1977: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 1978: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1979: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1980: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1981: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1982: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1983: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 1984: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1985: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1986: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1987: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1988: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1989: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1990: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 1991: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1992: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1993: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 1994: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1995: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 1996: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1997: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
+- Día 1997: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 1998: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 1999: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2000: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2001: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2002: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2003: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2004: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2005: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2006: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2007: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2008: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
+- Día 2009: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
+- Día 2010: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 2011: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2012: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2013: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 2014: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2015: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2016: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2017: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2018: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2019: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2020: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2021: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2022: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2023: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2024: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2025: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2026: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2027: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2028: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2029: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2030: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2031: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2032: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2033: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2034: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2035: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2036: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2037: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2038: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2039: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2040: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2041: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2042: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2043: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2044: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2045: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2046: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2047: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2048: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2049: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2050: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2051: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2052: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2053: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 2054: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2055: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2056: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2057: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 2058: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2059: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2060: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2061: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2062: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 2063: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2064: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2065: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2066: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
+- Día 2067: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2068: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2069: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2070: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2071: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2072: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2073: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2074: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2075: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2076: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2077: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2078: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2079: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2080: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2081: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2082: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 2083: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2084: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2085: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2086: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2087: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2088: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2089: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2090: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2091: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2092: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2093: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2094: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2095: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2096: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2097: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2098: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2099: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2100: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2101: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2102: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2103: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2104: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2105: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2106: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2107: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2108: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2109: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2110: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2111: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2112: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2113: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2114: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 2115: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
+- Día 2116: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 2117: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2118: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2119: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2120: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2121: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2122: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2123: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2124: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 2125: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2126: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2127: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2128: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2129: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
+- Día 2130: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2131: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2132: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2133: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2134: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2135: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2136: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2137: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2138: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2139: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2140: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2141: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2142: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2143: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2144: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2145: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2146: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2147: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2148: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2149: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2150: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2151: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2152: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2153: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2154: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2155: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2156: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2157: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2158: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2159: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2160: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2161: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2162: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
+- Día 2163: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2164: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2165: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2166: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
+- Día 2167: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2168: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2169: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2170: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2171: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2172: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
+- Día 2173: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2174: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2175: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
+- Día 2176: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2177: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2178: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2179: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2180: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2181: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
+- Día 2182: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
+- Día 2183: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2184: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2185: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2186: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2187: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2188: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2189: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2190: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2191: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2192: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2193: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2194: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2195: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
+- Día 2196: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2197: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2198: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
+- Día 2199: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2200: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
+- Día 2201: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
+- Día 2202: Falleció a causa de vejez.
