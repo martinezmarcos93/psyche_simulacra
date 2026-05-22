@@ -7,6 +7,7 @@ from core.time import TimePoint
 from core.interface import WorldAction
 from .agent import Agent
 from .psyche.archetypes import ARCHETYPE_NAMES
+from .psyche.dreams import _ARCHETYPE_SYMBOLS, _DEFAULT_SYMBOL
 from .psyche.traits import TraitProfile
 from core.social.network import SocialNetwork
 from core.social.interaction import InteractionEngine
@@ -180,6 +181,9 @@ class AgentCore:
         # 6. Reproducción
         self._check_reproduccion(tp)
 
+        # 7. Sueños nocturnos con entrelazamiento
+        self._process_nightly_dreams(tp.dia_simulado)
+
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
 
     def _register_death(self, agent: Agent, tp: TimePoint, causa: str) -> None:
@@ -328,6 +332,73 @@ class AgentCore:
         parent_b.episodic_log.append(f"Día {dia}: Nació {nombre}.")
 
         return child
+
+    def _process_nightly_dreams(self, dia: int) -> None:
+        """
+        Genera sueños nocturnos para todos los agentes vivos.
+
+        Antes de generar cada sueño detecta pares entrelazados o con bond fuerte
+        para calcular una resonancia_grupal (símbolo compartido). El agente con
+        mayor tensión arquetípica "emite" el símbolo; el receptor lo recibe con
+        peso máximo en su pool, aumentando la probabilidad de soñar con él.
+        """
+        terrain    = getattr(self.world_ref, "terrain", None)
+        alive_ids  = [aid for aid, a in self.agents.items() if a.is_alive]
+
+        # Calcular resonancias: agent_id → símbolo compartido | None
+        resonances: dict[str, str | None] = {aid: None for aid in alive_ids}
+
+        for i, aid_a in enumerate(alive_ids):
+            for aid_b in alive_ids[i + 1:]:
+                edge_a = self.social_network.graph.get_edge_data(aid_a, aid_b, {})
+                edge_b = self.social_network.graph.get_edge_data(aid_b, aid_a, {})
+                bond = max(
+                    edge_a.get("bond_strength", 0.0),
+                    edge_b.get("bond_strength", 0.0),
+                )
+                entangled = edge_a.get("entangled", False) or edge_b.get("entangled", False)
+                same_tribe = (
+                    self.tribe_manager.agent_to_tribe.get(aid_a) ==
+                    self.tribe_manager.agent_to_tribe.get(aid_b)
+                    and self.tribe_manager.agent_to_tribe.get(aid_a) is not None
+                )
+                qualifies = entangled or bond > 0.65 or (same_tribe and bond > 0.35)
+                if not qualifies:
+                    continue
+
+                a = self.agents[aid_a]
+                b = self.agents[aid_b]
+                if a.archetypes.fidelidad(b.archetypes) < 0.4 and not entangled:
+                    continue
+
+                # El de mayor tensión emite; el de menor tensión recibe
+                if a.archetypes.tension() >= b.archetypes.tension():
+                    emitter, receiver_id = a, aid_b
+                else:
+                    emitter, receiver_id = b, aid_a
+
+                arch = emitter.archetypes.dominant()
+                pool = _ARCHETYPE_SYMBOLS.get(arch, [_DEFAULT_SYMBOL])
+                shared_sym = emitter._rng.choice(pool)
+
+                if resonances[receiver_id] is None:
+                    resonances[receiver_id] = shared_sym
+
+        # Generar sueños con bioma y resonancia inyectados
+        for aid, agent in self.agents.items():
+            if not agent.is_alive:
+                continue
+            bioma = "tierra"
+            if terrain is not None:
+                hx = terrain.get(*agent.posicion)
+                if hx is not None:
+                    bioma = hx.biome
+            agent.bioma_actual = bioma
+            agent._process_dream(
+                dia,
+                bioma             = bioma,
+                resonancia_grupal = resonances.get(aid),
+            )
 
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():

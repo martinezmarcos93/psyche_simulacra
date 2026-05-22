@@ -11,7 +11,7 @@ from .schedule import ScheduleSystem
 from .psyche.archetypes import ArchetypeVector
 from .psyche.complexes import ComplexProfile
 from .psyche.traits import TraitProfile
-from .psyche.dreams import DreamEngine, Dream
+from .psyche.dreams import DreamGrammarEngine, Dream, extract_traumas_from_log
 from .quantum.superposition import BehavioralState
 from .quantum.collapse import collapse_state
 
@@ -67,8 +67,9 @@ class Agent:
         self.archetypes = ArchetypeVector()
         self.complexes  = ComplexProfile()
         self.traits     = TraitProfile()
-        self._dream_engine = DreamEngine()
+        self._dream_engine  = DreamGrammarEngine()
         self.dreams: list[Dream] = []
+        self.bioma_actual: str = "tierra"
 
         # Quantum layer
         self.behavioral_state = BehavioralState()
@@ -180,10 +181,6 @@ class Agent:
         if self._base_state is not None:
             self.behavioral_state.decay_toward_base(self._base_state, rate=0.01)
 
-        # Sueño: procesamiento onírico una vez por día en hora definida
-        if tp.hora_del_dia == _DREAM_HORA and actividad == "dormir":
-            self._process_dream(tp.dia_simulado)
-
         # Estado emocional integrado
         self._update_emotional_state()
 
@@ -197,14 +194,23 @@ class Agent:
         self.humor    = max(0.0, 1.0 - stress + mood_base * 0.3)
         self.energia  = max(0.0, (1.0 - self.needs.fatiga) * self._vigor_por_edad())
 
-    def _process_dream(self, dia: int) -> None:
+    def _process_dream(
+        self,
+        dia:               int,
+        bioma:             str = "tierra",
+        resonancia_grupal: str | None = None,
+    ) -> None:
         """Genera un sueño y aplica sus deltas arquetípicos."""
+        traumas = extract_traumas_from_log(self.episodic_log)
         dream = self._dream_engine.generate_dream(
-            dia             = dia,
-            dominante       = self.archetypes.dominant(),
-            tension         = self.archetypes.tension(),
-            complejo_activo = self.complexes.most_active(),
-            rng             = self._rng,
+            dia               = dia,
+            dominante         = self.archetypes.dominant(),
+            tension           = self.archetypes.tension(),
+            complejo_activo   = self.complexes.most_active(),
+            bioma             = bioma,
+            traumas_recientes = traumas,
+            resonancia_grupal = resonancia_grupal,
+            rng               = self._rng,
         )
         self.dreams.append(dream)
         self.episodic_log.append(
@@ -568,6 +574,9 @@ class Agent:
                     "complejo":     d.complejo,
                     "procesamiento": d.procesamiento,
                     "insight":      d.insight,
+                    "bioma":        d.bioma,
+                    "traumas":      d.traumas,
+                    "shared_with":  d.shared_with,
                 }
                 for d in self.dreams
             ],

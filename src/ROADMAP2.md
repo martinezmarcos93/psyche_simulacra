@@ -15,12 +15,12 @@ Este roadmap se ha actualizado tras el exitoso test de estrés de 8 horas con 10
 ---
 
 ## 🧠 Fase 7 — Motor de Sueños Generativos
-**Estado:** `Pendiente`
+**Estado:** `Completada`
 **Problema:** En el código actual (`core/agents/psyche/dreams.py`), la generación de sueños busca en un diccionario estático `_SYMBOL_TABLE`. Con 100 agentes, las colisiones son inevitables y decenas de agentes repiten exactamente el mismo insight: *"El héroe encuentra paz provisional..."*.
 
-- [ ] **Reemplazo de la Tabla Estática:** Eliminar `_SYMBOL_TABLE` y crear una clase `DreamGrammarEngine` o conectarlo al LLM (Ollama).
-- [ ] **Personalización Semántica:** El sueño debe construirse tomando en cuenta el bioma del agente, sus traumas pasados (memoria episódica de encuentros con otros agentes) y sus complejos.
-- [ ] **Sueños Compartidos (Entrelazamiento):** Crear una regla donde solo los agentes de la misma Tribu o fuertemente "entrelazados" (bond_strength cuántico alto) puedan experimentar sincronicidad (soñar con símbolos casi idénticos la misma noche).
+- [x] **Reemplazo de la Tabla Estática:** `DreamGrammarEngine` reemplaza `DreamEngine` (alias de retrocompatibilidad). Pool de símbolos ponderado por 5 capas independientes → variabilidad garantizada.
+- [x] **Personalización Semántica:** Capa 1=bioma (paisaje), Capa 2=arquetipo (protagonista), Capa 3=complejo (conflicto), Capa 4=traumas (del episodic_log), Capa 5=resonancia. Pesos crecientes 1→6 → trauma y resonancia dominan cuando están activos.
+- [x] **Sueños Compartidos (Entrelazamiento):** `agent_core._process_nightly_dreams()` detecta pares con bond_strength > 0.65, misma tribu + bond > 0.35, o entangled=True. El de mayor tensión arquetípica emite un símbolo resonante; el receptor lo recibe con peso 6.0 en su pool.
 
 ---
 
