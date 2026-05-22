@@ -40,3 +40,31 @@ El análisis numérico del metabolismo en `core/agents/needs.py` y `core/agents/
 
 **Impacto:**
 Ahora una recolección exitosa de agua o comida sacia la necesidad en un 80-100%, permitiendo al agente hidratarse/alimentarse rápidamente y destinar el resto de sus horas del día a socializar, explorar o mantener el fuego, habilitando la verdadera emergencia social y permitiendo la supervivencia más allá de cientos de días.
+
+---
+
+## Bug #003: Colisión Hídrica Inicial (Muertes en Cluster — Días 10–27 y 200–700)
+
+**Síntoma:**
+En la Simulación 02 (8 horas, 27.675 días simulados), 69 de 105 muertes (65.7%) fueron por deshidratación. El primer cluster ocurrió entre los días 10–27 (10 muertos en el primer mes) y el segundo entre los días 200–700 (~40 muertos). El motor reportaba resource_pressure promedio de 0.038 — el mundo tenía agua más que suficiente.
+
+**Análisis:**
+Se identificaron tres causas compuestas que actuaban simultáneamente:
+
+1. **Búsqueda de agua ciega al hex actual** (`core/agents/agent.py`, `_find_water_action()`):
+   La función solo verificaba recursos en el hexágono en el que el agente ya estaba parado. Si no había agua allí (threshold `> 0.1`), el fallback era `_explore_action()`, que movía al agente a un hex vecino **sin intentar beber en ese nuevo hex hasta el siguiente tick**. El agente gastaba ticks moviéndose en lugar de beber.
+
+2. **Competencia masiva por el mismo hex de agua** (`data/seeds/initial_personas.yaml`):
+   Los 100 agentes fundadores inician todos en el mismo hex `[40, 30]`. Ese bioma tiene `agua_lluvia` capeada en `0.60`. Con 100 agentes compitiendo simultáneamente, solo ~3 podían beber por tick. El resto acumulaba sed sin posibilidad de saciarla.
+
+3. **Schedule infra-dotado para agua** (`core/agents/schedule.py`):
+   El schedule default asignaba **solo 1 hora/día** (hora 6) a `buscar_agua`, contra 8 horas para `buscar_alimento`. La sed acumula ~0.68/día; con 1 hora efectiva de búsqueda y competencia por recursos, el balance era insostenible para la mayoría.
+
+El cluster secundario (días 200–700) se explica por el mismo bug amplificado por el modificador estacional: en invierno la regeneración de agua baja a 20% (`_REGEN_MOD["invierno"] = 0.20`), haciendo que los hexes habituales queden secos y los agentes no logren encontrar agua en radio inmediato.
+
+**Solución:**
+1. `_find_water_action()` ampliada para buscar agua en los **6 hexágonos vecinos** si el hex actual está seco, moviéndose directamente al primero con agua disponible en lugar de explorar aleatoriamente.
+2. Schedule default ajustado: se agrega hora 7 como segunda hora de `buscar_agua` (total: 2 horas/día para agua, manteniendo 7 para alimento).
+
+**Impacto:**
+Los agentes con sed crítica ahora tienen un radio de búsqueda activa de agua en lugar de quedarse varados en hexes secos. El cluster de días 10–27 debería desaparecer (la competencia por el hex inicial se resuelve porque los agentes se dispersan hacia hexes vecinos con agua). El cluster de invierno debería atenuarse significativamente.

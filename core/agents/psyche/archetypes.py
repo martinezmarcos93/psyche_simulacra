@@ -101,6 +101,91 @@ class ArchetypeVector:
         variance = sum((v - mean) ** 2 for v in vals) / len(vals)
         return variance ** 0.5
 
+    def tension_yo_sombra(self) -> float:
+        """
+        Tensión específica entre el Self (integración) y la Sombra (represión).
+
+        Portado del Laboratorio Cuántico-Junguiano.
+        Rango [0, 1]: 0 = self y sombra en equilibrio, 1 = máxima polarización.
+        Alta tensión → presión hacia actuación inconsciente (proyección, acting-out).
+        """
+        return abs(self.self_ - self.sombra)
+
+    def individuacion_index(self) -> float:
+        """
+        Índice de individuación: grado de integración psíquica (0.0–1.0).
+
+        Portado del Laboratorio Cuántico-Junguiano (indice_individuacion).
+
+        Fórmula: se penaliza tanto la tensión alta (desequilibrio) como la
+        dominancia extrema de un único arquetipo (rigidez). El índice sube
+        cuando el Self es alto y la tensión es baja.
+
+        1.0 = psique integrada (Self dominante, baja tensión).
+        0.0 = psique fragmentada (alta tensión, Self reprimido).
+        """
+        tension = self.tension()
+        tension_ys = self.tension_yo_sombra()
+        self_weight = self.self_
+
+        # Penaliza tensión y falta de self, bonifica self alto con baja tensión
+        raw = self_weight * (1.0 - tension) * (1.0 - 0.5 * tension_ys)
+        return max(0.0, min(1.0, raw))
+
+    def differential_identity(self) -> dict[str, float]:
+        """
+        Operador de diferencia D̂ — identidad arquetípica por oposición.
+
+        Portado del proyecto Saussure-Quantum (operators.py).
+
+        Un arquetipo existe por contraste con los demás: 'El Héroe es Héroe
+        porque NO es la Sombra, ni el Trickster, ni la Madre.'
+
+        Para cada arquetipo, calcula su diferencia promedio contra todos los
+        demás. Un valor alto indica que ese arquetipo está fuertemente
+        diferenciado del resto del vector — tiene identidad clara.
+
+        Returns:
+            dict[arquetipo, identidad_diferencial] en rango [0, 1].
+        """
+        vals = self._as_dict()
+        names = list(vals.keys())
+        result: dict[str, float] = {}
+
+        for name in names:
+            vi = vals[name]
+            diffs = [abs(vi - vals[other]) for other in names if other != name]
+            result[name] = sum(diffs) / len(diffs) if diffs else 0.0
+
+        # Normalizar al rango [0, 1]
+        max_diff = max(result.values()) if result else 1.0
+        if max_diff > 0:
+            result = {k: v / max_diff for k, v in result.items()}
+        return result
+
+    def fidelidad(self, other: ArchetypeVector) -> float:
+        """
+        Similitud cuántica entre dos vectores arquetípicos (análogo a |⟨ψ|φ⟩|²).
+
+        Portado del Laboratorio Cuántico-Junguiano (fidelidad method).
+        Usado para medir resonancia arquetípica entre dos agentes:
+        synchronicity jungiana → alta fidelidad.
+
+        Returns:
+            float en [0, 1]. 1.0 = arquetipos idénticos, 0.0 = máxima oposición.
+        """
+        a = self._as_dict()
+        b = other._as_dict()
+
+        # Producto interno normalizado (cosine similarity sobre el vector arquetípico)
+        dot = sum(a[k] * b[k] for k in a)
+        norm_a = sum(v ** 2 for v in a.values()) ** 0.5
+        norm_b = sum(v ** 2 for v in b.values()) ** 0.5
+
+        if norm_a == 0 or norm_b == 0:
+            return 0.0
+        return (dot / (norm_a * norm_b)) ** 2  # |⟨ψ|φ⟩|²
+
     def _as_dict(self) -> dict[str, float]:
         return {
             "self":         self.self_,

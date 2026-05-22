@@ -421,19 +421,31 @@ class Agent:
         )
 
     def _find_water_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
-        coord = self.posicion
-        resources = snapshot.recursos_por_hex.get(coord, {})
         water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea"]
-        for water in water_sources:
-            if resources.get(water, 0) > 0.1:
-                return WorldAction(
-                    agent_id = self.id,
-                    tick     = tp.tick,
-                    type     = ActionType.RECOLECTAR,
-                    coord    = coord,
-                    params   = {"resource": water, "amount": 0.20},
-                    priority = 0.9,
-                )
+
+        # Buscar primero en el hex actual, luego en los 6 vecinos
+        q, r = self.posicion
+        candidates = [(q, r)] + [
+            (q + dq, r + dr)
+            for dq, dr in [(1,0),(-1,0),(0,1),(0,-1),(1,-1),(-1,1)]
+            if 0 <= q + dq < 80 and 0 <= r + dr < 60
+        ]
+
+        for coord in candidates:
+            resources = snapshot.recursos_por_hex.get(coord, {})
+            for water in water_sources:
+                if resources.get(water, 0) > 0.1:
+                    if coord != self.posicion:
+                        self.posicion = coord
+                    return WorldAction(
+                        agent_id = self.id,
+                        tick     = tp.tick,
+                        type     = ActionType.RECOLECTAR,
+                        coord    = coord,
+                        params   = {"resource": water, "amount": 0.20},
+                        priority = 0.9,
+                    )
+
         return self._explore_action(tp, snapshot)
 
     def _hunt_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
