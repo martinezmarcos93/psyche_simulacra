@@ -34,7 +34,12 @@
       "Bash(Get-ChildItem *)",
       "PowerShell(ls \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\core\\\\\")",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(python -c \"from core.agents.psyche.dreams import DreamGrammarEngine, Dream, extract_traumas_from_log; print\\('dreams OK'\\)\")",
+      "Bash(python -c \"from core.agents.agent import Agent; print\\('agent OK'\\)\")",
+      "Bash(python -c \"from core.agents.agent_core import AgentCore; print\\('agent_core OK'\\)\")",
+      "Bash(find core/metrics -name \"*.py\")",
+      "Bash(dir core\\\\metrics /b)"
     ]
   }
 }
