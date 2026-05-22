@@ -16,6 +16,7 @@ from pathlib import Path
 # Asegurar que el raíz del proyecto esté en el path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from core.narrative.daemon import OllamaDaemon
 from core.simulation import SimulationRunner
 import pygame
 
@@ -213,6 +214,8 @@ class Visualizer:
 
 
 def main() -> None:
+    OllamaDaemon().setup()
+
     parser = argparse.ArgumentParser(description="PSYCHE SIMULACRA - Visualizador")
     parser.add_argument("--resume", action="store_true", help="Reanudar desde el checkpoint más reciente")
     parser.add_argument("--checkpoint", type=str, default=None, help="Path a un checkpoint específico")

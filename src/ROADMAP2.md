@@ -5,12 +5,12 @@ Este roadmap se ha actualizado tras el exitoso test de estrés de 8 horas con 10
 ---
 
 ## 🎯 Fase 6 — Integración de Inferencia Local (Ollama)
-**Estado:** `Pendiente`
+**Estado:** `Completada`
 **Objetivo:** Autonomía total del motor de inferencia narrativa sin depender de APIs externas, garantizando que el entorno corra de forma local y gratuita.
 
-- [ ] **Daemon de Ollama:** Modificar `scripts/run_simulation.py` y `scripts/visualizer.py` para invocar automáticamente `subprocess.Popen(["ollama", "serve"])` si no detectan el puerto activo en localhost:11434.
-- [ ] **Gestor de Modelos:** Añadir comprobación para asegurar que el modelo base (ej. `llama3` o `mistral`) está instalado, y si no, iniciar el pull.
-- [ ] **Llamadas Asíncronas:** Implementar colas de trabajo para que el LLM sintetice narrativas en background sin detener el `SimulationClock` que corre en milisegundos.
+- [x] **Daemon de Ollama:** `core/narrative/daemon.py` — `OllamaDaemon().setup()` invocado automáticamente al inicio de `run_simulation.py` y `visualizer.py`. Arranca `ollama serve` como proceso desacoplado si el puerto 11434 no responde.
+- [x] **Gestor de Modelos:** `ensure_model()` verifica vía `/api/tags` si el modelo configurado está instalado; ejecuta `ollama pull` si falta.
+- [x] **Llamadas Asíncronas:** Ya implementado en `NarratorEngine` (Fase 3): `queue.Queue` + hilo de fondo `NarratorWorker` — el `SimulationClock` no se bloquea.
 
 ---
 
