@@ -2,6 +2,7 @@
 """main.py — Llave maestra de PSYCHE SIMULACRA."""
 
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -159,6 +160,58 @@ def _ask_days(console: Console, default: str = "0") -> int | None:
         return None
 
 
+def _ask_n_agents(console: Console, yaml_path: Path) -> int | None:
+    """Pregunta cuántos agentes usar; devuelve None si se usa el YAML tal cual."""
+    default_n = _count_agents(yaml_path)
+    raw = Prompt.ask(
+        f"Número de agentes [dim](0 = usar YAML tal cual, actualmente {default_n})[/dim]",
+        default="0",
+        console=console,
+    )
+    try:
+        n = int(raw)
+        return None if n <= 0 or n == default_n else n
+    except ValueError:
+        return None
+
+
+def _generate_seeds(console: Console, n: int, seed: int) -> Path:
+    """Genera un YAML de semillas con N agentes usando generate_personas.py."""
+    out = SEEDS_DIR / f"_session_{n}ag_{seed}s.yaml"
+    cmd = [
+        sys.executable,
+        str(ROOT / "scripts" / "generate_personas.py"),
+        "--n", str(n),
+        "--seed", str(seed),
+        "--output", str(out),
+    ]
+    console.print(f"[cyan]Generando {n} agentes (seed={seed})...[/cyan]")
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        console.print(f"[red]Error generando agentes:[/red]\n{result.stderr}")
+        raise RuntimeError("generate_personas.py falló")
+    console.print(f"[green]Semillas generadas:[/green] {out.name}")
+    return out
+
+
+def _ask_narrative_config(console: Console) -> tuple[bool, str]:
+    """Pregunta si activar la narrativa LLM y qué modelo usar.
+    Devuelve (enabled, model_name)."""
+    enabled = Confirm.ask(
+        "¿Activar narrativa LLM (Ollama)?  [dim]requiere Ollama instalado[/dim]",
+        default=True,
+        console=console,
+    )
+    model = "llama3.2"
+    if enabled:
+        model = Prompt.ask(
+            "Modelo Ollama",
+            default=os.environ.get("OLLAMA_MODEL", "llama3.2"),
+            console=console,
+        )
+    return enabled, model
+
+
 def _print_result(console: Console, runner) -> None:
     vivos = runner.alive_count
     total = len(runner.agents.agents)
@@ -253,6 +306,16 @@ def _action_new(console: Console, state: dict | None) -> None:
         seed = int(raw_seed)
     except ValueError:
         seed = 42
+
+    # ── Número de agentes ──────────────────────────────────────────────────────
+    n_override = _ask_n_agents(console, seeds_path)
+    if n_override is not None:
+        seeds_path = _generate_seeds(console, n_override, seed)
+
+    # ── Narrativa LLM ──────────────────────────────────────────────────────────
+    narrative_on, llm_model = _ask_narrative_config(console)
+    os.environ["NARRATIVE_ENABLED"] = "1" if narrative_on else "0"
+    os.environ["OLLAMA_MODEL"]      = llm_model
 
     n_days = _ask_days(console, default="0")
     console.print("\n[yellow]Iniciando nueva simulación...[/yellow]\n")

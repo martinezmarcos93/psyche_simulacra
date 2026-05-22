@@ -74,7 +74,8 @@ SimulationClock (tick = 1 hora simulada)
 - **ArchetypeVector** — 12 pesos jungianos independientes (0→1): self, persona, sombra, anima/animus, héroe, sabio, trickster, madre, padre, niño divino, gobernante, rebelde
 - **ComplexProfile** — 6 complejos activables por umbral contextual: inferioridad, abandono, poder, culpa, materno, trascendencia
 - **TraitProfile** — Big Five + 9 dimensiones clínicas (ansiedad, impulsividad, disociación, empatía, paranoia, narcisismo, agresividad, etc.)
-- **DreamEngine** — procesamiento onírico nocturno con tabla de 25 símbolos y deltas arquetípicos
+- **DreamGrammarEngine** — pool composicional de 5 capas (bioma × arquetipo × complejo × trauma × resonancia grupal); sueños únicos por agente; entrelazamiento nocturno entre pares con bond alto o `entangled=True`
+- **LindBladChannel** — canal de decoherencia arquetípica T1/T2: relajación (decay al baseline) + represión activa (bias suprimido cuando el arquetipo supera el umbral)
 
 ### Mecánica cuántica de decisión
 - **BehavioralSuperposition** — vector de probabilidades conductuales (cooperar, competir, aislar, manipular)
@@ -83,8 +84,8 @@ SimulationClock (tick = 1 hora simulada)
 ### Sistemas sociales
 - **SocialNetwork** — grafo NetworkX con `bond_strength` ∈ [-1, 1], entrelazamiento cuántico termodinámico
 - **InteractionEngine** — encuentros zonales: cooperación pura, conflicto/explotación, choque violento, manipulación
-- **CollectiveField** — inconsciente colectivo global: símbolos (héroe, sombra, muerte, fuego, comida, trickster, madre), presión emocional, decaimiento diario
-- **MythologyEngine** — cristalización del mito "Héroe vs Monstruo" cuando el campo supera umbrales; retroalimenta conducta
+- **CollectiveField** — inconsciente colectivo global: 12 símbolos jungianos, `emotional_pressure`, `myth_pressure` (trauma sin narrativa), `confusion` epistémica; `ContextoEnunciativo` (temperatura × intencionalidad + ruido) controla cuándo y cómo colapsa un proto-mito
+- **MythologyEngine** — cristalización N-dimensional probabilística: `ProtoMito` (proto-estado) gana coherencia con cada transmisión social hasta cristalizar en `MythCrystal`. 5 tipos Campbell (cosmogonía/teogonía/antropogonía/escatología/mito_moral) mapeados desde 11 pares simbólicos. Cuando los protagonistas mueren el mito se convierte en `Leyenda` de intensidad decreciente (0.998/día) que irradia efectos sobre toda la tribu
 
 ### Tribus y divergencia cultural
 - **TribeManager** — clustering via `greedy_modularity_communities` (NetworkX) cada 30 días
@@ -102,6 +103,7 @@ SimulationClock (tick = 1 hora simulada)
 - Cooldown de 50 días entre construcciones por tribu
 
 ### Narrativa con LLM
+- **OllamaDaemon** — auto-arranca `ollama serve` si el puerto 11434 no responde; verifica e instala el modelo configurado; invocado al inicio de `run_simulation.py` y `visualizer.py`
 - **NarratorEngine** — daemon en background procesando cola de eventos narrativos
 - 4 tipos de leyendas generadas con Ollama (llama3.2 u otro modelo local):
   - **Mito fundacional** — al formarse una nueva tribu
@@ -112,11 +114,13 @@ SimulationClock (tick = 1 hora simulada)
 - Deduplicación por archivo y por sesión; persistencia entre reinicios
 
 ### Métricas de emergencia científica
-- **KL Divergencia** — divergencia psicológica entre culturas tribales
-- **VFE proxy** — entropía del campo colectivo (incertidumbre del inconsciente)
-- **IMI** — fracción de varianza arquetípica explicada por membresía tribal (0 = no hay divergencia, 1 = identidades tribales perfectas)
+- **KL Divergencia** — divergencia psicológica entre culturas tribales (simétrica, pairwise)
+- **VFE proxy** — entropía de Shannon del campo colectivo (incertidumbre del inconsciente)
+- **IMI** — fracción de varianza arquetípica explicada por membresía tribal; R² estilo Jain-Dubes
+- **MIG** — Mean Information Gain: I(z_k;v)/H(z_k) sobre 12 dimensiones arquetípicas; cuantifica cuánta información aporta la tribu sobre la psicología individual (Chen et al. 2018)
 - Exportación automática a `data/metrics/emergence_series.csv` y `emergence_summary.json`
-- `scripts/run_robustness.py` — suite de N ejecuciones con semillas distintas
+- `scripts/run_robustness.py` — suite de N ejecuciones con semillas distintas, salida JSON con KL/VFE/IMI/MIG
+- `scripts/plot_emergence.py` — genera PNG con 6 gráficas automáticas (KL, MIG, IMI, VFE, MIG vs tribus, supervivencia)
 
 ### Persistencia y observabilidad
 - **SQLite** (WAL) — snapshots de agentes, clima, escenario, muertes, sesiones
@@ -166,10 +170,11 @@ PSYCHE SIMULACRA/
 │   │   ├── schedule.py                ScheduleSystem
 │   │   ├── agent_core.py              AgentCore (orquestador)
 │   │   ├── psyche/
-│   │   │   ├── archetypes.py          ArchetypeVector (12 jungianos)
+│   │   │   ├── archetypes.py          ArchetypeVector (12 jungianos + individuacion + MID + fidelidad)
 │   │   │   ├── complexes.py           ComplexProfile (6 complejos)
 │   │   │   ├── traits.py              TraitProfile (Big Five + clinico)
-│   │   │   └── dreams.py              DreamEngine
+│   │   │   ├── dreams.py              DreamGrammarEngine (5 capas, sueños compartidos)
+│   │   │   └── lindblad.py            LindBladChannel T1/T2 (decoherencia arquetipica)
 │   │   └── quantum/
 │   │       ├── superposition.py       BehavioralSuperposition
 │   │       └── collapse.py            CollapseEngine
@@ -183,9 +188,10 @@ PSYCHE SIMULACRA/
 │   │   ├── config.py                  OLLAMA_BASE_URL, modelo, flags
 │   │   ├── ollama_client.py           Cliente HTTP sin dependencias externas
 │   │   ├── prompts.py                 4 constructores de prompt en espanol
-│   │   └── narrator.py               NarratorEngine (daemon background)
+│   │   ├── narrator.py               NarratorEngine (queue + worker en hilo)
+│   │   └── daemon.py                  OllamaDaemon (auto-start + ensure_model)
 │   ├── metrics/
-│   │   ├── emergence.py              EmergenceMetrics (KL, VFE, IMI)
+│   │   ├── emergence.py              EmergenceMetrics (KL, VFE, IMI, MIG)
 │   │   └── exporter.py               MetricsExporter (CSV + JSON)
 │   └── simulation.py                 SimulationRunner (orquestador principal)
 │
@@ -229,6 +235,7 @@ PSYCHE SIMULACRA/
 │   ├── run_simulation.py             Motor headless (argparse completo)
 │   ├── generate_personas.py          Generador procedural de agentes YAML
 │   ├── run_robustness.py             Suite de N ejecuciones paralelas
+│   ├── plot_emergence.py             Reporte PNG con 6 graficas (KL, MIG, IMI, VFE, scatter, supervivencia)
 │   └── visualizer.py                 Visualizador Pygame en tiempo real
 │
 ├── tests/                            181 tests (pytest)
