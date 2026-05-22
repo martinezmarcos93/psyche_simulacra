@@ -30,7 +30,11 @@
       "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\query_survivors.py\")",
       "Bash(grep -E \"\\\\.\\(py|js|json|yml|yaml|txt\\)$\")",
       "Bash(python3)",
-      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\read_docx.py\")"
+      "PowerShell(python \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\read_docx.py\")",
+      "Bash(Get-ChildItem *)",
+      "PowerShell(ls \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\core\\\\\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
