@@ -127,9 +127,8 @@ class AgentCore:
         # 1. Decaimiento y evolución del campo memético global (Fase 7)
         self.collective_field.decay()
 
-        # 2. Cristalización y feedback mítico global (Fase 7)
+        # 2. Cristalización y feedback mítico global — on_day() ya incluye apply_myth_effects()
         self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
-        self.mythology_engine.apply_myth_effects(self.agents)
 
         # 2b. Mecánicas tribales: re-clustering, campos locales, mitos locales, deriva de bioma (Fase 2)
         terrain = getattr(self.world_ref, "terrain", None)

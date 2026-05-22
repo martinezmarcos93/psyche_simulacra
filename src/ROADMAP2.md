@@ -25,22 +25,22 @@ Este roadmap se ha actualizado tras el exitoso test de estrés de 8 horas con 10
 ---
 
 ## 🏛️ Fase 8 — Mitología Procedural (Dynamic Myth Engine)
-**Estado:** `Pendiente`
+**Estado:** `Completada`
 **Problema:** En la última simulación larga murieron 105 agentes. El mito "Héroe vs Monstruo" aparecía y desaparecía constantemente porque el código de `core/social/mythology.py` solo tiene programado ESE único mito. Cuando el héroe moría de sed, el mito se rompía (`active = False`), y al día siguiente el motor agarraba a otros dos agentes y volvía a crear el mismo mito.
 
-- [ ] **Eliminar el Hardcoding:** Quitar el `if field.symbols.get("heroe") > 0.75 and field.symbols.get("sombra") > 0.65`.
-- [ ] **Generador de Mitos N-Dimensional:** El motor debe mirar el `CollectiveField` local de la tribu y encontrar el par de arquetipos con mayor carga. 
-- [ ] **Nuevos Arquetipos Mitológicos:**
-  - `Gobernante vs Rebelde` → El Mito de la Tiranía y la Liberación.
-  - `Sabio vs Trickster` → El Mito de la Verdad y el Caos.
-  - `Madre vs Niño Divino` → El Mito del Origen y el Renacimiento.
-- [ ] **Inmortalización del Mito:** Si los agentes protagonistas del mito mueren, el mito NO debe caducar inmediatamente. Se convierte en una "Leyenda" de la tribu que persiste y sigue dando bonificaciones a los seguidores de ese arquetipo, pasando a formar parte de la Cultura Material y Oral de la tribu.
+- [x] **Eliminar el Hardcoding:** Reemplazado por cristalización probabilística vía `ContextoEnunciativo` (temperatura × intencionalidad + ruido > 0.35).
+- [x] **Generador de Mitos N-Dimensional:** `_check_proto_myths()` lee `field.dominant_archetype_pair()` del `CollectiveField` local de cada tribu. `_PAIR_TO_MYTH_TYPE` mapea 11 pares simbólicos a los 5 tipos Campbell.
+- [x] **Nuevos Arquetipos Mitológicos:** Los tres pares solicitados están en el mapa:
+  - `gobernante + rebelde` → mito_moral (Tiranía y Liberación)
+  - `sabio + trickster` → mito_moral (Verdad y Caos) — añadido en revisión Fase 8
+  - `madre + nino_divino` → antropogonia (Origen y Renacimiento)
+- [x] **Inmortalización del Mito:** `_check_myth_persistence()` convierte mitos en Leyendas cuando ambos protagonistas mueren. Las leyendas irradian efectos a 0.3× intensidad sobre agentes afines. Intensidad decae a 0.998/día. Corrección: eliminada doble llamada a `apply_myth_effects()` en agent_core y tribe_manager.
 
 ---
 
 ## 📊 Fase 9 — Validación Científica y Mean Information Gain (MIG)
-**Estado:** `En Progreso` (Script: `run_robustness.py`)
+**Estado:** `Completada`
 **Objetivo:** Demostrar estadísticamente que estos fenómenos emergen del campo y no por aleatoriedad.
 
-- [ ] Analizar las divergencias usando la métrica MIG en simulaciones múltiples.
-- [ ] Automatizar reportes gráficos para publicar los resultados.
+- [x] **MIG en simulaciones múltiples:** `EmergenceMetrics._mig()` implementa I(z_k;v)/H(z_k) discretizando en 5 bins. Agregado a `DayMetrics`, `run_robustness.py` y su salida JSON/consola.
+- [x] **Reportes gráficos automatizados:** `scripts/plot_emergence.py` genera PNG con 6 gráficas: KL divergence, MIG, IMI, VFE global, MIG vs n_tribes, supervivencia. Uso: `python scripts/plot_emergence.py --input data/metrics/robustez.json`.

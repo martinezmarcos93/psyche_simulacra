@@ -4,6 +4,8 @@ import math
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
+_N_BINS = 5  # bins para discretizar arquetipos en el cálculo de MIG
+
 if TYPE_CHECKING:
     from core.agents.agent_core import AgentCore
     from core.social.tribe_manager import TribeManager
@@ -30,8 +32,10 @@ class DayMetrics:
     # Variational Free Energy proxy (entropía del campo colectivo)
     vfe_global: float       # entropía del campo inconsciente global
     vfe_tribe_mean: float   # entropía media de los campos locales tribales
-    # Índice de Modularidad de Información (IMI)
+    # Índice de Modularidad de Información (IMI) — R² arquetípico-tribal
     imi: float              # fracción de varianza arquetípica explicada por tribu (0..1)
+    # Mean Information Gain (MIG) — información mutua normalizada tribu↔arquetipos
+    mig: float              # media de I(z_k; v)/H(z_k) sobre 12 dims (0..1)
     # Demografía y cultura
     n_alive: int
     n_tribes: int
@@ -65,6 +69,7 @@ class EmergenceMetrics:
         vfe_global             = self._field_entropy(collective_field)
         vfe_tribe_mean         = self._mean_tribe_entropy(tribe_manager, tribes)
         imi                    = self._imi(alive, tribes)
+        mig                    = self._mig(alive, tribes)
         n_structures           = len(culture_engine.structures) if culture_engine else 0
 
         return DayMetrics(
@@ -74,6 +79,7 @@ class EmergenceMetrics:
             vfe_global=vfe_global,
             vfe_tribe_mean=vfe_tribe_mean,
             imi=imi,
+            mig=mig,
             n_alive=len(alive),
             n_tribes=len(tribes),
             n_structures=n_structures,
@@ -197,3 +203,91 @@ class EmergenceMetrics:
             ratios.append(max(0.0, between_var / total_var))
 
         return sum(ratios) / len(ratios) if ratios else 0.0
+
+    # ── Mean Information Gain (MIG) ───────────────────────────────────────────
+
+    def _mig(self, alive: dict, tribes: dict[str, list[str]]) -> float:
+        """
+        Mean Information Gain: información mutua normalizada entre membresía
+        tribal y valores arquetípicos. Inspirado en Chen et al. (2018).
+
+        Para cada dimensión arquetípica k:
+            I(z_k; v) = H(z_k) - H(z_k | v)
+            MIG_k     = I(z_k; v) / H(z_k)    si H(z_k) > 0, else 0
+
+        MIG = media de MIG_k sobre las 12 dimensiones.
+
+        MIG ≈ 0 → la tribu no aporta información sobre los arquetipos.
+        MIG ≈ 1 → la tribu determina completamente los arquetipos (máx. disentanglement).
+
+        Implementación: discretizamos en _N_BINS bins de ancho uniforme [0, 1].
+        """
+        if len(tribes) < 2 or not alive:
+            return 0.0
+
+        # Mapa agent_id → tribe_id
+        agent_tribe: dict[str, str] = {
+            aid: tid
+            for tid, mids in tribes.items()
+            for aid in mids
+            if aid in alive
+        }
+        tribe_ids   = list(tribes.keys())
+        n_total     = len(agent_tribe)
+        if n_total == 0:
+            return 0.0
+
+        # Proporción de agentes por tribu p(v=t)
+        tribe_counts = {
+            tid: sum(1 for aid in mids if aid in alive)
+            for tid, mids in tribes.items()
+        }
+
+        mig_vals: list[float] = []
+
+        for attr in _ARCH_ATTRS:
+            # Discretizar valores en _N_BINS bins
+            vals = {
+                aid: min(int(getattr(a.archetypes, attr, 0.0) * _N_BINS), _N_BINS - 1)
+                for aid, a in alive.items()
+                if agent_tribe.get(aid) is not None
+            }
+            if not vals:
+                continue
+
+            # H(z_k) — entropía marginal del arquetipo k
+            bin_counts: list[int] = [0] * _N_BINS
+            for b in vals.values():
+                bin_counts[b] += 1
+            h_zk = _entropy(bin_counts, n_total)
+            if h_zk < _EPSILON:
+                continue
+
+            # H(z_k | v) — entropía condicional dado tribu
+            h_zk_given_v = 0.0
+            for tid in tribe_ids:
+                n_t = tribe_counts.get(tid, 0)
+                if n_t == 0:
+                    continue
+                t_bins: list[int] = [0] * _N_BINS
+                for aid, mids in [(a, tribes[tid]) for a in tribes[tid]]:
+                    if aid in vals:
+                        t_bins[vals[aid]] += 1
+                h_zk_given_v += (n_t / n_total) * _entropy(t_bins, n_t)
+
+            mi = max(0.0, h_zk - h_zk_given_v)
+            mig_vals.append(mi / h_zk)
+
+        return sum(mig_vals) / len(mig_vals) if mig_vals else 0.0
+
+
+def _entropy(counts: list[int], total: int) -> float:
+    """Entropía de Shannon de una distribución discreta dada como conteos."""
+    if total == 0:
+        return 0.0
+    h = 0.0
+    for c in counts:
+        if c > 0:
+            p = c / total
+            h -= p * math.log(p + _EPSILON)
+    return h

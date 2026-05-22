@@ -50,16 +50,17 @@ _COHERENCE_PER_TRANSMISSION: float = 1.0
 
 # Mapa: par de símbolos dominantes → tipo de mito probable
 _PAIR_TO_MYTH_TYPE: dict[frozenset, str] = {
-    frozenset({"muerte", "sombra"}):     "cosmogonia",
-    frozenset({"muerte", "madre"}):      "cosmogonia",
-    frozenset({"gobernante", "padre"}):  "teogonia",
-    frozenset({"gobernante", "rebelde"}): "mito_moral",
-    frozenset({"madre", "nino_divino"}): "antropogonia",
-    frozenset({"muerte", "sabio"}):      "escatologia",
-    frozenset({"heroe", "sombra"}):      "mito_moral",
-    frozenset({"heroe", "rebelde"}):     "mito_moral",
-    frozenset({"trickster", "sombra"}):  "mito_moral",
-    frozenset({"sabio", "nino_divino"}): "teogonia",
+    frozenset({"muerte", "sombra"}):      "cosmogonia",
+    frozenset({"muerte", "madre"}):       "cosmogonia",
+    frozenset({"gobernante", "padre"}):   "teogonia",
+    frozenset({"gobernante", "rebelde"}): "mito_moral",   # Tiranía y Liberación
+    frozenset({"madre", "nino_divino"}):  "antropogonia", # Origen y Renacimiento
+    frozenset({"muerte", "sabio"}):       "escatologia",
+    frozenset({"heroe", "sombra"}):       "mito_moral",
+    frozenset({"heroe", "rebelde"}):      "mito_moral",
+    frozenset({"trickster", "sombra"}):   "mito_moral",
+    frozenset({"sabio", "nino_divino"}):  "teogonia",
+    frozenset({"sabio", "trickster"}):    "mito_moral",   # Verdad y Caos
 }
 
 # Efectos psicológicos por tipo de mito

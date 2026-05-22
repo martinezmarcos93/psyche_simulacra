@@ -190,8 +190,8 @@ class TribeManager:
             tribe_agents = {aid: agents[aid] for aid in member_ids if aid in agents}
             local_field  = self.local_fields.get(tribe_id)
             if local_field and tribe_agents:
+                # check_crystallization → on_day() ya incluye apply_myth_effects()
                 myth_engine.check_crystallization(local_field, tribe_agents, day)
-                myth_engine.apply_myth_effects(tribe_agents)
 
         # 4. Deriva arquetípica por bioma
         if terrain is not None:

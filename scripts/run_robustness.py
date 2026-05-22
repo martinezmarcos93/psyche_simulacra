@@ -59,6 +59,7 @@ def _run_one(seed: int, n_days: int, seed_file: str) -> dict:
             "vfe_global":  snap.vfe_global,
             "vfe_tribe":   snap.vfe_tribe_mean,
             "imi":         snap.imi,
+            "mig":         snap.mig,
             "n_tribes":    snap.n_tribes,
             "n_structs":   snap.n_structures,
         }
@@ -109,7 +110,7 @@ def main() -> None:
         print("[Robustez] Ninguna ejecucion completada.")
         sys.exit(1)
 
-    keys = ["kl_mean", "kl_max", "vfe_global", "vfe_tribe", "imi", "n_alive", "n_tribes", "n_structs"]
+    keys = ["kl_mean", "kl_max", "vfe_global", "vfe_tribe", "imi", "mig", "n_alive", "n_tribes", "n_structs"]
     aggregate = {k: _stats([r[k] for r in results if k in r]) for k in keys}
 
     report = {
@@ -131,6 +132,7 @@ def main() -> None:
     print(f"\n[Robustez] Resultados guardados en {out_path}")
     print(f"  KL divergencia:  media={aggregate['kl_mean'].get('mean', 0):.4f}  std={aggregate['kl_mean'].get('std', 0):.4f}")
     print(f"  IMI:             media={aggregate['imi'].get('mean', 0):.4f}  std={aggregate['imi'].get('std', 0):.4f}")
+    print(f"  MIG:             media={aggregate['mig'].get('mean', 0):.4f}  std={aggregate['mig'].get('std', 0):.4f}")
     print(f"  VFE global:      media={aggregate['vfe_global'].get('mean', 0):.4f}")
     print(f"  Tribus formadas: media={aggregate['n_tribes'].get('mean', 0):.1f}")
 
