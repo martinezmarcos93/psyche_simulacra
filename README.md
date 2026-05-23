@@ -31,24 +31,36 @@ El experimento busca responder:
   Leyendas tribales       Tribus + Mitología
 ```
 
-### Dos núcleos sincrónicos
+```
+[ Simulación A ]──┐                       ┌──[ Simulación B ]
+  PSYCHE SIMULACRA│   WebSocket (ws://)   │  PSYCHE SIMULACRA
+  + LiminalClient ├──> LIMINAL ZONE <─────┤  + LiminalClient
+  + Portal Hex    │    Servidor central   │  + Portal Hex
+                  └───────────────────────┘
+```
+
+### Dos núcleos sincrónicos + capa liminal (opcional)
 
 ```
 SimulationClock (tick = 1 hora simulada)
         │
-        ├─── priority=10 ──> WorldCore   (mundo físico)
+        ├─── priority=10 ──> WorldCore              (mundo físico)
         │                    Clima, terreno hexagonal, fauna, recursos, fuego
         │
-        └─── priority=20 ──> AgentCore   (agentes)
-                             Psicología, decisiones cuánticas, interacciones
-                             Tribus, cultura material, narrativa LLM
+        ├─── priority=20 ──> AgentCore              (agentes)
+        │                    Psicología, decisiones cuánticas, interacciones
+        │                    Tribus, cultura material, narrativa LLM
+        │
+        └─── priority=25 ──> AgentTransferHandler   (Zona Liminal, opcional)
+                             Portal hex, cliente WebSocket, tránsito intersimulación
 ```
 
 **Ciclo de un día simulado (24 ticks):**
 1. `WorldCore` actualiza clima, recursos, fauna → produce `WorldSnapshot`
 2. `AgentCore` lee el snapshot → cada agente colapsa estado cuántico → interacciones zonales
-3. Al final del día: clustering tribal, construcción de estructuras, síntesis narrativa
-4. Persistencia a SQLite + checkpoints JSON + vault Obsidian
+3. `AgentTransferHandler` (si activo) detecta agentes en el portal → los envía al servidor liminal
+4. Al final del día: clustering tribal, construcción de estructuras, síntesis narrativa
+5. Persistencia a SQLite + checkpoints JSON + vault Obsidian
 
 ### Cuatro capas del agente
 
@@ -122,6 +134,18 @@ SimulationClock (tick = 1 hora simulada)
 - `scripts/run_robustness.py` — suite de N ejecuciones con semillas distintas, salida JSON con KL/VFE/IMI/MIG
 - `scripts/plot_emergence.py` — genera PNG con 6 gráficas automáticas (KL, MIG, IMI, VFE, MIG vs tribus, supervivencia)
 
+### Zona Liminal (tránsito intersimulación)
+
+Sistema opcional que conecta múltiples instancias de PSYCHE SIMULACRA a través de un servidor WebSocket central. Permite que agentes de distintas simulaciones (en la misma PC o en PCs diferentes) se encuentren en un espacio compartido.
+
+- **`sim_identity`** — cada simulación genera un `SIM_ID` único persistido en `data/sim_id.txt`
+- **`PortalHex`** — hexágono portal de posición determinista (depende del seed); se renderiza como nodo violeta pulsante en el mapa
+- **`LiminalClient`** — cliente WebSocket asyncio; se conecta al servidor liminal en background
+- **`AgentTransferHandler`** — registrado en el `SimulationClock` a `priority=25`; cuando un agente pisa el portal activa `agent.in_liminal = True`, lo suspende del ciclo de actualización local y lo envía al servidor
+- **`liminal_server/`** — servidor WebSocket independiente (Python + asyncio + websockets) con mapa hexagonal propio 30×20, registro de simulaciones y agentes, reloj liminal, y visualizador Pygame de segunda ventana
+- Agentes en tránsito desaparecen del mapa local y aparecen en la ventana del servidor con el color de su simulación de origen
+- Los agentes regresan automáticamente tras `LIMINAL_RETURN_AFTER_TICKS` ticks liminales (~2 minutos a 30 FPS)
+
 ### Persistencia y observabilidad
 - **SQLite** (WAL) — snapshots de agentes, clima, escenario, muertes, sesiones
 - **CheckpointManager** — guardado atómico JSON cada 10 días + al apagar
@@ -193,6 +217,11 @@ PSYCHE SIMULACRA/
 │   ├── metrics/
 │   │   ├── emergence.py              EmergenceMetrics (KL, VFE, IMI, MIG)
 │   │   └── exporter.py               MetricsExporter (CSV + JSON)
+│   ├── liminal/                      Zona Liminal — cliente y portal
+│   │   ├── sim_identity.py           SIM_ID persistido (data/sim_id.txt)
+│   │   ├── portal_hex.py             PortalHex — posición determinista por seed
+│   │   ├── liminal_client.py         LiminalClient — WebSocket asyncio
+│   │   └── agent_transfer.py         AgentTransferHandler — tick handler
 │   └── simulation.py                 SimulationRunner (orquestador principal)
 │
 ├── persistence/
@@ -251,6 +280,22 @@ PSYCHE SIMULACRA/
 ├── src/                              Documentos de diseno originales
 │   └── archive/                      Roadmaps completados
 │
+├── liminal_server/                   Servidor LIMINAL ZONE (independiente)
+│   ├── main.py                       Punto de entrada del servidor
+│   ├── config.py                     Host, puerto, seed, PROTOCOL_VERSION
+│   ├── requirements.txt
+│   ├── core/
+│   │   ├── liminal_world.py          Mapa hexagonal 30×20 del espacio liminal
+│   │   ├── liminal_clock.py          Reloj propio del servidor
+│   │   ├── simulation_registry.py    Simulaciones conectadas
+│   │   └── agent_registry.py         Agentes presentes en la zona
+│   ├── transport/
+│   │   └── websocket_server.py       Servidor WebSocket (websockets + asyncio)
+│   ├── protocol/
+│   │   └── schemas.py                Tipos de mensajes del protocolo
+│   └── visualizer/
+│       └── liminal_pygame.py         Ventana Pygame del mapa liminal
+│
 ├── main.py                           Launcher interactivo (TUI con Rich)
 ├── pyproject.toml
 └── requirements.txt
@@ -305,6 +350,50 @@ python scripts/run_simulation.py --resume --days 500
 ```bash
 python scripts/visualizer.py --resume --fps 10 --days 0
 ```
+
+### Zona Liminal (multijugador experimental)
+
+La Zona Liminal conecta dos o más simulaciones a través de un servidor WebSocket central. Un jugador hostea el servidor; el resto se conecta con su visualizador.
+
+**1. Instalar dependencias del servidor:**
+
+```bash
+cd liminal_server
+pip install -r requirements.txt
+```
+
+**2. Iniciar el servidor (quién hostea):**
+
+```bash
+cd liminal_server
+python main.py
+# Escucha en ws://0.0.0.0:8765 por defecto
+```
+
+Con opciones:
+
+```bash
+python main.py --host 0.0.0.0 --port 8765 --seed 0
+```
+
+Abre una ventana Pygame mostrando el mapa liminal en tiempo real con los agentes en tránsito.
+
+**3. Conectar una simulación al servidor:**
+
+```bash
+# Mismo equipo
+python scripts/visualizer.py --liminal
+
+# Otra PC (usar IP local o pública del hosteador)
+python scripts/visualizer.py --liminal --liminal-host 192.168.1.100 --liminal-port 8765
+```
+
+Aparece un hexágono violeta pulsante en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en la ventana del servidor.
+
+**Configuración de red entre dos PCs:**
+1. El hosteador abre el puerto 8765 (TCP) en su router → redirige a su IP local.
+2. El que se conecta usa `--liminal-host <IP_PUBLICA_DEL_HOSTEADOR>`.
+3. Ambos deben usar la misma `PROTOCOL_VERSION` (ver `liminal_server/config.py`).
 
 ### Dashboard analitico (solo lectura, corre en paralelo)
 
@@ -363,6 +452,7 @@ NARRATIVE_ENABLED=1                      # 0 para desactivar
 | Visualizador | Pygame |
 | Launcher TUI | Rich |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
+| Zona Liminal (red) | websockets + asyncio (servidor) / threading (cliente) |
 | Tests | pytest |
 
 ---
