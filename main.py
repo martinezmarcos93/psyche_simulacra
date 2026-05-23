@@ -361,7 +361,7 @@ def main() -> None:
 
         console.print(Panel(
             info,
-            title="[bold magenta]✦  PSYCHE SIMULACRA[/bold magenta]",
+            title="[bold magenta]PSYCHE SIMULACRA[/bold magenta]",
             border_style="magenta",
             padding=(0, 2),
         ))

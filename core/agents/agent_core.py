@@ -92,11 +92,11 @@ class AgentCore:
         # Precomputar conteo de agentes por posición para saber si hay aliados
         pos_counts: dict[tuple[int, int], int] = {}
         for a in self.agents.values():
-            if a.is_alive:
+            if a.is_alive and not a.in_liminal:
                 pos_counts[a.posicion] = pos_counts.get(a.posicion, 0) + 1
 
         for agent in self.agents.values():
-            if not agent.is_alive:
+            if not agent.is_alive or agent.in_liminal:
                 continue
             agent.update_biological(tp, snapshot)
             hay_aliados = pos_counts.get(agent.posicion, 0) > 1

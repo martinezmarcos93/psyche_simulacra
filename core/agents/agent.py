@@ -94,6 +94,9 @@ class Agent:
         # Episodic Memory Log (Fase 8)
         self.episodic_log: list[str] = []
 
+        # Zona Liminal — True cuando el agente está en tránsito intersimulación
+        self.in_liminal: bool = False
+
     # ── Ciclo de vida ────────────────────────────────────────────────────────
 
     @property
