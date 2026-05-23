@@ -24,10 +24,14 @@ No. El servidor solo recibe y redistribuye eventos. Cada simulación es soberana
 
 **¿Cómo conecto dos PCs en casas distintas?**
 
-1. La PC que hostea el servidor ejecuta `python main.py`.
+1. El hosteador abre `python main.py` en la raíz de PSYCHE SIMULACRA → opción `[5]` para iniciar el servidor.
 2. El hosteador abre el puerto 8765 (TCP) en su router con port forwarding hacia su IP local.
-3. La otra PC configura `--liminal-host <IP_PUBLICA_HOSTEADOR>` al iniciar PSYCHE SIMULACRA.
+3. El que se conecta abre `python main.py` → opción `[7]` e ingresa la IP pública del hosteador.
 4. Verificar que el firewall de Windows no bloquee el puerto 8765.
+
+Alternativa manual si no se usa el launcher:
+- Hosteador: `cd liminal_server && python main.py`
+- Cliente: `python scripts/visualizer.py --liminal --liminal-host <IP_PUBLICA_HOSTEADOR>`
 
 **¿Cómo sé si la conexión funcionó?**
 

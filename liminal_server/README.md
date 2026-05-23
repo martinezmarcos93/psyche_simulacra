@@ -38,9 +38,22 @@ pip install -r requirements.txt
 
 ## Uso
 
-### Iniciar el servidor (quién hostea)
+### Desde el launcher principal (recomendado)
+
+Todo se maneja desde `main.py` en la raíz de PSYCHE SIMULACRA:
+
+```
+python main.py
+```
+
+- Opción `[5]` — Iniciar servidor Zona Liminal (abre esta carpeta en nueva ventana)
+- Opción `[6]` — Visualizador + conectar a localhost:8765
+- Opción `[7]` — Visualizador + conectar a servidor remoto (pide host y puerto)
+
+### Inicio manual (alternativa)
 
 ```bash
+cd liminal_server
 python main.py
 ```
 
@@ -52,15 +65,15 @@ python main.py --host 0.0.0.0 --port 8765 --seed 0
 
 El servidor abre una **ventana Pygame** mostrando el mapa liminal en tiempo real.
 
-### Conectar una simulación
-
-Desde `PSYCHE SIMULACRA`, iniciá el visualizador con el flag `--liminal`:
+### Conectar una simulación manualmente
 
 ```bash
+# Mismo equipo
+python scripts/visualizer.py --liminal
+
+# Otra PC
 python scripts/visualizer.py --liminal --liminal-host 192.168.1.100 --liminal-port 8765
 ```
-
-O desde el launcher `main.py` de PSYCHE SIMULACRA (opción de menú: `Zona Liminal`).
 
 ---
 

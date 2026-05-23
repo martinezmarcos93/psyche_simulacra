@@ -134,7 +134,17 @@ No se requiere GPU. La simulación core corre completamente en CPU. Ollama puede
 
 ### 11. ¿Qué es `main.py` y cuál es la diferencia con `run_simulation.py`?
 
-`main.py` es la **llave maestra interactiva**: un TUI (terminal UI) con menú Rich que guía al usuario paso a paso. Permite iniciar nueva simulación, continuar una pausada, abrir el visualizador Pygame, abrir el dashboard, y archivar simulaciones completadas. Antes de lanzar una nueva simulación pregunta el número de agentes, la semilla, si activar la narrativa LLM, y el modelo Ollama.
+`main.py` es la **llave maestra**: un TUI (terminal UI) con menú Rich que centraliza todos los modos de uso del proyecto. Desde un único punto de entrada se puede:
+
+| Opción | Acción |
+|--------|--------|
+| `[1]` | Continuar simulación en terminal (headless, máxima velocidad) |
+| `[2]` | Continuar simulación con visualizador Pygame |
+| `[3]` | Abrir Dashboard Streamlit (solo lectura) |
+| `[4]` | Iniciar nueva simulación (archiva la anterior automáticamente) |
+| `[5]` | Iniciar servidor Zona Liminal (abre nueva ventana) |
+| `[6]` | Visualizador + conectar a Zona Liminal local (localhost:8765) |
+| `[7]` | Visualizador + conectar a Zona Liminal remota (pide host/puerto) |
 
 `run_simulation.py` es el **motor headless de línea de comandos**, sin interactividad. Acepta todos los parámetros por flags (`--seeds-file`, `--days`, `--seed`, `--resume`) y es el apropiado para correr desde scripts, crons, o servidores sin interfaz.
 

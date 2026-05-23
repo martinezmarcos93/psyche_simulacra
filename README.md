@@ -353,47 +353,29 @@ python scripts/visualizer.py --resume --fps 10 --days 0
 
 ### Zona Liminal (multijugador experimental)
 
-La Zona Liminal conecta dos o más simulaciones a través de un servidor WebSocket central. Un jugador hostea el servidor; el resto se conecta con su visualizador.
+Todo se maneja desde `main.py`. El menú tiene tres opciones dedicadas:
 
-**1. Instalar dependencias del servidor:**
+| Opción | Qué hace |
+|--------|----------|
+| `[5]` Iniciar servidor Zona Liminal | Abre el servidor WebSocket en una nueva ventana — pide puerto y seed |
+| `[6]` Visualizador + Liminal local | Lanza el visualizador conectado a `localhost:8765` |
+| `[7]` Visualizador + Liminal remoto | Pide host y puerto, luego lanza el visualizador conectado |
 
+**Flujo típico en la misma PC (desarrollo/pruebas):**
+1. `python main.py` → `[5]` para iniciar el servidor (nueva ventana, puerto 8765)
+2. `python main.py` → `[6]` para conectar el visualizador
+
+**Flujo entre dos PCs:**
+1. El hosteador corre `python main.py` → `[5]` y abre el puerto 8765 en su router
+2. El otro corre `python main.py` → `[7]` e ingresa la IP pública del hosteador
+
+Aparece un hexágono violeta pulsante en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en la ventana del servidor.
+
+**Dependencias del servidor (instalar una vez):**
 ```bash
 cd liminal_server
 pip install -r requirements.txt
 ```
-
-**2. Iniciar el servidor (quién hostea):**
-
-```bash
-cd liminal_server
-python main.py
-# Escucha en ws://0.0.0.0:8765 por defecto
-```
-
-Con opciones:
-
-```bash
-python main.py --host 0.0.0.0 --port 8765 --seed 0
-```
-
-Abre una ventana Pygame mostrando el mapa liminal en tiempo real con los agentes en tránsito.
-
-**3. Conectar una simulación al servidor:**
-
-```bash
-# Mismo equipo
-python scripts/visualizer.py --liminal
-
-# Otra PC (usar IP local o pública del hosteador)
-python scripts/visualizer.py --liminal --liminal-host 192.168.1.100 --liminal-port 8765
-```
-
-Aparece un hexágono violeta pulsante en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en la ventana del servidor.
-
-**Configuración de red entre dos PCs:**
-1. El hosteador abre el puerto 8765 (TCP) en su router → redirige a su IP local.
-2. El que se conecta usa `--liminal-host <IP_PUBLICA_DEL_HOSTEADOR>`.
-3. Ambos deben usar la misma `PROTOCOL_VERSION` (ver `liminal_server/config.py`).
 
 ### Dashboard analitico (solo lectura, corre en paralelo)
 
