@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `1477` | **Miembros vivos:** `4`
+> **Día:** `1649` | **Miembros vivos:** `2`
 
 ---
 
@@ -9,22 +9,20 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[eudora]] (Eudora) | recolector | 54 | sombra |
-| [[hector]] (Hector) | generico | 46 | self |
 | [[medon]] (Medon) | generico | 53 | self |
-| [[thalia]] (Thalia) | generico | 45 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.792` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.432` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.872` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.468` | `▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.271` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.158` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.523` | `▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.481` | `▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.226` | `▓▓░░░░░░░░` |
+| **Madre** | `0.114` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

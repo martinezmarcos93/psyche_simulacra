@@ -394,10 +394,10 @@ def _ngrok_start(port: int, console: Console) -> tuple[str, int] | None:
         console.print(f"[red]  Error iniciando ngrok:[/red] {e}")
         return None
 
-    console.print("  [cyan]Conectando ngrok[/cyan]", end="", flush=True)
+    console.print("  [cyan]Conectando ngrok[/cyan]", end="")
     for _ in range(20):
         time.sleep(0.5)
-        console.print(".", end="", flush=True)
+        console.print(".", end="")
         try:
             with urllib.request.urlopen("http://localhost:4040/api/tunnels", timeout=1) as resp:
                 data = json.loads(resp.read())

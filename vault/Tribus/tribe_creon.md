@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `1409` | **Miembros vivos:** `2`
+> **Día:** `1669` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[creon]] (Creon) | generico | 41 | sombra |
-| [[festus]] (Festus) | recolector | 64 | self |
+| [[creon]] (Creon) | generico | 42 | sombra |
+| [[festus]] (Festus) | recolector | 65 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.705` `[▓▓▓▓▓▓▓▓░░░░]`
+> **Presión emocional:** `0.118` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.381` | `▓▓▓▓░░░░░░` |
-| **Heroe** | `0.343` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.171` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.152` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.376` | `▓▓▓▓░░░░░░` |
+| **Heroe** | `0.293` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.147` | `▓░░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

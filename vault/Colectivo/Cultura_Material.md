@@ -1,6 +1,6 @@
 # 🏛️ Cultura Material
 
-> **Día:** `1477` | **Estructuras activas:** `63`
+> **Día:** `1669` | **Estructuras activas:** `65`
 
 ---
 
@@ -71,18 +71,20 @@
 | ⛩️ Altar | `tribe_eudora` | `(74, 56)` | Día 1143 | 2 hex | `+0.010` | `-0.015` |
 | 🗿 Tótem | `tribe_festus` | `(79, 52)` | Día 1241 | 2 hex | `+0.015` | `-0.010` |
 | 🗿 Tótem | `tribe_brysis` | `(59, 42)` | Día 1420 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_brysis` | `(72, 39)` | Día 1490 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_brysis` | `(78, 41)` | Día 1622 | 2 hex | `+0.010` | `-0.015` |
 
 ---
 
 ## 🌀 Auras por Tipo de Estructura
 
-### ⛩️ Altar (49 activas)
+### ⛩️ Altar (50 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.010`, ansiedad `-0.015`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día
 - **Impulso arquetípico:** sabio: +0.0005/día, self_: +0.0005/día
 
-### 🗿 Tótem (14 activas)
+### 🗿 Tótem (15 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.015`, ansiedad `-0.010`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día

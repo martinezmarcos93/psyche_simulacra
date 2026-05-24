@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `689` | **Miembros vivos:** `1`
+> **Día:** `1669` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[velia]] (Velia) | recolector | 47 | sombra |
+| [[velia]] (Velia) | recolector | 50 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.226` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.407` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.286` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.121` | `▓░░░░░░░░░` |
-| **Madre** | `0.061` | `▓░░░░░░░░░` |
-| **Trickster** | `0.055` | `▓░░░░░░░░░` |
+| **Sombra** | `0.422` | `▓▓▓▓░░░░░░` |
+| **Trickster** | `0.227` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.008` | `░░░░░░░░░░` |
+| **Madre** | `0.004` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
