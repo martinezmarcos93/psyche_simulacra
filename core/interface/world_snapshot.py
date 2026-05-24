@@ -50,3 +50,6 @@ class WorldSnapshot:
     # ── Tumbas sagradas activas ──────────────────────────────────────────────
     # [(coord, carga_simbolica, arquetipo_dominante)] — solo las que superan umbral
     graves_activos: list = field(default_factory=list)
+
+    # ── Catástrofe activa (Hito 5) ───────────────────────────────────────────
+    catastrofe_activa: dict | None = None

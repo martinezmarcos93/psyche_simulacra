@@ -195,7 +195,16 @@ class AgentCore:
             if cause is not None:
                 self._register_death(agent, tp, cause)
 
-        # 3b. Orfandad: infantes cuyos dos padres han muerto
+        # 3b. Mortalidad selectiva por catástrofe (Hito 5)
+        cat_engine = getattr(self.world_ref, "catastrophe", None)
+        if cat_engine is not None and cat_engine.active is not None:
+            self._process_catastrophe_mortality(tp, cat_engine)
+
+        # 3d. Migración forzada: catástrofe sube ansiedad → agents deciden moverse (Hito 5)
+        if cat_engine is not None and cat_engine.active is not None:
+            self._process_catastrophe_anxiety(tp, cat_engine)
+
+        # 3e. Orfandad: infantes cuyos dos padres han muerto
         for agent in list(self.agents.values()):
             if not agent.is_alive or not agent.es_infante or agent._padres is None:
                 continue
@@ -621,10 +630,8 @@ class AgentCore:
         También propaga rumores de los eventos presenciados hacia vecinos sociales cercanos.
         """
         snap = getattr(self.world_ref, "current_snapshot", None)
-        if snap is None:
-            return
 
-        evento = snap.evento_climatico
+        evento = snap.evento_climatico if snap is not None else None
         if evento is not None:
             _CLIMA_TO_TIPO: dict[str, str] = {
                 "tormenta": "clima_extremo",
@@ -632,7 +639,7 @@ class AgentCore:
                 "sequia":   "clima_extremo",
             }
             tipo_percepcion = _CLIMA_TO_TIPO.get(evento, "clima_extremo")
-            intensidad_base = max(0.20, snap.survival_risk)
+            intensidad_base = max(0.20, snap.survival_risk if snap is not None else 0.20)
 
             for agent in self.agents.values():
                 if not agent.is_alive:
@@ -654,6 +661,34 @@ class AgentCore:
                     if arch == "sabio":
                         lf.myth_pressure = min(1.0, lf.myth_pressure + amplified * 0.10)
                         lf.confusion     = min(1.0, lf.confusion     + amplified * 0.08)
+
+        # Eclipse: terror epistemológico puro — confusion + myth_pressure (Hito 5)
+        cat_engine = getattr(self.world_ref, "catastrophe", None)
+        if cat_engine is not None and cat_engine.active is not None:
+            cat = cat_engine.active
+            if cat.tipo == "eclipse":
+                intensidad_eclipse = 0.50 + cat.severidad * 0.30
+                for agent in self.agents.values():
+                    if not agent.is_alive:
+                        continue
+                    perceived = agent._perception.witness(
+                        tipo        = "fenomeno_inexplicable",
+                        coord       = None,
+                        intensidad  = intensidad_eclipse,
+                        dia         = dia,
+                        agent_coord = agent.posicion,
+                    )
+                    arch      = agent.archetypes.dominant()
+                    amplified = agent._perception.perceived_intensity(
+                        "fenomeno_inexplicable", perceived, arch
+                    )
+                    lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                    lf.confusion     = min(1.0, lf.confusion     + amplified * 0.15)
+                    lf.myth_pressure = min(1.0, lf.myth_pressure + amplified * 0.12)
+                    if arch == "sabio":
+                        lf.symbols["sabio"] = min(
+                            1.0, lf.symbols.get("sabio", 0.0) + amplified * 0.10
+                        )
 
         # Propagación de rumores (1 salto por día entre vecinos con vínculo ≥ 0.30)
         for agent in self.agents.values():
@@ -780,7 +815,92 @@ class AgentCore:
                     intensidad          = assoc.fuerza * 0.60,
                 )
 
-    # ── Fin Hito 4 ─────────────────────────────────────────────────────────────
+    # ── Hito 5: Catástrofes Climáticas Irreversibles ──────────────────────────
+
+    def _process_catastrophe_mortality(self, tp: TimePoint, cat_engine) -> None:
+        """
+        Mortalidad selectiva durante catástrofes activas.
+        Infantes y ancianos tienen mayor riesgo. La plaga genera tabús de contagio.
+        """
+        cat = cat_engine.active
+        if cat is None:
+            return
+        for agent in list(self.agents.values()):
+            if not agent.is_alive:
+                continue
+            risk = cat_engine.get_survival_risk_mod(
+                coord     = agent.posicion,
+                edad      = agent.edad,
+                is_infant = agent.es_infante,
+            )
+            if risk <= 0.0 or self._rng.random() >= risk:
+                continue
+            self._register_death(agent, tp, cat.tipo)
+            if cat.tipo == "plaga":
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                if tribe_id:
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        cmem.record_event(
+                            dia                 = tp.dia_simulado,
+                            agente_nombre       = agent.nombre,
+                            arquetipo_dominante = "sombra",
+                            tipo_evento         = "taboo_causal",
+                            descripcion         = (
+                                f"{agent.nombre} cayó con plaga el día {tp.dia_simulado}. "
+                                f"Tabú: no acercarse a los enfermos."
+                            ),
+                            intensidad          = 0.80,
+                        )
+
+    def _process_catastrophe_anxiety(self, tp: TimePoint, cat_engine) -> None:
+        """
+        Durante catástrofes, los agentes en el área afectada acumulan ansiedad.
+        La ansiedad alta cambia decisiones de acción → migración emergente.
+        """
+        cat = cat_engine.active
+        if cat is None:
+            return
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            # Eclipse afecta a todos globalmente
+            if cat.tipo == "eclipse":
+                delta = cat.severidad * 0.08
+            elif cat.area_hexes is not None and agent.posicion not in cat.area_hexes:
+                # Plaga: checar plague_hexes en lugar de area_hexes
+                if cat.tipo == "plaga":
+                    delta = (cat.severidad * 0.04
+                             if agent.posicion in cat_engine._plague_hexes else 0.0)
+                else:
+                    continue
+            else:
+                delta = cat.severidad * 0.05
+            if delta <= 0.0:
+                continue
+            agent.ansiedad = min(1.0, agent.ansiedad + delta)
+            lf = self.tribe_manager.get_local_field(agent.id)
+            if lf is not None:
+                lf.confusion = min(1.0, lf.confusion + delta * 0.25)
+                # Registro cultural al primer día de catástrofe
+                if cat.dias_transcurridos == 1:
+                    cmem = self.tribe_manager.cultural_memories.get(
+                        self.tribe_manager.get_tribe_id(agent.id) or ""
+                    )
+                    if cmem is not None:
+                        cmem.record_event(
+                            dia                 = tp.dia_simulado,
+                            agente_nombre       = agent.nombre,
+                            arquetipo_dominante = agent.archetypes.dominant(),
+                            tipo_evento         = cat.tipo,
+                            descripcion         = (
+                                f"Catástrofe '{cat.tipo}' comenzó el día {tp.dia_simulado} "
+                                f"con severidad {cat.severidad:.2f}."
+                            ),
+                            intensidad          = cat.severidad,
+                        )
+
+    # ── Fin Hito 5 ─────────────────────────────────────────────────────────────
 
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():

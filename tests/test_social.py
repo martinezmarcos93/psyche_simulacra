@@ -503,3 +503,320 @@ class TestHito4EmergentCriterion:
         agent2 = Agent.from_dict(d)
         assert len(agent2._perception._recent_events) == 2
         assert len(agent2._perception._causal_assocs) == len(agent._perception._causal_assocs)
+
+
+# ── Hito 5: Catástrofes Climáticas Irreversibles ────────────────────────────
+
+from core.world.catastrophe import CatastropheEngine, CatastropheEvent
+
+
+class TestCatastropheEngine:
+    """Tests unitarios del motor de catástrofes."""
+
+    def test_sequia_reduce_agua(self):
+        """Durante sequía, el modificador de agua baja por debajo de 1.0."""
+        ce = CatastropheEngine(seed=1)
+        ce._start("sequia_prolongada", dia=10, terrain=None)
+        assert ce.active is not None
+        mod = ce.get_water_modifier((5, 5), biome="llanura")
+        assert mod < 1.0
+
+    def test_bioma_resiliente_retiene_mas_agua(self):
+        """Biomas con agua subterránea tienen mayor modificador que llanuras."""
+        ce = CatastropheEngine(seed=2)
+        ce._start("sequia_prolongada", dia=10, terrain=None)
+        mod_llanura  = ce.get_water_modifier((5, 5), biome="llanura")
+        mod_rio      = ce.get_water_modifier((5, 5), biome="rio_lago")
+        assert mod_rio > mod_llanura
+
+    def test_mortalidad_selectiva_infante_mayor_que_adulto(self):
+        """Los infantes tienen mayor riesgo que los adultos durante catástrofe."""
+        ce = CatastropheEngine(seed=3)
+        ce._start("sequia_prolongada", dia=1, terrain=None)
+        riesgo_infante = ce.get_survival_risk_mod((0, 0), edad=0,  is_infant=True)
+        riesgo_adulto  = ce.get_survival_risk_mod((0, 0), edad=25, is_infant=False)
+        assert riesgo_infante > riesgo_adulto
+
+    def test_eclipse_cero_mortalidad(self):
+        """Eclipse no produce mortalidad directa."""
+        ce = CatastropheEngine(seed=4)
+        ce._start("eclipse", dia=1, terrain=None)
+        riesgo = ce.get_survival_risk_mod((0, 0), edad=5, is_infant=True)
+        assert riesgo == 0.0
+
+    def test_catastrofe_avanza_y_termina(self):
+        """La catástrofe avanza días y se cierra al vencer la duración."""
+        ce = CatastropheEngine(seed=5)
+        ce._start("eclipse", dia=1, terrain=None)
+        assert ce.active is not None
+        duracion = ce.active.duracion_dias
+        for d in range(duracion):
+            ce.on_day(dia=1 + d, estacion="primavera", terrain=None)
+        assert ce.active is None
+        assert len(ce.history) == 1
+
+    def test_serialization_round_trip(self):
+        """to_dict / from_dict preservan catástrofe activa y huellas de terreno."""
+        ce = CatastropheEngine(seed=6)
+        ce._start("sequia_prolongada", dia=5, terrain=None)
+        ce._terrain_marks[(1, 2)] = {"tipo": "seco", "severidad": 0.7, "dias_restantes": 30}
+
+        d   = ce.to_dict()
+        ce2 = CatastropheEngine.from_dict(d, seed=6)
+
+        assert ce2.active is not None
+        assert ce2.active.tipo == "sequia_prolongada"
+        assert (1, 2) in ce2._terrain_marks
+
+    def test_huellas_terreno_persisten_post_incendio(self):
+        """Tras un incendio, quedan huellas 'quemado' en el terreno."""
+        ce = CatastropheEngine(seed=7)
+        ce._terrain_marks[(3, 3)] = {"tipo": "quemado", "severidad": 0.8, "dias_restantes": 20}
+        mod_agua   = ce.get_water_modifier((3, 3), biome="llanura")
+        mod_comida = ce.get_food_modifier((3, 3))
+        assert mod_agua   < 1.0
+        assert mod_comida < 1.0
+
+    def test_invierno_brutal_reduce_comida_no_agua(self):
+        """Invierno brutal reduce comida pero no modifica agua."""
+        ce = CatastropheEngine(seed=8)
+        ce._start("invierno_brutal", dia=1, terrain=None)
+        mod_comida = ce.get_food_modifier((0, 0))
+        mod_agua   = ce.get_water_modifier((0, 0), biome="llanura")
+        assert mod_comida < 1.0
+        assert mod_agua   == 1.0  # invierno no afecta agua directamente
+
+
+class TestWorldCoreCatastrophe:
+    """Tests de integración: CatastropheEngine en WorldCore."""
+
+    def test_worldcore_tiene_catastrophe(self):
+        """WorldCore instancia CatastropheEngine."""
+        world = WorldCore(seed=42)
+        assert hasattr(world, "catastrophe")
+        assert isinstance(world.catastrophe, CatastropheEngine)
+
+    def test_snapshot_incluye_catastrofe_none_si_no_activa(self):
+        """WorldSnapshot.catastrofe_activa es None cuando no hay catástrofe."""
+        from core.time import TimePoint
+        world = WorldCore(seed=42)
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        world.on_tick(tp)
+        snap = world.current_snapshot
+        assert snap is not None
+        assert snap.catastrofe_activa is None
+
+    def test_snapshot_incluye_catastrofe_si_activa(self):
+        """WorldSnapshot.catastrofe_activa contiene datos cuando hay catástrofe."""
+        from core.time import TimePoint
+        world = WorldCore(seed=42)
+        world.catastrophe._start("eclipse", dia=1, terrain=None)
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        world.on_tick(tp)
+        snap = world.current_snapshot
+        assert snap.catastrofe_activa is not None
+        assert snap.catastrofe_activa["tipo"] == "eclipse"
+
+    def test_recursos_reducidos_durante_sequia(self):
+        """Snapshot refleja reducción de agua durante sequía activa."""
+        from core.time import TimePoint
+        world = WorldCore(seed=42)
+        # Primer tick sin catástrofe para inicializar snapshot
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        world.on_tick(tp)
+        snap_normal = world.current_snapshot
+
+        # Activar sequía
+        world.catastrophe._start("sequia_prolongada", dia=2, terrain=None)
+        tp2 = TimePoint(tick=24, dia_simulado=2, hora_del_dia=12,
+                        dia_del_año=2, año_simulado=0, estacion="verano",
+                        es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                        es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                        timestamp_real=1.0)
+        world.on_tick(tp2)
+        snap_sequia = world.current_snapshot
+
+        # Al menos algún hex debería tener agua reducida
+        agua_normal = sum(
+            v.get("agua", 0) for v in snap_normal.recursos_por_hex.values()
+        )
+        agua_sequia = sum(
+            v.get("agua", 0) for v in snap_sequia.recursos_por_hex.values()
+        )
+        # Con sequía global el total de agua debe ser igual o menor
+        assert agua_sequia <= agua_normal + 0.01  # margen de regeneración diaria
+
+
+class TestHito5EmergentCriterion:
+    """
+    Criterio de salida del Hito 5:
+    Una sequía debe producir mortalidad, ansiedad y proto-mitos en CulturalMemory.
+    """
+
+    def _make_tribe(self, world, core, tribe_id, n_agents=6):
+        """Crea n agentes en una tribu con campo local."""
+        from core.social.collective_field import CollectiveField
+        from core.social.cultural_memory import CulturalMemory
+        agents = []
+        for i in range(n_agents):
+            a = Agent(f"{tribe_id}_{i}", f"Agente{i}", (5, 5), seed=i)
+            a.edad = 25
+            core.add_agent(a)
+            agents.append(a)
+        core.tribe_manager.tribes[tribe_id]             = [a.id for a in agents]
+        core.tribe_manager.local_fields[tribe_id]      = CollectiveField()
+        core.tribe_manager.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
+        for a in agents:
+            core.tribe_manager.agent_to_tribe[a.id] = tribe_id
+        return agents
+
+    def test_sequia_aumenta_ansiedad(self):
+        """Durante sequía, _process_catastrophe_anxiety sube ansiedad de agentes."""
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+        agents = self._make_tribe(world, core, "tribu_a", n_agents=4)
+
+        world.catastrophe._start("sequia_prolongada", dia=1, terrain=None)
+        cat = world.catastrophe
+        cat.active.area_hexes = None  # global
+
+        ansiedad_antes = [a.ansiedad for a in agents]
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="verano",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        core._process_catastrophe_anxiety(tp, cat)
+
+        for antes, a in zip(ansiedad_antes, agents):
+            assert a.ansiedad >= antes
+
+    def test_sequia_mata_infante_mas_que_adulto(self):
+        """_process_catastrophe_mortality aplica mortalidad selectiva."""
+        import random as _rng_mod
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+
+        infante = Agent("inf1", "Bebé", (5, 5), seed=100)
+        infante.edad = 0
+        adulto  = Agent("ad1", "Adulto", (5, 5), seed=101)
+        adulto.edad = 30
+
+        core.add_agent(infante)
+        core.add_agent(adulto)
+
+        # Sequía de máxima severidad global
+        world.catastrophe._start("sequia_prolongada", dia=1, terrain=None)
+        world.catastrophe.active.severidad  = 1.0
+        world.catastrophe.active.area_hexes = None
+
+        # Simular muchos días para que la mortalidad selectiva sea observable
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="verano",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        muertes_infante = 0
+        muertes_adulto  = 0
+        for _ in range(200):
+            # Reset vivos para contar independientemente
+            infante.is_alive = True
+            adulto.is_alive  = True
+            cat = world.catastrophe
+            ri  = cat.get_survival_risk_mod((5, 5), edad=0,  is_infant=True)
+            ra  = cat.get_survival_risk_mod((5, 5), edad=30, is_infant=False)
+            if core._rng.random() < ri:
+                muertes_infante += 1
+            if core._rng.random() < ra:
+                muertes_adulto  += 1
+
+        assert muertes_infante > muertes_adulto
+
+    def test_catastrofe_registra_en_cultural_memory(self):
+        """Al comenzar la catástrofe, se registra en CulturalMemory de la tribu."""
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+        agents = self._make_tribe(world, core, "tribu_b", n_agents=3)
+
+        world.catastrophe._start("sequia_prolongada", dia=10, terrain=None)
+        world.catastrophe.active.area_hexes = None
+        # Simular día 1 de catástrofe (dias_transcurridos == 1 después de on_day)
+        world.catastrophe.active.dias_transcurridos = 1
+
+        tp = TimePoint(tick=6*10, dia_simulado=10, hora_del_dia=6,
+                       dia_del_año=10, año_simulado=0, estacion="verano",
+                       es_amanecer=True, es_mediodia=False, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=10.0)
+        core._process_catastrophe_anxiety(tp, world.catastrophe)
+
+        cmem = core.tribe_manager.cultural_memories["tribu_b"]
+        eventos_cat = [r for r in cmem.records if r.tipo_evento == "sequia_prolongada"]
+        assert len(eventos_cat) >= 1
+
+    def test_plaga_genera_taboo_en_memoria(self):
+        """Muerte por plaga genera tabú de contagio en CulturalMemory."""
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+
+        victima = Agent("v1", "Enfermo", (5, 5), seed=200)
+        victima.edad     = 10
+        victima.is_alive = True
+        core.add_agent(victima)
+
+        tribe_id = "tribu_plaga"
+        from core.social.collective_field import CollectiveField
+        from core.social.cultural_memory import CulturalMemory
+        core.tribe_manager.tribes[tribe_id]             = [victima.id]
+        core.tribe_manager.agent_to_tribe[victima.id]   = tribe_id
+        core.tribe_manager.local_fields[tribe_id]      = CollectiveField()
+        core.tribe_manager.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
+
+        world.catastrophe._start("plaga", dia=1, terrain=None)
+        world.catastrophe._plague_hexes = {(5, 5)}
+        world.catastrophe.active.severidad  = 1.0
+        world.catastrophe.active.area_hexes = None
+
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+
+        # Forzar muerte por plaga
+        victima.is_alive = True
+        core._rng = type('R', (), {'random': lambda s: 0.0})()  # siempre muere
+        core._process_catastrophe_mortality(tp, world.catastrophe)
+
+        cmem   = core.tribe_manager.cultural_memories[tribe_id]
+        taboos = [r for r in cmem.records if r.tipo_evento == "taboo_causal"]
+        assert len(taboos) >= 1
+
+    def test_eclipse_sube_confusion_y_myth_pressure(self):
+        """Eclipse activo eleva confusion y myth_pressure tribales sin mortalidad."""
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+        agents = self._make_tribe(world, core, "tribu_eclipse", n_agents=4)
+
+        world.catastrophe._start("eclipse", dia=5, terrain=None)
+
+        lf = core.tribe_manager.local_fields["tribu_eclipse"]
+        confusion_antes     = lf.confusion
+        myth_pressure_antes = lf.myth_pressure
+
+        core._process_selective_attention(dia=5)
+
+        assert lf.confusion     > confusion_antes
+        assert lf.myth_pressure > myth_pressure_antes

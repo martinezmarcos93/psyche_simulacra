@@ -7,6 +7,7 @@ from .fauna import FaunaSystem
 from .fire import FireSystem
 from .grave_hex import GraveSystem
 from .substances import SubstanceSystem, SUBSTANCE_NAMES
+from .catastrophe import CatastropheEngine
 import random
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
@@ -15,6 +16,7 @@ _WATER_TYPES = frozenset([
     "agua", "agua_lluvia", "agua_fresca",
     "agua_subterranea", "agua_salobre", "nieve",
 ])
+_FOOD_TYPES = frozenset(["planta", "fruto", "semilla", "fungi"])
 _HEX_RING1 = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, -1), (-1, 1)]
 
 
@@ -32,10 +34,11 @@ class WorldCore:
         self.climate   = ClimateSystem(seed=seed)
         self.resources = ResourceSystem(self.terrain)
         self.fauna     = FaunaSystem(self.terrain, seed=seed)
-        self.fire       = FireSystem(seed=seed)
-        self.graves     = GraveSystem()
-        self.substances = SubstanceSystem()
-        self._rng       = random.Random(seed + 7)
+        self.fire        = FireSystem(seed=seed)
+        self.graves      = GraveSystem()
+        self.substances  = SubstanceSystem()
+        self.catastrophe = CatastropheEngine(seed=seed + 13)
+        self._rng        = random.Random(seed + 7)
 
         self._pending_actions:     list[WorldAction]       = []
         self._last_action_results: dict[str, ActionResult] = {}
@@ -61,6 +64,7 @@ class WorldCore:
         """Llamado al inicio de cada nuevo día simulado."""
         explored = self.terrain.explored_coords()
         climate  = self._last_climate_state()
+        self.catastrophe.on_day(tp.dia_simulado, tp.estacion, self.terrain, self.graves)
         self.resources.daily_regeneration(tp.estacion, explored)
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
@@ -205,34 +209,51 @@ class WorldCore:
                     if water_data:
                         recursos_por_hex[nc] = water_data
 
+        # Aplicar modificadores de catástrofe a recursos visibles (Hito 5)
+        if self.catastrophe.active is not None:
+            for coord in list(recursos_por_hex.keys()):
+                hex_cell  = self.terrain.get(*coord)
+                biome     = hex_cell.biome if hex_cell else ""
+                water_mod = self.catastrophe.get_water_modifier(coord, biome)
+                food_mod  = self.catastrophe.get_food_modifier(coord)
+                if water_mod < 1.0 or food_mod < 1.0:
+                    modified = dict(recursos_por_hex[coord])
+                    for resource, qty in modified.items():
+                        if resource in _WATER_TYPES:
+                            modified[resource] = qty * water_mod
+                        elif resource in _FOOD_TYPES:
+                            modified[resource] = qty * food_mod
+                    recursos_por_hex[coord] = modified
+
         fauna_visible = self.fauna.get_density_map(explored)
 
         carrying_cap = self.terrain.total_carrying_capacity()
         pressure     = self._resource_pressure
 
         return WorldSnapshot(
-            tick             = tp.tick,
-            dia              = tp.dia_simulado,
-            hora             = tp.hora_del_dia,
-            estacion         = tp.estacion,
-            temperatura      = climate.temperatura,
-            precipitacion    = climate.precipitacion,
-            luminosidad      = climate.luminosidad,
-            viento           = climate.viento,
-            evento_climatico = climate.evento_activo,
-            mood_modifier    = climate.mood_modifier,
-            productivity_mod = climate.productivity_mod,
-            survival_risk    = climate.survival_risk,
-            recursos_por_hex = recursos_por_hex,
-            fauna_visible    = fauna_visible,
-            fuego_activo     = self.fire.is_active,
-            fuego_coord      = self.fire.location,
-            fuego_intensidad = self.fire.intensity,
+            tick              = tp.tick,
+            dia               = tp.dia_simulado,
+            hora              = tp.hora_del_dia,
+            estacion          = tp.estacion,
+            temperatura       = climate.temperatura,
+            precipitacion     = climate.precipitacion,
+            luminosidad       = climate.luminosidad,
+            viento            = climate.viento,
+            evento_climatico  = climate.evento_activo,
+            mood_modifier     = climate.mood_modifier,
+            productivity_mod  = climate.productivity_mod,
+            survival_risk     = climate.survival_risk,
+            recursos_por_hex  = recursos_por_hex,
+            fauna_visible     = fauna_visible,
+            fuego_activo      = self.fire.is_active,
+            fuego_coord       = self.fire.location,
+            fuego_intensidad  = self.fire.intensity,
             fuego_calor_bonus = self.fire.heat_bonus,
             carrying_capacity = carrying_cap,
             resource_pressure = pressure,
             graves_activos    = self.graves.active_sites(),
             action_results    = self._last_action_results,
+            catastrofe_activa = self.catastrophe.get_snapshot_data(),
         )
 
     def _last_climate_state(self) -> ClimateState:
@@ -278,6 +299,7 @@ class WorldCore:
             "fauna_density":    self.fauna.get_density_snapshot(explored),
             "graves":           self.graves.to_dict(),
             "substances":       self.substances.to_dict(),
+            "catastrophe":      self.catastrophe.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -294,3 +316,7 @@ class WorldCore:
             self.graves = GraveSystem.from_dict(data["graves"])
         if "substances" in data:
             self.substances = SubstanceSystem.from_dict(data["substances"])
+        if "catastrophe" in data:
+            self.catastrophe = CatastropheEngine.from_dict(
+                data["catastrophe"], seed=self._seed + 13
+            )

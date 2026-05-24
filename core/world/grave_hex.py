@@ -108,6 +108,13 @@ class GraveSystem:
         for grave in self.graves.values():
             grave.daily_decay()
 
+    def boost_at(self, coord: tuple[int, int], delta: float) -> None:
+        """Incrementa carga simbólica del hex (sobrevivir a catástrofe lo sacraliza más)."""
+        if coord in self.graves:
+            self.graves[coord].carga_simbolica = min(
+                1.0, self.graves[coord].carga_simbolica + delta
+            )
+
     def active_sites(self) -> list[tuple[tuple[int, int], float, str]]:
         """
         Retorna [(coord, carga, arquetipo_dominante)] para graves activos
