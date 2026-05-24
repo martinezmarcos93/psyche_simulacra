@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `2219` | **Miembros vivos:** `6`
+> **Día:** `500` | **Miembros vivos:** `7`
 
 ---
 
@@ -8,31 +8,37 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[erytheis]] (Erytheis) | recolector | 37 | sombra |
-| [[hijo_001]] (Euphrosyne) | generico | 5 | sombra |
-| [[hestia]] (Hestia) | recolector | 45 | self |
-| [[hijo_002]] (Morpheus) | recolector | 3 | self |
-| [[persis]] (Persis) | generico | 62 | self |
-| [[xeron]] (Xeron) | generico | 36 | sombra |
+| [[calix]] (Calix) | guardian | 51 | self |
+| [[exan]] (Exan) | generico | 22 | sombra |
+| [[festus]] (Festus) | recolector | 62 | anima_animus |
+| [[hector]] (Hector) | generico | 43 | anima_animus |
+| [[lykos]] (Lykos) | explorador | 47 | self |
+| [[phoibos]] (Phoibos) | generico | 33 | self |
+| [[ulax]] (Ulax) | generico | 20 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.709` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.709` | `▓▓▓▓▓▓▓░░░` |
-| **Trickster** | `0.383` | `▓▓▓▓░░░░░░` |
-| **Heroe** | `0.355` | `▓▓▓▓░░░░░░` |
-| **Muerte** | `0.227` | `▓▓░░░░░░░░` |
-| **Madre** | `0.060` | `▓░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.103` | `▓░░░░░░░░░` |
+| **Madre** | `0.053` | `▓░░░░░░░░░` |
+| **Muerte** | `0.012` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
 ## 📜 Mitología Local
 
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 2058)
+> *Ningún mito cristalizado aún en esta tribu.*

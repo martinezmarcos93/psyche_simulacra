@@ -2,38 +2,38 @@
 id: eudora
 nombre: Eudora
 rol: recolector
-edad: 62
+edad: 51
 sexo: F
-is_alive: False
-posicion: [49, 32]
-humor: 0.856
-energia: 0.588
-ansiedad: 0.331
+is_alive: True
+posicion: [67, 59]
+humor: 0.755
+energia: 0.595
+ansiedad: 0.471
 needs:
-  hambre: 0.044
+  hambre: 0.224
   fatiga: 0.335
-  sed: 0.415
+  sed: 0.535
   sociabilidad: 1.000
-arquetipo_dominante: sombra
-estado_conductual: cooperacion
+arquetipo_dominante: self
+estado_conductual: aislamiento
 arquetipos:
-  self: 0.967
+  self: 0.970
   persona: 0.261
-  sombra: 1.000
-  anima_animus: 0.970
-  heroe: 0.973
-  sabio: 0.973
-  trickster: 0.197
-  madre: 0.984
-  padre: 0.751
-  nino_divino: 0.620
-  gobernante: 0.804
-  rebelde: 0.372
+  sombra: 0.959
+  anima_animus: 0.932
+  heroe: 0.563
+  sabio: 0.597
+  trickster: 0.172
+  madre: 0.916
+  padre: 0.358
+  nino_divino: 0.456
+  gobernante: 0.384
+  rebelde: 0.305
 ---
 # 👤 Persona: Eudora
 
-> **Rol:** `recolector` | **Edad:** 62 | **Sexo:** F | **Ubicación:** `(49, 32)`
-> **Estado Vital:** **💀 Desconectado / Fallecido**
+> **Rol:** `recolector` | **Edad:** 51 | **Sexo:** F | **Ubicación:** `(67, 59)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.33 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.60 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.47 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
+| **Hambre** | `[▓▓░░░░░░░░]` | 0.22 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.967` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.970` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.261` | `▓▓▓░░░░░░░░░` |
-| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Anima animus** | `0.970` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.973` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Sabio** | `0.973` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.197` | `▓▓░░░░░░░░░░` |
-| **Madre** | `0.984` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Padre** | `0.751` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Nino divino** | `0.620` | `▓▓▓▓▓▓▓░░░░░` |
-| **Gobernante** | `0.804` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Rebelde** | `0.372` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.959` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.932` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.563` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sabio** | `0.597` | `▓▓▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.172` | `▓▓░░░░░░░░░░` |
+| **Madre** | `0.916` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Padre** | `0.358` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.456` | `▓▓▓▓▓░░░░░░░` |
+| **Gobernante** | `0.384` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.305` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -91,5051 +91,802 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[adras]] | `-0.46` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
-| [[alcis]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[barea]] | `-0.40` | `▓▓▓░░░░░░░` | Ninguno |
-| [[bron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[brysis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[calix]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[cephalos]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[cimber]] | `-0.03` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
-| [[creon]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[damon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[daphne]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[demos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[desma]] | `+0.25` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
-| [[erytheis]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[feros]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[festus]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
-| [[garan]] | `-0.55` | `▓▓░░░░░░░░` | Ninguno |
-| [[glaukia]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
-| [[hestia]] | `-0.86` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
-| [[hijo_000]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[hijo_001]] | `+0.52` | `▓▓▓▓▓▓▓▓░░` | ⚛️ Entrelazado |
-| [[hijo_002]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
-| [[hijo_003]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[hijo_005]] | `-0.54` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
-| [[iambe]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[isidor]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[jocasta]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[karis]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
-| [[kress]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[lachesis]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
-| [[lykos]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
-| [[meleager]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[myrrha]] | `+0.01` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[nephele]] | `-0.41` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
-| [[neria]] | `-0.62` | `▓▓░░░░░░░░` | Ninguno |
-| [[okaios]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[orion]] | `+0.02` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
-| [[oris]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[phoibos]] | `+0.97` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
-| [[pyrros]] | `-0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[renia]] | `+0.80` | `▓▓▓▓▓▓▓▓▓░` | ⚛️ Entrelazado |
-| [[rhadys]] | `+0.90` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
-| [[rheia]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[selene]] | `-0.28` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
-| [[stenos]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[talos]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[ulax]] | `-0.26` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[uritha]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[velia]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[xeron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[zephyra]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[zoia]] | `+0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[alethea]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[brennus]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[bron]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[brysis]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
+| [[cephalos]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[desma]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[evander]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hakon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[jocasta]] | `-0.14` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[kimon]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[lyris]] | `+0.22` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[lysane]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[medon]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[meleager]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[orion]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[oris]] | `-0.38` | `▓▓▓░░░░░░░` | Ninguno |
+| [[rhadys]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[ristos]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[velia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[vespa]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[xanthos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-*Aún no se registran experiencias oníricas en esta psique.*
+- **Día 494:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- **Día 495:** Soñó con `'luz_oblicua'` (arquetipo `sombra`).
+  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- **Día 496:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- **Día 497:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- **Día 498:** Soñó con `'sombra_que_camina'` (arquetipo `sombra`).
+  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- **Día 499:** Soñó con `'sendero_circular'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- **Día 500:** Soñó con `'horizonte_de_agua'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
 
 ---
 
 ## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
 
-- Día 0: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 1: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
-- Día 1: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
-- Día 1: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 2: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 3: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 4: Intentó manipular a Demos, pero fue descubierto.
-- Día 4: Soñó con 'rio_quieto' (madre). Insight: El madre encuentra paz provisional con la oscuridad.
-- Día 5: Soñó con 'rio_quieto' (madre). Insight: El madre encuentra paz provisional con la oscuridad.
-- Día 6: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 7: Cooperó de forma mutua y armónica con Uritha. Su lazo social se fortaleció.
-- Día 7: Cooperó de forma mutua y armónica con Uritha. Su lazo social se fortaleció.
-- Día 7: Cooperó de forma mutua y armónica con Uritha. Su lazo social se fortaleció.
-- Día 7: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 8: Sufrió explotación y hostilidad de Rheia, cediendo recursos biológicos.
-- Día 8: Sufrió explotación y hostilidad de Rheia, cediendo recursos biológicos.
-- Día 8: Cooperó de forma mutua y armónica con Rheia. Su lazo social se fortaleció.
-- Día 8: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 9: Soñó con 'rio_quieto' (madre). Insight: El madre encuentra paz provisional con la oscuridad.
-- Día 10: Soñó con 'rio_quieto' (madre). Insight: El madre encuentra paz provisional con la oscuridad.
-- Día 11: Se enfrentó en un choque violento y destructivo contra Damon.
-- Día 11: Se enfrentó en un choque violento y destructivo contra Damon.
-- Día 11: Se enfrentó en un choque violento y destructivo contra Damon.
-- Día 11: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 12: Soñó con 'rio_quieto' (madre). Insight: El madre compensa la energía de lo reprimido.
-- Día 13: Soñó con 'rio_quieto' (madre). Insight: El madre encuentra paz provisional con la oscuridad.
-- Día 14: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 15: Cooperó de forma mutua y armónica con Kress. Su lazo social se fortaleció.
-- Día 15: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 16: Cedió ingenuamente ante la manipulación de Isidor.
-- Día 16: Cedió ingenuamente ante la manipulación de Isidor.
-- Día 16: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
-- Día 16: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
-- Día 16: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 17: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 18: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 19: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
-- Día 19: Manipuló con éxito y astucia a Velia para ceder recursos.
-- Día 19: Manipuló con éxito y astucia a Velia para ceder recursos.
-- Día 19: Manipuló con éxito y astucia a Velia para ceder recursos.
-- Día 19: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
-- Día 19: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
-- Día 19: Intentó manipular a Daphne, pero fue descubierto.
-- Día 19: Sufrió explotación y hostilidad de Daphne, cediendo recursos biológicos.
-- Día 19: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 20: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 21: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 22: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 23: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 24: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 25: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 26: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 27: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 28: Se enfrentó en un choque violento y destructivo contra Kress.
-- Día 28: Cedió ingenuamente ante la manipulación de Kress.
-- Día 28: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 29: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 30: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 31: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 32: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 33: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 34: Cooperó de forma mutua y armónica con Meleager. Su lazo social se fortaleció.
-- Día 34: Sufrió explotación y hostilidad de Alcis, cediendo recursos biológicos.
-- Día 34: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 35: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 36: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 37: Cedió ingenuamente ante la manipulación de Okaios.
-- Día 37: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 38: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 39: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 40: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 41: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 42: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 43: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 44: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 45: Cedió ingenuamente ante la manipulación de Adras.
-- Día 45: Cedió ingenuamente ante la manipulación de Adras.
-- Día 45: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
-- Día 45: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 46: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 47: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 48: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 49: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 49: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 50: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 51: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 52: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 53: Cedió ingenuamente ante la manipulación de Creon.
-- Día 53: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 54: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
-- Día 54: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 55: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 56: Intentó manipular a Creon, pero fue descubierto.
-- Día 56: Intentó manipular a Creon, pero fue descubierto.
-- Día 56: Intentó manipular a Creon, pero fue descubierto.
-- Día 56: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus compensa la energía de lo reprimido.
-- Día 56: Intentó manipular a Creon, pero fue descubierto.
-- Día 56: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Intentó manipular a Creon, pero fue descubierto.
-- Día 57: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 58: Manipuló con éxito y astucia a Oris para ceder recursos.
-- Día 58: Cedió ingenuamente ante la manipulación de Oris.
-- Día 58: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 58: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 58: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 58: Soñó con 'centro_del_mundo' (self). Insight: El self compensa la energía de lo reprimido.
-- Día 58: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 58: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
-- Día 59: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 60: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 61: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 62: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 63: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 64: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 65: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 66: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 67: Soñó con 'centro_del_mundo' (self). Insight: El self encuentra paz provisional con la oscuridad.
-- Día 68: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 69: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 70: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 71: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 72: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 73: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 74: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 75: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
-- Día 75: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
-- Día 75: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
-- Día 75: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 76: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 77: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 78: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 79: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 80: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 81: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 82: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 83: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 84: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 85: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 86: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 87: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 87: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 87: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 87: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 87: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 87: Se enfrentó en un choque violento y destructivo contra Xeron.
-- Día 87: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 88: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 88: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 89: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 90: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 91: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 92: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 93: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 94: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 95: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 96: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 97: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 98: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 99: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 100: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 101: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 102: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 103: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 104: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 105: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 106: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 107: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 108: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 109: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 110: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 111: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 112: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 113: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 114: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 115: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 116: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 117: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 118: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 119: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 120: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 121: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 122: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 123: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 124: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 124: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 124: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 124: Detectó y rechazó un intento de manipulación de Phoibos.
-- Día 124: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 125: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 126: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 127: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 128: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 129: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 130: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 131: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 132: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 133: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 134: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 135: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 136: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 137: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 138: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 139: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 140: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 141: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 142: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 143: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 144: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 145: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 145: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 145: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 145: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 145: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 145: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
-- Día 146: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 147: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 148: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 149: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 150: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 151: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 152: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 153: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 154: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 155: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 156: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 157: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 158: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 159: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 160: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 161: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 162: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 163: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 164: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 165: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 166: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 167: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 168: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 169: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 170: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 171: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 172: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 173: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 174: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 175: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 176: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 177: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 178: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 179: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 180: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 181: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 182: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 183: Sufrió explotación y hostilidad de Festus, cediendo recursos biológicos.
-- Día 183: Sufrió explotación y hostilidad de Festus, cediendo recursos biológicos.
-- Día 183: Manipuló con éxito y astucia a Festus para ceder recursos.
-- Día 183: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 184: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 185: Sufrió explotación y hostilidad de Festus, cediendo recursos biológicos.
-- Día 185: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 186: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
-- Día 186: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
-- Día 186: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
-- Día 186: Cooperó de forma mutua y armónica con Glaukia. Su lazo social se fortaleció.
-- Día 186: Cooperó de forma mutua y armónica con Glaukia. Su lazo social se fortaleció.
-- Día 186: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 187: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 188: Cooperó de forma mutua y armónica con Festus. Su lazo social se fortaleció.
-- Día 188: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 188: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 189: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Glaukia.
-- Día 189: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Glaukia.
-- Día 189: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 190: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 191: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 192: Cedió ingenuamente ante la manipulación de Glaukia.
-- Día 192: Cedió ingenuamente ante la manipulación de Glaukia.
-- Día 192: Cedió ingenuamente ante la manipulación de Glaukia.
-- Día 192: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 193: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 194: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 195: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 196: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 197: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 198: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 199: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 200: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 201: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 202: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 203: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 204: Sufrió explotación y hostilidad de Creon, cediendo recursos biológicos.
-- Día 204: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 205: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 206: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 207: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 208: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 209: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 210: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 211: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 212: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 213: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 214: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 215: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 216: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 217: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 218: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 219: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 220: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 221: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 222: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 223: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 224: Cedió ingenuamente ante la manipulación de Zephyra.
-- Día 224: Cedió ingenuamente ante la manipulación de Zephyra.
-- Día 224: Manipuló con éxito y astucia a Zephyra para ceder recursos.
-- Día 224: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 225: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 226: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 227: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 228: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 229: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 230: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 231: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 232: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 233: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 234: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 235: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 236: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 237: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 238: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 239: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 240: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 241: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 242: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 243: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 244: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 245: Sufrió explotación y hostilidad de Iambe, cediendo recursos biológicos.
-- Día 245: Sufrió explotación y hostilidad de Iambe, cediendo recursos biológicos.
-- Día 245: Sufrió explotación y hostilidad de Iambe, cediendo recursos biológicos.
-- Día 245: Cooperó de forma mutua y armónica con Iambe. Su lazo social se fortaleció.
-- Día 245: Cooperó de forma mutua y armónica con Iambe. Su lazo social se fortaleció.
-- Día 245: Cooperó de forma mutua y armónica con Iambe. Su lazo social se fortaleció.
-- Día 245: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 246: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 247: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 248: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 249: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 250: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 251: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 252: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 253: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 254: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 255: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 256: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 257: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 258: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Pyrros.
-- Día 258: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 259: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 260: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 261: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 262: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 263: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 264: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 265: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 266: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 267: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 268: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 269: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 270: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 271: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 272: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 273: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 274: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 275: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 276: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 277: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 278: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 279: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 280: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 281: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 282: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 283: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 284: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 285: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 286: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 287: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
-- Día 287: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 288: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 289: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 290: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 291: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 292: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 293: Detectó y rechazó un intento de manipulación de Zoia.
-- Día 293: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 294: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 295: Cooperó de forma mutua y armónica con Zoia. Su lazo social se fortaleció.
-- Día 295: Cooperó de forma mutua y armónica con Zoia. Su lazo social se fortaleció.
-- Día 295: Cooperó de forma mutua y armónica con Zoia. Su lazo social se fortaleció.
-- Día 295: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 296: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 297: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 298: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 299: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 300: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 301: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 302: Cooperó de forma mutua y armónica con Bron. Su lazo social se fortaleció.
-- Día 302: Cooperó de forma mutua y armónica con Bron. Su lazo social se fortaleció.
-- Día 302: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 303: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 304: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 305: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 306: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 307: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 308: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 309: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 310: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 311: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 312: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 313: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 314: Cedió ingenuamente ante la manipulación de Oris.
-- Día 314: Cedió ingenuamente ante la manipulación de Oris.
-- Día 314: Cedió ingenuamente ante la manipulación de Oris.
-- Día 314: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 315: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 316: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 317: Sufrió explotación y hostilidad de Karis, cediendo recursos biológicos.
-- Día 317: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 318: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 319: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 320: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 321: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 322: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 323: Sufrió explotación y hostilidad de Myrrha, cediendo recursos biológicos.
-- Día 323: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 324: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 325: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 326: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 327: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 328: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 329: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 330: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 331: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 332: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 333: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 334: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 335: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 336: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 337: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 338: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 339: Se enfrentó en un choque violento y destructivo contra Oris.
-- Día 339: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 340: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 341: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 342: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 343: Se enfrentó en un choque violento y destructivo contra Damon.
-- Día 343: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 344: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 345: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 346: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 347: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 348: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 349: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 350: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 351: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 352: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 353: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 354: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 355: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 356: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 357: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 358: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 359: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 360: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 361: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 362: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 363: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 364: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 365: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 366: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 367: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 368: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 369: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 370: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 371: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 372: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 373: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 374: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 375: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 376: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 377: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 378: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 379: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 380: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
-- Día 380: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
-- Día 380: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 381: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 382: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 383: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 384: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 385: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 386: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 387: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 388: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 389: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 390: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 391: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 392: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 393: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 394: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 395: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 396: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 397: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 398: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 399: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 400: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 401: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 402: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 403: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 404: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 405: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 406: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 407: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 408: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 409: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 410: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 411: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 412: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 413: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 414: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 415: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 416: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 417: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 418: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 419: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 420: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 421: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 422: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 423: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 424: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 425: Manipuló con éxito y astucia a Selene para ceder recursos.
-- Día 425: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 426: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 427: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 428: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 429: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 430: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 431: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 432: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 433: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 434: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 435: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 436: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 437: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 438: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 439: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 440: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 441: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 442: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 443: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 444: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 445: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 446: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 447: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 448: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 449: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 450: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 451: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 452: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 453: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 454: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 455: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 456: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 457: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 458: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 459: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 460: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 461: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 462: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 463: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 464: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 465: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 466: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 467: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 468: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 469: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 470: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 471: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 472: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 473: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 474: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 475: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 476: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 477: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 478: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 479: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 480: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 481: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 482: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 483: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 484: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 485: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 486: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 487: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 488: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 489: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 490: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 491: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 492: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 493: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 494: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 495: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 496: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 497: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 498: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 499: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 500: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 501: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 502: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 503: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 504: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 505: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 506: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 507: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 508: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 509: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 510: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 511: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 512: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 513: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 514: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 515: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 516: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 517: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 518: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 519: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 520: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 521: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 522: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 523: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 524: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 525: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 526: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 527: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 528: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 529: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 530: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 531: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 532: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 533: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 534: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 535: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 536: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 537: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 538: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 539: Detectó y rechazó un intento de manipulación de Erytheis.
-- Día 539: Detectó y rechazó un intento de manipulación de Erytheis.
-- Día 539: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 540: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 541: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 542: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 543: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 544: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 545: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 546: Se enfrentó en un choque violento y destructivo contra Cimber.
-- Día 546: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 546: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 546: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 546: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 546: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 546: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 547: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 548: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 549: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 550: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 551: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 552: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 553: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 554: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 555: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 556: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 557: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 558: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 559: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 560: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 561: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 562: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 563: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 564: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 565: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 566: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 567: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 568: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 569: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 570: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 571: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 572: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 573: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 574: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 575: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 576: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 577: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 578: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 579: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 580: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Bron.
-- Día 580: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Bron.
-- Día 580: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Bron.
-- Día 580: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 581: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 582: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 583: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 584: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 585: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 586: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 587: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 588: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 589: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 590: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 591: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 592: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 593: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 594: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 595: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 596: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 597: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 598: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 599: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 600: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 601: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 602: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 603: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 604: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 605: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 606: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 607: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 608: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 609: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 610: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 611: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 612: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 613: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 614: Cedió ingenuamente ante la manipulación de Euphrosyne.
-- Día 614: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 615: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 616: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 617: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 618: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 619: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 620: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 621: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 622: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 623: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 624: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 625: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 626: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 627: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 628: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 629: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 630: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 631: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 632: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 633: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 634: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 635: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 636: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 637: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 638: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 639: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 640: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 641: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 642: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 643: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 644: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 645: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 646: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 647: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 648: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 649: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 650: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 651: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 652: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 653: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 654: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 655: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 656: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 657: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 658: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 659: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 660: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 661: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 662: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 663: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 664: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 665: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 666: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 667: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 668: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 669: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 670: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 671: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 672: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 673: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 674: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 675: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 676: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 677: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 678: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 678: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 679: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 680: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 681: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 682: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 683: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 684: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 685: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 686: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 687: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 688: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 688: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 688: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 688: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 689: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 690: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 691: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 692: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 693: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 694: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 695: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 696: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 697: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 698: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 699: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 700: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 701: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 702: Cooperó de forma mutua y armónica con Feros. Su lazo social se fortaleció.
-- Día 702: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 703: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 704: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 705: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 706: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 707: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 708: Cooperó de forma mutua y armónica con Garan. Su lazo social se fortaleció.
-- Día 708: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 709: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 710: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 711: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 712: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 713: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 714: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 715: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 716: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 717: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 718: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 719: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 720: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 721: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 722: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 723: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 724: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 725: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 726: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 727: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 728: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 729: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 730: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 731: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 732: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 733: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 734: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 735: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 736: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 737: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 738: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 739: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 740: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 741: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 742: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 743: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 744: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 745: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 746: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 747: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 748: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 749: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 750: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 751: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 752: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 753: Manipuló con éxito y astucia a Nephele para ceder recursos.
-- Día 753: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 753: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 754: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 755: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 756: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 757: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 758: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 759: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 760: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 761: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 762: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 763: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 764: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 765: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 766: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 767: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 768: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 769: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 770: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 771: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 772: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 773: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 774: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 775: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 776: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 777: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 778: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 779: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 780: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 781: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 782: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 783: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 784: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 785: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 786: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 787: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 788: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 789: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 790: Manipuló con éxito y astucia a Nephele para ceder recursos.
-- Día 790: Manipuló con éxito y astucia a Nephele para ceder recursos.
-- Día 790: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 790: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 790: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 790: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 790: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 791: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 792: Cedió ingenuamente ante la manipulación de Nephele.
-- Día 792: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 792: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 792: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 792: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 792: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 792: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 792: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
-- Día 793: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 794: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 795: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 796: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 797: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 798: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 799: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 800: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 801: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 802: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 803: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 804: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 805: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 806: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 807: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 808: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 809: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 810: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 811: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 812: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 813: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 814: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 815: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 816: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 817: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 818: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 819: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 820: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 821: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 822: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 823: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 824: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 825: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 826: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 827: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 828: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 829: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 830: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 831: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 832: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 833: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 834: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 835: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 836: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 837: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 838: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 839: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 840: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 841: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 842: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 843: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 844: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 845: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 846: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 847: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 848: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 849: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 850: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 851: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 852: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 853: Cooperó de forma mutua y armónica con Ulax. Su lazo social se fortaleció.
-- Día 853: Manipuló con éxito y astucia a Ulax para ceder recursos.
-- Día 853: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 854: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 855: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 856: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 857: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 858: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 859: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 860: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 861: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 862: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 863: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 864: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 865: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 866: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 867: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 868: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 869: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 870: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 871: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 872: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 873: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 874: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 875: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 876: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 877: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 878: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 879: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 880: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 881: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 882: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 883: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 884: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 885: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 886: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 886: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 886: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 886: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 887: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 888: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 889: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 890: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 891: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 892: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 893: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 894: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 895: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 896: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 897: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 898: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 899: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 900: Cedió ingenuamente ante la manipulación de Demos.
-- Día 900: Cedió ingenuamente ante la manipulación de Demos.
-- Día 900: Cedió ingenuamente ante la manipulación de Demos.
-- Día 900: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 900: Cedió ingenuamente ante la manipulación de Demos.
-- Día 900: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Cedió ingenuamente ante la manipulación de Demos.
-- Día 901: Se impuso competitivamente ante Demos, absorbiendo sus recursos biológicos.
-- Día 901: Se impuso competitivamente ante Demos, absorbiendo sus recursos biológicos.
-- Día 901: Se impuso competitivamente ante Demos, absorbiendo sus recursos biológicos.
-- Día 901: Se impuso competitivamente ante Demos, absorbiendo sus recursos biológicos.
-- Día 901: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 902: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 903: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 904: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 905: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 906: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 907: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 908: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 908: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 908: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 908: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 908: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 908: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 909: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 910: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 911: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 912: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 913: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 914: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 915: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 916: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 917: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 918: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 919: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 920: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 921: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 922: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 923: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 924: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 925: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 926: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 927: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 928: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
-- Día 928: Sufrió explotación y hostilidad de Renia, cediendo recursos biológicos.
-- Día 928: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 929: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 930: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 931: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 932: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 932: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 932: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 932: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 932: Sufrió explotación y hostilidad de Demos, cediendo recursos biológicos.
-- Día 932: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 933: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 934: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 935: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 936: Manipuló con éxito y astucia a Feros para ceder recursos.
-- Día 936: Manipuló con éxito y astucia a Feros para ceder recursos.
-- Día 936: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 937: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 938: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 939: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 940: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 941: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 942: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 943: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 944: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 945: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 946: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 947: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 948: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 949: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 950: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 951: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 952: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 953: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 954: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 955: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 956: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 957: Sufrió explotación y hostilidad de Ulax, cediendo recursos biológicos.
-- Día 957: Sufrió explotación y hostilidad de Ulax, cediendo recursos biológicos.
-- Día 957: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 958: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 959: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 960: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 961: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 962: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 963: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 964: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 965: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 966: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 967: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 968: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 969: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 970: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 971: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 972: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 973: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 974: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 975: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 976: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 977: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 978: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 979: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 980: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 981: Cooperó de forma mutua y armónica con Rheia. Su lazo social se fortaleció.
-- Día 981: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 982: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 983: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 984: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 985: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 986: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 987: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 988: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 989: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 990: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 991: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 992: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 993: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 994: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 995: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 996: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 997: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 998: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 999: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1000: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1001: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1002: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1003: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1004: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1005: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1006: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1007: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1008: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1009: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1010: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1011: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1012: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1013: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1014: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1015: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1016: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1017: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1017: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1017: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1017: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1018: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1019: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1020: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1021: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1022: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1023: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1024: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1025: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1026: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1027: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1028: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1029: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1030: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1031: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1032: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1033: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1034: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1035: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1036: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1037: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1038: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1039: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1040: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1041: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1042: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1043: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1044: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1045: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1046: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1047: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1048: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1049: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1050: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1051: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1052: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1053: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1054: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1055: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1056: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1057: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 1057: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1058: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1059: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1060: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1061: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1062: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1063: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1064: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1065: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1066: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1067: Cedió ingenuamente ante la manipulación de Chloris.
-- Día 1067: Cedió ingenuamente ante la manipulación de Chloris.
-- Día 1067: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1068: Cedió ingenuamente ante la manipulación de Chloris.
-- Día 1068: Cedió ingenuamente ante la manipulación de Chloris.
-- Día 1068: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
-- Día 1068: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1069: Manipuló con éxito y astucia a Chloris para ceder recursos.
-- Día 1069: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1069: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1069: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1069: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1069: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1069: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Se enfrentó en un choque violento y destructivo contra Chloris.
-- Día 1070: Detectó y rechazó un intento de manipulación de Nephele.
-- Día 1070: Detectó y rechazó un intento de manipulación de Nephele.
-- Día 1070: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1071: Detectó y rechazó un intento de manipulación de Nephele.
-- Día 1071: Detectó y rechazó un intento de manipulación de Nephele.
-- Día 1071: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1072: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1073: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1074: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1075: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1076: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1077: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1078: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1079: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1080: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1081: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1082: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1083: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1084: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1085: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1086: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1087: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1088: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1089: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1090: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1091: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1092: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1093: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1094: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1095: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1096: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1097: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1098: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1099: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1100: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1101: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1102: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1103: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1104: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1105: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1106: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1107: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1108: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1109: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1110: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1111: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1112: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1113: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1114: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1115: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1116: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1117: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1118: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1119: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1120: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1121: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1122: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1123: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1124: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1125: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1126: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1127: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1128: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1129: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1130: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1131: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1132: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1133: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1134: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1135: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1136: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1137: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1138: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1139: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1140: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1141: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1142: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1143: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1144: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1145: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1146: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1147: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1148: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1149: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1150: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1151: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1152: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1153: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1154: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1155: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1156: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1157: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1158: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1159: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1160: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1161: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1162: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1163: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1164: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1165: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1166: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1167: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1168: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1169: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1170: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1171: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1172: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1173: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1174: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1175: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1176: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1177: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1178: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1179: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1180: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1181: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1182: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1183: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1184: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1185: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1186: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1187: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1188: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1189: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1190: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1191: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1192: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1193: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1194: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1195: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1196: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1197: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1198: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1199: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1200: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1201: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1202: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1203: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1204: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1205: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1206: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1207: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1208: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1209: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1210: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1211: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1212: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1213: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1214: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1215: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1216: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1217: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1218: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1219: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1220: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1221: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1222: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1223: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1224: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1225: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1226: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
-- Día 1226: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
-- Día 1226: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1227: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1228: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1229: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1230: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1231: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1232: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1233: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1234: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1235: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1236: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1237: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1238: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1239: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1240: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1241: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1242: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1243: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1244: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1245: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1246: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1247: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1248: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1249: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1250: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1251: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1252: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1253: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1254: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1255: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1256: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1257: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1258: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1259: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1260: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1261: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1262: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1263: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1264: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1265: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1266: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1267: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1268: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1269: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1270: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1271: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1272: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1273: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1274: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1275: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1276: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1277: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1278: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1279: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1280: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1281: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1282: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1283: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1284: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1285: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1286: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1287: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1288: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1289: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1290: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1291: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1292: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1293: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1294: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1295: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1296: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1297: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1298: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1299: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1300: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1301: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1302: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1303: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1304: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1305: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1306: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1307: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1308: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1309: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1310: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1311: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1312: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1313: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1314: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1315: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1316: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1317: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1318: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1319: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1320: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1321: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1322: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1323: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1324: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1325: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1326: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1327: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1328: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1329: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1330: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1331: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1332: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1333: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1334: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1335: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1336: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1337: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1338: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1339: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1340: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1341: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1342: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1343: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1344: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1345: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1346: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1347: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1348: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1348: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1349: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1350: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
-- Día 1350: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
-- Día 1350: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1350: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1350: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1350: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1350: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1350: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1351: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1352: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1353: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1354: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1355: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1356: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1357: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1358: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1359: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1360: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1361: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1362: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1363: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1364: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1365: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1366: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1367: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1368: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1369: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1370: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1371: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1372: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1373: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1374: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1375: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1376: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1377: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
-- Día 1377: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1378: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1379: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1380: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1381: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1382: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1383: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1384: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1385: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1386: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1387: Cedió ingenuamente ante la manipulación de Euphrosyne.
-- Día 1387: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1388: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1389: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1390: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1391: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1392: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1393: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1394: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1395: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1396: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1397: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1398: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1399: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1400: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1401: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1402: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1403: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1404: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1405: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1406: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1407: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1408: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1409: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1410: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1411: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1412: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1413: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1414: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1415: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1416: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1417: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1418: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1419: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1420: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1421: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1422: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1423: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1424: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1425: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1426: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1427: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1428: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1429: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1430: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1431: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1432: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1433: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1434: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1435: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1436: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1437: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1438: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1439: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1440: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1441: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1442: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1443: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1444: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1445: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1446: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1447: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1448: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1449: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1450: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1451: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1452: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1453: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1454: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1455: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1456: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1457: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1458: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1459: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1460: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1461: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1462: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1463: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1464: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1465: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1466: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1467: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1468: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1469: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1470: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1471: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1472: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1473: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1474: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1475: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1476: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1477: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1478: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1479: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1480: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1481: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1481: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1481: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 1481: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1482: Manipuló con éxito y astucia a Nephele para ceder recursos.
-- Día 1482: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1483: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1484: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1485: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1486: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1487: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1488: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1489: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1490: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1491: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1492: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1493: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1494: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1495: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1496: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1497: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1498: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1499: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1500: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1501: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1502: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1503: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1504: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1505: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Nephele.
-- Día 1505: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1506: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1507: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1508: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1509: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1510: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1511: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1512: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1513: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1514: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1515: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1516: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1517: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1518: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1519: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1520: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1521: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1522: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1523: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1524: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1525: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1526: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1527: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1528: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1529: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1530: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1531: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1532: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1533: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1534: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1535: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1536: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1537: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1538: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1539: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1540: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1541: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1542: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1543: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1544: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1545: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1546: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1547: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1548: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1549: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1550: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1551: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1552: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1553: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1554: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1555: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1556: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1557: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1558: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1559: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 1559: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1560: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1561: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1562: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1563: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1564: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1565: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1566: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1567: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1568: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1569: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1570: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1571: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1572: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1573: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1574: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1575: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1576: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1577: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1578: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1579: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1580: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1581: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1582: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1583: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1584: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1585: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1586: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1587: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1588: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1589: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1590: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1591: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1592: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1593: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1594: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1595: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1596: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1597: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1598: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1599: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1600: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1601: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1602: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1603: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1604: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1605: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1606: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1607: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1608: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1609: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1610: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1611: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1612: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1613: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1614: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1615: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1616: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1616: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1616: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1616: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1616: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1616: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1617: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1617: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 1617: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1618: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1619: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1620: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1621: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1622: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1623: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1624: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1625: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1626: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1627: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1628: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1629: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1630: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1631: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1632: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1633: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1634: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1635: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1636: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1637: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1638: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1639: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1640: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1641: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1642: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1643: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1644: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1645: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1646: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1647: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1648: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1649: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1650: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1651: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1652: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1653: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1654: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1655: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1656: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1657: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1658: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1659: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1660: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1661: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1662: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1663: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1664: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1665: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1666: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1667: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1668: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1669: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1670: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1671: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1672: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1673: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1674: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1675: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1676: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1677: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1678: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1679: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1680: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1681: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1682: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1683: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1684: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1685: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1686: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1687: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1688: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1689: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1690: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1691: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1692: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1693: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1694: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1695: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1696: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1697: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1698: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1699: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1700: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1701: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1702: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1703: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1704: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1705: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1706: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1707: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1708: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1709: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1710: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1711: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1712: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1713: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1714: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1715: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1716: Cedió ingenuamente ante la manipulación de Rhadys.
-- Día 1716: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1717: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1718: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1719: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1720: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1721: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1722: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 1722: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 1722: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1723: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
-- Día 1723: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
-- Día 1723: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1724: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1725: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1726: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1727: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1728: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1729: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1730: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1731: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1732: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1733: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1734: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1735: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1736: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1737: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1738: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1739: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1740: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1741: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1742: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1743: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1744: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1745: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1746: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1747: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1748: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1749: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1750: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1751: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1752: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1753: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1754: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1755: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1756: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1757: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1758: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1759: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1760: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1761: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1762: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1763: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1764: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1765: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1766: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1767: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1768: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1769: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1770: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1771: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1772: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1773: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1774: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1775: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1776: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1777: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1778: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1779: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1780: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1781: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1782: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1783: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1784: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1785: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1786: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1787: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1788: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1789: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1790: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1791: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1792: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1793: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1794: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1795: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1796: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1797: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1798: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1799: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1800: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1801: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1802: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1803: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1804: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1805: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1806: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1807: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1808: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1809: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1810: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1811: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1812: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1813: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1814: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1815: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1816: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1817: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1818: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1819: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1820: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1821: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1822: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1823: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1824: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1825: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1826: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1827: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1828: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1829: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1830: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1831: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1832: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1833: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1834: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1835: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1836: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1837: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1838: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1839: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1840: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1841: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1842: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1843: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1844: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1845: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1846: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1847: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1848: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1849: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1850: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1851: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1852: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1853: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1854: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1855: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1856: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1857: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1858: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1859: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1860: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1861: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1862: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1863: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1864: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1865: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1866: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1867: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1868: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1869: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1870: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1871: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1872: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1873: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1874: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1875: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1876: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1877: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1878: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1879: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1880: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1881: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1882: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1883: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1884: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1885: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1886: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1887: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1888: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1889: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1890: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1891: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1892: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1893: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1894: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1895: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1896: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1897: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1898: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1899: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1900: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 1901: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1902: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1903: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1904: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1905: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1906: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1907: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1908: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1909: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1910: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1911: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1912: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1913: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1914: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1915: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1916: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1917: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1918: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1919: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1920: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1921: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1921: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
-- Día 1921: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1922: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1923: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 1923: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 1923: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1924: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1925: Se enfrentó en un choque violento y destructivo contra Orion.
-- Día 1925: Se enfrentó en un choque violento y destructivo contra Orion.
-- Día 1925: Se enfrentó en un choque violento y destructivo contra Orion.
-- Día 1925: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1926: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1927: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1928: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1929: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1930: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1931: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1932: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1933: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1934: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1935: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1936: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1937: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1938: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1939: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1940: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1941: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1942: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1943: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1944: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1945: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1946: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 1947: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1948: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1949: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1950: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1951: Cedió ingenuamente ante la manipulación de Orion.
-- Día 1951: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1952: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1952: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Neria. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1953: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1954: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1955: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1956: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1957: Cedió ingenuamente ante la manipulación de Lykos.
-- Día 1957: Cedió ingenuamente ante la manipulación de Lykos.
-- Día 1957: Cedió ingenuamente ante la manipulación de Lykos.
-- Día 1957: Cedió ingenuamente ante la manipulación de Lykos.
-- Día 1957: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lykos.
-- Día 1957: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lykos.
-- Día 1957: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lykos.
-- Día 1957: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lykos.
-- Día 1957: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1958: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1959: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1960: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1961: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 1961: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 1962: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1963: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1964: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1965: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1966: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 1967: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1968: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1969: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 1969: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1970: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1971: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 1971: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 1971: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 1971: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 1971: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1972: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 1973: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1974: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1975: Sufrió explotación y hostilidad de Lykos, cediendo recursos biológicos.
-- Día 1975: Sufrió explotación y hostilidad de Lykos, cediendo recursos biológicos.
-- Día 1975: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1976: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1977: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1978: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1979: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1980: Intentó manipular a Cephalos, pero fue descubierto.
-- Día 1980: Intentó manipular a Cephalos, pero fue descubierto.
-- Día 1980: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 1981: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1982: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1983: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1984: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1985: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1986: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1987: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1988: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1989: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1990: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1991: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1992: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 1993: Sufrió explotación y hostilidad de Barea, cediendo recursos biológicos.
-- Día 1993: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 1994: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1995: Se enfrentó en un choque violento y destructivo contra Barea.
-- Día 1995: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1996: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1997: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 1998: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 1999: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2000: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2001: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2002: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2003: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2004: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2005: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2006: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2007: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2008: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2009: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2010: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2011: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2012: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2013: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2014: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2015: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2016: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2017: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2018: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2019: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2020: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2021: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2022: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2023: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2024: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2025: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2026: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2027: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2028: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2029: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2030: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2031: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2032: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2033: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2034: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2035: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2036: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2037: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2038: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2039: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2040: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2041: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2042: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2043: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2044: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2045: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2046: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2047: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2048: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2049: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2050: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2051: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2052: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2053: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2054: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2055: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2056: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2057: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2058: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2059: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2060: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2061: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2062: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2063: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2064: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2065: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2066: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2067: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2068: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2069: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2070: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2071: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2072: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2073: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2074: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2075: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2076: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2077: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2078: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2079: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2080: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
-- Día 2080: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2080: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2080: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2080: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2080: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2080: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2081: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2081: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2081: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2082: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2083: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2084: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2085: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2086: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
-- Día 2086: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
-- Día 2086: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2087: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2088: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2089: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2090: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2091: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2092: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2093: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2094: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2095: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2096: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2097: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2098: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2099: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2100: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2101: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2102: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2103: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2104: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2105: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2106: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2107: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2108: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2109: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2110: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2111: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2112: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2113: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2114: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2115: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2115: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2115: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2115: Cedió ingenuamente ante la manipulación de Garan.
-- Día 2115: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2116: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2117: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2118: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2119: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2120: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2121: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2122: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2123: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2124: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2125: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2126: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2127: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2128: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2129: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2130: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2131: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2132: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2133: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2134: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2135: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2136: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2137: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2138: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2139: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2140: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2141: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2142: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2143: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2143: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2144: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2145: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2146: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2147: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2148: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2149: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2150: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2151: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2152: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2153: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2154: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2155: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
-- Día 2155: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
-- Día 2155: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
-- Día 2155: Manipuló con éxito y astucia a Hestia para ceder recursos.
-- Día 2155: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2156: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2157: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2157: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2157: Detectó y rechazó un intento de manipulación de Garan.
-- Día 2157: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2158: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2159: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2160: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2161: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2162: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2163: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2164: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2165: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2166: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2167: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2168: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2169: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2170: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2171: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2172: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2173: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2174: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2175: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2176: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2177: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2178: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2179: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2180: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2181: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2182: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2183: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2184: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2185: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2186: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2187: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2188: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2189: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2190: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2191: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2192: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2193: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2194: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2195: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2196: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2197: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2198: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2199: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2200: Sufrió explotación y hostilidad de Karis, cediendo recursos biológicos.
-- Día 2200: Sufrió explotación y hostilidad de Karis, cediendo recursos biológicos.
-- Día 2200: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2201: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2202: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2203: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2204: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2205: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2206: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2207: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2208: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2209: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2210: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2211: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2212: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2213: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2214: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2215: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2216: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2217: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2218: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2219: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2220: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2221: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2222: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2223: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2224: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2225: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2226: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2227: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2228: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2229: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2230: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2231: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2232: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2233: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2234: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2235: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2236: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2237: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2238: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2239: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2240: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2241: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2242: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2243: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2244: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2245: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2246: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 2246: Cooperó de forma mutua y armónica con Xeron. Su lazo social se fortaleció.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2246: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2246: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Sufrió explotación y hostilidad de Xeron, cediendo recursos biológicos.
-- Día 2247: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2248: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2249: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2250: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2251: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2252: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2253: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2254: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2255: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2256: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2257: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2258: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2259: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2260: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2261: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2262: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2263: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2264: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2265: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2266: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2267: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2268: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2269: Manipuló con éxito y astucia a Lykos para ceder recursos.
-- Día 2269: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2270: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2271: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2272: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2273: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2274: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2275: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2276: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2277: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2278: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2279: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2280: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2281: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2282: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2283: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2284: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2285: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2286: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2287: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2288: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2289: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2290: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2291: Manipuló con éxito y astucia a Lykos para ceder recursos.
-- Día 2291: Manipuló con éxito y astucia a Lykos para ceder recursos.
-- Día 2291: Se enfrentó en un choque violento y destructivo contra Lykos.
-- Día 2291: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2292: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2293: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2294: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2295: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2296: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2297: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2298: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2299: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2300: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2301: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2302: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2303: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2304: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2305: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2306: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2307: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2308: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2309: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2310: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2311: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2312: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2313: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2314: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2315: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2316: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2317: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2318: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2319: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2320: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2321: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2322: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2323: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2324: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2325: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2325: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2325: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2325: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2325: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2325: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Se impuso competitivamente ante Selene, absorbiendo sus recursos biológicos.
-- Día 2326: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2327: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2328: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2329: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2330: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2331: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2332: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2333: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2334: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2335: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2336: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2337: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2338: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2338: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2338: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2338: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2338: Manipuló con éxito y astucia a Chloris para ceder recursos.
-- Día 2338: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2339: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
-- Día 2339: Cooperó de forma mutua y armónica con Chloris. Su lazo social se fortaleció.
-- Día 2339: Cedió ingenuamente ante la manipulación de Chloris.
-- Día 2339: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2340: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2341: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2342: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2343: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2344: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2345: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2346: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2347: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2348: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2349: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2350: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2351: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2352: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2353: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2354: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2355: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2356: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2357: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2358: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2359: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2360: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2361: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2362: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2363: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2364: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2365: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2366: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2367: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2368: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2369: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2370: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2371: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2372: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2373: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2374: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2375: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2376: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2377: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2378: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2379: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2380: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2381: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2382: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2383: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2384: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2385: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2386: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2387: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2388: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2389: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2390: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2391: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2392: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2393: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2394: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2395: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2396: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2397: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2398: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2399: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2400: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2401: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2402: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2403: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2404: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2404: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2404: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2405: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2406: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2407: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2408: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2409: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2410: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2411: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2412: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2413: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2414: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2415: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2416: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2417: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2418: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2419: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2420: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2421: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2422: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2423: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2424: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2425: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2426: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2427: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2428: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2429: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2430: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2431: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2432: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2433: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2434: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2435: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2436: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2437: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2438: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2439: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2440: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2441: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2442: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2443: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2444: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2445: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2446: Se impuso competitivamente ante Oris, absorbiendo sus recursos biológicos.
-- Día 2446: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2447: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2448: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2449: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2450: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2451: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2452: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2453: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2454: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2455: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2456: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2457: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2458: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2459: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2460: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2461: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2462: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2463: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2464: Cooperó de forma mutua y armónica con Orion. Su lazo social se fortaleció.
-- Día 2464: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 2464: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 2464: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2464: Sufrió explotación y hostilidad de Orion, cediendo recursos biológicos.
-- Día 2465: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2466: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2467: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2468: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2469: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2470: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2471: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2472: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2473: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2474: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2475: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2476: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2477: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2478: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2479: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2480: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2481: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2482: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2483: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2484: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2485: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2486: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2487: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2488: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2489: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2490: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2491: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2492: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2493: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2494: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2495: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2496: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2497: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2498: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2499: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2500: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2501: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2502: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2503: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2504: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 2504: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2505: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 2505: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 2505: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2506: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2507: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2508: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2509: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2510: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2511: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2512: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2513: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2514: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2515: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2516: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2517: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2518: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2519: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2520: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2521: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2522: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2523: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2524: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2525: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2526: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2527: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2528: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2529: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2530: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2531: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2532: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2533: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2534: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2535: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2536: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2537: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2538: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2539: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2540: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2541: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2542: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2543: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2544: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2545: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2546: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2547: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2548: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2549: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2550: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2551: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2552: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2553: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2554: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2555: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2556: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2557: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2558: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2559: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2560: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2561: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2562: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2563: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2564: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2565: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2566: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2567: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2568: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2569: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2570: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2571: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2572: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2573: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2574: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2575: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2576: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2577: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2578: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2579: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2580: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2581: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2582: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2583: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2584: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2585: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2586: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2587: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2588: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2589: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Detectó y rechazó un intento de manipulación de Chloris.
-- Día 2590: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2591: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2592: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2593: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2594: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2595: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2596: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2597: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2598: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2599: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2600: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2601: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2602: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2603: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2604: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2605: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2606: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2607: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2608: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2609: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2610: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2611: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2612: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2613: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2614: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2615: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
-- Día 2615: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2616: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2617: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 2617: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 2617: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2618: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2619: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 2619: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2620: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2621: Cedió ingenuamente ante la manipulación de Rhadys.
-- Día 2621: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2622: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2623: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2624: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 2624: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
-- Día 2624: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2625: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2626: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2627: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2628: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2629: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2630: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2631: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2632: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2633: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2634: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2635: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2636: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2637: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2638: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2639: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2640: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2641: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2642: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2643: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2644: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2645: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2646: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2647: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2648: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2649: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2650: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2651: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2652: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2653: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2654: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
-- Día 2654: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
-- Día 2654: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
-- Día 2654: Sufrió explotación y hostilidad de Euphrosyne, cediendo recursos biológicos.
-- Día 2654: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2654: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2654: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2654: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2654: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2654: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2655: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2655: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2656: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2657: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
-- Día 2657: Sufrió explotación y hostilidad de Zephyra, cediendo recursos biológicos.
-- Día 2657: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2658: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2659: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2660: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2661: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2662: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2663: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 2663: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
-- Día 2663: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2664: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2665: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2666: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2667: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2668: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2669: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2670: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2671: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2672: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2673: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2674: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2675: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2676: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2677: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2678: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2679: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2680: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2681: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2682: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2683: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2684: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2685: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2686: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2687: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2688: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2689: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2690: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2691: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2692: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2693: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2694: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2695: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2696: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2697: Cedió ingenuamente ante la manipulación de Meleager.
-- Día 2697: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2698: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2699: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2700: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
-- Día 2700: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2700: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
-- Día 2701: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2702: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2703: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2704: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2705: Intentó manipular a Talos, pero fue descubierto.
-- Día 2705: Intentó manipular a Talos, pero fue descubierto.
-- Día 2705: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2706: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2707: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2708: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2709: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2710: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2711: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2712: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2713: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2714: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2715: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2716: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2717: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2718: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2719: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2720: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2721: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2722: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2723: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2724: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2725: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2726: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2727: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2728: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2729: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2730: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2731: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2732: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2733: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2734: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2735: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2736: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2737: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2738: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2739: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2740: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2741: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2742: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2743: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2744: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2745: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2746: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2747: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2748: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2749: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2750: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2751: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2752: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2753: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2754: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2755: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2756: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2757: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2758: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2759: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2760: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2761: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2762: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2763: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2764: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2765: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2766: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2767: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2768: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2769: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2770: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2771: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2772: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2773: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2774: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2775: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2776: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2777: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2778: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2779: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2780: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2781: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2782: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 2782: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 2782: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 2782: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 2782: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 2782: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2783: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2784: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2785: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2786: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2787: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2788: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2789: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2790: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2791: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2792: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2793: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2794: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2795: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2796: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2797: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2798: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2799: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2800: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2801: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2802: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2803: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2804: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2805: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2806: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2807: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2808: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2809: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2810: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2811: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2812: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2813: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2814: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2815: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2816: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2817: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2818: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2819: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2820: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2821: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2822: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2823: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2824: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2825: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2826: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2827: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2828: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2829: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2830: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2831: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2832: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2833: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2834: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2835: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2836: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2837: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2838: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2839: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2840: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2841: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2842: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2843: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2844: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2845: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2846: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2847: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2848: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2849: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2850: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2851: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2852: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2853: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2854: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2855: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2856: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2857: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2858: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2859: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2860: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2861: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2862: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2863: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2864: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2865: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2866: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2867: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2868: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2869: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2870: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2871: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2872: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2873: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2874: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2875: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2876: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2877: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2878: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2879: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2880: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2881: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2882: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2883: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2884: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2885: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2886: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2887: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2888: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2889: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2890: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2891: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2892: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2893: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2894: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 2895: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2896: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2897: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2898: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2899: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2900: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2901: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2902: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2903: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2904: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2905: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2906: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2907: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2908: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2909: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2910: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2911: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2912: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2913: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2914: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2915: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2916: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2917: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2918: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2919: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2920: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2921: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2922: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2923: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2924: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2925: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2926: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2927: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2928: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2929: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2930: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2931: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2932: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2933: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 2934: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2935: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2936: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2937: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2938: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2939: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2940: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2941: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2942: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2943: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2944: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2945: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2946: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2947: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2948: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2949: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2950: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2951: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2952: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2953: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2954: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2955: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2956: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2957: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2958: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2959: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2960: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2961: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2962: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2963: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2964: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2965: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2966: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2967: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2968: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2969: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 2970: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2971: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2972: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2973: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 2974: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2975: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2976: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2977: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2978: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 2979: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2980: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 2981: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2982: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2983: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2984: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 2985: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2986: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2987: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2988: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2989: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2990: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2991: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2992: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2993: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2994: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 2995: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 2996: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2997: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2998: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 2999: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3000: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3001: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3002: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3003: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3004: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3005: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3006: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3007: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3008: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3009: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3010: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3011: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3012: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3013: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3014: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3015: Se enfrentó en un choque violento y destructivo contra Adrasteia.
-- Día 3015: Se enfrentó en un choque violento y destructivo contra Adrasteia.
-- Día 3015: Se impuso competitivamente ante Adrasteia, absorbiendo sus recursos biológicos.
-- Día 3015: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3016: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3017: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3018: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3019: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3020: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3021: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3022: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3023: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3024: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3025: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3026: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3027: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3028: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3029: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 3029: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 3029: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 3029: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3030: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3031: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3032: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3033: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3034: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3035: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3036: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3037: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3038: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3039: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3040: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3041: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3042: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3043: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3044: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3045: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3046: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3047: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3048: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3049: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3050: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3051: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3052: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3053: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3054: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3055: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3056: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3057: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3058: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3059: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3060: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3061: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3062: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3063: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3064: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3065: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3066: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3067: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3068: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3069: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3070: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3071: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3072: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3073: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3074: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3075: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3076: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3077: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3078: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3079: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3080: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3081: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3082: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3083: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3084: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3085: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3086: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3087: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3088: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3089: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3090: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3091: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3092: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3093: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3094: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3095: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3096: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3097: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3098: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3099: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3100: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3101: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3102: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3103: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3104: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3105: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3106: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3107: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3108: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3109: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3110: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3111: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3112: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3113: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3114: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3115: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3116: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3117: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3118: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3119: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3120: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3121: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3122: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3123: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3124: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3125: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3126: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3127: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3128: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3129: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3130: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3131: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3132: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3133: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3134: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3135: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3136: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3137: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3138: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3139: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3140: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3141: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3142: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3143: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3144: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3145: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3146: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3147: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3148: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3149: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3150: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3151: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3152: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3153: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3154: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3155: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3156: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3157: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3158: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3159: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3160: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3161: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3162: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3163: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3164: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3165: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3166: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3167: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3168: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3169: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3170: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3171: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3172: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3173: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3174: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3175: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3176: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3177: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3178: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3179: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3180: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3181: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3182: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3183: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3184: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3185: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3186: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3187: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3188: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3189: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3190: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3191: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3192: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3193: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3194: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3195: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3196: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3197: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3198: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3199: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3200: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3201: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3202: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3203: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3204: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3205: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3206: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3207: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3208: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3209: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3210: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3211: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3212: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3213: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3214: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3215: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3216: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3217: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3218: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3219: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3220: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3221: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3222: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3223: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3224: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3225: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3226: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3227: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3228: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3229: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3230: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3231: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3232: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3233: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3234: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3235: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3236: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3237: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3238: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3239: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3240: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3241: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3242: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3243: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3244: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3245: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3246: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3247: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3248: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3249: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3250: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3251: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3252: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3253: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3254: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3255: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3256: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3257: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3258: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3259: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3260: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3261: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3262: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3263: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3264: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3265: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3266: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3267: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3268: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3269: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3270: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3271: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3272: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3273: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3274: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3275: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3276: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3277: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3278: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3279: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3280: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3281: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3282: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3283: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3284: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3285: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3286: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3287: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3288: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3289: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3290: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3291: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3292: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3293: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3294: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3295: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3296: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3297: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3298: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3299: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3300: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3301: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3302: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3303: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3304: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3305: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3306: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3307: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3308: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3309: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3310: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3311: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3312: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3313: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3314: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3315: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3316: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3317: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3318: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3319: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3320: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3321: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3322: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3323: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3324: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3325: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3326: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3327: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3328: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3329: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3330: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3331: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3332: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3333: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3334: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3335: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3336: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3337: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3338: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3339: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3340: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3341: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3342: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3343: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3344: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3345: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3346: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3347: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3348: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3349: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3350: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3351: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3352: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3353: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3354: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3355: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3356: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3357: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3358: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3359: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3360: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3361: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3362: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3363: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3364: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3365: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3366: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3367: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3368: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3369: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3370: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3371: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3372: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3373: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3374: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3375: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3376: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3377: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3378: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3379: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3380: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3381: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3382: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3383: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3384: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3385: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3386: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3387: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3388: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3389: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3390: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3391: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3392: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3393: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3394: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3395: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3396: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3397: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3398: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3399: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3400: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3401: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 3402: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 3403: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3404: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3405: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3406: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3407: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 3408: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3409: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3410: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3411: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3412: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3413: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3414: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3415: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3416: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3417: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3418: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3419: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3420: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3421: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3422: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3423: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3424: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3425: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3426: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3427: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3428: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3429: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3430: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3431: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
-- Día 3431: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
-- Día 3431: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
-- Día 3431: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
-- Día 3431: Cooperó de forma mutua y armónica con Desma. Su lazo social se fortaleció.
-- Día 3431: Cedió ingenuamente ante la manipulación de Desma.
-- Día 3431: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3432: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3433: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3434: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3435: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3436: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3437: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3438: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3439: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3440: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3441: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3442: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3443: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3444: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3445: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3446: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3447: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3448: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3449: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3450: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3451: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3452: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3453: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3454: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3455: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3456: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3457: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3458: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3459: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3460: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3461: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3462: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3463: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3464: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3465: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3466: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3467: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3468: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3469: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3470: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3471: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3472: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3473: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3474: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3475: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3476: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3477: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3478: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3479: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3480: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3481: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3482: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3483: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3484: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3485: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3486: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3487: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3488: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3489: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3490: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3491: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3492: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3493: Detectó y rechazó un intento de manipulación de Desma.
-- Día 3493: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3494: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3495: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3496: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3497: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3498: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3499: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3500: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3501: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3502: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3503: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3504: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3505: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3506: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3507: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3508: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3509: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3510: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3511: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3512: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3513: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3514: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3515: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3516: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3517: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3518: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3519: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3520: Se impuso competitivamente ante Cimber, absorbiendo sus recursos biológicos.
-- Día 3520: Se enfrentó en un choque violento y destructivo contra Cimber.
-- Día 3520: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3520: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3520: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3520: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3520: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3520: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Sufrió explotación y hostilidad de Cimber, cediendo recursos biológicos.
-- Día 3521: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3522: Se enfrentó en un choque violento y destructivo contra Cimber.
-- Día 3522: Detectó y rechazó un intento de manipulación de Cimber.
-- Día 3522: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3522: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3522: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3522: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3522: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3522: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Cooperó de forma mutua y armónica con Cimber. Su lazo social se fortaleció.
-- Día 3523: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3524: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3525: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3526: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3527: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3528: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3529: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3530: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3531: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3532: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3533: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3534: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3535: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3536: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3537: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3538: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3539: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3540: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3541: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3542: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3543: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3544: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3545: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3546: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3547: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3548: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3549: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3550: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3551: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3552: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3553: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3554: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3555: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3556: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3557: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3558: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3559: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3560: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3561: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3562: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3562: Cooperó de forma mutua y armónica con Jocasta. Su lazo social se fortaleció.
-- Día 3563: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3564: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3565: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3566: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3567: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3568: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3569: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3570: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3571: Se impuso competitivamente ante Cimber, absorbiendo sus recursos biológicos.
-- Día 3571: Se impuso competitivamente ante Cimber, absorbiendo sus recursos biológicos.
-- Día 3571: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3572: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3573: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3574: Cedió ingenuamente ante la manipulación de Jocasta.
-- Día 3574: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3575: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3576: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3577: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3578: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3579: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3580: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3581: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3582: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3583: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3584: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3585: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3586: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3587: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3588: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3589: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3590: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3591: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3592: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3593: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3594: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3595: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3596: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3597: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3598: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3599: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3600: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3601: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3602: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3603: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3604: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3605: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3606: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3607: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3608: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3609: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3610: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3611: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3612: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3613: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3614: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3615: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3616: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3617: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3618: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3619: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3620: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3621: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3622: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3623: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3624: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3625: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3626: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3627: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3628: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3629: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3630: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3631: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3632: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3633: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3634: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3635: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3636: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3637: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3638: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3639: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3640: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3641: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3642: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3643: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3644: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3645: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3646: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3647: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3648: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3649: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3650: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3651: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3652: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3653: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3654: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3655: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3656: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3657: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3658: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3659: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3660: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3661: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3662: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3663: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3664: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3665: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3666: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3667: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3668: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3669: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3670: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3671: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3672: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3673: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3674: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3675: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3676: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3677: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3678: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3679: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3680: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3681: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3682: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3683: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3684: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3685: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3686: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3687: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3688: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3689: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3690: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3691: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3692: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3693: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3694: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3695: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3696: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3697: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3698: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3699: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3700: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3701: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3702: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3703: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3704: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3705: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3706: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3707: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3708: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3709: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3710: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3711: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3712: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3713: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3714: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3715: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3716: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3717: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3718: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3719: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3720: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3721: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3722: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3723: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3724: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 3724: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 3724: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3725: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3726: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3727: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3728: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3729: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3730: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3731: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3732: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3733: Detectó y rechazó un intento de manipulación de Cimber.
-- Día 3733: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3733: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3733: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3733: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3733: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3733: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3734: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3734: Cedió ingenuamente ante la manipulación de Cimber.
-- Día 3734: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3735: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3736: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3737: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3738: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3739: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3740: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3741: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3742: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3743: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3744: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3745: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3746: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3747: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3748: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3749: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3750: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3751: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3752: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3753: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3754: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3755: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3756: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3757: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3758: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3759: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3760: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3761: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3762: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3763: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3764: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3765: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3766: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3767: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3768: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3769: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3770: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3771: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3772: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3773: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3774: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3775: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3776: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3777: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3778: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3779: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3780: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3781: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3782: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3783: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3784: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3785: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3786: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3787: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3788: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3789: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3790: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3791: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3792: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3793: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3794: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3795: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3796: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3797: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3798: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3799: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 3800: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3801: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3802: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3803: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3804: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3805: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3806: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3807: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3808: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Se enfrentó en un choque violento y destructivo contra Bron.
-- Día 3809: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3810: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3811: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3812: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3813: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3814: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3815: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3816: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3817: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3818: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3819: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3820: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3821: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3822: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3823: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3824: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3825: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3826: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3827: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3828: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3829: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3830: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3831: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3832: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3833: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3834: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3835: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3836: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3837: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3838: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3839: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3840: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3841: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3842: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3843: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3844: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3845: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3846: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3847: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3848: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3849: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3850: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3851: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3852: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3853: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3854: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3855: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3856: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3857: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3858: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 3859: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3860: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3861: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3862: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3863: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3864: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3865: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3866: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3867: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3868: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3869: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3870: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3871: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3872: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3873: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3874: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3875: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3876: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3877: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 3877: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3878: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3879: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3880: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3881: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3882: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3883: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3884: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3885: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3886: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3887: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3888: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3889: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3890: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3891: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3892: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3893: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3894: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3895: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3896: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3897: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3898: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3899: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3900: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3901: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3902: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3903: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3904: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3905: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3906: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3907: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3908: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3909: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3910: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3911: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3912: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3913: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3914: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3915: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3916: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3917: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3918: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3919: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3920: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3921: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3922: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3923: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3924: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3925: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3926: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3927: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3928: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3929: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3930: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3931: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3932: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3933: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3934: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3935: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3936: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 3936: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3937: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3938: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 3939: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3940: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3941: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3942: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3943: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3944: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3945: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3946: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3947: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3948: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3949: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3950: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3951: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3952: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
-- Día 3952: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
-- Día 3952: Manipuló con éxito y astucia a Hestia para ceder recursos.
-- Día 3952: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3953: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3954: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3955: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3956: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3957: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 3958: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3959: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3960: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3961: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3962: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3963: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3964: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 3965: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3966: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3967: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3968: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3969: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3970: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3971: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3972: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3973: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3974: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3975: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3976: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3977: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3978: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3979: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3980: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3981: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3982: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3983: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3984: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3985: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3986: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3987: Se impuso competitivamente ante Adrasteia, absorbiendo sus recursos biológicos.
-- Día 3987: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3988: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 3989: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3990: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3991: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 3992: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3993: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3994: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3995: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3996: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 3997: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 3998: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 3999: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4000: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4001: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4002: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4003: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4004: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4005: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4006: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4007: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4008: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4009: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4010: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 4010: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 4010: Cooperó de forma mutua y armónica con Adrasteia. Su lazo social se fortaleció.
-- Día 4010: Cedió ingenuamente ante la manipulación de Adrasteia.
-- Día 4010: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4010: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4010: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4010: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4010: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4010: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Sufrió explotación y hostilidad de Adrasteia, cediendo recursos biológicos.
-- Día 4011: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4012: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4013: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4014: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4015: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4016: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4017: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4018: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4019: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4020: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4021: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4022: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4023: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4024: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4025: Sufrió explotación y hostilidad de Bia, cediendo recursos biológicos.
-- Día 4025: Sufrió explotación y hostilidad de Bia, cediendo recursos biológicos.
-- Día 4025: Sufrió explotación y hostilidad de Bia, cediendo recursos biológicos.
-- Día 4025: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4026: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4027: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4028: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4029: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4030: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4031: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4032: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4033: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4034: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4035: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4036: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4037: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 4038: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 4039: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 4040: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4041: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4042: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: La tensión del anima_animus se intensifica; algo presiona desde abajo.
-- Día 4043: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 4044: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4045: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4046: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4047: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4048: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4049: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4050: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4051: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
-- Día 4051: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4052: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4053: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4054: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4055: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4056: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta su sombra hacia afuera.
-- Día 4057: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4058: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4059: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4060: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4061: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4062: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4063: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4064: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4065: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4066: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4067: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4068: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4069: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4070: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4071: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4072: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4073: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4074: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4075: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4076: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4077: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4078: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4079: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4080: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4081: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4082: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4083: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4084: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4085: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4086: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4087: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4088: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4089: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4090: Se enfrentó en un choque violento y destructivo contra Euphrosyne.
-- Día 4090: Se enfrentó en un choque violento y destructivo contra Euphrosyne.
-- Día 4090: Cedió ingenuamente ante la manipulación de Euphrosyne.
-- Día 4090: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4091: Cedió ingenuamente ante la manipulación de Neria.
-- Día 4091: Cedió ingenuamente ante la manipulación de Neria.
-- Día 4091: Cedió ingenuamente ante la manipulación de Neria.
-- Día 4091: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4092: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4093: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4094: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4095: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4096: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4097: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4098: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4099: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4100: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4101: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4102: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4103: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4104: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4105: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4106: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4107: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4108: Cedió ingenuamente ante la manipulación de Morpheus.
-- Día 4108: Se impuso competitivamente ante Morpheus, absorbiendo sus recursos biológicos.
-- Día 4108: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4109: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4110: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4111: Sufrió explotación y hostilidad de Morpheus, cediendo recursos biológicos.
-- Día 4111: Sufrió explotación y hostilidad de Morpheus, cediendo recursos biológicos.
-- Día 4111: Sufrió explotación y hostilidad de Morpheus, cediendo recursos biológicos.
-- Día 4111: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4112: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4113: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4114: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4115: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4116: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4116: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4116: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4116: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4116: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Myrrha.
-- Día 4116: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4117: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4118: Cooperó de forma mutua y armónica con Morpheus. Su lazo social se fortaleció.
-- Día 4118: Se enfrentó en un choque violento y destructivo contra Morpheus.
-- Día 4118: Se enfrentó en un choque violento y destructivo contra Morpheus.
-- Día 4118: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4119: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4119: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4119: Cooperó de forma mutua y armónica con Euphrosyne. Su lazo social se fortaleció.
-- Día 4119: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4120: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4121: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4122: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4123: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4124: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4125: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 4125: Intentó manipular a Neria, pero fue descubierto.
-- Día 4125: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4126: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
-- Día 4126: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4127: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4128: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4129: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4130: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4131: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4132: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4133: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4134: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4135: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4136: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4137: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4138: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4139: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4140: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4141: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4142: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4143: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4144: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4145: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4146: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4147: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4148: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4149: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4150: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4151: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4152: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4153: Cedió ingenuamente ante la manipulación de Myrrha.
-- Día 4153: Cedió ingenuamente ante la manipulación de Myrrha.
-- Día 4153: Cedió ingenuamente ante la manipulación de Myrrha.
-- Día 4153: Cedió ingenuamente ante la manipulación de Myrrha.
-- Día 4153: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4154: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4155: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4156: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4157: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4158: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4159: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4160: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4161: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4162: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4163: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4164: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4165: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4166: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4167: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4168: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4169: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4170: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4171: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4172: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4173: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4174: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4175: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4176: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4177: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4178: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4179: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4180: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4181: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4182: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4183: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4184: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4185: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4186: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4187: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4188: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4189: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4190: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4191: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4192: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4193: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4194: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4195: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4196: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4197: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4198: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4199: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4200: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4201: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4202: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4203: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4204: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4205: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4206: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4207: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4208: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4209: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4210: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4211: Se impuso competitivamente ante Euphrosyne, absorbiendo sus recursos biológicos.
-- Día 4211: Se impuso competitivamente ante Euphrosyne, absorbiendo sus recursos biológicos.
-- Día 4211: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4212: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4213: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4214: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4215: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4216: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4217: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4218: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4219: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4220: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4221: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4222: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4223: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4224: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4225: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4226: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4227: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4228: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4229: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4230: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4231: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4232: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4233: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4234: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4235: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4236: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4237: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4238: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4239: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4240: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4241: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4242: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4243: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4244: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4245: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4246: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4247: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4248: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4249: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4250: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4251: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4252: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4253: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4254: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4255: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4256: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4257: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4258: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4259: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4260: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4261: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4262: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4263: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4264: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4265: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4266: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4267: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4268: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4269: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4270: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4271: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4272: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4273: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4274: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4275: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4276: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4277: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4278: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4279: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4280: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4281: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4282: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4283: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4284: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4285: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4286: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4287: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4288: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4289: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4290: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4291: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4292: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4293: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4294: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4295: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4296: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4297: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4298: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4299: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4300: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4301: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4302: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4303: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4304: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4305: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4306: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4307: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4308: Soñó con 'montaña' (heroe). Insight: La tensión del heroe se intensifica; algo presiona desde abajo.
-- Día 4309: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4310: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4311: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4312: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4313: Soñó con 'rio_quieto' (madre). Insight: La tensión del madre se intensifica; algo presiona desde abajo.
-- Día 4314: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4315: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4316: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4317: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4318: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4319: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4320: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4321: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4322: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4323: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4324: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4325: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4326: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4327: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4328: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4329: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4330: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4331: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4332: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4333: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4334: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4335: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4336: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4337: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4338: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4339: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4340: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4341: Soñó con 'montaña' (heroe). Insight: El heroe proyecta su sombra hacia afuera.
-- Día 4342: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4343: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4344: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4345: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4346: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4347: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4348: Soñó con 'estrella_lejana' (sabio). Insight: La tensión del sabio se intensifica; algo presiona desde abajo.
-- Día 4349: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4350: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4351: Soñó con 'estrella_lejana' (sabio). Insight: El sabio proyecta su sombra hacia afuera.
-- Día 4352: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4353: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4354: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4355: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4356: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4357: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4358: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4359: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4360: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4361: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4362: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4363: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4364: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4365: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4366: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4367: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4368: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4369: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4370: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4371: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4372: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4373: Soñó con 'rio_quieto' (madre). Insight: El madre proyecta su sombra hacia afuera.
-- Día 4374: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4375: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4376: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4377: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4378: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4379: Soñó con 'centro_del_mundo' (self). Insight: La tensión del self se intensifica; algo presiona desde abajo.
-- Día 4380: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4381: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4382: Soñó con 'centro_del_mundo' (self). Insight: El self proyecta su sombra hacia afuera.
-- Día 4383: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4384: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4385: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4386: Intentó manipular a Meleager, pero fue descubierto.
-- Día 4386: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4387: Soñó con 'figura_oscura' (sombra). Insight: El sombra proyecta su sombra hacia afuera.
-- Día 4388: Soñó con 'figura_oscura' (sombra). Insight: La tensión del sombra se intensifica; algo presiona desde abajo.
-- Día 4389: Falleció a causa de vejez.
+- Día 0: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
+- Día 1: Soñó con 'campo_interminable' (madre). Insight: El madre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 2: Soñó con 'nido_que_asfixia' (madre). Insight: El madre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 3: Soñó con 'manada_que_huye' (madre). Insight: En sabana abierta, el madre encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
+- Día 5: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
+- Día 6: Soñó con 'río_que_nutre' (madre). Insight: El madre busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 6: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 7: Soñó con 'río_que_nutre' (madre). Insight: En cueva, el madre encuentra tregua provisional con lo reprimido.
+- Día 8: Soñó con 'oscuridad_total' (madre). Insight: El madre busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 8: Cooperó de forma mutua y armónica con Hakon. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Soñó con 'mandala_incompleto' (madre). Insight: El madre busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 9: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 9: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 10: Soñó con 'silencio_pleno' (madre). Insight: El madre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 10: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 11: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, el madre encuentra tregua provisional con lo reprimido.
+- Día 11: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 11: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 11: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 11: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 11: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 11: Cooperó de forma mutua y armónica con Ristos. Su lazo social se fortaleció.
+- Día 12: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre encuentra tregua provisional con lo reprimido.
+- Día 12: Sufrió explotación y hostilidad de Ristos, cediendo recursos biológicos.
+- Día 12: Sufrió explotación y hostilidad de Ristos, cediendo recursos biológicos.
+- Día 12: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 12: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 12: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 12: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 12: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 12: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 12: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 12: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 13: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 14: Soñó con 'marea_que_sube' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 15: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 17: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 18: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 19: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 20: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 21: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 21: Cooperó de forma mutua y armónica con Meleager. Su lazo social se fortaleció.
+- Día 21: Cooperó de forma mutua y armónica con Meleager. Su lazo social se fortaleció.
+- Día 22: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 24: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 27: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 29: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 29: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 31: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 32: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 33: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 33: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 34: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 35: Soñó con 'abundancia_que_pudre' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 36: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 37: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 37: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 37: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 38: Soñó con 'silencio_pleno' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 39: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 40: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 41: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 42: Soñó con 'sed_en_el_agua' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 43: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 44: Soñó con 'centro_sin_lugar' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 45: Soñó con 'unión_imposible' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 46: Soñó con 'hierba_que_corta' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 47: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 48: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 49: Soñó con 'campo_interminable' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 49: Cooperó de forma mutua y armónica con Jocasta. Su lazo social se fortaleció.
+- Día 50: Soñó con 'caída_sin_fondo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 51: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 52: Soñó con 'silencio_pleno' (self). Insight: El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 53: Soñó con 'silencio_pleno' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 54: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de cueva.
+- Día 55: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 56: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 57: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 58: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 59: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 60: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 61: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 62: Soñó con 'unión_imposible' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 63: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 64: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 65: Soñó con 'silencio_pleno' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 66: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 67: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 68: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 69: Soñó con 'silencio_pleno' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 70: Soñó con 'danza_a_solas' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 71: Soñó con 'sendero_circular' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 72: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 73: Soñó con 'danza_a_solas' (anima_animus). Insight: El pantano costero amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 74: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 75: Soñó con 'danza_a_solas' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 76: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 77: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 78: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 78: Cooperó de forma mutua y armónica con Xanthos. Su lazo social se fortaleció.
+- Día 78: Cooperó de forma mutua y armónica con Xanthos. Su lazo social se fortaleció.
+- Día 78: Cooperó de forma mutua y armónica con Xanthos. Su lazo social se fortaleció.
+- Día 78: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 79: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 80: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 81: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 82: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 83: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 84: Soñó con 'sol_que_calcina' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 85: Soñó con 'unión_imposible' (self). Insight: El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 86: Soñó con 'descenso_inevitable' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 87: Soñó con 'unión_imposible' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 88: Soñó con 'centro_sin_lugar' (self). Insight: El cueva amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 89: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 90: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 91: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 92: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 93: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 94: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 95: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 96: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 97: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 98: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 99: Soñó con 'sal_en_herida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 100: Soñó con 'centro_sin_lugar' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 101: Soñó con 'caída_sin_fondo' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 102: Soñó con 'agua_fría' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 103: Soñó con 'campo_interminable' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 104: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 105: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 105: Cedió ingenuamente ante la manipulación de Lysane.
+- Día 106: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 107: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 107: Cooperó de forma mutua y armónica con Kimon. Su lazo social se fortaleció.
+- Día 107: Cooperó de forma mutua y armónica con Kimon. Su lazo social se fortaleció.
+- Día 107: Cooperó de forma mutua y armónica con Kimon. Su lazo social se fortaleció.
+- Día 107: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 108: Soñó con 'espejo_que_miente' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 109: Soñó con 'bifurcación_sin_mapa' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 110: Soñó con 'espejo_que_miente' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 111: Soñó con 'silencio_pleno' (self). Insight: El cueva amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 112: Soñó con 'silencio_pleno' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 113: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de cueva.
+- Día 114: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 115: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 116: Soñó con 'voz_propia_extraña' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 117: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 118: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 119: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 120: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 121: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 122: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 123: Soñó con 'naufragio_lento' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 124: Soñó con 'silencio_pleno' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 125: Soñó con 'profundidad_sin_fondo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 126: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 127: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 128: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 129: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 130: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 131: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 132: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 133: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 134: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 135: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 136: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 137: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 138: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 139: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 140: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 141: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 142: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 143: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 144: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 145: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 146: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 147: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 148: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 149: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 150: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 151: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 152: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 153: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 154: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 155: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 156: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 157: Soñó con 'figura_que_sigue' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 158: Soñó con 'abundancia_que_pudre' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 159: Soñó con 'sed_en_el_agua' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 160: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 161: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 162: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 163: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 164: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 165: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 166: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 167: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 168: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 169: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 170: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 171: Soñó con 'silencio_pleno' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 172: Soñó con 'unión_imposible' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 173: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 174: Soñó con 'centro_sin_lugar' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 175: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 176: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 177: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 178: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 179: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 180: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 181: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 182: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 183: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 184: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 185: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 186: Soñó con 'fruto_amargo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 187: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 188: Soñó con 'ojos_en_la_roca' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 189: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 190: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 191: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 192: Soñó con 'árbol_sin_raíces' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 193: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 194: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 195: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 196: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 197: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 198: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 199: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 200: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 201: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 202: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 203: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 204: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 205: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 206: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 207: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 208: Soñó con 'silencio_absoluto' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 209: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 210: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 211: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 211: Se impuso competitivamente ante Velia, absorbiendo sus recursos biológicos.
+- Día 211: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Soñó con 'sed_en_el_agua' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 215: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 216: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 217: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 218: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 219: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 220: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 221: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 222: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 223: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 224: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 225: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 226: Soñó con 'calor_que_piensa' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 227: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 228: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 229: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 230: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 231: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 232: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 233: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 234: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 235: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 236: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 237: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 238: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 239: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 240: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 241: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 242: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 243: Soñó con 'habitación_prohibida' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 244: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 245: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 246: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 247: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 248: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 249: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 250: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 251: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 252: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 253: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 254: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 255: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 256: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 257: Soñó con 'cima_en_niebla' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Orion.
+- Día 259: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 260: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 261: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 262: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 263: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 264: Soñó con 'salida_inexistente' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 265: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 266: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 266: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 267: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 268: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 269: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 270: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 271: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 272: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 273: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 274: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 275: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 276: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 277: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 278: Soñó con 'voz_propia_extraña' (self). Insight: El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 279: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 280: Soñó con 'vista_engañosa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 281: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 282: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 283: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 284: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 285: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 285: Sufrió explotación y hostilidad de Medon, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Medon, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Medon, cediendo recursos biológicos.
+- Día 286: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 286: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 286: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 286: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 287: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 288: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 289: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 290: Soñó con 'ojos_en_la_roca' (self). Insight: El self proyecta lo reprimido sobre el horizonte de cueva.
+- Día 291: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 292: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 293: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 294: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 295: Soñó con 'manada_que_huye' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 296: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 297: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 298: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 299: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 300: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 301: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 302: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 303: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 304: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 305: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 306: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 307: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 308: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Jocasta.
+- Día 309: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 310: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 311: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 312: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 313: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 314: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 315: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 316: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 317: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 318: Soñó con 'río_tranquilo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 319: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 320: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 321: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 322: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 323: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 324: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 325: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 326: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 327: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 328: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 329: Soñó con 'mandala_incompleto' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 330: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 331: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 332: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 333: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 333: Intentó manipular a Brennus, pero fue descubierto.
+- Día 333: Intentó manipular a Brennus, pero fue descubierto.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 334: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 334: Cooperó de forma mutua y armónica con Brennus. Su lazo social se fortaleció.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Brennus, cediendo recursos biológicos.
+- Día 336: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 337: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 338: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 339: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 340: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 341: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 342: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 343: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 344: Soñó con 'reflejo_distorsionado' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 345: Soñó con 'centro_sin_lugar' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 346: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 347: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 348: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 349: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 350: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 351: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 352: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 352: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 352: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 352: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 353: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 354: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 355: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 356: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 357: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 358: Soñó con 'cima_en_niebla' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 359: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 359: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 359: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 360: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 361: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 361: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 361: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 362: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 363: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 364: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 365: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de cueva.
+- Día 366: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 367: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 368: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 369: Soñó con 'oasis_espejismo' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 370: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 371: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 372: Soñó con 'corriente_que_arrastra' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 373: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 374: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 375: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 376: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 377: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 378: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 379: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 380: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 381: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 382: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 383: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 384: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 385: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 386: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 387: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 388: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 389: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 390: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 391: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 392: Soñó con 'niebla_densa' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 393: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 394: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 395: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 396: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 397: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 398: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 399: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 400: Soñó con 'piedra_que_rueda' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 401: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 402: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 403: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 404: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 405: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 406: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 407: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 408: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 409: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 410: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 411: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 411: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 412: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 413: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 414: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 415: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 415: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 416: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 417: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 418: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 419: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 420: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 421: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 422: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 423: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 424: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 424: Intentó manipular a Xanthos, pero fue descubierto.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Xanthos.
+- Día 424: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 425: Sufrió explotación y hostilidad de Xanthos, cediendo recursos biológicos.
+- Día 425: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 426: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 427: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 428: Soñó con 'salida_inexistente' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 428: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 428: Intentó manipular a Lyris, pero fue descubierto.
+- Día 429: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 430: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 431: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 432: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 433: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 434: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 435: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 436: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 437: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 438: Soñó con 'unión_imposible' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 439: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 440: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 441: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 442: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 443: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 444: Soñó con 'figura_que_sigue' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 445: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 446: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 447: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 448: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 449: Soñó con 'sombra_que_camina' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 449: Intentó manipular a Evander, pero fue descubierto.
+- Día 450: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 450: Manipuló con éxito y astucia a Evander para ceder recursos.
+- Día 450: Manipuló con éxito y astucia a Evander para ceder recursos.
+- Día 450: Manipuló con éxito y astucia a Evander para ceder recursos.
+- Día 451: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 452: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 453: Soñó con 'centro_sin_lugar' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 454: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 455: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 456: Soñó con 'roca_que_aplasta' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 456: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 456: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 457: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 458: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 459: Soñó con 'árbol_sin_raíces' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 460: Soñó con 'mandala_incompleto' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 461: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 462: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 463: Soñó con 'silencio_pleno' (self). Insight: El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 464: Soñó con 'centro_sin_lugar' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 465: Soñó con 'unión_imposible' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 466: Soñó con 'unión_imposible' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 467: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 468: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 469: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 470: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 471: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 472: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 473: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 473: Cooperó de forma mutua y armónica con Alethea. Su lazo social se fortaleció.
+- Día 473: Cooperó de forma mutua y armónica con Alethea. Su lazo social se fortaleció.
+- Día 473: Cooperó de forma mutua y armónica con Alethea. Su lazo social se fortaleció.
+- Día 474: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 475: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 476: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 477: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 478: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 479: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 480: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 481: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 482: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 483: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 484: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 485: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 486: Soñó con 'semilla_negra' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 487: Soñó con 'huesos_propios' (self). Insight: El self proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 488: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 489: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 490: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 491: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 492: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 492: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 492: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 492: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 492: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 492: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 492: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 492: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 493: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 494: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 495: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 495: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 495: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 496: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 496: Cedió ingenuamente ante la manipulación de Bron.
+- Día 497: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 498: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 499: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 500: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.

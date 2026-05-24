@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `209` | **Miembros vivos:** `0`
+> **Día:** `89` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,22 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
+| [[thalia]] (Thalia) | generico | 41 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `1.000` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.941` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.994` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Muerte** | `0.320` | `▓▓▓░░░░░░░` |
-| **Trickster** | `0.316` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.076` | `▓░░░░░░░░░` |
+| **Trickster** | `0.840` | `▓▓▓▓▓▓▓▓░░` |
+| **Sombra** | `0.805` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.075` | `▓░░░░░░░░░` |
 | **Madre** | `0.038` | `░░░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

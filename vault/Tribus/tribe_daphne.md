@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Héroe
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `329` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,23 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[daphne]] (Daphne) | generico | 39 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.515` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.697` `[▓▓▓▓▓▓▓▓░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Madre** | `0.530` | `▓▓▓▓▓░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.696` | `▓▓▓▓▓▓▓░░░` |
+| **Sombra** | `0.598` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.488` | `▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.350` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.305` | `▓▓▓░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `299` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kimon]] (Kimon) | generico | 56 | self |
+| [[nephele]] (Nephele) | explorador | 52 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.589` `[▓▓▓▓▓▓▓░░░░░]`
+> **Presión emocional:** `0.659` `[▓▓▓▓▓▓▓▓░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.681` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.513` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.315` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.257` | `▓▓▓░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.666` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.641` | `▓▓▓▓▓▓░░░░` |
+| **Muerte** | `0.493` | `▓▓▓▓▓░░░░░` |
+| **Madre** | `0.325` | `▓▓▓░░░░░░░` |
+| **Trickster** | `0.180` | `▓▓░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

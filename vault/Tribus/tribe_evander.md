@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `269` | **Miembros vivos:** `2`
+> **Día:** `329` | **Miembros vivos:** `4`
 
 ---
 
@@ -9,23 +9,30 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[evander]] (Evander) | generico | 31 | self |
-| [[jora]] (Jora) | cazador | 43 | self |
+| [[kress]] (Kress) | generico | 43 | anima_animus |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
+| [[zoia]] (Zoia) | guardian | 41 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.070` `[▓░░░░░░░░░░░]`
+> **Presión emocional:** `0.784` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.104` | `▓░░░░░░░░░` |
-| **Sombra** | `0.058` | `▓░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.709` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.273` | `▓▓▓░░░░░░░` |
+| **Muerte** | `0.218` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.097` | `▓░░░░░░░░░` |
+| **Madre** | `0.048` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

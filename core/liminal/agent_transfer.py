@@ -20,6 +20,26 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger("liminal.transfer")
 
+# Ticks de cooldown post-retorno: previene reentrada inmediata al portal
+_RETURN_COOLDOWN_TICKS = 48
+
+# Símbolo de resonancia onírica según el arquetipo dominante del ser encontrado
+_ARCH_RESONANCE: dict[str, str] = {
+    "sabio":        "libro_en_lengua_muerta",
+    "trickster":    "puerta_entre_mundos",
+    "heroe":        "arquetipo_extraño",
+    "sombra":       "ser_sin_nombre_conocido",
+    "madre":        "nido_que_asfixia",
+    "padre":        "ley_grabada_en_carne",
+    "gobernante":   "trono_vacío",
+    "rebelde":      "cadena_rota_en_mano",
+    "nino_divino":  "luz_primera",
+    "anima_animus": "voz_sin_cuerpo",
+    "persona":      "máscara_cosida_a_cara",
+    "self":         "mandala_incompleto",
+}
+_DEFAULT_RESONANCE = "eco_de_otro_mundo"
+
 
 class AgentTransferHandler:
     """
@@ -40,10 +60,13 @@ class AgentTransferHandler:
         self._client = client
         self._in_transit: set[str] = set()   # IDs enviados pero aún sin confirmación
         self._liminal_agents: dict[str, dict] = {}  # agent_id → datos del liminal
+        self._return_cooldown: dict[str, int] = {}  # agent_id → ticks restantes post-retorno
 
     # ── SimulationClock handler ───────────────────────────────────────────────
 
     def on_tick(self, tp: TimePoint) -> None:
+        # Decrementar cooldowns post-retorno; eliminar los expirados
+        self._return_cooldown = {aid: t - 1 for aid, t in self._return_cooldown.items() if t > 1}
         self._check_portal_crossings()
         self._process_server_events()
 
@@ -59,6 +82,8 @@ class AgentTransferHandler:
         for agent in list(self._agents.agents.values()):
             if agent.id in self._in_transit:
                 continue
+            if agent.id in self._return_cooldown:
+                continue   # recién regresó del liminal, no puede re-entrar aún
             if self._portal.agent_at_portal(agent):
                 self._transfer_agent(agent)
 
@@ -136,9 +161,10 @@ class AgentTransferHandler:
                 logger.info(f"[LIMINAL] Nueva simulación conectada: {event.get('sim_id')}")
 
     def _handle_agent_return(self, event: dict) -> None:
-        """El servidor devuelve un agente a esta simulación."""
-        agent_id = event.get("agent_id", "")
-        agent    = self._agents.agents.get(agent_id)
+        """El servidor devuelve un agente a esta simulación con los datos de sus encuentros."""
+        agent_id  = event.get("agent_id", "")
+        encounters = event.get("encounters", [])
+        agent     = self._agents.agents.get(agent_id)
         if agent is None:
             logger.warning(f"Retorno de agente desconocido: {agent_id}")
             return
@@ -146,14 +172,53 @@ class AgentTransferHandler:
         agent.in_liminal = False
         self._liminal_agents.pop(agent_id, None)
 
-        # El agente vuelve al portal para que no aparezca en el vacío
+        # El agente vuelve al portal; cooldown evita reentrada inmediata
         agent.posicion = self._portal.pos
+        self._return_cooldown[agent_id] = _RETURN_COOLDOWN_TICKS
 
-        logger.info(f"Agente '{agent.nombre}' regresó de la Zona Liminal → {agent.posicion}")
+        logger.info(
+            f"Agente '{agent.nombre}' regresó de la Zona Liminal → {agent.posicion} "
+            f"| encuentros: {len(encounters)}"
+        )
 
-        # Opcionalmente: dejar registro en el episodic_log del agente
-        if hasattr(agent, "episodic_log"):
-            agent.episodic_log.append("[LIMINAL] Regresé de la Zona Liminal.")
+        if encounters:
+            self._apply_encounter_effects(agent, encounters)
+        else:
+            if hasattr(agent, "episodic_log"):
+                agent.episodic_log.append(
+                    "[LIMINAL] Regresé de la Zona Liminal. No encontré a nadie del otro mundo."
+                )
+
+    def _apply_encounter_effects(self, agent, encounters: list) -> None:
+        """Aplica sobre el agente los efectos de cada encuentro cross-sim vivido en el liminal."""
+        for enc in encounters:
+            nombre_enc = enc.get("nombre", "desconocido")
+            dom_arch   = enc.get("dominant_archetype", "sombra")
+
+            # 1. Nudge arquetípico: el arquetipo del ser encontrado deja huella
+            arch_attr = "self_" if dom_arch == "self" else dom_arch
+            if hasattr(agent.archetypes, arch_attr):
+                current = getattr(agent.archetypes, arch_attr)
+                setattr(agent.archetypes, arch_attr, min(1.0, current + 0.015))
+
+            # 2. Registro en memoria episódica
+            if hasattr(agent, "episodic_log"):
+                agent.episodic_log.append(
+                    f"[LIMINAL_ENCUENTRO] Crucé el portal y encontré a {nombre_enc} "
+                    f"de otra civilización. Su espíritu portaba el arquetipo {dom_arch}."
+                )
+
+            # 3. Semilla onírica: el primer encuentro tiñe el próximo sueño (peso 6.0)
+            if getattr(agent, "_pending_liminal_encounter", None) is None:
+                agent._pending_liminal_encounter = {
+                    "resonancia":          _ARCH_RESONANCE.get(dom_arch, _DEFAULT_RESONANCE),
+                    "dominant_archetype":  dom_arch,
+                    "nombre":              nombre_enc,
+                }
+
+        # 4. Campo colectivo: la visión de otro mundo genera presión mítica
+        intensity = min(1.0, 0.5 * len(encounters))
+        self._agents.collective_field.absorb_event("vision_liminal", intensity=intensity)
 
     def _handle_agents_meet(self, event: dict) -> None:
         """Dos agentes de distintas sims se encontraron en el liminal."""

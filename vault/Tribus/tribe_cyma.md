@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `479` | **Miembros vivos:** `4`
+> **Día:** `179` | **Miembros vivos:** `8`
 
 ---
 
@@ -8,10 +8,14 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[cyma]] (Cyma) | generico | 54 | sombra |
-| [[imene]] (Imene) | explorador | 61 | self |
-| [[medon]] (Medon) | generico | 50 | sabio |
-| [[ulax]] (Ulax) | generico | 20 | sombra |
+| [[cyma]] (Cyma) | generico | 53 | sombra |
+| [[daphne]] (Daphne) | generico | 39 | self |
+| [[erytheis]] (Erytheis) | recolector | 31 | sombra |
+| [[idris]] (Idris) | generico | 39 | self |
+| [[isidor]] (Isidor) | recolector | 38 | sombra |
+| [[kyron]] (Kyron) | generico | 41 | sombra |
+| [[nausicaa]] (Nausicaa) | generico | 29 | self |
+| [[vespa]] (Vespa) | recolector | 38 | sombra |
 
 ---
 
@@ -22,15 +26,20 @@
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Madre** | `0.903` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.874` | `▓▓▓▓▓▓▓▓▓░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.973` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Muerte** | `0.227` | `▓▓░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
 ## 📜 Mitología Local
 
-- **Heroe vs monstruo** — 🟢 Activo (Día 462)
+> *Ningún mito cristalizado aún en esta tribu.*

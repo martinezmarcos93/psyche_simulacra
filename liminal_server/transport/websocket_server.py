@@ -223,14 +223,23 @@ class LiminalServer:
         """Envía al agente de vuelta a su simulación de origen."""
         self.agent_registry.remove(agent.agent_id)
 
+        # Limpiar pares de encuentros de este agente para que futuras visitas puedan re-encontrarse
+        self._notified_meetings = {
+            pair for pair in self._notified_meetings if agent.agent_id not in pair
+        }
+
         entry = self.sim_registry.get(agent.from_sim)
         if entry and entry.websocket:
             await self._send(entry.websocket, {
-                "type":       MsgType.AGENT_RETURN,
-                "agent_id":   agent.agent_id,
+                "type":         MsgType.AGENT_RETURN,
+                "agent_id":     agent.agent_id,
                 "liminal_tick": self.clock.tick,
+                "encounters":   agent.encounters,
             })
-            logger.info(f"Agente '{agent.nombre}' retornó a {agent.from_sim}")
+            logger.info(
+                f"Agente '{agent.nombre}' retornó a {agent.from_sim} "
+                f"con {len(agent.encounters)} encuentro(s)"
+            )
         else:
             logger.warning(
                 f"Agente '{agent.nombre}' debería retornar pero {agent.from_sim} no está conectada"
@@ -263,6 +272,21 @@ class LiminalServer:
                 continue
 
             self._notified_meetings.add(pair)
+
+            # Registrar encuentro en ambos agentes
+            new_agent_rec = self.agent_registry.get(new_agent_id)
+            if new_agent_rec:
+                new_agent_rec.encounters.append({
+                    "nombre":              existing.nombre,
+                    "dominant_archetype":  existing.dominant_archetype,
+                    "from_sim":            existing.from_sim,
+                })
+                existing.encounters.append({
+                    "nombre":              new_nombre,
+                    "dominant_archetype":  new_agent_rec.dominant_archetype,
+                    "from_sim":            new_sim,
+                })
+
             await self._broadcast_meeting(
                 agent_a_id=new_agent_id, agent_a_nombre=new_nombre, sim_a=new_sim,
                 agent_b_id=existing.agent_id, agent_b_nombre=existing.nombre, sim_b=existing.from_sim,

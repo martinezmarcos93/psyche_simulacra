@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `209` | **Miembros vivos:** `1`
+> **Día:** `29` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[iambe]] (Iambe) | generico | 33 | anima_animus |
+| [[iambe]] (Iambe) | generico | 33 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.358` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.507` | `▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.310` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.177` | `▓▓░░░░░░░░` |
-| **Madre** | `0.089` | `▓░░░░░░░░░` |
+| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.681` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.430` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.396` | `▓▓▓▓░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `209` | **Miembros vivos:** `3`
 
 ---
 
@@ -9,22 +9,29 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[hector]] (Hector) | generico | 42 | self |
+| [[lachesis]] (Lachesis) | generico | 21 | anima_animus |
+| [[ysolde]] (Ysolde) | recolector | 23 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.511` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.768` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.580` | `▓▓▓▓▓▓░░░░` |
-| **Sombra** | `0.531` | `▓▓▓▓▓░░░░░` |
-| **Madre** | `0.458` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.367` | `▓▓▓▓░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.773` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.627` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.386` | `▓▓▓▓░░░░░░` |
+| **Muerte** | `0.307` | `▓▓▓░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

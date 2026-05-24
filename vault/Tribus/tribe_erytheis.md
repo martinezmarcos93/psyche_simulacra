@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `14669` | **Miembros vivos:** `3`
+> **Día:** `299` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,25 +8,29 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hijo_001]] (Euphrosyne) | generico | 39 | self |
-| [[stenos]] (Stenos) | explorador | 67 | anima_animus |
-| [[zephyra]] (Zephyra) | generico | 48 | self |
+| [[exan]] (Exan) | generico | 21 | sombra |
+| [[hector]] (Hector) | generico | 42 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.193` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.868` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Muerte** | `0.218` | `▓▓░░░░░░░░` |
-| **Sombra** | `0.186` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.062` | `▓░░░░░░░░░` |
-| **Madre** | `0.031` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Muerte** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.660` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.603` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.580` | `▓▓▓▓▓▓░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

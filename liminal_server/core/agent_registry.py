@@ -18,6 +18,7 @@ class LiminalAgent:
     traits:          dict
     arrived_at:      float = field(default_factory=time.monotonic)
     arrived_at_tick: int   = 0   # tick liminal al momento de llegada
+    encounters:      list  = field(default_factory=list)  # encuentros cross-sim registrados
 
     @property
     def dominant_archetype(self) -> str:

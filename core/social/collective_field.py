@@ -114,6 +114,12 @@ class CollectiveField:
             self.symbols["madre"]  = min(1.0, self.symbols["madre"]  + 0.25 * intensity)
             self.symbols["heroe"]  = min(1.0, self.symbols["heroe"]  + 0.10 * intensity)
             self.emotional_pressure = max(0.0, self.emotional_pressure - 0.10 * intensity)
+        elif event_type == "vision_liminal":
+            # Un agente regresó con recuerdos de otro mundo — genera presión mítica y simbolismo de misterio
+            self.symbols["sabio"]     = min(1.0, self.symbols.get("sabio",     0.0) + 0.15 * intensity)
+            self.symbols["trickster"] = min(1.0, self.symbols.get("trickster", 0.0) + 0.10 * intensity)
+            self.myth_pressure        = min(1.0, self.myth_pressure                  + 0.20 * intensity)
+            self.confusion            = min(1.0, self.confusion                      + 0.10 * intensity)
 
     def absorb_trauma(self, causa: str, intensity: float = 1.0) -> None:
         """

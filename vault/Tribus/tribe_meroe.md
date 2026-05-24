@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `419` | **Miembros vivos:** `3`
+> **Día:** `299` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,25 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[meroe]] (Meroe) | guardian | 30 | anima_animus |
-| [[talos]] (Talos) | cazador | 46 | self |
-| [[vespa]] (Vespa) | recolector | 39 | sombra |
+| [[peria]] (Peria) | generico | 8 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.324` `[▓▓▓▓░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.218` | `▓▓░░░░░░░░` |
-| **Madre** | `0.109` | `▓░░░░░░░░░` |
-| **Trickster** | `0.090` | `▓░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Heroe** | `0.580` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.299` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.267` | `▓▓▓░░░░░░░` |
+| **Muerte** | `0.261` | `▓▓▓░░░░░░░` |
+| **Trickster** | `0.043` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `209` | **Miembros vivos:** `0`
+> **Día:** `29` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,22 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
+| [[perion]] (Perion) | cazador | 52 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.664` `[▓▓▓▓▓▓▓▓░░░░]`
+> **Presión emocional:** `0.549` `[▓▓▓▓▓▓▓░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.583` | `▓▓▓▓▓▓░░░░` |
-| **Sombra** | `0.530` | `▓▓▓▓▓░░░░░` |
-| **Muerte** | `0.278` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.136` | `▓░░░░░░░░░` |
-| **Madre** | `0.068` | `▓░░░░░░░░░` |
+| **Sombra** | `0.505` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.317` | `▓▓▓░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

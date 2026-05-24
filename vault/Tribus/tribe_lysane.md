@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Héroe
 
-> **Día:** `359` | **Miembros vivos:** `1`
+> **Día:** `329` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,23 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lysane]] (Lysane) | recolector | 47 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.139` `[▓▓░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.715` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.358` | `▓▓▓▓░░░░░░` |
-| **Sombra** | `0.074` | `▓░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.185` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.093` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

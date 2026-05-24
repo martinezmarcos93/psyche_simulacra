@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `2399` | **Miembros vivos:** `7`
+> **Día:** `299` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,29 +8,30 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[festus]] (Festus) | recolector | 67 | self |
-| [[jocasta]] (Jocasta) | generico | 37 | anima_animus |
-| [[kimon]] (Kimon) | generico | 62 | self |
-| [[myrrha]] (Myrrha) | generico | 54 | self |
-| [[nephele]] (Nephele) | explorador | 58 | sabio |
-| [[pyrros]] (Pyrros) | explorador | 45 | self |
-| [[zephyra]] (Zephyra) | generico | 14 | self |
+| [[festus]] (Festus) | recolector | 61 | self |
+| [[perion]] (Perion) | cazador | 52 | self |
+| [[phoibos]] (Phoibos) | generico | 32 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.769` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.895` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.273` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.021` | `░░░░░░░░░░` |
-| **Madre** | `0.011` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.735` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.504` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.322` | `▓▓▓░░░░░░░` |
+| **Heroe** | `0.134` | `▓░░░░░░░░░` |
+| **Madre** | `0.067` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

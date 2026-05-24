@@ -19,7 +19,7 @@ if TYPE_CHECKING:
     pass
 
 _DIAS_HAMBRE_MUERTE   = 3
-_DIAS_SED_MUERTE      = 2
+_DIAS_SED_MUERTE      = 3
 _COMIDA_POR_RECOLECTA = 4.0
 _COMIDA_POR_CAZA      = 8.0
 _AGUA_POR_BEBER       = 5.0
@@ -96,6 +96,8 @@ class Agent:
 
         # Zona Liminal — True cuando el agente está en tránsito intersimulación
         self.in_liminal: bool = False
+        # Encuentro liminal pendiente de procesar en el próximo ciclo de sueños
+        self._pending_liminal_encounter: dict | None = None
 
     # ── Ciclo de vida ────────────────────────────────────────────────────────
 
@@ -204,6 +206,11 @@ class Agent:
         resonancia_grupal: str | None = None,
     ) -> None:
         """Genera un sueño y aplica sus deltas arquetípicos."""
+        # Consumir encuentro liminal pendiente como resonancia si no hay otra activa
+        if resonancia_grupal is None and self._pending_liminal_encounter:
+            resonancia_grupal = self._pending_liminal_encounter.get("resonancia")
+            self._pending_liminal_encounter = None
+
         traumas = extract_traumas_from_log(self.episodic_log)
         dream = self._dream_engine.generate_dream(
             dia               = dia,
@@ -430,13 +437,17 @@ class Agent:
         )
 
     def _find_water_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
-        water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea"]
+        water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea",
+                         "agua_salobre", "nieve"]
 
-        # Buscar primero en el hex actual, luego en los 6 vecinos
+        # Buscar primero en el hex actual, luego anillo 1 (6 hexes) y anillo 2 (12 hexes)
         q, r = self.posicion
+        ring1 = [(1,0),(-1,0),(0,1),(0,-1),(1,-1),(-1,1)]
+        ring2 = [(2,0),(-2,0),(0,2),(0,-2),(2,-2),(-2,2),
+                 (1,1),(-1,-1),(2,-1),(-2,1),(1,-2),(-1,2)]
         candidates = [(q, r)] + [
             (q + dq, r + dr)
-            for dq, dr in [(1,0),(-1,0),(0,1),(0,-1),(1,-1),(-1,1)]
+            for dq, dr in ring1 + ring2
             if 0 <= q + dq < 80 and 0 <= r + dr < 60
         ]
 
@@ -518,7 +529,8 @@ class Agent:
 
     def _apply_resource_gain(self, resources: dict) -> None:
         food_types  = {"frutos", "raices", "plantas", "semillas", "carne", "peces"}
-        water_types = {"agua", "agua_lluvia", "agua_fresca", "agua_subterranea", "agua_salobre"}
+        water_types = {"agua", "agua_lluvia", "agua_fresca", "agua_subterranea",
+                       "agua_salobre", "nieve"}
         for rtype, qty in resources.items():
             if rtype in food_types:
                 self.needs.eat(qty * _COMIDA_POR_RECOLECTA)

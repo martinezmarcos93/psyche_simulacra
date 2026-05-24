@@ -156,7 +156,14 @@ Para uso cotidiano: `python main.py`. Para automatización o robustez: `python s
 
 Sí. La narrativa LLM es completamente opcional. Si Ollama no está disponible, el `NarratorEngine` activa su modo fallback y genera leyendas con plantillas predefinidas en español. La simulación corre sin degradación en ninguna de las mecánicas de fondo (psicología, tribus, mitos, métricas).
 
-Para desactivar la narrativa explícitamente al lanzar desde `main.py`, responder "N" a la pregunta *"¿Activar narrativa LLM?"*. Desde línea de comandos:
+Al lanzar desde `main.py`, si Ollama no responde al confirmar la narrativa LLM, el TUI ofrece tres opciones:
+- `[1]` Iniciar Ollama ahora (espera hasta 12 segundos a que el daemon responda)
+- `[2]` Continuar sin iniciarlo (la simulación lo reintentará al arrancar)
+- `[3]` Desactivar narrativa y usar plantillas de fallback
+
+Si Ollama está activo, el TUI lista los modelos instalados y permite escribir cualquier nombre de modelo — si no está descargado, se hará `ollama pull` automáticamente al iniciar la simulación.
+
+Desde línea de comandos para desactivar la narrativa:
 ```bash
 NARRATIVE_ENABLED=0 python scripts/run_simulation.py --seeds-file data/seeds/100_personas.yaml
 ```
@@ -265,7 +272,17 @@ Los pares simbólicos ya mapeados son 11; cualquier combinación de los 12 arque
 
 ## Límites y roadmap
 
-### 19. ¿Cuáles son las limitaciones conocidas del sistema?
+### 19. ¿Por qué murieron todos los agentes de deshidratación? ¿Es un bug?
+
+No, si ocurre en condiciones normales es un problema de diseño corregido. Las causas históricas de deshidratación masiva en el arranque eran:
+
+- **Biomas sin agua**: `sabana_abierta`, `colinas_suaves`, `desierto_borde` y `costa_abierta` no tienen recursos de agua propios. Si un agente estaba rodeado de estos biomas sin un bioma acuífero adyacente, moría inexorablemente.
+- **Radio de búsqueda insuficiente**: `_find_water_action` solo revisaba el hex actual y el anillo inmediato (7 hexes). Ahora revisa 2 anillos (19 hexes), incluyendo `nieve` como fuente de agua para montaña.
+- **Margen de supervivencia muy corto**: `_DIAS_SED_MUERTE` era 2 días (igual que hambre=3). Ahora es 3, alineado con hambre.
+
+Si aun así todos los agentes mueren de sed, probablemente la semilla generó un mundo excepcionalmente árido o los agentes iniciaron en una zona desértica extensa. Eso es aleatoriedad legítima, no un bug.
+
+### 20. ¿Cuáles son las limitaciones conocidas del sistema?
 
 **Limitaciones técnicas:**
 - El terreno es estático (80×60 hexágonos, sin tectónica ni inundaciones progresivas). El tamaño está hardcodeado y cambiarlo rompe el schema de la base de datos.
@@ -280,7 +297,7 @@ Los pares simbólicos ya mapeados son 11; cualquier combinación de los 12 arque
 
 ---
 
-### 20. ¿Qué viene en fases futuras?
+### 21. ¿Qué viene en fases futuras?
 
 El ROADMAP v2.0 (ver `src/ROADMAP2.md`) tiene las fases 6–9 completadas. Las direcciones exploradas para fases futuras incluyen:
 

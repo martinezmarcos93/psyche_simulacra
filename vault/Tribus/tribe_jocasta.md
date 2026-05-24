@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Héroe
 
-> **Día:** `2249` | **Miembros vivos:** `6`
+> **Día:** `329` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,31 +8,30 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[jocasta]] (Jocasta) | generico | 37 | self |
-| [[kimon]] (Kimon) | generico | 62 | sombra |
-| [[myrrha]] (Myrrha) | generico | 54 | self |
-| [[nephele]] (Nephele) | explorador | 58 | sombra |
-| [[pyrros]] (Pyrros) | explorador | 45 | sombra |
-| [[zephyra]] (Zephyra) | generico | 14 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.217` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.541` `[▓▓▓▓▓▓░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.673` | `▓▓▓▓▓▓▓░░░` |
-| **Sombra** | `0.619` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.355` | `▓▓▓▓░░░░░░` |
-| **Trickster** | `0.229` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.544` | `▓▓▓▓▓░░░░░` |
+| **Muerte** | `0.241` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.173` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.046` | `░░░░░░░░░░` |
+| **Madre** | `0.023` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
 ## 📜 Mitología Local
 
-- **Heroe vs monstruo** — 🟢 Activo (Día 2225)
+> *Ningún mito cristalizado aún en esta tribu.*

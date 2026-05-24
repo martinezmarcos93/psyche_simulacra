@@ -195,6 +195,62 @@ def _generate_seeds(console: Console, n: int, seed: int) -> Path:
     return out
 
 
+def _ollama_alive() -> bool:
+    import urllib.request
+    try:
+        with urllib.request.urlopen("http://localhost:11434/api/tags", timeout=2):
+            return True
+    except Exception:
+        return False
+
+
+def _ollama_list_models() -> list[str]:
+    import json, urllib.request
+    try:
+        with urllib.request.urlopen("http://localhost:11434/api/tags", timeout=3) as resp:
+            data = json.loads(resp.read())
+            return [m.get("name", "") for m in data.get("models", []) if m.get("name")]
+    except Exception:
+        return []
+
+
+def _ollama_start(console: Console) -> bool:
+    """Intenta iniciar ollama serve. Devuelve True si responde en <12s."""
+    import time, urllib.request
+    try:
+        if sys.platform == "win32":
+            subprocess.Popen(
+                ["ollama", "serve"],
+                creationflags=subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.DETACHED_PROCESS,
+                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            )
+        else:
+            subprocess.Popen(
+                ["ollama", "serve"],
+                start_new_session=True,
+                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            )
+    except FileNotFoundError:
+        console.print(
+            "[red]  'ollama' no encontrado en PATH.[/red]  "
+            "Descargalo desde [bold]https://ollama.com[/bold]"
+        )
+        return False
+
+    console.print("  [cyan]Esperando a Ollama[/cyan]", end="")
+    for _ in range(24):
+        time.sleep(0.5)
+        console.print(".", end="")
+        try:
+            with urllib.request.urlopen("http://localhost:11434/api/tags", timeout=1):
+                console.print(" [green]activo[/green]")
+                return True
+        except Exception:
+            pass
+    console.print(" [yellow]timeout[/yellow]")
+    return False
+
+
 def _ask_narrative_config(console: Console) -> tuple[bool, str]:
     """Pregunta si activar la narrativa LLM y qué modelo usar.
     Devuelve (enabled, model_name)."""
@@ -203,14 +259,42 @@ def _ask_narrative_config(console: Console) -> tuple[bool, str]:
         default=True,
         console=console,
     )
-    model = "llama3.2"
-    if enabled:
-        model = Prompt.ask(
-            "Modelo Ollama",
-            default=os.environ.get("OLLAMA_MODEL", "llama3.2"),
-            console=console,
-        )
-    return enabled, model
+    if not enabled:
+        return False, "llama3.2"
+
+    # ── Verificar estado de Ollama ─────────────────────────────────────────────
+    if not _ollama_alive():
+        console.print("\n[yellow]  Ollama no responde en localhost:11434[/yellow]")
+
+        t = Table(box=box.SIMPLE, show_header=False, padding=(0, 1))
+        t.add_column(style="bold cyan", width=4)
+        t.add_column()
+        t.add_row("[1]", "Iniciar Ollama ahora")
+        t.add_row("[2]", "Continuar sin iniciarlo  [dim](se reintentará al arrancar la sim)[/dim]")
+        t.add_row("[3]", "Desactivar narrativa     [dim](usar plantillas de fallback)[/dim]")
+        console.print(t)
+
+        accion = Prompt.ask("  Opción", choices=["1", "2", "3"], default="1", console=console)
+        if accion == "3":
+            return False, "llama3.2"
+        if accion == "1":
+            _ollama_start(console)
+
+    # ── Listar modelos instalados ──────────────────────────────────────────────
+    installed = _ollama_list_models()
+    default_model = installed[0] if installed else os.environ.get("OLLAMA_MODEL", "llama3.2")
+
+    if installed:
+        console.print("\n  [dim]Modelos instalados:[/dim]")
+        for m in installed:
+            console.print(f"    [cyan]·[/cyan] {m}")
+
+    model = Prompt.ask(
+        "\nModelo Ollama  [dim](si no está instalado se descargará al iniciar)[/dim]",
+        default=default_model,
+        console=console,
+    )
+    return True, model
 
 
 def _print_result(console: Console, runner) -> None:
@@ -285,10 +369,7 @@ def _action_liminal_server(console: Console) -> None:
     ]
 
     if sys.platform == "win32":
-        subprocess.Popen(
-            ["cmd", "/k"] + args,
-            creationflags=subprocess.CREATE_NEW_CONSOLE,
-        )
+        subprocess.Popen(args, creationflags=subprocess.CREATE_NEW_CONSOLE)
     else:
         subprocess.Popen(args, start_new_session=True)
 
@@ -337,10 +418,7 @@ def _action_dashboard(console: Console) -> None:
     args = [sys.executable, "-m", "streamlit", "run", str(DASHBOARD)]
 
     if sys.platform == "win32":
-        subprocess.Popen(
-            ["cmd", "/k"] + args,
-            creationflags=subprocess.CREATE_NEW_CONSOLE,
-        )
+        subprocess.Popen(args, creationflags=subprocess.CREATE_NEW_CONSOLE)
     else:
         subprocess.Popen(args, start_new_session=True)
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Ánima-Ánimus
 
-> **Día:** `29` | **Miembros vivos:** `0`
+> **Día:** `149` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,22 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
+| [[drex]] (Drex) | explorador | 25 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.769` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.904` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.668` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.558` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.279` | `▓▓▓░░░░░░░` |
-| **Muerte** | `0.246` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.628` | `▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.416` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.208` | `▓▓░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `18329` | **Miembros vivos:** `1`
+> **Día:** `209` | **Miembros vivos:** `9`
 
 ---
 
@@ -8,32 +8,39 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hijo_000]] (Chloris) | generico | 50 | self |
+| [[erytheis]] (Erytheis) | recolector | 31 | sombra |
+| [[evander]] (Evander) | generico | 31 | self |
+| [[galatia]] (Galatia) | guardian | 23 | self |
+| [[hakon]] (Hakon) | recolector | 33 | self |
+| [[iambe]] (Iambe) | generico | 33 | anima_animus |
+| [[jora]] (Jora) | cazador | 43 | self |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
+| [[ristos]] (Ristos) | generico | 56 | anima_animus |
+| [[zoia]] (Zoia) | guardian | 41 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.157` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Muerte** | `0.209` | `▓▓░░░░░░░░` |
-| **Sombra** | `0.105` | `▓░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.604` | `▓▓▓▓▓▓░░░░` |
+| **Muerte** | `0.314` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.302` | `▓▓▓░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
 ## 📜 Mitología Local
 
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 1771)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 2653)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 2821)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 4194)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 5382)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 6739)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 7689)
+> *Ningún mito cristalizado aún en esta tribu.*

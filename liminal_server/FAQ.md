@@ -43,7 +43,22 @@ Los agentes que estaban en la zona liminal quedan "flotando" hasta que el servid
 
 **¿Se puede correr el servidor y la simulación en la misma PC?**
 
-Sí. Para desarrollo y pruebas, todo corre en localhost. El servidor en una terminal, la simulación en otra.
+Sí. Para desarrollo y pruebas, todo corre en localhost. Desde `main.py`:
+- Opción `[5]` inicia el servidor en una ventana nueva.
+- Opción `[6]` conecta el visualizador a localhost:8765.
+
+**¿Cuál es el orden correcto de ejecución?**
+
+```
+PC-A (hosteador)                    PC-B (cliente)
+────────────────                    ──────────────
+1. Correr simulación                1. Correr simulación
+2. Iniciar servidor (opción 5)
+3. Conectar visualizador (op. 6)    2. Conectar visualizador (op. 7)
+                                       → ingresar IP de PC-A
+```
+
+El servidor **debe estar activo** antes de que alguien intente conectarse. Las simulaciones pueden estar corriendo antes, durante o después de que el servidor arranque — son independientes.
 
 ---
 
@@ -67,7 +82,11 @@ No en la versión actual (Fase 3). El retorno está planificado para Fase 7.
 
 **¿Los agentes en el liminal siguen envejeciendo, teniendo hambre, etc.?**
 
-No. Al estar `in_liminal = True`, el AgentCore de PSYCHE SIMULACRA los salta completamente. Sus necesidades no se actualizan. Es un estado de "suspensión".
+No. Al estar `in_liminal = True`, el AgentCore de PSYCHE SIMULACRA los salta completamente. Sus necesidades no se actualizan, no envejecen, no pueden morir. Es suspensión biológica total.
+
+**¿Qué recursos tiene la Zona Liminal? ¿Pueden comer o beber los agentes ahí?**
+
+Ninguno. La Zona Liminal no tiene agua, comida, fauna, clima ni ningún recurso. Los agentes en suspensión no los necesitan. El espacio tiene 5 biomas puramente visuales (`vacío`, `nebulosa`, `cristalino`, `sombra`, `aurora`) que dan identidad estética al mapa pero no producen ni consumen nada. Es un espacio de tránsito, no de supervivencia.
 
 **¿Mis agentes y los de mi amigo pueden verse entre sí?**
 

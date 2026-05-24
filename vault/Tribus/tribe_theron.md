@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `29` | **Miembros vivos:** `0`
+> **Día:** `89` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,22 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
+| [[theron]] (Theron) | cazador | 20 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.857` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.935` | `▓▓▓▓▓▓▓▓▓░` |
-| **Muerte** | `0.307` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.181` | `▓▓░░░░░░░░` |
-| **Madre** | `0.091` | `▓░░░░░░░░░` |
-| **Trickster** | `0.063` | `▓░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.730` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.692` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.195` | `▓▓░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

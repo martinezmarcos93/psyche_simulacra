@@ -79,6 +79,7 @@ _TRAUMA_KEYWORDS: dict[str, list[str]] = {
     "orfandad":       ["voz_de_padre_sin_cuerpo", "cuna_vacía_en_campo_abierto"],
     "hambre":         ["fruto_prohibido", "banquete_de_sombras"],
     "conflicto":      ["espejo_roto_en_dos", "guerra_contra_uno_mismo"],
+    "LIMINAL_ENCUENTRO": ["puerta_entre_mundos", "ser_sin_nombre_conocido", "arquetipo_extraño", "eco_de_otro_mundo"],
 }
 
 _DEFAULT_SYMBOL = "sombra_sin_forma"

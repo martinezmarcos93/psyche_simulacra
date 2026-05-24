@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `149` | **Miembros vivos:** `1`
+> **Día:** `59` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[glaukia]] (Glaukia) | explorador | 29 | sombra |
+| [[glaukia]] (Glaukia) | explorador | 29 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.434` `[▓▓▓▓▓░░░░░░░]`
+> **Presión emocional:** `0.334` `[▓▓▓▓░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.694` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.435` | `▓▓▓▓░░░░░░` |
+| **Trickster** | `0.822` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.681` | `▓▓▓▓▓▓▓░░░` |
+| **Sombra** | `0.651` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.400` | `▓▓▓▓░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

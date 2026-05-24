@@ -1,4 +1,4 @@
-# 🏕️ Tribu de la Persona
+# 🏕️ Tribu del Self
 
 > **Día:** `29` | **Miembros vivos:** `1`
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[macron]] (Macron) | explorador | 16 | persona |
+| [[macron]] (Macron) | explorador | 16 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.906` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.834` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.395` | `▓▓▓▓░░░░░░` |
-| **Madre** | `0.198` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.917` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.897` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.274` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.137` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

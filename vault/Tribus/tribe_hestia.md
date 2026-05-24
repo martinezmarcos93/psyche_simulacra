@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `11459` | **Miembros vivos:** `2`
+> **Día:** `500` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hijo_000]] (Chloris) | generico | 31 | self |
-| [[hestia]] (Hestia) | recolector | 70 | self |
+| [[hestia]] (Hestia) | recolector | 40 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.097` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
+| **Sombra** | `0.109` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

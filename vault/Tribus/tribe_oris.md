@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Héroe
 
-> **Día:** `2459` | **Miembros vivos:** `1`
+> **Día:** `269` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,23 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[oris]] (Oris) | generico | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.080` `[▓░░░░░░░░░░░]`
+> **Presión emocional:** `0.739` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.151` | `▓▓░░░░░░░░` |
-| **Sombra** | `0.112` | `▓░░░░░░░░░` |
-| **Madre** | `0.075` | `▓░░░░░░░░░` |
-| **Trickster** | `0.044` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.739` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.236` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.087` | `▓░░░░░░░░░` |
+| **Heroe** | `0.003` | `░░░░░░░░░░` |
+| **Madre** | `0.001` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `929` | **Miembros vivos:** `4`
+> **Día:** `29` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,26 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kimon]] (Kimon) | generico | 58 | self |
-| [[medon]] (Medon) | generico | 51 | sombra |
-| [[nephele]] (Nephele) | explorador | 54 | sombra |
-| [[ulax]] (Ulax) | generico | 21 | sombra |
+| [[imene]] (Imene) | explorador | 60 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.868` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Sombra** | `0.848` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.500` | `▓▓▓▓▓░░░░░` |
-| **Madre** | `0.250` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.241` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.656` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.641` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.485` | `▓▓▓▓▓░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

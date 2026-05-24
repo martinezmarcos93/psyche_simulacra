@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `10589` | **Miembros vivos:** `3`
+> **Día:** `269` | **Miembros vivos:** `5`
 
 ---
 
@@ -8,33 +8,35 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[creon]] (Creon) | generico | 67 | self |
-| [[ivar]] (Ivar) | recolector | 60 | sombra |
-| [[phoibos]] (Phoibos) | generico | 61 | self |
+| [[hestia]] (Hestia) | recolector | 39 | self |
+| [[kress]] (Kress) | generico | 43 | self |
+| [[meroe]] (Meroe) | guardian | 29 | self |
+| [[peria]] (Peria) | generico | 8 | self |
+| [[xanthe]] (Xanthe) | generico | 40 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.302` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.500` | `▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.454` | `▓▓▓▓▓░░░░░` |
-| **Muerte** | `0.241` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.054` | `▓░░░░░░░░░` |
-| **Madre** | `0.038` | `░░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.834` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.834` | `▓▓▓▓▓▓▓▓░░` |
+| **Muerte** | `0.637` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.550` | `▓▓▓▓▓▓░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
 ## 📜 Mitología Local
 
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 1901)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 2792)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 3253)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 5148)
-- **Heroe vs monstruo** — 🔴 Disuelto (Día 6937)
-- **Heroe vs monstruo** — 🟢 Activo (Día 8614)
+> *Ningún mito cristalizado aún en esta tribu.*

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Ánima-Ánimus
 
-> **Día:** `299` | **Miembros vivos:** `6`
+> **Día:** `500` | **Miembros vivos:** `4`
 
 ---
 
@@ -8,28 +8,31 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[demos]] (Demos) | cazador | 60 | self |
-| [[imene]] (Imene) | explorador | 60 | anima_animus |
-| [[medon]] (Medon) | generico | 49 | sombra |
-| [[myrrha]] (Myrrha) | generico | 48 | self |
-| [[ulax]] (Ulax) | generico | 19 | sombra |
-| [[zephyra]] (Zephyra) | generico | 8 | sombra |
+| [[demos]] (Demos) | cazador | 61 | anima_animus |
+| [[kalliope]] (Kalliope) | recolector | 49 | sombra |
+| [[nephele]] (Nephele) | explorador | 53 | sombra |
+| [[rhadys]] (Rhadys) | guardian | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.904` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.826` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.801` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.642` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.329` | `▓▓▓░░░░░░░` |
-| **Muerte** | `0.289` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.783` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.405` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.202` | `▓▓░░░░░░░░` |
+| **Muerte** | `0.007` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

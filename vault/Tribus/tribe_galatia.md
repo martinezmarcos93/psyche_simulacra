@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `59` | **Miembros vivos:** `1`
+> **Día:** `299` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,23 +8,30 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[galatia]] (Galatia) | guardian | 23 | self |
+| [[iambe]] (Iambe) | generico | 33 | self |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
+| [[zoia]] (Zoia) | guardian | 41 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.268` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.717` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.453` | `▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.202` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.114` | `▓░░░░░░░░░` |
-| **Madre** | `0.101` | `▓░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.801` | `▓▓▓▓▓▓▓▓░░` |
+| **Muerte** | `0.801` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.654` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.286` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.143` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

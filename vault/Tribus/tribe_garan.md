@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `10799` | **Miembros vivos:** `2`
+> **Día:** `29` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hijo_000]] (Chloris) | generico | 29 | self |
-| [[stenos]] (Stenos) | explorador | 56 | self |
+| [[garan]] (Garan) | guardian | 21 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.460` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.904` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.617` | `▓▓▓▓▓▓░░░░` |
-| **Muerte** | `0.278` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.229` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.187` | `▓▓░░░░░░░░` |
-| **Madre** | `0.176` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.448` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.224` | `▓▓░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

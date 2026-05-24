@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Héroe
 
-> **Día:** `1349` | **Miembros vivos:** `2`
+> **Día:** `359` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,24 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lakon]] (Lakon) | recolector | 62 | sombra |
-| [[rheia]] (Rheia) | generico | 55 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.425` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.200` | `▓▓░░░░░░░░` |
-| **Madre** | `0.100` | `▓░░░░░░░░░` |
-| **Trickster** | `0.031` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.398` | `▓▓▓▓░░░░░░` |
+| **Muerte** | `0.314` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.202` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

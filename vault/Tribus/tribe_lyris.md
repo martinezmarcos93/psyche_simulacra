@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `449` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lyris]] (Lyris) | generico | 30 | self |
+| [[lyris]] (Lyris) | generico | 31 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.342` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.739` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.729` | `▓▓▓▓▓▓▓░░░` |
-| **Sombra** | `0.626` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.418` | `▓▓▓▓░░░░░░` |
-| **Trickster** | `0.118` | `▓░░░░░░░░░` |
+| **Sombra** | `0.739` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.188` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.125` | `▓░░░░░░░░░` |
+| **Madre** | `0.094` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

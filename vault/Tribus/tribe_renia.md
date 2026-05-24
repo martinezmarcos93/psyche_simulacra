@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `1379` | **Miembros vivos:** `1`
+> **Día:** `269` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[renia]] (Renia) | recolector | 56 | sombra |
+| [[renia]] (Renia) | recolector | 53 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.306` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.097` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.754` | `▓▓▓▓▓▓▓▓░░` |
-| **Madre** | `0.638` | `▓▓▓▓▓▓░░░░` |
-| **Trickster** | `0.183` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.103` | `▓░░░░░░░░░` |
+| **Trickster** | `0.036` | `░░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 
