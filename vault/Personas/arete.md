@@ -5,23 +5,23 @@ rol: recolector
 edad: 30
 sexo: F
 is_alive: True
-posicion: [41, 33]
-humor: 0.774
-energia: 0.585
-ansiedad: 0.447
+posicion: [41, 31]
+humor: 0.761
+energia: 0.505
+ansiedad: 0.464
 needs:
-  hambre: 0.064
-  fatiga: 0.415
+  hambre: 0.044
+  fatiga: 0.495
   sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: madre
-estado_conductual: aislamiento
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.674
+  self: 0.602
   persona: 0.500
   sombra: 0.250
   anima_animus: 0.400
-  heroe: 0.554
+  heroe: 0.552
   sabio: 0.400
   trickster: 0.250
   madre: 0.720
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Arete
 
-> **Rol:** `recolector` | **Edad:** 30 | **Sexo:** F | **Ubicación:** `(41, 33)`
+> **Rol:** `recolector` | **Edad:** 30 | **Sexo:** F | **Ubicación:** `(41, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.77 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.45 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.50 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.46 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.674` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.602` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.554` | `▓▓▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.552` | `▓▓▓▓▓▓▓░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.720` | `▓▓▓▓▓▓▓▓▓░░░` |
@@ -107,10 +107,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'hierba_que_corta'` (arquetipo `madre`).
   - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'viento_que_borra'` (arquetipo `madre`).
-  - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'campo_interminable'` (arquetipo `madre`).
-  - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -128,5 +124,3 @@ arquetipos:
 - Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
 - Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
 - Día 3: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'campo_interminable' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.

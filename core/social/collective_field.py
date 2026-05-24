@@ -150,6 +150,29 @@ class CollectiveField:
         for sym, delta in _trauma_symbols.get(causa, {}).items():
             self.symbols[sym] = min(1.0, self.symbols.get(sym, 0.0) + delta * intensity)
 
+    def absorb_myth_broadcast(
+        self,
+        myth_type:  str,
+        par:        list[str],
+        intensity:  float,
+        origin_sim: str = "?",
+    ) -> None:
+        """
+        Absorbe el eco de un mito cristalizado en otra simulación.
+
+        El eco es más débil que el impacto local (~40% de intensidad).
+        Aumenta myth_pressure y carga los símbolos del par arquetípico
+        del mito origen — creando condiciones para proto-mitos resonantes.
+        """
+        eco = intensity * 0.40
+        self.myth_pressure      = min(1.0, self.myth_pressure      + 0.25 * eco)
+        self.confusion          = min(1.0, self.confusion          + 0.10 * eco)
+        self.emotional_pressure = min(1.0, self.emotional_pressure + 0.05 * eco)
+
+        for arch in par:
+            if arch in self.symbols:
+                self.symbols[arch] = min(1.0, self.symbols[arch] + 0.15 * eco)
+
     def contexto_enunciativo(self) -> ContextoEnunciativo:
         """
         Calcula el contexto de cristalización simbólica actual del campo.

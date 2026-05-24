@@ -5,34 +5,34 @@ rol: generico
 edad: 16
 sexo: M
 is_alive: True
-posicion: [43, 32]
-humor: 0.707
+posicion: [40, 34]
+humor: 0.763
 energia: 0.665
-ansiedad: 0.511
+ansiedad: 0.434
 needs:
-  hambre: 0.204
+  hambre: 0.044
   fatiga: 0.335
   sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.715
+  self: 0.628
   persona: 0.500
   sombra: 0.300
-  anima_animus: 0.401
-  heroe: 0.453
+  anima_animus: 0.400
+  heroe: 0.452
   sabio: 0.400
   trickster: 0.250
   madre: 0.400
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
-  rebelde: 0.301
+  rebelde: 0.300
 ---
 # 👤 Persona: Leon
 
-> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(43, 32)`
+> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(40, 34)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,14 +42,14 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.71 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.51 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.43 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓░░░░░░░░]` | 0.20 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.715` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.628` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.401` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.453` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.452` | `▓▓▓▓▓░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -106,10 +106,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'hierba_que_corta'` (arquetipo `self`).
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'hierba_que_corta'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -122,5 +118,3 @@ arquetipos:
 - Día 1: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 2: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.

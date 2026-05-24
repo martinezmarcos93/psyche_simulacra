@@ -49,7 +49,12 @@
       "Bash(git stash *)",
       "Bash(git checkout *)",
       "Bash(ls core/psyche/)",
-      "Bash(ls core/quantum/)"
+      "Bash(ls core/quantum/)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(cd \"D:\\\\\\\\01-Marcos\\\\\\\\00-Programacion\\\\\\\\00-Proyectos\\\\\\\\Simulacion\\\\\\\\PSYCHE SIMULACRA\")",
+      "Bash(xargs ls -la)",
+      "Bash(python3 -c ' *)",
+      "Bash(echo \"EXIT:$?\")"
     ]
   }
 }

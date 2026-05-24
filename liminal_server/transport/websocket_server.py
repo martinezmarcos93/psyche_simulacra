@@ -106,6 +106,10 @@ class LiminalServer:
             await self._handle_agent_enter(msg, ws)
             return None
 
+        if msg_type == MsgType.MYTH_CRYSTALLIZED:
+            await self._handle_myth_crystallized(msg, ws)
+            return None
+
         logger.warning(f"Tipo de mensaje desconocido: {msg_type!r}")
         await self._send(ws, {"type": MsgType.ERROR, "detail": f"unknown type: {msg_type}"})
         return None
@@ -195,6 +199,37 @@ class LiminalServer:
 
         # Detectar encuentros inmediatos (este agente comparte hex con otro)
         await self._check_meeting_at(pos, agent_id, nombre, from_sim)
+
+    async def _handle_myth_crystallized(self, msg: dict, ws: ServerConnection) -> None:
+        origin_sim = msg.get("sim_id", "?")
+        myth_name  = msg.get("myth_name", "desconocido")
+        myth_type  = msg.get("myth_type", "mito_moral")
+        par        = msg.get("par", [])
+        intensity  = msg.get("intensity", 1.0)
+        day        = msg.get("day", 0)
+
+        logger.info(
+            f"[MITO] '{myth_name}' cristalizó en {origin_sim} "
+            f"(tipo={myth_type}, intensidad={intensity:.2f})"
+        )
+
+        # Propagar como eco a todas las otras sims (no a la de origen)
+        broadcast = {
+            "type":        MsgType.MYTH_BROADCAST,
+            "origin_sim":  origin_sim,
+            "myth_name":   myth_name,
+            "myth_type":   myth_type,
+            "par":         par,
+            "intensity":   intensity,
+            "day":         day,
+        }
+        await self._broadcast(broadcast, exclude=ws)
+
+        if self.on_event_cb:
+            self.on_event_cb("myth_crystallized", {
+                "origin_sim": origin_sim, "myth_name": myth_name,
+                "myth_type": myth_type, "intensity": intensity,
+            })
 
     # ── Lógica de tick liminal ────────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `5` | **Miembros vivos:** `2`
+> **Día:** `3` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,21 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[bios]] (Bios) | cazador | 34 | self |
+| [[bios]] (Bios) | cazador | 34 | heroe |
 | [[moros]] (Moros) | generico | 28 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.074` | `▓░░░░░░░░░` |
-| **Madre** | `0.037` | `░░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.077` | `▓░░░░░░░░░` |
+| **Madre** | `0.038` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

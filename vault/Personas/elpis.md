@@ -5,23 +5,23 @@ rol: recolector
 edad: 22
 sexo: F
 is_alive: True
-posicion: [44, 26]
-humor: 0.772
+posicion: [43, 25]
+humor: 0.765
 energia: 0.665
-ansiedad: 0.446
+ansiedad: 0.456
 needs:
-  hambre: 0.044
+  hambre: 0.064
   fatiga: 0.335
   sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: aislamiento
 arquetipos:
-  self: 0.671
+  self: 0.609
   persona: 0.500
   sombra: 0.250
   anima_animus: 0.400
-  heroe: 0.503
+  heroe: 0.502
   sabio: 0.401
   trickster: 0.250
   madre: 0.401
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Elpis
 
-> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(44, 26)`
+> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(43, 25)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,14 +42,14 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.77 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.45 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.46 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.671` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.609` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.503` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
@@ -108,10 +108,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
   - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -130,5 +126,3 @@ arquetipos:
 - Día 1: Se impuso competitivamente ante Hados, absorbiendo sus recursos biológicos.
 - Día 2: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

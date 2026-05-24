@@ -5,26 +5,26 @@ rol: cazador
 edad: 34
 sexo: M
 is_alive: True
-posicion: [40, 30]
-humor: 0.619
-energia: 0.663
-ansiedad: 0.629
+posicion: [39, 30]
+humor: 0.433
+energia: 0.659
+ansiedad: 0.868
 needs:
-  hambre: 0.302
+  hambre: 0.664
   fatiga: 0.335
-  sed: 0.705
+  sed: 0.575
   sociabilidad: 0.020
-arquetipo_dominante: self
+arquetipo_dominante: heroe
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.699
+  self: 0.615
   persona: 0.500
   sombra: 0.300
   anima_animus: 0.400
   heroe: 0.651
   sabio: 0.400
   trickster: 0.250
-  madre: 0.404
+  madre: 0.402
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Bios
 
-> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(40, 30)`
+> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(39, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.62 |
+| **Humor** | `[▓▓▓▓░░░░░░]` | 0.43 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.87 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓░░░░░░░]` | 0.30 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.70 | 🟢 Hidratado |
+| **Hambre** | `[▓▓▓▓▓▓▓░░░]` | 0.66 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓▓░░░░]` | 0.57 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.699` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.615` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.651` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.404` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -108,10 +108,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'montaña_que_escalar'` (arquetipo `heroe`).
   - *Insight:* En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'espada_rota'` (arquetipo `heroe`).
-  - *Insight:* En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'abundancia_que_pudre'` (arquetipo `heroe`).
-  - *Insight:* En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -139,17 +135,3 @@ arquetipos:
 - Día 2: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
 - Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
 - Día 3: Soñó con 'montaña_que_escalar' (heroe). Insight: En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 3: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 4: Soñó con 'espada_rota' (heroe). Insight: En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'abundancia_que_pudre' (heroe). Insight: En valle fertil, el heroe encuentra tregua provisional con lo reprimido.

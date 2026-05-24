@@ -102,6 +102,25 @@ class LiminalClient:
             "tribe_id":   tribe_id,
         })
 
+    def send_myth_event(
+        self,
+        myth_name:  str,
+        myth_type:  str,
+        par:        tuple[str, str],
+        intensity:  float,
+        day:        int,
+    ) -> None:
+        """Encola un evento myth_crystallized para enviarlo al servidor."""
+        self._outgoing.put({
+            "type":      "myth_crystallized",
+            "sim_id":    self.sim_id,
+            "myth_name": myth_name,
+            "myth_type": myth_type,
+            "par":       list(par),
+            "intensity": round(intensity, 3),
+            "day":       day,
+        })
+
     def drain_incoming(self) -> list[dict]:
         """
         Retorna y vacía todos los eventos entrantes del servidor.

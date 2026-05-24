@@ -5,19 +5,19 @@ rol: generico
 edad: 14
 sexo: F
 is_alive: True
-posicion: [44, 30]
-humor: 0.814
-energia: 0.706
-ansiedad: 0.391
+posicion: [44, 31]
+humor: 0.863
+energia: 0.546
+ansiedad: 0.324
 needs:
-  hambre: 0.041
-  fatiga: 0.294
-  sed: 0.496
+  hambre: 0.252
+  fatiga: 0.454
+  sed: 0.088
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.691
+  self: 0.599
   persona: 0.500
   sombra: 0.100
   anima_animus: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Kore
 
-> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(44, 30)`
+> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(44, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.81 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.71 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.39 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.55 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.32 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.29 | 🟢 Descansado |
+| **Hambre** | `[▓▓▓░░░░░░░]` | 0.25 | 🟢 Saciado |
+| **Sed** | `[▓░░░░░░░░░]` | 0.09 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.45 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,7 +61,7 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.691` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.599` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.100` | `▓░░░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -109,10 +109,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'unión_imposible'` (arquetipo `self`).
   - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En pantano costero, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'viento_que_borra'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -153,5 +149,3 @@ arquetipos:
 - Día 2: Detectó y rechazó un intento de manipulación de Peitho.
 - Día 2: Cedió ingenuamente ante la manipulación de Doron.
 - Día 3: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'unión_imposible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

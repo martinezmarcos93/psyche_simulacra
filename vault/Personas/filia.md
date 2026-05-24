@@ -5,23 +5,23 @@ rol: generico
 edad: 29
 sexo: F
 is_alive: True
-posicion: [38, 27]
-humor: 0.785
-energia: 0.665
-ansiedad: 0.434
+posicion: [39, 27]
+humor: 0.780
+energia: 0.645
+ansiedad: 0.441
 needs:
   hambre: 0.044
-  fatiga: 0.335
+  fatiga: 0.355
   sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: competencia
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.657
+  self: 0.613
   persona: 0.500
   sombra: 0.220
   anima_animus: 0.400
-  heroe: 0.504
+  heroe: 0.502
   sabio: 0.400
   trickster: 0.250
   madre: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Filia
 
-> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(38, 27)`
+> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(39, 27)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -43,15 +43,15 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.43 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.36 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.657` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.613` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.220` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.504` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -108,10 +108,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'viento_que_borra'` (arquetipo `self`).
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -126,5 +122,3 @@ arquetipos:
 - Día 1: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 2: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

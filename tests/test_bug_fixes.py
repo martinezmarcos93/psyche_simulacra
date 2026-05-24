@@ -608,3 +608,187 @@ class TestMuerteEdgeCases:
         result = agent.check_death()
         assert result == "deshidratacion"
         assert agent.is_alive is False
+
+
+# ── Hito: Transmisión cross-sim de mitos ──────────────────────────────────────
+
+from core.social.collective_field import CollectiveField
+from core.social.mythology import MythologyEngine, MythCrystal, ProtoMito
+from core.liminal.agent_transfer import _ARCH_RESONANCE
+
+
+class _MockClientMythAware(_MockClient):
+    """Versión del mock que también captura send_myth_event."""
+    def __init__(self, connected: bool = True):
+        super().__init__(connected)
+        self.sent_myths: list[dict] = []
+
+    def send_myth_event(self, **kwargs):
+        self.sent_myths.append(kwargs)
+
+
+class _MockAgentCoreWithMythology(_MockAgentCore):
+    def __init__(self, agents=None):
+        super().__init__(agents)
+        self.mythology_engine = MythologyEngine()
+        self.collective_field = CollectiveField()
+
+
+class TestPoolNombres:
+    """El pool de nombres no debe tener duplicados y debe tener >90 entradas."""
+
+    def test_sin_duplicados(self):
+        from core.agents.agent_core import _NOMBRES_POOL
+        assert len(_NOMBRES_POOL) == len(set(_NOMBRES_POOL)), "Hay nombres duplicados"
+
+    def test_pool_suficientemente_grande(self):
+        from core.agents.agent_core import _NOMBRES_POOL
+        assert len(_NOMBRES_POOL) >= 90, f"Pool insuficiente: {len(_NOMBRES_POOL)} nombres"
+
+
+class TestCollectiveFieldMythBroadcast:
+    """absorb_myth_broadcast() sube myth_pressure y carga símbolos del par."""
+
+    def test_aumenta_myth_pressure(self):
+        cf = CollectiveField()
+        cf.absorb_myth_broadcast("mito_moral", ["heroe", "sombra"], 1.0, "SIM_B")
+        assert cf.myth_pressure > 0.0
+
+    def test_carga_simbolos_del_par(self):
+        cf = CollectiveField()
+        cf.absorb_myth_broadcast("mito_moral", ["heroe", "sombra"], 1.0, "SIM_B")
+        assert cf.symbols["heroe"] > 0.0
+        assert cf.symbols["sombra"] > 0.0
+
+    def test_eco_es_mas_debil_que_local(self):
+        """El eco cross-sim (40%) debe subir menos que un vision_liminal directo."""
+        cf_eco   = CollectiveField()
+        cf_local = CollectiveField()
+        cf_eco.absorb_myth_broadcast("mito_moral", ["heroe", "sombra"], 1.0, "SIM_B")
+        cf_local.absorb_event("vision_liminal", intensity=1.0)
+        assert cf_eco.myth_pressure < cf_local.myth_pressure
+
+    def test_par_vacio_no_crashea(self):
+        cf = CollectiveField()
+        cf.absorb_myth_broadcast("mito_moral", [], 0.5, "SIM_X")
+        assert cf.myth_pressure > 0.0
+
+
+class TestBroadcastNewMyths:
+    """AgentTransferHandler.on_day() detecta mitos nuevos y los envía al servidor."""
+
+    def _make_myth_handler(self):
+        core   = _MockAgentCoreWithMythology()
+        portal = _MockPortal()
+        client = _MockClientMythAware(connected=True)
+        handler = AgentTransferHandler(core, portal, client)
+        return handler, client, core
+
+    def test_mito_nuevo_se_envía(self):
+        handler, client, core = self._make_myth_handler()
+        core.mythology_engine.active_myths.append(MythCrystal(
+            name="mito_moral_dia1", tipo="mito_moral",
+            par=("heroe", "sombra"), active=True, day_crystallized=1,
+        ))
+        tp = _make_tp(hora=0, dia=1)
+        handler.on_day(tp)
+        assert len(client.sent_myths) == 1
+        sent = client.sent_myths[0]
+        assert sent["myth_name"] == "mito_moral_dia1"
+        assert sent["myth_type"] == "mito_moral"
+
+    def test_mito_ya_enviado_no_se_reenvía(self):
+        handler, client, core = self._make_myth_handler()
+        myth = MythCrystal(
+            name="mito_moral_dia1", tipo="mito_moral",
+            par=("heroe", "sombra"), active=True, day_crystallized=1,
+        )
+        core.mythology_engine.active_myths.append(myth)
+        tp = _make_tp(hora=0, dia=1)
+        handler.on_day(tp)
+        handler.on_day(tp)  # segundo on_day
+        assert len(client.sent_myths) == 1  # sólo enviado una vez
+
+    def test_sin_conexion_no_envía(self):
+        core   = _MockAgentCoreWithMythology()
+        portal = _MockPortal()
+        client = _MockClientMythAware(connected=False)
+        handler = AgentTransferHandler(core, portal, client)
+        core.mythology_engine.active_myths.append(MythCrystal(
+            name="mito_x", tipo="mito_moral",
+            par=("heroe", "sombra"), active=True, day_crystallized=1,
+        ))
+        tp = _make_tp(hora=0, dia=1)
+        handler.on_day(tp)
+        assert len(client.sent_myths) == 0
+
+    def test_multiples_mitos_todos_enviados(self):
+        handler, client, core = self._make_myth_handler()
+        for i in range(3):
+            core.mythology_engine.active_myths.append(MythCrystal(
+                name=f"mito_dia{i}", tipo="mito_moral",
+                par=("heroe", "sombra"), active=True, day_crystallized=i,
+            ))
+        tp = _make_tp(hora=0, dia=3)
+        handler.on_day(tp)
+        assert len(client.sent_myths) == 3
+
+
+class TestHandleMythBroadcast:
+    """_handle_myth_broadcast() altera campo colectivo e inyecta resonancia onírica."""
+
+    def _make_myth_handler_with_agent(self, arch_dominante: str = "heroe"):
+        agent = _make_agent()
+        setattr(agent.archetypes, arch_dominante, 0.90)
+        core   = _MockAgentCoreWithMythology({agent.id: agent})
+        portal = _MockPortal(pos=(0, 0))  # posición distinta al agente para no disparar transferencia
+        client = _MockClientMythAware(connected=True)
+        handler = AgentTransferHandler(core, portal, client)
+        return handler, agent, core
+
+    def test_myth_broadcast_aumenta_campo(self):
+        handler, _, core = self._make_myth_handler_with_agent()
+        client = handler._client
+        client.push({
+            "type": "myth_broadcast", "origin_sim": "SIM_B",
+            "myth_name": "mito_moral_dia3", "myth_type": "mito_moral",
+            "par": ["heroe", "sombra"], "intensity": 0.8, "day": 3,
+        })
+        tp = _make_tp(hora=6)
+        handler.on_tick(tp)
+        assert core.collective_field.myth_pressure > 0.0
+
+    def test_myth_broadcast_inyecta_sueno_en_agente_afin(self):
+        """Un agente con arquetipo heroe dominante recibe semilla onírica."""
+        handler, agent, _ = self._make_myth_handler_with_agent("heroe")
+        handler._client.push({
+            "type": "myth_broadcast", "origin_sim": "SIM_B",
+            "myth_name": "mito_moral_dia3", "myth_type": "mito_moral",
+            "par": ["heroe", "sombra"], "intensity": 0.8, "day": 3,
+        })
+        tp = _make_tp(hora=6)
+        handler.on_tick(tp)
+        assert agent._pending_liminal_encounter is not None
+
+    def test_myth_broadcast_no_afecta_agente_no_afin(self):
+        """Un agente sin arquetipo afín NO recibe semilla onírica."""
+        handler, agent, _ = self._make_myth_handler_with_agent("sabio")
+        handler._client.push({
+            "type": "myth_broadcast", "origin_sim": "SIM_B",
+            "myth_name": "mito_moral_dia3", "myth_type": "mito_moral",
+            "par": ["heroe", "sombra"], "intensity": 0.8, "day": 3,
+        })
+        tp = _make_tp(hora=6)
+        handler.on_tick(tp)
+        assert agent._pending_liminal_encounter is None
+
+    def test_myth_broadcast_registra_en_episodic_log(self):
+        handler, agent, _ = self._make_myth_handler_with_agent("heroe")
+        handler._client.push({
+            "type": "myth_broadcast", "origin_sim": "SIM_B",
+            "myth_name": "mito_moral_dia3", "myth_type": "mito_moral",
+            "par": ["heroe", "sombra"], "intensity": 0.8, "day": 3,
+        })
+        tp = _make_tp(hora=6)
+        handler.on_tick(tp)
+        assert any("ECO_MITICO" in e for e in agent.episodic_log)

@@ -5,34 +5,34 @@ rol: explorador
 edad: 21
 sexo: F
 is_alive: True
-posicion: [54, 28]
-humor: 0.852
-energia: 0.665
-ansiedad: 0.314
+posicion: [47, 28]
+humor: 0.735
+energia: 0.625
+ansiedad: 0.480
 needs:
-  hambre: 0.104
-  fatiga: 0.335
-  sed: 0.255
+  hambre: 0.044
+  fatiga: 0.375
+  sed: 0.575
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.727
+  self: 0.645
   persona: 0.500
   sombra: 0.250
-  anima_animus: 0.402
-  heroe: 0.501
+  anima_animus: 0.401
+  heroe: 0.500
   sabio: 0.401
   trickster: 0.480
   madre: 0.402
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
-  rebelde: 0.302
+  rebelde: 0.301
 ---
 # 👤 Persona: Iris
 
-> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(54, 28)`
+> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(47, 28)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.85 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.31 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.62 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.48 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓▓▓░░░░░░░]` | 0.26 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓▓░░░░]` | 0.57 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.727` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.645` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
+| **Anima animus** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
 | **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.302` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -106,10 +106,6 @@ arquetipos:
   - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'silencio_pleno'` (arquetipo `self`).
   - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'viento_que_borra'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -122,5 +118,3 @@ arquetipos:
 - Día 1: Se impuso competitivamente ante Doron, absorbiendo sus recursos biológicos.
 - Día 2: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

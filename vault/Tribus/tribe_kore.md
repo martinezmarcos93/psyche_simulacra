@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `5` | **Miembros vivos:** `1`
+> **Día:** `3` | **Miembros vivos:** `1`
 
 ---
 
@@ -14,12 +14,12 @@
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.941` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |

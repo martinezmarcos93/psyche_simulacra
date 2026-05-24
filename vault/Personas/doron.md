@@ -5,34 +5,34 @@ rol: guardian
 edad: 38
 sexo: M
 is_alive: True
-posicion: [46, 27]
-humor: 0.834
+posicion: [45, 29]
+humor: 0.777
 energia: 0.665
-ansiedad: 0.333
+ansiedad: 0.407
 needs:
-  hambre: 0.064
+  hambre: 0.044
   fatiga: 0.335
-  sed: 0.375
+  sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: competencia
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.714
+  self: 0.644
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
   heroe: 0.522
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
-  padre: 0.401
+  madre: 0.401
+  padre: 0.400
   nino_divino: 0.300
-  gobernante: 0.621
+  gobernante: 0.620
   rebelde: 0.300
 ---
 # 👤 Persona: Doron
 
-> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(46, 27)`
+> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(45, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.83 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.33 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.41 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Hidratado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,17 +61,17 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.714` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.644` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.522` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.621` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.620` | `▓▓▓▓▓▓▓░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
@@ -93,7 +93,7 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[bios]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[chara]] | `+0.34` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[chara]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[gigas]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[hados]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -112,10 +112,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'río_tranquilo'` (arquetipo `gobernante`).
   - *Insight:* En valle fertil, el gobernante encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -137,9 +133,3 @@ arquetipos:
 - Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
 - Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
 - Día 3: Soñó con 'río_tranquilo' (gobernante). Insight: En valle fertil, el gobernante encuentra tregua provisional con lo reprimido.
-- Día 3: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
-- Día 4: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.

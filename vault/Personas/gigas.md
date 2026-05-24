@@ -5,23 +5,23 @@ rol: cazador
 edad: 35
 sexo: M
 is_alive: True
-posicion: [38, 28]
-humor: 0.706
-energia: 0.627
-ansiedad: 0.492
+posicion: [37, 29]
+humor: 0.684
+energia: 0.551
+ansiedad: 0.522
 needs:
-  hambre: 0.064
-  fatiga: 0.375
+  hambre: 0.044
+  fatiga: 0.455
   sed: 0.575
   sociabilidad: 0.020
 arquetipo_dominante: self
 estado_conductual: competencia
 arquetipos:
-  self: 0.675
+  self: 0.619
   persona: 0.500
   sombra: 0.400
   anima_animus: 0.400
-  heroe: 0.504
+  heroe: 0.502
   sabio: 0.400
   trickster: 0.250
   madre: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Gigas
 
-> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(38, 28)`
+> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(37, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.71 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.49 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.55 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.52 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓▓░░░░]` | 0.57 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.46 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.675` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.619` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.504` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -108,10 +108,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'espada_rota'` (arquetipo `self`).
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'espada_rota'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -132,5 +128,3 @@ arquetipos:
 - Día 1: Cedió ingenuamente ante la manipulación de Kairos.
 - Día 2: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'espada_rota' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'espada_rota' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

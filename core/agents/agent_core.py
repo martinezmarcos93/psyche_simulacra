@@ -21,12 +21,31 @@ if TYPE_CHECKING:
 
 # Pool de nombres para la descendencia (nombres no usados por los fundadores)
 _NOMBRES_POOL = [
+    # Daímones y abstracciones olímpicas
     "Zelos", "Nike", "Kratos", "Bia", "Anteros", "Tyche", "Nemesis",
     "Eunomia", "Dike", "Eirene", "Thanatos", "Hypnos", "Morpheus",
     "Oizys", "Geras", "Momos", "Thallo", "Auxo", "Karpo", "Aglaea",
     "Euphrosyne", "Phanes", "Ananke", "Aether", "Hemera", "Nyx",
-    "Zelus", "Alke", "Harmonia", "Arke", "Calais", "Zetes", "Chloris",
-    "Acantha", "Adrasteia", "Aeolus", "Aletheia", "Alke", "Alpheus",
+    "Alke", "Harmonia", "Arke", "Calais", "Zetes", "Chloris",
+    "Acantha", "Adrasteia", "Aeolus", "Aletheia", "Alpheus",
+    # Ninfas y héroes menores
+    "Calypso", "Circe", "Medea", "Ariadne", "Phaedra", "Semele",
+    "Alcyone", "Celaeno", "Sterope", "Merope", "Electra", "Taygete",
+    "Maia", "Dione", "Metis", "Thetis", "Doris", "Galene",
+    "Amphitrite", "Leucothea", "Ino", "Procne", "Philomela", "Niobe",
+    "Atalanta", "Andromache", "Penthesilea", "Camilla",
+    # Dioses menores y titánides
+    "Eos", "Helios", "Boreas", "Notos", "Euros",
+    "Proteus", "Glaukos", "Nereus", "Triton", "Pontus", "Oceanus",
+    "Iapetos", "Koios", "Krios", "Hyperion", "Mnemosyne",
+    "Themis", "Tethys",
+    # Héroes épicos y sus allegados
+    "Achilleas", "Patroklos", "Diomedes", "Telamon", "Peleus", "Aeacus",
+    "Bellerophon", "Chrysaor", "Chryseis", "Briseis",
+    "Laodamia", "Polyxena", "Andromeda", "Erigone", "Iphigenia",
+    # Nombres líricos y pastorales
+    "Amaryllis", "Lycidas", "Daphnis", "Chloe", "Melibea", "Thyrsis",
+    "Alexis", "Menalcas", "Corydon", "Chromis", "Mnasyllos", "Aegon",
 ]
 
 _BOND_REPRODUCCION    = 0.70   # vínculo mínimo para reproducirse

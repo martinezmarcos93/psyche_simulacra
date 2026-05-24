@@ -5,26 +5,26 @@ rol: generico
 edad: 28
 sexo: M
 is_alive: True
-posicion: [46, 30]
-humor: 0.844
+posicion: [45, 30]
+humor: 0.668
 energia: 0.665
-ansiedad: 0.248
+ansiedad: 0.523
 needs:
   hambre: 0.104
   fatiga: 0.335
-  sed: 0.095
+  sed: 0.535
   sociabilidad: 0.020
 arquetipo_dominante: sombra
-estado_conductual: aislamiento
+estado_conductual: competencia
 arquetipos:
-  self: 0.610
+  self: 0.558
   persona: 0.500
-  sombra: 0.837
+  sombra: 0.846
   anima_animus: 0.400
-  heroe: 0.227
+  heroe: 0.206
   sabio: 0.400
   trickster: 0.500
-  madre: 0.404
+  madre: 0.402
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Moros
 
-> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(46, 30)`
+> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(45, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.25 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.52 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Hidratado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.610` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.558` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.837` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Sombra** | `0.846` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.227` | `▓▓▓░░░░░░░░░` |
+| **Heroe** | `0.206` | `▓▓░░░░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.404` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -98,7 +98,7 @@ arquetipos:
 | [[iris]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[kairos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kore]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[peitho]] | `-0.77` | `▓░░░░░░░░░` | Ninguno |
+| [[peitho]] | `-0.72` | `▓░░░░░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
@@ -111,10 +111,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'olor_a_descomposición'` (arquetipo `sombra`).
   - *Insight:* El sombra busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- **Día 4:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* En bosque templado, el sombra encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.
 
 ---
 
@@ -156,6 +152,3 @@ arquetipos:
 - Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
 - Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
 - Día 3: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- Día 4: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra encuentra tregua provisional con lo reprimido.
-- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peitho.
-- Día 5: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.

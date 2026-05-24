@@ -5,34 +5,34 @@ rol: recolector
 edad: 27
 sexo: F
 is_alive: True
-posicion: [46, 31]
-humor: 0.788
-energia: 0.665
-ansiedad: 0.424
+posicion: [44, 29]
+humor: 0.940
+energia: 0.625
+ansiedad: 0.223
 needs:
-  hambre: 0.064
-  fatiga: 0.335
-  sed: 0.535
+  hambre: 0.104
+  fatiga: 0.375
+  sed: 0.095
   sociabilidad: 0.020
-arquetipo_dominante: self
-estado_conductual: competencia
+arquetipo_dominante: madre
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.730
+  self: 0.653
   persona: 0.500
   sombra: 0.200
-  anima_animus: 0.401
+  anima_animus: 0.400
   heroe: 0.502
-  sabio: 0.401
+  sabio: 0.400
   trickster: 0.250
-  madre: 0.682
+  madre: 0.681
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
-  rebelde: 0.301
+  rebelde: 0.300
 ---
 # 👤 Persona: Chara
 
-> **Rol:** `recolector` | **Edad:** 27 | **Sexo:** F | **Ubicación:** `(46, 31)`
+> **Rol:** `recolector` | **Edad:** 27 | **Sexo:** F | **Ubicación:** `(44, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.62 |
+| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.22 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Sed** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.730` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.653` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.200` | `▓▓░░░░░░░░░░` |
-| **Anima animus** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.682` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.681` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -92,11 +92,11 @@ arquetipos:
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[doron]] | `+0.36` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[doron]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[iris]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[moros]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[peitho]] | `-0.03` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
@@ -108,10 +108,6 @@ arquetipos:
   - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'leche_amarga'` (arquetipo `madre`).
   - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'río_que_nutre'` (arquetipo `madre`).
-  - *Insight:* En costa abierta, el madre encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -128,22 +124,3 @@ arquetipos:
 - Día 2: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
 - Día 2: Cedió ingenuamente ante la manipulación de Doron.
 - Día 3: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- Día 3: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
-- Día 3: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
-- Día 3: Detectó y rechazó un intento de manipulación de Peitho.
-- Día 3: Detectó y rechazó un intento de manipulación de Peitho.
-- Día 3: Detectó y rechazó un intento de manipulación de Peitho.
-- Día 3: Se impuso competitivamente ante Peitho, absorbiendo sus recursos biológicos.
-- Día 3: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 3: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 3: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 3: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 3: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 4: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 4: Soñó con 'río_que_nutre' (madre). Insight: En costa abierta, el madre encuentra tregua provisional con lo reprimido.
-- Día 4: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 4: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 4: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 5: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.

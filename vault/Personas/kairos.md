@@ -5,23 +5,23 @@ rol: cazador
 edad: 32
 sexo: M
 is_alive: True
-posicion: [42, 31]
-humor: 0.756
+posicion: [39, 30]
+humor: 1.000
 energia: 0.665
-ansiedad: 0.436
+ansiedad: 0.139
 needs:
-  hambre: 0.044
+  hambre: 0.016
   fatiga: 0.335
-  sed: 0.575
+  sed: 0.095
   sociabilidad: 0.020
 arquetipo_dominante: heroe
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.610
+  self: 0.535
   persona: 0.500
   sombra: 0.250
   anima_animus: 0.400
-  heroe: 0.860
+  heroe: 0.858
   sabio: 0.400
   trickster: 0.250
   madre: 0.403
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Kairos
 
-> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(42, 31)`
+> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(39, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Ansiedad** | `[▓░░░░░░░░░]` | 0.14 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓░░░░]` | 0.57 | 🟢 Hidratado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.02 | 🟢 Saciado |
+| **Sed** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.610` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.535` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.860` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.858` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.403` | `▓▓▓▓▓░░░░░░░` |
@@ -91,7 +91,7 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[bios]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[bios]] | `-0.26` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[gigas]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
@@ -106,10 +106,6 @@ arquetipos:
   - *Insight:* En valle fertil, el heroe encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'victoria_vacía'` (arquetipo `heroe`).
   - *Insight:* El heroe busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- **Día 4:** Soñó con `'victoria_vacía'` (arquetipo `heroe`).
-  - *Insight:* En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'victoria_vacía'` (arquetipo `heroe`).
-  - *Insight:* En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -135,17 +131,3 @@ arquetipos:
 - Día 2: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
 - Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
 - Día 3: Soñó con 'victoria_vacía' (heroe). Insight: El heroe busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 3: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
-- Día 4: Soñó con 'victoria_vacía' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'victoria_vacía' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.

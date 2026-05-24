@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Sabio
 
-> **Día:** `5` | **Miembros vivos:** `1`
+> **Día:** `3` | **Miembros vivos:** `1`
 
 ---
 

@@ -64,6 +64,7 @@ class AgentTransferHandler:
         self._transit_ticks: dict[str, int] = {}  # agent_id → ticks acumulados en tránsito
         self._liminal_agents: dict[str, dict] = {}  # agent_id → datos del liminal
         self._return_cooldown: dict[str, int] = {}  # agent_id → ticks restantes post-retorno
+        self._broadcast_myths: set[str] = set()  # myth.name ya enviados al servidor
 
     # ── SimulationClock handler ───────────────────────────────────────────────
 
@@ -77,7 +78,32 @@ class AgentTransferHandler:
         self._process_server_events()
 
     def on_day(self, tp: TimePoint) -> None:
-        pass   # Reservado para futuras mecánicas (ej: retorno al mundo)
+        if not self._client.is_connected:
+            return
+        self._broadcast_new_myths(tp.dia_simulado)
+
+    # ── Transmisión de mitos cristalizados ───────────────────────────────────
+
+    def _broadcast_new_myths(self, dia: int) -> None:
+        """Envía al servidor los mitos que cristalizaron hoy y aún no fueron transmitidos."""
+        mythology = getattr(self._agents, "mythology_engine", None)
+        if mythology is None:
+            return
+        for myth in mythology.active_myths:
+            if myth.name in self._broadcast_myths:
+                continue
+            self._broadcast_myths.add(myth.name)
+            self._client.send_myth_event(
+                myth_name = myth.name,
+                myth_type = myth.tipo,
+                par       = myth.par,
+                intensity = myth.intensidad,
+                day       = dia,
+            )
+            logger.info(
+                f"[MITO→LIMINAL] '{myth.name}' (tipo={myth.tipo}) "
+                f"transmitido al servidor con intensidad={myth.intensidad:.2f}"
+            )
 
     # ── Recuperación de agentes atascados ────────────────────────────────────
 
@@ -161,6 +187,9 @@ class AgentTransferHandler:
             elif msg_type == "agents_meet":
                 self._handle_agents_meet(event)
 
+            elif msg_type == "myth_broadcast":
+                self._handle_myth_broadcast(event)
+
             elif msg_type == "agent_arrived":
                 nombre   = event.get("nombre", "?")
                 from_sim = event.get("from_sim", "?")
@@ -239,6 +268,49 @@ class AgentTransferHandler:
         # 4. Campo colectivo: la visión de otro mundo genera presión mítica
         intensity = min(1.0, 0.5 * len(encounters))
         self._agents.collective_field.absorb_event("vision_liminal", intensity=intensity)
+
+    def _handle_myth_broadcast(self, event: dict) -> None:
+        """Eco de un mito cristalizado en otra simulación — altera el campo colectivo local."""
+        origin_sim = event.get("origin_sim", "?")
+        myth_name  = event.get("myth_name", "desconocido")
+        myth_type  = event.get("myth_type", "mito_moral")
+        par        = event.get("par", [])
+        intensity  = event.get("intensity", 1.0)
+
+        logger.info(
+            f"[ECO MÍTICO] Mito '{myth_name}' de {origin_sim} "
+            f"resonando en campo colectivo local (intensidad={intensity:.2f})"
+        )
+
+        # Presionar el campo colectivo (eco atenuado al 40%)
+        self._agents.collective_field.absorb_myth_broadcast(
+            myth_type  = myth_type,
+            par        = par,
+            intensity  = intensity,
+            origin_sim = origin_sim,
+        )
+
+        # Inyectar símbolo onírico en agentes con arquetipo resonante
+        # Los agentes cuyo arquetipo dominante coincide con el par del mito
+        # tendrán sus sueños perturbados por el eco
+        eco_symbol = _ARCH_RESONANCE.get(par[0] if par else "sombra", _DEFAULT_RESONANCE)
+        for agent in self._agents.agents.values():
+            if not agent.is_alive or agent.in_liminal:
+                continue
+            # Sólo si el agente tiene afinidad arquetípica con el mito
+            dominant = agent.archetypes.dominant()
+            if dominant in par:
+                if getattr(agent, "_pending_liminal_encounter", None) is None:
+                    agent._pending_liminal_encounter = {
+                        "resonancia":         eco_symbol,
+                        "dominant_archetype": par[0] if par else "sombra",
+                        "nombre":             f"Eco de {origin_sim}",
+                    }
+                if hasattr(agent, "episodic_log"):
+                    agent.episodic_log.append(
+                        f"[ECO_MITICO] Algo distante resuena. "
+                        f"Un espíritu de otra civilización crystallizó el arquetipo {myth_type}."
+                    )
 
     def _handle_agents_meet(self, event: dict) -> None:
         """Dos agentes de distintas sims se encontraron en el liminal."""

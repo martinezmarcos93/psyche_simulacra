@@ -5,23 +5,23 @@ rol: explorador
 edad: 26
 sexo: F
 is_alive: True
-posicion: [46, 29]
-humor: 0.886
+posicion: [44, 30]
+humor: 0.795
 energia: 0.665
-ansiedad: 0.251
+ansiedad: 0.378
 needs:
-  hambre: 0.164
+  hambre: 0.104
   fatiga: 0.335
-  sed: 0.095
+  sed: 0.375
   sociabilidad: 0.020
 arquetipo_dominante: trickster
 estado_conductual: aislamiento
 arquetipos:
-  self: 0.704
+  self: 0.608
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
-  heroe: 0.502
+  heroe: 0.500
   sabio: 0.400
   trickster: 0.820
   madre: 0.403
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(46, 29)`
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(44, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.25 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.38 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓░░░░░░░░]` | 0.16 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Hidratado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,11 +61,11 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.704` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.608` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.820` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Madre** | `0.403` | `▓▓▓▓▓░░░░░░░` |
@@ -91,11 +91,11 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[chara]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[kore]] | `-0.16` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[moros]] | `-0.13` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[moros]] | `-0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
@@ -106,10 +106,6 @@ arquetipos:
 - **Día 2:** Soñó con `'puerta_que_se_mueve'` (arquetipo `trickster`).
   - *Insight:* En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
 - **Día 3:** Soñó con `'máscara_adherida'` (arquetipo `trickster`).
-  - *Insight:* En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'puerta_que_se_mueve'` (arquetipo `trickster`).
-  - *Insight:* En costa abierta, el trickster encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'trampa_propia'` (arquetipo `trickster`).
   - *Insight:* En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
 
 ---
@@ -134,19 +130,3 @@ arquetipos:
 - Día 2: Se impuso competitivamente ante Moros, absorbiendo sus recursos biológicos.
 - Día 2: Se impuso competitivamente ante Moros, absorbiendo sus recursos biológicos.
 - Día 3: Soñó con 'máscara_adherida' (trickster). Insight: En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
-- Día 3: Intentó manipular a Chara, pero fue descubierto.
-- Día 3: Intentó manipular a Chara, pero fue descubierto.
-- Día 3: Intentó manipular a Chara, pero fue descubierto.
-- Día 3: Sufrió explotación y hostilidad de Chara, cediendo recursos biológicos.
-- Día 3: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 3: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 3: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 3: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 3: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 4: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 4: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En costa abierta, el trickster encuentra tregua provisional con lo reprimido.
-- Día 4: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 4: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 4: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Moros.
-- Día 5: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
