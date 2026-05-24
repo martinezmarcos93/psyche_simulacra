@@ -46,3 +46,7 @@ class WorldSnapshot:
     # ── Resultados del tick anterior ─────────────────────────────────────────
     # El agente sabe si su caza tuvo éxito, qué descubrió, etc.
     action_results: dict           # {agent_id: ActionResult}
+
+    # ── Tumbas sagradas activas ──────────────────────────────────────────────
+    # [(coord, carga_simbolica, arquetipo_dominante)] — solo las que superan umbral
+    graves_activos: list = field(default_factory=list)

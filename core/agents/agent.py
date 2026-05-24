@@ -327,6 +327,13 @@ class Agent:
         if actividad == "cazar":
             return self._hunt_action(tp, snapshot)
         if actividad == "explorar":
+            # En horas de exploración, los agentes con afinidad arquetípica pueden
+            # ser atraídos por una tumba sagrada activa cercana (peregrinación emergente)
+            pilgrimage = self._find_pilgrimage_site(snapshot)
+            if pilgrimage is not None and self._rng.random() < 0.20:
+                action = self._pilgrimage_action(tp, pilgrimage)
+                if action is not None:
+                    return action
             return self._choose_explore_or_gather(tp, snapshot)
         return None
 
@@ -499,6 +506,47 @@ class Agent:
                 priority = 0.85,
             )
         return self._explore_action(tp, snapshot)
+
+    def _find_pilgrimage_site(
+        self,
+        snapshot: WorldSnapshot,
+    ) -> tuple[int, int] | None:
+        """
+        Busca la tumba sagrada activa más cercana cuyo arquetipo dominante
+        coincide con el del agente. Sólo considera sitios a ≤ 10 hexes.
+        """
+        my_arch = self.archetypes.dominant()
+        my_arch_norm = "self_" if my_arch == "self" else my_arch
+        q, r = self.posicion
+        best: tuple[int, int] | None = None
+        best_dist = float("inf")
+        for coord, carga, arch in snapshot.graves_activos:
+            if arch != my_arch_norm:
+                continue
+            dist = abs(coord[0] - q) + abs(coord[1] - r)
+            if dist < best_dist and dist <= 10:
+                best_dist = dist
+                best = coord
+        return best
+
+    def _pilgrimage_action(
+        self,
+        tp:     TimePoint,
+        target: tuple[int, int],
+    ) -> WorldAction | None:
+        """Avanza un paso hacia la tumba sagrada."""
+        if target == self.posicion:
+            return None
+        dest = self._step_toward(target)
+        self.posicion = dest
+        return WorldAction(
+            agent_id = self.id,
+            tick     = tp.tick,
+            type     = ActionType.MOVERSE,
+            coord    = dest,
+            params   = {"pilgrimage": True},
+            priority = 0.55,
+        )
 
     def _step_toward(self, target: tuple[int, int]) -> tuple[int, int]:
         """Avanza un hex en dirección al objetivo usando distancia Manhattan."""

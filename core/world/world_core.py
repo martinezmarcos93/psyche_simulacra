@@ -5,6 +5,7 @@ from .terrain import TerrainGrid
 from .resources import ResourceSystem
 from .fauna import FaunaSystem
 from .fire import FireSystem
+from .grave_hex import GraveSystem
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
 
@@ -30,6 +31,7 @@ class WorldCore:
         self.resources = ResourceSystem(self.terrain)
         self.fauna     = FaunaSystem(self.terrain, seed=seed)
         self.fire      = FireSystem(seed=seed)
+        self.graves    = GraveSystem()
 
         self._pending_actions:     list[WorldAction]       = []
         self._last_action_results: dict[str, ActionResult] = {}
@@ -58,6 +60,7 @@ class WorldCore:
         self.resources.daily_regeneration(tp.estacion, explored)
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
+        self.graves.daily_update()
 
     def on_season_change(self, tp: TimePoint) -> None:
         """Llamado cuando la estación cambia."""
@@ -194,6 +197,7 @@ class WorldCore:
             fuego_calor_bonus = self.fire.heat_bonus,
             carrying_capacity = carrying_cap,
             resource_pressure = pressure,
+            graves_activos    = self.graves.active_sites(),
             action_results    = self._last_action_results,
         )
 
@@ -238,6 +242,7 @@ class WorldCore:
             "explored_coords":  [[q, r] for (q, r) in explored],
             "resource_amounts": self.resources.get_amounts_snapshot(explored),
             "fauna_density":    self.fauna.get_density_snapshot(explored),
+            "graves":           self.graves.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -250,3 +255,5 @@ class WorldCore:
         self.fire = self.fire.from_dict(data.get("fire", {}))
         self.resources.restore_amounts(data.get("resource_amounts", {}))
         self.fauna.restore_density(data.get("fauna_density", {}))
+        if "graves" in data:
+            self.graves = GraveSystem.from_dict(data["graves"])

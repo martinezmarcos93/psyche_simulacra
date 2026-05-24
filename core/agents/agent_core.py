@@ -199,7 +199,12 @@ class AgentCore:
         # 6. Reproducción
         self._check_reproduccion(tp)
 
-        # 7. Sueños nocturnos con entrelazamiento
+        # 7. "El muerto que tiene más poder que vivo":
+        #    si un registro cultural tiene alta intensidad y muchas transmisiones,
+        #    su protagonista (fallecido) se convierte en figura mítica que sostiene el ICL.
+        self._check_mythic_dead(tp.dia_simulado)
+
+        # 8. Sueños nocturnos con entrelazamiento
         self._process_nightly_dreams(tp.dia_simulado)
 
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
@@ -221,11 +226,11 @@ class AgentCore:
 
         # Registrar la muerte en la memoria cultural de la tribu
         tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+        arch     = agent.archetypes.dominant()
+        arch_norm = "self_" if arch == "self" else arch
         if tribe_id:
             cmem = self.tribe_manager.cultural_memories.get(tribe_id)
             if cmem is not None:
-                arch = agent.archetypes.dominant()
-                arch_norm = "self_" if arch == "self" else arch
                 cmem.record_event(
                     dia                 = tp.dia_simulado,
                     agente_nombre       = agent.nombre,
@@ -237,6 +242,31 @@ class AgentCore:
                     ),
                     intensidad          = 0.85,
                 )
+
+        # Registrar la muerte en el GraveHex (con bond medio de los testigos presentes)
+        bonds_presentes = [
+            self.social_network.get_bond(other.id, agent.id)
+            for other in self.agents.values()
+            if other.is_alive and other.posicion == agent.posicion
+        ]
+        bond_medio = (sum(bonds_presentes) / len(bonds_presentes)) if bonds_presentes else 0.15
+        self.world_ref.graves.register_death(
+            coord         = agent.posicion,
+            agente_nombre = agent.nombre,
+            arquetipo     = arch_norm,
+            dia           = tp.dia_simulado,
+            bond_medio    = bond_medio,
+        )
+
+        # Sacudir el campo memético de sobrevivientes con vínculo fuerte al fallecido
+        for other in self.agents.values():
+            if not other.is_alive or other.id == agent.id:
+                continue
+            bond = self.social_network.get_bond(other.id, agent.id)
+            if bond > 0.50:
+                lf = self.tribe_manager.get_local_field(other.id)
+                if lf is not None:
+                    lf.absorb_event("muerte_vinculada", intensity=bond * 0.60)
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
         if len(self.agents) >= _LIMITE_POBLACION:
@@ -401,6 +431,27 @@ class AgentCore:
         parent_b.episodic_log.append(f"Día {dia}: Nació {nombre}.")
 
         return child
+
+    def _check_mythic_dead(self, dia: int) -> None:
+        """
+        Si un registro cultural tiene alta intensidad emocional y muchas transmisiones,
+        y su protagonista está muerto, lo inyecta como figura simbólica activa en el ICL
+        tribal (el muerto tiene más poder que vivo).
+        """
+        nombre_a_agente = {a.nombre: a for a in self.agents.values()}
+        for tribe_id, cmem in self.tribe_manager.cultural_memories.items():
+            local_field = self.tribe_manager.local_fields.get(tribe_id)
+            if local_field is None:
+                continue
+            for rec in cmem.records:
+                if rec.intensidad_emocional < 0.70 or rec.n_transmisiones < 5:
+                    continue
+                agent = nombre_a_agente.get(rec.agente_origen)
+                if agent is None or not agent.is_alive:
+                    local_field.absorb_event(
+                        "figura_mitica",
+                        intensity=rec.intensidad_emocional * 0.25,
+                    )
 
     def _process_nightly_dreams(self, dia: int) -> None:
         """
