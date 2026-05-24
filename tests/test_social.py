@@ -1290,3 +1290,242 @@ class TestHito7EmergentCriterion:
         core2 = AgentCore.from_dict(d, world)
         assert child.id in core2.lineage.records
         assert core2.lineage.records[child.id].parent_a == pa.id
+
+
+# ── Hito 8: Zonas Liminales Expandidas ──────────────────────────────────────
+
+from core.world.liminal_hex import LiminalHexSystem, LiminalHexData
+
+
+class TestLiminalHexSystem:
+    """Tests unitarios del sistema de hexes liminales."""
+
+    def _fake_terrain_with_biome(self, biome="cueva"):
+        """Terrain simulado que devuelve un único hex explorado del bioma dado."""
+        class FakeCell:
+            def __init__(self, b, explored=True):
+                self.biome    = b
+                self.explored = explored
+        class FakeTerrain:
+            def __init__(self, b):
+                self._cells = {(5, 5): FakeCell(b)}
+            def get(self, q, r):
+                return self._cells.get((q, r))
+        return FakeTerrain(biome)
+
+    def test_initialize_crea_hexes_en_bioma_liminal(self):
+        """LiminalHexSystem genera hexes en cueva/montana/pantano."""
+        lhs = LiminalHexSystem(seed=1)
+        terrain = self._fake_terrain_with_biome("cueva")
+        lhs.initialize(terrain)
+        assert lhs._initialized is True
+        assert len(lhs.hexes) >= 1
+        assert all(h.biome in {"cueva", "montana_alta", "pantano_costero"}
+                   for h in lhs.hexes)
+
+    def test_primer_hex_es_portal(self):
+        """El primer hex generado está marcado como portal."""
+        lhs = LiminalHexSystem(seed=2)
+        terrain = self._fake_terrain_with_biome("cueva")
+        lhs.initialize(terrain)
+        assert any(h.es_portal for h in lhs.hexes)
+
+    def test_on_day_emite_evento_inyeccion(self):
+        """on_day emite evento 'inyeccion_liminal' cuando el hex está explorado."""
+        lhs = LiminalHexSystem(seed=3)
+        terrain = self._fake_terrain_with_biome("cueva")
+        lhs.initialize(terrain)
+        # Forzar RNG para que siempre emita
+        lhs._rng = type("R", (), {"random": lambda s: 0.0, "choice": lambda s, seq: seq[0]})()
+        events = lhs.on_day(dia=1, terrain=terrain)
+        assert any(e["tipo"] == "inyeccion_liminal" for e in events)
+
+    def test_on_day_no_emite_si_no_explorado(self):
+        """on_day no emite nada si el hex no está explorado."""
+        class FakeCell:
+            biome    = "cueva"
+            explored = False  # no explorado
+        class FakeTerrain:
+            _cells = {(5, 5): FakeCell()}
+            def get(self, q, r): return self._cells.get((q, r))
+
+        lhs = LiminalHexSystem(seed=4)
+        lhs.hexes.append(LiminalHexData(
+            coord=(5,5), biome="cueva", misterio=1.0,
+            symbol_pool=["sabio"], es_portal=False
+        ))
+        lhs._initialized = True
+        lhs._rng = type("R", (), {"random": lambda s: 0.0, "choice": lambda s, seq: seq[0]})()
+        events = lhs.on_day(1, FakeTerrain())
+        assert len(events) == 0
+
+    def test_nearby_hexes(self):
+        """nearby_hexes filtra por radio correctamente."""
+        lhs = LiminalHexSystem(seed=5)
+        lhs.hexes = [
+            LiminalHexData((5,5), "cueva", 0.8, ["sabio"], False),
+            LiminalHexData((20,20), "cueva", 0.8, ["heroe"], False),
+        ]
+        near = lhs.nearby_hexes((5, 5), radius=2)
+        assert len(near) == 1
+        assert near[0].coord == (5, 5)
+
+    def test_serialization_round_trip(self):
+        """to_dict / from_dict preserva hexes y symbol_pool."""
+        lhs = LiminalHexSystem(seed=6)
+        lhs.hexes = [
+            LiminalHexData((3,3), "montana_alta", 0.75, ["sombra", "sabio"], True),
+        ]
+        lhs._initialized = True
+        d    = lhs.to_dict()
+        lhs2 = LiminalHexSystem.from_dict(d, seed=6)
+        assert len(lhs2.hexes) == 1
+        assert lhs2.hexes[0].es_portal is True
+        assert "sombra" in lhs2.hexes[0].symbol_pool
+
+
+class TestWorldCoreLiminalHex:
+    """Tests de integración: LiminalHexSystem en WorldCore."""
+
+    def test_worldcore_inicializa_liminal_system(self):
+        world = WorldCore(seed=42)
+        assert hasattr(world, "liminal_system")
+        assert isinstance(world.liminal_system, LiminalHexSystem)
+        assert world.liminal_system._initialized is True
+
+    def test_snapshot_incluye_liminal_hexes(self):
+        from core.time import TimePoint
+        world = WorldCore(seed=42)
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        world.on_tick(tp)
+        snap = world.current_snapshot
+        assert snap is not None
+        assert hasattr(snap, "liminal_hexes")
+        assert isinstance(snap.liminal_hexes, list)
+
+
+class TestHito8EmergentCriterion:
+    """
+    Criterio de salida Hito 8:
+    Agentes que frecuentan un LiminalHex desarrollan perfiles arquetípicos
+    más extremos y mayor myth_pressure que la media tribal.
+    """
+
+    def _make_tribe(self, world, core, tribe_id, n=4, posicion=(5,5)):
+        from core.social.collective_field import CollectiveField
+        from core.social.cultural_memory import CulturalMemory
+        agents = []
+        for i in range(n):
+            a = Agent(f"{tribe_id}_{i}", f"Ag{i}", posicion, seed=i+80)
+            a.edad = 25
+            core.add_agent(a)
+            agents.append(a)
+        core.tribe_manager.tribes[tribe_id]             = [a.id for a in agents]
+        core.tribe_manager.local_fields[tribe_id]       = CollectiveField()
+        core.tribe_manager.cultural_memories[tribe_id]  = CulturalMemory(tribe_id)
+        for a in agents:
+            core.tribe_manager.agent_to_tribe[a.id] = tribe_id
+        return agents
+
+    def test_inyeccion_autonoma_sube_myth_pressure(self):
+        """Evento 'inyeccion_liminal' eleva myth_pressure del campo tribal."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe(world, core, "t_lim", posicion=(5, 5))
+
+        # Insertar hex liminal explorado en coord (5,5)
+        lhex = LiminalHexData((5,5), "cueva", misterio=1.0,
+                               symbol_pool=["sabio", "sombra"], es_portal=False)
+        world.liminal_system.hexes = [lhex]
+        world.liminal_system._initialized = True
+        world.liminal_system._last_events = [{
+            "tipo":     "inyeccion_liminal",
+            "symbol":   "sabio",
+            "coord":    (5, 5),
+            "misterio": 1.0,
+        }]
+
+        lf     = core.tribe_manager.local_fields["t_lim"]
+        mp_ant = lf.myth_pressure
+
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        core._process_liminal_hex_effects(tp, world.liminal_system)
+
+        assert lf.myth_pressure > mp_ant
+
+    def test_amplificacion_arquetipos_dormidos(self):
+        """Agentes cerca de hex liminal reciben cambios en arquetipos no dominantes."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe(world, core, "t_arq", posicion=(5, 5))
+
+        # Hex explorado en coord (5,5)
+        class FakeCell:
+            biome = "cueva"; explored = True
+        class FakeTerrain:
+            def get(self, q, r): return FakeCell() if (q,r)==(5,5) else None
+        world.terrain = FakeTerrain()
+
+        lhex = LiminalHexData((5,5), "cueva", misterio=1.0,
+                               symbol_pool=["rebelde"], es_portal=False)
+        world.liminal_system.hexes        = [lhex]
+        world.liminal_system._initialized = True
+        world.liminal_system._last_events = []
+
+        # Snapshots de arquetipos antes
+        before = {a.id: {attr: getattr(a.archetypes, attr, 0.3)
+                          for attr in ["heroe","sombra","sabio","rebelde"]}
+                  for a in agents}
+
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        # Múltiples días para que el efecto sea visible
+        for _ in range(20):
+            core._process_liminal_hex_effects(tp, world.liminal_system)
+
+        changed = 0
+        for a in agents:
+            for attr in ["heroe", "sombra", "sabio", "rebelde"]:
+                if attr == a.archetypes.dominant():
+                    continue
+                if abs(getattr(a.archetypes, attr) - before[a.id][attr]) > 1e-6:
+                    changed += 1
+        assert changed > 0
+
+    def test_sueno_liminal_inyecta_simbolo_ajeno(self):
+        """Agente adyacente a hex liminal puede recibir resonancia de su symbol_pool."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe(world, core, "t_dream", posicion=(5, 5))
+
+        lhex = LiminalHexData((5,5), "cueva", misterio=1.0,
+                               symbol_pool=["gobernante"], es_portal=False)
+        world.liminal_system.hexes        = [lhex]
+        world.liminal_system._initialized = True
+
+        # Forzar RNG para activar resonancia onírica
+        core._rng = type("R", (), {"random": lambda s: 0.0,
+                                    "choice": lambda s, seq: seq[0],
+                                    "gauss": lambda s,a,b: 0.0})()
+
+        received_symbols = []
+        original_process = agents[0]._process_dream
+        def spy_dream(dia, bioma="tierra", resonancia_grupal=None):
+            received_symbols.append(resonancia_grupal)
+            return original_process(dia, bioma=bioma, resonancia_grupal=resonancia_grupal)
+
+        agents[0]._process_dream = spy_dream
+        core._process_nightly_dreams(dia=1)
+
+        assert "gobernante" in received_symbols

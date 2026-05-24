@@ -213,6 +213,11 @@ class AgentCore:
         # 3g. Celos y conflicto de vínculo (Hito 7)
         self._process_jealousy(tp)
 
+        # 3h. Efectos de hexes liminales: inyección autónoma + amplificación arq. (Hito 8)
+        liminal_sys = getattr(self.world_ref, "liminal_system", None)
+        if liminal_sys is not None:
+            self._process_liminal_hex_effects(tp, liminal_sys)
+
         # 3f. Fauna simbólica: depredadores, fauna rara, migración (Hito 6)
         fauna_sys = getattr(self.world_ref, "fauna_symbolic", None)
         if fauna_sys is not None:
@@ -645,6 +650,10 @@ class AgentCore:
                 resonances[receiver_id] = shared_sym
 
         # Generar sueños con bioma y resonancia inyectados
+        # Resonancia onírica liminal: hexes liminales adyacentes inyectan símbolos
+        # ajenos al ICL actual → sueños "inexplicables" (Hito 8)
+        liminal_sys = getattr(self.world_ref, "liminal_system", None)
+
         for aid, agent in self.agents.items():
             if not agent.is_alive:
                 continue
@@ -654,10 +663,21 @@ class AgentCore:
                 if hx is not None:
                     bioma = hx.biome
             agent.bioma_actual = bioma
+
+            resonancia = resonances.get(aid)
+            # Si el agente duerme adyacente a un hex liminal, puede soñar con un
+            # símbolo del pool que no proviene de ningún compañero (fenómeno no trazable)
+            if liminal_sys is not None and resonancia is None:
+                nearby = liminal_sys.nearby_hexes(agent.posicion, radius=1)
+                for lhex in nearby:
+                    if lhex.symbol_pool and self._rng.random() < lhex.misterio * 0.35:
+                        resonancia = self._rng.choice(lhex.symbol_pool)
+                        break
+
             agent._process_dream(
                 dia,
                 bioma             = bioma,
-                resonancia_grupal = resonances.get(aid),
+                resonancia_grupal = resonancia,
             )
 
     # ── Hito 4: Error Epistemológico y Percepción Limitada ────────────────────
@@ -1177,6 +1197,69 @@ class AgentCore:
             )
 
     # ── Fin Hito 7 ─────────────────────────────────────────────────────────────
+
+    # ── Hito 8: Zonas Liminales Expandidas ───────────────────────────────────
+
+    def _process_liminal_hex_effects(self, tp: TimePoint, liminal_sys) -> None:
+        """
+        Aplica efectos de hexes liminales sobre agentes y campo colectivo.
+
+        1. Inyección autónoma de símbolos ICL (sin origen en ningún agente → superstición).
+        2. Amplificación no lineal de arquetipos dormidos en visitantes cercanos.
+        Ambos efectos contribuyen a perfiles arquetípicos más extremos y mayor
+        tasa de proto-mitos en visitantes frecuentes (criterio de salida Hito 8).
+        """
+        terrain = getattr(self.world_ref, "terrain", None)
+
+        # ── 1. Inyecciones autónomas → ICL + percepción ───────────────────────
+        for ev in liminal_sys._last_events:
+            coord   = ev["coord"]
+            symbol  = ev["symbol"]
+            misterio = ev["misterio"]
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+                dist = abs(agent.posicion[0] - coord[0]) + abs(agent.posicion[1] - coord[1])
+                if dist > 3:
+                    continue
+                perceived = agent._perception.witness(
+                    tipo        = "fenomeno_inexplicable",
+                    coord       = coord,
+                    intensidad  = misterio * 0.80,
+                    dia         = tp.dia_simulado,
+                    agent_coord = agent.posicion,
+                )
+                if perceived <= 0.0:
+                    continue
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.symbols[symbol]    = min(1.0, lf.symbols.get(symbol, 0.0) + perceived * 0.12)
+                lf.myth_pressure      = min(1.0, lf.myth_pressure + perceived * 0.08)
+                lf.confusion          = min(1.0, lf.confusion      + perceived * 0.05)
+
+        # ── 2. Amplificación no lineal de arquetipos ──────────────────────────
+        _arq_attrs = [
+            "heroe", "sombra", "madre", "padre", "sabio",
+            "trickster", "rebelde", "gobernante", "nino_divino",
+        ]
+        for lhex in liminal_sys.hexes:
+            cell = terrain.get(*lhex.coord) if terrain else None
+            if cell is None or not cell.explored:
+                continue
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+                dist = abs(agent.posicion[0] - lhex.coord[0]) + abs(agent.posicion[1] - lhex.coord[1])
+                if dist > 2:
+                    continue
+                dominant = agent.archetypes.dominant()
+                for arch in _arq_attrs:
+                    if arch == dominant:
+                        continue  # no amplificamos el dominante; solo los dormidos
+                    current = getattr(agent.archetypes, arch, 0.3)
+                    noise   = self._rng.gauss(0, lhex.misterio * 0.018)
+                    setattr(agent.archetypes, arch, max(0.0, min(1.0, current + noise)))
+
+    # ── Fin Hito 8 ─────────────────────────────────────────────────────────────
 
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():

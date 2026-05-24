@@ -9,6 +9,7 @@ from .grave_hex import GraveSystem
 from .substances import SubstanceSystem, SUBSTANCE_NAMES
 from .catastrophe import CatastropheEngine
 from .fauna_symbolic import SymbolicFaunaSystem
+from .liminal_hex import LiminalHexSystem
 import random
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
@@ -40,8 +41,11 @@ class WorldCore:
         self.substances  = SubstanceSystem()
         self.catastrophe      = CatastropheEngine(seed=seed + 13)
         self.fauna_symbolic   = SymbolicFaunaSystem(seed=seed + 17)
+        self.liminal_system   = LiminalHexSystem(seed=seed + 23)
         self._rng             = random.Random(seed + 7)
-        # Eventos de fauna simbólica del día actual (consumidos por AgentCore)
+        # Inicializar hexes liminales con el terreno ya generado
+        self.liminal_system.initialize(self.terrain)
+        # Eventos del día actual (consumidos por AgentCore)
         self._fauna_events:   list[dict] = []
 
         self._pending_actions:     list[WorldAction]       = []
@@ -73,6 +77,7 @@ class WorldCore:
         self._fauna_events = self.fauna_symbolic.on_day(
             tp.dia_simulado, tp.estacion, self.terrain, graves_active
         )
+        self.liminal_system.on_day(tp.dia_simulado, self.terrain)
         self.resources.daily_regeneration(tp.estacion, explored)
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
@@ -263,6 +268,7 @@ class WorldCore:
             action_results    = self._last_action_results,
             catastrofe_activa = self.catastrophe.get_snapshot_data(),
             fauna_simbolica   = self.fauna_symbolic.active_entities(),
+            liminal_hexes     = self.liminal_system.active_hexes(),
         )
 
     def _last_climate_state(self) -> ClimateState:
@@ -310,6 +316,7 @@ class WorldCore:
             "substances":       self.substances.to_dict(),
             "catastrophe":      self.catastrophe.to_dict(),
             "fauna_symbolic":   self.fauna_symbolic.to_dict(),
+            "liminal_system":   self.liminal_system.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -333,4 +340,8 @@ class WorldCore:
         if "fauna_symbolic" in data:
             self.fauna_symbolic = SymbolicFaunaSystem.from_dict(
                 data["fauna_symbolic"], seed=self._seed + 17
+            )
+        if "liminal_system" in data:
+            self.liminal_system = LiminalHexSystem.from_dict(
+                data["liminal_system"], seed=self._seed + 23
             )

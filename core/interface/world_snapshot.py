@@ -57,3 +57,7 @@ class WorldSnapshot:
     # ── Fauna simbólica activa (Hito 6) ──────────────────────────────────────
     # [{nombre, tipo, coord}] — entidades con comportamiento simbólico activas
     fauna_simbolica: list = field(default_factory=list)
+
+    # ── Hexágonos liminales (Hito 8) ─────────────────────────────────────────
+    # [{coord, biome, misterio, symbol_pool, es_portal}]
+    liminal_hexes: list = field(default_factory=list)
