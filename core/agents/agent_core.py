@@ -204,6 +204,11 @@ class AgentCore:
         if cat_engine is not None and cat_engine.active is not None:
             self._process_catastrophe_anxiety(tp, cat_engine)
 
+        # 3f. Fauna simbólica: depredadores, fauna rara, migración (Hito 6)
+        fauna_sys = getattr(self.world_ref, "fauna_symbolic", None)
+        if fauna_sys is not None:
+            self._process_symbolic_fauna(tp, fauna_sys)
+
         # 3e. Orfandad: infantes cuyos dos padres han muerto
         for agent in list(self.agents.values()):
             if not agent.is_alive or not agent.es_infante or agent._padres is None:
@@ -899,6 +904,162 @@ class AgentCore:
                             ),
                             intensidad          = cat.severidad,
                         )
+
+    # ── Hito 6: Fauna como Actor Simbólico ───────────────────────────────────
+
+    def _process_symbolic_fauna(self, tp: TimePoint, fauna_sys) -> None:
+        """
+        Procesa efectos de fauna simbólica sobre agentes y campo colectivo.
+
+        1. Ataques de depredador → muerte registrada + inyección de 'sombra' en ICL.
+           Dos kills en 7 días → boost fuerte: ('muerte','sombra') → cosmogonia emergente.
+        2. Fauna rara → percepción de fenomeno_inexplicable para agentes cercanos.
+        3. Fauna migratoria recurrente (≥2 apariciones) → registro en CulturalMemory
+           como proto-calendario.
+        4. Carroñeros cerca de tumbas → amplifican carga simbólica del GraveHex.
+        """
+        terrain = getattr(self.world_ref, "terrain", None)
+
+        # ── 1. Ataques de depredador ───────────────────────────────────────────
+        alive_pos = [
+            (a.id, a.posicion, self.tribe_manager.get_tribe_id(a.id) or "")
+            for a in self.agents.values()
+            if a.is_alive and not a.in_liminal
+        ]
+        attacks = fauna_sys.check_predator_attacks(tp.dia_simulado, alive_pos)
+        killed_ids: set[str] = set()
+        for atk in attacks:
+            agent = self.agents.get(atk["agent_id"])
+            if agent is None or not agent.is_alive or agent.id in killed_ids:
+                continue
+            killed_ids.add(agent.id)
+            self._register_death(agent, tp, f"depredador_{atk['fauna_nombre']}")
+
+            # Inyectar 'sombra' en el campo tribal: el predador es la sombra encarnada
+            tribe_id = atk["tribe_id"]
+            lf = self.tribe_manager.local_fields.get(tribe_id) or self.collective_field
+            charge = fauna_sys.symbolic_charge(
+                atk["fauna_nombre"], tribe_id,
+                biome=terrain.get(*atk["coord"]).biome if terrain else "",
+            )
+            lf.symbols["sombra"] = min(1.0, lf.symbols.get("sombra", 0.0) + charge * 0.35)
+            fauna_sys.register_sighting(tribe_id, atk["fauna_nombre"])
+
+            # Dos kills en 7 días → boost que cataliza crystallización
+            if fauna_sys.kills_last_7_days(tribe_id) >= 2:
+                lf.myth_pressure  = min(1.0, lf.myth_pressure  + 0.25)
+                lf.symbols["muerte"] = min(1.0, lf.symbols.get("muerte", 0.0) + 0.30)
+                lf.symbols["heroe"]  = min(1.0, lf.symbols.get("heroe",  0.0) + 0.15)
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is not None:
+                    cmem.record_event(
+                        dia                 = tp.dia_simulado,
+                        agente_nombre       = agent.nombre,
+                        arquetipo_dominante = "sombra",
+                        tipo_evento         = "depredador_doble_muerte",
+                        descripcion         = (
+                            f"El {atk['fauna_nombre']} mató dos veces en siete días. "
+                            f"La tribu entró en pánico el día {tp.dia_simulado}."
+                        ),
+                        intensidad          = 0.90,
+                    )
+
+        # ── 2. Fauna rara y carroñeros cerca de agentes ───────────────────────
+        snap = getattr(self.world_ref, "current_snapshot", None)
+        fauna_activa = snap.fauna_simbolica if snap is not None else fauna_sys.active_entities()
+
+        for fauna_info in fauna_activa:
+            tipo   = fauna_info.get("tipo", "")
+            nombre = fauna_info.get("nombre", "")
+            fcoord = tuple(fauna_info.get("coord", [0, 0]))
+            biome  = ""
+            if terrain is not None:
+                hx = terrain.get(*fcoord)
+                biome = hx.biome if hx else ""
+
+            # Fauna rara: avistamiento carga fuertemente el ICL de tribus cercanas
+            if tipo == "raro":
+                for agent in self.agents.values():
+                    if not agent.is_alive:
+                        continue
+                    dist = abs(agent.posicion[0] - fcoord[0]) + abs(agent.posicion[1] - fcoord[1])
+                    if dist > 5:
+                        continue
+                    tribe_id = self.tribe_manager.get_tribe_id(agent.id) or ""
+                    charge = fauna_sys.symbolic_charge(nombre, tribe_id, biome)
+                    fauna_sys.register_sighting(tribe_id, nombre)
+
+                    perceived = agent._perception.witness(
+                        tipo        = "fenomeno_inexplicable",
+                        coord       = fcoord,
+                        intensidad  = charge,
+                        dia         = tp.dia_simulado,
+                        agent_coord = agent.posicion,
+                    )
+                    arch      = agent.archetypes.dominant()
+                    amplified = agent._perception.perceived_intensity(
+                        "fenomeno_inexplicable", perceived, arch
+                    )
+                    lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                    lf.myth_pressure = min(1.0, lf.myth_pressure + amplified * 0.15)
+                    lf.symbols["sabio"] = min(
+                        1.0, lf.symbols.get("sabio", 0.0) + amplified * 0.10
+                    )
+
+            # Carroñeros: amplifican carga simbólica de tumbas cercanas
+            elif tipo == "carronero":
+                graves = getattr(self.world_ref, "graves", None)
+                if graves is not None:
+                    for gcoord, carga, _ in self.world_ref.graves.active_sites():
+                        dist = abs(gcoord[0] - fcoord[0]) + abs(gcoord[1] - fcoord[1])
+                        if dist <= 3:
+                            graves.boost_at(gcoord, delta=0.02)
+
+        # ── 3. Fauna migratoria recurrente → proto-calendario ─────────────────
+        for fauna_info in fauna_activa:
+            if fauna_info.get("tipo") != "migratorio":
+                continue
+            nombre = fauna_info.get("nombre", "")
+            if fauna_sys.migration_recurrences(nombre) < 2:
+                continue
+            # Registrar en memoria cultural de todas las tribus que la han observado
+            for tribe_id, obs in fauna_sys._tribe_obs.items():
+                if obs.get(nombre, 0) < 1:
+                    continue
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is None:
+                    continue
+                # Solo registrar una vez por estación (evitar spam)
+                existing = [r for r in cmem.records
+                            if r.tipo_evento == "migracion_recurrente"
+                            and nombre in r.descripcion
+                            and tp.dia_simulado - r.dia_origen <= 90]
+                if existing:
+                    continue
+                lf = self.tribe_manager.local_fields.get(tribe_id)
+                lf_ref = lf or self.collective_field
+                lf_ref.symbols["sabio"] = min(
+                    1.0, lf_ref.symbols.get("sabio", 0.0) + 0.08
+                )
+                # Buscar un representante de la tribu para el registro
+                primer = next(
+                    (self.agents[aid].nombre
+                     for aid in self.tribe_manager.tribes.get(tribe_id, [])
+                     if aid in self.agents and self.agents[aid].is_alive),
+                    "tribu",
+                )
+                cmem.record_event(
+                    dia                 = tp.dia_simulado,
+                    agente_nombre       = primer,
+                    arquetipo_dominante = "sabio",
+                    tipo_evento         = "migracion_recurrente",
+                    descripcion         = (
+                        f"El {nombre} regresó otra vez. "
+                        f"La tribu observó su {fauna_sys.migration_recurrences(nombre)}ª aparición "
+                        f"el día {tp.dia_simulado}."
+                    ),
+                    intensidad          = 0.55,
+                )
 
     # ── Fin Hito 5 ─────────────────────────────────────────────────────────────
 

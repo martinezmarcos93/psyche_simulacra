@@ -53,3 +53,7 @@ class WorldSnapshot:
 
     # ── Catástrofe activa (Hito 5) ───────────────────────────────────────────
     catastrofe_activa: dict | None = None
+
+    # ── Fauna simbólica activa (Hito 6) ──────────────────────────────────────
+    # [{nombre, tipo, coord}] — entidades con comportamiento simbólico activas
+    fauna_simbolica: list = field(default_factory=list)

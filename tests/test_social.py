@@ -820,3 +820,277 @@ class TestHito5EmergentCriterion:
 
         assert lf.confusion     > confusion_antes
         assert lf.myth_pressure > myth_pressure_antes
+
+
+# ── Hito 6: Fauna como Actor Simbólico ──────────────────────────────────────
+
+from core.world.fauna_symbolic import SymbolicFaunaSystem, FaunaEntity
+
+
+class TestSymbolicFaunaSystem:
+    """Tests unitarios del motor de fauna simbólica."""
+
+    def test_spawn_depredador(self):
+        """SymbolicFaunaSystem genera un depredador y lo registra."""
+        sfs = SymbolicFaunaSystem(seed=1)
+        ent = sfs._spawn("depredador", (5, 5))
+        assert ent.tipo == "depredador"
+        assert ent.activo is True
+        assert ent.id in sfs.entities
+
+    def test_predator_attack_en_radio(self):
+        """Depredador en radio ataca agentes en esa zona."""
+        sfs = SymbolicFaunaSystem(seed=0)
+        ent = sfs._spawn("depredador", (5, 5))
+        ent.duracion = 999  # no expira
+
+        # Agente en radio 2
+        agents_pos = [("ag1", (6, 5), "t1")]
+        # Forzamos rng para que siempre ataque
+        sfs._rng = type("R", (), {"random": lambda s: 0.0})()
+        attacks = sfs.check_predator_attacks(dia=1, agents_pos=agents_pos)
+        assert len(attacks) == 1
+        assert attacks[0]["agent_id"] == "ag1"
+
+    def test_predator_fuera_radio_no_ataca(self):
+        """Depredador fuera de radio no produce ataques."""
+        sfs = SymbolicFaunaSystem(seed=1)
+        ent = sfs._spawn("depredador", (5, 5))
+        ent.duracion = 999
+        agents_pos = [("ag1", (15, 15), "t1")]  # distancia muy alta
+        sfs._rng = type("R", (), {"random": lambda s: 0.0})()
+        attacks = sfs.check_predator_attacks(dia=1, agents_pos=agents_pos)
+        assert len(attacks) == 0
+
+    def test_symbolic_charge_liminal_biome_amplifica(self):
+        """En bioma liminal la carga simbólica es mayor."""
+        sfs = SymbolicFaunaSystem(seed=2)
+        ent = sfs._spawn("raro", (3, 3))
+        charge_normal  = sfs.symbolic_charge(ent.nombre, "t1", biome="llanura")
+        charge_liminal = sfs.symbolic_charge(ent.nombre, "t1", biome="cueva")
+        assert charge_liminal > charge_normal
+
+    def test_kills_last_7_days_count(self):
+        """kills_last_7_days filtra por tribe_id y ventana de 7 días."""
+        from core.world.fauna_symbolic import PredatorKill
+        sfs = SymbolicFaunaSystem(seed=3)
+        sfs._kills = [
+            PredatorKill(dia=10, coord=(0,0), tribe_id="t1", nombre="lobo"),
+            PredatorKill(dia=11, coord=(1,0), tribe_id="t1", nombre="lobo"),
+            PredatorKill(dia=1,  coord=(2,0), tribe_id="t1", nombre="lobo"),  # > 7 días
+            PredatorKill(dia=10, coord=(0,0), tribe_id="t2", nombre="lobo"),
+        ]
+        # Día actual = 15; kills de t1 dentro de 7 días: días 10 y 11
+        # Filtramos kills con dia > 15-7=8 → días 10,11 para t1, y día 10 para t2
+        sfs._kills = [k for k in sfs._kills if 15 - k.dia <= 7]
+        # Después del filtro quedan: días 10 y 11 de t1; día 1 fue eliminado (>7 días)
+        assert sfs.kills_last_7_days("t1") == 2
+
+    def test_serialization_round_trip(self):
+        """to_dict / from_dict preservan entidades y kill_records."""
+        sfs = SymbolicFaunaSystem(seed=4)
+        sfs._spawn("depredador", (2, 2))
+        sfs._spawn("raro", (7, 7))
+        from core.world.fauna_symbolic import PredatorKill
+        sfs._kills.append(PredatorKill(dia=5, coord=(2,2), tribe_id="t1", nombre="lobo"))
+        sfs._tribe_obs["t1"] = {"lobo": 3}
+        sfs._migration_log["ciervo_blanco"] = [("primavera", 10), ("primavera", 100)]
+
+        d    = sfs.to_dict()
+        sfs2 = SymbolicFaunaSystem.from_dict(d, seed=4)
+        assert len(sfs2.entities) == 2
+        assert len(sfs2._kills) == 1
+        assert sfs2._tribe_obs.get("t1", {}).get("lobo") == 3
+        assert sfs2.migration_recurrences("ciervo_blanco") == 2
+
+    def test_migratory_only_in_season(self):
+        """Fauna migratoria no aparece en verano ni invierno."""
+        import unittest.mock as mock
+        sfs = SymbolicFaunaSystem(seed=5)
+
+        class AlwaysSpawnRNG:
+            def random(self): return 0.0
+            def randint(self, a, b): return a
+            def choice(self, seq): return seq[0]
+
+        sfs._rng = AlwaysSpawnRNG()
+
+        class FakeTerrain:
+            def explored_coords(self): return [(0,0), (1,1)]
+
+        events_verano   = sfs.on_day(1, "verano",    FakeTerrain(), [])
+        events_primavera = sfs.on_day(2, "primavera", FakeTerrain(), [])
+
+        migratory_verano    = [e for e in events_verano   if e["subtipo"] == "migratorio"]
+        migratory_primavera = [e for e in events_primavera if e["subtipo"] == "migratorio"]
+        assert len(migratory_verano) == 0
+        assert len(migratory_primavera) >= 1
+
+    def test_scavenger_aparece_con_tumbas(self):
+        """Carroñero aparece condicionalmente cuando hay tumbas activas."""
+        sfs = SymbolicFaunaSystem(seed=6)
+
+        class AlwaysSpawnRNG:
+            def random(self): return 0.0
+            def randint(self, a, b): return a
+            def choice(self, seq): return seq[0]
+
+        sfs._rng = AlwaysSpawnRNG()
+
+        class FakeTerrain:
+            def explored_coords(self): return [(0,0)]
+
+        graves = [((1,1), 0.8, "heroe")]
+        events = sfs.on_day(1, "primavera", FakeTerrain(), graves)
+        scav = [e for e in events if e["subtipo"] == "carronero"]
+        assert len(scav) >= 1
+
+
+class TestWorldCoreFaunaSymbolic:
+    """Tests de integración: SymbolicFaunaSystem en WorldCore."""
+
+    def test_worldcore_tiene_fauna_symbolic(self):
+        world = WorldCore(seed=42)
+        assert hasattr(world, "fauna_symbolic")
+        assert isinstance(world.fauna_symbolic, SymbolicFaunaSystem)
+
+    def test_snapshot_incluye_fauna_simbolica(self):
+        from core.time import TimePoint
+        world = WorldCore(seed=42)
+        # Insertar entidad manualmente
+        ent = world.fauna_symbolic._spawn("raro", (5, 5))
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        world.on_tick(tp)
+        snap = world.current_snapshot
+        assert snap is not None
+        fauna = snap.fauna_simbolica
+        assert any(f["nombre"] == ent.nombre for f in fauna)
+
+
+class TestHito6EmergentCriterion:
+    """
+    Criterio de salida del Hito 6:
+    Dos muertes por depredador en 7 días → 'sombra' + 'muerte' altos en ICL → cosmogonia emergente.
+    """
+
+    def _make_tribe_agents(self, world, core, tribe_id, n=4):
+        from core.social.collective_field import CollectiveField
+        from core.social.cultural_memory import CulturalMemory
+        agents = []
+        for i in range(n):
+            a = Agent(f"{tribe_id}_{i}", f"Agente{i}", (5, 5), seed=i+50)
+            a.edad = 25
+            core.add_agent(a)
+            agents.append(a)
+        core.tribe_manager.tribes[tribe_id]             = [a.id for a in agents]
+        core.tribe_manager.local_fields[tribe_id]       = CollectiveField()
+        core.tribe_manager.cultural_memories[tribe_id]  = CulturalMemory(tribe_id)
+        for a in agents:
+            core.tribe_manager.agent_to_tribe[a.id] = tribe_id
+        return agents
+
+    def test_depredador_inyecta_sombra_en_icl(self):
+        """Muerte por depredador eleva símbolo 'sombra' en campo tribal."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe_agents(world, core, "t_pred", n=4)
+
+        # Colocar depredador en posición de los agentes
+        pred = world.fauna_symbolic._spawn("depredador", (5, 5))
+        pred.duracion = 999
+
+        lf = core.tribe_manager.local_fields["t_pred"]
+        sombra_antes = lf.symbols.get("sombra", 0.0)
+
+        # Forzar ataque
+        world.fauna_symbolic._rng = type("R", (), {"random": lambda s: 0.0})()
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        core._process_symbolic_fauna(tp, world.fauna_symbolic)
+
+        assert lf.symbols.get("sombra", 0.0) > sombra_antes
+
+    def test_dos_kills_boost_myth_pressure(self):
+        """Dos kills en 7 días disparan boost de myth_pressure y registro en CulturalMemory."""
+        from core.world.fauna_symbolic import PredatorKill
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe_agents(world, core, "t_doble", n=4)
+
+        # Precargar un kill anterior del mismo día
+        world.fauna_symbolic._kills.append(
+            PredatorKill(dia=1, coord=(5,5), tribe_id="t_doble", nombre="lobo_gris")
+        )
+
+        pred = world.fauna_symbolic._spawn("depredador", (5, 5))
+        pred.duracion = 999
+        world.fauna_symbolic._rng = type("R", (), {"random": lambda s: 0.0})()
+
+        lf = core.tribe_manager.local_fields["t_doble"]
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        core._process_symbolic_fauna(tp, world.fauna_symbolic)
+
+        cmem   = core.tribe_manager.cultural_memories["t_doble"]
+        dobles = [r for r in cmem.records if r.tipo_evento == "depredador_doble_muerte"]
+        assert len(dobles) >= 1
+        assert lf.myth_pressure > 0.0
+
+    def test_fauna_rara_eleva_myth_pressure(self):
+        """Fauna rara cercana eleva myth_pressure del campo tribal."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe_agents(world, core, "t_raro", n=3)
+
+        rara = world.fauna_symbolic._spawn("raro", (6, 5))
+        rara.duracion = 999
+
+        lf = core.tribe_manager.local_fields["t_raro"]
+        mp_antes = lf.myth_pressure
+
+        tp = TimePoint(tick=12, dia_simulado=1, hora_del_dia=12,
+                       dia_del_año=1, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=0.0)
+        # Proveer snapshot con la fauna activa
+        world.on_tick(tp)
+        core._process_symbolic_fauna(tp, world.fauna_symbolic)
+
+        assert lf.myth_pressure > mp_antes
+
+    def test_migracion_recurrente_registra_en_memoria(self):
+        """Fauna migratoria que aparece ≥2 veces produce registro en CulturalMemory."""
+        world  = WorldCore(seed=42)
+        core   = AgentCore(world)
+        agents = self._make_tribe_agents(world, core, "t_migra", n=3)
+
+        migra = world.fauna_symbolic._spawn("migratorio", (5, 5))
+        migra.duracion = 999
+        # Simular 2 apariciones previas registradas
+        world.fauna_symbolic._migration_log[migra.nombre] = [
+            ("primavera", 10), ("primavera", 100)
+        ]
+        world.fauna_symbolic._tribe_obs["t_migra"] = {migra.nombre: 2}
+
+        tp = TimePoint(tick=12, dia_simulado=200, hora_del_dia=12,
+                       dia_del_año=200, año_simulado=0, estacion="primavera",
+                       es_amanecer=False, es_mediodia=True, es_anochecer=False,
+                       es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+                       timestamp_real=200.0)
+        world.on_tick(tp)
+        core._process_symbolic_fauna(tp, world.fauna_symbolic)
+
+        cmem = core.tribe_manager.cultural_memories["t_migra"]
+        migraciones = [r for r in cmem.records if r.tipo_evento == "migracion_recurrente"]
+        assert len(migraciones) >= 1

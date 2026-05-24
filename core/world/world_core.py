@@ -8,6 +8,7 @@ from .fire import FireSystem
 from .grave_hex import GraveSystem
 from .substances import SubstanceSystem, SUBSTANCE_NAMES
 from .catastrophe import CatastropheEngine
+from .fauna_symbolic import SymbolicFaunaSystem
 import random
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
@@ -37,8 +38,11 @@ class WorldCore:
         self.fire        = FireSystem(seed=seed)
         self.graves      = GraveSystem()
         self.substances  = SubstanceSystem()
-        self.catastrophe = CatastropheEngine(seed=seed + 13)
-        self._rng        = random.Random(seed + 7)
+        self.catastrophe      = CatastropheEngine(seed=seed + 13)
+        self.fauna_symbolic   = SymbolicFaunaSystem(seed=seed + 17)
+        self._rng             = random.Random(seed + 7)
+        # Eventos de fauna simbólica del día actual (consumidos por AgentCore)
+        self._fauna_events:   list[dict] = []
 
         self._pending_actions:     list[WorldAction]       = []
         self._last_action_results: dict[str, ActionResult] = {}
@@ -65,6 +69,10 @@ class WorldCore:
         explored = self.terrain.explored_coords()
         climate  = self._last_climate_state()
         self.catastrophe.on_day(tp.dia_simulado, tp.estacion, self.terrain, self.graves)
+        graves_active = self.graves.active_sites()
+        self._fauna_events = self.fauna_symbolic.on_day(
+            tp.dia_simulado, tp.estacion, self.terrain, graves_active
+        )
         self.resources.daily_regeneration(tp.estacion, explored)
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
@@ -254,6 +262,7 @@ class WorldCore:
             graves_activos    = self.graves.active_sites(),
             action_results    = self._last_action_results,
             catastrofe_activa = self.catastrophe.get_snapshot_data(),
+            fauna_simbolica   = self.fauna_symbolic.active_entities(),
         )
 
     def _last_climate_state(self) -> ClimateState:
@@ -300,6 +309,7 @@ class WorldCore:
             "graves":           self.graves.to_dict(),
             "substances":       self.substances.to_dict(),
             "catastrophe":      self.catastrophe.to_dict(),
+            "fauna_symbolic":   self.fauna_symbolic.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -319,4 +329,8 @@ class WorldCore:
         if "catastrophe" in data:
             self.catastrophe = CatastropheEngine.from_dict(
                 data["catastrophe"], seed=self._seed + 13
+            )
+        if "fauna_symbolic" in data:
+            self.fauna_symbolic = SymbolicFaunaSystem.from_dict(
+                data["fauna_symbolic"], seed=self._seed + 17
             )
