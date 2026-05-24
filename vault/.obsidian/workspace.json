@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08f0fb473509655b",
+        "id": "2b769a8570e317ad",
         "type": "tabs",
         "children": [
           {
-            "id": "f095bce86de16e01",
+            "id": "ab60b4c0925ea575",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -176,9 +176,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "f095bce86de16e01",
+  "active": "ab60b4c0925ea575",
   "lastOpenFiles": [
+    "Tribus/tribe_hector.md",
+    "Meta/Simulacion_Log.md",
+    "Tribus/tribe_okaios.md",
     "Personas/adras.md",
+    "Colectivo/Mitologia.md",
+    "Colectivo/Inconsciente_Colectivo.md",
+    "Colectivo/Cultura_Material.md",
     "Colectivo/Leyendas/dia_06300_cronica_tribe_bron.md",
     "Colectivo/Leyendas/dia_00012_elegia_graia.md",
     "Colectivo/Leyendas/dia_00100_cronica_tribe_adras.md",
@@ -187,19 +193,15 @@
     "Colectivo/Leyendas/dia_00000_fundacion_tribe_cephalos.md",
     "Colectivo/Leyendas/dia_00000_cronica_tribe_perion.md",
     "Colectivo/Leyendas/dia_00000_cronica_tribe_adras.md",
-    "Meta/Simulacion_Log.md",
     "Colectivo/Leyendas/dia_20630_cronica_tribe_hijo_002.md",
     "Tribus/tribe_bron.md",
     "Personas/hijo_003.md",
     "Colectivo/Leyendas/dia_23130_cronica_tribe_hijo_000.md",
     "Colectivo/Leyendas/dia_00200_cronica_tribe_calix.md",
-    "Colectivo/Cultura_Material.md",
     "Tribus/tribe_hijo_006.md",
     "Tribus/tribe_hijo_007.md",
     "Tribus/tribe_aglaia.md",
     "Tribus/tribe_adras.md",
-    "Colectivo/Mitologia.md",
-    "Colectivo/Inconsciente_Colectivo.md",
     "Personas/kore.md",
     "Personas/arete.md"
   ]

@@ -83,6 +83,9 @@ class Agent:
         self._dias_hambre_critica = 0
         self._dias_sed_critica    = 0
 
+        # Última posición conocida donde se encontró agua (navegación de emergencia)
+        self._last_known_water: tuple[int, int] | None = None
+
         # Ciclo de vida
         self._padres:                tuple[str, str] | None = None
         self._cooldown_reproduccion: int = 0
@@ -483,7 +486,33 @@ class Agent:
                         priority = 0.9,
                     )
 
+        # Sin agua en radio 2: navegar hacia la última fuente conocida, o explorar
+        if self._last_known_water is not None and self._last_known_water != self.posicion:
+            target = self._step_toward(self._last_known_water)
+            self.posicion = target
+            return WorldAction(
+                agent_id = self.id,
+                tick     = tp.tick,
+                type     = ActionType.MOVERSE,
+                coord    = target,
+                params   = {},
+                priority = 0.85,
+            )
         return self._explore_action(tp, snapshot)
+
+    def _step_toward(self, target: tuple[int, int]) -> tuple[int, int]:
+        """Avanza un hex en dirección al objetivo usando distancia Manhattan."""
+        tq, tr = target
+        q, r   = self.posicion
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, -1), (-1, 1)]
+        best = min(
+            directions,
+            key=lambda d: abs((q + d[0]) - tq) + abs((r + d[1]) - tr),
+        )
+        nq, nr = q + best[0], r + best[1]
+        if 0 <= nq < 80 and 0 <= nr < 60:
+            return (nq, nr)
+        return self.posicion
 
     def _hunt_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
         coord  = self.posicion
@@ -553,6 +582,7 @@ class Agent:
                 self.needs.eat(qty * _COMIDA_POR_RECOLECTA)
             elif rtype in water_types:
                 self.needs.drink(qty * _AGUA_POR_BEBER)
+                self._last_known_water = self.posicion
 
     # ── Acceso psicológico rápido ─────────────────────────────────────────────
 
@@ -591,6 +621,7 @@ class Agent:
     def to_dict(self) -> dict:
         return {
             **self.snapshot(),
+            "last_known_water":  list(self._last_known_water) if self._last_known_water else None,
             "episodic_log":      list(self.episodic_log),
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
@@ -631,6 +662,8 @@ class Agent:
         a.ansiedad = data.get("ansiedad", 0.2)
         a._dias_hambre_critica       = data.get("dias_hambre_critica", 0)
         a._dias_sed_critica          = data.get("dias_sed_critica", 0)
+        lkw                          = data.get("last_known_water")
+        a._last_known_water          = tuple(lkw) if lkw else None
         padres_raw                   = data.get("padres")
         a._padres                    = tuple(padres_raw) if padres_raw else None
         a._cooldown_reproduccion     = data.get("cooldown_reproduccion", 0)

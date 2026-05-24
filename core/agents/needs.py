@@ -5,7 +5,7 @@ from dataclasses import dataclass, field
 # Decay per tick while awake
 _HAMBRE_DECAY_WAKING  = 0.020
 _FATIGA_DECAY_WAKING  = 0.035
-_SED_DECAY_WAKING     = 0.040
+_SED_DECAY_WAKING     = 0.030
 
 # Decay per tick while sleeping
 _HAMBRE_DECAY_SLEEPING = 0.008

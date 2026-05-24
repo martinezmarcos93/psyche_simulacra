@@ -8,6 +8,12 @@ from .fire import FireSystem
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
 
+_WATER_TYPES = frozenset([
+    "agua", "agua_lluvia", "agua_fresca",
+    "agua_subterranea", "agua_salobre", "nieve",
+])
+_HEX_RING1 = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, -1), (-1, 1)]
+
 
 class WorldCore:
     """
@@ -145,6 +151,23 @@ class WorldCore:
             coord: self.resources.get_hex_summary(coord)
             for coord in explored
         }
+
+        # Incluir hexes frontera (no explorados adyacentes a explorados) mostrando
+        # solo recursos de agua, para que los agentes puedan navegar hacia el agua
+        # incluso antes de explorar ese hex.
+        explored_set = set(explored)
+        seen_frontier: set[tuple[int, int]] = set()
+        for (q, r) in explored:
+            for dq, dr in _HEX_RING1:
+                nc = (q + dq, r + dr)
+                if nc not in explored_set and nc not in seen_frontier \
+                        and 0 <= nc[0] < 80 and 0 <= nc[1] < 60:
+                    seen_frontier.add(nc)
+                    summary = self.resources.get_hex_summary(nc)
+                    water_data = {k: v for k, v in summary.items() if k in _WATER_TYPES}
+                    if water_data:
+                        recursos_por_hex[nc] = water_data
+
         fauna_visible = self.fauna.get_density_map(explored)
 
         carrying_cap = self.terrain.total_carrying_capacity()
