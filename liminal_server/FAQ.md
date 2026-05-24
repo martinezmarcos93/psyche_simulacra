@@ -105,7 +105,7 @@ La posición se calcula a partir del seed de la simulación, así siempre está 
 
 **¿El agente puede volver a su simulación?**
 
-No en la versión actual (Fase 3). El retorno está planificado para Fase 7.
+Sí. Tras 60 ticks liminales (~2 minutos) el servidor envía automáticamente al agente de vuelta a su simulación de origen. El agente reaparece en el hexágono del portal con un cooldown de 48 ticks para evitar reentrada inmediata. Los encuentros vividos en el liminal quedan grabados y afectan sus arquetipos, memoria episódica y próximo ciclo de sueños.
 
 **¿Los agentes en el liminal siguen envejeciendo, teniendo hambre, etc.?**
 

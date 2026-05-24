@@ -274,6 +274,7 @@ class TestMetricsExporter:
             dia=dia, kl_mean=0.1, kl_max=0.2,
             vfe_global=1.3, vfe_tribe_mean=1.1,
             imi=0.4, n_alive=10, n_tribes=2, n_structures=3,
+            mig=0.5,
         )
 
     def test_flush_crea_csv(self):
@@ -326,9 +327,9 @@ class TestMetricsExporter:
             exp = MetricsExporter(output_dir=tmpdir)
             # IMI: 0.0 y 1.0 → media=0.5
             m1 = DayMetrics(dia=1, kl_mean=0.0, kl_max=0.0, vfe_global=0.0,
-                            vfe_tribe_mean=0.0, imi=0.0, n_alive=5, n_tribes=1, n_structures=0)
+                            vfe_tribe_mean=0.0, imi=0.0, n_alive=5, n_tribes=1, n_structures=0, mig=0.0)
             m2 = DayMetrics(dia=2, kl_mean=0.0, kl_max=0.0, vfe_global=0.0,
-                            vfe_tribe_mean=0.0, imi=1.0, n_alive=5, n_tribes=2, n_structures=0)
+                            vfe_tribe_mean=0.0, imi=1.0, n_alive=5, n_tribes=2, n_structures=0, mig=0.0)
             exp.record(m1)
             exp.record(m2)
             exp.export_summary()

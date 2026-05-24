@@ -50,6 +50,10 @@ class Needs:
             self.fatiga  >= OVERRIDE_THRESHOLD
         )
 
+    def social_override_active(self) -> bool:
+        """El aislamiento es tan alto que el agente priorizará interacción social."""
+        return self.sociabilidad >= OVERRIDE_THRESHOLD
+
     def most_critical_need(self) -> str:
         """Returns the name of the most pressing need at or above override threshold."""
         candidates = {

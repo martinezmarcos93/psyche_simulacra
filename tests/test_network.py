@@ -76,7 +76,7 @@ class TestClimateSystem:
             dia_del_año=dia % 360, año_simulado=dia // 360,
             estacion=estacion,
             es_amanecer=(hora == 6), es_mediodia=(hora == 12),
-            es_anochecer=(hora == 20), es_medianoche=(hora == 0),
+            es_anochecer=(hora == 20), es_medianoche=(hora == 23),
             es_inicio_dia=(hora == 0), es_fin_dia=(hora == 23),
             timestamp_real=time.monotonic(),
         )

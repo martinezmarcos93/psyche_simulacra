@@ -98,7 +98,9 @@ class TestScheduleSystem:
 
     def test_default_day_activities(self):
         s = ScheduleSystem()
-        assert s.get_activity(7)  == "buscar_alimento"
+        assert s.get_activity(6)  == "buscar_agua"    # Bug #003: hora 6-7 son buscar_agua
+        assert s.get_activity(7)  == "buscar_agua"
+        assert s.get_activity(8)  == "buscar_alimento"
         assert s.get_activity(13) == "interactuar"
         assert s.get_activity(17) == "explorar"
 
@@ -151,7 +153,7 @@ def _make_tp(tick: int = 0, hora: int = 8) -> TimePoint:
         dia_del_año=dia % 360, año_simulado=dia // 360,
         estacion="primavera",
         es_amanecer=(hora == 6), es_mediodia=(hora == 12),
-        es_anochecer=(hora == 20), es_medianoche=(hora == 0),
+        es_anochecer=(hora == 20), es_medianoche=(hora == 23),
         es_inicio_dia=(hora == 0), es_fin_dia=(hora == 23),
         timestamp_real=time.monotonic(),
     )

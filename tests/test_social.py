@@ -6,7 +6,7 @@ from core.agents.agent import Agent
 from core.agents.agent_core import AgentCore
 from core.social.network import SocialNetwork
 from core.social.collective_field import CollectiveField
-from core.social.mythology import MythologyEngine
+from core.social.mythology import MythologyEngine, MythCrystal, ProtoMito
 from core.social.interaction import InteractionEngine
 from core.world import WorldCore
 from core.simulation import SimulationRunner
@@ -194,16 +194,23 @@ def test_mythology_crystallization():
     
     # Test checking crystallization before thresholds are met
     engine.check_crystallization(field, agents, dia=1)
-    assert engine.is_myth_active("heroe_vs_monstruo") is False
-    
-    # Set thresholds
+    assert len(engine.get_active_myths()) == 0
+
+    # Set thresholds and pre-load a proto-myth with enough coherencia to crystallize
     field.symbols["heroe"] = 0.80
     field.symbols["sombra"] = 0.70
-    
-    # Crystallize!
+    engine.proto_myths.append(ProtoMito(
+        tipo="mito_moral", par=("heroe", "sombra"), coherencia=5.0, dia_origen=0,
+        intensidad_contexto=0.80,  # intensidad_cristal = min(1.0, 0.80+0.20) = 1.0
+    ))
+
+    # Crystallize! — the generated name is "{tipo}_dia{n}"
     engine.check_crystallization(field, agents, dia=1)
-    assert engine.is_myth_active("heroe_vs_monstruo") is True
-    
+    active = engine.get_active_myths()
+    assert len(active) == 1
+    assert active[0].tipo == "mito_moral"
+    assert engine.is_myth_active(active[0].name) is True
+
     hero_id, monster_id = engine.get_myth_hero_monster()
     assert hero_id == "hero_agent"
     assert monster_id == "monster_agent"
@@ -242,13 +249,15 @@ def test_social_integration_and_serialization():
     core.collective_field.symbols["heroe"] = 0.65
     core.collective_field.emotional_pressure = 0.45
     
-    core.mythology_engine.active_myths.append({
-        "name": "heroe_vs_monstruo",
-        "active": True,
-        "day_crystallized": 3,
-        "hero_id": "a",
-        "monster_id": "b",
-    })
+    core.mythology_engine.active_myths.append(MythCrystal(
+        name="heroe_vs_monstruo",
+        tipo="mito_moral",
+        par=("heroe", "sombra"),
+        active=True,
+        day_crystallized=3,
+        protagonista_id="a",
+        antagonista_id="b",
+    ))
     
     # Serialize to dict
     serialized = core.to_dict()

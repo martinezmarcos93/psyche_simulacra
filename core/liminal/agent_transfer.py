@@ -22,6 +22,8 @@ logger = logging.getLogger("liminal.transfer")
 
 # Ticks de cooldown post-retorno: previene reentrada inmediata al portal
 _RETURN_COOLDOWN_TICKS = 48
+# Máximo de ticks esperando confirmación del servidor; tras este límite el agente se restaura
+_IN_TRANSIT_TIMEOUT = 480  # 20 días simulados
 
 # Símbolo de resonancia onírica según el arquetipo dominante del ser encontrado
 _ARCH_RESONANCE: dict[str, str] = {
@@ -58,7 +60,8 @@ class AgentTransferHandler:
         self._agents = agent_core
         self._portal = portal
         self._client = client
-        self._in_transit: set[str] = set()   # IDs enviados pero aún sin confirmación
+        self._in_transit: set[str] = set()      # IDs enviados pero aún sin confirmación
+        self._transit_ticks: dict[str, int] = {}  # agent_id → ticks acumulados en tránsito
         self._liminal_agents: dict[str, dict] = {}  # agent_id → datos del liminal
         self._return_cooldown: dict[str, int] = {}  # agent_id → ticks restantes post-retorno
 
@@ -67,11 +70,32 @@ class AgentTransferHandler:
     def on_tick(self, tp: TimePoint) -> None:
         # Decrementar cooldowns post-retorno; eliminar los expirados
         self._return_cooldown = {aid: t - 1 for aid, t in self._return_cooldown.items() if t > 1}
+        # Incrementar contadores de tránsito y recuperar agentes atascados
+        self._transit_ticks = {aid: t + 1 for aid, t in self._transit_ticks.items()}
+        self._recover_stuck_agents()
         self._check_portal_crossings()
         self._process_server_events()
 
     def on_day(self, tp: TimePoint) -> None:
         pass   # Reservado para futuras mecánicas (ej: retorno al mundo)
+
+    # ── Recuperación de agentes atascados ────────────────────────────────────
+
+    def _recover_stuck_agents(self) -> None:
+        """Restaura agentes que llevan demasiado tiempo sin recibir agent_placed."""
+        stuck = [aid for aid, t in self._transit_ticks.items() if t > _IN_TRANSIT_TIMEOUT]
+        for aid in stuck:
+            agent = self._agents.agents.get(aid)
+            if agent is not None:
+                agent.in_liminal = False
+                agent.posicion = self._portal.pos
+                self._return_cooldown[aid] = _RETURN_COOLDOWN_TICKS
+                logger.warning(
+                    f"Agente {aid[:12]}… recuperado del tránsito liminal por timeout "
+                    f"({_IN_TRANSIT_TIMEOUT} ticks sin agent_placed)"
+                )
+            self._in_transit.discard(aid)
+            self._transit_ticks.pop(aid, None)
 
     # ── Detección de cruces ───────────────────────────────────────────────────
 
@@ -93,16 +117,11 @@ class AgentTransferHandler:
         # Marcar como in_liminal — lo excluye del AgentCore desde el próximo tick
         agent.in_liminal = True
         self._in_transit.add(agent.id)
+        self._transit_ticks[agent.id] = 0
 
         # Serializar arquetipos y rasgos para el protocolo
-        archetypes = {k: round(v, 4) for k, v in agent.archetypes.weights.items()}
-        traits = {
-            "openness":          round(agent.traits.openness, 3),
-            "conscientiousness": round(agent.traits.conscientiousness, 3),
-            "extraversion":      round(agent.traits.extraversion, 3),
-            "agreeableness":     round(agent.traits.agreeableness, 3),
-            "neuroticism":       round(agent.traits.neuroticism, 3),
-        }
+        archetypes = {k: round(v, 4) for k, v in agent.archetypes.to_dict().items()}
+        traits = {k: round(v, 3) for k, v in agent.traits.to_dict().items()}
 
         # Obtener tribu si existe
         tribe_id = None
@@ -128,6 +147,7 @@ class AgentTransferHandler:
                 agent_id    = event.get("agent_id", "")
                 liminal_pos = event.get("liminal_pos", [0, 0])
                 self._in_transit.discard(agent_id)
+                self._transit_ticks.pop(agent_id, None)
                 self._liminal_agents[agent_id] = {
                     "pos":                tuple(liminal_pos),
                     "liminal_tick":       event.get("liminal_tick", 0),

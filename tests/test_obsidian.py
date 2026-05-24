@@ -3,7 +3,7 @@ import pytest
 from core.agents.agent import Agent
 from core.social.network import SocialNetwork
 from core.social.collective_field import CollectiveField
-from core.social.mythology import MythologyEngine
+from core.social.mythology import MythologyEngine, MythCrystal
 from core.time import TimePoint
 from core.simulation import SimulationRunner
 from obsidian.reader import ObsidianReader
@@ -111,13 +111,15 @@ def test_collective_and_mythology_writing(tmp_path) -> None:
     assert "▓" in content
     
     mythology = MythologyEngine()
-    mythology.active_myths.append({
-        "name": "heroe_vs_monstruo",
-        "active": True,
-        "day_crystallized": 3,
-        "hero_id": "kairos",
-        "monster_id": "moros"
-    })
+    mythology.active_myths.append(MythCrystal(
+        name="heroe_vs_monstruo",
+        tipo="mito_moral",
+        par=("heroe", "sombra"),
+        active=True,
+        day_crystallized=3,
+        protagonista_id="kairos",
+        antagonista_id="moros",
+    ))
     
     agents = {
         "kairos": Agent(agent_id="kairos", nombre="Kairos", posicion=(2, 3)),

@@ -23,8 +23,6 @@ _DIAS_SED_MUERTE      = 3
 _COMIDA_POR_RECOLECTA = 4.0
 _COMIDA_POR_CAZA      = 8.0
 _AGUA_POR_BEBER       = 5.0
-_DREAM_HORA           = 22   # se sueña en esta hora del día simulado
-
 # Ciclo de vida
 _EDAD_INFANCIA        = 15   # antes de esta edad el agente es dependiente
 _EDAD_VEJEZ_INICIO    = 50   # a partir de aquí hay riesgo de muerte por vejez
@@ -269,6 +267,8 @@ class Agent:
 
     def on_day(self, tp: TimePoint) -> None:
         """Llamado al inicio de cada nuevo día."""
+        if not self.is_alive:
+            return
         self.complexes.decay_day()
         # Activar complejos por contexto de supervivencia
         events: list[str] = []
@@ -306,6 +306,10 @@ class Agent:
             if critical == "fatiga":
                 return None
 
+        # Aislamiento crítico: el agente busca interacción aunque no sea su hora de socializar
+        if self.needs.social_override_active():
+            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados)
+
         # Colapso cuántico para decisiones no-críticas
         if actividad == "interactuar":
             return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados)
@@ -334,6 +338,9 @@ class Agent:
         Usa el motor cuántico para decidir la acción en horas sociales.
         Considera la influencia del campo colectivo y la presencia de aliados.
         """
+        # Interactuar satisface la necesidad social
+        self.needs.socialize()
+
         context = {
             "peligro":         snapshot.survival_risk,
             "recursos_escasos": snapshot.resource_pressure > 0.7,
@@ -386,7 +393,8 @@ class Agent:
                 )
             # Intentar agua local
             resources = snapshot.recursos_por_hex.get(coord, {})
-            water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea"]
+            water_sources = ["agua", "agua_lluvia", "agua_fresca", "agua_subterranea",
+                             "agua_salobre", "nieve"]
             for water in water_sources:
                 if resources.get(water, 0) > 0.1:
                     return WorldAction(
@@ -456,7 +464,16 @@ class Agent:
             for water in water_sources:
                 if resources.get(water, 0) > 0.1:
                     if coord != self.posicion:
+                        # Movimiento: un tick para llegar, recolectar el próximo
                         self.posicion = coord
+                        return WorldAction(
+                            agent_id = self.id,
+                            tick     = tp.tick,
+                            type     = ActionType.MOVERSE,
+                            coord    = coord,
+                            params   = {},
+                            priority = 0.8,
+                        )
                     return WorldAction(
                         agent_id = self.id,
                         tick     = tp.tick,

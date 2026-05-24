@@ -263,8 +263,11 @@ class AgentCore:
 
         # Nombre desde el pool, evitando repeticiones
         disponibles = [n for n in _NOMBRES_POOL if n.lower() not in self._nombres_usados]
-        nombre = disponibles[self._rng.randrange(len(disponibles))] if disponibles \
-            else f"Descendiente_{hijo_id}"
+        if disponibles:
+            nombre = disponibles[self._rng.randrange(len(disponibles))]
+        else:
+            nombre = f"Descendiente_{hijo_id}"
+            print(f"  [⚠️] Pool de nombres agotado — usando nombre genérico: {nombre}")
         self._nombres_usados.add(nombre.lower())
 
         sexo     = self._rng.choice(["M", "F"])
@@ -347,41 +350,47 @@ class AgentCore:
         # Calcular resonancias: agent_id → símbolo compartido | None
         resonances: dict[str, str | None] = {aid: None for aid in alive_ids}
 
-        for i, aid_a in enumerate(alive_ids):
-            for aid_b in alive_ids[i + 1:]:
-                edge_a = self.social_network.graph.get_edge_data(aid_a, aid_b, {})
-                edge_b = self.social_network.graph.get_edge_data(aid_b, aid_a, {})
-                bond = max(
-                    edge_a.get("bond_strength", 0.0),
-                    edge_b.get("bond_strength", 0.0),
-                )
-                entangled = edge_a.get("entangled", False) or edge_b.get("entangled", False)
-                same_tribe = (
-                    self.tribe_manager.agent_to_tribe.get(aid_a) ==
-                    self.tribe_manager.agent_to_tribe.get(aid_b)
-                    and self.tribe_manager.agent_to_tribe.get(aid_a) is not None
-                )
-                qualifies = entangled or bond > 0.65 or (same_tribe and bond > 0.35)
-                if not qualifies:
-                    continue
+        # O(E) en lugar de O(n²): iterar aristas del grafo social
+        # La condición same_tribe+bond>0.35 implica que existe arista → no se pierde ningún par
+        alive_set = set(alive_ids)
+        processed_pairs: set[frozenset] = set()
+        for aid_a, aid_b, edge_data in self.social_network.graph.edges(data=True):
+            if aid_a not in alive_set or aid_b not in alive_set:
+                continue
+            pair = frozenset((aid_a, aid_b))
+            if pair in processed_pairs:
+                continue
+            processed_pairs.add(pair)
 
-                a = self.agents[aid_a]
-                b = self.agents[aid_b]
-                if a.archetypes.fidelidad(b.archetypes) < 0.4 and not entangled:
-                    continue
+            edge_b = self.social_network.graph.get_edge_data(aid_b, aid_a, {})
+            bond = max(edge_data.get("bond_strength", 0.0), edge_b.get("bond_strength", 0.0))
+            entangled = edge_data.get("entangled", False) or edge_b.get("entangled", False)
+            same_tribe = (
+                self.tribe_manager.agent_to_tribe.get(aid_a) ==
+                self.tribe_manager.agent_to_tribe.get(aid_b)
+                and self.tribe_manager.agent_to_tribe.get(aid_a) is not None
+            )
+            qualifies = entangled or bond > 0.65 or (same_tribe and bond > 0.35)
+            if not qualifies:
+                continue
 
-                # El de mayor tensión emite; el de menor tensión recibe
-                if a.archetypes.tension() >= b.archetypes.tension():
-                    emitter, receiver_id = a, aid_b
-                else:
-                    emitter, receiver_id = b, aid_a
+            a = self.agents[aid_a]
+            b = self.agents[aid_b]
+            if a.archetypes.fidelidad(b.archetypes) < 0.4 and not entangled:
+                continue
 
-                arch = emitter.archetypes.dominant()
-                pool = _ARCHETYPE_SYMBOLS.get(arch, [_DEFAULT_SYMBOL])
-                shared_sym = emitter._rng.choice(pool)
+            # El de mayor tensión emite; el de menor tensión recibe
+            if a.archetypes.tension() >= b.archetypes.tension():
+                emitter, receiver_id = a, aid_b
+            else:
+                emitter, receiver_id = b, aid_a
 
-                if resonances[receiver_id] is None:
-                    resonances[receiver_id] = shared_sym
+            arch = emitter.archetypes.dominant()
+            pool = _ARCHETYPE_SYMBOLS.get(arch, [_DEFAULT_SYMBOL])
+            shared_sym = emitter._rng.choice(pool)
+
+            if resonances[receiver_id] is None:
+                resonances[receiver_id] = shared_sym
 
         # Generar sueños con bioma y resonancia inyectados
         for aid, agent in self.agents.items():

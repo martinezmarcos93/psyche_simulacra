@@ -31,7 +31,7 @@ class SimulationRunner:
         db_path:        str = _DEFAULT_DB,
         checkpoint_dir: str = _DEFAULT_CHECKPOINTS,
     ) -> None:
-        self.clock  = SimulationClock(start_dia=0, start_hora=0)
+        self.clock  = SimulationClock(start_dia=0, start_hora=6)
         self.world  = WorldCore(seed=seed)
         self.agents = AgentCore(self.world)
         self.db     = DatabaseManager(db_path=db_path)

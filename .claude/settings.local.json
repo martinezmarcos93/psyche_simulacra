@@ -45,7 +45,11 @@
       "Bash(dir data\\\\db /b)",
       "Bash(python -c \"import ast; ast.parse\\(open\\('main.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
       "Bash(git check-ignore *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(git stash *)",
+      "Bash(git checkout *)",
+      "Bash(ls core/psyche/)",
+      "Bash(ls core/quantum/)"
     ]
   }
 }

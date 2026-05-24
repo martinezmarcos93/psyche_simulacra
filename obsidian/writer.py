@@ -265,18 +265,18 @@ class ObsidianWriter:
         # Find active myth
         active_myth = None
         for myth in mythology_engine.active_myths:
-            if myth.get("name") == "heroe_vs_monstruo" and myth.get("active", False):
+            if myth.name == "heroe_vs_monstruo" and myth.active:
                 active_myth = myth
                 break
-                
+
         if active_myth and hero_id and monster_id:
             hero_name = agents[hero_id].nombre if hero_id in agents else hero_id
             monster_name = agents[monster_id].nombre if monster_id in agents else monster_id
-            
+
             body.extend([
                 "⚠️ **¡Mito Cristalizado Activo!**",
                 "",
-                f"- **Día de Cristalización:** Día `{active_myth.get('day_crystallized', 0)}`",
+                f"- **Día de Cristalización:** Día `{active_myth.day_crystallized}`",
                 f"- **Héroe Asignado:** [[{hero_id}]] ({hero_name})",
                 f"- **Monstruo / Chivo Expiatorio:** [[{monster_id}]] ({monster_name})",
                 "",
@@ -300,17 +300,17 @@ class ObsidianWriter:
         
         if mythology_engine.active_myths:
             for myth in mythology_engine.active_myths:
-                myth_name = myth.get("name", "Desconocido").capitalize()
-                status = "🟢 Activo" if myth.get("active", False) else "🔴 Disuelto"
-                
-                h_id = myth.get("hero_id")
-                m_id = myth.get("monster_id")
+                myth_name = myth.name.capitalize()
+                status = "🟢 Activo" if myth.active else "🔴 Disuelto"
+
+                h_id = myth.protagonista_id
+                m_id = myth.antagonista_id
                 if h_id and m_id:
                     protags = f"Héroe: [[{h_id}]], Monstruo: [[{m_id}]]"
                 else:
                     protags = "N/A"
-                    
-                day = myth.get('day_crystallized', 0)
+
+                day = myth.day_crystallized
                 body.append(f"| {myth_name} | {status} | {protags} | Día {day} |")
         else:
             body.append("| *Ninguno* | - | - | - |")

@@ -24,8 +24,8 @@ class TimePoint:
     es_amanecer:    bool   # hora == 6
     es_mediodia:    bool   # hora == 12
     es_anochecer:   bool   # hora == 20
-    es_medianoche:  bool   # hora == 0
-    es_inicio_dia:  bool   # hora == 0  (mismo que medianoche, semántica distinta)
+    es_medianoche:  bool   # hora == 23
+    es_inicio_dia:  bool   # hora == 0
     es_fin_dia:     bool   # hora == 23
     timestamp_real: float  # time.monotonic() al emitir
 
@@ -237,7 +237,7 @@ class SimulationClock:
             es_amanecer    = hora == 6,
             es_mediodia    = hora == 12,
             es_anochecer   = hora == 20,
-            es_medianoche  = hora == 0,
+            es_medianoche  = hora == 23,
             es_inicio_dia  = hora == 0,
             es_fin_dia     = hora == 23,
             timestamp_real = time.monotonic(),
