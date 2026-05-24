@@ -54,7 +54,8 @@
       "Bash(cd \"D:\\\\\\\\01-Marcos\\\\\\\\00-Programacion\\\\\\\\00-Proyectos\\\\\\\\Simulacion\\\\\\\\PSYCHE SIMULACRA\")",
       "Bash(xargs ls -la)",
       "Bash(python3 -c ' *)",
-      "Bash(echo \"EXIT:$?\")"
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(findstr /C:\"passed\" /C:\"failed\" /C:\"error\")"
     ]
   }
 }

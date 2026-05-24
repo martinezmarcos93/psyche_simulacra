@@ -76,6 +76,11 @@ class CollectiveField:
         # Confusión epistémica: cuánto no entiende la tribu lo que le pasa.
         # Alta confusión + alta presión = condiciones óptimas para crear mitos.
         self.confusion: float = 0.0
+        # Histeria colectiva: activada cuando los tres umbrales se superan simultáneamente.
+        # Mientras está activa, absorb_trauma se aplica con mayor intensidad y la
+        # disonancia cognitiva genera capas explicativas en lugar de apostasía mítica.
+        self.hysteria_active:    bool  = False
+        self.hysteria_intensity: float = 0.0
 
     def absorb_interaction(self, state_a: str, state_b: str, outcome_type: str) -> None:
         """
@@ -141,11 +146,13 @@ class CollectiveField:
 
         # Cargar los símbolos específicos según el tipo de trauma
         _trauma_symbols: dict[str, dict[str, float]] = {
-            "deshidratacion":   {"muerte": 0.30, "sombra": 0.15},
-            "muerte_masiva":    {"muerte": 0.50, "sombra": 0.25, "padre": 0.10},
-            "hambruna":         {"muerte": 0.20, "madre": 0.20, "sombra": 0.10},
-            "clima_extremo":    {"muerte": 0.15, "gobernante": 0.15, "nino_divino": 0.10},
+            "deshidratacion":      {"muerte": 0.30, "sombra": 0.15},
+            "muerte_masiva":       {"muerte": 0.50, "sombra": 0.25, "padre": 0.10},
+            "hambruna":            {"muerte": 0.20, "madre": 0.20, "sombra": 0.10},
+            "clima_extremo":       {"muerte": 0.15, "gobernante": 0.15, "nino_divino": 0.10},
             "extincion_inminente": {"muerte": 0.60, "sombra": 0.30, "sabio": 0.20},
+            # Histeria colectiva: la comunidad no puede procesar la realidad → presión escatológica
+            "histeria_colectiva":  {"muerte": 0.35, "sombra": 0.25, "sabio": 0.20},
         }
         for sym, delta in _trauma_symbols.get(causa, {}).items():
             self.symbols[sym] = min(1.0, self.symbols.get(sym, 0.0) + delta * intensity)
@@ -244,6 +251,8 @@ class CollectiveField:
             "emotional_pressure": self.emotional_pressure,
             "myth_pressure":      self.myth_pressure,
             "confusion":          self.confusion,
+            "hysteria_active":    self.hysteria_active,
+            "hysteria_intensity": self.hysteria_intensity,
         }
 
     @classmethod
@@ -255,4 +264,6 @@ class CollectiveField:
         f.emotional_pressure = data.get("emotional_pressure", 0.0)
         f.myth_pressure      = data.get("myth_pressure",      0.0)
         f.confusion          = data.get("confusion",          0.0)
+        f.hysteria_active    = data.get("hysteria_active",    False)
+        f.hysteria_intensity = data.get("hysteria_intensity", 0.0)
         return f

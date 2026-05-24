@@ -7,6 +7,7 @@ from typing import TYPE_CHECKING
 from core.interface import ActionType, WorldAction, WorldSnapshot
 from core.time import TimePoint
 from core.world.substances import SUBSTANCES, SUBSTANCE_NAMES
+from core.social.perception import PerceptionSystem
 from .needs import Needs, CRITICAL_THRESHOLD, OVERRIDE_THRESHOLD
 from .schedule import ScheduleSystem
 from .psyche.archetypes import ArchetypeVector
@@ -105,6 +106,9 @@ class Agent:
         self.in_liminal: bool = False
         # Encuentro liminal pendiente de procesar en el próximo ciclo de sueños
         self._pending_liminal_encounter: dict | None = None
+
+        # Percepción limitada: radio de visión, rumores y sesgo causal
+        self._perception = PerceptionSystem()
 
     # ── Ciclo de vida ────────────────────────────────────────────────────────
 
@@ -766,6 +770,7 @@ class Agent:
             "last_known_water":  list(self._last_known_water) if self._last_known_water else None,
             "active_substances": dict(self._active_substances),
             "addiction":         dict(self._addiction),
+            "perception":        self._perception.to_dict(),
             "episodic_log":      list(self.episodic_log),
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
@@ -810,6 +815,7 @@ class Agent:
         a._last_known_water          = tuple(lkw) if lkw else None
         a._active_substances         = dict(data.get("active_substances", {}))
         a._addiction                 = {k: float(v) for k, v in data.get("addiction", {}).items()}
+        a._perception                = PerceptionSystem.from_dict(data.get("perception", {}))
         padres_raw                   = data.get("padres")
         a._padres                    = tuple(padres_raw) if padres_raw else None
         a._cooldown_reproduccion     = data.get("cooldown_reproduccion", 0)

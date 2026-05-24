@@ -162,6 +162,9 @@ class AgentCore:
         # 1. Decaimiento y evolución del campo memético global (Fase 7)
         self.collective_field.decay()
 
+        # 1b. Atención selectiva a eventos climáticos + propagación de rumores (Hito 4)
+        self._process_selective_attention(tp.dia_simulado)
+
         # 2. Cristalización y feedback mítico global — on_day() ya incluye apply_myth_effects()
         self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
 
@@ -254,6 +257,15 @@ class AgentCore:
         # 9. Sueños nocturnos con entrelazamiento
         self._process_nightly_dreams(tp.dia_simulado)
 
+        # 10. Contagio emocional: agentes muy ansiosos propagan miedo a sus vínculos (Hito 4)
+        self._process_emotional_contagion(tp.dia_simulado)
+
+        # 11. Histeria colectiva: chequeo multi-umbral por tribu (Hito 4)
+        self._check_collective_hysteria(tp.dia_simulado)
+
+        # 12. Sesgo causal → tabúes en memoria cultural (Hito 4)
+        self._process_causal_bias(tp.dia_simulado)
+
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
 
     def _register_death(self, agent: Agent, tp: TimePoint, causa: str) -> None:
@@ -306,6 +318,7 @@ class AgentCore:
         )
 
         # Sacudir el campo memético de sobrevivientes con vínculo fuerte al fallecido
+        # y registrar la muerte en el sistema de percepción de quienes estaban cerca
         for other in self.agents.values():
             if not other.is_alive or other.id == agent.id:
                 continue
@@ -314,6 +327,13 @@ class AgentCore:
                 lf = self.tribe_manager.get_local_field(other.id)
                 if lf is not None:
                     lf.absorb_event("muerte_vinculada", intensity=bond * 0.60)
+            other._perception.witness(
+                tipo        = "muerte",
+                coord       = agent.posicion,
+                intensidad  = min(1.0, 0.40 + bond_medio),
+                dia         = tp.dia_simulado,
+                agent_coord = other.posicion,
+            )
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
         if len(self.agents) >= _LIMITE_POBLACION:
@@ -380,6 +400,18 @@ class AgentCore:
                                 ),
                                 intensidad          = 0.50,
                             )
+
+                    # Registrar nacimiento en los sistemas de percepción cercanos
+                    for observer in self.agents.values():
+                        if not observer.is_alive:
+                            continue
+                        observer._perception.witness(
+                            tipo        = "nacimiento",
+                            coord       = child.posicion,
+                            intensidad  = 0.45,
+                            dia         = tp.dia_simulado,
+                            agent_coord = observer.posicion,
+                        )
 
                     reproduced.add(a.id)
                     reproduced.add(b.id)
@@ -572,6 +604,183 @@ class AgentCore:
                 bioma             = bioma,
                 resonancia_grupal = resonances.get(aid),
             )
+
+    # ── Hito 4: Error Epistemológico y Percepción Limitada ────────────────────
+
+    def _process_selective_attention(self, dia: int) -> None:
+        """
+        Atención selectiva arquetípica a eventos climáticos.
+
+        Cada agente "filtra" el evento climático activo a través de su arquetipo
+        dominante. Si el tipo de evento coincide con su foco atencional, la intensidad
+        percibida se amplifica × 1.5 y se carga el símbolo arquetípico en el ICL tribal.
+
+        El sabio específicamente amplifica fenómenos inexplicables (tormentas, heladas,
+        sequías) → carga el símbolo 'sabio' en el campo → condición necesaria para que
+        emerja emergentemente un proto-mito escatológico (par muerte+sabio).
+        También propaga rumores de los eventos presenciados hacia vecinos sociales cercanos.
+        """
+        snap = getattr(self.world_ref, "current_snapshot", None)
+        if snap is None:
+            return
+
+        evento = snap.evento_climatico
+        if evento is not None:
+            _CLIMA_TO_TIPO: dict[str, str] = {
+                "tormenta": "clima_extremo",
+                "helada":   "clima_extremo",
+                "sequia":   "clima_extremo",
+            }
+            tipo_percepcion = _CLIMA_TO_TIPO.get(evento, "clima_extremo")
+            intensidad_base = max(0.20, snap.survival_risk)
+
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+
+                perceived = agent._perception.witness(
+                    tipo        = tipo_percepcion,
+                    coord       = None,  # evento global: siempre percibido
+                    intensidad  = intensidad_base,
+                    dia         = dia,
+                    agent_coord = agent.posicion,
+                )
+                arch = agent.archetypes.dominant()
+                amplified = agent._perception.perceived_intensity(tipo_percepcion, perceived, arch)
+
+                if amplified > perceived:
+                    lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                    lf.symbols[arch] = min(1.0, lf.symbols.get(arch, 0.0) + amplified * 0.05)
+                    if arch == "sabio":
+                        lf.myth_pressure = min(1.0, lf.myth_pressure + amplified * 0.10)
+                        lf.confusion     = min(1.0, lf.confusion     + amplified * 0.08)
+
+        # Propagación de rumores (1 salto por día entre vecinos con vínculo ≥ 0.30)
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            rumors = agent._perception.generate_rumors()
+            if not rumors:
+                continue
+            neighbors = sorted(
+                [
+                    (oid, self.social_network.get_bond(agent.id, oid))
+                    for oid in self.agents
+                    if oid != agent.id and self.agents[oid].is_alive
+                ],
+                key=lambda x: -x[1],
+            )[:3]
+            for oid, bond in neighbors:
+                if bond < 0.30:
+                    break
+                for rumor in rumors:
+                    self.agents[oid]._perception.receive_rumor(rumor)
+
+    def _process_emotional_contagion(self, dia: int) -> None:
+        """
+        Contagio emocional: agentes con ansiedad alta (> 0.70) propagan miedo
+        a sus vínculos cercanos. La resistencia depende de estabilidad_emocional.
+        El miedo acumulado también presiona el campo colectivo tribal.
+        """
+        for agent in self.agents.values():
+            if not agent.is_alive or agent.ansiedad < 0.70:
+                continue
+            contagion = (agent.ansiedad - 0.50) * 0.10
+            for other in self.agents.values():
+                if not other.is_alive or other.id == agent.id:
+                    continue
+                bond = self.social_network.get_bond(other.id, agent.id)
+                if bond < 0.40:
+                    continue
+                resistance    = getattr(other.traits, "estabilidad_emocional", 0.5)
+                effective     = contagion * bond * (1.0 - resistance * 0.5)
+                other.ansiedad = min(1.0, other.ansiedad + effective)
+                lf = self.tribe_manager.get_local_field(agent.id)
+                if lf is not None:
+                    lf.emotional_pressure = min(
+                        1.0, lf.emotional_pressure + effective * 0.10
+                    )
+
+    def _check_collective_hysteria(self, dia: int) -> None:
+        """
+        Histeria colectiva: cuando myth_pressure + confusion + emotional_pressure
+        superan simultáneamente sus umbrales en un cluster tribal, se activa histeria.
+
+        La histeria implementa disonancia cognitiva colectiva: la tribu no puede
+        reconciliar la realidad con su modelo del mundo → en lugar de abandonar
+        sus creencias, añade capas explicativas (absorb_trauma amplificado).
+        Esto acelera la cristalización de proto-mitos escatológicos.
+        """
+        for tribe_id, lf in self.tribe_manager.local_fields.items():
+            if lf.myth_pressure > 0.60 and lf.confusion > 0.50 and lf.emotional_pressure > 0.60:
+                if not lf.hysteria_active:
+                    lf.hysteria_active    = True
+                    lf.hysteria_intensity = min(
+                        1.0,
+                        (lf.myth_pressure + lf.confusion + lf.emotional_pressure) / 3.0,
+                    )
+                    lf.absorb_trauma("histeria_colectiva", intensity=lf.hysteria_intensity)
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        member_ids = self.tribe_manager.tribes.get(tribe_id, [])
+                        primer = next(
+                            (self.agents[aid].nombre for aid in member_ids if aid in self.agents
+                             and self.agents[aid].is_alive),
+                            "desconocido",
+                        )
+                        cmem.record_event(
+                            dia                 = dia,
+                            agente_nombre       = primer,
+                            arquetipo_dominante = "sombra",
+                            tipo_evento         = "histeria_colectiva",
+                            descripcion         = (
+                                f"La tribu entró en histeria colectiva el día {dia}. "
+                                f"Presión: {lf.myth_pressure:.2f}, "
+                                f"confusión: {lf.confusion:.2f}."
+                            ),
+                            intensidad          = 0.90,
+                        )
+            else:
+                if lf.hysteria_active:
+                    lf.hysteria_intensity = max(0.0, lf.hysteria_intensity - 0.05)
+                    if lf.hysteria_intensity < 0.05:
+                        lf.hysteria_active = False
+
+    def _process_causal_bias(self, dia: int) -> None:
+        """
+        Sesgo de causalidad: dos eventos que co-ocurrieron en la ventana temporal
+        forman una asociación causal en la mente del agente → tabú emergente.
+        Las asociaciones con fuerza suficiente se registran en la memoria cultural tribal.
+        """
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            nuevas = agent._perception.check_causal_bias(dia)
+            if not nuevas:
+                continue
+            tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+            if not tribe_id:
+                continue
+            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem is None:
+                continue
+            arch = agent.archetypes.dominant()
+            for assoc in nuevas:
+                if assoc.fuerza < 0.40:
+                    continue
+                cmem.record_event(
+                    dia                 = dia,
+                    agente_nombre       = agent.nombre,
+                    arquetipo_dominante = "self_" if arch == "self" else arch,
+                    tipo_evento         = "taboo_causal",
+                    descripcion         = (
+                        f"{agent.nombre} asoció '{assoc.precursor}' con "
+                        f"'{assoc.outcome}' (fuerza {assoc.fuerza:.2f})."
+                    ),
+                    intensidad          = assoc.fuerza * 0.60,
+                )
+
+    # ── Fin Hito 4 ─────────────────────────────────────────────────────────────
 
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():

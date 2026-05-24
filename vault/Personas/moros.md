@@ -5,34 +5,34 @@ rol: generico
 edad: 28
 sexo: M
 is_alive: True
-posicion: [45, 30]
-humor: 0.668
-energia: 0.665
-ansiedad: 0.523
+posicion: [50, 35]
+humor: 0.582
+energia: 0.225
+ansiedad: 0.661
 needs:
-  hambre: 0.104
-  fatiga: 0.335
-  sed: 0.535
-  sociabilidad: 0.020
-arquetipo_dominante: sombra
-estado_conductual: competencia
+  hambre: 0.204
+  fatiga: 0.775
+  sed: 0.405
+  sociabilidad: 0.080
+arquetipo_dominante: self
+estado_conductual: aislamiento
 arquetipos:
-  self: 0.558
+  self: 0.848
   persona: 0.500
-  sombra: 0.846
-  anima_animus: 0.400
-  heroe: 0.206
-  sabio: 0.400
+  sombra: 0.787
+  anima_animus: 0.668
+  heroe: 0.364
+  sabio: 0.402
   trickster: 0.500
-  madre: 0.402
-  padre: 0.400
-  nino_divino: 0.300
-  gobernante: 0.400
+  madre: 0.408
+  padre: 0.402
+  nino_divino: 0.304
+  gobernante: 0.403
   rebelde: 0.300
 ---
 # 👤 Persona: Moros
 
-> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(45, 30)`
+> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(50, 35)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.52 |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
-| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+| **Hambre** | `[▓▓░░░░░░░░]` | 0.20 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
+| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
 
 ---
 
@@ -61,17 +61,17 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.558` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.848` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.846` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.206` | `▓▓░░░░░░░░░░` |
-| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Sombra** | `0.787` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Anima animus** | `0.668` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.364` | `▓▓▓▓░░░░░░░░` |
+| **Sabio** | `0.402` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.408` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.304` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.403` | `▓▓▓▓▓░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
@@ -91,26 +91,35 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[bios]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[chara]] | `-0.12` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[iris]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[iris]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kore]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[peitho]] | `-0.72` | `▓░░░░░░░░░` | Ninguno |
+| [[leon]] | `+0.98` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
+| [[peitho]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1:** Soñó con `'viento_que_borra'` (arquetipo `sombra`).
-  - *Insight:* El sombra busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 2:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- **Día 3:** Soñó con `'olor_a_descomposición'` (arquetipo `sombra`).
-  - *Insight:* El sombra busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- **Día 24:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- **Día 25:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- **Día 26:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- **Día 28:** Soñó con `'cima_en_niebla'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con lo reprimido.
+- **Día 29:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- **Día 30:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
 
 ---
 
@@ -136,19 +145,100 @@ arquetipos:
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
+- Día 1: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
-- Día 1: Detectó y rechazó un intento de manipulación de Kore.
-- Día 1: Intentó manipular a Iris, pero fue descubierto.
-- Día 1: Intentó manipular a Chara, pero fue descubierto.
-- Día 1: Intentó manipular a Chara, pero fue descubierto.
-- Día 1: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
+- Día 1: Intentó manipular a Kore, pero fue descubierto.
+- Día 1: Intentó manipular a Kore, pero fue descubierto.
+- Día 1: Intentó manipular a Kore, pero fue descubierto.
 - Día 2: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
-- Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
-- Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
-- Día 2: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
-- Día 3: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 2: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 2: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 3: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
+- Día 5: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra encuentra tregua provisional con lo reprimido.
+- Día 6: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 7: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 8: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 9: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 10: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 11: Soñó con 'campo_interminable' (sombra). Insight: El sombra busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 12: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra encuentra tregua provisional con lo reprimido.
+- Día 13: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 14: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, el sombra encuentra tregua provisional con lo reprimido.
+- Día 15: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 17: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 18: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 19: Se impuso competitivamente ante Leon, absorbiendo sus recursos biológicos.
+- Día 20: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 22: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 23: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Peitho.
+- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 27: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 28: Soñó con 'cima_en_niebla' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 29: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.

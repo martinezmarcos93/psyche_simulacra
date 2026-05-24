@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `3` | **Miembros vivos:** `2`
+> **Día:** `30` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,19 +8,19 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kairos]] (Kairos) | cazador | 32 | heroe |
-| [[peitho]] (Peitho) | explorador | 26 | trickster |
+| [[kairos]] (Kairos) | cazador | 32 | self |
+| [[peitho]] (Peitho) | explorador | 26 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.886` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.244` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.455` | `▓▓▓▓▓░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |

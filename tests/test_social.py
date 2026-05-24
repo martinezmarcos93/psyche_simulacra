@@ -8,6 +8,7 @@ from core.social.network import SocialNetwork
 from core.social.collective_field import CollectiveField
 from core.social.mythology import MythologyEngine, MythCrystal, ProtoMito
 from core.social.interaction import InteractionEngine
+from core.social.perception import PerceptionSystem, ARCHETYPE_ATTENTION
 from core.world import WorldCore
 from core.simulation import SimulationRunner
 
@@ -274,3 +275,231 @@ def test_social_integration_and_serialization():
     hero_id, monster_id = core2.mythology_engine.get_myth_hero_monster()
     assert hero_id == "a"
     assert monster_id == "b"
+
+
+# ── Hito 4: Error Epistemológico y Percepción Limitada ──────────────────────
+
+class TestPerceptionSystem:
+
+    def test_witness_dentro_radio(self):
+        ps = PerceptionSystem()
+        # (12, 10) → dist Manhattan = |12-10| + |10-10| = 2 ≤ 3 (dentro del radio)
+        intensidad = ps.witness("muerte", (12, 10), 0.8, dia=1, agent_coord=(10, 10))
+        assert intensidad == 0.8
+        assert len(ps._recent_events) == 1
+        assert ps._recent_events[0].tipo == "muerte"
+
+    def test_witness_fuera_radio(self):
+        ps = PerceptionSystem()
+        # (20, 20) → dist = 10 + 10 = 20 > 3 (fuera del radio)
+        intensidad = ps.witness("muerte", (20, 20), 0.8, dia=1, agent_coord=(10, 10))
+        assert intensidad == 0.0
+        assert len(ps._recent_events) == 0
+
+    def test_witness_evento_global(self):
+        ps = PerceptionSystem()
+        # coord=None = evento global, siempre percibido
+        intensidad = ps.witness("clima_extremo", None, 0.6, dia=1, agent_coord=(40, 30))
+        assert intensidad == 0.6
+        assert len(ps._recent_events) == 1
+
+    def test_atencion_selectiva_amplifica(self):
+        ps = PerceptionSystem()
+        # El sabio amplifica fenómenos inexplicables × 1.5
+        amp = ps.perceived_intensity("clima_extremo", 0.6, "sabio")
+        assert abs(amp - 0.9) < 0.001
+
+    def test_atencion_selectiva_no_amplifica_irrelevante(self):
+        ps = PerceptionSystem()
+        # El guerrero (heroe) no amplifica clima_extremo
+        amp = ps.perceived_intensity("clima_extremo", 0.6, "heroe")
+        assert amp == 0.6  # sin amplificación
+
+    def test_rumor_distorsion_por_hop(self):
+        ps_emisor = PerceptionSystem()
+        ps_receptor = PerceptionSystem()
+        ps_emisor.witness("muerte", None, 0.8, dia=1, agent_coord=(0, 0))
+        rumors = ps_emisor.generate_rumors()
+        assert len(rumors) == 1
+        ps_receptor.receive_rumor(rumors[0])
+        assert len(ps_receptor._rumors) == 1
+        assert ps_receptor._rumors[0].intensidad < 0.8   # decaído
+        assert ps_receptor._rumors[0].hops == 1
+
+    def test_rumor_demasiado_debil_descartado(self):
+        ps = PerceptionSystem()
+        from core.social.perception import Rumor
+        rumor_debil = Rumor(tipo="muerte", intensidad=0.05, hops=5, dia=1)
+        ps.receive_rumor(rumor_debil)
+        assert len(ps._rumors) == 0
+
+    def test_sesgo_causal_forma_asociacion(self):
+        ps = PerceptionSystem()
+        ps.witness("clima_extremo", None, 0.7, dia=5, agent_coord=(5, 5))
+        ps.witness("muerte", (5, 5), 0.6, dia=6, agent_coord=(5, 5))
+        nuevas = ps.check_causal_bias(dia=7)
+        assert len(nuevas) >= 1
+        tipos = {(a.precursor, a.outcome) for a in nuevas}
+        assert ("clima_extremo", "muerte") in tipos
+
+    def test_sesgo_causal_no_duplica(self):
+        ps = PerceptionSystem()
+        ps.witness("clima_extremo", None, 0.8, dia=1, agent_coord=(0, 0))
+        ps.witness("muerte", None, 0.7, dia=2, agent_coord=(0, 0))
+        nuevas1 = ps.check_causal_bias(dia=3)
+        nuevas2 = ps.check_causal_bias(dia=3)
+        assert len(nuevas1) >= 1
+        assert len(nuevas2) == 0  # no debe duplicar la misma asociación
+
+    def test_serializacion_roundtrip(self):
+        ps = PerceptionSystem()
+        ps.witness("muerte", (5, 5), 0.7, dia=3, agent_coord=(5, 5))
+        ps.witness("clima_extremo", None, 0.5, dia=4, agent_coord=(5, 5))
+        ps.check_causal_bias(dia=5)
+        d = ps.to_dict()
+        ps2 = PerceptionSystem.from_dict(d)
+        assert len(ps2._recent_events) == len(ps._recent_events)
+        assert len(ps2._causal_assocs) == len(ps._causal_assocs)
+
+
+class TestCollectiveFieldHysteria:
+
+    def test_hysteria_default_inactiva(self):
+        f = CollectiveField()
+        assert not f.hysteria_active
+        assert f.hysteria_intensity == 0.0
+
+    def test_hysteria_serializada(self):
+        f = CollectiveField()
+        f.hysteria_active    = True
+        f.hysteria_intensity = 0.75
+        d = f.to_dict()
+        f2 = CollectiveField.from_dict(d)
+        assert f2.hysteria_active
+        assert f2.hysteria_intensity == 0.75
+
+    def test_absorb_trauma_histeria_colectiva(self):
+        f = CollectiveField()
+        f.absorb_trauma("histeria_colectiva", intensity=1.0)
+        # Debe cargar muerte, sombra y sabio
+        assert f.symbols["muerte"] > 0.0
+        assert f.symbols["sombra"] > 0.0
+        assert f.symbols["sabio"] > 0.0
+        assert f.myth_pressure > 0.0
+
+
+class TestHito4EmergentCriterion:
+    """
+    Criterio de emergencia del Hito 4:
+    Evento climático extremo + agentes sabios + alta ansiedad en red densa →
+    se crean las condiciones para que emerja un proto-mito escatológico (muerte+sabio).
+    """
+
+    def test_selective_attention_carga_simbolo_sabio(self):
+        """Un agente con arquetipo sabio amplifica clima_extremo → carga sabio en el campo."""
+        world = WorldCore(seed=42)
+        core = AgentCore(world)
+
+        agente = Agent("sabio1", "Sofos", (40, 30), seed=7)
+        agente.archetypes.sabio = 0.85
+        agente.archetypes.sombra = 0.10
+        core.add_agent(agente)
+
+        field = CollectiveField()
+        # Simular percepción directa de un evento climático extremo
+        perceived = agente._perception.witness(
+            "clima_extremo", None, 0.7, dia=10, agent_coord=agente.posicion
+        )
+        amplified = agente._perception.perceived_intensity("clima_extremo", perceived, "sabio")
+        # El sabio amplifica × 1.5
+        assert amplified > perceived
+        # Cargar el símbolo sabio en el campo (lo que haría _process_selective_attention)
+        field.symbols["sabio"] = min(1.0, field.symbols.get("sabio", 0.0) + amplified * 0.05)
+        assert field.symbols["sabio"] > 0.0
+
+    def test_hysteria_activa_absorb_trauma(self):
+        """Cuando los tres umbrales se superan simultáneamente, el check_hysteria activa histeria."""
+        world = WorldCore(seed=42)
+        core = AgentCore(world)
+
+        # Crear una tribu con un campo en estado pre-histérico
+        from core.social.tribe_manager import TribeManager
+        agente = Agent("miedo1", "Phobos", (40, 30), seed=8)
+        agente.archetypes.sombra = 0.80
+        core.add_agent(agente)
+
+        # Crear manualmente una tribu con campo en estado crítico
+        tribe_id = "tribe_test"
+        from core.social.collective_field import CollectiveField
+        lf = CollectiveField()
+        lf.myth_pressure      = 0.65
+        lf.confusion          = 0.55
+        lf.emotional_pressure = 0.65
+        core.tribe_manager.tribes[tribe_id]          = [agente.id]
+        core.tribe_manager.agent_to_tribe[agente.id] = tribe_id
+        core.tribe_manager.local_fields[tribe_id]    = lf
+
+        core._check_collective_hysteria(dia=15)
+
+        assert lf.hysteria_active
+        assert lf.hysteria_intensity > 0.0
+        # La histeria cargó sabio (via histeria_colectiva trauma)
+        assert lf.symbols["sabio"] > 0.0
+
+    def test_contagio_emocional_propaga_ansiedad(self):
+        """Agente con ansiedad alta propaga miedo a vecinos con vínculo fuerte."""
+        world = WorldCore(seed=42)
+        core = AgentCore(world)
+
+        miedoso = Agent("m1", "Deimos", (0, 0), seed=9)
+        miedoso.ansiedad = 0.85
+        receptor = Agent("r1", "Eirene", (0, 0), seed=10)
+        receptor.ansiedad = 0.20
+        receptor.traits.estabilidad_emocional = 0.30
+
+        core.add_agent(miedoso)
+        core.add_agent(receptor)
+        core.social_network.set_bond(receptor.id, miedoso.id, 0.70)
+
+        ansiedad_antes = receptor.ansiedad
+        core._process_emotional_contagion(dia=5)
+        assert receptor.ansiedad > ansiedad_antes
+
+    def test_taboo_causal_registrado_en_memoria(self):
+        """Sesgo causal entre clima_extremo y muerte produce tabú en CulturalMemory."""
+        from core.social.cultural_memory import CulturalMemory
+
+        world = WorldCore(seed=42)
+        core = AgentCore(world)
+
+        agente = Agent("ag1", "Fobos", (10, 10), seed=11)
+        agente.archetypes.sabio = 0.75
+        core.add_agent(agente)
+
+        tribe_id = "tribe_taboo"
+        core.tribe_manager.tribes[tribe_id]             = [agente.id]
+        core.tribe_manager.agent_to_tribe[agente.id]   = tribe_id
+        core.tribe_manager.local_fields[tribe_id]      = CollectiveField()
+        core.tribe_manager.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
+
+        # El agente presencia dos eventos en la ventana causal
+        agente._perception.witness("clima_extremo", None, 0.8, dia=10, agent_coord=(10, 10))
+        agente._perception.witness("muerte",       None, 0.7, dia=11, agent_coord=(10, 10))
+
+        core._process_causal_bias(dia=12)
+
+        cmem = core.tribe_manager.cultural_memories[tribe_id]
+        taboos = [r for r in cmem.records if r.tipo_evento == "taboo_causal"]
+        assert len(taboos) >= 1
+
+    def test_agent_perception_serialization(self):
+        """El PerceptionSystem del agente sobrevive un ciclo to_dict/from_dict."""
+        agent = Agent("ser1", "Mneme", (5, 5), seed=12)
+        agent._perception.witness("muerte", (5, 5), 0.7, dia=3, agent_coord=(5, 5))
+        agent._perception.witness("clima_extremo", None, 0.5, dia=4, agent_coord=(5, 5))
+        agent._perception.check_causal_bias(dia=5)
+
+        d = agent.to_dict()
+        agent2 = Agent.from_dict(d)
+        assert len(agent2._perception._recent_events) == 2
+        assert len(agent2._perception._causal_assocs) == len(agent._perception._causal_assocs)
