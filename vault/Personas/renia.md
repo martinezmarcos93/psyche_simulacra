@@ -100,20 +100,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 282:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
-- **Día 283:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 284:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
-- **Día 285:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 286:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 287:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de montana alta.
-- **Día 288:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de cueva.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

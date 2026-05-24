@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓░░░░░░░░]` | 0.20 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.62 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.61 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -116,20 +116,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 185:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 186:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 187:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 188:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 189:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 190:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 191:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

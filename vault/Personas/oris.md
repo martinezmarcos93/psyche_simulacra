@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓░░░░░]` | 0.52 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.49 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -118,20 +118,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 247:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 248:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 249:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 250:** Soñó con `'espejo_que_miente'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de desierto borde.
-- **Día 251:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 252:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
-- **Día 253:** Soñó con `'fondo_que_sube'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

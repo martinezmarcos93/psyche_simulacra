@@ -124,20 +124,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 267:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- **Día 268:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 269:** Soñó con `'espejo_que_miente'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 270:** Soñó con `'viento_que_borra'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 271:** Soñó con `'reflejo_sin_original'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
-- **Día 272:** Soñó con `'salida_inexistente'` (arquetipo `self`).
-  - *Insight:* En cueva, el self encuentra tregua provisional con lo reprimido.
-- **Día 273:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

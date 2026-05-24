@@ -116,20 +116,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 303:** Soñó con `'arena_que_avanza'` (arquetipo `self`).
-  - *Insight:* En desierto borde, el self encuentra tregua provisional con lo reprimido.
-- **Día 304:** Soñó con `'voz_propia_extraña'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 305:** Soñó con `'figura_que_sigue'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 306:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 307:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 308:** Soñó con `'figura_que_sigue'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 309:** Soñó con `'voz_propia_extraña'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

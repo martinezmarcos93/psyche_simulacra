@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `500` | **Miembros vivos:** `1`
+> **Día:** `689` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[velia]] (Velia) | recolector | 47 | anima_animus |
+| [[velia]] (Velia) | recolector | 47 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.153` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.226` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.153` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.153` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.038` | `░░░░░░░░░░` |
-| **Madre** | `0.019` | `░░░░░░░░░░` |
+| **Sombra** | `0.286` | `▓▓▓░░░░░░░` |
+| **Heroe** | `0.121` | `▓░░░░░░░░░` |
+| **Madre** | `0.061` | `▓░░░░░░░░░` |
+| **Trickster** | `0.055` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

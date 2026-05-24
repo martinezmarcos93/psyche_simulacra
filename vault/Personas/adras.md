@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.51 |
+| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.52 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
 
@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓░░░░░░░░]` | 0.16 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -119,20 +119,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 199:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 200:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de cueva.
-- **Día 201:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 202:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 203:** Soñó con `'silencio_pleno'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
-- **Día 204:** Soñó con `'terreno_que_cede'` (arquetipo `sombra`).
-  - *Insight:* El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 205:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

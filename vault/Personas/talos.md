@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.70 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.69 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -120,20 +120,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 208:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 209:** Soñó con `'sombra_que_camina'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 210:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 211:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- **Día 212:** Soñó con `'silencio_pleno'` (arquetipo `anima_animus`).
-  - *Insight:* En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 213:** Soñó con `'silencio_absoluto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en montana alta compensando la energía de lo reprimido.
-- **Día 214:** Soñó con `'manada_que_huye'` (arquetipo `anima_animus`).
-  - *Insight:* En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

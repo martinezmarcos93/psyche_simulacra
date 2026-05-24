@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Ánima-Ánimus
 
-> **Día:** `500` | **Miembros vivos:** `7`
+> **Día:** `659` | **Miembros vivos:** `6`
 
 ---
 
@@ -8,27 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[calix]] (Calix) | guardian | 51 | self |
-| [[exan]] (Exan) | generico | 22 | sombra |
-| [[festus]] (Festus) | recolector | 62 | anima_animus |
-| [[hector]] (Hector) | generico | 43 | anima_animus |
+| [[demos]] (Demos) | cazador | 61 | anima_animus |
+| [[festus]] (Festus) | recolector | 62 | self |
+| [[hector]] (Hector) | generico | 43 | self |
+| [[kalliope]] (Kalliope) | recolector | 49 | self |
 | [[lykos]] (Lykos) | explorador | 47 | self |
 | [[phoibos]] (Phoibos) | generico | 33 | self |
-| [[ulax]] (Ulax) | generico | 20 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.381` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.103` | `▓░░░░░░░░░` |
-| **Madre** | `0.053` | `▓░░░░░░░░░` |
-| **Muerte** | `0.012` | `░░░░░░░░░░` |
+| **Sombra** | `0.977` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.782` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.731` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.465` | `▓▓▓▓▓░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

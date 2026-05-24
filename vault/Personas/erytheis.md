@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.57 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.71 |
 
 ### Necesidades Biológicas
@@ -123,20 +123,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 268:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 269:** Soñó con `'leche_amarga'` (arquetipo `madre`).
-  - *Insight:* El madre proyecta lo reprimido sobre el horizonte de montana alta.
-- **Día 270:** Soñó con `'descenso_inevitable'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
-- **Día 271:** Soñó con `'fruto_amargo'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
-- **Día 272:** Soñó con `'río_que_nutre'` (arquetipo `madre`).
-  - *Insight:* El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
-- **Día 273:** Soñó con `'río_tranquilo'` (arquetipo `madre`).
-  - *Insight:* El valle fertil amplifica la tensión del madre; lo reprimido presiona desde adentro.
-- **Día 274:** Soñó con `'nido_que_asfixia'` (arquetipo `madre`).
-  - *Insight:* El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

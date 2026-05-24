@@ -116,20 +116,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 206:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 207:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 208:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
-- **Día 209:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 210:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 211:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
-- **Día 212:** Soñó con `'luz_oblicua'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

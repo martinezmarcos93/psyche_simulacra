@@ -121,20 +121,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 185:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 186:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 187:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 188:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 189:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- **Día 190:** Soñó con `'mandala_incompleto'` (arquetipo `anima_animus`).
-  - *Insight:* En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 191:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

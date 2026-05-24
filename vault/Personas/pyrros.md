@@ -117,20 +117,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 200:** Soñó con `'viento_que_borra'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 201:** Soñó con `'profundidad_sin_fondo'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- **Día 202:** Soñó con `'espejo_que_miente'` (arquetipo `anima_animus`).
-  - *Insight:* En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 203:** Soñó con `'calma_antes_de_algo'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- **Día 204:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 205:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- **Día 206:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

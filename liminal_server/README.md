@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### PC-A (hosteador — quien tiene el servidor)
 
-**Paso 1 — Tener una simulación activa**
+**Paso 1 — Correr la simulación en una terminal**
 
 ```
 python main.py → [4] Primera simulación  (si es la primera vez)
@@ -74,40 +74,34 @@ python main.py → [1] Continuar           (si ya tiene checkpoint)
 Dejala correr unos días simulados para tener agentes con historia.
 Podés interrumpirla con `Ctrl+C` cuando quieras — el checkpoint se guarda.
 
-**Paso 2 — Iniciar el servidor Zona Liminal**
+**Paso 2 — Levantar servidor y conectar (en otra terminal)**
 
 ```
-python main.py → [5] Iniciar servidor Zona Liminal
+python main.py → [5] Levantar servidor + conectar
 ```
-- Se abre una nueva ventana con el mapa liminal en Pygame.
-- Toma nota del puerto (por defecto 8765).
-- Si querés que PC-B se conecte desde otra red: abrí el puerto 8765 (TCP) en tu router con port forwarding hacia tu IP local.
-
-**Paso 3 — Conectar tu propia simulación al servidor**
-
-```
-python main.py → [6] Visualizador + Liminal local
-```
-- Abre el visualizador de tu simulación con el portal violeta visible en el mapa.
+- Pide puerto (default 8765) y seed del mapa (default 0).
+- Abre el servidor en una **nueva ventana** automáticamente.
+- Muestra la IP local de tu PC — compartila con tu amigo.
+- Conecta el visualizador de tu simulación en esta misma terminal.
 - El HUD mostrará `Liminal: CONECTADO`.
+
+> Si PC-B va a conectarse desde otra red: abrí el puerto 8765 (TCP) en tu router con port forwarding hacia tu IP local.
 
 ---
 
 ### PC-B (el amigo — quien se conecta)
 
-**Paso 1 — Tener una simulación activa**
-
-Igual que PC-A. Puede correr una simulación completamente independiente, con sus propios agentes y su propia historia.
+**Paso 1 — Correr su propia simulación en una terminal**
 
 ```
 python main.py → [4] Primera simulación
 ```
 
-**Paso 2 — Conectarse al servidor de PC-A**
+**Paso 2 — Conectarse al servidor de PC-A (en otra terminal)**
 
 ```
-python main.py → [7] Visualizador + Liminal remoto
-  → Host: <IP de PC-A>   (IP local si están en la misma red, IP pública si son redes distintas)
+python main.py → [6] Conectarse a servidor
+  → IP del servidor: <IP que te dio PC-A>
   → Puerto: 8765
 ```
 
@@ -118,19 +112,19 @@ python main.py → [7] Visualizador + Liminal remoto
 
 ### Qué pasa ahora
 
-Cuando un agente de cualquiera de las dos simulaciones llega al hexágono portal (violeta pulsante), **desaparece de su mapa local** y aparece en la ventana del servidor liminal. Si en ese momento hay agentes de la otra simulación también en la zona, se ven entre sí. Tras ~2 minutos el servidor los devuelve a su simulación de origen.
+Cuando un agente de cualquiera de las dos simulaciones llega al hexágono portal (violeta pulsante), **desaparece de su mapa local** y aparece en la ventana del servidor liminal. Si en ese momento hay agentes de la otra simulación también en la zona, se ven entre sí. Tras ~2 minutos el servidor los devuelve a su simulación de origen con los efectos del encuentro grabados.
 
 ---
 
 ### Diagrama del orden
 
 ```
-PC-A                              PC-B
-────                              ────
-[1] Correr simulación             [1] Correr simulación
-[2] Iniciar servidor (opción 5)
-[3] Conectar visualizador (op.6)  [2] Conectar visualizador (op.7)
-                                       ↑ necesita IP de PC-A
+PC-A  (terminal 1)          PC-A  (terminal 2)        PC-B  (terminal 2)
+──────────────────          ──────────────────        ──────────────────
+[1] python main.py          [2] python main.py        [2] python main.py
+    → [1] Continuar  ──────────→ [5] Levantar         → [6] Conectarse
+      (sim corriendo)               servidor               → IP de PC-A
+                                    + conectar
 ```
 
 ---

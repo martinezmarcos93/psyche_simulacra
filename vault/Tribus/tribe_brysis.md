@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `500` | **Miembros vivos:** `8`
+> **Día:** `1354` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,27 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[brysis]] (Brysis) | generico | 9 | sombra |
-| [[creon]] (Creon) | generico | 39 | sombra |
-| [[eudora]] (Eudora) | recolector | 51 | self |
-| [[evander]] (Evander) | generico | 32 | self |
-| [[kress]] (Kress) | generico | 44 | anima_animus |
-| [[lyris]] (Lyris) | generico | 31 | sombra |
-| [[tainis]] (Tainis) | generico | 16 | self |
-| [[zephyra]] (Zephyra) | generico | 9 | sombra |
+| [[brysis]] (Brysis) | generico | 11 | sombra |
+| [[velia]] (Velia) | recolector | 49 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.973` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.228` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Madre** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.653` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.545` | `▓▓▓▓▓░░░░░` |
+| **Madre** | `0.537` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.359` | `▓▓▓▓░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

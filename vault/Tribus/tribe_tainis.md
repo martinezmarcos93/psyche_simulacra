@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `479` | **Miembros vivos:** `1`
+> **Día:** `839` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,20 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[tainis]] (Tainis) | generico | 16 | anima_animus |
+| [[tainis]] (Tainis) | generico | 17 | self |
+| [[xanthos]] (Xanthos) | cazador | 52 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.941` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.385` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.204` | `▓▓░░░░░░░░` |
-| **Madre** | `0.102` | `▓░░░░░░░░░` |
+| **Sombra** | `0.958` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.874` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.573` | `▓▓▓▓▓▓░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

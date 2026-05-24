@@ -132,20 +132,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 272:** Soñó con `'marea_que_sube'` (arquetipo `self`).
-  - *Insight:* El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 273:** Soñó con `'arena_que_avanza'` (arquetipo `self`).
-  - *Insight:* El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 274:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de bosque templado.
-- **Día 275:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 276:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
-- **Día 277:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 278:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

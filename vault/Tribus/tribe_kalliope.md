@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Héroe
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `1019` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,21 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kalliope]] (Kalliope) | recolector | 48 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.681` `[▓▓▓▓▓▓▓▓░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.616` | `▓▓▓▓▓▓░░░░` |
-| **Trickster** | `0.342` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.341` | `▓▓▓░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.677` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.218` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.153` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.001` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

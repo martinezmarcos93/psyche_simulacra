@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Humor** | `[▓▓▓▓░░░░░░]` | 0.45 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.83 |
 
@@ -124,20 +124,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 271:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 272:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 273:** Soñó con `'voz_propia_extraña'` (arquetipo `self`).
-  - *Insight:* El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 274:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 275:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 276:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 277:** Soñó con `'espejo_que_miente'` (arquetipo `self`).
-  - *Insight:* El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -119,20 +119,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 175:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de valle fertil.
-- **Día 176:** Soñó con `'hierba_que_corta'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 177:** Soñó con `'arena_que_avanza'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
-- **Día 178:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 179:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 180:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 181:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

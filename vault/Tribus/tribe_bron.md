@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `500` | **Miembros vivos:** `2`
+> **Día:** `569` | **Miembros vivos:** `6`
 
 ---
 
@@ -8,22 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[bron]] (Bron) | cazador | 47 | self |
-| [[okaios]] (Okaios) | explorador | 40 | self |
+| [[creon]] (Creon) | generico | 39 | self |
+| [[evander]] (Evander) | generico | 32 | anima_animus |
+| [[kress]] (Kress) | generico | 44 | anima_animus |
+| [[okaios]] (Okaios) | explorador | 40 | anima_animus |
+| [[tainis]] (Tainis) | generico | 16 | self |
+| [[zephyra]] (Zephyra) | generico | 9 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.530` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.781` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.544` | `▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.463` | `▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.060` | `▓░░░░░░░░░` |
-| **Madre** | `0.034` | `░░░░░░░░░░` |
-| **Muerte** | `0.001` | `░░░░░░░░░░` |
+| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.711` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.356` | `▓▓▓▓░░░░░░` |
+| **Muerte** | `0.232` | `▓▓░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

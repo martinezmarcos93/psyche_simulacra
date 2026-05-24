@@ -116,20 +116,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 194:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 195:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 196:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 197:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 198:** Soñó con `'corriente_que_arrastra'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de rio lago.
-- **Día 199:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 200:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

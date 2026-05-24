@@ -347,8 +347,23 @@ def _action_pygame(console: Console) -> None:
     subprocess.run(args)
 
 
-def _action_liminal_server(console: Console) -> None:
-    """Arranca el servidor Zona Liminal en una nueva ventana de terminal."""
+def _local_ip() -> str:
+    """Devuelve la IP local de la máquina para compartir con otros."""
+    import socket
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except Exception:
+        return "127.0.0.1"
+
+
+def _action_liminal_host(console: Console) -> None:
+    """Inicia el servidor Liminal (nueva ventana) y conecta el visualizador aquí."""
+    import time
+
     raw_port = Prompt.ask("Puerto del servidor", default="8765", console=console)
     try:
         port = int(raw_port)
@@ -361,37 +376,60 @@ def _action_liminal_server(console: Console) -> None:
     except ValueError:
         seed = 0
 
-    args = [
+    # 1. Arrancar el servidor en nueva ventana
+    server_args = [
         sys.executable, str(LIMINAL_SERVER),
         "--host", "0.0.0.0",
         "--port", str(port),
         "--seed", str(seed),
     ]
-
     if sys.platform == "win32":
-        subprocess.Popen(args, creationflags=subprocess.CREATE_NEW_CONSOLE)
+        subprocess.Popen(server_args, creationflags=subprocess.CREATE_NEW_CONSOLE)
     else:
-        subprocess.Popen(args, start_new_session=True)
+        subprocess.Popen(server_args, start_new_session=True)
 
+    ip = _local_ip()
     console.print(
-        f"\n[green]Servidor Zona Liminal iniciado.[/green]\n"
-        f"  WebSocket: [bold cyan]ws://0.0.0.0:{port}[/bold cyan]  ·  "
-        f"Seed del mapa: [bold]{seed}[/bold]\n"
-        f"[dim](Cerrá la ventana del servidor para detenerlo)[/dim]"
+        f"\n[green]Servidor Zona Liminal iniciado.[/green]  "
+        f"Puerto: [bold cyan]{port}[/bold cyan]  ·  Seed: [bold]{seed}[/bold]\n"
+        f"  IP local de esta PC: [bold yellow]{ip}[/bold yellow]  "
+        f"[dim](compartila con tu amigo para que se conecte)[/dim]"
     )
+    console.print("[dim]Esperando 2s para que el servidor esté listo...[/dim]")
+    time.sleep(2)
+
+    # 2. Conectar el visualizador a localhost en esta misma terminal
+    n_days = _ask_days(console, default="200")
+    raw_fps = Prompt.ask("FPS de visualización", default="10", console=console)
+    try:
+        fps = max(1, int(raw_fps))
+    except ValueError:
+        fps = 10
+
+    viz_args = [
+        sys.executable, str(VISUALIZER),
+        "--resume",
+        "--fps", str(fps),
+        "--days", str(n_days or 0),
+        "--liminal",
+        "--liminal-host", "localhost",
+        "--liminal-port", str(port),
+    ]
+    console.print(f"\n[dim]Abriendo Pygame conectado a ws://localhost:{port}...[/dim]\n")
+    subprocess.run(viz_args)
 
 
-def _action_liminal_connect(console: Console, remote: bool = False) -> None:
-    """Abre el visualizador Pygame conectado a la Zona Liminal."""
-    if remote:
-        host = Prompt.ask("Host del servidor liminal", default="localhost", console=console)
-        raw_port = Prompt.ask("Puerto", default="8765", console=console)
-        try:
-            port = int(raw_port)
-        except ValueError:
-            port = 8765
-    else:
-        host = "localhost"
+def _action_liminal_join(console: Console) -> None:
+    """Conecta el visualizador al servidor liminal de otro host."""
+    console.print(
+        "\n[bold]Conectarse al servidor de tu amigo[/bold]\n"
+        "[dim]Necesitás la IP pública (o local si están en la misma red) de quien hostea.[/dim]\n"
+    )
+    host = Prompt.ask("IP del servidor", console=console)
+    raw_port = Prompt.ask("Puerto", default="8765", console=console)
+    try:
+        port = int(raw_port)
+    except ValueError:
         port = 8765
 
     n_days = _ask_days(console, default="200")
@@ -410,7 +448,7 @@ def _action_liminal_connect(console: Console, remote: bool = False) -> None:
         "--liminal-host", host,
         "--liminal-port", str(port),
     ]
-    console.print(f"\n[dim]Abriendo Pygame conectado a ws://{host}:{port}...[/dim]\n")
+    console.print(f"\n[dim]Conectando a ws://{host}:{port}...[/dim]\n")
     subprocess.run(args)
 
 
@@ -536,22 +574,21 @@ def main() -> None:
             t.add_row("[4]", "[yellow]Primera simulación[/yellow]")
 
         t.add_row("", "[dim]──────── ZONA LIMINAL ────────[/dim]")
-        t.add_row("[5]", "Iniciar servidor Zona Liminal  [dim](abre nueva ventana)[/dim]")
 
         if has_vivos:
-            t.add_row("[6]", "Visualizador + Liminal local   [dim](conecta a localhost:8765)[/dim]")
-            t.add_row("[7]", "Visualizador + Liminal remoto  [dim](pide host y puerto)[/dim]")
+            t.add_row("[5]", "Levantar servidor + conectar   [dim](hosteás vos — abre server en nueva ventana)[/dim]")
+            t.add_row("[6]", "Conectarse a servidor          [dim](te unís al servidor de tu amigo)[/dim]")
         else:
-            t.add_row("[dim][6][/dim]", "[dim]Visualizador + Liminal local   (sin agentes vivos)[/dim]")
-            t.add_row("[dim][7][/dim]", "[dim]Visualizador + Liminal remoto  (sin agentes vivos)[/dim]")
+            t.add_row("[dim][5][/dim]", "[dim]Levantar servidor + conectar   (sin agentes vivos)[/dim]")
+            t.add_row("[dim][6][/dim]", "[dim]Conectarse a servidor          (sin agentes vivos)[/dim]")
 
-        t.add_row("[8]", "Salir")
+        t.add_row("[7]", "Salir")
         console.print(t)
         console.print()
 
         choice = Prompt.ask(
             "Opción",
-            choices=["1", "2", "3", "4", "5", "6", "7", "8"],
+            choices=["1", "2", "3", "4", "5", "6", "7"],
             console=console,
         )
 
@@ -578,24 +615,20 @@ def main() -> None:
             input("\nPresioná Enter para volver al menú...")
 
         elif choice == "5":
-            _action_liminal_server(console)
+            if has_vivos:
+                _action_liminal_host(console)
+            else:
+                console.print("[dim]No hay agentes vivos para continuar.[/dim]")
             input("\nPresioná Enter para volver al menú...")
 
         elif choice == "6":
             if has_vivos:
-                _action_liminal_connect(console, remote=False)
+                _action_liminal_join(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
             input("\nPresioná Enter para volver al menú...")
 
         elif choice == "7":
-            if has_vivos:
-                _action_liminal_connect(console, remote=True)
-            else:
-                console.print("[dim]No hay agentes vivos para continuar.[/dim]")
-            input("\nPresioná Enter para volver al menú...")
-
-        elif choice == "8":
             console.print("\n[dim]Hasta pronto.[/dim]")
             break
 

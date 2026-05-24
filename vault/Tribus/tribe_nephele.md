@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `329` | **Miembros vivos:** `1`
+> **Día:** `809` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,20 +8,22 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[nephele]] (Nephele) | explorador | 52 | sombra |
+| [[nephele]] (Nephele) | explorador | 54 | sombra |
+| [[phoibos]] (Phoibos) | generico | 34 | self |
+| [[rhadys]] (Rhadys) | guardian | 51 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.594` `[▓▓▓▓▓▓▓░░░░░]`
+> **Presión emocional:** `0.210` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.724` | `▓▓▓▓▓▓▓░░░` |
-| **Sombra** | `0.724` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.440` | `▓▓▓▓░░░░░░` |
-| **Trickster** | `0.081` | `▓░░░░░░░░░` |
+| **Heroe** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
+| **Sombra** | `0.785` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.748` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.460` | `▓▓▓▓▓░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

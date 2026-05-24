@@ -51,7 +51,7 @@ arquetipos:
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓▓▓▓▓▓▓▓░░]` | 0.85 | ⚠️ Alerta / Crítico |
 | **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
-| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.70 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.69 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -134,20 +134,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 262:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 263:** Soñó con `'semilla_negra'` (arquetipo `self`).
-  - *Insight:* El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 264:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 265:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 266:** Soñó con `'reflejo_distorsionado'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de rio lago.
-- **Día 267:** Soñó con `'horizonte_inmóvil'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 268:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

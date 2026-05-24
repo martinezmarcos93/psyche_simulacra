@@ -108,20 +108,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 201:** Soñó con `'sendero_circular'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 202:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
-- **Día 203:** Soñó con `'sol_que_calcina'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 204:** Soñó con `'espejo_que_miente'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
-- **Día 205:** Soñó con `'árbol_sin_raíces'` (arquetipo `anima_animus`).
-  - *Insight:* En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 206:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 207:** Soñó con `'vista_engañosa'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Ánima-Ánimus
 
-> **Día:** `89` | **Miembros vivos:** `1`
+> **Día:** `779` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[thalia]] (Thalia) | generico | 41 | self |
+| [[thalia]] (Thalia) | generico | 43 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.941` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.240` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.840` | `▓▓▓▓▓▓▓▓░░` |
-| **Sombra** | `0.805` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.075` | `▓░░░░░░░░░` |
-| **Madre** | `0.038` | `░░░░░░░░░░` |
+| **Sombra** | `0.788` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.724` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.528` | `▓▓▓▓▓░░░░░` |
+| **Madre** | `0.516` | `▓▓▓▓▓░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

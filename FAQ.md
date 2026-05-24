@@ -142,9 +142,9 @@ No se requiere GPU. La simulación core corre completamente en CPU. Ollama puede
 | `[2]` | Continuar simulación con visualizador Pygame |
 | `[3]` | Abrir Dashboard Streamlit (solo lectura) |
 | `[4]` | Iniciar nueva simulación (archiva la anterior automáticamente) |
-| `[5]` | Iniciar servidor Zona Liminal (abre nueva ventana) |
-| `[6]` | Visualizador + conectar a Zona Liminal local (localhost:8765) |
-| `[7]` | Visualizador + conectar a Zona Liminal remota (pide host/puerto) |
+| `[5]` | **Levantar servidor Zona Liminal + conectar** — inicia el server en nueva ventana y abre el visualizador conectado aquí (flujo del hosteador) |
+| `[6]` | **Conectarse a servidor** — pide la IP del hosteador y abre el visualizador conectado (flujo del amigo) |
+| `[7]` | Salir |
 
 `run_simulation.py` es el **motor headless de línea de comandos**, sin interactividad. Acepta todos los parámetros por flags (`--seeds-file`, `--days`, `--seed`, `--resume`) y es el apropiado para correr desde scripts, crons, o servidores sin interfaz.
 

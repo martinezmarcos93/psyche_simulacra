@@ -113,20 +113,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 267:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 268:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
-- **Día 269:** Soñó con `'sombra_que_camina'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 270:** Soñó con `'sed_en_el_agua'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 271:** Soñó con `'calma_antes_de_algo'` (arquetipo `sombra`).
-  - *Insight:* El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 272:** Soñó con `'centro_sin_lugar'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 273:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

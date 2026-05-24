@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓░░░░░░]` | 0.45 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
 
 ### Necesidades Biológicas
@@ -119,20 +119,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 264:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 265:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de montana alta.
-- **Día 266:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 267:** Soñó con `'horizonte_de_agua'` (arquetipo `sombra`).
-  - *Insight:* El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 268:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 269:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 270:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

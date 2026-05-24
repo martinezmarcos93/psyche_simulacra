@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `179` | **Miembros vivos:** `1`
+> **Día:** `869` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,20 +8,22 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kress]] (Kress) | generico | 43 | self |
+| [[kress]] (Kress) | generico | 45 | self |
+| [[lykos]] (Lykos) | explorador | 48 | self |
+| [[thalia]] (Thalia) | generico | 43 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.789` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.941` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.530` | `▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.279` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.140` | `▓░░░░░░░░░` |
+| **Sombra** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.882` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.441` | `▓▓▓▓░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

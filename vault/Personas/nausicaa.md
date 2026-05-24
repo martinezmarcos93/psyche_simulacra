@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓░░░░░░░]` | 0.33 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 |
 
 ### Necesidades Biológicas
@@ -138,20 +138,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 281:** Soñó con `'roca_que_aplasta'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en montana alta compensando la energía de lo reprimido.
-- **Día 282:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 283:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 284:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- **Día 285:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- **Día 286:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 287:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

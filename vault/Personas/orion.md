@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.57 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.69 |
 
@@ -117,20 +117,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 276:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En desierto borde, el self encuentra tregua provisional con lo reprimido.
-- **Día 277:** Soñó con `'habitación_prohibida'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 278:** Soñó con `'sendero_circular'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 279:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 280:** Soñó con `'hierba_que_corta'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 281:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- **Día 282:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

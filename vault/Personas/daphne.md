@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓░░░░░░░]` | 0.28 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.97 |
 
 ### Necesidades Biológicas
@@ -125,20 +125,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 319:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
-- **Día 320:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 321:** Soñó con `'figura_que_sigue'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 322:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
-  - *Insight:* En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 323:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 324:** Soñó con `'figura_que_sigue'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 325:** Soñó con `'figura_que_sigue'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

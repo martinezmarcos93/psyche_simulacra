@@ -134,20 +134,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 268:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 269:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 270:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
-- **Día 271:** Soñó con `'abundancia_que_pudre'` (arquetipo `anima_animus`).
-  - *Insight:* El valle fertil amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
-- **Día 272:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
-- **Día 273:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
-  - *Insight:* El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
-- **Día 274:** Soñó con `'habitación_prohibida'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

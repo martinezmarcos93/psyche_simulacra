@@ -24,10 +24,18 @@ No. El servidor solo recibe y redistribuye eventos. Cada simulación es soberana
 
 **¿Cómo conecto dos PCs en casas distintas?**
 
-1. El hosteador abre `python main.py` en la raíz de PSYCHE SIMULACRA → opción `[5]` para iniciar el servidor.
-2. El hosteador abre el puerto 8765 (TCP) en su router con port forwarding hacia su IP local.
-3. El que se conecta abre `python main.py` → opción `[7]` e ingresa la IP pública del hosteador.
-4. Verificar que el firewall de Windows no bloquee el puerto 8765.
+**PC-A (hosteador):**
+1. Terminal 1: `python main.py` → `[1] Continuar` para correr la simulación.
+2. Terminal 2: `python main.py` → `[5] Levantar servidor + conectar`.
+   - Abre el servidor en una nueva ventana automáticamente.
+   - Muestra tu IP local — compartila con tu amigo.
+3. Abrir el puerto 8765 (TCP) en el router con port forwarding hacia la IP local mostrada.
+
+**PC-B (el amigo):**
+1. Terminal 1: `python main.py` → `[4]` o `[1]` para correr su propia simulación.
+2. Terminal 2: `python main.py` → `[6] Conectarse a servidor` → ingresar la IP pública de PC-A.
+
+Verificar que el firewall de Windows no bloquee el puerto 8765 en PC-A.
 
 Alternativa manual si no se usa el launcher:
 - Hosteador: `cd liminal_server && python main.py`
@@ -44,18 +52,20 @@ Los agentes que estaban en la zona liminal quedan "flotando" hasta que el servid
 **¿Se puede correr el servidor y la simulación en la misma PC?**
 
 Sí. Para desarrollo y pruebas, todo corre en localhost. Desde `main.py`:
-- Opción `[5]` inicia el servidor en una ventana nueva.
-- Opción `[6]` conecta el visualizador a localhost:8765.
+- Opción `[5]` inicia el servidor en nueva ventana y conecta el visualizador a localhost:8765 en una sola acción.
 
 **¿Cuál es el orden correcto de ejecución?**
 
 ```
-PC-A (hosteador)                    PC-B (cliente)
-────────────────                    ──────────────
-1. Correr simulación                1. Correr simulación
-2. Iniciar servidor (opción 5)
-3. Conectar visualizador (op. 6)    2. Conectar visualizador (op. 7)
-                                       → ingresar IP de PC-A
+PC-A  terminal 1         PC-A  terminal 2         PC-B  terminal 2
+────────────────         ────────────────         ───────────────
+1. python main.py        2. python main.py        1. python main.py
+   → [1] Continuar          → [5] Levantar           → [1] Continuar
+     (sim corriendo)             servidor                 (sim corriendo)
+                                 + conectar
+                                                   2. python main.py
+                                                      → [6] Conectarse
+                                                         → IP de PC-A
 ```
 
 El servidor **debe estar activo** antes de que alguien intente conectarse. Las simulaciones pueden estar corriendo antes, durante o después de que el servidor arranque — son independientes.

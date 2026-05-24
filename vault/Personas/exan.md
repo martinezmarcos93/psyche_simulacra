@@ -4,36 +4,36 @@ nombre: Exan
 rol: generico
 edad: 22
 sexo: M
-is_alive: True
-posicion: [71, 25]
-humor: 0.532
-energia: 0.441
-ansiedad: 0.732
+is_alive: False
+posicion: [68, 49]
+humor: 0.304
+energia: 0.657
+ansiedad: 0.943
 needs:
-  hambre: 0.724
-  fatiga: 0.575
-  sed: 0.535
+  hambre: 1.000
+  fatiga: 0.335
+  sed: 1.000
   sociabilidad: 1.000
 arquetipo_dominante: sombra
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.980
+  self: 0.964
   persona: 0.258
-  sombra: 1.000
-  anima_animus: 0.803
-  heroe: 0.916
-  sabio: 0.488
-  trickster: 0.209
-  madre: 0.544
-  padre: 0.419
-  nino_divino: 0.249
-  gobernante: 0.685
-  rebelde: 0.189
+  sombra: 0.999
+  anima_animus: 0.807
+  heroe: 0.947
+  sabio: 0.522
+  trickster: 0.210
+  madre: 0.601
+  padre: 0.429
+  nino_divino: 0.256
+  gobernante: 0.699
+  rebelde: 0.193
 ---
 # 👤 Persona: Exan
 
-> **Rol:** `generico` | **Edad:** 22 | **Sexo:** M | **Ubicación:** `(71, 25)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `generico` | **Edad:** 22 | **Sexo:** M | **Ubicación:** `(68, 49)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.53 |
-| **Energía** | `[▓▓▓▓░░░░░░]` | 0.44 |
-| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
+| **Humor** | `[▓▓▓░░░░░░░]` | 0.30 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓▓░░░]` | 0.72 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.58 | 🟢 Descansado |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.980` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.964` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.258` | `▓▓▓░░░░░░░░░` |
-| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Anima animus** | `0.803` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.916` | `▓▓▓▓▓▓▓▓▓▓▓░` |
-| **Sabio** | `0.488` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.209` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.544` | `▓▓▓▓▓▓▓░░░░░` |
-| **Padre** | `0.419` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.249` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.685` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Rebelde** | `0.189` | `▓▓░░░░░░░░░░` |
+| **Sombra** | `0.999` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.807` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.947` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Sabio** | `0.522` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.210` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.601` | `▓▓▓▓▓▓▓░░░░░` |
+| **Padre** | `0.429` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.256` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.699` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Rebelde** | `0.193` | `▓▓░░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -95,9 +95,12 @@ arquetipos:
 | [[calix]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[calyce]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[cephalos]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
+| [[creon]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[daphne]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[drex]] | `-0.64` | `▓▓░░░░░░░░` | Ninguno |
+| [[eudora]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[festus]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[garan]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[hakon]] | `-0.64` | `▓▓░░░░░░░░` | Ninguno |
 | [[hector]] | `+0.36` | `▓▓▓▓▓▓▓░░░` | Ninguno |
 | [[imene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
@@ -105,17 +108,20 @@ arquetipos:
 | [[ixion]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
 | [[kalliope]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
 | [[kleis]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[kress]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[kyron]] | `-0.68` | `▓▓░░░░░░░░` | Ninguno |
 | [[lakon]] | `-0.70` | `▓▓░░░░░░░░` | Ninguno |
-| [[lyris]] | `-0.76` | `▓░░░░░░░░░` | Ninguno |
+| [[lyris]] | `-0.40` | `▓▓▓░░░░░░░` | Ninguno |
 | [[malia]] | `-0.54` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
 | [[medon]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[nausicaa]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[nephele]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[neria]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[persis]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
 | [[phoibe]] | `-0.40` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
-| [[rhadys]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[rhadys]] | `-0.86` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
 | [[talos]] | `-0.42` | `▓▓▓░░░░░░░` | Ninguno |
+| [[ulax]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[vespa]] | `-0.26` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[xanthe]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[xeron]] | `-0.04` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
@@ -126,20 +132,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 494:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 495:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 496:** Soñó con `'agua_fría'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 497:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
-- **Día 498:** Soñó con `'calma_antes_de_algo'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 499:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de montana alta.
-- **Día 500:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 
@@ -939,3 +932,164 @@ arquetipos:
 - Día 499: Cedió ingenuamente ante la manipulación de Lyris.
 - Día 500: Cedió ingenuamente ante la manipulación de Lyris.
 - Día 500: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 500: Cedió ingenuamente ante la manipulación de Lyris.
+- Día 500: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 501: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 502: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 503: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 504: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 505: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 506: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 507: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 508: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 509: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 510: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 511: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 511: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
+- Día 511: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
+- Día 512: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 513: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 514: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 515: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 516: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 517: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 517: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 517: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 517: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 517: Cooperó de forma mutua y armónica con Lyris. Su lazo social se fortaleció.
+- Día 518: Soñó con 'mandala_incompleto' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 519: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 520: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 521: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 522: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 523: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 524: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 525: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 526: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 527: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 528: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 529: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 530: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 531: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 532: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 533: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 534: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 535: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 536: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 537: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 538: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 539: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 540: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 541: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 542: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 543: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 544: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 545: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 546: Soñó con 'corriente_que_arrastra' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 547: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 548: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 549: Soñó con 'unión_imposible' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 550: Soñó con 'silencio_pleno' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 551: Soñó con 'mandala_incompleto' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 552: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 553: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 554: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 555: Soñó con 'reflejo_sin_original' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 556: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 557: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 558: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 559: Soñó con 'centro_sin_lugar' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 560: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 561: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 562: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 563: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 564: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 565: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 566: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 567: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 568: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 569: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 570: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 571: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 572: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 573: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 574: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 575: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 576: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 577: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 577: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 578: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 579: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 580: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 581: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 582: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 583: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 584: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 585: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 586: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 587: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 588: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 589: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 590: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 591: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 592: Soñó con 'descenso_inevitable' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 593: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 594: Soñó con 'habitación_prohibida' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 594: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 594: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 595: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 596: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 597: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 597: Detectó y rechazó un intento de manipulación de Garan.
+- Día 598: Soñó con 'monstruo_sin_forma' (heroe). Insight: El heroe proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 599: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 600: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 601: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 602: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 603: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 604: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 605: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 606: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 607: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 608: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 609: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 610: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 611: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 612: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 613: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 614: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 615: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 616: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 617: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 618: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 619: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 620: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 621: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 622: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 623: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 624: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 625: Soñó con 'mandala_incompleto' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 626: Soñó con 'sol_que_calcina' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 627: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 628: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 629: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 629: Se impuso competitivamente ante Creon, absorbiendo sus recursos biológicos.
+- Día 629: Se impuso competitivamente ante Creon, absorbiendo sus recursos biológicos.
+- Día 629: Se impuso competitivamente ante Creon, absorbiendo sus recursos biológicos.
+- Día 630: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 631: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 632: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 633: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 634: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 634: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ulax.
+- Día 634: Intentó manipular a Kress, pero fue descubierto.
+- Día 635: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 636: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 636: Se impuso competitivamente ante Kress, absorbiendo sus recursos biológicos.
+- Día 636: Se impuso competitivamente ante Kress, absorbiendo sus recursos biológicos.
+- Día 636: Se impuso competitivamente ante Kress, absorbiendo sus recursos biológicos.
+- Día 636: Detectó y rechazó un intento de manipulación de Ulax.
+- Día 636: Se impuso competitivamente ante Kress, absorbiendo sus recursos biológicos.
+- Día 637: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 638: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 639: Falleció a causa de deshidratacion.

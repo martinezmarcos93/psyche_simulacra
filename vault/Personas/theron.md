@@ -113,20 +113,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 178:** Soñó con `'vista_engañosa'` (arquetipo `sombra`).
-  - *Insight:* El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 179:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 180:** Soñó con `'sendero_circular'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 181:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
-- **Día 182:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self proyecta lo reprimido sobre el horizonte de montana alta.
-- **Día 183:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 184:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

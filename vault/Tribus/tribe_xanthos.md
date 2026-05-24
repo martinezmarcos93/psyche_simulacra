@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `479` | **Miembros vivos:** `1`
+> **Día:** `749` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[xanthos]] (Xanthos) | cazador | 51 | anima_animus |
+| [[xanthos]] (Xanthos) | cazador | 52 | self |
 
 ---
 
@@ -18,13 +18,13 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.966` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Madre** | `0.483` | `▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.470` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.215` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.294` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.159` | `▓▓░░░░░░░░` |
+| **Madre** | `0.147` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

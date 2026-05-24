@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `299` | **Miembros vivos:** `1`
+> **Día:** `1354` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lykos]] (Lykos) | explorador | 46 | self |
+| [[lykos]] (Lykos) | explorador | 49 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.536` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.628` | `▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.209` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.201` | `▓▓░░░░░░░░` |
-| **Madre** | `0.105` | `▓░░░░░░░░░` |
-| **Trickster** | `0.082` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

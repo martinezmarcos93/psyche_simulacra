@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `299` | **Miembros vivos:** `3`
+> **Día:** `1240` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,23 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[festus]] (Festus) | recolector | 61 | self |
-| [[perion]] (Perion) | cazador | 52 | self |
-| [[phoibos]] (Phoibos) | generico | 32 | anima_animus |
+| [[festus]] (Festus) | recolector | 64 | self |
+| [[hector]] (Hector) | generico | 45 | self |
+| [[lyris]] (Lyris) | generico | 33 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.895` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.876` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.735` | `▓▓▓▓▓▓▓░░░` |
-| **Muerte** | `0.504` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.322` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.134` | `▓░░░░░░░░░` |
-| **Madre** | `0.067` | `▓░░░░░░░░░` |
+| **Sombra** | `0.895` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.518` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.388` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.333` | `▓▓▓░░░░░░░` |
+| **Muerte** | `0.003` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

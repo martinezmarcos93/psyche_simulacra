@@ -114,20 +114,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 338:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 339:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 340:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 341:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 342:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 343:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
-- **Día 344:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

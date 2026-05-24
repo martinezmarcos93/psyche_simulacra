@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.56 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
 
 ### Necesidades Biológicas
@@ -126,20 +126,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 201:** Soñó con `'tierra_resquebrajada'` (arquetipo `anima_animus`).
-  - *Insight:* En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 202:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 203:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 204:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 205:** Soñó con `'marea_que_sube'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
-- **Día 206:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
-- **Día 207:** Soñó con `'figura_que_sigue'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

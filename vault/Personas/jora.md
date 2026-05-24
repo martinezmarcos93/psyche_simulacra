@@ -42,7 +42,7 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓░░░░░░░]` | 0.32 |
+| **Humor** | `[▓▓▓░░░░░░░]` | 0.33 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 |
 
@@ -129,20 +129,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 276:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 277:** Soñó con `'espejo_que_miente'` (arquetipo `self`).
-  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
-- **Día 278:** Soñó con `'sombra_ausente'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 279:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- **Día 280:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 281:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 282:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

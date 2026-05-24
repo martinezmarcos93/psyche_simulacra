@@ -43,7 +43,7 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓░░░░░]` | 0.49 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.65 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
 | **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
 
 ### Necesidades Biológicas
@@ -118,20 +118,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 155:** Soñó con `'voz_sin_cuerpo'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- **Día 156:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 157:** Soñó con `'campo_interminable'` (arquetipo `anima_animus`).
-  - *Insight:* En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 158:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 159:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 160:** Soñó con `'centro_sin_lugar'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- **Día 161:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

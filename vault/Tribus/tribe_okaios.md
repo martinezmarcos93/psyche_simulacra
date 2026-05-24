@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `29` | **Miembros vivos:** `1`
+> **Día:** `1354` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[okaios]] (Okaios) | explorador | 39 | heroe |
+| [[okaios]] (Okaios) | explorador | 42 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.196` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.093` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.773` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.681` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.536` | `▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.102` | `▓░░░░░░░░░` |
+| **Trickster** | `0.003` | `░░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

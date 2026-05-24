@@ -1,6 +1,6 @@
 # 🏛️ Cultura Material
 
-> **Día:** `500` | **Estructuras activas:** `41`
+> **Día:** `1354` | **Estructuras activas:** `62`
 
 ---
 
@@ -49,18 +49,39 @@
 | ⛩️ Altar | `tribe_bron` | `(56, 55)` | Día 338 | 2 hex | `+0.010` | `-0.015` |
 | 🗿 Tótem | `tribe_demos` | `(75, 12)` | Día 450 | 2 hex | `+0.015` | `-0.010` |
 | ⛩️ Altar | `tribe_aglaia` | `(67, 27)` | Día 493 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_demos` | `(78, 8)` | Día 503 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_brysis` | `(64, 59)` | Día 541 | 2 hex | `+0.010` | `-0.015` |
+| ⛩️ Altar | `tribe_aglaia` | `(76, 10)` | Día 573 | 2 hex | `+0.010` | `-0.015` |
+| ⛩️ Altar | `tribe_alethea` | `(72, 26)` | Día 589 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_calix` | `(72, 56)` | Día 627 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_brysis` | `(52, 46)` | Día 681 | 2 hex | `+0.010` | `-0.015` |
+| ⛩️ Altar | `tribe_evander` | `(61, 56)` | Día 708 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_nephele` | `(57, 29)` | Día 720 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_brysis` | `(71, 33)` | Día 778 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_nephele` | `(77, 37)` | Día 784 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_kress` | `(66, 55)` | Día 813 | 2 hex | `+0.010` | `-0.015` |
+| ⛩️ Altar | `tribe_brysis` | `(73, 47)` | Día 856 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_festus` | `(68, 58)` | Día 866 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_festus` | `(69, 50)` | Día 916 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_creon` | `(70, 58)` | Día 945 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_festus` | `(72, 45)` | Día 968 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_festus` | `(47, 54)` | Día 1020 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_festus` | `(72, 17)` | Día 1085 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_festus` | `(67, 19)` | Día 1137 | 2 hex | `+0.015` | `-0.010` |
+| ⛩️ Altar | `tribe_eudora` | `(74, 56)` | Día 1143 | 2 hex | `+0.010` | `-0.015` |
+| 🗿 Tótem | `tribe_festus` | `(79, 52)` | Día 1241 | 2 hex | `+0.015` | `-0.010` |
 
 ---
 
 ## 🌀 Auras por Tipo de Estructura
 
-### ⛩️ Altar (39 activas)
+### ⛩️ Altar (49 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.010`, ansiedad `-0.015`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día
 - **Impulso arquetípico:** sabio: +0.0005/día, self_: +0.0005/día
 
-### 🗿 Tótem (2 activas)
+### 🗿 Tótem (13 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.015`, ansiedad `-0.010`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día

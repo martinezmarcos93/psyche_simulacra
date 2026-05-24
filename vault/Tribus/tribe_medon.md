@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `500` | **Miembros vivos:** `1`
+> **Día:** `539` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,22 +8,22 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[medon]] (Medon) | generico | 50 | self |
+| [[medon]] (Medon) | generico | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.201` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.574` `[▓▓▓▓▓▓▓░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.251` | `▓▓▓░░░░░░░` |
+| **Trickster** | `0.613` | `▓▓▓▓▓▓░░░░` |
+| **Sombra** | `0.378` | `▓▓▓▓░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |

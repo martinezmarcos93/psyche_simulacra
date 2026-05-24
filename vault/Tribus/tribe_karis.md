@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `500` | **Miembros vivos:** `2`
+> **Día:** `659` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[karis]] (Karis) | guardian | 19 | anima_animus |
-| [[xanthos]] (Xanthos) | cazador | 51 | anima_animus |
+| [[xanthos]] (Xanthos) | cazador | 51 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.785` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.577` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.290` | `▓▓▓░░░░░░░` |
-| **Sombra** | `0.044` | `░░░░░░░░░░` |
-| **Trickster** | `0.021` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.785` | `▓▓▓▓▓▓▓▓░░` |
+| **Muerte** | `0.232` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.130` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

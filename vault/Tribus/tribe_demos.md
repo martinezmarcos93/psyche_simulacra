@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `500` | **Miembros vivos:** `4`
+> **Día:** `719` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[demos]] (Demos) | cazador | 61 | anima_animus |
 | [[kalliope]] (Kalliope) | recolector | 49 | sombra |
-| [[nephele]] (Nephele) | explorador | 53 | sombra |
-| [[rhadys]] (Rhadys) | guardian | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.826` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.710` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.783` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.405` | `▓▓▓▓░░░░░░` |
-| **Madre** | `0.202` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.007` | `░░░░░░░░░░` |
+| **Sombra** | `0.667` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.460` | `▓▓▓▓▓░░░░░` |
+| **Muerte** | `0.214` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.054` | `▓░░░░░░░░░` |
+| **Madre** | `0.027` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

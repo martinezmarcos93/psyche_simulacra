@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `500` | **Miembros vivos:** `4`
+> **Día:** `1079` | **Miembros vivos:** `4`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[aglaia]] (Aglaia) | generico | 19 | sombra |
-| [[alethea]] (Alethea) | recolector | 29 | sombra |
-| [[garan]] (Garan) | guardian | 22 | self |
-| [[thalia]] (Thalia) | generico | 42 | anima_animus |
+| [[evander]] (Evander) | generico | 33 | self |
+| [[kress]] (Kress) | generico | 45 | self |
+| [[lykos]] (Lykos) | explorador | 48 | self |
+| [[ulax]] (Ulax) | generico | 21 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.845` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.540` `[▓▓▓▓▓▓░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.409` | `▓▓▓▓░░░░░░` |
-| **Madre** | `0.207` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.019` | `░░░░░░░░░░` |
+| **Sombra** | `0.628` | `▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.588` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.389` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.358` | `▓▓▓▓░░░░░░` |
+| **Muerte** | `0.201` | `▓▓░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |

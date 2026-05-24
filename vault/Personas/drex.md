@@ -127,20 +127,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 275:** Soñó con `'árbol_sin_raíces'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- **Día 276:** Soñó con `'complemento_ausente'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- **Día 277:** Soñó con `'unión_imposible'` (arquetipo `anima_animus`).
-  - *Insight:* En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 278:** Soñó con `'descenso_inevitable'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- **Día 279:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
-- **Día 280:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
-- **Día 281:** Soñó con `'voz_sin_cuerpo'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

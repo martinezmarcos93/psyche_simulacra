@@ -1,6 +1,6 @@
 # 📋 Bitácora Global de la Simulación
 
-**Última Sincronización:** Día `500`
+**Última Sincronización:** Día `1354`
 
 ---
 
@@ -80,3 +80,18 @@ Acontecimientos existenciales y decesos registrados a lo largo del ciclo vital:
 | **Día 345** | 💀 Deceso | [[brennus]] (Brennus) falleció a causa de `deshidratacion`. |
 | **Día 350** | 💀 Deceso | [[zoia]] (Zoia) falleció a causa de `deshidratacion`. |
 | **Día 358** | 💀 Deceso | [[lakon]] (Lakon) falleció a causa de `deshidratacion`. |
+| **Día 553** | 💀 Deceso | [[bron]] (Bron) falleció a causa de `deshidratacion`. |
+| **Día 639** | 💀 Deceso | [[exan]] (Exan) falleció a causa de `deshidratacion`. |
+| **Día 643** | 💀 Deceso | [[karis]] (Karis) falleció a causa de `deshidratacion`. |
+| **Día 647** | 💀 Deceso | [[garan]] (Garan) falleció a causa de `deshidratacion`. |
+| **Día 647** | 💀 Deceso | [[calix]] (Calix) falleció a causa de `deshidratacion`. |
+| **Día 649** | 💀 Deceso | [[alethea]] (Alethea) falleció a causa de `deshidratacion`. |
+| **Día 699** | 💀 Deceso | [[demos]] (Demos) falleció a causa de `vejez`. |
+| **Día 1000** | 💀 Deceso | [[kalliope]] (Kalliope) falleció a causa de `deshidratacion`. |
+| **Día 1012** | 💀 Deceso | [[xanthos]] (Xanthos) falleció a causa de `deshidratacion`. |
+| **Día 1015** | 💀 Deceso | [[phoibos]] (Phoibos) falleció a causa de `deshidratacion`. |
+| **Día 1016** | 💀 Deceso | [[tainis]] (Tainis) falleció a causa de `deshidratacion`. |
+| **Día 1040** | 💀 Deceso | [[nephele]] (Nephele) falleció a causa de `deshidratacion`. |
+| **Día 1056** | 💀 Deceso | [[aglaia]] (Aglaia) falleció a causa de `deshidratacion`. |
+| **Día 1271** | 💀 Deceso | [[kress]] (Kress) falleció a causa de `deshidratacion`. |
+| **Día 1272** | 💀 Deceso | [[rhadys]] (Rhadys) falleció a causa de `deshidratacion`. |

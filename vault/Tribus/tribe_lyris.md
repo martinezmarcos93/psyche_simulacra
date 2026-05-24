@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `449` | **Miembros vivos:** `1`
+> **Día:** `659` | **Miembros vivos:** `3`
 
 ---
 
@@ -9,19 +9,21 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[lyris]] (Lyris) | generico | 31 | sombra |
+| [[nephele]] (Nephele) | explorador | 53 | sombra |
+| [[rhadys]] (Rhadys) | guardian | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.739` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.131` `[▓▓░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.739` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.188` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.125` | `▓░░░░░░░░░` |
-| **Madre** | `0.094` | `▓░░░░░░░░░` |
+| **Heroe** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.697` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.475` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.319` | `▓▓▓░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

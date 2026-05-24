@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `329` | **Miembros vivos:** `2`
+> **Día:** `1354` | **Miembros vivos:** `4`
 
 ---
 
@@ -8,24 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[eudora]] (Eudora) | recolector | 50 | self |
-| [[xanthos]] (Xanthos) | cazador | 50 | self |
+| [[eudora]] (Eudora) | recolector | 53 | sombra |
+| [[hector]] (Hector) | generico | 45 | self |
+| [[medon]] (Medon) | generico | 52 | sombra |
+| [[thalia]] (Thalia) | generico | 44 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.365` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.868` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.347` | `▓▓▓░░░░░░░` |
-| **Muerte** | `0.227` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.807` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.676` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
