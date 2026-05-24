@@ -141,6 +141,22 @@ class AgentCore:
         if actions:
             self.world_ref.receive_actions(actions)
 
+        # Cadena chamánica: agentes que consumieron una sustancia psicoactiva este tick
+        # forman vínculo con los co-presentes; el consumidor gana sabio.
+        for agent in self.agents.values():
+            if not agent._psychoactive_consumed:
+                continue
+            agent._psychoactive_consumed = False
+            agent.archetypes.sabio = min(1.0, agent.archetypes.sabio + 0.02)
+            for other in self.agents.values():
+                if other.id == agent.id or not other.is_alive:
+                    continue
+                if other.posicion == agent.posicion:
+                    b_ao = self.social_network.get_bond(agent.id, other.id)
+                    b_oa = self.social_network.get_bond(other.id, agent.id)
+                    self.social_network.set_bond(agent.id, other.id, min(1.0, b_ao + 0.05))
+                    self.social_network.set_bond(other.id, agent.id, min(1.0, b_oa + 0.05))
+
     def on_day(self, tp: TimePoint) -> None:
         """Called once per simulated day — runs death checks and social dynamics."""
         # 1. Decaimiento y evolución del campo memético global (Fase 7)
@@ -199,12 +215,43 @@ class AgentCore:
         # 6. Reproducción
         self._check_reproduccion(tp)
 
-        # 7. "El muerto que tiene más poder que vivo":
+        # 7. Resonancia grupal por sustancias: ≥2 agentes bajo efecto en el mismo hex
+        #    amplifican el campo memético local.
+        hex_sub_agents: dict[tuple, list] = {}
+        for agent in self.agents.values():
+            if agent.is_alive and agent._active_substances:
+                hex_sub_agents.setdefault(agent.posicion, []).append(agent)
+        for hex_agents in hex_sub_agents.values():
+            if len(hex_agents) >= 2:
+                lf = self.tribe_manager.get_local_field(hex_agents[0].id)
+                if lf is not None:
+                    lf.absorb_event("resonancia_enteogenica",
+                                    intensity=min(1.0, 0.30 * len(hex_agents)))
+                # Registrar en memoria cultural tribal
+                tribe_id = self.tribe_manager.get_tribe_id(hex_agents[0].id)
+                if tribe_id:
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        nombres = ", ".join(a.nombre for a in hex_agents[:3])
+                        subs = next(iter(hex_agents[0]._active_substances), "sustancia")
+                        cmem.record_event(
+                            dia                 = tp.dia_simulado,
+                            agente_nombre       = hex_agents[0].nombre,
+                            arquetipo_dominante = "sabio",
+                            tipo_evento         = "vision_colectiva",
+                            descripcion         = (
+                                f"{nombres} compartieron una visión de {subs} "
+                                f"en el día {tp.dia_simulado}."
+                            ),
+                            intensidad          = 0.70,
+                        )
+
+        # 8. "El muerto que tiene más poder que vivo":
         #    si un registro cultural tiene alta intensidad y muchas transmisiones,
         #    su protagonista (fallecido) se convierte en figura mítica que sostiene el ICL.
         self._check_mythic_dead(tp.dia_simulado)
 
-        # 8. Sueños nocturnos con entrelazamiento
+        # 9. Sueños nocturnos con entrelazamiento
         self._process_nightly_dreams(tp.dia_simulado)
 
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────

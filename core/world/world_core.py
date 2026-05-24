@@ -6,6 +6,8 @@ from .resources import ResourceSystem
 from .fauna import FaunaSystem
 from .fire import FireSystem
 from .grave_hex import GraveSystem
+from .substances import SubstanceSystem, SUBSTANCE_NAMES
+import random
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
 
@@ -30,8 +32,10 @@ class WorldCore:
         self.climate   = ClimateSystem(seed=seed)
         self.resources = ResourceSystem(self.terrain)
         self.fauna     = FaunaSystem(self.terrain, seed=seed)
-        self.fire      = FireSystem(seed=seed)
-        self.graves    = GraveSystem()
+        self.fire       = FireSystem(seed=seed)
+        self.graves     = GraveSystem()
+        self.substances = SubstanceSystem()
+        self._rng       = random.Random(seed + 7)
 
         self._pending_actions:     list[WorldAction]       = []
         self._last_action_results: dict[str, ActionResult] = {}
@@ -61,6 +65,7 @@ class WorldCore:
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
         self.graves.daily_update()
+        self.substances.daily_regen()
 
     def on_season_change(self, tp: TimePoint) -> None:
         """Llamado cuando la estación cambia."""
@@ -105,6 +110,23 @@ class WorldCore:
         if action.type == ActionType.RECOLECTAR:
             resource = action.params.get("resource", "")
             amount   = action.params.get("amount", 0.1)
+            if resource in SUBSTANCE_NAMES:
+                taken = self.substances.consume(action.coord, resource, amount, action.agent_id)
+                if taken > 0:
+                    return ActionResult(
+                        agent_id        = action.agent_id,
+                        action_type     = "recolectar",
+                        success         = True,
+                        resource_gained = {resource: taken},
+                        world_effects   = {f"{resource}_consumido": taken},
+                    )
+                return ActionResult(
+                    agent_id       = action.agent_id,
+                    action_type    = "recolectar",
+                    success        = False,
+                    failure_reason = "sustancia_agotada",
+                    world_effects  = {},
+                )
             return self.resources.consume(action.coord, resource, amount, action.agent_id)
 
         elif action.type == ActionType.CAZAR:
@@ -122,12 +144,20 @@ class WorldCore:
             newly = self.terrain.reveal(
                 action.coord[0], action.coord[1], radius=1
             )
+            # Descubrimiento accidental de sustancia al explorar el hex
+            hex_cell  = self.terrain.get(action.coord[0], action.coord[1])
+            substance = None
+            if hex_cell is not None:
+                substance = self.substances.maybe_reveal(action.coord, hex_cell.biome, self._rng)
+            discoveries = [{"tipo": "hex", "coord": c} for c in newly]
+            if substance:
+                discoveries.append({"tipo": "sustancia", "nombre": substance, "coord": action.coord})
             return ActionResult(
                 agent_id      = action.agent_id,
                 action_type   = ActionType.EXPLORAR,
                 success       = True,
                 world_effects = {"nuevos_hexes": len(newly)},
-                discoveries   = [{"tipo": "hex", "coord": c} for c in newly],
+                discoveries   = discoveries,
             )
 
         elif action.type == ActionType.CONSTRUIR_REFUGIO:
@@ -154,6 +184,10 @@ class WorldCore:
             coord: self.resources.get_hex_summary(coord)
             for coord in explored
         }
+
+        # Añadir sustancias descubiertas a los recursos visibles
+        for coord, sub_dict in self.substances.get_for_snapshot(explored).items():
+            recursos_por_hex.setdefault(coord, {}).update(sub_dict)
 
         # Incluir hexes frontera (no explorados adyacentes a explorados) mostrando
         # solo recursos de agua, para que los agentes puedan navegar hacia el agua
@@ -243,6 +277,7 @@ class WorldCore:
             "resource_amounts": self.resources.get_amounts_snapshot(explored),
             "fauna_density":    self.fauna.get_density_snapshot(explored),
             "graves":           self.graves.to_dict(),
+            "substances":       self.substances.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -257,3 +292,5 @@ class WorldCore:
         self.fauna.restore_density(data.get("fauna_density", {}))
         if "graves" in data:
             self.graves = GraveSystem.from_dict(data["graves"])
+        if "substances" in data:
+            self.substances = SubstanceSystem.from_dict(data["substances"])

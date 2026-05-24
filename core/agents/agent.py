@@ -6,6 +6,7 @@ from typing import TYPE_CHECKING
 
 from core.interface import ActionType, WorldAction, WorldSnapshot
 from core.time import TimePoint
+from core.world.substances import SUBSTANCES, SUBSTANCE_NAMES
 from .needs import Needs, CRITICAL_THRESHOLD, OVERRIDE_THRESHOLD
 from .schedule import ScheduleSystem
 from .psyche.archetypes import ArchetypeVector
@@ -85,6 +86,11 @@ class Agent:
 
         # Última posición conocida donde se encontró agua (navegación de emergencia)
         self._last_known_water: tuple[int, int] | None = None
+
+        # Sustancias
+        self._active_substances: dict[str, int]   = {}  # nombre → ticks restantes
+        self._addiction:         dict[str, float] = {}  # nombre → nivel (0-1)
+        self._psychoactive_consumed: bool         = False  # flag transient para cadena chamánica
 
         # Ciclo de vida
         self._padres:                tuple[str, str] | None = None
@@ -179,6 +185,9 @@ class Agent:
             result = snapshot.action_results[self.id]
             if result.success and result.resource_gained:
                 self._apply_resource_gain(result.resource_gained)
+
+        # Actualizar efectos de sustancias activas
+        self._tick_substances()
 
         # Complejos decaen por tick
         self.complexes.decay_tick()
@@ -607,11 +616,30 @@ class Agent:
     def _choose_explore_or_gather(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction | None:
         """
         Exploradores y agentes con alta apertura prefieren explorar;
-        los demás buscan recursos.
+        los demás buscan recursos. Si hay una sustancia en el hex actual,
+        la consumen accidentalmente con cierta probabilidad.
         """
+        # Contacto accidental con sustancia
+        substance = self._get_nearby_substance(snapshot)
+        if substance and self._rng.random() < 0.35:
+            return WorldAction(
+                agent_id = self.id,
+                tick     = tp.tick,
+                type     = ActionType.RECOLECTAR,
+                coord    = self.posicion,
+                params   = {"resource": substance, "amount": 0.10},
+                priority = 0.50,
+            )
         if self._rng.random() < self.traits.exploration_drive():
             return self._explore_action(tp, snapshot)
         return self._find_food_action(tp, snapshot)
+
+    def _get_nearby_substance(self, snapshot: WorldSnapshot) -> str | None:
+        resources = snapshot.recursos_por_hex.get(self.posicion, {})
+        for rtype, qty in resources.items():
+            if rtype in SUBSTANCE_NAMES and qty > 0.1:
+                return rtype
+        return None
 
     def _get_nearby_food(self, coord: tuple[int, int], snapshot: WorldSnapshot) -> str | None:
         resources = snapshot.recursos_por_hex.get(coord, {})
@@ -631,6 +659,72 @@ class Agent:
             elif rtype in water_types:
                 self.needs.drink(qty * _AGUA_POR_BEBER)
                 self._last_known_water = self.posicion
+            elif rtype in SUBSTANCE_NAMES:
+                self._consume_substance(rtype)
+
+    # ── Sustancias ────────────────────────────────────────────────────────────
+
+    def _consume_substance(self, name: str) -> None:
+        """
+        Aplica los efectos de una sustancia al agente.
+        Si el agente está en tránsito liminal, los efectos se amplían × 1.5.
+        """
+        defn = SUBSTANCES.get(name)
+        if defn is None:
+            return
+
+        amp = 1.5 if self.in_liminal else 1.0
+
+        # Registrar efecto activo (se extiende si ya estaba activo)
+        self._active_substances[name] = defn.duration_ticks
+
+        # Efectos arquetípicos
+        for arch_attr, delta in defn.archetype_effects.items():
+            current = getattr(self.archetypes, arch_attr, None)
+            if current is not None:
+                setattr(self.archetypes, arch_attr,
+                        max(0.0, min(1.0, current + delta * amp)))
+
+        # Efecto físico: positivo = sana; negativo = daña (sube fatiga)
+        if defn.physical_effect > 0:
+            self.needs.eat(defn.physical_effect * 0.50)
+            self.needs.drink(defn.physical_effect * 0.30)
+        else:
+            self.needs.fatiga = min(1.0, self.needs.fatiga + abs(defn.physical_effect) * amp)
+
+        # Adicción progresiva
+        if defn.addiction_rate > 0:
+            self._addiction[name] = min(
+                1.0, self._addiction.get(name, 0.0) + defn.addiction_rate * 0.10
+            )
+
+        # Flag para cadena chamánica (procesado en AgentCore.on_tick)
+        if defn.is_psychoactive:
+            self._psychoactive_consumed = True
+
+        self.episodic_log.append(
+            f"Consumió {name} (x{amp:.1f}). "
+            f"Efectos: {list(defn.archetype_effects.keys())}."
+        )
+
+    def _tick_substances(self) -> None:
+        """Decrementa duración de efectos activos; aplica abstinencia si hay adicción."""
+        # Tick down
+        vencidos = [n for n, t in self._active_substances.items() if t <= 1]
+        for n in vencidos:
+            del self._active_substances[n]
+        for n in list(self._active_substances):
+            self._active_substances[n] -= 1
+
+        # Abstinencia: adicción sin efecto activo → estrés y degradación de rasgos
+        for name, level in self._addiction.items():
+            if level > 0.30 and name not in self._active_substances:
+                self.needs.fatiga = min(1.0, self.needs.fatiga + level * 0.005)
+                if level > 0.60:
+                    self.traits.estabilidad_emocional = max(
+                        0.0, self.traits.estabilidad_emocional - 0.001
+                    )
+                    self.traits.neuroticismo = min(1.0, self.traits.neuroticismo + 0.001)
 
     # ── Acceso psicológico rápido ─────────────────────────────────────────────
 
@@ -670,6 +764,8 @@ class Agent:
         return {
             **self.snapshot(),
             "last_known_water":  list(self._last_known_water) if self._last_known_water else None,
+            "active_substances": dict(self._active_substances),
+            "addiction":         dict(self._addiction),
             "episodic_log":      list(self.episodic_log),
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
@@ -712,6 +808,8 @@ class Agent:
         a._dias_sed_critica          = data.get("dias_sed_critica", 0)
         lkw                          = data.get("last_known_water")
         a._last_known_water          = tuple(lkw) if lkw else None
+        a._active_substances         = dict(data.get("active_substances", {}))
+        a._addiction                 = {k: float(v) for k, v in data.get("addiction", {}).items()}
         padres_raw                   = data.get("padres")
         a._padres                    = tuple(padres_raw) if padres_raw else None
         a._cooldown_reproduccion     = data.get("cooldown_reproduccion", 0)
