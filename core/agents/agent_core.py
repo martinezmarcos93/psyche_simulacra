@@ -15,6 +15,7 @@ from core.social.collective_field import CollectiveField
 from core.social.mythology import MythologyEngine
 from core.social.tribe_manager import TribeManager
 from core.world.culture_engine import CultureEngine
+from core.social.genealogy import LineageGraph
 
 if TYPE_CHECKING:
     from core.world import WorldCore
@@ -83,13 +84,18 @@ class AgentCore:
         self.tribe_manager      = TribeManager()
         # Cultura material — estructuras y auras (Fase 4)
         self.culture_engine     = CultureEngine()
+        # Árbol genealógico (Hito 7)
+        self.lineage            = LineageGraph()
 
     # ── Population management ─────────────────────────────────────────────────
 
     def add_agent(self, agent: Agent) -> None:
         self.agents[agent.id] = agent
-        # Sincronizar nodo en red social
         self.social_network.add_agent(agent.id)
+        # Registrar en árbol genealógico si aún no existe (fundadores: sin padres)
+        if agent.id not in self.lineage.records:
+            tribe_orig = self.tribe_manager.get_tribe_id(agent.id) or ""
+            self.lineage.register(agent.id, None, None, dia=0, tribe_orig=tribe_orig)
 
     def remove_agent(self, agent_id: str) -> None:
         self.agents.pop(agent_id, None)
@@ -203,6 +209,9 @@ class AgentCore:
         # 3d. Migración forzada: catástrofe sube ansiedad → agents deciden moverse (Hito 5)
         if cat_engine is not None and cat_engine.active is not None:
             self._process_catastrophe_anxiety(tp, cat_engine)
+
+        # 3g. Celos y conflicto de vínculo (Hito 7)
+        self._process_jealousy(tp)
 
         # 3f. Fauna simbólica: depredadores, fauna rara, migración (Hito 6)
         fauna_sys = getattr(self.world_ref, "fauna_symbolic", None)
@@ -502,15 +511,47 @@ class AgentCore:
             manipulacion = child.behavioral_state.manipulacion,
         )
 
-        # ── Herencia de memoria cultural: la CulturalMemory tribal empuja arquetipos ──
-        tribe_id = self.tribe_manager.get_tribe_id(parent_a.id)
-        if tribe_id:
-            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+        # ── Herencia de memoria cultural: ambas tribus si son distintas (Hito 7) ──
+        tribe_a = self.tribe_manager.get_tribe_id(parent_a.id)
+        tribe_b = self.tribe_manager.get_tribe_id(parent_b.id)
+        for tid, weight in ((tribe_a, 0.60), (tribe_b, 0.40)):
+            if not tid:
+                continue
+            cmem = self.tribe_manager.cultural_memories.get(tid)
             if cmem is not None:
                 for arch_attr, delta in cmem.get_inheritance_effects().items():
                     current = getattr(child.archetypes, arch_attr, None)
                     if current is not None:
-                        setattr(child.archetypes, arch_attr, max(0.0, min(1.0, current + delta)))
+                        setattr(child.archetypes, arch_attr,
+                                max(0.0, min(1.0, current + delta * weight)))
+
+        # ── Registro genealógico (Hito 7) ────────────────────────────────────
+        tribe_nac = tribe_a or tribe_b or ""
+        self.lineage.register(hijo_id, parent_a.id, parent_b.id, dia, tribe_nac)
+
+        # ── Herencia de bonds: el hijo conoce a los amigos de sus padres (Hito 7) ──
+        for other_id in list(self.agents):
+            if other_id in (parent_a.id, parent_b.id):
+                continue
+            bond_pa = self.social_network.get_bond(parent_a.id, other_id)
+            bond_pb = self.social_network.get_bond(parent_b.id, other_id)
+            inherited = max(bond_pa, bond_pb) * 0.30
+            if inherited > 0.05:
+                self.social_network.set_bond(hijo_id, other_id, inherited)
+
+        # ── Penalización por consanguinidad (Hito 7) ─────────────────────────
+        consang = self.lineage.consanguinity_score(parent_a.id, parent_b.id)
+        if consang > 0.0:
+            extra_noise = consang * 0.12
+            for attr in TraitProfile().to_dict():
+                current = getattr(child.traits, attr, 0.5)
+                penalty = self._rng.gauss(0, extra_noise)
+                setattr(child.traits, attr, max(0.0, min(1.0, current + penalty)))
+            # Registrar endogamia en percepción de los padres → tabú causal emergente
+            for parent in (parent_a, parent_b):
+                parent._perception.witness(
+                    "endogamia", None, consang, dia, parent.posicion
+                )
 
         # ── Cooldown en los padres ─────────────────────────────────────────
         parent_a._cooldown_reproduccion = _COOLDOWN_REPRO
@@ -1063,6 +1104,80 @@ class AgentCore:
 
     # ── Fin Hito 5 ─────────────────────────────────────────────────────────────
 
+    # ── Hito 7: Linajes, Parentesco y Tabú del Incesto ───────────────────────
+
+    def _process_jealousy(self, tp: TimePoint) -> None:
+        """
+        Celos como motor de conflicto.
+
+        Si A tiene vínculo exclusivo con B (bond ≥ 0.70) y B a su vez tiene
+        otro vínculo fuerte con C ≠ A (bond ≥ 0.50), A activa su complejo
+        de abandono y lo registra como 'traicion_vinculo' en memoria cultural.
+        Inyecta símbolo 'rebelde' en el ICL → mito_moral emergente.
+        """
+        for agent_a in list(self.agents.values()):
+            if not agent_a.is_alive:
+                continue
+            # Buscar pareja exclusiva B (bond más alto ≥ 0.70)
+            top_bonds = sorted(
+                [
+                    (oid, self.social_network.get_bond(agent_a.id, oid))
+                    for oid in self.agents
+                    if oid != agent_a.id and self.agents[oid].is_alive
+                ],
+                key=lambda x: -x[1],
+            )
+            if not top_bonds or top_bonds[0][1] < 0.70:
+                continue
+            partner_id, _ = top_bonds[0]
+            partner = self.agents.get(partner_id)
+            if partner is None:
+                continue
+
+            # ¿B tiene un rival C con bond ≥ 0.50?
+            rival_bond = max(
+                (self.social_network.get_bond(partner_id, oid)
+                 for oid in self.agents
+                 if oid not in (agent_a.id, partner_id) and self.agents[oid].is_alive),
+                default=0.0,
+            )
+            if rival_bond < 0.50:
+                continue
+
+            delta = rival_bond * 0.08
+            agent_a.complexes.abandono = min(1.0, agent_a.complexes.abandono + delta)
+            agent_a.ansiedad           = min(1.0, agent_a.ansiedad + delta * 0.40)
+
+            if delta < 0.04:
+                continue
+            tribe_id = self.tribe_manager.get_tribe_id(agent_a.id)
+            if tribe_id:
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is not None:
+                    recientes = [r for r in cmem.records
+                                 if r.tipo_evento == "traicion_vinculo"
+                                 and agent_a.nombre in r.descripcion
+                                 and tp.dia_simulado - r.dia_origen < 30]
+                    if not recientes:
+                        cmem.record_event(
+                            dia                 = tp.dia_simulado,
+                            agente_nombre       = agent_a.nombre,
+                            arquetipo_dominante = "rebelde",
+                            tipo_evento         = "traicion_vinculo",
+                            descripcion         = (
+                                f"{agent_a.nombre} sintió traición cuando "
+                                f"{partner.nombre} formó nuevo vínculo el día "
+                                f"{tp.dia_simulado}."
+                            ),
+                            intensidad          = min(1.0, delta * 1.2),
+                        )
+            lf = self.tribe_manager.get_local_field(agent_a.id) or self.collective_field
+            lf.symbols["rebelde"] = min(
+                1.0, lf.symbols.get("rebelde", 0.0) + delta * 0.30
+            )
+
+    # ── Fin Hito 7 ─────────────────────────────────────────────────────────────
+
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():
             agent.schedule.adjust_for_season(tp.estacion)
@@ -1116,6 +1231,7 @@ class AgentCore:
             "mythology_engine":  self.mythology_engine.to_dict(),
             "tribe_manager":     self.tribe_manager.to_dict(),
             "culture_engine":    self.culture_engine.to_dict(),
+            "lineage":           self.lineage.to_dict(),
         }
 
     @classmethod
@@ -1146,6 +1262,9 @@ class AgentCore:
 
         if "culture_engine" in data:
             core.culture_engine = CultureEngine.from_dict(data["culture_engine"])
+
+        if "lineage" in data:
+            core.lineage = LineageGraph.from_dict(data["lineage"])
 
         return core
 
