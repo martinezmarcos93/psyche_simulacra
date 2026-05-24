@@ -86,6 +86,8 @@ class AgentCore:
         self.culture_engine     = CultureEngine()
         # Árbol genealógico (Hito 7)
         self.lineage            = LineageGraph()
+        # Registro de ataques por tribu: tribe_id → [dia, ...] (Hito 9)
+        self._tribal_attacks: dict[str, list[int]] = {}
 
     # ── Population management ─────────────────────────────────────────────────
 
@@ -293,6 +295,18 @@ class AgentCore:
 
         # 12. Sesgo causal → tabúes en memoria cultural (Hito 4)
         self._process_causal_bias(tp.dia_simulado)
+
+        # 13. Proyección/autoengaño: complejo activo → atribuido al otro (Hito 9)
+        self._process_projection(tp.dia_simulado)
+
+        # 14. Sesgo de atribución: fracaso propio → externo; ajeno → interno (Hito 9)
+        self._process_attribution_bias(tp.dia_simulado)
+
+        # 15. Paranoia tribal: historial de ataques → eventos neutros = amenaza (Hito 9)
+        self._process_tribal_paranoia(tp.dia_simulado)
+
+        # 16. Disonancia cognitiva: mito activo + muertes → reforma religiosa (Hito 9)
+        self._process_cognitive_dissonance(tp.dia_simulado)
 
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
 
@@ -902,6 +916,9 @@ class AgentCore:
             if risk <= 0.0 or self._rng.random() >= risk:
                 continue
             self._register_death(agent, tp, cat.tipo)
+            tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+            if tribe_id:
+                self._register_tribal_attack(tribe_id, tp.dia_simulado)
             if cat.tipo == "plaga":
                 tribe_id = self.tribe_manager.get_tribe_id(agent.id)
                 if tribe_id:
@@ -995,6 +1012,7 @@ class AgentCore:
                 continue
             killed_ids.add(agent.id)
             self._register_death(agent, tp, f"depredador_{atk['fauna_nombre']}")
+            self._register_tribal_attack(atk["tribe_id"], tp.dia_simulado)
 
             # Inyectar 'sombra' en el campo tribal: el predador es la sombra encarnada
             tribe_id = atk["tribe_id"]
@@ -1261,6 +1279,207 @@ class AgentCore:
 
     # ── Fin Hito 8 ─────────────────────────────────────────────────────────────
 
+    # ── Hito 9: Psicología Oscura ──────────────────────────────────────────────
+
+    def _register_tribal_attack(self, tribe_id: str, dia: int) -> None:
+        self._tribal_attacks.setdefault(tribe_id, []).append(dia)
+
+    def _paranoia_score(self, tribe_id: str, dia: int, window: int = 30) -> float:
+        attacks = [d for d in self._tribal_attacks.get(tribe_id, []) if dia - d <= window]
+        return min(1.0, len(attacks) / 4.0)  # 4 ataques = paranoia máxima
+
+    def _process_projection(self, dia: int) -> None:
+        """
+        Proyección/autoengaño: el agente con complejo activo (> 0.60) no lo
+        reconoce en sí mismo — lo atribuye al otro (su vínculo más fuerte).
+        Reduce levemente ese vínculo y carga el símbolo arquetípico en el ICL
+        sin trazabilidad a ninguna acción concreta → superstición oscura.
+        """
+        _COMPLEX_TO_ARCH: dict[str, tuple] = {
+            "abandono":      ("rebelde", "sombra"),
+            "inferioridad":  ("sombra",),
+            "poder":         ("gobernante", "padre"),
+            "culpa":         ("sombra", "sabio"),
+            "materno":       ("madre",),
+            "trascendencia": ("sabio", "nino_divino"),
+        }
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            for cn, archs in _COMPLEX_TO_ARCH.items():
+                val = getattr(agent.complexes, cn, 0.0)
+                if val < 0.60:
+                    continue
+                # Encontrar el vínculo más fuerte
+                best_id, best_bond = None, 0.0
+                for oid in self.agents:
+                    if oid == agent.id or not self.agents[oid].is_alive:
+                        continue
+                    b = self.social_network.get_bond(agent.id, oid)
+                    if b > best_bond:
+                        best_bond, best_id = b, oid
+                if best_id is None or best_bond < 0.30:
+                    continue
+                # Distorsión: reduce levemente el vínculo hacia el "espejo"
+                old = self.social_network.get_bond(agent.id, best_id)
+                self.social_network.set_bond(
+                    agent.id, best_id, max(0.0, old - val * 0.02)
+                )
+                # Inyección arquetípica sin origen trazable
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                for arch in archs:
+                    lf.symbols[arch] = min(
+                        1.0, lf.symbols.get(arch, 0.0) + val * 0.04
+                    )
+
+    def _process_attribution_bias(self, dia: int) -> None:
+        """
+        Sesgo de atribución:
+        - Fracaso propio → causa externa → leve aumento de myth_pressure.
+        - Fracaso ajeno visible → causa interna del otro → registro en CulturalMemory.
+        Combina con sesgo causal → los fracasos propios acumulan tabúes.
+        """
+        snap = getattr(self.world_ref, "current_snapshot", None)
+        if snap is None:
+            return
+        results = snap.action_results
+        if not results:
+            return
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            own = results.get(agent.id)
+            if own is not None and not own.success:
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + 0.03)
+                agent._perception.witness(
+                    tipo="causa_externa", coord=None,
+                    intensidad=0.30, dia=dia, agent_coord=agent.posicion,
+                )
+            for oid, res in results.items():
+                if oid == agent.id or res.success:
+                    continue
+                other = self.agents.get(oid)
+                if other is None or not other.is_alive:
+                    continue
+                dist = (abs(other.posicion[0] - agent.posicion[0])
+                        + abs(other.posicion[1] - agent.posicion[1]))
+                if dist > 2:
+                    continue
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                if not tribe_id:
+                    continue
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is None:
+                    continue
+                existing = [
+                    r for r in cmem.records
+                    if r.tipo_evento == "fracaso_ajeno"
+                    and oid in r.descripcion
+                    and dia - r.dia_origen < 10
+                ]
+                if not existing and self._rng.random() < 0.15:
+                    arch = agent.archetypes.dominant()
+                    cmem.record_event(
+                        dia=dia,
+                        agente_nombre=agent.nombre,
+                        arquetipo_dominante="self_" if arch == "self" else arch,
+                        tipo_evento="fracaso_ajeno",
+                        descripcion=(
+                            f"{agent.nombre} observó que {other.nombre} falló "
+                            f"y lo atribuyó a su carácter el día {dia}."
+                        ),
+                        intensidad=0.25,
+                    )
+
+    def _process_tribal_paranoia(self, dia: int) -> None:
+        """
+        Paranoia tribal: tribu con historial de ataques recientes interpreta
+        la presencia de agentes foráneos como amenaza — aunque no hagan nada.
+        Criterio de salida Hito 9: evento neutro → percepción hostil en 20 días.
+        """
+        for tribe_id, members in self.tribe_manager.tribes.items():
+            paranoia = self._paranoia_score(tribe_id, dia)
+            if paranoia < 0.30:
+                continue
+            lf = self.tribe_manager.local_fields.get(tribe_id) or self.collective_field
+            for aid in members:
+                agent = self.agents.get(aid)
+                if agent is None or not agent.is_alive:
+                    continue
+                for oid, other in self.agents.items():
+                    if not other.is_alive:
+                        continue
+                    other_tribe = self.tribe_manager.get_tribe_id(oid)
+                    if other_tribe == tribe_id or other_tribe is None:
+                        continue
+                    dist = (abs(other.posicion[0] - agent.posicion[0])
+                            + abs(other.posicion[1] - agent.posicion[1]))
+                    if dist > 3:
+                        continue
+                    # Presencia neutra → percibida como amenaza
+                    agent._perception.witness(
+                        tipo="amenaza", coord=other.posicion,
+                        intensidad=paranoia * 0.60,
+                        dia=dia, agent_coord=agent.posicion,
+                    )
+                    lf.symbols["sombra"] = min(
+                        1.0, lf.symbols.get("sombra", 0.0) + paranoia * 0.03
+                    )
+
+    def _process_cognitive_dissonance(self, dia: int) -> None:
+        """
+        Disonancia cognitiva: cuando un mito cristalizado coexiste con muertes
+        recientes (el mito "predijo" protección que no llegó), la tribu no
+        abandona la creencia — añade una capa explicativa (reforma religiosa).
+        Esto sube confusion y reduce levemente myth_pressure sin resolverla.
+        """
+        if not self.mythology_engine.active_myths:
+            return
+        for tribe_id, lf in self.tribe_manager.local_fields.items():
+            if lf.myth_pressure < 0.45:
+                continue
+            recent_deaths = [
+                d for d in self._death_log
+                if d.get("dia", 0) >= dia - 10
+                and self.tribe_manager.get_tribe_id(d.get("agent_id", "")) == tribe_id
+            ]
+            if not recent_deaths:
+                continue
+            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem is None:
+                continue
+            existing = [
+                r for r in cmem.records
+                if r.tipo_evento == "reforma_religiosa"
+                and dia - r.dia_origen < 30
+            ]
+            if existing:
+                continue
+            # La tribu reencuadra el mito en lugar de abandonarlo
+            lf.myth_pressure = max(0.0, lf.myth_pressure - 0.08)
+            lf.confusion = min(1.0, lf.confusion + 0.12)
+            primer = next(
+                (self.agents[aid].nombre
+                 for aid in self.tribe_manager.tribes.get(tribe_id, [])
+                 if aid in self.agents and self.agents[aid].is_alive),
+                "la tribu",
+            )
+            cmem.record_event(
+                dia=dia,
+                agente_nombre=primer,
+                arquetipo_dominante="sabio",
+                tipo_evento="reforma_religiosa",
+                descripcion=(
+                    f"Pese a los muertos, el mito no falló: "
+                    f"el día {dia} la tribu encontró una nueva explicación. "
+                    f"La creencia persiste transformada."
+                ),
+                intensidad=0.65,
+            )
+
+    # ── Fin Hito 9 ─────────────────────────────────────────────────────────────
+
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():
             agent.schedule.adjust_for_season(tp.estacion)
@@ -1315,6 +1534,7 @@ class AgentCore:
             "tribe_manager":     self.tribe_manager.to_dict(),
             "culture_engine":    self.culture_engine.to_dict(),
             "lineage":           self.lineage.to_dict(),
+            "tribal_attacks":    {tid: list(ds) for tid, ds in self._tribal_attacks.items()},
         }
 
     @classmethod
@@ -1348,6 +1568,11 @@ class AgentCore:
 
         if "lineage" in data:
             core.lineage = LineageGraph.from_dict(data["lineage"])
+
+        if "tribal_attacks" in data:
+            core._tribal_attacks = {
+                tid: list(ds) for tid, ds in data["tribal_attacks"].items()
+            }
 
         return core
 

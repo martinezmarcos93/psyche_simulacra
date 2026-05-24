@@ -1529,3 +1529,358 @@ class TestHito8EmergentCriterion:
         core._process_nightly_dreams(dia=1)
 
         assert "gobernante" in received_symbols
+
+
+# ── Hito 9: Psicología Oscura ────────────────────────────────────────────────
+
+from core.social.cultural_memory import CulturalMemory
+from core.interface import ActionResult, ActionType
+
+
+def _make_tp(dia=1):
+    return TimePoint(
+        tick=dia * 12, dia_simulado=dia, hora_del_dia=12,
+        dia_del_año=dia % 365, año_simulado=0, estacion="primavera",
+        es_amanecer=False, es_mediodia=True, es_anochecer=False,
+        es_medianoche=False, es_inicio_dia=False, es_fin_dia=False,
+        timestamp_real=float(dia),
+    )
+
+
+def _make_tribe_h9(world, core, tribe_id, n=3, posicion=(5, 5)):
+    from core.social.collective_field import CollectiveField
+    agents = []
+    for i in range(n):
+        a = Agent(f"{tribe_id}_{i}", f"N{i}", posicion, seed=i + 100)
+        a.edad = 25
+        core.add_agent(a)
+        agents.append(a)
+    core.tribe_manager.tribes[tribe_id]            = [a.id for a in agents]
+    core.tribe_manager.local_fields[tribe_id]      = CollectiveField()
+    core.tribe_manager.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
+    for a in agents:
+        core.tribe_manager.agent_to_tribe[a.id] = tribe_id
+    return agents
+
+
+class TestParanoiaScore:
+    """Tests unitarios de _paranoia_score y _register_tribal_attack."""
+
+    def test_paranoia_cero_sin_ataques(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        assert core._paranoia_score("t1", dia=50) == 0.0
+
+    def test_paranoia_sube_con_ataques(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        for d in [40, 42, 45, 48]:
+            core._register_tribal_attack("t1", d)
+        score = core._paranoia_score("t1", dia=50)
+        assert score == 1.0
+
+    def test_ataques_fuera_ventana_no_cuentan(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        # Todos los ataques hace más de 30 días
+        for d in [1, 5, 10, 15]:
+            core._register_tribal_attack("t1", d)
+        score = core._paranoia_score("t1", dia=50, window=30)
+        assert score == 0.0
+
+    def test_paranoia_parcial(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        core._register_tribal_attack("t1", 48)
+        core._register_tribal_attack("t1", 49)
+        score = core._paranoia_score("t1", dia=50)
+        assert 0.0 < score < 1.0
+
+
+class TestProjection:
+    """Tests unitarios de _process_projection."""
+
+    def test_complejo_activo_reduce_bond(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tp", n=2)
+        a, b = agents[0], agents[1]
+
+        core.social_network.set_bond(a.id, b.id, 0.80)
+        a.complexes.abandono = 0.90  # complejo muy activo
+
+        bond_antes = core.social_network.get_bond(a.id, b.id)
+        core._process_projection(dia=10)
+        bond_despues = core.social_network.get_bond(a.id, b.id)
+
+        assert bond_despues < bond_antes
+
+    def test_complejo_activo_carga_icl(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tp2", n=2)
+        a = agents[0]
+
+        core.social_network.set_bond(a.id, agents[1].id, 0.80)
+        a.complexes.abandono = 0.90  # abandono → rebelde, sombra
+
+        lf      = core.tribe_manager.local_fields["tp2"]
+        reb_ant = lf.symbols.get("rebelde", 0.0)
+        som_ant = lf.symbols.get("sombra", 0.0)
+
+        core._process_projection(dia=10)
+
+        assert lf.symbols.get("rebelde", 0.0) > reb_ant or lf.symbols.get("sombra", 0.0) > som_ant
+
+    def test_complejo_bajo_no_proyecta(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tp3", n=2)
+        a = agents[0]
+
+        core.social_network.set_bond(a.id, agents[1].id, 0.80)
+        a.complexes.abandono = 0.30  # por debajo del umbral
+
+        bond_antes = core.social_network.get_bond(a.id, agents[1].id)
+        core._process_projection(dia=10)
+        bond_despues = core.social_network.get_bond(a.id, agents[1].id)
+
+        assert bond_despues == bond_antes
+
+
+class TestAttributionBias:
+    """Tests unitarios de _process_attribution_bias."""
+
+    def test_fracaso_propio_sube_myth_pressure(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tab", n=1)
+        a = agents[0]
+
+        # Inyectar un resultado fallido en el snapshot
+        from core.interface.world_snapshot import WorldSnapshot
+        import dataclasses
+        base_snap = WorldSnapshot(
+            tick=1, dia=1, hora=12, estacion="primavera",
+            temperatura=15.0, precipitacion=0.3, luminosidad=0.7, viento=0.2,
+            evento_climatico=None,
+            mood_modifier=0.0, productivity_mod=0.0, survival_risk=0.0,
+            recursos_por_hex={}, fauna_visible={},
+            fuego_activo=False, fuego_coord=None, fuego_intensidad=0.0,
+            fuego_calor_bonus=0.0, carrying_capacity=100, resource_pressure=0.0,
+            action_results={
+                a.id: ActionResult(
+                    agent_id=a.id, action_type="recolectar",
+                    success=False, failure_reason="sin_recurso",
+                    world_effects={},
+                )
+            },
+        )
+        world._current_snapshot = base_snap
+
+        lf   = core.tribe_manager.local_fields["tab"]
+        mp_0 = lf.myth_pressure
+        core._process_attribution_bias(dia=1)
+        assert lf.myth_pressure > mp_0
+
+    def test_fracaso_ajeno_registra_cultural_memory(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tab2", n=2, posicion=(5, 5))
+        a, b = agents[0], agents[1]
+
+        from core.interface.world_snapshot import WorldSnapshot
+        base_snap = WorldSnapshot(
+            tick=1, dia=1, hora=12, estacion="primavera",
+            temperatura=15.0, precipitacion=0.3, luminosidad=0.7, viento=0.2,
+            evento_climatico=None,
+            mood_modifier=0.0, productivity_mod=0.0, survival_risk=0.0,
+            recursos_por_hex={}, fauna_visible={},
+            fuego_activo=False, fuego_coord=None, fuego_intensidad=0.0,
+            fuego_calor_bonus=0.0, carrying_capacity=100, resource_pressure=0.0,
+            action_results={
+                b.id: ActionResult(
+                    agent_id=b.id, action_type="recolectar",
+                    success=False, failure_reason="sin_recurso",
+                    world_effects={},
+                )
+            },
+        )
+        world._current_snapshot = base_snap
+
+        # Forzar probabilidad al 100%
+        core._rng = type("R", (), {
+            "random": lambda s: 0.0,
+            "gauss":  lambda s, m, sd: 0.0,
+            "choice": lambda s, seq: seq[0],
+        })()
+
+        cmem = core.tribe_manager.cultural_memories["tab2"]
+        core._process_attribution_bias(dia=1)
+
+        tipos = [r.tipo_evento for r in cmem.records]
+        assert "fracaso_ajeno" in tipos
+
+
+class TestTribalParanoia:
+    """Tests unitarios de _process_tribal_paranoia."""
+
+    def test_sin_paranoia_no_genera_amenaza(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        t_a   = _make_tribe_h9(world, core, "tpa", n=2, posicion=(5, 5))
+        t_b   = _make_tribe_h9(world, core, "tpb", n=1, posicion=(6, 5))
+
+        # Ningún ataque → paranoia = 0
+        core._process_tribal_paranoia(dia=50)
+
+        amenazas = [
+            e for a in t_a
+            for e in a._perception._recent_events
+            if e.tipo == "amenaza"
+        ]
+        assert len(amenazas) == 0
+
+    def test_paranoia_alta_genera_amenaza_ante_vecino(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        t_a   = _make_tribe_h9(world, core, "tpa2", n=2, posicion=(5, 5))
+        t_b   = _make_tribe_h9(world, core, "tpb2", n=1, posicion=(6, 5))
+
+        # 4 ataques en ventana → paranoia = 1.0
+        for d in [20, 22, 25, 28]:
+            core._register_tribal_attack("tpa2", d)
+
+        core._process_tribal_paranoia(dia=30)
+
+        amenazas = [
+            e for a in t_a
+            for e in a._perception._recent_events
+            if e.tipo == "amenaza"
+        ]
+        assert len(amenazas) > 0
+
+    def test_paranoia_carga_sombra_icl(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        t_a   = _make_tribe_h9(world, core, "tpa3", n=1, posicion=(5, 5))
+        _make_tribe_h9(world, core, "tpb3", n=1, posicion=(6, 5))
+
+        for d in [1, 3, 5, 7]:
+            core._register_tribal_attack("tpa3", d)
+
+        lf        = core.tribe_manager.local_fields["tpa3"]
+        somb_ant  = lf.symbols.get("sombra", 0.0)
+        core._process_tribal_paranoia(dia=10)
+        assert lf.symbols.get("sombra", 0.0) > somb_ant
+
+
+class TestCognitiveDissonance:
+    """Tests unitarios de _process_cognitive_dissonance."""
+
+    def test_reforma_religiosa_cuando_mito_activo_y_muertes(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        _make_tribe_h9(world, core, "tcd", n=2)
+
+        # Inyectar un mito activo global
+        from core.social.mythology import MythCrystal
+        core.mythology_engine.active_myths = [
+            MythCrystal(
+                name="cosmogonia_test", tipo="cosmogonia", par=("muerte", "sombra"),
+                day_crystallized=1,
+            )
+        ]
+
+        # Alta presión mítica + muerte reciente en la tribu
+        lf = core.tribe_manager.local_fields["tcd"]
+        lf.myth_pressure = 0.70
+        core._death_log.append({"dia": 8, "agent_id": "tcd_0", "nombre": "N0", "causa": "test"})
+
+        cmem = core.tribe_manager.cultural_memories["tcd"]
+        core._process_cognitive_dissonance(dia=10)
+
+        tipos = [r.tipo_evento for r in cmem.records]
+        assert "reforma_religiosa" in tipos
+
+    def test_sin_mitos_no_hay_reforma(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        _make_tribe_h9(world, core, "tcd2", n=2)
+
+        lf = core.tribe_manager.local_fields["tcd2"]
+        lf.myth_pressure = 0.70
+        core._death_log.append({"dia": 8, "agent_id": "tcd2_0", "nombre": "N0", "causa": "test"})
+
+        cmem = core.tribe_manager.cultural_memories["tcd2"]
+        core._process_cognitive_dissonance(dia=10)
+
+        tipos = [r.tipo_evento for r in cmem.records]
+        assert "reforma_religiosa" not in tipos
+
+    def test_reforma_no_se_repite_en_30_dias(self):
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        _make_tribe_h9(world, core, "tcd3", n=2)
+
+        from core.social.mythology import MythCrystal
+        core.mythology_engine.active_myths = [
+            MythCrystal(name="cosmogonia_test2", tipo="cosmogonia",
+                        par=("muerte", "sombra"), day_crystallized=1)
+        ]
+        lf = core.tribe_manager.local_fields["tcd3"]
+        lf.myth_pressure = 0.70
+        core._death_log.append({"dia": 8, "agent_id": "tcd3_0", "nombre": "N0", "causa": "test"})
+
+        cmem = core.tribe_manager.cultural_memories["tcd3"]
+        core._process_cognitive_dissonance(dia=10)
+        lf.myth_pressure = 0.70  # restablecer
+        core._death_log.append({"dia": 12, "agent_id": "tcd3_0", "nombre": "N0", "causa": "test"})
+        core._process_cognitive_dissonance(dia=15)
+
+        reformas = [r for r in cmem.records if r.tipo_evento == "reforma_religiosa"]
+        assert len(reformas) == 1  # no debe repetirse dentro de 30 días
+
+
+class TestHito9EmergentCriterion:
+    """
+    Criterio de salida Hito 9:
+    Tribu atacada → en ≤ 20 días → interpreta presencia neutra de vecino como amenaza.
+    """
+
+    def test_tribu_atacada_interpreta_neutro_como_hostil(self):
+        """
+        Tribu A sufre 4 ataques. Tribu B coloca un agente a distancia 2.
+        Después de _process_tribal_paranoia, los agentes de A tienen
+        percepción de "amenaza" sin que B haya hecho ninguna acción hostil.
+        """
+        world = WorldCore(seed=42)
+        core  = AgentCore(world)
+        t_a   = _make_tribe_h9(world, core, "atacada", n=3, posicion=(5, 5))
+        _make_tribe_h9(world, core, "vecina",   n=1, posicion=(7, 5))
+
+        # Simular 4 ataques en los últimos 20 días → paranoia = 1.0
+        for d in [2, 5, 10, 18]:
+            core._register_tribal_attack("atacada", d)
+
+        core._process_tribal_paranoia(dia=20)
+
+        amenazas = [
+            e for a in t_a
+            for e in a._perception._recent_events
+            if e.tipo == "amenaza"
+        ]
+        assert len(amenazas) > 0, (
+            "La tribu atacada debe percibir como amenaza la presencia neutra del vecino"
+        )
+
+    def test_serialization_preserva_tribal_attacks(self):
+        """to_dict / from_dict preserva el historial de ataques tribales."""
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        core._register_tribal_attack("t_ser", 5)
+        core._register_tribal_attack("t_ser", 10)
+
+        d     = core.to_dict()
+        core2 = AgentCore.from_dict(d, world)
+        assert core2._tribal_attacks.get("t_ser") == [5, 10]
