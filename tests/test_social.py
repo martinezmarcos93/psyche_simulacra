@@ -1884,3 +1884,277 @@ class TestHito9EmergentCriterion:
         d     = core.to_dict()
         core2 = AgentCore.from_dict(d, world)
         assert core2._tribal_attacks.get("t_ser") == [5, 10]
+
+
+# ── Hito 10: Tecnología Emergente y Asimetría de Conocimiento ───────────────
+
+from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE
+
+
+class TestKnowledgeSystem:
+    """Tests unitarios del KnowledgeSystem."""
+
+    def test_give_has(self):
+        ks = KnowledgeSystem()
+        ks.give("a1", "curacion")
+        assert ks.has("a1", "curacion")
+        assert not ks.has("a1", "navegacion")
+
+    def test_carriers(self):
+        ks = KnowledgeSystem()
+        ks.give("a1", "curacion")
+        ks.give("a2", "curacion")
+        ks.give("a3", "navegacion")
+        assert set(ks.carriers("curacion")) == {"a1", "a2"}
+        assert ks.carriers("navegacion") == ["a3"]
+
+    def test_remove_agent_extingue_si_unico(self):
+        ks  = KnowledgeSystem()
+        ks.give("a1", "alquimia_vegetal")
+        ext = ks.remove_agent("a1", dia=5)
+        assert "alquimia_vegetal" in ext
+        assert len(ks.extinct_events) == 1
+        assert ks.extinct_events[0]["dia"] == 5
+
+    def test_remove_agent_no_extingue_si_hay_otro(self):
+        ks = KnowledgeSystem()
+        ks.give("a1", "curacion")
+        ks.give("a2", "curacion")
+        ext = ks.remove_agent("a1", dia=10)
+        assert "curacion" not in ext
+
+    def test_teach_exitoso_baja_complejidad(self):
+        import random
+        rng = random.Random(0)
+        ks  = KnowledgeSystem()
+        ks.give("prof", "navegacion")  # complejidad 0.35 → prob ~9.75%
+        # Con 100 intentos al menos uno debe tener éxito
+        success = any(ks.teach("prof", f"est{i}", "navegacion", rng) for i in range(100))
+        assert success
+
+    def test_teach_falla_si_ya_lo_sabe(self):
+        import random
+        rng = random.Random(1)
+        ks  = KnowledgeSystem()
+        ks.give("prof", "curacion")
+        ks.give("est",  "curacion")
+        result = ks.teach("prof", "est", "curacion", rng)
+        assert result is False
+
+    def test_tribe_tech_score(self):
+        ks = KnowledgeSystem()
+        ks.give("a1", "conservacion_agua")   # valor 0.85
+        ks.give("a2", "curacion")             # valor 0.90
+        score = ks.tribe_tech_score(["a1", "a2"])
+        assert abs(score - (0.85 + 0.90)) < 1e-9
+
+    def test_tribe_tech_score_no_duplica(self):
+        """Si dos miembros tienen el mismo conocimiento, cuenta solo una vez."""
+        ks = KnowledgeSystem()
+        ks.give("a1", "curacion")
+        ks.give("a2", "curacion")
+        score = ks.tribe_tech_score(["a1", "a2"])
+        assert abs(score - 0.90) < 1e-9
+
+    def test_unique_carriers_in_tribe(self):
+        ks = KnowledgeSystem()
+        ks.give("a1", "curacion")
+        ks.give("a1", "navegacion")
+        ks.give("a2", "curacion")
+        # Solo "navegacion" es único de a1 en la tribu
+        unique = ks.unique_carriers_in_tribe("a1", ["a1", "a2"])
+        assert "navegacion" in unique
+        assert "curacion" not in unique
+
+
+class TestKnowledgeDiscovery:
+    """Tests de _process_knowledge_discovery."""
+
+    def _make_snap_with_fuego(self):
+        from core.interface.world_snapshot import WorldSnapshot
+        return WorldSnapshot(
+            tick=1, dia=1, hora=12, estacion="primavera",
+            temperatura=15.0, precipitacion=0.3, luminosidad=0.7, viento=0.2,
+            evento_climatico=None,
+            mood_modifier=0.0, productivity_mod=0.0, survival_risk=0.0,
+            recursos_por_hex={}, fauna_visible={},
+            fuego_activo=True, fuego_coord=(5, 5), fuego_intensidad=0.8,
+            fuego_calor_bonus=0.2, carrying_capacity=100, resource_pressure=0.3,
+            action_results={},
+        )
+
+    def test_descubrimiento_fuego_ritual_con_fuego_activo(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "td", n=3)
+
+        world._current_snapshot = self._make_snap_with_fuego()
+
+        # Forzar probabilidad al 100% para esta condición
+        class AlwaysDiscover:
+            def random(self): return 0.0
+            def gauss(self, m, sd): return 0.0
+            def choice(self, seq): return seq[0]
+        core._rng = AlwaysDiscover()
+
+        tp = _make_tp(dia=1)
+        core._process_knowledge_discovery(tp)
+
+        # Al menos un agente debe haber descubierto "fuego_ritual"
+        assert any(core.knowledge.has(a.id, "fuego_ritual") for a in agents)
+
+    def test_sin_condicion_no_descubre(self):
+        from core.interface.world_snapshot import WorldSnapshot
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "td2", n=2)
+
+        # Snapshot sin ninguna condición disparadora
+        snap = WorldSnapshot(
+            tick=1, dia=1, hora=12, estacion="primavera",
+            temperatura=15.0, precipitacion=0.3, luminosidad=0.7, viento=0.2,
+            evento_climatico=None,
+            mood_modifier=0.0, productivity_mod=0.0, survival_risk=0.0,
+            recursos_por_hex={}, fauna_visible={},
+            fuego_activo=False, fuego_coord=None, fuego_intensidad=0.0,
+            fuego_calor_bonus=0.0, carrying_capacity=100, resource_pressure=0.0,
+            action_results={},
+        )
+        world._current_snapshot = snap
+
+        for a in agents:
+            a.archetypes.sabio = 0.0  # no sabio_dominante
+            a.needs.fatiga = 0.0      # no herida
+
+        tp = _make_tp(dia=1)
+        core._process_knowledge_discovery(tp)
+
+        # Nadie debe haber descubierto nada
+        assert all(core.knowledge.knowledge_count(a.id) == 0 for a in agents)
+
+
+class TestKnowledgePower:
+    """Tests de _process_knowledge_power."""
+
+    def test_especialista_sube_bonds_entrantes(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tkp", n=3)
+        esp, a2, a3 = agents
+
+        # esp es el único portador de 2 conocimientos valiosos
+        core.knowledge.give(esp.id, "conservacion_agua")
+        core.knowledge.give(esp.id, "curacion")
+
+        bond_a2_antes = core.social_network.get_bond(a2.id, esp.id)
+        bond_a3_antes = core.social_network.get_bond(a3.id, esp.id)
+
+        tp = _make_tp(dia=50)
+        core._process_knowledge_power(tp)
+
+        assert core.social_network.get_bond(a2.id, esp.id) > bond_a2_antes
+        assert core.social_network.get_bond(a3.id, esp.id) > bond_a3_antes
+
+    def test_especialista_registra_en_cultural_memory(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "tkp2", n=3)
+        esp    = agents[0]
+
+        core.knowledge.give(esp.id, "conservacion_agua")
+        core.knowledge.give(esp.id, "curacion")
+
+        tp = _make_tp(dia=50)
+        core._process_knowledge_power(tp)
+
+        cmem  = core.tribe_manager.cultural_memories["tkp2"]
+        tipos = [r.tipo_evento for r in cmem.records]
+        assert "especialista_emergente" in tipos
+
+
+class TestKnowledgeExtinction:
+    """Tests de extinción de conocimiento al morir el único portador."""
+
+    def test_muerte_extingue_conocimiento_unico(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "te", n=2)
+        sabio, otro = agents
+
+        core.knowledge.give(sabio.id, "alquimia_vegetal")  # solo él lo sabe
+
+        tp = _make_tp(dia=10)
+        core._register_death(sabio, tp, "vejez")
+
+        assert "alquimia_vegetal" in [e["nombre"] for e in core.knowledge.extinct_events]
+
+    def test_muerte_registra_conocimiento_extinto_en_cultura(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "te2", n=2)
+        sabio  = agents[0]
+
+        core.knowledge.give(sabio.id, "alquimia_vegetal")
+
+        tp   = _make_tp(dia=10)
+        core._register_death(sabio, tp, "vejez")
+
+        cmem  = core.tribe_manager.cultural_memories["te2"]
+        tipos = [r.tipo_evento for r in cmem.records]
+        assert "conocimiento_extinto" in tipos
+
+    def test_muerte_no_extingue_si_otro_portador(self):
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "te3", n=3)
+        a1, a2, _ = agents
+
+        core.knowledge.give(a1.id, "curacion")
+        core.knowledge.give(a2.id, "curacion")  # a2 también lo sabe
+
+        tp  = _make_tp(dia=5)
+        core._register_death(a1, tp, "vejez")
+
+        ext_nombres = [e["nombre"] for e in core.knowledge.extinct_events]
+        assert "curacion" not in ext_nombres
+
+
+class TestHito10EmergentCriterion:
+    """
+    Criterio de salida Hito 10:
+    Tribu que pierde al agente con más conocimientos → regresión en tech_score.
+    """
+
+    def test_perdida_especialista_reduce_tech_score(self):
+        """
+        Agente con 3 conocimientos únicos muere → tribe_tech_score cae.
+        """
+        world  = WorldCore(seed=1)
+        core   = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "t10", n=4)
+        esp    = agents[0]
+        tribe_ids = [a.id for a in agents]
+
+        # El especialista tiene 3 conocimientos únicos
+        for kname in ["conservacion_agua", "curacion", "alquimia_vegetal"]:
+            core.knowledge.give(esp.id, kname)
+
+        score_antes = core.knowledge.tribe_tech_score(tribe_ids)
+        assert score_antes > 0
+
+        tp = _make_tp(dia=100)
+        core._register_death(esp, tp, "vejez")
+
+        score_despues = core.knowledge.tribe_tech_score(tribe_ids)
+        assert score_despues < score_antes
+
+    def test_serialization_preserva_knowledge(self):
+        """to_dict / from_dict preserva el KnowledgeSystem."""
+        world = WorldCore(seed=1)
+        core  = AgentCore(world)
+        agents = _make_tribe_h9(world, core, "ts10", n=2)
+        core.knowledge.give(agents[0].id, "fuego_ritual")
+
+        d     = core.to_dict()
+        core2 = AgentCore.from_dict(d, world)
+        assert core2.knowledge.has(agents[0].id, "fuego_ritual")

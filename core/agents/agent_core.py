@@ -16,6 +16,7 @@ from core.social.mythology import MythologyEngine
 from core.social.tribe_manager import TribeManager
 from core.world.culture_engine import CultureEngine
 from core.social.genealogy import LineageGraph
+from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE, _DISCOVERY_TRIGGERS
 
 if TYPE_CHECKING:
     from core.world import WorldCore
@@ -88,6 +89,8 @@ class AgentCore:
         self.lineage            = LineageGraph()
         # Registro de ataques por tribu: tribe_id → [dia, ...] (Hito 9)
         self._tribal_attacks: dict[str, list[int]] = {}
+        # Sistema de conocimiento técnico (Hito 10)
+        self.knowledge = KnowledgeSystem()
 
     # ── Population management ─────────────────────────────────────────────────
 
@@ -308,6 +311,15 @@ class AgentCore:
         # 16. Disonancia cognitiva: mito activo + muertes → reforma religiosa (Hito 9)
         self._process_cognitive_dissonance(tp.dia_simulado)
 
+        # 17a. Descubrimiento accidental de conocimiento técnico (Hito 10)
+        self._process_knowledge_discovery(tp)
+
+        # 17b. Transmisión de conocimiento entre co-ubicados (Hito 10)
+        self._process_knowledge_transmission(tp)
+
+        # 17c. Asimetría de poder: especialistas atraen dependencia (Hito 10)
+        self._process_knowledge_power(tp)
+
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
 
     def _register_death(self, agent: Agent, tp: TimePoint, causa: str) -> None:
@@ -320,6 +332,30 @@ class AgentCore:
             "nombre":   agent.nombre,
             "causa":    causa,
         })
+
+        # Extinción de conocimiento: si era el único portador, el saber muere con él
+        extinct = self.knowledge.remove_agent(agent.id, tp.dia_simulado)
+        if extinct:
+            tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+            lf       = (self.tribe_manager.local_fields.get(tribe_id)
+                        if tribe_id else None) or self.collective_field
+            lf.myth_pressure = min(1.0, lf.myth_pressure + 0.15 * len(extinct))
+            lf.confusion     = min(1.0, lf.confusion     + 0.10 * len(extinct))
+            if tribe_id:
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is not None:
+                    for kname in extinct:
+                        cmem.record_event(
+                            dia=tp.dia_simulado,
+                            agente_nombre=agent.nombre,
+                            arquetipo_dominante="sabio",
+                            tipo_evento="conocimiento_extinto",
+                            descripcion=(
+                                f"Con la muerte de {agent.nombre}, el conocimiento "
+                                f"'{kname}' se perdió para siempre el día {tp.dia_simulado}."
+                            ),
+                            intensidad=0.80,
+                        )
         # La muerte sacude el campo tribal local
         local_field = self.tribe_manager.get_local_field(agent.id)
         if local_field is not None:
@@ -1480,6 +1516,196 @@ class AgentCore:
 
     # ── Fin Hito 9 ─────────────────────────────────────────────────────────────
 
+    # ── Hito 10: Tecnología Emergente y Asimetría de Conocimiento ─────────────
+
+    def _check_discovery_condition(self, agent, snap, cond_key: str) -> bool:
+        """Evalúa si el agente cumple la condición contextual de descubrimiento."""
+        if cond_key == "fuego_activo":
+            return snap is not None and snap.fuego_activo
+        elif cond_key == "agua_escasa":
+            return snap is not None and snap.resource_pressure > 0.50
+        elif cond_key == "planta_cercana":
+            if snap is None:
+                return False
+            pos = agent.posicion
+            for coord, res in snap.recursos_por_hex.items():
+                dist = abs(coord[0] - pos[0]) + abs(coord[1] - pos[1])
+                if dist <= 2 and any(r in res for r in ("planta", "fruto", "fungi")):
+                    return True
+            return False
+        elif cond_key == "caza_exitosa":
+            if snap is None:
+                return False
+            res = snap.action_results.get(agent.id)
+            return res is not None and res.success and bool(res.resource_gained)
+        elif cond_key == "exploracion_amplia":
+            return snap is not None and len(snap.recursos_por_hex) > 15
+        elif cond_key == "sabio_dominante":
+            return agent.archetypes.dominant() == "sabio"
+        elif cond_key == "herida":
+            return agent.needs.fatiga > 0.70
+        return False
+
+    def _process_knowledge_discovery(self, tp) -> None:
+        """
+        Descubrimiento accidental de conocimiento técnico.
+
+        Cada agente vivo tiene una pequeña probabilidad de descubrir un
+        conocimiento si está expuesto a las condiciones contextuales adecuadas.
+        El descubrimiento no requiere intención: emerge de la exposición.
+        """
+        snap = getattr(self.world_ref, "current_snapshot", None)
+        dia  = tp.dia_simulado if hasattr(tp, "dia_simulado") else tp
+
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            for cond_key, kname, base_prob in _DISCOVERY_TRIGGERS:
+                if self.knowledge.has(agent.id, kname):
+                    continue
+                if not self._check_discovery_condition(agent, snap, cond_key):
+                    continue
+                if self._rng.random() >= base_prob:
+                    continue
+                # Descubrimiento accidental
+                self.knowledge.give(agent.id, kname)
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                if tribe_id:
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        cmem.record_event(
+                            dia=dia,
+                            agente_nombre=agent.nombre,
+                            arquetipo_dominante="sabio",
+                            tipo_evento="descubrimiento_tecnico",
+                            descripcion=(
+                                f"{agent.nombre} descubrió '{kname}' "
+                                f"por accidente el día {dia}."
+                            ),
+                            intensidad=0.55,
+                        )
+                    lf = self.tribe_manager.local_fields.get(tribe_id)
+                    if lf is not None:
+                        lf.symbols["sabio"] = min(
+                            1.0, lf.symbols.get("sabio", 0.0) + 0.08
+                        )
+
+    def _process_knowledge_transmission(self, tp) -> None:
+        """
+        Transmisión imperfecta de conocimiento entre agentes co-ubicados.
+
+        Para cada par (maestro, estudiante) con bond ≥ 0.50 en el mismo hex,
+        intenta transmitir cada conocimiento que el maestro tenga y el estudiante no.
+        La probabilidad diaria es inversamente proporcional a la complejidad.
+        """
+        dia = tp.dia_simulado if hasattr(tp, "dia_simulado") else tp
+
+        # Agrupar agentes vivos por posición
+        by_pos: dict[tuple, list[str]] = {}
+        for aid, agent in self.agents.items():
+            if agent.is_alive:
+                by_pos.setdefault(agent.posicion, []).append(aid)
+
+        for aids in by_pos.values():
+            if len(aids) < 2:
+                continue
+            for i, teacher_id in enumerate(aids):
+                teacher_ks = self.knowledge.get(teacher_id)
+                if not teacher_ks:
+                    continue
+                for student_id in aids[i + 1:]:
+                    bond = self.social_network.get_bond(teacher_id, student_id)
+                    if bond < 0.50:
+                        continue
+                    for kname in list(teacher_ks):
+                        if self.knowledge.has(student_id, kname):
+                            continue
+                        if self.knowledge.teach(teacher_id, student_id, kname, self._rng):
+                            # Registrar transmisión exitosa
+                            tribe_id = self.tribe_manager.get_tribe_id(student_id)
+                            if tribe_id:
+                                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                                if cmem is not None:
+                                    recientes = [
+                                        r for r in cmem.records
+                                        if r.tipo_evento == "transmision_conocimiento"
+                                        and kname in r.descripcion
+                                        and dia - r.dia_origen < 30
+                                    ]
+                                    if not recientes:
+                                        teacher = self.agents[teacher_id]
+                                        student = self.agents[student_id]
+                                        cmem.record_event(
+                                            dia=dia,
+                                            agente_nombre=teacher.nombre,
+                                            arquetipo_dominante="sabio",
+                                            tipo_evento="transmision_conocimiento",
+                                            descripcion=(
+                                                f"{teacher.nombre} enseñó '{kname}' "
+                                                f"a {student.nombre} el día {dia}."
+                                            ),
+                                            intensidad=0.45,
+                                        )
+
+    def _process_knowledge_power(self, tp) -> None:
+        """
+        Asimetría de poder por monopolio de conocimiento.
+
+        El agente que es el único portador de ≥ 1 conocimiento valioso (valor > 0.60)
+        dentro de su tribu recibe mayor bond_strength entrante: los demás se vuelven
+        dependientes. Si alcanza ≥ 2 conocimientos únicos valiosos, emerge como
+        especialista sin intervención programada.
+        """
+        dia = tp.dia_simulado if hasattr(tp, "dia_simulado") else tp
+
+        for tribe_id, members in self.tribe_manager.tribes.items():
+            alive = [
+                aid for aid in members
+                if self.agents.get(aid) and self.agents[aid].is_alive
+            ]
+            if len(alive) < 2:
+                continue
+            for aid in alive:
+                unique = self.knowledge.unique_carriers_in_tribe(aid, alive)
+                valuable_unique = [
+                    k for k in unique
+                    if _ALL_KNOWLEDGE.get(k, KnowledgeUnit("", "", 0.0, 0.0)).valor > 0.60
+                ]
+                if not valuable_unique:
+                    continue
+                # Otros miembros aumentan su vínculo hacia el especialista
+                for oid in alive:
+                    if oid == aid:
+                        continue
+                    old = self.social_network.get_bond(oid, aid)
+                    self.social_network.set_bond(oid, aid, min(1.0, old + 0.015))
+                # Registro de especialista cuando llega a ≥ 2 conocimientos únicos
+                if len(valuable_unique) >= 2:
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        existing = [
+                            r for r in cmem.records
+                            if r.tipo_evento == "especialista_emergente"
+                            and aid in r.descripcion
+                            and dia - r.dia_origen < 60
+                        ]
+                        if not existing:
+                            agent = self.agents[aid]
+                            cmem.record_event(
+                                dia=dia,
+                                agente_nombre=agent.nombre,
+                                arquetipo_dominante="sabio",
+                                tipo_evento="especialista_emergente",
+                                descripcion=(
+                                    f"{agent.nombre} (id={aid}) se convirtió en el único "
+                                    f"portador de {len(valuable_unique)} conocimientos "
+                                    f"críticos el día {dia}."
+                                ),
+                                intensidad=0.75,
+                            )
+
+    # ── Fin Hito 10 ────────────────────────────────────────────────────────────
+
     def on_season_change(self, tp: TimePoint) -> None:
         for agent in self.agents.values():
             agent.schedule.adjust_for_season(tp.estacion)
@@ -1535,6 +1761,7 @@ class AgentCore:
             "culture_engine":    self.culture_engine.to_dict(),
             "lineage":           self.lineage.to_dict(),
             "tribal_attacks":    {tid: list(ds) for tid, ds in self._tribal_attacks.items()},
+            "knowledge":         self.knowledge.to_dict(),
         }
 
     @classmethod
@@ -1573,6 +1800,9 @@ class AgentCore:
             core._tribal_attacks = {
                 tid: list(ds) for tid, ds in data["tribal_attacks"].items()
             }
+
+        if "knowledge" in data:
+            core.knowledge = KnowledgeSystem.from_dict(data["knowledge"])
 
         return core
 
