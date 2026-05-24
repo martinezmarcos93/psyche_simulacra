@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `1354` | **Miembros vivos:** `3`
+> **Día:** `1477` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,25 +8,25 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[evander]] (Evander) | generico | 34 | anima_animus |
-| [[ulax]] (Ulax) | generico | 22 | heroe |
-| [[zephyra]] (Zephyra) | generico | 11 | sombra |
+| [[evander]] (Evander) | generico | 35 | self |
+| [[ulax]] (Ulax) | generico | 23 | self |
+| [[zephyra]] (Zephyra) | generico | 12 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.156` `[▓▓░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.248` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.192` | `▓▓░░░░░░░░` |
+| **Madre** | `0.096` | `▓░░░░░░░░░` |
+| **Trickster** | `0.032` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `1354` | **Miembros vivos:** `1`
+> **Día:** `1477` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hestia]] (Hestia) | recolector | 42 | anima_animus |
+| [[hestia]] (Hestia) | recolector | 43 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.709` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.228` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.709` | `▓▓▓▓▓▓▓░░░` |
-| **Trickster** | `0.480` | `▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.217` | `▓▓░░░░░░░░` |
-| **Madre** | `0.111` | `▓░░░░░░░░░` |
+| **Sombra** | `0.323` | `▓▓▓░░░░░░░` |
+| **Heroe** | `0.126` | `▓░░░░░░░░░` |
+| **Madre** | `0.063` | `▓░░░░░░░░░` |
+| **Trickster** | `0.056` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

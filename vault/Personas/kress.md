@@ -141,20 +141,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1264:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- **Día 1265:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 1266:** Soñó con `'habitación_prohibida'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
-- **Día 1267:** Soñó con `'sed_en_el_agua'` (arquetipo `anima_animus`).
-  - *Insight:* En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
-- **Día 1268:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 1269:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
-- **Día 1270:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
-  - *Insight:* En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 

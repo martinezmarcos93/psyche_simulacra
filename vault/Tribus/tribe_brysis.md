@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `1354` | **Miembros vivos:** `2`
+> **Día:** `1477` | **Miembros vivos:** `4`
 
 ---
 
@@ -8,21 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[brysis]] (Brysis) | generico | 11 | sombra |
-| [[velia]] (Velia) | recolector | 49 | self |
+| [[brysis]] (Brysis) | generico | 12 | sombra |
+| [[creon]] (Creon) | generico | 42 | sombra |
+| [[festus]] (Festus) | recolector | 65 | anima_animus |
+| [[velia]] (Velia) | recolector | 50 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.228` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.792` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.653` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.545` | `▓▓▓▓▓░░░░░` |
-| **Madre** | `0.537` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.359` | `▓▓▓▓░░░░░░` |
+| **Sombra** | `0.872` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.471` | `▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.449` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.314` | `▓▓▓░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

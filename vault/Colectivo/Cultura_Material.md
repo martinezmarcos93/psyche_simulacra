@@ -1,6 +1,6 @@
 # 🏛️ Cultura Material
 
-> **Día:** `1354` | **Estructuras activas:** `62`
+> **Día:** `1477` | **Estructuras activas:** `63`
 
 ---
 
@@ -70,6 +70,7 @@
 | 🗿 Tótem | `tribe_festus` | `(67, 19)` | Día 1137 | 2 hex | `+0.015` | `-0.010` |
 | ⛩️ Altar | `tribe_eudora` | `(74, 56)` | Día 1143 | 2 hex | `+0.010` | `-0.015` |
 | 🗿 Tótem | `tribe_festus` | `(79, 52)` | Día 1241 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_brysis` | `(59, 42)` | Día 1420 | 2 hex | `+0.015` | `-0.010` |
 
 ---
 
@@ -81,7 +82,7 @@
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día
 - **Impulso arquetípico:** sabio: +0.0005/día, self_: +0.0005/día
 
-### 🗿 Tótem (13 activas)
+### 🗿 Tótem (14 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.015`, ansiedad `-0.010`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día

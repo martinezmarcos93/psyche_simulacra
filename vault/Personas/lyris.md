@@ -4,36 +4,36 @@ nombre: Lyris
 rol: generico
 edad: 33
 sexo: F
-is_alive: True
-posicion: [77, 45]
-humor: 0.788
-energia: 0.655
-ansiedad: 0.405
+is_alive: False
+posicion: [77, 41]
+humor: 0.393
+energia: 0.650
+ansiedad: 0.854
 needs:
-  hambre: 0.064
+  hambre: 1.000
   fatiga: 0.335
-  sed: 0.535
+  sed: 1.000
   sociabilidad: 1.000
-arquetipo_dominante: sabio
-estado_conductual: aislamiento
+arquetipo_dominante: sombra
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.957
+  self: 0.964
   persona: 0.444
-  sombra: 0.962
-  anima_animus: 0.677
-  heroe: 0.656
-  sabio: 0.964
+  sombra: 1.000
+  anima_animus: 0.678
+  heroe: 0.665
+  sabio: 0.955
   trickster: 0.289
-  madre: 0.902
-  padre: 0.417
-  nino_divino: 0.616
-  gobernante: 0.395
-  rebelde: 0.302
+  madre: 0.911
+  padre: 0.418
+  nino_divino: 0.617
+  gobernante: 0.397
+  rebelde: 0.303
 ---
 # 👤 Persona: Lyris
 
-> **Rol:** `generico` | **Edad:** 33 | **Sexo:** F | **Ubicación:** `(77, 45)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `generico` | **Edad:** 33 | **Sexo:** F | **Ubicación:** `(77, 41)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.65 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
+| **Humor** | `[▓▓▓▓░░░░░░]` | 0.39 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.85 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.957` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Self** | `0.964` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.444` | `▓▓▓▓▓░░░░░░░` |
-| **Sombra** | `0.962` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Anima animus** | `0.677` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.656` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Sabio** | `0.964` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.678` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.665` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.955` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Trickster** | `0.289` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.902` | `▓▓▓▓▓▓▓▓▓▓▓░` |
-| **Padre** | `0.417` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.616` | `▓▓▓▓▓▓▓░░░░░` |
-| **Gobernante** | `0.395` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.302` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.911` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Padre** | `0.418` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.617` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.397` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.303` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -94,9 +94,10 @@ arquetipos:
 | [[aglaia]] | `-0.52` | `▓▓░░░░░░░░` | Ninguno |
 | [[barea]] | `-0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[brennus]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[brysis]] | `-0.75` | `▓░░░░░░░░░` | Ninguno |
 | [[creon]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
 | [[demos]] | `-0.65` | `▓▓░░░░░░░░` | Ninguno |
-| [[eudora]] | `+0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[eudora]] | `+0.03` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[evander]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
 | [[exan]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
 | [[feros]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -126,20 +127,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1348:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de lago interior.
-- **Día 1349:** Soñó con `'pregunta_sin_respuesta'` (arquetipo `sabio`).
-  - *Insight:* El sabio proyecta lo reprimido sobre el horizonte de costa abierta.
-- **Día 1350:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 1351:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
-  - *Insight:* El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- **Día 1352:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 1353:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- **Día 1354:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
-  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+*Aún no se registran experiencias oníricas en esta psique.*
 
 ---
 
@@ -1785,7 +1773,33 @@ arquetipos:
 - Día 1348: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
 - Día 1349: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de costa abierta.
 - Día 1350: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- Día 1351: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
-- Día 1352: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- Día 1353: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
-- Día 1354: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 1350: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1351: Soñó con 'descenso_inevitable' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1352: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 1353: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1354: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1355: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1356: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1357: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 1358: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1359: Soñó con 'corriente_que_arrastra' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1360: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 1361: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1362: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1363: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1364: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1365: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1366: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 1367: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1367: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1367: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1367: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1367: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1367: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1368: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1368: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 1369: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1370: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1371: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1372: Soñó con 'figura_que_sigue' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1373: Falleció a causa de deshidratacion.

@@ -22,24 +22,40 @@ No. El servidor solo recibe y redistribuye eventos. Cada simulación es soberana
 
 ## Red y Conexión
 
-**¿Cómo conecto dos PCs en casas distintas?**
+**¿Cómo conecto dos PCs en casas distintas? (método recomendado: ngrok)**
+
+ngrok crea un túnel TCP desde internet hasta tu puerto 8765 sin tocar el router. Es la forma más simple de conectar dos PCs en redes distintas.
+
+**Instalación de ngrok (solo PC-A, una vez):**
+1. Crear cuenta gratuita en [https://ngrok.com](https://ngrok.com)
+2. Descargar el ejecutable para tu sistema operativo
+3. En Windows: descomprimir y poner `ngrok.exe` en una carpeta del PATH (ej: `C:\Windows\System32`) — o agregar la carpeta donde está al PATH del sistema
+4. Autenticar: `ngrok authtoken <tu-token>` (el token aparece en el dashboard de ngrok al loguearte)
+
+**Uso (flujo completo):**
 
 **PC-A (hosteador):**
-1. Terminal 1: `python main.py` → `[1] Continuar` para correr la simulación.
-2. Terminal 2: `python main.py` → `[5] Levantar servidor + conectar`.
-   - Abre el servidor en una nueva ventana automáticamente.
-   - Muestra tu IP local — compartila con tu amigo.
-3. Abrir el puerto 8765 (TCP) en el router con port forwarding hacia la IP local mostrada.
+1. Terminal 1: `python main.py` → `[1] Continuar`
+2. Terminal 2: `python main.py` → `[5] Levantar servidor + conectar`
+   - Cuando pregunta `¿Usar ngrok?` → responder `s`
+   - ngrok abre en nueva ventana; el launcher lee la URL automáticamente y muestra:
+     ```
+     Host:   0.tcp.ngrok.io
+     Puerto: XXXXX          ← número asignado por ngrok (cambia cada sesión)
+     ```
+   - Compartir ese host y puerto con el amigo (WhatsApp, Discord, etc.)
 
 **PC-B (el amigo):**
-1. Terminal 1: `python main.py` → `[4]` o `[1]` para correr su propia simulación.
-2. Terminal 2: `python main.py` → `[6] Conectarse a servidor` → ingresar la IP pública de PC-A.
+1. Terminal 1: `python main.py` → `[4]` o `[1]` para correr su propia simulación
+2. Terminal 2: `python main.py` → `[6] Conectarse a servidor`
+   - Host: `0.tcp.ngrok.io` (o lo que diga el hosteador)
+   - Puerto: `XXXXX` (el número que compartió el hosteador)
 
-Verificar que el firewall de Windows no bloquee el puerto 8765 en PC-A.
+**¿Cómo conecto dos PCs en la misma red local?**
 
-Alternativa manual si no se usa el launcher:
-- Hosteador: `cd liminal_server && python main.py`
-- Cliente: `python scripts/visualizer.py --liminal --liminal-host <IP_PUBLICA_HOSTEADOR>`
+Si ambas PCs están en el mismo WiFi o LAN, no hace falta ngrok ni port forwarding:
+1. PC-A: `python main.py` → `[5]` → responder `N` a ngrok. El launcher muestra la IP local.
+2. PC-B: `python main.py` → `[6]` → ingresar esa IP local y puerto 8765.
 
 **¿Cómo sé si la conexión funcionó?**
 
@@ -57,15 +73,16 @@ Sí. Para desarrollo y pruebas, todo corre en localhost. Desde `main.py`:
 **¿Cuál es el orden correcto de ejecución?**
 
 ```
-PC-A  terminal 1         PC-A  terminal 2         PC-B  terminal 2
-────────────────         ────────────────         ───────────────
-1. python main.py        2. python main.py        1. python main.py
-   → [1] Continuar          → [5] Levantar           → [1] Continuar
-     (sim corriendo)             servidor                 (sim corriendo)
-                                 + conectar
-                                                   2. python main.py
-                                                      → [6] Conectarse
-                                                         → IP de PC-A
+PC-A  terminal 1         PC-A  terminal 2              PC-B  terminal 2
+────────────────         ────────────────              ───────────────
+1. python main.py        2. python main.py             1. python main.py
+   → [1] Continuar          → [5] Levantar                → [1] Continuar
+     (sim corriendo)              servidor + conectar         (sim corriendo)
+                                → ¿usar ngrok? s
+                                → muestra host:puerto    2. python main.py
+                                   ← compartir →            → [6] Conectarse
+                                                               host: 0.tcp.ngrok.io
+                                                               puerto: XXXXX
 ```
 
 El servidor **debe estar activo** antes de que alguien intente conectarse. Las simulaciones pueden estar corriendo antes, durante o después de que el servidor arranque — son independientes.

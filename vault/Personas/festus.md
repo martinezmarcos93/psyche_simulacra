@@ -2,37 +2,37 @@
 id: festus
 nombre: Festus
 rol: recolector
-edad: 64
+edad: 65
 sexo: M
 is_alive: True
-posicion: [74, 57]
-humor: 0.779
-energia: 0.552
-ansiedad: 0.402
+posicion: [79, 46]
+humor: 0.774
+energia: 0.541
+ansiedad: 0.410
 needs:
-  hambre: 0.064
+  hambre: 0.044
   fatiga: 0.335
   sed: 0.535
   sociabilidad: 1.000
-arquetipo_dominante: self
-estado_conductual: manipulacion
+arquetipo_dominante: anima_animus
+estado_conductual: cooperacion
 arquetipos:
-  self: 1.000
+  self: 0.983
   persona: 0.495
-  sombra: 0.505
-  anima_animus: 0.987
-  heroe: 0.855
-  sabio: 0.826
-  trickster: 0.302
+  sombra: 0.536
+  anima_animus: 1.000
+  heroe: 0.897
+  sabio: 0.863
+  trickster: 0.306
   madre: 1.000
-  padre: 0.841
-  nino_divino: 0.426
-  gobernante: 0.866
-  rebelde: 0.435
+  padre: 0.854
+  nino_divino: 0.432
+  gobernante: 0.884
+  rebelde: 0.441
 ---
 # 👤 Persona: Festus
 
-> **Rol:** `recolector` | **Edad:** 64 | **Sexo:** M | **Ubicación:** `(74, 57)`
+> **Rol:** `recolector` | **Edad:** 65 | **Sexo:** M | **Ubicación:** `(79, 46)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,14 +42,14 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.55 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.77 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.54 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.41 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `0.983` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.495` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.505` | `▓▓▓▓▓▓░░░░░░` |
-| **Anima animus** | `0.987` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.855` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Sabio** | `0.826` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.302` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.536` | `▓▓▓▓▓▓░░░░░░` |
+| **Anima animus** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.897` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Sabio** | `0.863` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.306` | `▓▓▓▓░░░░░░░░` |
 | **Madre** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Padre** | `0.841` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Nino divino** | `0.426` | `▓▓▓▓▓░░░░░░░` |
-| **Gobernante** | `0.866` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Rebelde** | `0.435` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.854` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Nino divino** | `0.432` | `▓▓▓▓▓░░░░░░░` |
+| **Gobernante** | `0.884` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Rebelde** | `0.441` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -105,8 +105,8 @@ arquetipos:
 | [[evander]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[exan]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[hakon]] | `-0.78` | `▓░░░░░░░░░` | Ninguno |
-| [[hector]] | `+0.34` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
-| [[hestia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hector]] | `+0.48` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[hestia]] | `-0.76` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
 | [[iambe]] | `-0.60` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
 | [[isidor]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
 | [[ixion]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
@@ -116,20 +116,21 @@ arquetipos:
 | [[kimon]] | `+0.46` | `▓▓▓▓▓▓▓░░░` | Ninguno |
 | [[kress]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[lakon]] | `-0.93` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[lykos]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[lykos]] | `+0.04` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
 | [[lyris]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
 | [[macron]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[medon]] | `+0.62` | `▓▓▓▓▓▓▓▓░░` | ⚛️ Entrelazado |
+| [[medon]] | `+0.34` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
 | [[meroe]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[nephele]] | `-0.12` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[oinone]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[okaios]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[perion]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
 | [[phoibos]] | `+0.96` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
 | [[rhadys]] | `-0.11` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
 | [[ristos]] | `-0.23` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
 | [[tainis]] | `-0.81` | `▓░░░░░░░░░` | Ninguno |
 | [[thalia]] | `-0.54` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
-| [[ulax]] | `-0.82` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ulax]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[velia]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[xanthos]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
 | [[zephyra]] | `-0.59` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
@@ -138,20 +139,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 1348:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En costa abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 1349:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
-- **Día 1350:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 1351:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+- **Día 1471:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- **Día 1472:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con lo reprimido.
+- **Día 1473:** Soñó con `'sol_que_calcina'` (arquetipo `self`).
+  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- **Día 1474:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- **Día 1475:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- **Día 1476:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
   - *Insight:* En desierto borde, el self encuentra tregua provisional con lo reprimido.
-- **Día 1352:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- **Día 1353:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
-  - *Insight:* El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- **Día 1354:** Soñó con `'abundancia_que_pudre'` (arquetipo `self`).
-  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- **Día 1477:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
 
 ---
 
@@ -2269,7 +2270,257 @@ arquetipos:
 - Día 1348: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
 - Día 1349: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
 - Día 1350: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 1351: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
-- Día 1352: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- Día 1353: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- Día 1354: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1350: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1351: Soñó con 'luz_oblicua' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1352: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1353: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1354: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 1355: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 1355: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1355: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1355: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1356: Soñó con 'centro_sin_lugar' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 1357: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1357: Cooperó de forma mutua y armónica con Ulax. Su lazo social se fortaleció.
+- Día 1357: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1357: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1357: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1357: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1357: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1358: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1359: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1359: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1359: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Soñó con 'corriente_que_arrastra' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1360: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1361: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1362: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1363: Se enfrentó en un choque violento y destructivo contra Ulax.
+- Día 1364: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1365: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 1366: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1367: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 1368: Soñó con 'unión_imposible' (anima_animus). Insight: En pantano costero, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1369: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1370: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1371: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1372: Soñó con 'voz_propia_extraña' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1373: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1374: Soñó con 'naufragio_lento' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1375: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1376: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1377: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1378: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1379: Soñó con 'camino_conocido' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1380: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1380: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 1381: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1382: Soñó con 'figura_que_sigue' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1383: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1384: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1385: Soñó con 'habitación_prohibida' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1386: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 1387: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 1388: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1389: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 1390: Soñó con 'niebla_densa' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 1390: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 1391: Soñó con 'oscuridad_total' (anima_animus). Insight: El anima_animus busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 1392: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 1393: Soñó con 'espejo_que_miente' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 1394: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1395: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 1396: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1397: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1398: Soñó con 'figura_que_sigue' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1398: Sufrió explotación y hostilidad de Creon, cediendo recursos biológicos.
+- Día 1399: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 1400: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 1401: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1402: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 1403: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 1404: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1405: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1405: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1405: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 1406: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 1406: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 1406: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 1407: Soñó con 'habitación_prohibida' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1408: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1409: Soñó con 'habitación_prohibida' (anima_animus). Insight: En pantano costero, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1409: Se enfrentó en un choque violento y destructivo contra Lykos.
+- Día 1410: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1411: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1412: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1412: Detectó y rechazó un intento de manipulación de Lykos.
+- Día 1412: Intentó manipular a Lykos, pero fue descubierto.
+- Día 1412: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1412: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1412: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1412: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1412: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Hestia. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Lykos. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Hestia. Su lazo social se fortaleció.
+- Día 1413: Cooperó de forma mutua y armónica con Hestia. Su lazo social se fortaleció.
+- Día 1414: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1415: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 1416: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1417: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1418: Soñó con 'habitación_prohibida' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 1419: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 1420: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1421: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1422: Soñó con 'oasis_espejismo' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 1423: Soñó con 'camino_conocido' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 1424: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1425: Soñó con 'camino_conocido' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1426: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 1427: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 1428: Soñó con 'estrella_que_no_guía' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 1429: Soñó con 'danza_a_solas' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1430: Soñó con 'calma_antes_de_algo' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1431: Soñó con 'espejo_que_miente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1432: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1433: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1434: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1435: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 1435: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 1435: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 1435: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 1436: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 1437: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1438: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1439: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1440: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 1441: Soñó con 'espejo_que_miente' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 1442: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1443: Soñó con 'mandala_incompleto' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1444: Soñó con 'centro_sin_lugar' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 1445: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 1446: Soñó con 'centro_sin_lugar' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 1447: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 1448: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1449: Soñó con 'figura_que_sigue' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1450: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 1451: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1451: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 1452: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 1453: Soñó con 'habitación_prohibida' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 1454: Soñó con 'figura_que_sigue' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 1455: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 1456: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1457: Soñó con 'figura_que_sigue' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1458: Soñó con 'niebla_densa' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 1459: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1460: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 1461: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 1462: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 1463: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1464: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 1465: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 1466: Soñó con 'sombra_ausente' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1467: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 1468: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 1469: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 1470: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 1471: Soñó con 'danza_a_solas' (anima_animus). Insight: En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1472: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 1473: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 1474: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 1475: Soñó con 'danza_a_solas' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 1476: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 1477: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.

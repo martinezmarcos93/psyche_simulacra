@@ -1,6 +1,6 @@
 # 📋 Bitácora Global de la Simulación
 
-**Última Sincronización:** Día `1354`
+**Última Sincronización:** Día `1477`
 
 ---
 
@@ -95,3 +95,4 @@ Acontecimientos existenciales y decesos registrados a lo largo del ciclo vital:
 | **Día 1056** | 💀 Deceso | [[aglaia]] (Aglaia) falleció a causa de `deshidratacion`. |
 | **Día 1271** | 💀 Deceso | [[kress]] (Kress) falleció a causa de `deshidratacion`. |
 | **Día 1272** | 💀 Deceso | [[rhadys]] (Rhadys) falleció a causa de `deshidratacion`. |
+| **Día 1373** | 💀 Deceso | [[lyris]] (Lyris) falleció a causa de `deshidratacion`. |

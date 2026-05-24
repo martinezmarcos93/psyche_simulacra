@@ -360,6 +360,65 @@ def _local_ip() -> str:
         return "127.0.0.1"
 
 
+def _ngrok_start(port: int, console: Console) -> tuple[str, int] | None:
+    """
+    Lanza ngrok tcp <port> en una nueva ventana y lee el túnel público via API local.
+    Retorna (host, port) del túnel o None si falla.
+    """
+    import time, json, urllib.request
+
+    if not shutil.which("ngrok"):
+        console.print(
+            "\n[red]  ngrok no encontrado en PATH.[/red]\n"
+            "  Descargalo e instalalo desde [bold]https://ngrok.com/download[/bold]\n"
+            "  Luego autenticalo con: [bold]ngrok authtoken <tu-token>[/bold]"
+        )
+        return None
+
+    # Matar cualquier túnel previo en el puerto 4040 (API de ngrok) es innecesario;
+    # si ya hay ngrok corriendo, la API ya tendrá el túnel listo.
+    try:
+        if sys.platform == "win32":
+            subprocess.Popen(
+                ["ngrok", "tcp", str(port)],
+                creationflags=subprocess.CREATE_NEW_CONSOLE,
+            )
+        else:
+            subprocess.Popen(
+                ["ngrok", "tcp", str(port)],
+                start_new_session=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+    except Exception as e:
+        console.print(f"[red]  Error iniciando ngrok:[/red] {e}")
+        return None
+
+    console.print("  [cyan]Conectando ngrok[/cyan]", end="", flush=True)
+    for _ in range(20):
+        time.sleep(0.5)
+        console.print(".", end="", flush=True)
+        try:
+            with urllib.request.urlopen("http://localhost:4040/api/tunnels", timeout=1) as resp:
+                data = json.loads(resp.read())
+                for tunnel in data.get("tunnels", []):
+                    pub = tunnel.get("public_url", "")
+                    if pub.startswith("tcp://"):
+                        # "tcp://0.tcp.ngrok.io:12345"
+                        hostport = pub.replace("tcp://", "").split(":")
+                        if len(hostport) == 2:
+                            console.print(" [green]activo[/green]")
+                            return hostport[0], int(hostport[1])
+        except Exception:
+            pass
+
+    console.print(" [yellow]timeout[/yellow]")
+    console.print(
+        "  [dim]Abrí la ventana de ngrok y copiá la URL tcp:// manualmente.[/dim]"
+    )
+    return None
+
+
 def _action_liminal_host(console: Console) -> None:
     """Inicia el servidor Liminal (nueva ventana) y conecta el visualizador aquí."""
     import time
@@ -392,13 +451,34 @@ def _action_liminal_host(console: Console) -> None:
     console.print(
         f"\n[green]Servidor Zona Liminal iniciado.[/green]  "
         f"Puerto: [bold cyan]{port}[/bold cyan]  ·  Seed: [bold]{seed}[/bold]\n"
-        f"  IP local de esta PC: [bold yellow]{ip}[/bold yellow]  "
-        f"[dim](compartila con tu amigo para que se conecte)[/dim]"
+        f"  IP local: [bold yellow]{ip}[/bold yellow]  "
+        f"[dim](válida solo en la misma red local)[/dim]"
     )
     console.print("[dim]Esperando 2s para que el servidor esté listo...[/dim]")
     time.sleep(2)
 
-    # 2. Conectar el visualizador a localhost en esta misma terminal
+    # 2. Opcional: túnel ngrok para conexión desde internet
+    use_ngrok = Confirm.ask(
+        "\n¿Usar ngrok para que tu amigo se conecte desde internet?",
+        default=False,
+        console=console,
+    )
+    if use_ngrok:
+        result = _ngrok_start(port, console)
+        if result:
+            ngrok_host, ngrok_port = result
+            console.print(Panel(
+                f"[bold green]Túnel ngrok activo[/bold green]\n\n"
+                f"  Tu amigo elige opción [bold][6] Conectarse a servidor[/bold] y escribe:\n\n"
+                f"    Host:   [bold yellow]{ngrok_host}[/bold yellow]\n"
+                f"    Puerto: [bold yellow]{ngrok_port}[/bold yellow]",
+                border_style="green",
+                padding=(0, 2),
+            ))
+        else:
+            console.print("[dim]Continuando sin ngrok. Tu amigo puede conectarse por red local.[/dim]")
+
+    # 3. Conectar el visualizador a localhost en esta misma terminal
     n_days = _ask_days(console, default="200")
     raw_fps = Prompt.ask("FPS de visualización", default="10", console=console)
     try:
