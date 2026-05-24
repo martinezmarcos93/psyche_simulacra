@@ -214,10 +214,29 @@ class AgentCore:
             "nombre":   agent.nombre,
             "causa":    causa,
         })
-        # La muerte sacude el campo tribal local (el global se absorbe en _persist_day)
+        # La muerte sacude el campo tribal local
         local_field = self.tribe_manager.get_local_field(agent.id)
         if local_field is not None:
             local_field.absorb_event("muerte", intensity=0.8)
+
+        # Registrar la muerte en la memoria cultural de la tribu
+        tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+        if tribe_id:
+            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem is not None:
+                arch = agent.archetypes.dominant()
+                arch_norm = "self_" if arch == "self" else arch
+                cmem.record_event(
+                    dia                 = tp.dia_simulado,
+                    agente_nombre       = agent.nombre,
+                    arquetipo_dominante = arch_norm,
+                    tipo_evento         = causa,
+                    descripcion         = (
+                        f"{agent.nombre} falleció a causa de {causa} "
+                        f"en el día {tp.dia_simulado}."
+                    ),
+                    intensidad          = 0.85,
+                )
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
         if len(self.agents) >= _LIMITE_POBLACION:
@@ -266,6 +285,25 @@ class AgentCore:
                     })
                     print(f"  [👶] Día {tp.dia_simulado}: Nació {child.nombre} "
                           f"(hijo de {a.nombre} y {b.nombre})")
+
+                    # Registrar nacimiento en la memoria cultural de la tribu
+                    tribe_id = self.tribe_manager.get_tribe_id(a.id)
+                    if tribe_id:
+                        cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                        if cmem is not None:
+                            arch = child.archetypes.dominant()
+                            cmem.record_event(
+                                dia                 = tp.dia_simulado,
+                                agente_nombre       = child.nombre,
+                                arquetipo_dominante = "self_" if arch == "self" else arch,
+                                tipo_evento         = "nacimiento",
+                                descripcion         = (
+                                    f"{child.nombre} nació de {a.nombre} y {b.nombre} "
+                                    f"en el día {tp.dia_simulado}."
+                                ),
+                                intensidad          = 0.50,
+                            )
+
                     reproduced.add(a.id)
                     reproduced.add(b.id)
                     break
@@ -340,6 +378,16 @@ class AgentCore:
             aislamiento  = child.behavioral_state.aislamiento,
             manipulacion = child.behavioral_state.manipulacion,
         )
+
+        # ── Herencia de memoria cultural: la CulturalMemory tribal empuja arquetipos ──
+        tribe_id = self.tribe_manager.get_tribe_id(parent_a.id)
+        if tribe_id:
+            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem is not None:
+                for arch_attr, delta in cmem.get_inheritance_effects().items():
+                    current = getattr(child.archetypes, arch_attr, None)
+                    if current is not None:
+                        setattr(child.archetypes, arch_attr, max(0.0, min(1.0, current + delta)))
 
         # ── Cooldown en los padres ─────────────────────────────────────────
         parent_a._cooldown_reproduccion = _COOLDOWN_REPRO

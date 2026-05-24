@@ -6,6 +6,7 @@ import networkx as nx
 
 from .collective_field import CollectiveField
 from .mythology import MythologyEngine
+from .cultural_memory import CulturalMemory
 
 if TYPE_CHECKING:
     from core.agents import Agent
@@ -57,11 +58,12 @@ class TribeManager:
     """
 
     def __init__(self) -> None:
-        self.tribes:          dict[str, list[str]]    = {}  # tribe_id → [agent_ids]
-        self.agent_to_tribe:  dict[str, str]          = {}  # agent_id → tribe_id
-        self.local_fields:    dict[str, CollectiveField]  = {}
-        self.local_myths:     dict[str, MythologyEngine]  = {}
-        self._last_recluster: int = -1
+        self.tribes:            dict[str, list[str]]       = {}
+        self.agent_to_tribe:    dict[str, str]             = {}
+        self.local_fields:      dict[str, CollectiveField] = {}
+        self.local_myths:       dict[str, MythologyEngine] = {}
+        self.cultural_memories: dict[str, CulturalMemory]  = {}
+        self._last_recluster:   int = -1
 
     # ── Clustering ────────────────────────────────────────────────────────────
 
@@ -127,11 +129,14 @@ class TribeManager:
                 self.local_fields[tribe_id] = CollectiveField()
             if tribe_id not in self.local_myths:
                 self.local_myths[tribe_id] = MythologyEngine()
+            if tribe_id not in self.cultural_memories:
+                self.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
 
         # Eliminar tribus extintas
         for old_id in set(self.tribes) - set(new_tribes):
             self.local_fields.pop(old_id, None)
             self.local_myths.pop(old_id, None)
+            self.cultural_memories.pop(old_id, None)
 
         self.tribes         = new_tribes
         self.agent_to_tribe = new_agent_to_tribe
@@ -193,7 +198,14 @@ class TribeManager:
                 # check_crystallization → on_day() ya incluye apply_myth_effects()
                 myth_engine.check_crystallization(local_field, tribe_agents, day)
 
-        # 4. Deriva arquetípica por bioma
+        # 4. Transmisión oral de memoria cultural por tribu
+        for tribe_id, cmem in self.cultural_memories.items():
+            member_ids   = self.tribes.get(tribe_id, [])
+            tribe_agents = {aid: agents[aid] for aid in member_ids if aid in agents}
+            if tribe_agents:
+                cmem.daily_transmission(tribe_agents)
+
+        # 5. Deriva arquetípica por bioma
         if terrain is not None:
             self._apply_biome_drift(agents, terrain)
 
@@ -235,11 +247,12 @@ class TribeManager:
 
     def to_dict(self) -> dict:
         return {
-            "tribes":          {k: list(v) for k, v in self.tribes.items()},
-            "agent_to_tribe":  dict(self.agent_to_tribe),
-            "local_fields":    {k: v.to_dict() for k, v in self.local_fields.items()},
-            "local_myths":     {k: v.to_dict() for k, v in self.local_myths.items()},
-            "last_recluster":  self._last_recluster,
+            "tribes":            {k: list(v) for k, v in self.tribes.items()},
+            "agent_to_tribe":    dict(self.agent_to_tribe),
+            "local_fields":      {k: v.to_dict() for k, v in self.local_fields.items()},
+            "local_myths":       {k: v.to_dict() for k, v in self.local_myths.items()},
+            "cultural_memories": {k: v.to_dict() for k, v in self.cultural_memories.items()},
+            "last_recluster":    self._last_recluster,
         }
 
     @classmethod
@@ -252,4 +265,6 @@ class TribeManager:
             tm.local_fields[k] = CollectiveField.from_dict(fd)
         for k, md in data.get("local_myths", {}).items():
             tm.local_myths[k] = MythologyEngine.from_dict(md)
+        for k, cd in data.get("cultural_memories", {}).items():
+            tm.cultural_memories[k] = CulturalMemory.from_dict(cd)
         return tm
