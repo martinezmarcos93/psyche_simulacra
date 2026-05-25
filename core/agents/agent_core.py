@@ -396,13 +396,13 @@ class AgentCore:
         self._process_resentments(tp.dia_simulado)
 
         # 23. Proto-chamanismo: mediación simbólica emergente — Ext. B
-        self._process_proto_chaman(tp.dia_simulado, snap)
+        self._process_proto_chaman(tp.dia_simulado)
 
         # 24. Cristalización de deidades desde el ICL — Hito E
         self._process_deity_emergence(tp.dia_simulado)
 
         # 25. Objetos sagrados y creación compulsiva — Hito C
-        self._process_sacred_objects(tp.dia_simulado, snap)
+        self._process_sacred_objects(tp.dia_simulado)
 
         # 26. Roles sociales emergentes — Hito H
         self._process_social_roles(tp.dia_simulado)
@@ -1357,7 +1357,7 @@ class AgentCore:
         )
         return ritual_medicine >= 2
 
-    def _process_proto_chaman(self, dia: int, snap) -> None:
+    def _process_proto_chaman(self, dia: int) -> None:
         """
         Ciclo diario del proto-chamanismo (Ext. B):
         1. Detectar chamanes emergentes por acumulación de consultas.
@@ -1891,7 +1891,7 @@ class AgentCore:
 
     # ── Hito C: Objetos Sagrados y Creación Compulsiva ───────────────────────
 
-    def _process_sacred_objects(self, dia: int, snap) -> None:
+    def _process_sacred_objects(self, dia: int) -> None:
         # Decrementar cooldowns
         for aid in list(self._objeto_cooldown):
             self._objeto_cooldown[aid] = max(0, self._objeto_cooldown[aid] - 1)
@@ -2318,7 +2318,7 @@ class AgentCore:
                     role.is_active = False  # rol extinto sin sucesor
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
-        if self.alive_count >= _LIMITE_POBLACION:
+        if self.alive_count() >= _LIMITE_POBLACION:
             return
         alive = [a for a in self.agents.values() if a.is_alive]
         reproduced: set[str] = set()

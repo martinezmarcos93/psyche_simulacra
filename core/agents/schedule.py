@@ -3,8 +3,7 @@ from __future__ import annotations
 # Default hourly schedule: hora 0-23 → activity
 _DEFAULT_SCHEDULE: dict[int, str] = {
     0:  "dormir", 1:  "dormir", 2:  "dormir", 3:  "dormir",
-    4:  "dormir",
-    5:  "buscar_agua",
+    4:  "dormir", 5:  "dormir",
     6:  "buscar_agua",
     7:  "buscar_agua",
     8:  "buscar_alimento", 9:  "buscar_alimento", 10: "buscar_alimento",

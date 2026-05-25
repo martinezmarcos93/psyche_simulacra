@@ -391,7 +391,7 @@ class TestPhase4Criterion:
         # Agente en estado crítico
         moribundo = Agent(agent_id="doom", nombre="Doom", posicion=(cx, cy))
         moribundo.needs.sed = 0.99
-        moribundo._dias_sed_critica = 1
+        moribundo._dias_sed_critica = 2
         agents.add_agent(moribundo)
 
         # Correr 2 días para que muera
