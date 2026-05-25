@@ -61,7 +61,8 @@
       "WebSearch",
       "Bash(xargs grep -l \"class MythCrystal\")",
       "Bash(Select-Object Name)",
-      "Bash(xargs wc -l)"
+      "Bash(xargs wc -l)",
+      "Bash(python3 -m py_compile \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\core\\\\agents\\\\agent_core.py\")"
     ]
   }
 }
