@@ -9,4 +9,4 @@ tribu: tribe_leon
 
 ---
 
-Y pasaron los días -99 al 1 como agua entre piedras. La tribu del self siguió su camino, 1 almas cargando el peso del campo colectivo. El símbolo del heroe marcó esta época.
+Y pasaron los días -99 al 1 como agua entre piedras. La tribu del self siguió su camino, 1 almas cargando el peso del campo colectivo. El símbolo del sabio marcó esta época.

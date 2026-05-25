@@ -19,6 +19,7 @@ from core.social.tribe_manager import TribeManager
 from core.world.culture_engine import CultureEngine
 from core.social.genealogy import LineageGraph
 from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE, _DISCOVERY_TRIGGERS
+from core.world.substances import SUBSTANCES
 from .psyche.episodic_memory import EpisodicMemory, MemoryRecord
 from .psyche.dissociation import DissociativeState, select_tipo, ANSIEDAD_UMBRAL, DIAS_UMBRAL, DIAS_PERMANENCIA
 from .psyche.grief import GriefState, duracion_por_bond
@@ -211,11 +212,26 @@ class AgentCore:
 
         # Cadena chamánica: agentes que consumieron una sustancia psicoactiva este tick
         # forman vínculo con los co-presentes; el consumidor gana sabio.
+        # R5-C2: myth_pressure_boost de la sustancia se aplica al campo colectivo local.
         for agent in self.agents.values():
             if not agent._psychoactive_consumed:
                 continue
             agent._psychoactive_consumed = False
             agent.archetypes.sabio = min(1.0, agent.archetypes.sabio + 0.02)
+
+            # Aplicar myth_pressure_boost de la sustancia activa al campo local
+            lf_sub = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+            for sname in agent._active_substances:
+                defn = SUBSTANCES.get(sname)
+                if defn is not None and defn.myth_pressure_boost > 0:
+                    amp = 1.5 if agent.in_liminal else 1.0
+                    lf_sub.myth_pressure = min(
+                        1.0, lf_sub.myth_pressure + defn.myth_pressure_boost * amp * 0.4
+                    )
+                    # Enteógenos también amplifican sueños compartidos (flag para on_day)
+                    if defn.type.value == "enteogeno":
+                        agent._enteogen_active = True
+
             for other in self.agents.values():
                 if other.id == agent.id or not other.is_alive:
                     continue
@@ -383,6 +399,12 @@ class AgentCore:
 
         # 17c. Asimetría de poder: especialistas atraen dependencia (Hito 10)
         self._process_knowledge_power(tp)
+
+        # 17d. Intercambio inter-tribal de conocimiento (R4-Ext.C)
+        self._process_intertribal_knowledge_exchange(tp)
+
+        # 17e. Economía simbólica: deuda ritual y prestigio (R5-D2)
+        self._process_symbolic_economy(tp.dia_simulado)
 
         # 18. Re-vivencias de memoria episódica — Hito A (Roadmap 4)
         self._process_episodic_revivals(tp.dia_simulado)
@@ -2625,6 +2647,26 @@ class AgentCore:
             if resonances[receiver_id] is None:
                 resonances[receiver_id] = shared_sym
 
+        # R5-C2 — Enteógenos amplifican sueños compartidos:
+        # Si ≥2 agentes en el mismo hex tienen _enteogen_active, se fuerza resonancia mutua.
+        hex_enteogen: dict[tuple, list[str]] = {}
+        for aid, agent in self.agents.items():
+            if agent.is_alive and agent._enteogen_active:
+                hex_enteogen.setdefault(agent.posicion, []).append(aid)
+                agent._enteogen_active = False  # reset transient flag
+        for hex_aids in hex_enteogen.values():
+            if len(hex_aids) < 2:
+                continue
+            # El agente con mayor tensión arquetípica emite el símbolo
+            emitter_id = max(hex_aids, key=lambda a: self.agents[a].archetypes.tension())
+            emitter    = self.agents[emitter_id]
+            arch       = emitter.archetypes.dominant()
+            pool       = _ARCHETYPE_SYMBOLS.get(arch, [_DEFAULT_SYMBOL])
+            sym        = emitter._rng.choice(pool)
+            for aid in hex_aids:
+                if resonances.get(aid) is None:
+                    resonances[aid] = sym
+
         # Generar sueños con bioma y resonancia inyectados
         # Resonancia onírica liminal: hexes liminales adyacentes inyectan símbolos
         # ajenos al ICL actual → sueños "inexplicables" (Hito 8)
@@ -3302,7 +3344,46 @@ class AgentCore:
                     noise   = self._rng.gauss(0, lhex.misterio * 0.018)
                     setattr(agent.archetypes, arch, max(0.0, min(1.0, current + noise)))
 
-    # ── Fin Hito 8 ─────────────────────────────────────────────────────────────
+        # ── 3. R5-E1: Efectos físicos sobre agentes DENTRO del hex liminal ───────
+        # Un agente que duerme en el hex recibe: ansiedad aumentada, presión mítica
+        # directa al campo, y probabilidad de muerte ambiental inexplicable.
+        for lhex in liminal_sys.hexes:
+            cell = terrain.get(*lhex.coord) if terrain else None
+            if cell is None or not cell.explored:
+                continue
+            for agent in self.agents.values():
+                if not agent.is_alive or agent.posicion != lhex.coord:
+                    continue
+                # Presión mítica directa (más intensa que el efecto de proximidad)
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + lhex.misterio * 0.06)
+                lf.confusion     = min(1.0, lf.confusion     + lhex.misterio * 0.04)
+                # Ansiedad individual: el lugar no es comprensible
+                agent.ansiedad = min(1.0, agent.ansiedad + lhex.misterio * 0.03)
+                agent.in_liminal = True
+
+                # Muerte ambiental inexplicable (fauna liminal, microclima extremo)
+                # prob = misterio × 0.002 — baja, pero no nula → terror epistemológico
+                if self._rng.random() < lhex.misterio * 0.002:
+                    tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                    self._register_death(agent, tp, "causa_liminal_inexplicable")
+                    # Registrar en memoria cultural: muerte sin causa = tabú
+                    if tribe_id:
+                        cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                        if cmem is not None:
+                            cmem.record_event(
+                                dia                 = tp.dia_simulado,
+                                agente_nombre       = agent.nombre,
+                                arquetipo_dominante = "sombra",
+                                tipo_evento         = "muerte_liminal",
+                                descripcion         = (
+                                    f"{agent.nombre} murió sin causa aparente en el "
+                                    f"lugar misterioso {lhex.coord} el día {tp.dia_simulado}."
+                                ),
+                                intensidad          = lhex.misterio,
+                            )
+
+    # ── Fin Hito 8 + R5-E1 ────────────────────────────────────────────────────
 
     # ── Hito 9: Psicología Oscura ──────────────────────────────────────────────
 
@@ -3725,6 +3806,204 @@ class AgentCore:
                                 ),
                                 intensidad=0.75,
                             )
+
+    # ── R4-Ext.C: Intercambio inter-tribal de conocimiento ────────────────────
+
+    def _process_intertribal_knowledge_exchange(self, tp) -> None:
+        """
+        Transmisión diplomática de conocimiento entre agentes de tribus distintas
+        que comparten hex con algún vínculo mínimo.
+
+        Diferencias respecto a la transmisión intra-tribal:
+        - Umbral de bond menor (0.20 vs 0.50)
+        - Probabilidad de éxito reducida (× 0.35 vs × 1.0)
+        - Fidelidad usa bond × 0.50 como bond efectivo → mayor degradación
+        - Se registra en CulturalMemory de AMBAS tribus
+        """
+        dia = tp.dia_simulado if hasattr(tp, "dia_simulado") else tp
+
+        by_pos: dict[tuple, list[str]] = {}
+        for aid, agent in self.agents.items():
+            if agent.is_alive:
+                by_pos.setdefault(agent.posicion, []).append(aid)
+
+        for aids in by_pos.values():
+            if len(aids) < 2:
+                continue
+            for i, teacher_id in enumerate(aids):
+                t_tribe = self.tribe_manager.get_tribe_id(teacher_id)
+                teacher_ks = self.knowledge.get(teacher_id)
+                if not teacher_ks:
+                    continue
+                for student_id in aids[i + 1:]:
+                    s_tribe = self.tribe_manager.get_tribe_id(student_id)
+                    if t_tribe is None or s_tribe is None or t_tribe == s_tribe:
+                        continue  # sólo inter-tribal
+                    bond = self.social_network.get_bond(teacher_id, student_id)
+                    if bond < 0.20:
+                        continue
+                    effective_bond = bond * 0.50  # degradación mayor por barrera cultural
+                    for kname in list(teacher_ks):
+                        if self.knowledge.has(student_id, kname):
+                            continue
+                        ku = _ALL_KNOWLEDGE.get(kname)
+                        if ku is None:
+                            continue
+                        prob = (1.0 - ku.complejidad) * 0.15 * 0.35
+                        if self._rng.random() >= prob:
+                            continue
+
+                        success, fidelidad = self.knowledge.teach(
+                            teacher_id, student_id, kname, self._rng, effective_bond
+                        )
+                        if not success:
+                            continue
+
+                        # Aumentar vínculo entre los dos embajadores del conocimiento
+                        b_ts = self.social_network.get_bond(teacher_id, student_id)
+                        b_st = self.social_network.get_bond(student_id, teacher_id)
+                        self.social_network.set_bond(teacher_id, student_id, min(1.0, b_ts + 0.04))
+                        self.social_network.set_bond(student_id, teacher_id, min(1.0, b_st + 0.04))
+
+                        teacher_ag = self.agents[teacher_id]
+                        student_ag = self.agents[student_id]
+                        nombre_actual = self.knowledge.get_nombre_actual(student_id, kname)
+
+                        # Registro en la tribu del estudiante
+                        cmem_s = self.tribe_manager.cultural_memories.get(s_tribe)
+                        if cmem_s is not None:
+                            cmem_s.record_event(
+                                dia                 = dia,
+                                agente_nombre       = student_ag.nombre,
+                                arquetipo_dominante = "sabio",
+                                tipo_evento         = "intercambio_diplomatico",
+                                descripcion         = (
+                                    f"{student_ag.nombre} aprendió '{nombre_actual}' de "
+                                    f"{teacher_ag.nombre} (tribu {t_tribe}), "
+                                    f"fidelidad {fidelidad:.2f}."
+                                ),
+                                intensidad          = 0.55,
+                            )
+                        # Registro en la tribu del maestro (prestigio por difundir conocimiento)
+                        cmem_t = self.tribe_manager.cultural_memories.get(t_tribe)
+                        if cmem_t is not None:
+                            cmem_t.record_event(
+                                dia                 = dia,
+                                agente_nombre       = teacher_ag.nombre,
+                                arquetipo_dominante = "sabio",
+                                tipo_evento         = "difusion_diplomatica",
+                                descripcion         = (
+                                    f"{teacher_ag.nombre} enseñó '{nombre_actual}' a "
+                                    f"{student_ag.nombre} (tribu {s_tribe}) el día {dia}."
+                                ),
+                                intensidad          = 0.45,
+                            )
+
+    # ── R5-D2: Economía Simbólica ─────────────────────────────────────────────
+
+    def _process_symbolic_economy(self, dia: int) -> None:
+        """
+        Deuda ritual y prestigio acumulado.
+
+        1. Registro de deuda cuando un agente cura/protege/rescata a otro.
+        2. El prestador de la acción acumula prestigio proporcional a testigos vinculados.
+        3. El prestigio modula el techo máximo de bonds entrantes y la lectura de
+           las acciones futuras del agente (acciones de alto prestigio = interpretación +).
+        4. La deuda no saldada en 60+ días genera resentimiento de baja intensidad.
+        5. Decaimiento lento del prestigio (−0.001/día) para mantener competencia.
+        """
+        _DEBT_CAP     = 0.90   # máximo de deuda bilateral
+        _PRESTIGE_CAP = 1.00
+        _DEBT_DECAY   = 0.004  # decaimiento diario de la deuda (se resuelve con tiempo)
+        _PRESTIGE_DECAY = 0.001
+
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+
+            # Decaimiento de prestigio
+            agent.prestigio = max(0.0, agent.prestigio - _PRESTIGE_DECAY)
+
+            # Decaimiento y resentimiento por deudas antiguas
+            to_remove = []
+            for other_id, intensity in list(agent.deuda_ritual.items()):
+                new_intensity = intensity - _DEBT_DECAY
+                if new_intensity <= 0.0:
+                    to_remove.append(other_id)
+                else:
+                    agent.deuda_ritual[other_id] = new_intensity
+                    # Resentimiento pasivo si la deuda persiste demasiado
+                    if intensity > 0.50 and self._rng.random() < 0.01:
+                        lf = self.tribe_manager.get_local_field(agent.id)
+                        if lf is not None:
+                            lf.confusion = min(1.0, lf.confusion + 0.005)
+            for oid in to_remove:
+                del agent.deuda_ritual[oid]
+
+            # El prestigio del agente amplifica su ICL local: presencia dominante
+            if agent.prestigio > 0.60:
+                lf = self.tribe_manager.get_local_field(agent.id)
+                if lf is not None:
+                    arch = agent.archetypes.dominant()
+                    lf.symbols[arch] = min(
+                        1.0, lf.symbols.get(arch, 0.0) + agent.prestigio * 0.002
+                    )
+
+        # Generación de deuda por rescate/curación observable
+        # Ocurre cuando un agente con necesidades críticas está en el mismo hex que otro
+        # que acaba de donar recursos (medido por necesidades por encima del umbral crítico)
+        for aid, agent in self.agents.items():
+            if not agent.is_alive:
+                continue
+            # Agente en estado crítico = potencial receptor de ayuda
+            if agent.needs.hambre > 0.80 or agent.needs.sed > 0.80:
+                tribe_id = self.tribe_manager.get_tribe_id(aid)
+                for oid, other in self.agents.items():
+                    if oid == aid or not other.is_alive:
+                        continue
+                    if other.posicion != agent.posicion:
+                        continue
+                    bond = self.social_network.get_bond(oid, aid)
+                    if bond < 0.40:
+                        continue
+                    # El otro agente "rescata" si tiene mejor estado
+                    if other.needs.hambre < 0.40 and other.needs.sed < 0.40:
+                        # Registro de deuda: agent debe a other
+                        existing = agent.deuda_ritual.get(oid, 0.0)
+                        agent.deuda_ritual[oid] = min(_DEBT_CAP, existing + 0.15)
+
+                        # Prestigio para el rescatador proporcional a testigos con bond
+                        testigos = sum(
+                            1 for wid, w in self.agents.items()
+                            if w.is_alive and w.posicion == other.posicion
+                            and self.social_network.get_bond(wid, oid) > 0.30
+                        )
+                        gain = 0.03 * max(1, testigos)
+                        other.prestigio = min(_PRESTIGE_CAP, other.prestigio + gain)
+
+                        # Registro cultural en la tribu del rescatado
+                        if tribe_id:
+                            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                            if cmem is not None:
+                                recientes = [
+                                    r for r in cmem.records
+                                    if r.tipo_evento == "deuda_ritual"
+                                    and oid in r.descripcion_actual
+                                    and dia - r.dia_origen < 20
+                                ]
+                                if not recientes:
+                                    cmem.record_event(
+                                        dia                 = dia,
+                                        agente_nombre       = other.nombre,
+                                        arquetipo_dominante = other.archetypes.dominant(),
+                                        tipo_evento         = "deuda_ritual",
+                                        descripcion         = (
+                                            f"{other.nombre} socorrió a {agent.nombre} "
+                                            f"en situación crítica el día {dia}. "
+                                            f"Deuda ritual registrada."
+                                        ),
+                                        intensidad          = 0.60,
+                                    )
 
     # ── Fin Hito 10 ────────────────────────────────────────────────────────────
 

@@ -95,6 +95,11 @@ class Agent:
         self._active_substances: dict[str, int]   = {}  # nombre → ticks restantes
         self._addiction:         dict[str, float] = {}  # nombre → nivel (0-1)
         self._psychoactive_consumed: bool         = False  # flag transient para cadena chamánica
+        self._enteogen_active:       bool         = False  # flag transient: enteógeno consumido este tick
+
+        # Economía simbólica (R5-D2)
+        self.deuda_ritual:  dict[str, float] = {}  # other_id → intensidad de deuda (+ = debo yo)
+        self.prestigio:     float = 0.0            # 0.0–1.0: capital simbólico acumulado
 
         # Ciclo de vida
         self._padres:                tuple[str, str] | None = None
