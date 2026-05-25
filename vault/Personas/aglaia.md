@@ -19,16 +19,16 @@ estado_conductual: aislamiento
 arquetipos:
   self: 0.716
   persona: 0.170
-  sombra: 0.388
+  sombra: 0.381
   anima_animus: 0.451
-  heroe: 0.352
-  sabio: 0.531
-  trickster: 0.327
-  madre: 0.437
-  padre: 0.415
+  heroe: 0.335
+  sabio: 0.519
+  trickster: 0.329
+  madre: 0.456
+  padre: 0.407
   nino_divino: 0.787
-  gobernante: 0.385
-  rebelde: 0.163
+  gobernante: 0.378
+  rebelde: 0.177
 ---
 # 👤 Persona: Aglaia
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.716` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Persona** | `0.170` | `▓▓░░░░░░░░░░` |
-| **Sombra** | `0.388` | `▓▓▓▓▓░░░░░░░` |
+| **Sombra** | `0.381` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.451` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.352` | `▓▓▓▓░░░░░░░░` |
-| **Sabio** | `0.531` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.327` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.437` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.415` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.335` | `▓▓▓▓░░░░░░░░` |
+| **Sabio** | `0.519` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.329` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.456` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.407` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.787` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Gobernante** | `0.385` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.163` | `▓▓░░░░░░░░░░` |
+| **Gobernante** | `0.378` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.177` | `▓▓░░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

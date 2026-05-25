@@ -6,9 +6,9 @@ edad: 43
 sexo: M
 is_alive: True
 posicion: [44, 30]
-humor: 0.668
-energia: 0.254
-ansiedad: 0.566
+humor: 0.667
+energia: 0.253
+ansiedad: 0.567
 needs:
   hambre: 0.104
   fatiga: 0.720

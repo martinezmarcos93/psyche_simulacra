@@ -1,7 +1,7 @@
 ---
 tipo: fundacion
 dia: 1
-tribu: tribe_bron
+tribu: tribe_stenos
 ---
 # 📜 Mito Fundacional — Día 1
 

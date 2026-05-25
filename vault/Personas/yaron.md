@@ -19,16 +19,16 @@ estado_conductual: cooperacion
 arquetipos:
   self: 0.449
   persona: 0.272
-  sombra: 0.345
+  sombra: 0.382
   anima_animus: 0.336
   heroe: 0.829
-  sabio: 0.428
-  trickster: 0.274
-  madre: 0.255
-  padre: 0.517
+  sabio: 0.424
+  trickster: 0.272
+  madre: 0.271
+  padre: 0.541
   nino_divino: 0.236
-  gobernante: 0.640
-  rebelde: 0.418
+  gobernante: 0.642
+  rebelde: 0.404
 ---
 # 👤 Persona: Yaron
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.449` | `▓▓▓▓▓░░░░░░░` |
 | **Persona** | `0.272` | `▓▓▓░░░░░░░░░` |
-| **Sombra** | `0.345` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.382` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.336` | `▓▓▓▓░░░░░░░░` |
 | **Heroe** | `0.829` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Sabio** | `0.428` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.274` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.255` | `▓▓▓░░░░░░░░░` |
-| **Padre** | `0.517` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.424` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.272` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.271` | `▓▓▓░░░░░░░░░` |
+| **Padre** | `0.541` | `▓▓▓▓▓▓░░░░░░` |
 | **Nino divino** | `0.236` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.640` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Rebelde** | `0.418` | `▓▓▓▓▓░░░░░░░` |
+| **Gobernante** | `0.642` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Rebelde** | `0.404` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

@@ -19,16 +19,16 @@ estado_conductual: cooperacion
 arquetipos:
   self: 0.467
   persona: 0.263
-  sombra: 0.356
+  sombra: 0.407
   anima_animus: 0.181
   heroe: 0.851
-  sabio: 0.359
-  trickster: 0.393
-  madre: 0.302
-  padre: 0.507
-  nino_divino: 0.169
-  gobernante: 0.441
-  rebelde: 0.379
+  sabio: 0.411
+  trickster: 0.392
+  madre: 0.311
+  padre: 0.481
+  nino_divino: 0.164
+  gobernante: 0.466
+  rebelde: 0.324
 ---
 # 👤 Persona: Kyron
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.467` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.263` | `▓▓▓░░░░░░░░░` |
-| **Sombra** | `0.356` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.407` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.181` | `▓▓░░░░░░░░░░` |
 | **Heroe** | `0.851` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Sabio** | `0.359` | `▓▓▓▓░░░░░░░░` |
-| **Trickster** | `0.393` | `▓▓▓▓▓░░░░░░░` |
-| **Madre** | `0.302` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.507` | `▓▓▓▓▓▓░░░░░░` |
-| **Nino divino** | `0.169` | `▓▓░░░░░░░░░░` |
-| **Gobernante** | `0.441` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.379` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.411` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.392` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.311` | `▓▓▓▓░░░░░░░░` |
+| **Padre** | `0.481` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.164` | `▓▓░░░░░░░░░░` |
+| **Gobernante** | `0.466` | `▓▓▓▓▓▓░░░░░░` |
+| **Rebelde** | `0.324` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -99,7 +99,7 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'espada_rota'` (arquetipo `heroe`).
+- **Día 3:** Soñó con `'montaña_que_escalar'` (arquetipo `heroe`).
   - *Insight:* En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 - **Día 4:** Soñó con `'árbol_sin_raíces'` (arquetipo `heroe`).
   - *Insight:* El heroe busca equilibrio en bosque templado compensando la energía de lo reprimido.
@@ -122,7 +122,7 @@ arquetipos:
 - Día 0: Cooperó de forma mutua y armónica con Malia. Su lazo social se fortaleció.
 - Día 1: Soñó con 'viento_que_borra' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 - Día 2: Soñó con 'hierba_que_corta' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
-- Día 3: Soñó con 'espada_rota' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
+- Día 3: Soñó con 'montaña_que_escalar' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Orion.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Orion.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Orion.

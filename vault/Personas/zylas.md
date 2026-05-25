@@ -19,16 +19,16 @@ estado_conductual: aislamiento
 arquetipos:
   self: 0.925
   persona: 0.543
-  sombra: 0.518
+  sombra: 0.574
   anima_animus: 0.481
-  heroe: 0.514
-  sabio: 0.517
-  trickster: 0.470
-  madre: 0.375
-  padre: 0.499
-  nino_divino: 0.346
-  gobernante: 0.298
-  rebelde: 0.333
+  heroe: 0.523
+  sabio: 0.530
+  trickster: 0.460
+  madre: 0.338
+  padre: 0.500
+  nino_divino: 0.341
+  gobernante: 0.317
+  rebelde: 0.387
 ---
 # 👤 Persona: Zylas
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.925` | `▓▓▓▓▓▓▓▓▓▓▓░` |
 | **Persona** | `0.543` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.518` | `▓▓▓▓▓▓░░░░░░` |
+| **Sombra** | `0.574` | `▓▓▓▓▓▓▓░░░░░` |
 | **Anima animus** | `0.481` | `▓▓▓▓▓▓░░░░░░` |
-| **Heroe** | `0.514` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.517` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.470` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.375` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.499` | `▓▓▓▓▓▓░░░░░░` |
-| **Nino divino** | `0.346` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.298` | `▓▓▓▓░░░░░░░░` |
-| **Rebelde** | `0.333` | `▓▓▓▓░░░░░░░░` |
+| **Heroe** | `0.523` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.530` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.460` | `▓▓▓▓▓▓░░░░░░` |
+| **Madre** | `0.338` | `▓▓▓▓░░░░░░░░` |
+| **Padre** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.341` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.317` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.387` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

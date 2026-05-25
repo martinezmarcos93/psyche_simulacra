@@ -19,16 +19,16 @@ estado_conductual: manipulacion
 arquetipos:
   self: 0.535
   persona: 0.567
-  sombra: 0.427
+  sombra: 0.426
   anima_animus: 0.268
-  heroe: 0.722
-  sabio: 0.545
-  trickster: 0.432
-  madre: 0.335
-  padre: 0.561
-  nino_divino: 0.213
+  heroe: 0.664
+  sabio: 0.582
+  trickster: 0.430
+  madre: 0.368
+  padre: 0.611
+  nino_divino: 0.170
   gobernante: 0.863
-  rebelde: 0.279
+  rebelde: 0.288
 ---
 # 👤 Persona: Imene
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.535` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.567` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.427` | `▓▓▓▓▓░░░░░░░` |
+| **Sombra** | `0.426` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.268` | `▓▓▓░░░░░░░░░` |
-| **Heroe** | `0.722` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Sabio** | `0.545` | `▓▓▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.432` | `▓▓▓▓▓░░░░░░░` |
-| **Madre** | `0.335` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.561` | `▓▓▓▓▓▓▓░░░░░` |
-| **Nino divino** | `0.213` | `▓▓▓░░░░░░░░░` |
+| **Heroe** | `0.664` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.582` | `▓▓▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.430` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.368` | `▓▓▓▓░░░░░░░░` |
+| **Padre** | `0.611` | `▓▓▓▓▓▓▓░░░░░` |
+| **Nino divino** | `0.170` | `▓▓░░░░░░░░░░` |
 | **Gobernante** | `0.863` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Rebelde** | `0.279` | `▓▓▓░░░░░░░░░` |
+| **Rebelde** | `0.288` | `▓▓▓░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

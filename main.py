@@ -289,12 +289,27 @@ def _ask_narrative_config(console: Console) -> tuple[bool, str]:
         for m in installed:
             console.print(f"    [cyan]·[/cyan] {m}")
 
-    model = Prompt.ask(
-        "\nModelo Ollama  [dim](si no está instalado se descargará al iniciar)[/dim]",
-        default=default_model,
-        console=console,
-    )
+    while True:
+        model = Prompt.ask(
+            "\nModelo Ollama  [dim](si no está instalado se descargará al iniciar)[/dim]",
+            default=default_model,
+            console=console,
+        )
+        if not installed or model in installed:
+            break
+        console.print(
+            f"[yellow]  '{model}' no está en la lista. Modelos disponibles:[/yellow]"
+        )
+        for m in installed:
+            console.print(f"    [cyan]·[/cyan] {m}")
     return True, model
+
+
+def _wait_enter() -> None:
+    try:
+        input("\nPresioná Enter para volver al menú...")
+    except (KeyboardInterrupt, EOFError):
+        pass
 
 
 def _print_result(console: Console, runner) -> None:
@@ -673,47 +688,51 @@ def main() -> None:
         console.print(t)
         console.print()
 
-        choice = Prompt.ask(
-            "Opción",
-            choices=["1", "2", "3", "4", "5", "6", "7"],
-            console=console,
-        )
+        try:
+            choice = Prompt.ask(
+                "Opción",
+                choices=["1", "2", "3", "4", "5", "6", "7"],
+                console=console,
+            )
+        except (KeyboardInterrupt, EOFError):
+            console.print("\n[dim]Hasta pronto.[/dim]")
+            break
 
         if choice == "1":
             if has_vivos:
                 _action_terminal(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
-            input("\nPresioná Enter para volver al menú...")
+            _wait_enter()
 
         elif choice == "2":
             if has_vivos:
                 _action_pygame(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
-                input("\nPresioná Enter para volver al menú...")
+                _wait_enter()
 
         elif choice == "3":
             _action_dashboard(console)
-            input("\nPresioná Enter para volver al menú...")
+            _wait_enter()
 
         elif choice == "4":
             _action_new(console, state)
-            input("\nPresioná Enter para volver al menú...")
+            _wait_enter()
 
         elif choice == "5":
             if has_vivos:
                 _action_liminal_host(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
-            input("\nPresioná Enter para volver al menú...")
+            _wait_enter()
 
         elif choice == "6":
             if has_vivos:
                 _action_liminal_join(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
-            input("\nPresioná Enter para volver al menú...")
+            _wait_enter()
 
         elif choice == "7":
             console.print("\n[dim]Hasta pronto.[/dim]")

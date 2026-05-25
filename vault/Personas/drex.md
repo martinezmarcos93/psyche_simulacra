@@ -19,16 +19,16 @@ estado_conductual: competencia
 arquetipos:
   self: 0.741
   persona: 0.294
-  sombra: 0.319
+  sombra: 0.346
   anima_animus: 0.510
-  heroe: 0.404
-  sabio: 0.480
-  trickster: 0.462
-  madre: 0.555
-  padre: 0.450
-  nino_divino: 0.531
-  gobernante: 0.516
-  rebelde: 0.430
+  heroe: 0.429
+  sabio: 0.529
+  trickster: 0.460
+  madre: 0.560
+  padre: 0.424
+  nino_divino: 0.548
+  gobernante: 0.528
+  rebelde: 0.448
 ---
 # 👤 Persona: Drex
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.741` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Persona** | `0.294` | `▓▓▓▓░░░░░░░░` |
-| **Sombra** | `0.319` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.346` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.510` | `▓▓▓▓▓▓░░░░░░` |
-| **Heroe** | `0.404` | `▓▓▓▓▓░░░░░░░` |
-| **Sabio** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.462` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.555` | `▓▓▓▓▓▓▓░░░░░` |
-| **Padre** | `0.450` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.531` | `▓▓▓▓▓▓░░░░░░` |
-| **Gobernante** | `0.516` | `▓▓▓▓▓▓░░░░░░` |
-| **Rebelde** | `0.430` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.429` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.529` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.460` | `▓▓▓▓▓▓░░░░░░` |
+| **Madre** | `0.560` | `▓▓▓▓▓▓▓░░░░░` |
+| **Padre** | `0.424` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.548` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.528` | `▓▓▓▓▓▓░░░░░░` |
+| **Rebelde** | `0.448` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

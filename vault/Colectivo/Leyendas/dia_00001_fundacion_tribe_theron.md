@@ -1,7 +1,7 @@
 ---
 tipo: fundacion
 dia: 1
-tribu: tribe_lykos
+tribu: tribe_theron
 ---
 # 📜 Mito Fundacional — Día 1
 

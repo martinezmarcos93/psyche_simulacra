@@ -19,16 +19,16 @@ estado_conductual: competencia
 arquetipos:
   self: 0.437
   persona: 0.258
-  sombra: 0.231
+  sombra: 0.242
   anima_animus: 0.270
   heroe: 0.835
-  sabio: 0.273
-  trickster: 0.223
-  madre: 0.323
-  padre: 0.346
-  nino_divino: 0.226
-  gobernante: 0.602
-  rebelde: 0.252
+  sabio: 0.397
+  trickster: 0.192
+  madre: 0.293
+  padre: 0.348
+  nino_divino: 0.216
+  gobernante: 0.615
+  rebelde: 0.153
 ---
 # 👤 Persona: Exan
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.437` | `▓▓▓▓▓░░░░░░░` |
 | **Persona** | `0.258` | `▓▓▓░░░░░░░░░` |
-| **Sombra** | `0.231` | `▓▓▓░░░░░░░░░` |
+| **Sombra** | `0.242` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.270` | `▓▓▓░░░░░░░░░` |
 | **Heroe** | `0.835` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Sabio** | `0.273` | `▓▓▓░░░░░░░░░` |
-| **Trickster** | `0.223` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.323` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.346` | `▓▓▓▓░░░░░░░░` |
-| **Nino divino** | `0.226` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.602` | `▓▓▓▓▓▓▓░░░░░` |
-| **Rebelde** | `0.252` | `▓▓▓░░░░░░░░░` |
+| **Sabio** | `0.397` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.192` | `▓▓░░░░░░░░░░` |
+| **Madre** | `0.293` | `▓▓▓▓░░░░░░░░` |
+| **Padre** | `0.348` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.216` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.615` | `▓▓▓▓▓▓▓░░░░░` |
+| **Rebelde** | `0.153` | `▓▓░░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -102,7 +102,7 @@ arquetipos:
 
 - **Día 3:** Soñó con `'espada_rota'` (arquetipo `heroe`).
   - *Insight:* El heroe busca equilibrio en montana alta compensando la energía de lo reprimido.
-- **Día 4:** Soñó con `'horizonte_de_agua'` (arquetipo `heroe`).
+- **Día 4:** Soñó con `'naufragio_lento'` (arquetipo `heroe`).
   - *Insight:* En costa abierta, el heroe encuentra tregua provisional con lo reprimido.
 - **Día 5:** Soñó con `'victoria_vacía'` (arquetipo `heroe`).
   - *Insight:* El heroe busca equilibrio en montana alta compensando la energía de lo reprimido.
@@ -112,7 +112,7 @@ arquetipos:
   - *Insight:* El heroe busca equilibrio en bosque templado compensando la energía de lo reprimido.
 - **Día 8:** Soñó con `'monstruo_sin_forma'` (arquetipo `heroe`).
   - *Insight:* En bosque templado, el heroe encuentra tregua provisional con lo reprimido.
-- **Día 9:** Soñó con `'montaña_que_escalar'` (arquetipo `heroe`).
+- **Día 9:** Soñó con `'monstruo_sin_forma'` (arquetipo `heroe`).
   - *Insight:* El heroe busca equilibrio en lago interior compensando la energía de lo reprimido.
 
 ---
@@ -124,7 +124,7 @@ arquetipos:
 - Día 1: Soñó con 'roca_que_aplasta' (heroe). Insight: El heroe busca equilibrio en montana alta compensando la energía de lo reprimido.
 - Día 2: Soñó con 'monstruo_sin_forma' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
 - Día 3: Soñó con 'espada_rota' (heroe). Insight: El heroe busca equilibrio en montana alta compensando la energía de lo reprimido.
-- Día 4: Soñó con 'horizonte_de_agua' (heroe). Insight: En costa abierta, el heroe encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'naufragio_lento' (heroe). Insight: En costa abierta, el heroe encuentra tregua provisional con lo reprimido.
 - Día 4: Se impuso competitivamente ante Festus, absorbiendo sus recursos biológicos.
 - Día 4: Se impuso competitivamente ante Festus, absorbiendo sus recursos biológicos.
 - Día 5: Soñó con 'victoria_vacía' (heroe). Insight: El heroe busca equilibrio en montana alta compensando la energía de lo reprimido.
@@ -201,4 +201,4 @@ arquetipos:
 - Día 8: Se enfrentó en un choque violento y destructivo contra Orion.
 - Día 8: Se enfrentó en un choque violento y destructivo contra Orion.
 - Día 8: Se enfrentó en un choque violento y destructivo contra Orion.
-- Día 9: Soñó con 'montaña_que_escalar' (heroe). Insight: El heroe busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 9: Soñó con 'monstruo_sin_forma' (heroe). Insight: El heroe busca equilibrio en lago interior compensando la energía de lo reprimido.

@@ -1,7 +1,7 @@
 ---
 tipo: fundacion
 dia: 1
-tribu: tribe_exan
+tribu: tribe_ulax
 ---
 # 📜 Mito Fundacional — Día 1
 

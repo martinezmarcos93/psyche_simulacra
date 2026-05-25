@@ -19,16 +19,16 @@ estado_conductual: manipulacion
 arquetipos:
   self: 0.552
   persona: 0.207
-  sombra: 0.321
+  sombra: 0.328
   anima_animus: 0.613
-  heroe: 0.212
-  sabio: 0.476
-  trickster: 0.258
+  heroe: 0.227
+  sabio: 0.479
+  trickster: 0.246
   madre: 0.871
-  padre: 0.481
-  nino_divino: 0.308
-  gobernante: 0.375
-  rebelde: 0.427
+  padre: 0.503
+  nino_divino: 0.344
+  gobernante: 0.370
+  rebelde: 0.408
 ---
 # 👤 Persona: Xanthe
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.552` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.207` | `▓▓░░░░░░░░░░` |
-| **Sombra** | `0.321` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.328` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.613` | `▓▓▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.212` | `▓▓▓░░░░░░░░░` |
-| **Sabio** | `0.476` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.258` | `▓▓▓░░░░░░░░░` |
+| **Heroe** | `0.227` | `▓▓▓░░░░░░░░░` |
+| **Sabio** | `0.479` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.246` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.871` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Padre** | `0.481` | `▓▓▓▓▓▓░░░░░░` |
-| **Nino divino** | `0.308` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.375` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.427` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.503` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.344` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.370` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.408` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

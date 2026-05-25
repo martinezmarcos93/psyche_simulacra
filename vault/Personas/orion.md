@@ -19,16 +19,16 @@ estado_conductual: competencia
 arquetipos:
   self: 0.837
   persona: 0.535
-  sombra: 0.440
+  sombra: 0.482
   anima_animus: 0.413
-  heroe: 0.367
-  sabio: 0.338
-  trickster: 0.403
-  madre: 0.334
-  padre: 0.328
-  nino_divino: 0.294
-  gobernante: 0.545
-  rebelde: 0.552
+  heroe: 0.307
+  sabio: 0.279
+  trickster: 0.407
+  madre: 0.396
+  padre: 0.323
+  nino_divino: 0.333
+  gobernante: 0.509
+  rebelde: 0.531
 ---
 # 👤 Persona: Orion
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.837` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Persona** | `0.535` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.440` | `▓▓▓▓▓░░░░░░░` |
+| **Sombra** | `0.482` | `▓▓▓▓▓▓░░░░░░` |
 | **Anima animus** | `0.413` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.367` | `▓▓▓▓░░░░░░░░` |
-| **Sabio** | `0.338` | `▓▓▓▓░░░░░░░░` |
-| **Trickster** | `0.403` | `▓▓▓▓▓░░░░░░░` |
-| **Madre** | `0.334` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.328` | `▓▓▓▓░░░░░░░░` |
-| **Nino divino** | `0.294` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.545` | `▓▓▓▓▓▓▓░░░░░` |
-| **Rebelde** | `0.552` | `▓▓▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.307` | `▓▓▓▓░░░░░░░░` |
+| **Sabio** | `0.279` | `▓▓▓░░░░░░░░░` |
+| **Trickster** | `0.407` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.396` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.323` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.333` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.509` | `▓▓▓▓▓▓░░░░░░` |
+| **Rebelde** | `0.531` | `▓▓▓▓▓▓░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

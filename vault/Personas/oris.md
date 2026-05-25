@@ -17,18 +17,18 @@ needs:
 arquetipo_dominante: sombra
 estado_conductual: aislamiento
 arquetipos:
-  self: 0.545
+  self: 0.559
   persona: 0.306
   sombra: 0.762
   anima_animus: 0.361
-  heroe: 0.261
-  sabio: 0.291
-  trickster: 0.503
-  madre: 0.373
-  padre: 0.183
-  nino_divino: 0.235
-  gobernante: 0.387
-  rebelde: 0.463
+  heroe: 0.250
+  sabio: 0.263
+  trickster: 0.509
+  madre: 0.329
+  padre: 0.220
+  nino_divino: 0.266
+  gobernante: 0.391
+  rebelde: 0.465
 ---
 # 👤 Persona: Oris
 
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.545` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.559` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.306` | `▓▓▓▓░░░░░░░░` |
 | **Sombra** | `0.762` | `▓▓▓▓▓▓▓▓▓░░░` |
 | **Anima animus** | `0.361` | `▓▓▓▓░░░░░░░░` |
-| **Heroe** | `0.261` | `▓▓▓░░░░░░░░░` |
-| **Sabio** | `0.291` | `▓▓▓░░░░░░░░░` |
-| **Trickster** | `0.503` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.373` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.183` | `▓▓░░░░░░░░░░` |
-| **Nino divino** | `0.235` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.387` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.463` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.250` | `▓▓▓░░░░░░░░░` |
+| **Sabio** | `0.263` | `▓▓▓░░░░░░░░░` |
+| **Trickster** | `0.509` | `▓▓▓▓▓▓░░░░░░` |
+| **Madre** | `0.329` | `▓▓▓▓░░░░░░░░` |
+| **Padre** | `0.220` | `▓▓▓░░░░░░░░░` |
+| **Nino divino** | `0.266` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.391` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.465` | `▓▓▓▓▓▓░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

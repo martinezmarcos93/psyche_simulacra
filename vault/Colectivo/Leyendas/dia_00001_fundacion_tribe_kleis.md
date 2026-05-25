@@ -1,11 +1,11 @@
 ---
 tipo: fundacion
 dia: 1
-tribu: tribe_kyron
+tribu: tribe_kleis
 ---
 # 📜 Mito Fundacional — Día 1
 
-> *Tribu del Héroe*
+> *Tribu de la Madre*
 
 ---
 

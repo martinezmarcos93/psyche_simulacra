@@ -19,16 +19,16 @@ estado_conductual: aislamiento
 arquetipos:
   self: 0.707
   persona: 0.337
-  sombra: 0.485
+  sombra: 0.483
   anima_animus: 0.373
-  heroe: 0.515
-  sabio: 0.468
-  trickster: 0.362
+  heroe: 0.519
+  sabio: 0.474
+  trickster: 0.357
   madre: 0.290
   padre: 0.536
-  nino_divino: 0.304
-  gobernante: 0.484
-  rebelde: 0.417
+  nino_divino: 0.287
+  gobernante: 0.453
+  rebelde: 0.400
 ---
 # 👤 Persona: Talos
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.707` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.337` | `▓▓▓▓░░░░░░░░` |
-| **Sombra** | `0.485` | `▓▓▓▓▓▓░░░░░░` |
+| **Sombra** | `0.483` | `▓▓▓▓▓▓░░░░░░` |
 | **Anima animus** | `0.373` | `▓▓▓▓░░░░░░░░` |
-| **Heroe** | `0.515` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.468` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.362` | `▓▓▓▓░░░░░░░░` |
+| **Heroe** | `0.519` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.474` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.357` | `▓▓▓▓░░░░░░░░` |
 | **Madre** | `0.290` | `▓▓▓░░░░░░░░░` |
 | **Padre** | `0.536` | `▓▓▓▓▓▓░░░░░░` |
-| **Nino divino** | `0.304` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.484` | `▓▓▓▓▓▓░░░░░░` |
-| **Rebelde** | `0.417` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.287` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.453` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |

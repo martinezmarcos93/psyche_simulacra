@@ -19,16 +19,16 @@ estado_conductual: cooperacion
 arquetipos:
   self: 0.835
   persona: 0.428
-  sombra: 0.344
+  sombra: 0.394
   anima_animus: 0.362
-  heroe: 0.309
-  sabio: 0.497
-  trickster: 0.476
+  heroe: 0.344
+  sabio: 0.477
+  trickster: 0.465
   madre: 0.337
-  padre: 0.397
-  nino_divino: 0.339
-  gobernante: 0.515
-  rebelde: 0.471
+  padre: 0.374
+  nino_divino: 0.330
+  gobernante: 0.547
+  rebelde: 0.480
 ---
 # 👤 Persona: Calyce
 
@@ -63,16 +63,16 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.835` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Persona** | `0.428` | `▓▓▓▓▓░░░░░░░` |
-| **Sombra** | `0.344` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.394` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.362` | `▓▓▓▓░░░░░░░░` |
-| **Heroe** | `0.309` | `▓▓▓▓░░░░░░░░` |
-| **Sabio** | `0.497` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.476` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.344` | `▓▓▓▓░░░░░░░░` |
+| **Sabio** | `0.477` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.465` | `▓▓▓▓▓▓░░░░░░` |
 | **Madre** | `0.337` | `▓▓▓▓░░░░░░░░` |
-| **Padre** | `0.397` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.339` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.515` | `▓▓▓▓▓▓░░░░░░` |
-| **Rebelde** | `0.471` | `▓▓▓▓▓▓░░░░░░` |
+| **Padre** | `0.374` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.330` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.547` | `▓▓▓▓▓▓▓░░░░░` |
+| **Rebelde** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
