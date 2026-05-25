@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `2796` | **Miembros vivos:** `1`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[okaios]] (Okaios) | explorador | 46 | sombra |
+| [[okaios]] (Okaios) | explorador | 39 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.199` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.382` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.199` | `▓▓░░░░░░░░` |
-| **Trickster** | `0.060` | `▓░░░░░░░░░` |
-| **Sabio** | `0.016` | `░░░░░░░░░░` |
-| **Heroe** | `0.006` | `░░░░░░░░░░` |
-| **Madre** | `0.003` | `░░░░░░░░░░` |
+| **Sombra** | `0.438` | `▓▓▓▓░░░░░░` |
+| **Heroe** | `0.204` | `▓▓░░░░░░░░` |
+| **Madre** | `0.102` | `▓░░░░░░░░░` |
+| **Trickster** | `0.061` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

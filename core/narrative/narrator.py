@@ -97,11 +97,11 @@ class NarratorEngine:
             self._worker.join(timeout=join_timeout)
 
     def drain(self, timeout: float = 30.0) -> None:
-        """Espera a que se procesen todos los eventos pendientes."""
-        try:
-            self._queue.join()
-        except Exception:
-            pass
+        """Espera hasta timeout segundos a que se vacíe la cola."""
+        import time
+        deadline = time.monotonic() + timeout
+        while self._queue.unfinished_tasks > 0 and time.monotonic() < deadline:
+            time.sleep(0.1)
 
     # ── Encolado de eventos (llamado desde el hilo principal) ─────────────────
 

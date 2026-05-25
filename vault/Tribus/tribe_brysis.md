@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Niño Divino
 
-> **Día:** `2796` | **Miembros vivos:** `2`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,25 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[brysis]] (Brysis) | generico | 15 | self |
-| [[zephyra]] (Zephyra) | generico | 15 | sombra |
+| [[brysis]] (Brysis) | generico | 8 | nino_divino |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.767` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
-| **Madre** | `0.888` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.460` | `▓▓▓▓▓░░░░░` |
-| **Sabio** | `0.053` | `▓░░░░░░░░░` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.172` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

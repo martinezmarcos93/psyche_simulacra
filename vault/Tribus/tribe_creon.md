@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `2796` | **Miembros vivos:** `2`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,21 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[creon]] (Creon) | generico | 45 | sombra |
-| [[thalia]] (Thalia) | generico | 48 | self |
+| [[creon]] (Creon) | generico | 38 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.327` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.163` | `▓▓░░░░░░░░` |
-| **Sabio** | `0.057` | `▓░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.075` | `▓░░░░░░░░░` |
+| **Madre** | `0.038` | `░░░░░░░░░░` |
+| **Sabio** | `0.014` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

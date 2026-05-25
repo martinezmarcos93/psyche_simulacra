@@ -174,6 +174,8 @@ class SimulationClock:
                 remaining = self._min_tick_interval - elapsed
                 if remaining > 0:
                     time.sleep(remaining)
+            else:
+                time.sleep(0)  # yield al intérprete para entrega de señales (Ctrl+C en Windows)
 
         # Si salimos por SHUTDOWN, notificar handlers y dejar en STOPPED
         if self._state == ClockState.SHUTDOWN:

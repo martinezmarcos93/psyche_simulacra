@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Héroe
 
-> **Día:** `2796` | **Miembros vivos:** `1`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[ulax]] (Ulax) | generico | 26 | sombra |
+| [[ulax]] (Ulax) | generico | 19 | heroe |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.868` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.191` | `▓▓░░░░░░░░` |
-| **Sabio** | `0.041` | `░░░░░░░░░░` |
+| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

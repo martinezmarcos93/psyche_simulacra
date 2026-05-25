@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu del Self
 
-> **Día:** `2796` | **Miembros vivos:** `1`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[evander]] (Evander) | generico | 38 | anima_animus |
+| [[evander]] (Evander) | generico | 31 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.326` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.299` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.149` | `▓░░░░░░░░░` |
-| **Sabio** | `0.094` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

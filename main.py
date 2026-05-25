@@ -304,10 +304,17 @@ def _print_result(console: Console, runner) -> None:
     if vivos == 0:
         console.print(f"\n[bold red]EXTINCIÓN TOTAL[/bold red] en el Día {dia}.")
     else:
-        console.print(
-            f"\n[green]Checkpoint guardado.[/green]  "
-            f"Día [bold]{dia}[/bold] · Vivos: [bold]{vivos}[/bold]/{total}"
-        )
+        cp_ok = any(CHECKPOINTS_DIR.glob("checkpoint_*.json"))
+        if cp_ok:
+            console.print(
+                f"\n[green]Checkpoint guardado.[/green]  "
+                f"Día [bold]{dia}[/bold] · Vivos: [bold]{vivos}[/bold]/{total}"
+            )
+        else:
+            console.print(
+                f"\n[bold yellow]ADVERTENCIA: no se encontró checkpoint en disco.[/bold yellow]  "
+                f"Día [bold]{dia}[/bold] · Vivos: [bold]{vivos}[/bold]/{total}"
+            )
 
 
 # ── Acciones ──────────────────────────────────────────────────────────────────

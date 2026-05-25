@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu de la Madre
 
-> **Día:** `2796` | **Miembros vivos:** `2`
+> **Día:** `9` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,28 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[eudora]] (Eudora) | recolector | 57 | madre |
-| [[medon]] (Medon) | generico | 56 | sombra |
+| [[eudora]] (Eudora) | recolector | 50 | madre |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.246` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.106` | `▓░░░░░░░░░` |
-| **Sabio** | `0.076` | `▓░░░░░░░░░` |
-| **Madre** | `0.053` | `▓░░░░░░░░░` |
+| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
+| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

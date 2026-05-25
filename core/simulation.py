@@ -306,17 +306,7 @@ class SimulationRunner:
     # ── Cierre limpio ─────────────────────────────────────────────────────────
 
     def _shutdown_gracefully(self) -> None:
-        # Esperar a que el narrador termine los eventos pendientes
-        try:
-            self.narrator.drain(timeout=60)
-            self.narrator.stop()
-        except Exception:
-            pass
-        try:
-            self.metrics_exporter.flush()
-            self.metrics_exporter.export_summary()
-        except Exception:
-            pass
+        # 1. Checkpoint primero — antes de cualquier operación que pueda bloquearse
         try:
             self.buffer.flush()
             self.cp_mgr.save(
@@ -330,6 +320,17 @@ class SimulationRunner:
                 dia_actual = self.clock.to_dict().get("dia_simulado", 0),
                 razon      = "normal",
             )
+        except Exception:
+            pass
+        # 2. Narrador — puede tardar; el checkpoint ya está seguro
+        try:
+            self.narrator.drain(timeout=60)
+            self.narrator.stop()
+        except Exception:
+            pass
+        try:
+            self.metrics_exporter.flush()
+            self.metrics_exporter.export_summary()
         except Exception:
             pass
 
