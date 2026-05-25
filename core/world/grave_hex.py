@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 _SYMBOLIC_CHARGE_PER_DEATH = 0.30   # carga que añade cada muerte al hex
 _DAILY_DECAY               = 0.001  # la carga decae muy lentamente
 _PILGRIMAGE_THRESHOLD      = 0.50   # umbral para activar peregrinaciones
+_SACRED_CEREMONY_THRESHOLD = 5      # ceremonias para volverse lugar sagrado permanente
 
 
 @dataclass
@@ -36,16 +37,28 @@ class GraveRecord:
 @dataclass
 class GraveHex:
     """Hexágono que acumula carga simbólica por muertes ocurridas en él."""
-    coord:           tuple[int, int]
-    carga_simbolica: float             = 0.0
-    muertes:         list[GraveRecord] = field(default_factory=list)
+    coord:            tuple[int, int]
+    carga_simbolica:  float             = 0.0
+    muertes:          list[GraveRecord] = field(default_factory=list)
+    ceremony_count:   int               = 0    # rituales funerarios realizados aquí
+    is_sacred_place:  bool              = False # ≥ 5 ceremonias → lugar sagrado permanente
 
     def absorb_death(self, record: GraveRecord) -> None:
         self.muertes.append(record)
         self.carga_simbolica = min(1.0, self.carga_simbolica + record.intensidad * _SYMBOLIC_CHARGE_PER_DEATH)
 
+    def register_ceremony(self) -> None:
+        """Registra un ritual funerario. Tras 5 → lugar sagrado permanente."""
+        self.ceremony_count += 1
+        # El ritual recarga la carga simbólica del hex
+        self.carga_simbolica = min(1.0, self.carga_simbolica + 0.15)
+        if self.ceremony_count >= _SACRED_CEREMONY_THRESHOLD:
+            self.is_sacred_place = True
+
     def daily_decay(self) -> None:
-        self.carga_simbolica = max(0.0, self.carga_simbolica - _DAILY_DECAY)
+        # Los lugares sagrados decaen a la mitad de velocidad
+        rate = _DAILY_DECAY * 0.5 if self.is_sacred_place else _DAILY_DECAY
+        self.carga_simbolica = max(0.0, self.carga_simbolica - rate)
 
     @property
     def arquetipo_dominante(self) -> str:
@@ -64,13 +77,17 @@ class GraveHex:
             "coord":           list(self.coord),
             "carga_simbolica": self.carga_simbolica,
             "muertes":         [m.to_dict() for m in self.muertes],
+            "ceremony_count":  self.ceremony_count,
+            "is_sacred_place": self.is_sacred_place,
         }
 
     @classmethod
     def from_dict(cls, d: dict) -> GraveHex:
         g = cls(
-            coord           = tuple(d["coord"]),
-            carga_simbolica = float(d.get("carga_simbolica", 0.0)),
+            coord            = tuple(d["coord"]),
+            carga_simbolica  = float(d.get("carga_simbolica", 0.0)),
+            ceremony_count   = int(d.get("ceremony_count", 0)),
+            is_sacred_place  = bool(d.get("is_sacred_place", False)),
         )
         g.muertes = [GraveRecord.from_dict(m) for m in d.get("muertes", [])]
         return g

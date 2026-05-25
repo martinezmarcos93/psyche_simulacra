@@ -35,6 +35,91 @@ import random
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
+
+# ── Hito E: Deidades procedurales ─────────────────────────────────────────────
+
+# Epítetos por arquetipo: hash(tribe_id) % len → nombre único por tribu
+_DEITY_EPITHETS: dict[str, list[str]] = {
+    "heroe":       ["El Gran Guerrero", "Ares Primordial", "El Glorioso Eterno"],
+    "sombra":      ["La Oscuridad Eterna", "Nyxos el Oculto", "El Devorador de Luz"],
+    "madre":       ["La Gran Madre", "Gaia Primordial", "La Nutricia Eterna"],
+    "padre":       ["El Padre del Cielo", "El Patriarca Eterno", "El Fundador Divino"],
+    "sabio":       ["El Omnisciente", "Logos Eterno", "El que Todo Conoce"],
+    "gobernante":  ["El Señor Supremo", "El Ordenador del Cosmos", "El Rey Eterno"],
+    "trickster":   ["El Embaucador Eterno", "Hermes el Oscuro", "El Caos Primordial"],
+    "rebelde":     ["El Indomable", "Prometeo el Libre", "El que Rompe Cadenas"],
+    "muerte":      ["Thanatos Eterno", "El Fin de Todo", "El Umbral Primordial"],
+    "nino_divino": ["El Renacido Eterno", "El Elegido Celestial", "El Niño Sagrado"],
+    "anima_animus":["El Ser del Alma", "El Misterio Interior", "La Dualidad Eterna"],
+    "persona":     ["El Maestro de Rostros", "El Guardián de Formas", "El Cambiante"],
+    "self_":       ["El Ser Completo", "El Integrado Eterno", "El Uno"],
+}
+
+_ARCH_TO_SPHERE: dict[str, str] = {
+    "heroe":       "valor_y_sacrificio",
+    "sombra":      "muerte_y_oscuridad",
+    "madre":       "fertilidad_y_cuidado",
+    "padre":       "orden_y_legado",
+    "sabio":       "conocimiento_y_tiempo",
+    "gobernante":  "poder_y_justicia",
+    "trickster":   "cambio_y_engaño",
+    "rebelde":     "libertad_y_caos",
+    "muerte":      "transición_y_umbral",
+    "nino_divino": "renacimiento_y_esperanza",
+    "anima_animus":"amor_y_dualidad",
+    "persona":     "comunidad_e_identidad",
+    "self_":       "totalidad_e_integración",
+}
+
+
+def _deity_name(arquetipo: str, tribe_id: str) -> str:
+    epithets = _DEITY_EPITHETS.get(arquetipo, [f"El Gran {arquetipo.capitalize()}"])
+    idx = abs(hash(tribe_id)) % len(epithets)
+    return epithets[idx]
+
+
+@dataclass
+class DeityRecord:
+    """
+    Entidad emergente del inconsciente colectivo.
+    Cristaliza cuando un arquetipo domina el ICL ≥ 30 días consecutivos,
+    o cuando el mismo par mítico cristaliza por 3ª vez.
+    Persiste en CulturalMemory independientemente del decaimiento del campo.
+    """
+    nombre:                str
+    arquetipo_fundacional: str
+    esfera_de_influencia:  str
+    intensidad:            float
+    dia_cristalizacion:    int
+    tribu_origen:          str
+    causa:                 str       # "icl_streak" | "myth_repeat"
+    is_active:             bool = True
+
+    def to_dict(self) -> dict:
+        return {
+            "nombre":                self.nombre,
+            "arquetipo_fundacional": self.arquetipo_fundacional,
+            "esfera_de_influencia":  self.esfera_de_influencia,
+            "intensidad":            self.intensidad,
+            "dia_cristalizacion":    self.dia_cristalizacion,
+            "tribu_origen":          self.tribu_origen,
+            "causa":                 self.causa,
+            "is_active":             self.is_active,
+        }
+
+    @classmethod
+    def from_dict(cls, d: dict) -> DeityRecord:
+        return cls(
+            nombre                = d["nombre"],
+            arquetipo_fundacional = d["arquetipo_fundacional"],
+            esfera_de_influencia  = d["esfera_de_influencia"],
+            intensidad            = float(d.get("intensidad", 1.0)),
+            dia_cristalizacion    = int(d["dia_cristalizacion"]),
+            tribu_origen          = d["tribu_origen"],
+            causa                 = d.get("causa", "icl_streak"),
+            is_active             = bool(d.get("is_active", True)),
+        )
+
 if TYPE_CHECKING:
     from core.agents import Agent
     from core.social.collective_field import CollectiveField
@@ -179,8 +264,10 @@ class MythologyEngine:
     """
 
     def __init__(self) -> None:
-        self.active_myths: list[MythCrystal] = []
-        self.proto_myths:  list[ProtoMito]   = []
+        self.active_myths: list[MythCrystal]       = []
+        self.proto_myths:  list[ProtoMito]          = []
+        self.deities:      list[DeityRecord]        = []   # Hito E
+        self._pair_counts: dict[str, int]           = {}   # "arch1|arch2" → n cristalizaciones
         self._rng = random.Random()
 
     # ── Ciclo principal ────────────────────────────────────────────────────────
@@ -300,7 +387,7 @@ class MythologyEngine:
         antag_id = antagonistas[0].id  if antagonistas  else None
 
         name = f"{proto.tipo}_dia{dia}"
-        return MythCrystal(
+        crystal = MythCrystal(
             name=name,
             tipo=proto.tipo,
             par=proto.par,
@@ -310,6 +397,10 @@ class MythologyEngine:
             antagonista_id=antag_id,
             intensidad=min(1.0, proto.intensidad_contexto + 0.2),
         )
+        # Hito E: registrar pares para detección de deidad por repetición
+        pair_key = "|".join(sorted(proto.par))
+        self._pair_counts[pair_key] = self._pair_counts.get(pair_key, 0) + 1
+        return crystal
 
     # ── Efectos y persistencia ─────────────────────────────────────────────────
 
@@ -398,6 +489,11 @@ class MythologyEngine:
 
     # ── Consultas ──────────────────────────────────────────────────────────────
 
+    def pair_crystallization_count(self, arch1: str, arch2: str) -> int:
+        """Retorna cuántas veces ha cristalizado el par de arquetipos dado."""
+        key = "|".join(sorted([arch1, arch2]))
+        return self._pair_counts.get(key, 0)
+
     def is_myth_active(self, myth_name: str) -> bool:
         return any(m.name == myth_name and m.active for m in self.active_myths)
 
@@ -443,6 +539,8 @@ class MythologyEngine:
                 }
                 for p in self.proto_myths
             ],
+            "deities":      [d.to_dict() for d in self.deities],
+            "pair_counts":  dict(self._pair_counts),
         }
 
     @classmethod
@@ -473,6 +571,13 @@ class MythologyEngine:
                 intensidad_contexto=p.get("intensidad_contexto", 0.0),
             )
             engine.proto_myths.append(proto)
+
+        for d in data.get("deities", []):
+            engine.deities.append(DeityRecord.from_dict(d))
+
+        engine._pair_counts = {
+            k: int(v) for k, v in data.get("pair_counts", {}).items()
+        }
 
         return engine
 

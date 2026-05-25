@@ -14,6 +14,9 @@ from .psyche.archetypes import ArchetypeVector
 from .psyche.complexes import ComplexProfile
 from .psyche.traits import TraitProfile
 from .psyche.dreams import DreamGrammarEngine, Dream, extract_traumas_from_log
+from .psyche.episodic_memory import EpisodicMemory, MemoryRecord
+from .psyche.dissociation import DissociativeState, select_tipo
+from .psyche.grief import GriefState, duracion_por_bond
 from .quantum.superposition import BehavioralState
 from .quantum.collapse import collapse_state
 
@@ -99,8 +102,20 @@ class Agent:
 
         self._rng = random.Random(seed)
 
-        # Episodic Memory Log (Fase 8)
+        # Episodic Memory Log — texto plano para DreamEngine (Fase 8)
         self.episodic_log: list[str] = []
+        # Memoria episódica estructurada con re-vivencias (Hito A — Roadmap 4)
+        self.episodic_memory = EpisodicMemory()
+
+        # Disociación por sombra (Hito B — Roadmap 4)
+        self._dias_ansiedad_alta: int = 0
+        self.dissociation_state: DissociativeState | None = None
+
+        # Duelo diferenciado (Hito J — Roadmap 4)
+        self.active_griefs: list[GriefState] = []
+
+        # Rencores arquetípicos (Hito I — Roadmap 4): otro_id → nivel (0.0–1.0)
+        self.resentments: dict[str, float] = {}
 
         # Zona Liminal — True cuando el agente está en tránsito intersimulación
         self.in_liminal: bool = False
@@ -310,6 +325,17 @@ class Agent:
         if not self.is_alive:
             return None
 
+        # Disociación por sombra — override de toda la lógica normal (Hito B)
+        if self.dissociation_state is not None:
+            tipo = self.dissociation_state.tipo
+            if tipo in ("estupor_catatonico", "melancolia_disociativa"):
+                # Inacción total: acepta pasivamente el deterioro
+                return None
+            if tipo == "fuga_disociativa":
+                return self._fuga_disociativa_action(tp, snapshot)
+            # amok: la lógica normal se ejecuta pero los ataques son procesados
+            # externamente por AgentCore._process_dissociation()
+
         actividad = self.schedule.get_activity(tp.hora_del_dia)
 
         # Necesidades críticas siempre sobreescriben
@@ -349,6 +375,26 @@ class Agent:
                     return action
             return self._choose_explore_or_gather(tp, snapshot)
         return None
+
+    def _fuga_disociativa_action(self, tp: TimePoint, snapshot: WorldSnapshot) -> WorldAction:
+        """
+        Acción errática de la fuga disociativa.
+        Ignora arquetipo, necesidades y lógica normal — movimiento aleatorio puro.
+        """
+        q, r = self.posicion
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, -1), (-1, 1)]
+        valid = [(q + dq, r + dr) for dq, dr in directions
+                 if 0 <= q + dq < 80 and 0 <= r + dr < 60]
+        target = self._rng.choice(valid) if valid else (q, r)
+        self.posicion = target
+        return WorldAction(
+            agent_id = self.id,
+            tick     = tp.tick,
+            type     = ActionType.MOVERSE,
+            coord    = target,
+            params   = {"fuga": True},
+            priority = 0.2,
+        )
 
     def _decide_via_collapse(
         self,
@@ -771,7 +817,12 @@ class Agent:
             "active_substances": dict(self._active_substances),
             "addiction":         dict(self._addiction),
             "perception":        self._perception.to_dict(),
-            "episodic_log":      list(self.episodic_log),
+            "episodic_log":         list(self.episodic_log),
+            "episodic_memory":      self.episodic_memory.to_dict(),
+            "dias_ansiedad_alta":   self._dias_ansiedad_alta,
+            "dissociation_state":   self.dissociation_state.to_dict() if self.dissociation_state else None,
+            "active_griefs":        [g.to_dict() for g in self.active_griefs],
+            "resentments":          dict(self.resentments),
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
             "complexes":        self.complexes.to_dict(),
@@ -832,6 +883,14 @@ class Agent:
         if "base_state" in data and data["base_state"]:
             a._base_state = BehavioralState.from_dict(data["base_state"])
 
-        a.episodic_log = data.get("episodic_log", [])
+        a.episodic_log          = data.get("episodic_log", [])
+        if "episodic_memory" in data:
+            a.episodic_memory   = EpisodicMemory.from_dict(data["episodic_memory"])
+        a._dias_ansiedad_alta   = data.get("dias_ansiedad_alta", 0)
+        raw_ds = data.get("dissociation_state")
+        if raw_ds:
+            a.dissociation_state = DissociativeState.from_dict(raw_ds)
+        a.active_griefs = [GriefState.from_dict(g) for g in data.get("active_griefs", [])]
+        a.resentments   = {k: float(v) for k, v in data.get("resentments", {}).items()}
 
         return a
