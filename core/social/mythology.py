@@ -50,17 +50,32 @@ _COHERENCE_PER_TRANSMISSION: float = 1.0
 
 # Mapa: par de símbolos dominantes → tipo de mito probable
 _PAIR_TO_MYTH_TYPE: dict[frozenset, str] = {
+    # Cosmogonía — origen del mundo desde la muerte y el caos
     frozenset({"muerte", "sombra"}):      "cosmogonia",
     frozenset({"muerte", "madre"}):       "cosmogonia",
+    frozenset({"muerte", "heroe"}):       "cosmogonia",   # héroe sacrificado → origen
+    frozenset({"muerte", "padre"}):       "cosmogonia",   # legado del anciano
+    # Teogonía — emergencia de lo sagrado y el orden
     frozenset({"gobernante", "padre"}):   "teogonia",
-    frozenset({"gobernante", "rebelde"}): "mito_moral",   # Tiranía y Liberación
-    frozenset({"madre", "nino_divino"}):  "antropogonia", # Origen y Renacimiento
+    frozenset({"gobernante", "sabio"}):   "teogonia",     # sabiduría del poder
+    frozenset({"sabio", "nino_divino"}):  "teogonia",
+    frozenset({"padre", "nino_divino"}):  "teogonia",     # linaje divino
+    # Antropogonía — origen del ser humano y el renacimiento
+    frozenset({"madre", "nino_divino"}):  "antropogonia",
+    frozenset({"madre", "heroe"}):        "antropogonia", # madre del héroe
+    frozenset({"heroe", "nino_divino"}):  "antropogonia", # el niño elegido
+    # Escatología — fin de los tiempos y sabiduría última
     frozenset({"muerte", "sabio"}):       "escatologia",
+    frozenset({"muerte", "gobernante"}):  "escatologia",  # el rey que cae
+    frozenset({"sombra", "sabio"}):       "escatologia",  # el conocimiento oscuro
+    # Mito moral — conflicto entre fuerzas opuestas
+    frozenset({"gobernante", "rebelde"}): "mito_moral",
     frozenset({"heroe", "sombra"}):       "mito_moral",
     frozenset({"heroe", "rebelde"}):      "mito_moral",
     frozenset({"trickster", "sombra"}):   "mito_moral",
-    frozenset({"sabio", "nino_divino"}):  "teogonia",
-    frozenset({"sabio", "trickster"}):    "mito_moral",   # Verdad y Caos
+    frozenset({"sabio", "trickster"}):    "mito_moral",
+    frozenset({"padre", "rebelde"}):      "mito_moral",   # rebelión contra el orden
+    frozenset({"gobernante", "sombra"}):  "mito_moral",   # tiranía
 }
 
 # Efectos psicológicos por tipo de mito

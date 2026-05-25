@@ -115,10 +115,25 @@ class CollectiveField:
             self.symbols["muerte"] = min(1.0, self.symbols["muerte"] + 0.40 * intensity)
             self.symbols["sombra"] = min(1.0, self.symbols["sombra"] + 0.20 * intensity)
             self.emotional_pressure = min(1.0, self.emotional_pressure + 0.30 * intensity)
+        elif event_type == "muerte_anciano":
+            # Muerte de un agente mayor: activa el arquetipo del padre/legado
+            self.symbols["muerte"] = min(1.0, self.symbols["muerte"] + 0.25 * intensity)
+            self.symbols["padre"]  = min(1.0, self.symbols["padre"]  + 0.30 * intensity)
+            self.symbols["sabio"]  = min(1.0, self.symbols["sabio"]  + 0.15 * intensity)
+            self.emotional_pressure = min(1.0, self.emotional_pressure + 0.20 * intensity)
         elif event_type == "nacimiento":
-            self.symbols["madre"]  = min(1.0, self.symbols["madre"]  + 0.25 * intensity)
-            self.symbols["heroe"]  = min(1.0, self.symbols["heroe"]  + 0.10 * intensity)
+            self.symbols["madre"]       = min(1.0, self.symbols["madre"]       + 0.25 * intensity)
+            self.symbols["nino_divino"] = min(1.0, self.symbols["nino_divino"] + 0.12 * intensity)
+            self.symbols["heroe"]       = min(1.0, self.symbols["heroe"]       + 0.06 * intensity)
             self.emotional_pressure = max(0.0, self.emotional_pressure - 0.10 * intensity)
+        elif event_type == "transmision_conocimiento":
+            # Un agente enseña a otro: activa el arquetipo del sabio y el gobernante
+            self.symbols["sabio"]      = min(1.0, self.symbols["sabio"]      + 0.18 * intensity)
+            self.symbols["gobernante"] = min(1.0, self.symbols["gobernante"] + 0.10 * intensity)
+        elif event_type == "lider_establecido":
+            # Una tribu consolida un líder dominante
+            self.symbols["gobernante"] = min(1.0, self.symbols["gobernante"] + 0.25 * intensity)
+            self.symbols["padre"]      = min(1.0, self.symbols["padre"]      + 0.15 * intensity)
         elif event_type == "vision_liminal":
             # Un agente regresó con recuerdos de otro mundo — genera presión mítica y simbolismo de misterio
             self.symbols["sabio"]     = min(1.0, self.symbols.get("sabio",     0.0) + 0.15 * intensity)

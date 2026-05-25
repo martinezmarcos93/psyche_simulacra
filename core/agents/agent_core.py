@@ -359,7 +359,11 @@ class AgentCore:
         # La muerte sacude el campo tribal local
         local_field = self.tribe_manager.get_local_field(agent.id)
         if local_field is not None:
-            local_field.absorb_event("muerte", intensity=0.8)
+            if agent.edad >= 50:
+                # Muerte de un anciano: carga padre/sabio además del duelo normal
+                local_field.absorb_event("muerte_anciano", intensity=0.8)
+            else:
+                local_field.absorb_event("muerte", intensity=0.8)
 
         # Registrar la muerte en la memoria cultural de la tribu
         tribe_id = self.tribe_manager.get_tribe_id(agent.id)
@@ -1627,8 +1631,11 @@ class AgentCore:
                         if self.knowledge.has(student_id, kname):
                             continue
                         if self.knowledge.teach(teacher_id, student_id, kname, self._rng):
-                            # Registrar transmisión exitosa
+                            # Transmisión exitosa: carga sabio/gobernante en el campo local
                             tribe_id = self.tribe_manager.get_tribe_id(student_id)
+                            lf = (self.tribe_manager.local_fields.get(tribe_id)
+                                  if tribe_id else None) or self.collective_field
+                            lf.absorb_event("transmision_conocimiento", intensity=0.5)
                             if tribe_id:
                                 cmem = self.tribe_manager.cultural_memories.get(tribe_id)
                                 if cmem is not None:
