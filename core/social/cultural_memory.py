@@ -222,7 +222,8 @@ class CulturalMemory:
         # Si se supera el límite, descartar los de menor intensidad emocional
         if len(self.records) > _MAX_RECORDS:
             self.records.sort(key=lambda r: r.intensidad_emocional)
-            self.records = self.records[5:]
+            excess = len(self.records) - _MAX_RECORDS
+            self.records = self.records[excess:]
 
     # ── Transmisión diaria ────────────────────────────────────────────────────
 

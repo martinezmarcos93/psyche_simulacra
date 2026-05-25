@@ -237,8 +237,8 @@ class AgentCore:
             if (pa is None or not pa.is_alive) and (pb is None or not pb.is_alive):
                 self._register_death(agent, tp, "orfandad")
 
-        # 4. Envejecimiento anual (un año simulado = 365 días)
-        if tp.dia_simulado > 0 and tp.dia_simulado % 365 == 0:
+        # 4. Envejecimiento anual (un año simulado = 360 días)
+        if tp.dia_simulado > 0 and tp.dia_simulado % 360 == 0:
             for agent in self.agents.values():
                 if agent.is_alive:
                     agent.edad += 1
@@ -414,7 +414,7 @@ class AgentCore:
             )
 
     def _check_reproduccion(self, tp: TimePoint) -> None:
-        if len(self.agents) >= _LIMITE_POBLACION:
+        if self.alive_count >= _LIMITE_POBLACION:
             return
         alive = [a for a in self.agents.values() if a.is_alive]
         reproduced: set[str] = set()
@@ -1318,11 +1318,17 @@ class AgentCore:
     # ── Hito 9: Psicología Oscura ──────────────────────────────────────────────
 
     def _register_tribal_attack(self, tribe_id: str, dia: int) -> None:
-        self._tribal_attacks.setdefault(tribe_id, []).append(dia)
+        lst = self._tribal_attacks.setdefault(tribe_id, [])
+        lst.append(dia)
 
     def _paranoia_score(self, tribe_id: str, dia: int, window: int = 30) -> float:
-        attacks = [d for d in self._tribal_attacks.get(tribe_id, []) if dia - d <= window]
-        return min(1.0, len(attacks) / 4.0)  # 4 ataques = paranoia máxima
+        lst = self._tribal_attacks.get(tribe_id)
+        if not lst:
+            return 0.0
+        cutoff = dia - window
+        # Poda in-place: elimina entradas fuera de la ventana para evitar memoria leak
+        self._tribal_attacks[tribe_id] = lst = [d for d in lst if d > cutoff]
+        return min(1.0, len(lst) / 4.0)  # 4 ataques = paranoia máxima
 
     def _process_projection(self, dia: int) -> None:
         """

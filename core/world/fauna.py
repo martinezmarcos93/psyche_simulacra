@@ -35,7 +35,7 @@ class FaunaSystem:
 
     def __init__(self, terrain: TerrainGrid, seed: int = 42) -> None:
         self.terrain = terrain
-        random.seed(seed + 100)
+        self._rng    = random.Random(seed + 100)
         self._density: dict[tuple[int, int], dict[str, float]] = {}
         # Cache de datos de bioma por coord — evita doble lookup en el loop
         self._biome_cache: dict[tuple[int, int], dict] = {}
@@ -63,7 +63,7 @@ class FaunaSystem:
         season_mod  = _FAUNA_SEASON_MOD.get(estacion, 1.0)
         weather_mod = _FAUNA_WEATHER_MOD.get(climate.evento_activo, 1.00)
         regen       = _FAUNA_REGEN_BASE * season_mod
-        gauss       = random.gauss
+        gauss       = self._rng.gauss
 
         for coord in explored_coords:
             bdata = self._biome_cache.get(coord)
@@ -100,7 +100,7 @@ class FaunaSystem:
             )
 
         success_prob = min(0.90, available * 0.80)
-        success = random.random() < success_prob
+        success = self._rng.random() < success_prob
 
         if success:
             taken = min(amount, available * 0.30)

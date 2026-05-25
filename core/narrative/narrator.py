@@ -67,7 +67,7 @@ class NarratorEngine:
         self.client        = OllamaClient()
         self.leyendas_path = Path(vault_path) / "Colectivo" / "Leyendas"
 
-        self._queue:         queue.Queue[NarrativeEvent] = queue.Queue()
+        self._queue:         queue.Queue[NarrativeEvent] = queue.Queue(maxsize=50)
         self._known_tribes:  set[str]                    = set()
         self._known_myths:   set[str]                    = set()  # tribe_id+day
         self._worker:        threading.Thread | None     = None
@@ -105,24 +105,31 @@ class NarratorEngine:
 
     # ── Encolado de eventos (llamado desde el hilo principal) ─────────────────
 
+    def _enqueue(self, event: NarrativeEvent) -> bool:
+        """Intenta encolar; descarta silenciosamente si la cola está llena."""
+        try:
+            self._queue.put_nowait(event)
+            return True
+        except queue.Full:
+            return False
+
     def on_new_tribe(self, tribe_id: str, dia: int, data: dict) -> None:
         if not self.enabled or tribe_id in self._known_tribes:
             return
         self._known_tribes.add(tribe_id)
-        # Solo si no hay ya un mito fundacional para esta tribu en disco
         if not self._legend_exists("fundacion", tribe_id=tribe_id):
-            self._queue.put(NarrativeEvent("fundacion", dia, tribe_id, data))
+            self._enqueue(NarrativeEvent("fundacion", dia, tribe_id, data))
 
     def on_cronica_day(self, tribe_id: str, dia: int, data: dict) -> None:
         if not self.enabled:
             return
-        self._queue.put(NarrativeEvent("cronica", dia, tribe_id, data))
+        self._enqueue(NarrativeEvent("cronica", dia, tribe_id, data))
 
     def on_death(self, agent_id: str, dia: int, data: dict) -> None:
         if not self.enabled:
             return
         if not self._legend_exists("elegia", agent_id=agent_id):
-            self._queue.put(NarrativeEvent("elegia", dia, None, {**data, "agent_id": agent_id}))
+            self._enqueue(NarrativeEvent("elegia", dia, None, {**data, "agent_id": agent_id}))
 
     def on_myth_crystallized(self, tribe_id: str, dia: int, data: dict) -> None:
         if not self.enabled:
@@ -130,7 +137,7 @@ class NarratorEngine:
         key = f"{tribe_id}_{dia}"
         if key not in self._known_myths and not self._legend_exists("profecia", tribe_id=tribe_id, dia=dia):
             self._known_myths.add(key)
-            self._queue.put(NarrativeEvent("profecia", dia, tribe_id, data))
+            self._enqueue(NarrativeEvent("profecia", dia, tribe_id, data))
 
     # ── Worker loop (hilo de fondo) ───────────────────────────────────────────
 

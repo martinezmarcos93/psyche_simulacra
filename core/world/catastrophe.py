@@ -343,6 +343,16 @@ class CatastropheEngine:
             q, r = (int(x) for x in key.split(","))
             ce._terrain_marks[(q, r)] = mark_data
         ce._plague_hexes = {(int(c[0]), int(c[1])) for c in data.get("plague_hexes", [])}
+        for h in data.get("history", []):
+            ce.history.append(CatastropheEvent(
+                tipo               = h["tipo"],
+                dia_inicio         = h["dia_inicio"],
+                duracion_dias      = h["duracion_dias"],
+                severidad          = h["severidad"],
+                area_hexes         = None,
+                dias_transcurridos = h.get("dias_transcurridos", 0),
+                activa             = False,
+            ))
         if "active" in data:
             a = data["active"]
             area_raw = a.get("area_hexes")

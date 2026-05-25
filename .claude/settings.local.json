@@ -58,7 +58,8 @@
       "Bash(findstr /C:\"passed\" /C:\"failed\" /C:\"error\")",
       "PowerShell(\\(Get-Content \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\tests\\\\test_social.py\" | Measure-Object -Line\\).Lines)",
       "PowerShell(Move-Item *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(xargs grep -l \"class MythCrystal\")"
     ]
   }
 }

@@ -233,14 +233,14 @@ class SimulationRunner:
         ]
         for tribe_id, myth_engine in all_myth_engines:
             for myth in myth_engine.active_myths:
-                if not myth.get("active"):
+                if not myth.active:
                     continue
-                key = f"{tribe_id or 'global'}_{myth.get('day_crystallized', 0)}"
+                key = f"{tribe_id or 'global'}_{myth.day_crystallized}"
                 if key in self._prev_myth_keys:
                     continue
                 self._prev_myth_keys.add(key)
-                hero_id    = myth.get("hero_id")
-                monster_id = myth.get("monster_id")
+                hero_id    = myth.protagonista_id
+                monster_id = myth.antagonista_id
                 hero_name  = agents[hero_id].nombre if hero_id and hero_id in agents else "el Elegido"
                 mon_name   = agents[monster_id].nombre if monster_id and monster_id in agents else "la Sombra"
                 t_id       = tribe_id or (tm.get_tribe_id(hero_id) if hero_id else None)

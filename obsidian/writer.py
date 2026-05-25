@@ -384,9 +384,9 @@ class ObsidianWriter:
             ])
             if local_myths and local_myths.active_myths:
                 for myth in local_myths.active_myths:
-                    status = "🟢 Activo" if myth.get("active") else "🔴 Disuelto"
-                    name   = myth.get("name", "desconocido").replace("_", " ").capitalize()
-                    day_c  = myth.get("day_crystallized", 0)
+                    status = "🟢 Activo" if myth.active else "🔴 Disuelto"
+                    name   = myth.name.replace("_", " ").capitalize()
+                    day_c  = myth.day_crystallized
                     body.append(f"- **{name}** — {status} (Día {day_c})")
             else:
                 body.append("> *Ningún mito cristalizado aún en esta tribu.*")
