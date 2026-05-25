@@ -5,34 +5,34 @@ rol: explorador
 edad: 26
 sexo: F
 is_alive: True
-posicion: [48, 21]
-humor: 0.873
-energia: 0.641
-ansiedad: 0.271
+posicion: [55, 31]
+humor: 0.923
+energia: 0.665
+ansiedad: 0.201
 needs:
-  hambre: 0.044
+  hambre: 0.104
   fatiga: 0.335
-  sed: 0.225
+  sed: 0.045
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
   self: 0.973
   persona: 0.575
-  sombra: 0.453
-  anima_animus: 0.704
-  heroe: 0.512
-  sabio: 0.606
-  trickster: 0.789
-  madre: 0.464
-  padre: 0.401
+  sombra: 0.501
+  anima_animus: 0.715
+  heroe: 0.517
+  sabio: 0.703
+  trickster: 0.788
+  madre: 0.606
+  padre: 0.400
   nino_divino: 0.301
   gobernante: 0.401
   rebelde: 0.300
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(48, 21)`
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(55, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.87 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.27 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.92 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.20 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓░░░░░░░░]` | 0.23 | 🟢 Hidratado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -63,13 +63,13 @@ arquetipos:
 | :--- | :---: | :--- |
 | **Self** | `0.973` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.575` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.453` | `▓▓▓▓▓░░░░░░░` |
-| **Anima animus** | `0.704` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.512` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.606` | `▓▓▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.789` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.464` | `▓▓▓▓▓▓░░░░░░` |
-| **Padre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Sombra** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
+| **Anima animus** | `0.715` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.517` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.703` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.788` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.606` | `▓▓▓▓▓▓▓░░░░░` |
+| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.301` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
@@ -93,8 +93,7 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `-0.12` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[doron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[filia]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[iris]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[kore]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -104,20 +103,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self descansa en desierto borde mientras lo reprimido aguarda en el umbral.
-- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- **Día 26:** Soñó con `'horizonte_inmóvil'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
+- **Día 24:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 25:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* El self y lo reprimido se toleran esta noche en pradera humeda.
+- **Día 26:** Soñó con `'naufragio_lento'` (arquetipo `self`).
+  - *Insight:* En costa abierta, lo reprimido pierde fuerza un instante — el self respira.
 - **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
-- **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 28:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self y lo reprimido se toleran esta noche en bosque templado.
 - **Día 29:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- **Día 30:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
+  - *Insight:* En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- **Día 30:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 
 ---
 
@@ -161,31 +160,27 @@ arquetipos:
 - Día 13: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en rio lago.
 - Día 14: Soñó con 'unión_imposible' (self). Insight: En cueva, el self negocia con lo reprimido en el único idioma posible: el silencio.
 - Día 15: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de sabana abierta, el self y lo reprimido coexisten sin resolverse.
+- Día 17: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 18: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- Día 20: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, lo reprimido pierde fuerza un instante — el self respira.
+- Día 22: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 23: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 - Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 16: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de desierto borde, el self y lo reprimido coexisten sin resolverse.
-- Día 17: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
-- Día 18: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 18: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de lago interior, el self y lo reprimido coexisten sin resolverse.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Doron, cediendo recursos biológicos.
-- Día 20: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en sabana abierta, lejos de lo reprimido.
-- Día 21: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 22: Soñó con 'unión_imposible' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
-- Día 23: Soñó con 'unión_imposible' (self). Insight: El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
-- Día 24: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en desierto borde mientras lo reprimido aguarda en el umbral.
-- Día 25: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 26: Soñó con 'horizonte_inmóvil' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
-- Día 27: Soñó con 'mandala_incompleto' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
-- Día 28: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
-- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 30: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
+- Día 24: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 25: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en pradera humeda.
+- Día 26: Soñó con 'naufragio_lento' (self). Insight: En costa abierta, lo reprimido pierde fuerza un instante — el self respira.
+- Día 26: Manipuló con éxito y astucia a Filia para ceder recursos.
+- Día 26: Manipuló con éxito y astucia a Filia para ceder recursos.
+- Día 26: Manipuló con éxito y astucia a Filia para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 26: Manipuló con éxito y astucia a Filia para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 27: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 28: Soñó con 'centro_sin_lugar' (self). Insight: El self y lo reprimido se toleran esta noche en bosque templado.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.

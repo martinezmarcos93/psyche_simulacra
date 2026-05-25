@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import atexit
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 from core.time import SimulationClock, TimePoint
 from core.world import WorldCore
@@ -10,6 +11,9 @@ from core.narrative.narrator import NarratorEngine
 from core.metrics import EmergenceMetrics, MetricsExporter
 from persistence import DatabaseManager, WriteBuffer, CheckpointManager, SessionLog
 from obsidian.sync import ObsidianSync
+
+if TYPE_CHECKING:
+    from core.runtime.event_bus import EventBus
 
 _DEFAULT_DB          = "data/db/simulation.db"
 _DEFAULT_CHECKPOINTS = "data/checkpoints"
@@ -51,6 +55,11 @@ class SimulationRunner:
         self._last_cronica_dia:  dict[str, int] = {}
         self._prev_myth_keys:    set[str]       = set()
 
+        # Evolution Fase 2: EventBus opcional (conectado por PsycheRuntime)
+        self._event_bus: EventBus | None = None
+        # Prehistoria silenciosa: suprime BD, narrativa y Obsidian
+        self._in_prehistory: bool = False
+
         # NO se llama _wire_handlers() aquí — se llama desde los constructores de clase
 
     # ── Wiring ───────────────────────────────────────────────────────────────
@@ -71,9 +80,38 @@ class SimulationRunner:
 
         atexit.register(self._emergency_save)
 
+    # ── Evolution: EventBus y prehistoria ────────────────────────────────────
+
+    def attach_bus(self, bus: "EventBus") -> None:
+        """Conecta el EventBus del PsycheRuntime (Fase 2). Opcional — headless funciona sin él."""
+        self._event_bus = bus
+
+    def run_prehistory(self, n_days: int = 30) -> None:
+        """
+        Ejecuta N días silenciosos antes del día 0 oficial.
+        No escribe en BD, no genera narrativa, no sincroniza vault.
+        El estado resultante (bonds, mitos, tribus) es el punto de partida real.
+        """
+        narrator_orig = self.narrator.enabled
+        self.narrator.enabled = False
+        self._in_prehistory   = True
+        try:
+            self.run(n_days=n_days)
+        finally:
+            self.narrator.enabled = narrator_orig
+            self._in_prehistory   = False
+            self.clock._tick = 0
+            self._prev_tribe_ids.clear()
+            self._last_cronica_dia.clear()
+            self._prev_myth_keys.clear()
+            self._death_cursor = 0
+            self._last_cp_dia  = -1
+
     # ── Persistencia per-tick y per-día ──────────────────────────────────────
 
     def _persist_tick(self, tp: TimePoint) -> None:
+        if self._in_prehistory:
+            return
         snap = self.world.current_snapshot
         if snap is None:
             return
@@ -90,6 +128,8 @@ class SimulationRunner:
         })
 
     def _persist_day(self, tp: TimePoint) -> None:
+        if self._in_prehistory:
+            return
         dia = tp.dia_simulado
 
         # Muertes nuevas — inmediatas a la BD
@@ -125,16 +165,17 @@ class SimulationRunner:
             self.metrics_exporter.flush()
 
         # Sincronizar con el vault de Obsidian (Fase 8)
-        self.obsidian_sync.sync_day(
-            dia=dia,
-            agents=self.agents.agents,
-            social_network=self.agents.social_network,
-            collective_field=self.agents.collective_field,
-            mythology_engine=self.agents.mythology_engine,
-            death_log=self.agents.death_log,
-            tribe_manager=self.agents.tribe_manager,
-            culture_engine=self.agents.culture_engine,
-        )
+        if not self._in_prehistory:
+            self.obsidian_sync.sync_day(
+                dia=dia,
+                agents=self.agents.agents,
+                social_network=self.agents.social_network,
+                collective_field=self.agents.collective_field,
+                mythology_engine=self.agents.mythology_engine,
+                death_log=self.agents.death_log,
+                tribe_manager=self.agents.tribe_manager,
+                culture_engine=self.agents.culture_engine,
+            )
 
         # Checkpoint automático cada N días
         if dia > 0 and dia % _CHECKPOINT_EVERY == 0 and dia != self._last_cp_dia:
@@ -142,6 +183,21 @@ class SimulationRunner:
             self._save_checkpoint(reason=f"auto_dia_{dia}")
         elif len(self.buffer) >= 200:
             self.buffer.flush()
+
+    def _emit_narrative(self, tipo: str, dia: int, tribe_id: str | None, data: dict) -> None:
+        """Emite evento narrativo: por el bus si está disponible, directo al narrator si no."""
+        if self._event_bus is not None:
+            from core.runtime.event_types import NarrativeRequestEvent
+            self._event_bus.emit(NarrativeRequestEvent(tipo=tipo, dia=dia, tribe_id=tribe_id, data=data))
+        else:
+            if tipo == "fundacion":
+                self.narrator.on_new_tribe(tribe_id or "", dia, data)
+            elif tipo == "cronica":
+                self.narrator.on_cronica_day(tribe_id or "", dia, data)
+            elif tipo == "elegia":
+                self.narrator.on_death(data.get("agent_id", ""), dia, data)
+            elif tipo == "profecia":
+                self.narrator.on_myth_crystallized(tribe_id or "", dia, data)
 
     def _queue_narrative_events(self, dia: int, new_deaths: list[dict]) -> None:
         """Detecta eventos relevantes y los encola en el narrador."""
@@ -165,7 +221,7 @@ class SimulationRunner:
             bioma = max(bioma_counts, key=bioma_counts.__getitem__) if bioma_counts else "tierra desconocida"
             lf = tm.local_fields.get(tribe_id)
             simbolos = lf.symbols if lf else {}
-            self.narrator.on_new_tribe(tribe_id, dia, {
+            self._emit_narrative("fundacion", dia, tribe_id, {
                 "tribe_name": tm.get_tribe_display_name(tribe_id, agents),
                 "nombres":    nombres,
                 "bioma":      bioma,
@@ -194,7 +250,7 @@ class SimulationRunner:
                     for b in self.agents.birth_log[-5:]
                     if b.get("padre_a") in set(member_ids) or b.get("padre_b") in set(member_ids)
                 ]
-                self.narrator.on_cronica_day(tribe_id, dia, {
+                self._emit_narrative("cronica", dia, tribe_id, {
                     "tribe_name":  tm.get_tribe_display_name(tribe_id, agents),
                     "dia_inicio":  last + 1,
                     "n_miembros":  len(alive),
@@ -215,7 +271,7 @@ class SimulationRunner:
             val  = getattr(dead.archetypes, attr, 0.0)
             if val >= 0.70:
                 tribe_id = tm.get_tribe_id(aid)
-                self.narrator.on_death(aid, dia, {
+                self._emit_narrative("elegia", dia, tribe_id, {
                     "nombre":     dead.nombre,
                     "edad":       dead.edad,
                     "causa":      death.get("causa", "causas desconocidas"),
@@ -245,7 +301,7 @@ class SimulationRunner:
                 mon_name   = agents[monster_id].nombre if monster_id and monster_id in agents else "la Sombra"
                 t_id       = tribe_id or (tm.get_tribe_id(hero_id) if hero_id else None)
                 lf         = tm.local_fields.get(t_id) if t_id else self.agents.collective_field
-                self.narrator.on_myth_crystallized(t_id or "global", dia, {
+                self._emit_narrative("profecia", dia, t_id or "global", {
                     "tribe_name":    tm.get_tribe_display_name(t_id, agents) if t_id else "el Campo Global",
                     "arquetipo":     "heroe",
                     "heroe_nombre":  hero_name,

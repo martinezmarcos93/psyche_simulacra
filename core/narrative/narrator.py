@@ -140,6 +140,27 @@ class NarratorEngine:
             self._known_myths.add(key)
             self._enqueue(NarrativeEvent("profecia", dia, tribe_id, data))
 
+    def handle_bus_event(self, event: object) -> None:
+        """
+        Recibe un NarrativeRequestEvent desde el EventBus (Fase 2).
+        Enruta al método correspondiente, preservando toda la lógica de dedup.
+        """
+        if not self.enabled:
+            return
+        tipo     = getattr(event, "tipo",     None)
+        dia      = getattr(event, "dia",      0)
+        tribe_id = getattr(event, "tribe_id", None)
+        data     = getattr(event, "data",     {})
+
+        if tipo == "fundacion":
+            self.on_new_tribe(tribe_id or "", dia, data)
+        elif tipo == "cronica":
+            self.on_cronica_day(tribe_id or "", dia, data)
+        elif tipo == "elegia":
+            self.on_death(data.get("agent_id", ""), dia, data)
+        elif tipo == "profecia":
+            self.on_myth_crystallized(tribe_id or "", dia, data)
+
     # ── Worker loop (hilo de fondo) ───────────────────────────────────────────
 
     def _process_loop(self) -> None:

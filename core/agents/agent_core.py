@@ -275,6 +275,10 @@ class AgentCore:
         if cat_engine is not None and cat_engine.active is not None:
             self._process_catastrophe_anxiety(tp, cat_engine)
 
+        # 3i. Capa narrativa de catástrofes — R5-B4
+        if cat_engine is not None:
+            self._process_catastrophe_narrative(tp, cat_engine)
+
         # 3g. Celos y conflicto de vínculo (Hito 7)
         self._process_jealousy(tp)
 
@@ -2950,6 +2954,59 @@ class AgentCore:
                         agente_protagonista  = cat.tipo,
                         arquetipo_dominante  = arch_ct_norm,
                     ))
+
+    def _process_catastrophe_narrative(self, tp: "TimePoint", cat_engine) -> None:
+        """R5-B4: Catástrofes narrativas profundas. Absorbe trauma en campos colectivos
+        y registra el fin de catástrofe como evento cultural permanente."""
+        _CAT_TO_TRAUMA: dict[str, str | None] = {
+            "sequia_prolongada": "deshidratacion",
+            "invierno_brutal":   "clima_extremo",
+            "incendio":          "muerte_masiva",
+            "plaga":             "muerte_masiva",
+            "eclipse":           None,
+        }
+        cat = cat_engine.active
+        dia = tp.dia_simulado
+
+        if cat is not None and cat.dias_transcurridos == 1:
+            trauma_tipo = _CAT_TO_TRAUMA.get(cat.tipo)
+            if trauma_tipo:
+                self.collective_field.absorb_trauma(trauma_tipo, intensity=cat.severidad)
+                for lf in self.tribe_manager.local_fields.values():
+                    lf.absorb_trauma(trauma_tipo, intensity=cat.severidad)
+            if cat.tipo == "eclipse":
+                self.collective_field.myth_pressure = min(
+                    1.0, self.collective_field.myth_pressure + 0.35
+                )
+                self.collective_field.confusion = min(
+                    1.0, self.collective_field.confusion + 0.40
+                )
+                for lf in self.tribe_manager.local_fields.values():
+                    lf.myth_pressure = min(1.0, lf.myth_pressure + 0.35)
+                    lf.confusion     = min(1.0, lf.confusion     + 0.40)
+
+        ended = cat_engine.just_ended
+        if ended is not None:
+            for tribe_id, members in self.tribe_manager.tribes.items():
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is None:
+                    continue
+                alive_in_tribe = sum(
+                    1 for aid in members
+                    if self.agents.get(aid) and self.agents[aid].is_alive
+                )
+                cmem.record_event(
+                    dia                 = dia,
+                    agente_nombre       = "colectivo",
+                    arquetipo_dominante = "sabio",
+                    tipo_evento         = f"catastrofe_{ended.tipo}",
+                    descripcion         = (
+                        f"La {ended.tipo.replace('_', ' ')} duró {ended.duracion_dias} días "
+                        f"(severidad {ended.severidad:.2f}). "
+                        f"La tribu sobrevivió con {alive_in_tribe} miembros."
+                    ),
+                    intensidad          = ended.severidad,
+                )
 
     # ── Hito 6: Fauna como Actor Simbólico ───────────────────────────────────
 

@@ -5,34 +5,34 @@ rol: cazador
 edad: 34
 sexo: M
 is_alive: True
-posicion: [45, 34]
-humor: 0.809
-energia: 0.655
-ansiedad: 0.374
+posicion: [39, 41]
+humor: 0.814
+energia: 0.667
+ansiedad: 0.367
 needs:
-  hambre: 0.044
+  hambre: 0.064
   fatiga: 0.335
   sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.980
+  self: 1.000
   persona: 0.500
   sombra: 0.304
-  anima_animus: 0.729
-  heroe: 0.663
-  sabio: 0.403
+  anima_animus: 0.711
+  heroe: 0.664
+  sabio: 0.400
   trickster: 0.253
-  madre: 0.409
-  padre: 0.400
-  nino_divino: 0.300
+  madre: 0.407
+  padre: 0.401
+  nino_divino: 0.301
   gobernante: 0.401
   rebelde: 0.300
 ---
 # 👤 Persona: Bios
 
-> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(45, 34)`
+> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(39, 41)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -43,13 +43,13 @@ arquetipos:
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
 | **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.81 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
 | **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.37 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
@@ -61,16 +61,16 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.980` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.304` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.729` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.663` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Sabio** | `0.403` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `0.711` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.664` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.253` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.409` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.407` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.301` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
@@ -105,19 +105,19 @@ arquetipos:
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
 - **Día 24:** Soñó con `'terreno_que_cede'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- **Día 25:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
-- **Día 26:** Soñó con `'viento_que_borra'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en pantano costero, lejos de lo reprimido.
+- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- **Día 26:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en colinas suaves, lejos de lo reprimido.
+- **Día 27:** Soñó con `'unión_imposible'` (arquetipo `self`).
   - *Insight:* El self se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
-- **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
 - **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* Entre sombras de bosque templado, el self y lo reprimido coexisten sin resolverse.
+  - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 - **Día 29:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 30:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self negocia con lo reprimido en el único idioma posible: el silencio.
+  - *Insight:* El self y lo reprimido se toleran esta noche en rio lago.
+- **Día 30:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -173,13 +173,13 @@ arquetipos:
 - Día 18: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
 - Día 19: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, lo reprimido pierde fuerza un instante — el self respira.
 - Día 20: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
-- Día 21: Soñó con 'terreno_que_cede' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 21: Soñó con 'raíz_invisible' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 - Día 22: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 - Día 23: Soñó con 'terreno_que_cede' (self). Insight: El self descansa en pantano costero mientras lo reprimido aguarda en el umbral.
-- Día 24: Soñó con 'terreno_que_cede' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- Día 25: Soñó con 'unión_imposible' (self). Insight: El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
-- Día 26: Soñó con 'viento_que_borra' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
-- Día 27: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en bosque templado mientras lo reprimido aguarda en el umbral.
-- Día 28: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de bosque templado, el self y lo reprimido coexisten sin resolverse.
-- Día 29: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- Día 30: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 24: Soñó con 'terreno_que_cede' (self). Insight: El self se disfraza de su contrario en pantano costero, lejos de lo reprimido.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 26: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en colinas suaves, lejos de lo reprimido.
+- Día 27: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- Día 29: Soñó con 'unión_imposible' (self). Insight: El self y lo reprimido se toleran esta noche en rio lago.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.

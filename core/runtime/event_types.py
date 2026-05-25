@@ -222,3 +222,17 @@ class CheckpointSavedEvent:
 class SnapshotEmittedEvent:
     tick:              int
     snapshot_size_bytes: int
+
+
+# ── Eventos narrativos ────────────────────────────────────────────────────────
+
+@dataclass(frozen=True)
+class NarrativeRequestEvent:
+    """
+    Emitido por SimulationRunner cuando un evento narrativo debe procesarse.
+    NarratorEngine lo recibe vía EventBus (Fase 2) en lugar de llamada directa.
+    """
+    tipo:     str        # "fundacion" | "cronica" | "elegia" | "profecia"
+    dia:      int
+    tribe_id: str | None
+    data:     dict       # payload completo para el narrador

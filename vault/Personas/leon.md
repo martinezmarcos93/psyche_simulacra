@@ -5,34 +5,34 @@ rol: generico
 edad: 16
 sexo: M
 is_alive: True
-posicion: [57, 22]
-humor: 0.802
-energia: 0.579
-ansiedad: 0.380
+posicion: [50, 21]
+humor: 0.810
+energia: 0.665
+ansiedad: 0.368
 needs:
   hambre: 0.044
-  fatiga: 0.415
+  fatiga: 0.335
   sed: 0.405
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.986
+  self: 1.000
   persona: 0.550
-  sombra: 0.302
-  anima_animus: 0.720
-  heroe: 0.441
-  sabio: 0.430
-  trickster: 0.263
-  madre: 0.391
-  padre: 0.412
-  nino_divino: 0.333
-  gobernante: 0.353
-  rebelde: 0.301
+  sombra: 0.303
+  anima_animus: 0.750
+  heroe: 0.444
+  sabio: 0.406
+  trickster: 0.246
+  madre: 0.379
+  padre: 0.411
+  nino_divino: 0.274
+  gobernante: 0.380
+  rebelde: 0.282
 ---
 # 👤 Persona: Leon
 
-> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(57, 22)`
+> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(50, 21)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.38 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.81 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.37 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.986` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.302` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.720` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.441` | `▓▓▓▓▓░░░░░░░` |
-| **Sabio** | `0.430` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.263` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.391` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.412` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.333` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.353` | `▓▓▓▓░░░░░░░░` |
-| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.303` | `▓▓▓▓░░░░░░░░` |
+| **Anima animus** | `0.750` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.444` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.406` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.246` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.379` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.411` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.274` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.380` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.282` | `▓▓▓░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -92,10 +92,10 @@ arquetipos:
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
 | [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[doron]] | `-0.28` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[doron]] | `-0.20` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
 | [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hados]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
 | [[kore]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[moros]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[peitho]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
@@ -103,19 +103,19 @@ arquetipos:
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
 - **Día 24:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En montana alta, lo reprimido pierde fuerza un instante — el self respira.
+  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
 - **Día 25:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self encuentra tregua provisional con lo reprimido.
+  - *Insight:* En sabana abierta, el self negocia con lo reprimido en el único idioma posible: el silencio.
 - **Día 26:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en colinas suaves, lejos de lo reprimido.
-- **Día 27:** Soñó con `'sol_que_calcina'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- **Día 28:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- **Día 29:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self descansa en sabana abierta mientras lo reprimido aguarda en el umbral.
-- **Día 30:** Soñó con `'silencio_pleno'` (arquetipo `self`).
   - *Insight:* lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
+- **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* lo reprimido pesa demasiado — el self cede terreno en bosque templado para no caer.
+- **Día 28:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* El self y lo reprimido se toleran esta noche en pradera humeda.
+- **Día 29:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- **Día 30:** Soñó con `'agua_fría'` (arquetipo `self`).
+  - *Insight:* Entre sombras de lago interior, el self y lo reprimido coexisten sin resolverse.
 
 ---
 
@@ -147,191 +147,24 @@ arquetipos:
 - Día 11: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
 - Día 12: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
 - Día 13: Soñó con 'unión_imposible' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
-- Día 13: Intentó manipular a Moros, pero fue descubierto.
-- Día 13: Intentó manipular a Moros, pero fue descubierto.
-- Día 13: Sufrió explotación y hostilidad de Moros, cediendo recursos biológicos.
-- Día 13: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 13: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 13: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 13: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 13: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Soñó con 'habitación_prohibida' (self). Insight: El self y lo reprimido se toleran esta noche en rio lago.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 15: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Soñó con 'fondo_que_sube' (self). Insight: Entre sombras de rio lago, el self y lo reprimido coexisten sin resolverse.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 16: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Soñó con 'silencio_pleno' (self). Insight: El self descansa en rio lago mientras lo reprimido aguarda en el umbral.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 17: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Soñó con 'centro_sin_lugar' (self). Insight: El self y lo reprimido se toleran esta noche en rio lago.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 18: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Moros.
-- Día 21: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 22: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 23: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
-- Día 24: Soñó con 'silencio_pleno' (self). Insight: En montana alta, lo reprimido pierde fuerza un instante — el self respira.
-- Día 25: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
-- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en colinas suaves, lejos de lo reprimido.
-- Día 27: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
-- Día 28: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 29: Soñó con 'silencio_pleno' (self). Insight: El self descansa en sabana abierta mientras lo reprimido aguarda en el umbral.
-- Día 30: Soñó con 'silencio_pleno' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
+- Día 14: Soñó con 'fondo_que_sube' (self). Insight: El self descansa en rio lago mientras lo reprimido aguarda en el umbral.
+- Día 15: Soñó con 'descenso_inevitable' (self). Insight: El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en sabana abierta mientras lo reprimido aguarda en el umbral.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 18: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en colinas suaves, lejos de lo reprimido.
+- Día 18: Sufrió explotación y hostilidad de Hados, cediendo recursos biológicos.
+- Día 18: Sufrió explotación y hostilidad de Hados, cediendo recursos biológicos.
+- Día 18: Cedió ingenuamente ante la manipulación de Hados.
+- Día 19: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en lago interior mientras lo reprimido aguarda en el umbral.
+- Día 20: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 21: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 24: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 25: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
+- Día 27: Soñó con 'mandala_incompleto' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en bosque templado para no caer.
+- Día 27: Cooperó de forma mutua y armónica con Doron. Su lazo social se fortaleció.
+- Día 28: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en pradera humeda.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- Día 30: Soñó con 'agua_fría' (self). Insight: Entre sombras de lago interior, el self y lo reprimido coexisten sin resolverse.

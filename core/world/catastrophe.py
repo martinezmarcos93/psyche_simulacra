@@ -68,13 +68,19 @@ class CatastropheEngine:
     """
 
     def __init__(self, seed: int = 42) -> None:
-        self.active:   CatastropheEvent | None             = None
-        self.history:  list[CatastropheEvent]              = []
+        self.active:      CatastropheEvent | None            = None
+        self.history:     list[CatastropheEvent]             = []
+        self._just_ended: CatastropheEvent | None            = None
         # coord → {tipo, severidad, dias_restantes}: marcas persistentes en el terreno
-        self._terrain_marks: dict[tuple[int, int], dict]  = {}
+        self._terrain_marks: dict[tuple[int, int], dict]    = {}
         # hexes con plaga activa (expanden gradualmente)
-        self._plague_hexes: set[tuple[int, int]]           = set()
+        self._plague_hexes: set[tuple[int, int]]             = set()
         self._rng = random.Random(seed)
+
+    @property
+    def just_ended(self) -> CatastropheEvent | None:
+        """Catástrofe que terminó en el día actual. Se resetea al inicio de cada on_day."""
+        return self._just_ended
 
     # ── Ciclo principal ────────────────────────────────────────────────────────
 
@@ -86,6 +92,7 @@ class CatastropheEngine:
         graves   = None,          # GraveSystem | None
     ) -> CatastropheEvent | None:
         """Avanza estado de catástrofe activa; genera nuevas; decae las huellas."""
+        self._just_ended = None   # resetear al inicio de cada día
         if self.active:
             self.active.dias_transcurridos += 1
             self._apply_daily_effects(terrain, graves)
@@ -171,6 +178,7 @@ class CatastropheEngine:
     def _end_catastrophe(self) -> None:
         if self.active:
             self.active.activa = False
+            self._just_ended   = self.active
             self.history.append(self.active)
             if self.active.tipo == "plaga":
                 self._plague_hexes = set()

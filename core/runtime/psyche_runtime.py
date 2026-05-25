@@ -21,9 +21,11 @@ from .event_types import (
     WorldSeasonChangeEvent,
     AgentBornEvent,
     AgentDiedEvent,
+    NarrativeRequestEvent,
 )
 from .runtime_state import RuntimeState
 from .service_manager import ServiceManager
+from .snapshot_pipeline import SnapshotPipeline
 
 if TYPE_CHECKING:
     from core.time.simulation_clock import TimePoint
@@ -40,9 +42,10 @@ class PsycheRuntime:
     """
 
     def __init__(self) -> None:
-        self.bus:     EventBus       = EventBus()
-        self.state:   RuntimeState   = RuntimeState()
-        self.services: ServiceManager = ServiceManager(self.bus)
+        self.bus:               EventBus         = EventBus()
+        self.state:             RuntimeState     = RuntimeState()
+        self.services:          ServiceManager   = ServiceManager(self.bus)
+        self.snapshot_pipeline: SnapshotPipeline = SnapshotPipeline(self.bus)
 
         self._runner:  SimulationRunner | None = None
         self._lock     = threading.Lock()
@@ -58,6 +61,8 @@ class PsycheRuntime:
             self._runner = runner
 
         self._wire_event_bridge(runner)
+        self._wire_narrator_bridge(runner)
+        runner.attach_bus(self.bus)
         self.state.simulation = "stopped"
 
     def detach_runner(self) -> None:
@@ -105,6 +110,14 @@ class PsycheRuntime:
         self.bus.shutdown()
         self.state.simulation = "stopped"
 
+    # ── SnapshotPipeline API (Fase 3) ─────────────────────────────────────────
+
+    def subscribe_snapshots(self, handler) -> None:
+        self.snapshot_pipeline.subscribe(handler)
+
+    def unsubscribe_snapshots(self, handler) -> None:
+        self.snapshot_pipeline.unsubscribe(handler)
+
     # ── Bridge clock→EventBus (Fase 1) ────────────────────────────────────────
 
     def _wire_event_bridge(self, runner: "SimulationRunner") -> None:
@@ -128,6 +141,10 @@ class PsycheRuntime:
                 season = tp.estacion,
                 climate= clima,
             ))
+            # Fase 3: broadcast snapshot a todos los observers suscritos
+            if snap is not None:
+                snap_dict = snap.to_dict() if hasattr(snap, "to_dict") else {}
+                self.snapshot_pipeline.broadcast(snap_dict, tp.tick)
             self._sync_state_from_runner(runner)
 
         _prev_season: list[str] = [runner.clock.now.estacion]
@@ -149,6 +166,15 @@ class PsycheRuntime:
     def _get_runner(self) -> "SimulationRunner | None":
         with self._lock:
             return self._runner
+
+    # ── NarratorEngine → EventBus (Fase 2) ───────────────────────────────────
+
+    def _wire_narrator_bridge(self, runner: "SimulationRunner") -> None:
+        """Suscribe el NarratorEngine al bus para recibir NarrativeRequestEvents."""
+        narrator = getattr(runner, "narrator", None)
+        if narrator is None:
+            return
+        self.bus.subscribe(NarrativeRequestEvent, narrator.handle_bus_event, priority=60)
 
     def _sync_state_from_runner(self, runner: "SimulationRunner") -> None:
         try:

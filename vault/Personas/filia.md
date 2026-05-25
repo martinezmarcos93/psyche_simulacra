@@ -5,34 +5,34 @@ rol: generico
 edad: 29
 sexo: F
 is_alive: True
-posicion: [52, 27]
-humor: 0.747
-energia: 0.436
-ansiedad: 0.485
+posicion: [52, 30]
+humor: 0.895
+energia: 0.665
+ansiedad: 0.280
 needs:
-  hambre: 0.144
-  fatiga: 0.575
-  sed: 0.405
+  hambre: 0.064
+  fatiga: 0.335
+  sed: 0.225
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: cooperacion
 arquetipos:
   self: 1.000
-  persona: 0.500
-  sombra: 0.298
-  anima_animus: 0.728
-  heroe: 0.484
-  sabio: 0.428
-  trickster: 0.336
-  madre: 0.438
-  padre: 0.407
-  nino_divino: 0.282
-  gobernante: 0.440
-  rebelde: 0.267
+  persona: 0.550
+  sombra: 0.222
+  anima_animus: 0.689
+  heroe: 0.508
+  sabio: 0.403
+  trickster: 0.251
+  madre: 0.413
+  padre: 0.402
+  nino_divino: 0.301
+  gobernante: 0.371
+  rebelde: 0.302
 ---
 # 👤 Persona: Filia
 
-> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(52, 27)`
+> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(52, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.75 |
-| **Energía** | `[▓▓▓▓░░░░░░]` | 0.44 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.48 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.28 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.14 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.58 | 🟢 Descansado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Sed** | `[▓▓░░░░░░░░]` | 0.23 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -62,17 +62,17 @@ arquetipos:
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.298` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.728` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.484` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.428` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.336` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.438` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.407` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.282` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.440` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.267` | `▓▓▓░░░░░░░░░` |
+| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.222` | `▓▓▓░░░░░░░░░` |
+| **Anima animus** | `0.689` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.508` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.403` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.251` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.413` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.371` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.302` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -91,34 +91,34 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[arete]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[bios]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
 | [[chara]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[elpis]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[gigas]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[hados]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[kore]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[peitho]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- **Día 25:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- **Día 24:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- **Día 25:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* lo reprimido pesa demasiado — el self cede terreno en rio lago para no caer.
 - **Día 26:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
+- **Día 27:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En cueva, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- **Día 29:** Soñó con `'silencio_pleno'` (arquetipo `self`).
   - *Insight:* El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- **Día 27:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
-- **Día 28:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- **Día 29:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En cueva, el self negocia con lo reprimido en el único idioma posible: el silencio.
 - **Día 30:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
+  - *Insight:* Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
 
 ---
 
@@ -194,81 +194,24 @@ arquetipos:
 - Día 17: Manipuló con éxito y astucia a Arete para ceder recursos.
 - Día 18: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, lo reprimido pierde fuerza un instante — el self respira.
 - Día 19: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 19: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Soñó con 'silencio_pleno' (self). Insight: El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 20: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de rio lago, el self y lo reprimido coexisten sin resolverse.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 21: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 22: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 23: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
-- Día 24: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
-- Día 26: Soñó con 'unión_imposible' (self). Insight: El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
-- Día 27: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
-- Día 28: Soñó con 'unión_imposible' (self). Insight: El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- Día 29: Soñó con 'unión_imposible' (self). Insight: En cueva, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 30: Soñó con 'unión_imposible' (self). Insight: El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
+- Día 20: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 20: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
+- Día 20: Cedió ingenuamente ante la manipulación de Arete.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 21: Soñó con 'fruto_amargo' (self). Insight: El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
+- Día 22: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 23: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 24: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 25: Soñó con 'mandala_incompleto' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en rio lago para no caer.
+- Día 26: Soñó con 'unión_imposible' (self). Insight: Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
+- Día 26: Cedió ingenuamente ante la manipulación de Peitho.
+- Día 26: Cedió ingenuamente ante la manipulación de Peitho.
+- Día 26: Cedió ingenuamente ante la manipulación de Peitho.
+- Día 26: Cedió ingenuamente ante la manipulación de Peitho.
+- Día 27: Soñó con 'silencio_pleno' (self). Insight: En cueva, lo reprimido pierde fuerza un instante — el self respira.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 29: Soñó con 'silencio_pleno' (self). Insight: El self descansa en valle fertil mientras lo reprimido aguarda en el umbral.
+- Día 30: Soñó con 'unión_imposible' (self). Insight: Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
