@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Sabio
 
-> **Día:** `30` | **Miembros vivos:** `1`
+> **Día:** `3` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,25 +8,25 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[sophron]] (Sophron) | generico | 45 | self |
+| [[sophron]] (Sophron) | generico | 45 | sabio |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.744` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.086` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.736` | `▓▓▓▓▓▓▓░░░` |
-| **Trickster** | `0.642` | `▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.105` | `▓░░░░░░░░░` |
-| **Sabio** | `0.094` | `▓░░░░░░░░░` |
-| **Madre** | `0.052` | `▓░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.441` | `▓▓▓▓░░░░░░` |
+| **Sombra** | `0.216` | `▓▓░░░░░░░░` |
+| **Padre** | `0.086` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |

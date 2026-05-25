@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Héroe
 
-> **Día:** `30` | **Miembros vivos:** `2`
+> **Día:** `3` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,26 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kairos]] (Kairos) | cazador | 32 | self |
-| [[peitho]] (Peitho) | explorador | 26 | self |
+| [[kairos]] (Kairos) | cazador | 32 | heroe |
+| [[peitho]] (Peitho) | explorador | 26 | trickster |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.858` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.401` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.446` | `▓▓▓▓░░░░░░` |
-| **Madre** | `0.223` | `▓▓░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.678` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.460` | `▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.389` | `▓▓▓▓░░░░░░` |
+| **Heroe** | `0.230` | `▓▓░░░░░░░░` |
+| **Madre** | `0.115` | `▓░░░░░░░░░` |
+| **Padre** | `0.086` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |

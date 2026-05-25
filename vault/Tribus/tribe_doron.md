@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Gobernante
 
-> **Día:** `30` | **Miembros vivos:** `1`
+> **Día:** `3` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,28 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[doron]] (Doron) | guardian | 38 | self |
+| [[doron]] (Doron) | guardian | 38 | gobernante |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.342` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.528` `[▓▓▓▓▓▓░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.428` | `▓▓▓▓░░░░░░` |
-| **Nino_divino** | `0.055` | `▓░░░░░░░░░` |
+| **Sombra** | `0.754` | `▓▓▓▓▓▓▓▓░░` |
+| **Muerte** | `0.441` | `▓▓▓▓░░░░░░` |
+| **Padre** | `0.086` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

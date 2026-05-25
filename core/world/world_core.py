@@ -10,6 +10,8 @@ from .substances import SubstanceSystem, SUBSTANCE_NAMES
 from .catastrophe import CatastropheEngine
 from .fauna_symbolic import SymbolicFaunaSystem
 from .liminal_hex import LiminalHexSystem
+from .psychic_geography import PsychicGeography
+from .persistent_structures import PersistentStructureSystem
 import random
 from core.time import TimePoint
 from core.interface import WorldAction, WorldSnapshot, ActionResult, ActionType
@@ -42,6 +44,8 @@ class WorldCore:
         self.catastrophe      = CatastropheEngine(seed=seed + 13)
         self.fauna_symbolic   = SymbolicFaunaSystem(seed=seed + 17)
         self.liminal_system   = LiminalHexSystem(seed=seed + 23)
+        self.psychic_geography    = PsychicGeography()
+        self.persistent_structures = PersistentStructureSystem()
         self._rng             = random.Random(seed + 7)
         # Inicializar hexes liminales con el terreno ya generado
         self.liminal_system.initialize(self.terrain)
@@ -53,6 +57,8 @@ class WorldCore:
         self._current_snapshot:    WorldSnapshot | None    = None
         # resource_pressure solo se recalcula una vez por día (costoso)
         self._resource_pressure:   float                   = 0.0
+        # R5-B2: coords ocupadas por agentes vivos (actualizado por AgentCore antes de on_day)
+        self._occupied_coords:     set[tuple[int, int]]    = set()
 
     # ── Handlers del SimulationClock ─────────────────────────────────────────
 
@@ -78,6 +84,13 @@ class WorldCore:
             tp.dia_simulado, tp.estacion, self.terrain, graves_active
         )
         self.liminal_system.on_day(tp.dia_simulado, self.terrain)
+        self.psychic_geography.on_day()
+        # R5-B2: estructuras — occupied_coords se actualiza por AgentCore antes de on_day
+        self.persistent_structures.on_day(
+            dia             = tp.dia_simulado,
+            occupied_coords = self._occupied_coords,
+            psychic_geography = self.psychic_geography,
+        )
         self.resources.daily_regeneration(tp.estacion, explored)
         self.fauna.daily_update(tp.estacion, climate, explored)
         self._resource_pressure = self.resources.total_pressure(explored)
@@ -94,6 +107,10 @@ class WorldCore:
     def receive_actions(self, actions: list[WorldAction]) -> None:
         """AgentCore entrega las acciones; se aplican al final del tick."""
         self._pending_actions.extend(actions)
+
+    def update_occupied_coords(self, coords: set[tuple[int, int]]) -> None:
+        """R5-B2: AgentCore informa qué hexes tienen agentes vivos este día."""
+        self._occupied_coords = coords
 
     @property
     def current_snapshot(self) -> WorldSnapshot | None:
@@ -181,6 +198,13 @@ class WorldCore:
             ok = self.terrain.add_structure(
                 action.coord[0], action.coord[1], "refugio"
             )
+            if ok:
+                self.persistent_structures.register_build(
+                    coord = action.coord,
+                    tipo  = "refugio",
+                    tribu = action.params.get("tribu_id"),
+                    dia   = action.tick // 24,
+                )
             return ActionResult(
                 agent_id    = action.agent_id,
                 action_type = ActionType.CONSTRUIR_REFUGIO,
@@ -316,7 +340,9 @@ class WorldCore:
             "substances":       self.substances.to_dict(),
             "catastrophe":      self.catastrophe.to_dict(),
             "fauna_symbolic":   self.fauna_symbolic.to_dict(),
-            "liminal_system":   self.liminal_system.to_dict(),
+            "liminal_system":      self.liminal_system.to_dict(),
+            "psychic_geography":       self.psychic_geography.to_dict(),
+            "persistent_structures":   self.persistent_structures.to_dict(),
         }
 
     def restore_from_state_dict(self, data: dict) -> None:
@@ -344,4 +370,12 @@ class WorldCore:
         if "liminal_system" in data:
             self.liminal_system = LiminalHexSystem.from_dict(
                 data["liminal_system"], seed=self._seed + 23
+            )
+        if "psychic_geography" in data:
+            self.psychic_geography = PsychicGeography.from_dict(
+                data["psychic_geography"]
+            )
+        if "persistent_structures" in data:
+            self.persistent_structures = PersistentStructureSystem.from_dict(
+                data["persistent_structures"]
             )

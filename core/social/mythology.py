@@ -198,6 +198,56 @@ _MYTH_EFFECTS: dict[str, dict] = {
     },
 }
 
+# R5-A1 — Plantillas de relato inicial y sufijos de distorsión por tipo de mito
+_RELATO_INICIAL: dict[str, str] = {
+    "cosmogonia":   "Al principio, {par0} y {par1} lucharon y de esa lucha nació el mundo.",
+    "teogonia":     "Los ancestros vieron cómo {par0} recibió el don de {par1} y estableció el orden.",
+    "antropogonia": "Se dice que {par0} trajo a los primeros de nuestra sangre desde el lugar de {par1}.",
+    "escatologia":  "Cuando llegue el fin, {par0} y {par1} volverán a encontrarse y juzgarán a los vivos.",
+    "mito_moral":   "Hubo un tiempo en que {par0} y {par1} se enfrentaron, y cada uno recibió lo que merecía.",
+}
+
+_DISTORSION_SUFIJOS: dict[str, list[str]] = {
+    "heroe":      [
+        " Fue el más grande guerrero que jamás vivió entre los nuestros.",
+        " Ninguno antes ni después igualó su valor.",
+        " Los dioses mismos temblaron ante su presencia.",
+    ],
+    "sabio":      [
+        " Esto lo sabemos porque los ancianos lo vieron y lo transmitieron.",
+        " Quien no lo crea no ha comprendido la naturaleza del tiempo.",
+        " Esta verdad es más antigua que el nombre que le damos.",
+    ],
+    "sombra":     [
+        " Pero había oscuridad en aquello que no se nombra.",
+        " Lo que no se cuenta es más terrible que lo que se recuerda.",
+        " Algunos morirán sin saber lo que realmente ocurrió en ese día.",
+    ],
+    "madre":      [
+        " Y de aquella unión nació todo lo que somos.",
+        " El mundo era más suave entonces, antes de que olvidáramos.",
+        " La tierra lo recuerda aunque nosotros hayamos olvidado.",
+    ],
+    "trickster":  [
+        " Pero nadie sabe si lo que se cuenta es verdad o ilusión.",
+        " El que ríe en las sombras conoce la versión real.",
+        " No confíes en el que dice saber todo de este mito.",
+    ],
+    "gobernante": [
+        " Y por eso obedecemos las leyes que de aquello surgieron.",
+        " El poder que vino de ese momento aún perdura entre nosotros.",
+        " Quien olvide esta historia perderá el derecho de mandar.",
+    ],
+    "default":    [
+        " Así fue, y así será siempre que alguien lo recuerde.",
+        " Los que vivieron aquello nunca fueron los mismos.",
+        " El tiempo ha borrado los detalles, pero la verdad permanece.",
+    ],
+}
+
+_DISTORSION_RATE_BASE = 0.00015    # deriva diaria mínima (muy lenta)
+_DISTORSION_THRESHOLDS = [0.25, 0.50, 0.75, 0.92]  # puntos donde el relato muta
+
 
 @dataclass
 class ProtoMito:
@@ -233,18 +283,24 @@ class MythCrystal:
     A diferencia del sistema anterior, el mito NO muere cuando muere el
     agente protagonista. Se convierte en Leyenda, que sigue irradiando
     efectos sobre la tribu aunque ya no haya un portador vivo.
+
+    R5-A1: Los mitos se distorsionan con el tiempo. `distorsion_acumulada`
+    registra cuánto ha derivado el relato del evento original. `relato_actual`
+    es la versión viva (la que heredan los hijos); `name` es el nombre original.
     """
     name: str
     tipo: str
     par: tuple[str, str]
     active: bool = True
     day_crystallized: int = 0
-    protagonista_id: str | None = None   # Agente que encarna el arquetipo positivo
-    antagonista_id:  str | None = None   # Agente que encarna el arquetipo negativo
-    # Cuando el protagonista muere, el mito se convierte en leyenda (active=False, es_leyenda=True)
+    protagonista_id: str | None = None
+    antagonista_id:  str | None = None
     es_leyenda: bool = False
     day_became_legend: int | None = None
-    intensidad: float = 1.0   # Decae con el tiempo
+    intensidad: float = 1.0
+    # R5-A1 — Distorsión transgeneracional
+    distorsion_acumulada: float = 0.0   # 0.0 → 1.0 (irreconocible)
+    relato_actual:        str   = ""    # Versión viva del mito (distorsionada)
 
 
 class MythologyEngine:
@@ -282,6 +338,7 @@ class MythologyEngine:
         self._check_crystallization(field, agents, dia)
         self.apply_myth_effects(agents)
         self._check_myth_persistence(agents, dia)
+        self._distort_myths(field, agents, dia)
         self._decay_myths()
 
     def on_social_transmission(self, field: CollectiveField) -> None:
@@ -387,6 +444,11 @@ class MythologyEngine:
         antag_id = antagonistas[0].id  if antagonistas  else None
 
         name = f"{proto.tipo}_dia{dia}"
+        tmpl = _RELATO_INICIAL.get(proto.tipo, _RELATO_INICIAL["mito_moral"])
+        relato = tmpl.format(
+            par0=proto.par[0] if proto.par else "lo desconocido",
+            par1=proto.par[1] if len(proto.par) > 1 else "el misterio",
+        )
         crystal = MythCrystal(
             name=name,
             tipo=proto.tipo,
@@ -396,6 +458,7 @@ class MythologyEngine:
             protagonista_id=prot_id,
             antagonista_id=antag_id,
             intensidad=min(1.0, proto.intensidad_contexto + 0.2),
+            relato_actual=relato,
         )
         # Hito E: registrar pares para detección de deidad por repetición
         pair_key = "|".join(sorted(proto.par))
@@ -481,6 +544,60 @@ class MythologyEngine:
                 myth.es_leyenda = True
                 myth.day_became_legend = dia
 
+    def _distort_myths(
+        self,
+        field:  "CollectiveField",
+        agents: dict[str, "Agent"],
+        dia:    int,
+    ) -> None:
+        """
+        R5-A1 — Distorsión transgeneracional de mitos.
+
+        Cada día los mitos cristalizados acumulan distorsión proporcional a:
+        - La presión mítica del campo (transmisión activa = más distorsión)
+        - El arquetipo dominante del campo (sesga el tipo de sufijo añadido)
+
+        Los umbrales de distorsión (_DISTORSION_THRESHOLDS) disparan mutaciones
+        del relato_actual: el mito vivo diverge del nombre original.
+        A distorsion_acumulada ≥ 0.92 el relato es irreconocible.
+        """
+        if not self.active_myths:
+            return
+
+        # Contadores del campo para calcular la tasa de distorsión
+        n_sabios = sum(
+            1 for a in agents.values()
+            if a.is_alive and a.archetypes.sabio > 0.55
+        )
+        pressure   = field.myth_pressure
+        arch_dom   = field.dominant_archetype_pair()[0] if self.active_myths else "default"
+
+        for myth in self.active_myths:
+            # Las leyendas se distorsionan más rápido (sin protagonista que "ancle" el relato)
+            leyenda_factor = 1.5 if myth.es_leyenda else 1.0
+            # La presión mítica y los sabios activos aceleran la transmisión oral
+            rate = (_DISTORSION_RATE_BASE
+                    + pressure * 0.0004
+                    + n_sabios * 0.00008) * leyenda_factor
+
+            prev  = myth.distorsion_acumulada
+            myth.distorsion_acumulada = min(1.0, prev + rate)
+
+            # Inicializar relato_actual si está vacío
+            if not myth.relato_actual:
+                tmpl = _RELATO_INICIAL.get(myth.tipo, _RELATO_INICIAL["mito_moral"])
+                myth.relato_actual = tmpl.format(
+                    par0 = myth.par[0] if myth.par else "lo desconocido",
+                    par1 = myth.par[1] if len(myth.par) > 1 else "el misterio",
+                )
+
+            # Disparar mutación del relato al cruzar cada umbral
+            for threshold in _DISTORSION_THRESHOLDS:
+                if prev < threshold <= myth.distorsion_acumulada:
+                    sufijos = _DISTORSION_SUFIJOS.get(arch_dom, _DISTORSION_SUFIJOS["default"])
+                    sufijo  = self._rng.choice(sufijos)
+                    myth.relato_actual = myth.relato_actual.rstrip(".") + sufijo
+
     def _decay_myths(self) -> None:
         """La intensidad de las leyendas decae lentamente con el tiempo."""
         for myth in self.active_myths:
@@ -516,16 +633,18 @@ class MythologyEngine:
         return {
             "active_myths": [
                 {
-                    "name":               m.name,
-                    "tipo":               m.tipo,
-                    "par":                list(m.par),
-                    "active":             m.active,
-                    "day_crystallized":   m.day_crystallized,
-                    "protagonista_id":    m.protagonista_id,
-                    "antagonista_id":     m.antagonista_id,
-                    "es_leyenda":         m.es_leyenda,
-                    "day_became_legend":  m.day_became_legend,
-                    "intensidad":         m.intensidad,
+                    "name":                 m.name,
+                    "tipo":                 m.tipo,
+                    "par":                  list(m.par),
+                    "active":               m.active,
+                    "day_crystallized":     m.day_crystallized,
+                    "protagonista_id":      m.protagonista_id,
+                    "antagonista_id":       m.antagonista_id,
+                    "es_leyenda":           m.es_leyenda,
+                    "day_became_legend":    m.day_became_legend,
+                    "intensidad":           m.intensidad,
+                    "distorsion_acumulada": m.distorsion_acumulada,
+                    "relato_actual":        m.relato_actual,
                 }
                 for m in self.active_myths
             ],
@@ -559,6 +678,8 @@ class MythologyEngine:
                 es_leyenda=m.get("es_leyenda", False),
                 day_became_legend=m.get("day_became_legend"),
                 intensidad=m.get("intensidad", 1.0),
+                distorsion_acumulada=m.get("distorsion_acumulada", 0.0),
+                relato_actual=m.get("relato_actual", ""),
             )
             engine.active_myths.append(crystal)
 

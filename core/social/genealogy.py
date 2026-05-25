@@ -5,11 +5,13 @@ from dataclasses import dataclass
 
 @dataclass
 class LineageRecord:
-    agent_id:   str
-    parent_a:   str | None
-    parent_b:   str | None
-    dia_nac:    int
-    tribe_orig: str
+    agent_id:    str
+    parent_a:    str | None
+    parent_b:    str | None
+    dia_nac:     int
+    tribe_orig:  str
+    # R5-A3: arquetipo dominante registrado al nacer (persiste aunque el agente muera)
+    dominant_arch: str = "heroe"
 
 
 class LineageGraph:
@@ -26,18 +28,20 @@ class LineageGraph:
 
     def register(
         self,
-        agent_id:   str,
-        parent_a:   str | None,
-        parent_b:   str | None,
-        dia:        int,
-        tribe_orig: str,
+        agent_id:      str,
+        parent_a:      str | None,
+        parent_b:      str | None,
+        dia:           int,
+        tribe_orig:    str,
+        dominant_arch: str = "heroe",
     ) -> None:
         self.records[agent_id] = LineageRecord(
-            agent_id   = agent_id,
-            parent_a   = parent_a,
-            parent_b   = parent_b,
-            dia_nac    = dia,
-            tribe_orig = tribe_orig,
+            agent_id      = agent_id,
+            parent_a      = parent_a,
+            parent_b      = parent_b,
+            dia_nac       = dia,
+            tribe_orig    = tribe_orig,
+            dominant_arch = dominant_arch,
         )
 
     def get_ancestors(self, agent_id: str, depth: int = 3) -> set[str]:
@@ -134,10 +138,11 @@ class LineageGraph:
     def to_dict(self) -> dict:
         return {
             aid: {
-                "parent_a":   r.parent_a,
-                "parent_b":   r.parent_b,
-                "dia_nac":    r.dia_nac,
-                "tribe_orig": r.tribe_orig,
+                "parent_a":      r.parent_a,
+                "parent_b":      r.parent_b,
+                "dia_nac":       r.dia_nac,
+                "tribe_orig":    r.tribe_orig,
+                "dominant_arch": r.dominant_arch,
             }
             for aid, r in self.records.items()
         }
@@ -147,10 +152,11 @@ class LineageGraph:
         g = cls()
         for aid, d in data.items():
             g.records[aid] = LineageRecord(
-                agent_id   = aid,
-                parent_a   = d.get("parent_a"),
-                parent_b   = d.get("parent_b"),
-                dia_nac    = d.get("dia_nac", 0),
-                tribe_orig = d.get("tribe_orig", ""),
+                agent_id      = aid,
+                parent_a      = d.get("parent_a"),
+                parent_b      = d.get("parent_b"),
+                dia_nac       = d.get("dia_nac", 0),
+                tribe_orig    = d.get("tribe_orig", ""),
+                dominant_arch = d.get("dominant_arch", "heroe"),
             )
         return g

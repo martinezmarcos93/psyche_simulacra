@@ -3,6 +3,22 @@ from __future__ import annotations
 import random
 from dataclasses import dataclass, field
 
+# R4-D: Bestias Olvidadas — generación procedural de fauna mítica única
+_ADJETIVOS_BESTIA = [
+    "eterno", "silencioso", "ardiente", "helado", "sombrío", "dorado",
+    "plateado", "ciego", "sangrante", "rojo", "negro", "blanco",
+    "hueco", "rugiente", "primordial", "hambriento", "sagrado", "maldito",
+]
+_ANIMALES_BESTIA = [
+    "oso", "lobo", "serpiente", "aguila", "ciervo", "jabali",
+    "leon", "tigre", "cocodrilo", "cuervo", "toro", "cabra",
+    "hiena", "lince", "zorro", "nutria", "castor", "alce",
+]
+_BESTIA_SPAWN_PROB   = 0.0005   # prob diaria de aparición de una bestia única
+_BESTIA_MAX_ACTIVE   = 2        # máximo de bestias únicas simultáneas
+_BESTIA_DURACION     = (90, 240)# días antes de desaparecer
+_BESTIA_SYMBOLIC     = 0.55     # carga simbólica base
+
 # Biomas "liminales": el mismo animal aquí genera carga simbólica ×2
 _LIMINAL_BIOMES = frozenset({"cueva", "montana_alta", "pantano_costero"})
 
@@ -110,6 +126,9 @@ class SymbolicFaunaSystem:
         # nombre_migratoria → [(estacion, dia), ...]
         self._migration_log: dict[str, list[tuple[str, int]]] = {}
         self._next_id:       int                              = 0
+        # R4-D: bestias únicas procedurales y su registro de "bestias olvidadas"
+        self._bestia_names:  set[str]                         = set()
+        self.bestias_olvidadas: list[dict]                    = []
 
     # ── Ciclo diario ──────────────────────────────────────────────────────────
 
@@ -171,6 +190,39 @@ class SymbolicFaunaSystem:
                     "nombre":  ent.nombre,
                     "coord":   gcoord,
                 })
+
+        # R4-D: Bestias procedurales únicas
+        n_bestias_activas = sum(
+            1 for e in self.entities.values()
+            if e.tipo == "bestia_mitica" and e.activo
+        )
+        if n_bestias_activas < _BESTIA_MAX_ACTIVE and self._rng.random() < _BESTIA_SPAWN_PROB:
+            coord  = self._rng.choice(explored)
+            bestia = self._spawn_bestia(coord, dia)
+            events.append({
+                "tipo":    "aparicion_bestia_mitica",
+                "subtipo": "bestia_mitica",
+                "nombre":  bestia.nombre,
+                "coord":   coord,
+                "dia":     dia,
+            })
+
+        # Registrar bestias únicas que desaparecieron → bestias olvidadas
+        for ent in self.entities.values():
+            if ent.tipo == "bestia_mitica" and not ent.activo and ent.nombre in self._bestia_names:
+                if not any(b["nombre"] == ent.nombre for b in self.bestias_olvidadas):
+                    self.bestias_olvidadas.append({
+                        "nombre":   ent.nombre,
+                        "dia_fin":  dia,
+                        "coord":    list(ent.coord),
+                    })
+                    self._bestia_names.discard(ent.nombre)
+                    events.append({
+                        "tipo":   "bestia_olvidada",
+                        "nombre": ent.nombre,
+                        "coord":  list(ent.coord),
+                        "dia":    dia,
+                    })
 
         return events
 
@@ -238,6 +290,32 @@ class SymbolicFaunaSystem:
 
     # ── Helpers ───────────────────────────────────────────────────────────────
 
+    def _spawn_bestia(self, coord: tuple[int, int], dia: int) -> FaunaEntity:
+        """Genera una bestia única procedural con nombre compuesto irrepetible."""
+        for _ in range(20):
+            adj    = self._rng.choice(_ADJETIVOS_BESTIA)
+            animal = self._rng.choice(_ANIMALES_BESTIA)
+            nombre = f"{adj}_{animal}"
+            if nombre not in self._bestia_names:
+                break
+        else:
+            nombre = f"bestia_{dia}"
+
+        self._bestia_names.add(nombre)
+        duracion = self._rng.randint(*_BESTIA_DURACION)
+        eid      = f"bestia_{self._next_id:04d}"
+        self._next_id += 1
+        ent = FaunaEntity(
+            id       = eid,
+            tipo     = "bestia_mitica",
+            nombre   = nombre,
+            coord    = coord,
+            radio    = _ATTACK_RADIUS + 1,
+            duracion = duracion,
+        )
+        self.entities[eid] = ent
+        return ent
+
     def _spawn(self, tipo: str, coord: tuple[int, int]) -> FaunaEntity:
         dur_min, dur_max = _DURATION_RANGE.get(tipo, (10, 30))
         duracion = self._rng.randint(dur_min, dur_max)
@@ -260,14 +338,16 @@ class SymbolicFaunaSystem:
 
     def to_dict(self) -> dict:
         return {
-            "entities":      [e.to_dict() for e in self.entities.values()],
-            "kills":         [{"dia": k.dia, "coord": list(k.coord),
-                               "tribe_id": k.tribe_id, "nombre": k.nombre}
-                              for k in self._kills],
-            "tribe_obs":     self._tribe_obs,
-            "migration_log": {n: [list(v) for v in vs]
-                              for n, vs in self._migration_log.items()},
-            "next_id":       self._next_id,
+            "entities":          [e.to_dict() for e in self.entities.values()],
+            "kills":             [{"dia": k.dia, "coord": list(k.coord),
+                                   "tribe_id": k.tribe_id, "nombre": k.nombre}
+                                  for k in self._kills],
+            "tribe_obs":         self._tribe_obs,
+            "migration_log":     {n: [list(v) for v in vs]
+                                  for n, vs in self._migration_log.items()},
+            "next_id":           self._next_id,
+            "bestia_names":      list(self._bestia_names),
+            "bestias_olvidadas": self.bestias_olvidadas,
         }
 
     @classmethod
@@ -286,5 +366,7 @@ class SymbolicFaunaSystem:
             n: [tuple(v) for v in vs]
             for n, vs in data.get("migration_log", {}).items()
         }
-        sys_._next_id = data.get("next_id", 0)
+        sys_._next_id           = data.get("next_id", 0)
+        sys_._bestia_names      = set(data.get("bestia_names", []))
+        sys_.bestias_olvidadas  = list(data.get("bestias_olvidadas", []))
         return sys_

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Madre
 
-> **Día:** `30` | **Miembros vivos:** `1`
+> **Día:** `3` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[chara]] (Chara) | recolector | 27 | self |
+| [[chara]] (Chara) | recolector | 27 | madre |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.219` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Sombra** | `0.724` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.077` | `▓░░░░░░░░░` |
-| **Padre** | `0.065` | `▓░░░░░░░░░` |
-| **Madre** | `0.038` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Muerte** | `0.451` | `▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.274` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.216` | `▓▓░░░░░░░░` |
+| **Padre** | `0.086` | `▓░░░░░░░░░` |
+| **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

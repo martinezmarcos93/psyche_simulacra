@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+import random as _random
 
 
 # ── Mutaciones léxicas para conocimiento muy degradado ────────────────────────
@@ -305,3 +306,155 @@ def _fidelity_multiplier(fidelidad: float) -> float:
     if fidelidad > 0.35:
         return fidelidad
     return 0.0
+
+
+# ── R5-B1: Artefactos de conocimiento ────────────────────────────────────────
+
+_ARTIFACT_DECAY_RATE       = 0.0008  # pérdida de integridad diaria
+_ARTIFACT_MIN_INTEGRIDAD   = 0.08    # por debajo se desintegra el artefacto
+_ARTIFACT_LEARN_PROB       = 0.006   # prob/día de que un agente aprenda del artefacto
+_ARTIFACT_FIDELIDAD_FACTOR = 0.65    # aprender del objeto es menos fiel que de un maestro
+_ARTIFACT_MIN_FIDELIDAD    = 0.60    # fidelidad mínima para que un agente deje artefacto
+
+
+@dataclass
+class KnowledgeArtifact:
+    """Objeto físico que materializa un conocimiento técnico."""
+    knowledge_name: str
+    fidelidad_base: float          # fidelidad del conocimiento en el momento de creación
+    coord:          tuple[int, int]
+    tribu_origen:   str | None
+    dia_creacion:   int
+    integridad:     float = 1.0    # degradación física (0 → desaparece)
+    n_learners:     int   = 0      # cuántos agentes han aprendido de él
+
+
+class ArtifactSystem:
+    """
+    R5-B1: Herramientas como conocimiento materializado.
+
+    Los agentes con alta fidelidad en conocimientos de construcción/subsistencia
+    dejan artefactos físicos al construir. Esos artefactos persisten en el hex
+    y pueden transmitir conocimiento a futuros visitantes con fidelidad reducida.
+
+    Fenómenos emergentes:
+    - Un agente que llega a hex desconocido encuentra herramientas extrañas → curiosidad.
+    - El conocimiento viaja en el espacio aunque no haya enseñanza directa.
+    - Artefactos degradados enseñan versiones erróneas → superstición técnica.
+    """
+
+    def __init__(self) -> None:
+        self._artifacts: dict[tuple[int, int], list[KnowledgeArtifact]] = {}
+
+    def deposit(
+        self,
+        coord:          tuple[int, int],
+        knowledge_name: str,
+        fidelidad:      float,
+        tribu:          str | None,
+        dia:            int,
+    ) -> KnowledgeArtifact | None:
+        """Deposita un artefacto si la fidelidad del creador es suficiente."""
+        if fidelidad < _ARTIFACT_MIN_FIDELIDAD:
+            return None
+        art = KnowledgeArtifact(
+            knowledge_name = knowledge_name,
+            fidelidad_base = fidelidad,
+            coord          = coord,
+            tribu_origen   = tribu,
+            dia_creacion   = dia,
+        )
+        self._artifacts.setdefault(coord, []).append(art)
+        return art
+
+    def try_learn(
+        self,
+        coord:      tuple[int, int],
+        agent_id:   str,
+        knowledge:  "KnowledgeSystem",
+        rng,
+    ) -> list[str]:
+        """
+        Intenta que un agente aprenda de los artefactos en el hex.
+        Devuelve lista de nombres de conocimiento aprendidos.
+        """
+        arts = self._artifacts.get(coord, [])
+        learned: list[str] = []
+        for art in arts:
+            if art.integridad < _ARTIFACT_MIN_INTEGRIDAD:
+                continue
+            if knowledge.has(agent_id, art.knowledge_name):
+                continue
+            if rng.random() >= _ARTIFACT_LEARN_PROB * art.integridad:
+                continue
+            fidelidad_efectiva = art.fidelidad_base * _ARTIFACT_FIDELIDAD_FACTOR
+            import copy
+            lin = KnowledgeLineage(
+                nombre_original = art.knowledge_name,
+                nombre_actual   = art.knowledge_name,
+                fidelidad       = fidelidad_efectiva,
+                linaje_id       = knowledge._new_linaje_id(),
+            )
+            ku = _ALL_KNOWLEDGE.get(art.knowledge_name)
+            if ku is not None:
+                lin.aplicar_degradacion(ku.complejidad, 0.0)
+            knowledge._agent_knowledge.setdefault(agent_id, set()).add(art.knowledge_name)
+            knowledge._agent_lineages.setdefault(agent_id, {})[art.knowledge_name] = lin
+            art.n_learners += 1
+            learned.append(art.knowledge_name)
+        return learned
+
+    def get_artifacts(self, coord: tuple[int, int]) -> list[KnowledgeArtifact]:
+        return [a for a in self._artifacts.get(coord, []) if a.integridad >= _ARTIFACT_MIN_INTEGRIDAD]
+
+    def on_day(self) -> None:
+        """Degradación diaria. Elimina artefactos desintegrados."""
+        to_clean: list[tuple[int, int]] = []
+        for coord, arts in self._artifacts.items():
+            alive = []
+            for a in arts:
+                a.integridad = max(0.0, a.integridad - _ARTIFACT_DECAY_RATE)
+                if a.integridad >= _ARTIFACT_MIN_INTEGRIDAD:
+                    alive.append(a)
+            if alive:
+                self._artifacts[coord] = alive
+            else:
+                to_clean.append(coord)
+        for c in to_clean:
+            del self._artifacts[c]
+
+    def to_dict(self) -> dict:
+        return {
+            f"{q},{r}": [
+                {
+                    "knowledge_name": a.knowledge_name,
+                    "fidelidad_base": a.fidelidad_base,
+                    "tribu_origen":   a.tribu_origen,
+                    "dia_creacion":   a.dia_creacion,
+                    "integridad":     a.integridad,
+                    "n_learners":     a.n_learners,
+                }
+                for a in arts
+            ]
+            for (q, r), arts in self._artifacts.items()
+            if arts
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "ArtifactSystem":
+        as_ = cls()
+        for key, arts_data in data.items():
+            q, r = (int(x) for x in key.split(","))
+            coord = (q, r)
+            for ad in arts_data:
+                art = KnowledgeArtifact(
+                    knowledge_name = ad["knowledge_name"],
+                    fidelidad_base = float(ad["fidelidad_base"]),
+                    coord          = coord,
+                    tribu_origen   = ad.get("tribu_origen"),
+                    dia_creacion   = int(ad["dia_creacion"]),
+                    integridad     = float(ad.get("integridad", 1.0)),
+                    n_learners     = int(ad.get("n_learners", 0)),
+                )
+                as_._artifacts.setdefault(coord, []).append(art)
+        return as_

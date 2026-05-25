@@ -18,7 +18,8 @@ from core.social.social_roles import SocialRole
 from core.social.tribe_manager import TribeManager
 from core.world.culture_engine import CultureEngine
 from core.social.genealogy import LineageGraph
-from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE, _DISCOVERY_TRIGGERS
+from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE, _DISCOVERY_TRIGGERS, ArtifactSystem
+from core.social.emergent_lexicon import EmergentLexiconSystem
 from core.world.substances import SUBSTANCES
 from .psyche.episodic_memory import EpisodicMemory, MemoryRecord
 from .psyche.dissociation import DissociativeState, select_tipo, ANSIEDAD_UMBRAL, DIAS_UMBRAL, DIAS_PERMANENCIA
@@ -137,6 +138,10 @@ class AgentCore:
         self._tribal_attacks: dict[str, list[int]] = {}
         # Sistema de conocimiento técnico (Hito 10)
         self.knowledge = KnowledgeSystem()
+        # R5-B1: artefactos físicos que materializan conocimiento
+        self.artifacts = ArtifactSystem()
+        # R5-A4: lenguaje emergente — proto-vocabulario tribal
+        self.emergent_lexicon = EmergentLexiconSystem()
         # Presencias ancestrales: duelos tribales sin cierre ritual (Hito K)
         self._tribe_unprocessed_griefs: dict[str, list[UnprocessedGrief]] = {}
         # Proto-chamanismo: rol emergente de mediación simbólica (Ext. B)
@@ -391,6 +396,9 @@ class AgentCore:
         # 16. Disonancia cognitiva: mito activo + muertes → reforma religiosa (Hito 9)
         self._process_cognitive_dissonance(tp.dia_simulado)
 
+        # 16b. Muerte cultural y colapso civilizatorio — R5-D3
+        self._process_cultural_collapse(tp.dia_simulado)
+
         # 17a. Descubrimiento accidental de conocimiento técnico (Hito 10)
         self._process_knowledge_discovery(tp)
 
@@ -406,11 +414,27 @@ class AgentCore:
         # 17e. Economía simbólica: deuda ritual y prestigio (R5-D2)
         self._process_symbolic_economy(tp.dia_simulado)
 
+        # 17f. Imprinting infantil y desarrollo por fases (R5-A2)
+        self._process_infant_imprinting(tp.dia_simulado)
+
+        # 17g. Geografía psicológica — efectos de marcas en hex (R5-B3)
+        self._process_psychic_geography(tp.dia_simulado)
+
+        # 17h. Lenguaje emergente — nombramiento de símbolos dominantes (R5-A4)
+        self.emergent_lexicon.on_day(
+            self.tribe_manager.local_fields,
+            self.tribe_manager.cultural_memories,
+            tp.dia_simulado,
+        )
+
         # 18. Re-vivencias de memoria episódica — Hito A (Roadmap 4)
         self._process_episodic_revivals(tp.dia_simulado)
 
         # 19. Disociación por sombra y cascada de estrés — Hito B (Roadmap 4)
         self._process_dissociation(tp.dia_simulado)
+
+        # 19b. Error cognitivo profundo ampliado — R5-D1
+        self._process_cognitive_errors(tp.dia_simulado)
 
         # 20. Duelo diferenciado y ritual funerario emergente — Hito J (Roadmap 4)
         self._process_grief(tp.dia_simulado)
@@ -432,6 +456,9 @@ class AgentCore:
 
         # 26. Roles sociales emergentes — Hito H
         self._process_social_roles(tp.dia_simulado)
+
+        # 27. R5-B2: bonus de refugio nocturno + actualizar coords ocupadas para WorldCore
+        self._process_structure_effects(tp.dia_simulado)
 
     # ── Helpers ciclo de vida ─────────────────────────────────────────────────
 
@@ -575,6 +602,33 @@ class AgentCore:
 
         # Hito C: transferir objetos sagrados del fallecido
         self._transfer_objects_on_death(agent.id, tp.dia_simulado)
+
+        # R5-A2: trauma infantil por muerte de figura de apego
+        for child in self.agents.values():
+            if (child.is_alive
+                    and child.fase_desarrollo == "niñez"
+                    and child._figura_apego_id == agent.id):
+                child.complexes.abandono = min(1.0, child.complexes.abandono + 0.50)
+                child.ansiedad           = min(1.0, child.ansiedad + 0.40)
+                child.episodic_memory.record(MemoryRecord(
+                    tipo_evento          = "trauma_abandono_infantil",
+                    intensidad_emocional = 0.95,
+                    dia_origen           = tp.dia_simulado,
+                    agente_protagonista  = agent.nombre,
+                    arquetipo_dominante  = "sombra",
+                ))
+                child.episodic_log.append(
+                    f"Día {tp.dia_simulado}: Mi figura de apego, {agent.nombre}, falleció."
+                )
+
+        # R5-B3: registrar la muerte en la geografía psíquica del hex
+        if hasattr(self.world_ref, "psychic_geography"):
+            tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+            self.world_ref.psychic_geography.register_death(
+                coord = agent.posicion,
+                dia   = tp.dia_simulado,
+                tribu = tribe_id,
+            )
 
     # ── Hito A: Memorias Persistentes y Trauma que Regresa ───────────────────
 
@@ -1149,6 +1203,69 @@ class AgentCore:
                 residual = (1.0 - other.archetypes.sabio) * 0.25
                 other.ansiedad = min(1.0, other.ansiedad + residual)
             break  # un solo intento por día
+
+    # ── R5-D1: Error Cognitivo Profundo Ampliado ──────────────────────────────
+
+    def _process_cognitive_errors(self, dia: int) -> None:
+        """
+        Tres mecánicas de error cognitivo emergente:
+
+        1. Superstición causal: agente con ansiedad alta + evento reciente
+           atribuye causas falsas → mito-presión + tabú spatial.
+        2. Sesgo de confirmación: agente con mito activo + confusión alta
+           suprime evidencia contradictoria → confusion se autoamplifica.
+        3. Contagio cognitivo: agente disociado en hex compartido → vecinos
+           absorben mayor ansiedad si tienen bond > 0.30.
+        """
+        _SUPERST_ANSIEDAD_MIN  = 0.65
+        _SUPERST_PROB          = 0.04
+        _CONFIRM_CONFUSION_MIN = 0.55
+        _CONFIRM_PROB          = 0.06
+        _CONTAGIO_BOND_MIN     = 0.30
+        _CONTAGIO_DELTA        = 0.025
+
+        by_pos: dict[tuple, list] = {}
+        for ag in self.agents.values():
+            if ag.is_alive and not ag.es_infante:
+                by_pos.setdefault(ag.posicion, []).append(ag)
+
+        for agent in self.agents.values():
+            if not agent.is_alive or agent.es_infante:
+                continue
+
+            lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+
+            # 1. Superstición causal
+            if (agent.ansiedad >= _SUPERST_ANSIEDAD_MIN
+                    and self._rng.random() < _SUPERST_PROB):
+                lf.myth_pressure = min(1.0, lf.myth_pressure + 0.025)
+                lf.confusion     = min(1.0, lf.confusion     + 0.015)
+                # Tabú espacial emergente: el hex actual se vuelve "sospechoso"
+                if hasattr(self.world_ref, "psychic_geography"):
+                    self.world_ref.psychic_geography.boost(
+                        agent.posicion, "zona_traumatica", 0.04
+                    )
+
+            # 2. Sesgo de confirmación (mito activo + confusión alta)
+            if (lf.confusion >= _CONFIRM_CONFUSION_MIN
+                    and len(self.mythology_engine.active_myths) > 0
+                    and self._rng.random() < _CONFIRM_PROB):
+                lf.confusion = min(1.0, lf.confusion + 0.020)
+                agent.ansiedad = max(0.0, agent.ansiedad - 0.010)
+
+        # 3. Contagio cognitivo de agentes disociados
+        for pos, group in by_pos.items():
+            disociados = [a for a in group if a.dissociation_state is not None]
+            if not disociados:
+                continue
+            for ag_sano in group:
+                if ag_sano.dissociation_state is not None:
+                    continue
+                for dis in disociados:
+                    bond = self.social_network.get_bond(ag_sano.id, dis.id)
+                    if bond >= _CONTAGIO_BOND_MIN:
+                        ag_sano.ansiedad = min(1.0, ag_sano.ansiedad + _CONTAGIO_DELTA * bond)
+                        break  # un solo contagio por día por agente
 
     # ── Hito I: Rencores, Cismas y Cascadas de Lealtad ───────────────────────
 
@@ -2512,7 +2629,55 @@ class AgentCore:
 
         # ── Registro genealógico (Hito 7) ────────────────────────────────────
         tribe_nac = tribe_a or tribe_b or ""
-        self.lineage.register(hijo_id, parent_a.id, parent_b.id, dia, tribe_nac)
+        self.lineage.register(
+            hijo_id, parent_a.id, parent_b.id, dia, tribe_nac,
+            dominant_arch=child.archetypes.dominant(),
+        )
+
+        # ── R5-A3: Arquetipos recesivos de abuelos ────────────────────────────
+        # Si un abuelo tenía un arquetipo muy fuerte que los padres no heredaron,
+        # puede re-emerger en el nieto con probabilidad reducida.
+        _RECESSIVE_PROB    = 0.20
+        _RECESSIVE_THRESH  = 0.68   # abuelo debe tener arquetipo ≥ este nivel
+        _PARENT_SUPPRESSED = 0.40   # ambos padres deben estar por debajo
+        _RECESSIVE_VALUE   = 0.45   # valor que hereda el nieto si el rasgo re-emerge
+
+        grandparent_ids: set[str] = set()
+        for parent_id in (parent_a.id, parent_b.id):
+            prec = self.lineage.records.get(parent_id)
+            if prec:
+                for gp in (prec.parent_a, prec.parent_b):
+                    if gp:
+                        grandparent_ids.add(gp)
+
+        for gp_id in grandparent_ids:
+            gp_agent = self.agents.get(gp_id)
+            gp_rec   = self.lineage.records.get(gp_id)
+            if gp_agent is None and gp_rec is None:
+                continue
+            # Obtener arquetipos del abuelo (vivo → directo; muerto → dominant_arch del registro)
+            if gp_agent is not None and gp_agent.is_alive:
+                for raw_name in ARCHETYPE_NAMES:
+                    attr = "self_" if raw_name == "self" else raw_name
+                    gp_val = getattr(gp_agent.archetypes, attr, 0.0)
+                    if gp_val < _RECESSIVE_THRESH:
+                        continue
+                    pa_val = getattr(parent_a.archetypes, attr, 1.0)
+                    pb_val = getattr(parent_b.archetypes, attr, 1.0)
+                    if pa_val > _PARENT_SUPPRESSED or pb_val > _PARENT_SUPPRESSED:
+                        continue
+                    if self._rng.random() < _RECESSIVE_PROB:
+                        current = getattr(child.archetypes, attr, 0.0)
+                        setattr(child.archetypes, attr, max(current, _RECESSIVE_VALUE))
+            elif gp_rec is not None:
+                # Abuelo muerto: solo su dominant_arch puede re-emerger
+                attr = "self_" if gp_rec.dominant_arch == "self" else gp_rec.dominant_arch
+                pa_val = getattr(parent_a.archetypes, attr, 1.0)
+                pb_val = getattr(parent_b.archetypes, attr, 1.0)
+                if pa_val <= _PARENT_SUPPRESSED and pb_val <= _PARENT_SUPPRESSED:
+                    if self._rng.random() < _RECESSIVE_PROB * 0.5:
+                        current = getattr(child.archetypes, attr, 0.0)
+                        setattr(child.archetypes, attr, max(current, _RECESSIVE_VALUE - 0.08))
 
         # ── Herencia de bonds: el hijo conoce a los amigos de sus padres (Hito 7) ──
         for other_id in list(self.agents):
@@ -3050,6 +3215,19 @@ class AgentCore:
                     intensidad          = ended.severidad,
                 )
 
+            # R5-B3: marcar cicatriz ecológica/traumática en hexes ocupados por agentes vivos
+            if hasattr(self.world_ref, "psychic_geography"):
+                occupied: set[tuple[int, int]] = {
+                    a.posicion for a in self.agents.values() if a.is_alive
+                }
+                for coord in occupied:
+                    self.world_ref.psychic_geography.register_catastrophe(
+                        coord = coord,
+                        tipo  = ended.tipo,
+                        sev   = ended.severidad,
+                        dia   = dia,
+                    )
+
     # ── Hito 6: Fauna como Actor Simbólico ───────────────────────────────────
 
     def _process_symbolic_fauna(self, tp: TimePoint, fauna_sys) -> None:
@@ -3160,6 +3338,63 @@ class AgentCore:
                         dist = abs(gcoord[0] - fcoord[0]) + abs(gcoord[1] - fcoord[1])
                         if dist <= 3:
                             graves.boost_at(gcoord, delta=0.02)
+
+        # ── 2b. Bestias míticas únicas (R4-D) ─────────────────────────────────
+        for fauna_info in fauna_activa:
+            if fauna_info.get("tipo") != "bestia_mitica":
+                continue
+            nombre = fauna_info.get("nombre", "")
+            fcoord = tuple(fauna_info.get("coord", [0, 0]))
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+                dist = abs(agent.posicion[0] - fcoord[0]) + abs(agent.posicion[1] - fcoord[1])
+                if dist > 6:
+                    continue
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id) or ""
+                fauna_sys.register_sighting(tribe_id, nombre)
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + 0.55 * 0.20)
+                lf.symbols["sombra"] = min(1.0, lf.symbols.get("sombra", 0.0) + 0.12)
+                lf.symbols["muerte"] = min(1.0, lf.symbols.get("muerte", 0.0) + 0.08)
+
+        # Bestias olvidadas: registrar en CulturalMemory + PsychicGeography
+        fauna_events = getattr(self.world_ref, "_fauna_events", [])
+        for ev in fauna_events:
+            if ev.get("tipo") != "bestia_olvidada":
+                continue
+            nombre  = ev.get("nombre", "bestia")
+            ev_dia  = ev.get("dia",    tp.dia_simulado)
+            ev_coord = tuple(ev.get("coord", [0, 0]))
+            # Registrar en todas las tribus que la observaron
+            for tribe_id in list(self.tribe_manager.tribes.keys()):
+                cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                if cmem is None:
+                    continue
+                obs = fauna_sys._tribe_obs.get(tribe_id, {}).get(nombre, 0)
+                if obs == 0:
+                    continue
+                cmem.record_event(
+                    dia                 = ev_dia,
+                    agente_nombre       = "colectivo",
+                    arquetipo_dominante = "muerte",
+                    tipo_evento         = "bestia_olvidada",
+                    descripcion         = (
+                        f"El {nombre} desapareció el día {ev_dia}. "
+                        f"Ya nadie lo volvió a ver. Su memoria se convierte en leyenda."
+                    ),
+                    intensidad          = 0.80,
+                )
+            # Marcar el hex donde vivía como lugar_sagrado/zona_maldita
+            pg = getattr(self.world_ref, "psychic_geography", None)
+            if pg is not None:
+                pg.register_mark(
+                    coord       = ev_coord,
+                    tipo        = "lugar_sagrado",
+                    carga       = 0.70,
+                    dia         = ev_dia,
+                    descripcion = f"El {nombre}, bestia olvidada, habitó aquí.",
+                )
 
         # ── 3. Fauna migratoria recurrente → proto-calendario ─────────────────
         for fauna_info in fauna_activa:
@@ -3590,6 +3825,134 @@ class AgentCore:
                 intensidad=0.65,
             )
 
+    # ── R5-D3: Muerte cultural y colapso civilizatorio ────────────────────────
+
+    def _process_cultural_collapse(self, dia: int) -> None:
+        """
+        Una tribu entra en colapso cultural cuando pierde:
+        - La mayoría de su conocimiento técnico (extinción epistémica), O
+        - Todos sus mitos activos (vacío simbólico), O
+        - Todos sus miembros excepto 1-2 (extinción demográfica inminente).
+
+        Efectos del colapso:
+        1. El campo local sufre un reset traumático (alta confusión + mito_pressure residual).
+        2. Los hexes donde vivía la tribu se marcan como ruinas en PsychicGeography.
+        3. Los miembros supervivientes cargan un nuevo complejo de abandono.
+        4. Las estructuras de la tribu pasan a "abandonadas" en PersistentStructureSystem.
+        5. Se registra en CulturalMemory como evento histórico permanente.
+        """
+        _COLLAPSE_MIN_MEMBERS    = 2    # menos de esto → colapso demográfico
+        _COLLAPSE_MIN_KNOWLEDGE  = 1    # menos de este n° de saberes vivos → epistémico
+        _COLLAPSE_ANSIEDAD_BONUS = 0.40
+
+        pg  = getattr(self.world_ref, "psychic_geography",    None)
+        pss = getattr(self.world_ref, "persistent_structures", None)
+
+        for tribe_id, members in list(self.tribe_manager.tribes.items()):
+            alive = [
+                aid for aid in members
+                if self.agents.get(aid) and self.agents[aid].is_alive
+            ]
+            if not alive:
+                continue
+
+            # Verificar si ya se registró un colapso reciente (últimos 90 días)
+            cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem is not None:
+                recent_collapse = [
+                    r for r in cmem.records
+                    if r.tipo_evento == "colapso_civilizatorio"
+                    and dia - r.dia_origen < 90
+                ]
+                if recent_collapse:
+                    continue
+
+            # ── Condiciones de colapso ─────────────────────────────────────────
+            colapso_demografico   = len(alive) < _COLLAPSE_MIN_MEMBERS
+            colapso_epistemico    = sum(
+                1 for aid in alive
+                if self.knowledge.knowledge_count(aid) > 0
+            ) < _COLLAPSE_MIN_KNOWLEDGE
+            colapso_simbolico     = (
+                len(self.mythology_engine.active_myths) == 0
+                and len(alive) <= 3
+            )
+
+            if not (colapso_demografico or colapso_epistemico or colapso_simbolico):
+                continue
+
+            # ── Determinar tipo de colapso ─────────────────────────────────────
+            if colapso_demografico:
+                tipo_colapso = "colapso_demografico"
+                descripcion  = (
+                    f"La tribu {tribe_id} quedó con {len(alive)} supervivientes "
+                    f"el día {dia}. Su civilización se disuelve."
+                )
+            elif colapso_epistemico:
+                tipo_colapso = "colapso_epistemico"
+                descripcion  = (
+                    f"La tribu {tribe_id} perdió todo su conocimiento técnico "
+                    f"el día {dia}. El saber se extinguió con sus portadores."
+                )
+            else:
+                tipo_colapso = "colapso_simbolico"
+                descripcion  = (
+                    f"La tribu {tribe_id} perdió todos sus mitos activos "
+                    f"el día {dia}. El vacío simbólico es total."
+                )
+
+            # ── Efectos en el campo local ──────────────────────────────────────
+            lf = self.tribe_manager.local_fields.get(tribe_id)
+            if lf is not None:
+                lf.confusion     = min(1.0, lf.confusion     + 0.45)
+                lf.myth_pressure = max(0.0, lf.myth_pressure - 0.20)
+                lf.absorb_trauma("muerte_masiva", intensity=0.90)
+
+            # ── Efectos en supervivientes ──────────────────────────────────────
+            for aid in alive:
+                agent = self.agents[aid]
+                agent.ansiedad           = min(1.0, agent.ansiedad + _COLLAPSE_ANSIEDAD_BONUS)
+                agent.complexes.abandono = min(1.0, agent.complexes.abandono + 0.35)
+                agent.episodic_log.append(
+                    f"Día {dia}: El colapso de nuestra tribu. Solo quedamos {len(alive)}."
+                )
+                agent.episodic_memory.record(MemoryRecord(
+                    tipo_evento          = "colapso_civilizatorio",
+                    intensidad_emocional = 0.95,
+                    dia_origen           = dia,
+                    agente_protagonista  = tribe_id,
+                    arquetipo_dominante  = "muerte",
+                ))
+
+            # ── Marcar hexes tribales como ruinas ─────────────────────────────
+            tribal_coords: set[tuple[int, int]] = {
+                self.agents[aid].posicion for aid in alive
+            }
+            if pg is not None:
+                for coord in tribal_coords:
+                    pg.register_ruin(coord=coord, dia=dia, tribu_caida=tribe_id)
+
+            # ── Pasar estructuras a "abandonadas" ─────────────────────────────
+            if pss is not None:
+                for coord, structs in pss._structures.items():
+                    for s in structs:
+                        if s.tribu_origen == tribe_id and s.estado == "activo":
+                            s.estado = "abandonado"
+
+            # ── Registro histórico ─────────────────────────────────────────────
+            if cmem is not None:
+                cmem.record_event(
+                    dia                 = dia,
+                    agente_nombre       = "colectivo",
+                    arquetipo_dominante = "muerte",
+                    tipo_evento         = "colapso_civilizatorio",
+                    descripcion         = descripcion,
+                    intensidad          = 1.00,
+                )
+
+            # ── Presión al campo colectivo global ──────────────────────────────
+            self.collective_field.absorb_trauma("muerte_masiva", intensity=0.70)
+
     # ── Fin Hito 9 ─────────────────────────────────────────────────────────────
 
     # ── Hito 10: Tecnología Emergente y Asimetría de Conocimiento ─────────────
@@ -3899,6 +4262,185 @@ class AgentCore:
                                 intensidad          = 0.45,
                             )
 
+                        # R5-A4: spread léxico en contacto inter-tribal
+                        if t_tribe and s_tribe:
+                            self.emergent_lexicon.spread_across_tribes(t_tribe, s_tribe)
+
+    # ── R5-A2: Infancia, Desarrollo e Imprinting ─────────────────────────────
+
+    def _process_infant_imprinting(self, dia: int) -> None:
+        """
+        Durante la niñez (edad < 6): el agente con mayor bond entrante hacia
+        el infante se convierte en su figura de apego. Su arquetipo dominante
+        se imprime con plasticidad = 1 - (edad / 6). Al entrar en adolescencia
+        (6-14), el arquetipo dominante del ICL tribal sesga la cristalización.
+        Al entrar en la adultez (15), el imprinting se bloquea definitivamente.
+
+        Trauma infantil: si la figura de apego muere mientras el infante está
+        en niñez, se activa el complejo de abandono a nivel máximo.
+        """
+        _PLASTICITY_NINEZ = 6.0  # años de alta plasticidad
+        _ARCH_ATTRS = [
+            "heroe", "sombra", "madre", "padre", "sabio",
+            "trickster", "rebelde", "gobernante", "nino_divino",
+        ]
+
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+
+            fase = agent.fase_desarrollo
+
+            # Bloquear imprinting una vez adulto
+            if fase == "adulto" and not agent._imprinting_locked:
+                agent._imprinting_locked = True
+                continue
+            if agent._imprinting_locked:
+                continue
+
+            if fase == "niñez":
+                plasticity = max(0.0, 1.0 - agent.edad / _PLASTICITY_NINEZ)
+                if plasticity < 0.02:
+                    continue
+
+                # Encontrar figura de apego (agente con mayor bond hacia el infante)
+                mejor_bond, mejor_id = 0.0, None
+                for oid in self.agents:
+                    if oid == agent.id:
+                        continue
+                    b = self.social_network.get_bond(oid, agent.id)
+                    if b > mejor_bond:
+                        mejor_bond, mejor_id = b, oid
+
+                if mejor_id is None:
+                    continue
+                agent._figura_apego_id = mejor_id
+                figura = self.agents[mejor_id]
+                if not figura.is_alive:
+                    continue
+
+                # Imprinting: arquetipo dominante de la figura de apego se imprime
+                arch_apego = figura.archetypes.dominant()
+                attr = "self_" if arch_apego == "self" else arch_apego
+                current = getattr(agent.archetypes, attr, 0.3)
+                delta   = mejor_bond * plasticity * 0.012
+                setattr(agent.archetypes, attr, min(1.0, current + delta))
+
+            elif fase == "adolescencia":
+                # En adolescencia: cristalización por contexto tribal
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                lf = self.tribe_manager.local_fields.get(tribe_id) if tribe_id else None
+                if lf is None:
+                    continue
+                dom_arch, _ = lf.dominant_archetype_pair()
+                attr = "self_" if dom_arch == "self" else dom_arch
+                current = getattr(agent.archetypes, attr, 0.3)
+                # Efecto débil: el contexto tribal sesga ligeramente el arquetipo
+                setattr(agent.archetypes, attr, min(1.0, current + 0.002))
+
+    # ── R5-B3: Geografía Psicológica ──────────────────────────────────────────
+
+    def _process_psychic_geography(self, dia: int) -> None:
+        """
+        Aplica los efectos de las marcas psíquicas del hex donde está cada agente.
+
+        Los agentes no saben por qué sienten lo que sienten — los efectos llegan
+        como ansiedad inexplicable, confusión o mito-presión elevada.
+        Eso genera superstición y tabú espacial de forma emergente.
+        """
+        if not hasattr(self.world_ref, "psychic_geography"):
+            return
+        pg = self.world_ref.psychic_geography
+
+        for agent in self.agents.values():
+            if not agent.is_alive or agent.in_liminal:
+                continue
+
+            effect = pg.get_effect(agent.posicion)
+            if not effect:
+                continue
+
+            agent.ansiedad = min(1.0, agent.ansiedad + effect.get("ansiedad_delta", 0.0))
+
+            myth_delta = effect.get("myth_pressure_delta", 0.0)
+            if myth_delta > 0:
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + myth_delta * 0.5)
+
+            confusion_delta = effect.get("confusion_delta", 0.0)
+            if confusion_delta > 0:
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.confusion = min(1.0, lf.confusion + confusion_delta * 0.5)
+
+            if effect.get("es_maldita") and agent._rng.random() < 0.002:
+                self._register_death(agent, type("_TP", (), {
+                    "tick": dia * 12,
+                    "dia_simulado": dia,
+                    "hora_del_dia": 0,
+                    "estacion": "desconocida",
+                })(), "muerte_inexplicable_zona_maldita")
+
+    # ── R5-B2: Estructuras Persistentes ──────────────────────────────────────
+
+    def _process_structure_effects(self, dia: int) -> None:
+        """
+        Aplica el bonus de refugio y gestiona artefactos de conocimiento (R5-B1/B2).
+        Actualiza las coords ocupadas en WorldCore para el ciclo diario de estructuras.
+        """
+        pss = getattr(self.world_ref, "persistent_structures", None)
+
+        occupied: set[tuple[int, int]] = set()
+        for agent in self.agents.values():
+            if not agent.is_alive:
+                continue
+            occupied.add(agent.posicion)
+
+            # R5-B2: bonus de refugio nocturno
+            if pss is not None:
+                bonus = pss.shelter_bonus(agent.posicion)
+                if bonus > 0:
+                    agent.ansiedad = max(0.0, agent.ansiedad - bonus)
+
+            # R5-B1: agente habilidoso en hex con estructura → deposita artefacto (prob baja)
+            if (pss is not None
+                    and pss.has_active(agent.posicion, "refugio")
+                    and self.knowledge.has(agent.id, "tecnica_constructiva")
+                    and self._rng.random() < 0.003):
+                fidelidad = self.knowledge.get_fidelity(agent.id, "tecnica_constructiva")
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                self.artifacts.deposit(
+                    coord          = agent.posicion,
+                    knowledge_name = "tecnica_constructiva",
+                    fidelidad      = fidelidad,
+                    tribu          = tribe_id,
+                    dia            = dia,
+                )
+
+            # R5-B1: agente en hex con artefactos → intenta aprender
+            learned = self.artifacts.try_learn(agent.posicion, agent.id, self.knowledge, self._rng)
+            for kname in learned:
+                tribe_id = self.tribe_manager.get_tribe_id(agent.id)
+                if tribe_id:
+                    cmem = self.tribe_manager.cultural_memories.get(tribe_id)
+                    if cmem is not None:
+                        cmem.record_event(
+                            dia                 = dia,
+                            agente_nombre       = agent.nombre,
+                            arquetipo_dominante = "sabio",
+                            tipo_evento         = "aprendizaje_artefacto",
+                            descripcion         = (
+                                f"{agent.nombre} aprendió '{kname}' de un artefacto "
+                                f"dejado por antepasados en el día {dia}."
+                            ),
+                            intensidad          = 0.60,
+                        )
+
+        if hasattr(self.world_ref, "update_occupied_coords"):
+            self.world_ref.update_occupied_coords(occupied)
+
+        # Ciclo diario de artefactos
+        self.artifacts.on_day()
+
     # ── R5-D2: Economía Simbólica ─────────────────────────────────────────────
 
     def _process_symbolic_economy(self, dia: int) -> None:
@@ -4076,6 +4618,8 @@ class AgentCore:
             "sacred_objects":    [o.to_dict() for o in self._sacred_objects],
             "objeto_cooldown":   {k: int(v) for k, v in self._objeto_cooldown.items()},
             "social_roles":      [r.to_dict() for r in self._social_roles],
+            "artifacts":         self.artifacts.to_dict(),
+            "emergent_lexicon":  self.emergent_lexicon.to_dict(),
         }
 
     @classmethod
@@ -4146,6 +4690,12 @@ class AgentCore:
 
         if "social_roles" in data:
             core._social_roles = [SocialRole.from_dict(r) for r in data["social_roles"]]
+
+        if "artifacts" in data:
+            core.artifacts = ArtifactSystem.from_dict(data["artifacts"])
+
+        if "emergent_lexicon" in data:
+            core.emergent_lexicon = EmergentLexiconSystem.from_dict(data["emergent_lexicon"])
 
         return core
 

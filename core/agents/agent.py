@@ -29,6 +29,7 @@ _COMIDA_POR_RECOLECTA = 4.0
 _COMIDA_POR_CAZA      = 8.0
 _AGUA_POR_BEBER       = 5.0
 # Ciclo de vida
+_EDAD_NINEZ           = 6    # hasta esta edad: alta plasticidad, imprinting (R5-A2)
 _EDAD_INFANCIA        = 15   # antes de esta edad el agente es dependiente
 _EDAD_VEJEZ_INICIO    = 50   # a partir de aquí hay riesgo de muerte por vejez
 _PROB_BASE_VEJEZ      = 0.01 # probabilidad anual base; se duplica cada 5 años
@@ -101,6 +102,10 @@ class Agent:
         self.deuda_ritual:  dict[str, float] = {}  # other_id → intensidad de deuda (+ = debo yo)
         self.prestigio:     float = 0.0            # 0.0–1.0: capital simbólico acumulado
 
+        # Infancia y desarrollo (R5-A2)
+        self._figura_apego_id:    str | None = None   # agente con vínculo más fuerte durante niñez
+        self._imprinting_locked:  bool       = False  # True cuando la niñez terminó
+
         # Ciclo de vida
         self._padres:                tuple[str, str] | None = None
         self._cooldown_reproduccion: int = 0
@@ -135,6 +140,15 @@ class Agent:
     @property
     def es_infante(self) -> bool:
         return self.edad < _EDAD_INFANCIA
+
+    @property
+    def fase_desarrollo(self) -> str:
+        """'niñez' (< 6), 'adolescencia' (6-14), 'adulto' (≥ 15)."""
+        if self.edad < _EDAD_NINEZ:
+            return "niñez"
+        if self.edad < _EDAD_INFANCIA:
+            return "adolescencia"
+        return "adulto"
 
     def _need_factor(self) -> float:
         """Factor de decay de necesidades según edad. 0.2 en la infancia, 1.0 en adultos."""
