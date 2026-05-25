@@ -1147,7 +1147,7 @@ class AgentCore:
                 # Solo registrar una vez por estación (evitar spam)
                 existing = [r for r in cmem.records
                             if r.tipo_evento == "migracion_recurrente"
-                            and nombre in r.descripcion
+                            and nombre in r.descripcion_actual
                             and tp.dia_simulado - r.dia_origen <= 90]
                 if existing:
                     continue
@@ -1230,7 +1230,7 @@ class AgentCore:
                 if cmem is not None:
                     recientes = [r for r in cmem.records
                                  if r.tipo_evento == "traicion_vinculo"
-                                 and agent_a.nombre in r.descripcion
+                                 and agent_a.nombre in r.descripcion_actual
                                  and tp.dia_simulado - r.dia_origen < 30]
                     if not recientes:
                         cmem.record_event(
@@ -1411,7 +1411,7 @@ class AgentCore:
                 existing = [
                     r for r in cmem.records
                     if r.tipo_evento == "fracaso_ajeno"
-                    and oid in r.descripcion
+                    and oid in r.descripcion_actual
                     and dia - r.dia_origen < 10
                 ]
                 if not existing and self._rng.random() < 0.15:
@@ -1629,7 +1629,7 @@ class AgentCore:
                                     recientes = [
                                         r for r in cmem.records
                                         if r.tipo_evento == "transmision_conocimiento"
-                                        and kname in r.descripcion
+                                        and kname in r.descripcion_actual
                                         and dia - r.dia_origen < 30
                                     ]
                                     if not recientes:
@@ -1686,7 +1686,7 @@ class AgentCore:
                         existing = [
                             r for r in cmem.records
                             if r.tipo_evento == "especialista_emergente"
-                            and aid in r.descripcion
+                            and aid in r.descripcion_actual
                             and dia - r.dia_origen < 60
                         ]
                         if not existing:

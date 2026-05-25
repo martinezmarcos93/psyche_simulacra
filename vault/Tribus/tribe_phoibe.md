@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Madre
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[phoibe]] (Phoibe) | generico | 27 | madre |
+| [[phoibe]] (Phoibe) | generico | 27 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.780` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.249` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.927` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.754` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.247` | `▓▓░░░░░░░░` |
+| **Madre** | `0.124` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

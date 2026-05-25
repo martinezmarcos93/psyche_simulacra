@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Padre
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `360` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hakon]] (Hakon) | recolector | 33 | padre |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.433` `[▓▓▓▓▓░░░░░░░]`
+> **Presión emocional:** `0.754` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.527` | `▓▓▓▓▓░░░░░` |
-| **Sabio** | `0.080` | `▓░░░░░░░░░` |
+| **Sombra** | `0.754` | `▓▓▓▓▓▓▓▓░░` |
+| **Muerte** | `0.241` | `▓▓░░░░░░░░` |
+| **Trickster** | `0.097` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

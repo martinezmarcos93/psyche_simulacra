@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Padre
+# 🏕️ Tribu de la Madre
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `300` | **Miembros vivos:** `7`
 
 ---
 
@@ -8,7 +8,13 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[alcis]] (Alcis) | recolector | 51 | padre |
+| [[brysis]] (Brysis) | generico | 8 | madre |
+| [[hestia]] (Hestia) | recolector | 39 | self |
+| [[isidor]] (Isidor) | recolector | 38 | sombra |
+| [[ivar]] (Ivar) | recolector | 31 | sombra |
+| [[meroe]] (Meroe) | guardian | 29 | self |
+| [[orion]] (Orion) | cazador | 43 | self |
+| [[phoibos]] (Phoibos) | generico | 32 | self |
 
 ---
 
@@ -18,17 +24,17 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.185` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Muerte** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.796` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.754` | `▓▓▓▓▓▓▓▓░░` |
+| **Sabio** | `0.059` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

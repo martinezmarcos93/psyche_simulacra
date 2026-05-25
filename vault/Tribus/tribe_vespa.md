@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Madre
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,25 +8,25 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[vespa]] (Vespa) | recolector | 38 | madre |
+| [[vespa]] (Vespa) | recolector | 38 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.518` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.404` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.558` | `▓▓▓▓▓▓░░░░` |
-| **Trickster** | `0.325` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.701` | `▓▓▓▓▓▓▓░░░` |
+| **Sombra** | `0.428` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.350` | `▓▓▓▓░░░░░░` |
+| **Sabio** | `0.131` | `▓░░░░░░░░░` |
+| **Padre** | `0.061` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Sabio
+# 🏕️ Tribu de la Persona
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `127` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,28 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[meleager]] (Meleager) | explorador | 45 | sabio |
+| [[meleager]] (Meleager) | explorador | 45 | persona |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.886` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.432` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sabio** | `0.029` | `░░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.533` | `▓▓▓▓▓░░░░░` |
+| **Heroe** | `0.457` | `▓▓▓▓▓░░░░░` |
+| **Madre** | `0.228` | `▓▓░░░░░░░░` |
+| **Sabio** | `0.038` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.015` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

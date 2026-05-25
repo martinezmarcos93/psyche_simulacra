@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Trickster
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[kalliope]] (Kalliope) | recolector | 48 | trickster |
+| [[kalliope]] (Kalliope) | recolector | 48 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.739` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
-| **Madre** | `0.757` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.739` | `▓▓▓▓▓▓▓░░░` |
+| **Sombra** | `0.724` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.557` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.485` | `▓▓▓▓▓░░░░░` |
+| **Sabio** | `0.057` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

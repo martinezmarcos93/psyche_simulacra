@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Gobernante
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `120` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,28 +8,29 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hestia]] (Hestia) | recolector | 39 | gobernante |
+| [[hestia]] (Hestia) | recolector | 39 | self |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.683` `[▓▓▓▓▓▓▓▓░░░░]`
+> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Trickster** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.632` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.587` | `▓▓▓▓▓▓░░░░` |
-| **Gobernante** | `0.029` | `░░░░░░░░░░` |
+| **Sombra** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.120` | `▓░░░░░░░░░` |
+| **Sabio** | `0.080` | `▓░░░░░░░░░` |
+| **Madre** | `0.079` | `▓░░░░░░░░░` |
+| **Nino_divino** | `0.048` | `░░░░░░░░░░` |
+| **Gobernante** | `0.010` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

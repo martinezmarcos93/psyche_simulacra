@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Gobernante
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `2`
+> **Día:** `127` | **Miembros vivos:** `1`
 
 ---
 
@@ -9,7 +9,6 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[cephalos]] (Cephalos) | recolector | 30 | self |
-| [[selene]] (Selene) | recolector | 45 | gobernante |
 
 ---
 
@@ -20,13 +19,13 @@
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Gobernante** | `0.029` | `░░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.851` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.641` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.641` | `▓▓▓▓▓▓░░░░` |
+| **Gobernante** | `0.011` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

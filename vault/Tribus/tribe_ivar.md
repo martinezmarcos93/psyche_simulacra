@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `2`
+> **Día:** `127` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,27 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[ivar]] (Ivar) | recolector | 31 | heroe |
-| [[kimon]] (Kimon) | generico | 56 | padre |
+| [[ivar]] (Ivar) | recolector | 31 | self |
+| [[kimon]] (Kimon) | generico | 56 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.174` `[▓▓░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sabio** | `0.074` | `▓░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.229` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.144` | `▓░░░░░░░░░` |
+| **Sabio** | `0.114` | `▓░░░░░░░░░` |
+| **Heroe** | `0.026` | `░░░░░░░░░░` |
+| **Madre** | `0.013` | `░░░░░░░░░░` |
+| **Gobernante** | `0.003` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
-| **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 

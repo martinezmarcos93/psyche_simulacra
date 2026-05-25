@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `2`
+> **Día:** `30` | **Miembros vivos:** `2`
 
 ---
 
@@ -9,21 +9,21 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[jora]] (Jora) | cazador | 43 | self |
-| [[xanthos]] (Xanthos) | cazador | 50 | heroe |
+| [[xanthos]] (Xanthos) | cazador | 50 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.338` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.801` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.857` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.139` | `▓░░░░░░░░░` |
-| **Sombra** | `0.133` | `▓░░░░░░░░░` |
-| **Sabio** | `0.071` | `▓░░░░░░░░░` |
-| **Madre** | `0.069` | `▓░░░░░░░░░` |
+| **Sombra** | `0.801` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.668` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.089` | `▓░░░░░░░░░` |
+| **Sabio** | `0.045` | `░░░░░░░░░░` |
+| **Madre** | `0.045` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

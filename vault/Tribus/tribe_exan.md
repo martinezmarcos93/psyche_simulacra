@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `2`
+> **Día:** `30` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[exan]] (Exan) | generico | 21 | heroe |
+| [[exan]] (Exan) | generico | 21 | self |
 | [[talos]] (Talos) | cazador | 45 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.981` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Heroe** | `0.724` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.362` | `▓▓▓▓░░░░░░` |
+| **Trickster** | `0.129` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

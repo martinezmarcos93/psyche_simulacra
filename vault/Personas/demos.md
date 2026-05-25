@@ -4,36 +4,36 @@ nombre: Demos
 rol: cazador
 edad: 60
 sexo: M
-is_alive: True
-posicion: [43, 28]
-humor: 0.573
-energia: 0.171
-ansiedad: 0.698
+is_alive: False
+posicion: [59, 16]
+humor: 0.316
+energia: 0.220
+ansiedad: 0.855
 needs:
-  hambre: 0.164
+  hambre: 0.996
   fatiga: 0.775
-  sed: 0.673
-  sociabilidad: 0.080
-arquetipo_dominante: padre
-estado_conductual: manipulacion
+  sed: 1.000
+  sociabilidad: 0.420
+arquetipo_dominante: self
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.562
+  self: 1.000
   persona: 0.501
-  sombra: 0.297
-  anima_animus: 0.273
-  heroe: 0.410
-  sabio: 0.485
-  trickster: 0.338
-  madre: 0.393
-  padre: 0.793
-  nino_divino: 0.162
-  gobernante: 0.693
-  rebelde: 0.351
+  sombra: 0.439
+  anima_animus: 1.000
+  heroe: 0.500
+  sabio: 0.681
+  trickster: 0.340
+  madre: 0.664
+  padre: 0.771
+  nino_divino: 0.173
+  gobernante: 0.708
+  rebelde: 0.356
 ---
 # 👤 Persona: Demos
 
-> **Rol:** `cazador` | **Edad:** 60 | **Sexo:** M | **Ubicación:** `(43, 28)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `cazador` | **Edad:** 60 | **Sexo:** M | **Ubicación:** `(59, 16)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.57 |
-| **Energía** | `[▓▓░░░░░░░░]` | 0.17 |
-| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
+| **Humor** | `[▓▓▓░░░░░░░]` | 0.32 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.85 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓░░░░░░░░]` | 0.16 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓▓░░░]` | 0.67 | 🟢 Hidratado |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
 | **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
-| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
+| **Sociabilidad** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Conectado |
 
 ---
 
@@ -61,23 +61,23 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.562` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.297` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.273` | `▓▓▓░░░░░░░░░` |
-| **Heroe** | `0.410` | `▓▓▓▓▓░░░░░░░` |
-| **Sabio** | `0.485` | `▓▓▓▓▓▓░░░░░░` |
-| **Trickster** | `0.338` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.393` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.793` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Nino divino** | `0.162` | `▓▓░░░░░░░░░░` |
-| **Gobernante** | `0.693` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Rebelde** | `0.351` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.439` | `▓▓▓▓▓░░░░░░░` |
+| **Anima animus** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.681` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.340` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.664` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Padre** | `0.771` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Nino divino** | `0.173` | `▓▓░░░░░░░░░░` |
+| **Gobernante** | `0.708` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Rebelde** | `0.356` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
 | :--- | :---: | :--- | :---: |
-| Abandono | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
 | Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
 | Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
 | Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
@@ -91,29 +91,57 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[aglaia]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[kalliope]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[aglaia]] | `+0.10` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[bron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[calyce]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[cephalos]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
+| [[creon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erytheis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eudora]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[fyria]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hakon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hector]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ivar]] | `-0.99` | `░░░░░░░░░░` | Ninguno |
+| [[ixion]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[jora]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kalliope]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[kimon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lachesis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lakon]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
 | [[medon]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[zoia]] | `-0.17` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[nausicaa]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[nephele]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[oinone]] | `-0.88` | `▓░░░░░░░░░` | Ninguno |
+| [[okaios]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[peria]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[rheia]] | `-0.34` | `▓▓▓░░░░░░░` | Ninguno |
+| [[talos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ulax]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[uritha]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[wulfar]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[xanthe]] | `-0.19` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[yaron]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[zephyra]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[zoia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 3:** Soñó con `'ley_grabada_en_carne'` (arquetipo `padre`).
-  - *Insight:* En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
-- **Día 4:** Soñó con `'viento_que_borra'` (arquetipo `padre`).
-  - *Insight:* En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'herencia_pesada'` (arquetipo `padre`).
-  - *Insight:* En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
-- **Día 6:** Soñó con `'campo_interminable'` (arquetipo `padre`).
-  - *Insight:* En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
-- **Día 7:** Soñó con `'tormenta_controlada'` (arquetipo `padre`).
-  - *Insight:* El padre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 8:** Soñó con `'mano_que_cierra'` (arquetipo `padre`).
-  - *Insight:* El padre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- **Día 9:** Soñó con `'mano_que_cierra'` (arquetipo `padre`).
-  - *Insight:* En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
+- **Día 301:** Soñó con `'sombra_que_camina'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- **Día 302:** Soñó con `'reflejo_que_actúa_solo'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- **Día 303:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- **Día 304:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- **Día 305:** Soñó con `'descenso_inevitable'` (arquetipo `self`).
+  - *Insight:* El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- **Día 306:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- **Día 307:** Soñó con `'aplauso_vacío'` (arquetipo `self`).
+  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -137,3 +165,1208 @@ arquetipos:
 - Día 8: Se impuso competitivamente ante Zoia, absorbiendo sus recursos biológicos.
 - Día 8: Detectó y rechazó un intento de manipulación de Zoia.
 - Día 9: Soñó con 'mano_que_cierra' (padre). Insight: En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
+- Día 10: Soñó con 'ley_grabada_en_carne' (padre). Insight: En valle fertil, el padre encuentra tregua provisional con lo reprimido.
+- Día 10: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 10: Sufrió explotación y hostilidad de Nausicaa, cediendo recursos biológicos.
+- Día 11: Soñó con 'abundancia_que_pudre' (padre). Insight: En valle fertil, el padre encuentra tregua provisional con lo reprimido.
+- Día 12: Soñó con 'ley_grabada_en_carne' (padre). Insight: En valle fertil, el padre encuentra tregua provisional con lo reprimido.
+- Día 12: Intentó manipular a Erytheis, pero fue descubierto.
+- Día 13: Soñó con 'hierba_que_corta' (padre). Insight: El padre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 14: Soñó con 'mano_que_cierra' (padre). Insight: El padre busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 14: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 14: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 14: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 14: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 15: Soñó con 'abundancia_que_pudre' (padre). Insight: En valle fertil, el padre encuentra tregua provisional con lo reprimido.
+- Día 16: Soñó con 'hierba_que_corta' (padre). Insight: El padre busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 17: Soñó con 'campo_interminable' (padre). Insight: En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
+- Día 18: Soñó con 'herencia_pesada' (padre). Insight: En pradera humeda, el padre encuentra tregua provisional con lo reprimido.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 20: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 20: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 21: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 22: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 22: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 22: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 23: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 24: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 25: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 26: Soñó con 'calor_que_piensa' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 27: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 31: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 32: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 32: Se enfrentó en un choque violento y destructivo contra Oinone.
+- Día 32: Se enfrentó en un choque violento y destructivo contra Oinone.
+- Día 33: Soñó con 'sed_en_el_agua' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 33: Se enfrentó en un choque violento y destructivo contra Oinone.
+- Día 33: Se enfrentó en un choque violento y destructivo contra Oinone.
+- Día 34: Soñó con 'unión_imposible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 35: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 35: Detectó y rechazó un intento de manipulación de Rheia.
+- Día 36: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 36: Detectó y rechazó un intento de manipulación de Rheia.
+- Día 36: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 36: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 36: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 36: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 37: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 38: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 39: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 40: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 41: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 42: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 43: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 44: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 45: Soñó con 'sombra_que_camina' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 46: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 47: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 48: Soñó con 'olor_a_descomposición' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 49: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 50: Soñó con 'vista_engañosa' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 51: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 52: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 52: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Cedió ingenuamente ante la manipulación de Ulax.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 53: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 54: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 55: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 56: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 57: Soñó con 'silencio_pleno' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 57: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Soñó con 'fruto_amargo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 58: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 59: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 60: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 61: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 62: Soñó con 'unión_imposible' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 63: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 64: Soñó con 'marea_que_sube' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 65: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 66: Soñó con 'voz_sin_cuerpo' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 67: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 68: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 69: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 70: Soñó con 'viento_que_borra' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 71: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 72: Soñó con 'sombra_que_camina' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 73: Soñó con 'centro_sin_lugar' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Erytheis.
+- Día 75: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Calyce.
+- Día 76: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 76: Detectó y rechazó un intento de manipulación de Calyce.
+- Día 77: Soñó con 'descenso_inevitable' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 78: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 78: Se impuso competitivamente ante Cephalos, absorbiendo sus recursos biológicos.
+- Día 78: Se impuso competitivamente ante Calyce, absorbiendo sus recursos biológicos.
+- Día 79: Soñó con 'complemento_ausente' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 80: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 81: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 82: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 83: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 83: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 84: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 85: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 86: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 87: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 87: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 87: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 87: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 88: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 88: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 88: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 89: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 90: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 91: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 92: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Bron, cediendo recursos biológicos.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 92: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 93: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 94: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Calyce.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 94: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Soñó con 'corriente_que_arrastra' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 95: Se enfrentó en un choque violento y destructivo contra Talos.
+- Día 96: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 97: Soñó con 'voz_propia_extraña' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 98: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 99: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 100: Soñó con 'espejo_que_miente' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 101: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 102: Soñó con 'horizonte_inmóvil' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 102: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 103: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 104: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 105: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 105: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 106: Soñó con 'campo_interminable' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 106: Intentó manipular a Calyce, pero fue descubierto.
+- Día 106: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Calyce.
+- Día 106: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 106: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 106: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 107: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 108: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 109: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 109: Se impuso competitivamente ante Zoia, absorbiendo sus recursos biológicos.
+- Día 110: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 111: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 111: Intentó manipular a Ulax, pero fue descubierto.
+- Día 111: Intentó manipular a Ulax, pero fue descubierto.
+- Día 112: Soñó con 'figura_que_sigue' (anima_animus). Insight: En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 112: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 112: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 112: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Soñó con 'figura_que_sigue' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Lakon. Su lazo social se fortaleció.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 113: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 114: Se impuso competitivamente ante Kimon, absorbiendo sus recursos biológicos.
+- Día 115: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 115: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 116: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 117: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 118: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 119: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 120: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 121: Soñó con 'río_tranquilo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 122: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 123: Soñó con 'abundancia_que_pudre' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 124: Soñó con 'unión_imposible' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 125: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 126: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 127: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 127: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 127: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 128: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 128: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 129: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 130: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En desierto borde, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 131: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 132: Soñó con 'salida_inexistente' (anima_animus). Insight: En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 132: Cedió ingenuamente ante la manipulación de Okaios.
+- Día 132: Cedió ingenuamente ante la manipulación de Okaios.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 132: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Soñó con 'campo_interminable' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 133: Se impuso competitivamente ante Okaios, absorbiendo sus recursos biológicos.
+- Día 134: Soñó con 'luz_oblicua' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 134: Cooperó de forma mutua y armónica con Aglaia. Su lazo social se fortaleció.
+- Día 134: Cooperó de forma mutua y armónica con Aglaia. Su lazo social se fortaleció.
+- Día 135: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Okaios, cediendo recursos biológicos.
+- Día 136: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 137: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 138: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 139: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 140: Soñó con 'reflejo_distorsionado' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 141: Soñó con 'raíz_invisible' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 142: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 142: Sufrió explotación y hostilidad de Hakon, cediendo recursos biológicos.
+- Día 142: Sufrió explotación y hostilidad de Hakon, cediendo recursos biológicos.
+- Día 142: Sufrió explotación y hostilidad de Hakon, cediendo recursos biológicos.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 142: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 143: Se enfrentó en un choque violento y destructivo contra Hakon.
+- Día 144: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 145: Soñó con 'fondo_que_sube' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 146: Soñó con 'unión_imposible' (anima_animus). Insight: El anima_animus busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 147: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 148: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 149: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 150: Soñó con 'espejo_que_miente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 151: Soñó con 'árbol_sin_raíces' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Detectó y rechazó un intento de manipulación de Hakon.
+- Día 152: Detectó y rechazó un intento de manipulación de Hakon.
+- Día 152: Detectó y rechazó un intento de manipulación de Hakon.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Detectó y rechazó un intento de manipulación de Hakon.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 152: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 154: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 155: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Soñó con 'corriente_que_arrastra' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 156: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 157: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 158: Soñó con 'espejo_que_miente' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 159: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 160: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 161: Soñó con 'habitación_prohibida' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 161: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 161: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 162: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 163: Soñó con 'raíz_invisible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Soñó con 'ojos_en_la_roca' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 164: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 165: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 166: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 168: Se enfrentó en un choque violento y destructivo contra Okaios.
+- Día 169: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 170: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 171: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 172: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 173: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 174: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 175: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 176: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 177: Soñó con 'semilla_negra' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 178: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 179: Soñó con 'agua_fría' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 179: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 180: Manipuló con éxito y astucia a Lakon para ceder recursos.
+- Día 181: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 182: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 183: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 184: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 185: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 186: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 187: Soñó con 'figura_que_sigue' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 188: Soñó con 'habitación_prohibida' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 189: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 189: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 190: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 191: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 192: Soñó con 'figura_que_sigue' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 193: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 194: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 195: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 196: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 197: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 198: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 198: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 198: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Soñó con 'fruto_amargo' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 200: Soñó con 'voz_propia_extraña' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 200: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 200: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 201: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 202: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 203: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 204: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 205: Soñó con 'habitación_prohibida' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 206: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 207: Soñó con 'fondo_que_sube' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 208: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 209: Soñó con 'semilla_negra' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 210: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 211: Soñó con 'nido_que_asfixia' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 211: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 211: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 212: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 213: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 214: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 215: Soñó con 'voz_sin_cuerpo' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 216: Soñó con 'complemento_ausente' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 217: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 218: Soñó con 'habitación_prohibida' (anima_animus). Insight: En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 219: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 220: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 221: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 222: Soñó con 'vista_engañosa' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 222: Se impuso competitivamente ante Zephyra, absorbiendo sus recursos biológicos.
+- Día 222: Se impuso competitivamente ante Zephyra, absorbiendo sus recursos biológicos.
+- Día 222: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 223: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 223: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 223: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 223: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 223: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 224: Soñó con 'luz_oblicua' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 225: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 226: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se impuso competitivamente ante Zephyra, absorbiendo sus recursos biológicos.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 226: Se enfrentó en un choque violento y destructivo contra Nephele.
+- Día 227: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 227: Detectó y rechazó un intento de manipulación de Ivar.
+- Día 227: Detectó y rechazó un intento de manipulación de Ivar.
+- Día 227: Detectó y rechazó un intento de manipulación de Ivar.
+- Día 228: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 229: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 230: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 231: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 232: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 232: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Jora, cediendo recursos biológicos.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 232: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Jora.
+- Día 234: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 235: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 236: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 237: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 238: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 239: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 240: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 241: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 242: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 243: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 244: Soñó con 'sombra_ausente' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 245: Soñó con 'complemento_ausente' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 246: Soñó con 'danza_a_solas' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 247: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 248: Soñó con 'danza_a_solas' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 249: Soñó con 'estrella_que_no_guía' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 250: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 251: Soñó con 'naufragio_lento' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 252: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 253: Soñó con 'sombra_que_camina' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 253: Manipuló con éxito y astucia a Hector para ceder recursos.
+- Día 254: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Hector.
+- Día 256: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 256: Detectó y rechazó un intento de manipulación de Creon.
+- Día 256: Detectó y rechazó un intento de manipulación de Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 258: Soñó con 'agua_fría' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 259: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 260: Soñó con 'libro_en_lengua_muerta' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 261: Soñó con 'habitación_prohibida' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 261: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Yaron, cediendo recursos biológicos.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Kimon.
+- Día 263: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 264: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 265: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 266: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 267: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 268: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 269: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 270: Soñó con 'escenario_sin_salida' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 271: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 271: Se impuso competitivamente ante Wulfar, absorbiendo sus recursos biológicos.
+- Día 271: Se impuso competitivamente ante Wulfar, absorbiendo sus recursos biológicos.
+- Día 272: Soñó con 'danza_a_solas' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 273: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 274: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 275: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 275: Se impuso competitivamente ante Calyce, absorbiendo sus recursos biológicos.
+- Día 276: Soñó con 'espejo_que_miente' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 277: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 278: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 279: Soñó con 'corriente_que_arrastra' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 280: Soñó con 'habitación_prohibida' (anima_animus). Insight: En pantano costero, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 281: Soñó con 'figura_que_sigue' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 282: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 283: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 284: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 285: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 286: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 287: Soñó con 'agua_fría' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 288: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 289: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 290: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 291: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 292: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 293: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 294: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 295: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Calyce.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Calyce.
+- Día 296: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 297: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 298: Soñó con 'habitación_prohibida' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 299: Soñó con 'luz_oblicua' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 300: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 301: Soñó con 'sombra_que_camina' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 301: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 301: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 302: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 303: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 303: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 303: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 303: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Hakon, absorbiendo sus recursos biológicos.
+- Día 305: Soñó con 'descenso_inevitable' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 306: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 307: Soñó con 'aplauso_vacío' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 308: Falleció a causa de deshidratacion.

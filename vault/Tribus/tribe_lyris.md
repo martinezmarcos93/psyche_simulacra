@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Sabio
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lyris]] (Lyris) | generico | 30 | sabio |
+| [[lyris]] (Lyris) | generico | 30 | self |
 
 ---
 
@@ -18,9 +18,9 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.292` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.146` | `▓░░░░░░░░░` |
-| **Sabio** | `0.029` | `░░░░░░░░░░` |
+| **Heroe** | `0.351` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.175` | `▓▓░░░░░░░░` |
+| **Sabio** | `0.018` | `░░░░░░░░░░` |
 | **Sombra** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Padre
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `330` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,24 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[demos]] (Demos) | cazador | 60 | padre |
+| [[fyria]] (Fyria) | cazador | 39 | self |
+| [[hakon]] (Hakon) | recolector | 33 | sombra |
+| [[lakon]] (Lakon) | recolector | 59 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.363` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.876` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.429` | `▓▓▓▓░░░░░░` |
-| **Heroe** | `0.145` | `▓░░░░░░░░░` |
-| **Trickster** | `0.088` | `▓░░░░░░░░░` |
-| **Madre** | `0.072` | `▓░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Muerte** | `0.428` | `▓▓▓▓░░░░░░` |
+| **Heroe** | `0.364` | `▓▓▓▓░░░░░░` |
+| **Trickster** | `0.265` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.182` | `▓▓░░░░░░░░` |
+| **Sabio** | `0.053` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

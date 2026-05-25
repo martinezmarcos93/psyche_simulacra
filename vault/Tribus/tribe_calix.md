@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `300` | **Miembros vivos:** `4`
 
 ---
 
@@ -8,27 +8,30 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[calix]] (Calix) | guardian | 50 | self |
+| [[peria]] (Peria) | generico | 8 | sombra |
+| [[uritha]] (Uritha) | explorador | 23 | persona |
+| [[vespa]] (Vespa) | recolector | 38 | self |
+| [[zoia]] (Zoia) | guardian | 41 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.204` `[▓▓░░░░░░░░░░]`
+> **Presión emocional:** `0.789` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.255` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.068` | `▓░░░░░░░░░` |
-| **Madre** | `0.034` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.737` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.668` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.603` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.603` | `▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.098` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

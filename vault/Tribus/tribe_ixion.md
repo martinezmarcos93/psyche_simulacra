@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Rebelde
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,27 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[ixion]] (Ixion) | guardian | 50 | rebelde |
+| [[ixion]] (Ixion) | guardian | 50 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.960` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.653` | `▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.359` | `▓▓▓▓░░░░░░` |
-| **Madre** | `0.179` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.934` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.419` | `▓▓▓▓░░░░░░` |
+| **Rebelde** | `0.348` | `▓▓▓░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

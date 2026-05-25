@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `379` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,28 +8,30 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[calyce]] (Calyce) | guardian | 34 | self |
+| [[nephele]] (Nephele) | explorador | 53 | sombra |
+| [[uritha]] (Uritha) | explorador | 24 | madre |
+| [[zoia]] (Zoia) | guardian | 42 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.369` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.882` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.447` | `▓▓▓▓░░░░░░` |
-| **Sabio** | `0.072` | `▓░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Muerte** | `0.646` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.603` | `▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.276` | `▓▓▓░░░░░░░` |
+| **Madre** | `0.193` | `▓▓░░░░░░░░` |
+| **Sabio** | `0.085` | `▓░░░░░░░░░` |
+| **Nino_divino** | `0.003` | `░░░░░░░░░░` |
+| **Padre** | `0.003` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

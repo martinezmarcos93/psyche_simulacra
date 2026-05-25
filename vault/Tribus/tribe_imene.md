@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Gobernante
+# 🏕️ Tribu de la Persona
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `379` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,26 +8,26 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[imene]] (Imene) | explorador | 60 | gobernante |
+| [[imene]] (Imene) | explorador | 61 | persona |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.249` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.258` | `▓▓▓░░░░░░░` |
-| **Sombra** | `0.166` | `▓▓░░░░░░░░` |
-| **Padre** | `0.068` | `▓░░░░░░░░░` |
-| **Gobernante** | `0.029` | `░░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
+| **Padre** | `0.000` | `░░░░░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 

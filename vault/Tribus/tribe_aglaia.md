@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Niño Divino
+# 🏕️ Tribu de la Persona
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `300` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,28 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[aglaia]] (Aglaia) | generico | 18 | nino_divino |
+| [[imene]] (Imene) | explorador | 60 | persona |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.701` `[▓▓▓▓▓▓▓▓░░░░]`
+> **Presión emocional:** `1.000` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.581` | `▓▓▓▓▓▓░░░░` |
-| **Sombra** | `0.565` | `▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Muerte** | `0.948` | `▓▓▓▓▓▓▓▓▓░` |
+| **Rebelde** | `0.591` | `▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.557` | `▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.557` | `▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.237` | `▓▓░░░░░░░░` |
+| **Gobernante** | `0.038` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
-| **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

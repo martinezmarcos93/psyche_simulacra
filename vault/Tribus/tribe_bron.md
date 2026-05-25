@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `127` | **Miembros vivos:** `3`
 
 ---
 
@@ -9,23 +9,25 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[bron]] (Bron) | cazador | 46 | self |
+| [[calix]] (Calix) | guardian | 50 | anima_animus |
+| [[peria]] (Peria) | generico | 8 | anima_animus |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.376` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.188` | `▓▓░░░░░░░░` |
+| **Sabio** | `0.040` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

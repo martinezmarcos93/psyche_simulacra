@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Madre
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `60` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,24 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[nephele]] (Nephele) | explorador | 52 | madre |
+| [[nephele]] (Nephele) | explorador | 52 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.904` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.177` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.116` | `▓░░░░░░░░░` |
+| **Madre** | `0.058` | `▓░░░░░░░░░` |
+| **Sabio** | `0.034` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |

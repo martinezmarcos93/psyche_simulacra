@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Padre
+# 🏕️ Tribu del Héroe
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `0`
 
 ---
 
@@ -8,19 +8,18 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[festus]] (Festus) | recolector | 61 | padre |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.606` `[▓▓▓▓▓▓▓░░░░░]`
+> **Presión emocional:** `0.584` `[▓▓▓▓▓▓▓░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.757` | `▓▓▓▓▓▓▓▓░░` |
+| **Sombra** | `0.616` | `▓▓▓▓▓▓░░░░` |
+| **Muerte** | `0.261` | `▓▓▓░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░` |

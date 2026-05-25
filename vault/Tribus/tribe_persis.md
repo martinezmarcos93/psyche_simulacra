@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Gobernante
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `127` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,28 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[persis]] (Persis) | generico | 56 | gobernante |
+| [[persis]] (Persis) | generico | 56 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.834` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.215` | `▓▓░░░░░░░░` |
-| **Gobernante** | `0.029` | `░░░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.834` | `▓▓▓▓▓▓▓▓░░` |
+| **Trickster** | `0.192` | `▓▓░░░░░░░░` |
+| **Heroe** | `0.045` | `░░░░░░░░░░` |
+| **Madre** | `0.023` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.019` | `░░░░░░░░░░` |
+| **Sabio** | `0.013` | `░░░░░░░░░░` |
+| **Gobernante** | `0.012` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

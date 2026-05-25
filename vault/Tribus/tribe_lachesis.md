@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `379` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,18 +8,18 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lachesis]] (Lachesis) | generico | 21 | self |
+| [[lachesis]] (Lachesis) | generico | 22 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.418` `[▓▓▓▓▓░░░░░░░]`
+> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.502` | `▓▓▓▓▓░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.000` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

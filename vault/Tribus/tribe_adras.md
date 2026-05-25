@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Rebelde
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `300` | **Miembros vivos:** `5`
 
 ---
 
@@ -8,28 +8,32 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[adras]] (Adras) | cazador | 17 | rebelde |
+| [[garan]] (Garan) | guardian | 21 | anima_animus |
+| [[glaukia]] (Glaukia) | explorador | 29 | sombra |
+| [[wulfar]] (Wulfar) | recolector | 48 | self |
+| [[xanthe]] (Xanthe) | generico | 40 | sombra |
+| [[ysolde]] (Ysolde) | recolector | 23 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.252` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.868` `[▓▓▓▓▓▓▓▓▓▓░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.370` | `▓▓▓▓░░░░░░` |
-| **Heroe** | `0.069` | `▓░░░░░░░░░` |
-| **Madre** | `0.035` | `░░░░░░░░░░` |
-| **Muerte** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.875` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.722` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.681` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.663` | `▓▓▓▓▓▓▓░░░` |
+| **Padre** | `0.131` | `▓░░░░░░░░░` |
+| **Sabio** | `0.124` | `▓░░░░░░░░░` |
+| **Gobernante** | `0.054` | `▓░░░░░░░░░` |
+| **Nino_divino** | `0.051` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
-| **Padre** | `0.000` | `░░░░░░░░░░` |
-| **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
-| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

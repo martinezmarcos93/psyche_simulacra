@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Madre
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[uritha]] (Uritha) | explorador | 23 | madre |
+| [[uritha]] (Uritha) | explorador | 23 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.857` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.877` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.185` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.075` | `▓░░░░░░░░░` |
-| **Madre** | `0.038` | `░░░░░░░░░░` |
+| **Sombra** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.313` | `▓▓▓░░░░░░░` |
+| **Trickster** | `0.208` | `▓▓░░░░░░░░` |
+| **Madre** | `0.156` | `▓▓░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

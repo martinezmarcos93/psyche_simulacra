@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Rebelde
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `60` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[stenos]] (Stenos) | explorador | 27 | rebelde |
+| [[stenos]] (Stenos) | explorador | 27 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.095` `[▓░░░░░░░░░░░]`
+> **Presión emocional:** `0.904` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.087` | `▓░░░░░░░░░` |
-| **Heroe** | `0.068` | `▓░░░░░░░░░` |
-| **Trickster** | `0.061` | `▓░░░░░░░░░` |
-| **Madre** | `0.034` | `░░░░░░░░░░` |
+| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.237` | `▓▓░░░░░░░░` |
+| **Madre** | `0.119` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

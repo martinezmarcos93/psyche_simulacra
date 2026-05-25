@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Madre
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[oinone]] (Oinone) | explorador | 19 | self |
+| [[oinone]] (Oinone) | explorador | 19 | madre |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.464` `[▓▓▓▓▓▓░░░░░░]`
+> **Presión emocional:** `0.879` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.459` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.190` | `▓▓░░░░░░░░` |
-| **Heroe** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.822` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.709` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.532` | `▓▓▓▓▓░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

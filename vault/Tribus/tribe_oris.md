@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Rebelde
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `2`
+> **Día:** `30` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,28 +8,28 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[oris]] (Oris) | generico | 44 | sombra |
-| [[velia]] (Velia) | recolector | 46 | rebelde |
+| [[oris]] (Oris) | generico | 44 | self |
+| [[velia]] (Velia) | recolector | 46 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.980` `[▓▓▓▓▓▓▓▓▓▓▓▓]`
+> **Presión emocional:** `0.286` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Trickster** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.782` | `▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.142` | `▓░░░░░░░░░` |
-| **Madre** | `0.071` | `▓░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.941` | `▓▓▓▓▓▓▓▓▓░` |
+| **Rebelde** | `0.706` | `▓▓▓▓▓▓▓░░░` |
+| **Sabio** | `0.057` | `▓░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

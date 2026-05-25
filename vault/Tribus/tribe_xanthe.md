@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Madre
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,27 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[xanthe]] (Xanthe) | generico | 40 | madre |
+| [[xanthe]] (Xanthe) | generico | 40 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.273` `[▓▓▓░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.314` | `▓▓▓░░░░░░░` |
-| **Madre** | `0.157` | `▓▓░░░░░░░░` |
-| **Sabio** | `0.068` | `▓░░░░░░░░░` |
-| **Sombra** | `0.000` | `░░░░░░░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.886` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.620` | `▓▓▓▓▓▓░░░░` |
+| **Rebelde** | `0.330` | `▓▓▓░░░░░░░` |
+| **Sabio** | `0.044` | `░░░░░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
-| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Trickster
+# 🏕️ Tribu del Self
 
-> **Día:** `9` | **Miembros vivos:** `1`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,27 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[macron]] (Macron) | explorador | 16 | trickster |
+| [[macron]] (Macron) | explorador | 16 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.348` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Heroe** | `0.900` | `▓▓▓▓▓▓▓▓▓░` |
-| **Sombra** | `0.577` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.450` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.314` | `▓▓▓░░░░░░░` |
+| **Sombra** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.725` | `▓▓▓▓▓▓▓░░░` |
+| **Rebelde** | `0.464` | `▓▓▓▓▓░░░░░` |
+| **Madre** | `0.362` | `▓▓▓▓░░░░░░` |
 | **Muerte** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Padre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
-| **Rebelde** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
