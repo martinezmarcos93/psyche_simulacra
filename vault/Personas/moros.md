@@ -4,36 +4,36 @@ nombre: Moros
 rol: generico
 edad: 28
 sexo: M
-is_alive: True
-posicion: [64, 24]
-humor: 0.852
-energia: 0.665
-ansiedad: 0.235
+is_alive: False
+posicion: [48, 22]
+humor: 0.132
+energia: 0.285
+ansiedad: 0.950
 needs:
-  hambre: 0.104
-  fatiga: 0.335
-  sed: 0.075
-  sociabilidad: 0.020
+  hambre: 1.000
+  fatiga: 0.735
+  sed: 1.000
+  sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: competencia
 arquetipos:
   self: 1.000
-  persona: 0.500
-  sombra: 0.846
-  anima_animus: 0.589
-  heroe: 0.273
-  sabio: 0.434
-  trickster: 0.497
-  madre: 0.422
-  padre: 0.409
-  nino_divino: 0.305
-  gobernante: 0.415
-  rebelde: 0.292
+  persona: 0.550
+  sombra: 0.828
+  anima_animus: 0.442
+  heroe: 0.298
+  sabio: 0.400
+  trickster: 0.502
+  madre: 0.406
+  padre: 0.400
+  nino_divino: 0.300
+  gobernante: 0.371
+  rebelde: 0.300
 ---
 # 👤 Persona: Moros
 
-> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(64, 24)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `generico` | **Edad:** 28 | **Sexo:** M | **Ubicación:** `(48, 22)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.85 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.23 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.13 |
+| **Energía** | `[▓▓▓░░░░░░░]` | 0.28 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
-| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.74 | 🟢 Descansado |
+| **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
 
@@ -62,17 +62,17 @@ arquetipos:
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.846` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Anima animus** | `0.589` | `▓▓▓▓▓▓▓░░░░░` |
-| **Heroe** | `0.273` | `▓▓▓░░░░░░░░░` |
-| **Sabio** | `0.434` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.497` | `▓▓▓▓▓▓░░░░░░` |
-| **Madre** | `0.422` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.409` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.305` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.415` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.292` | `▓▓▓▓░░░░░░░░` |
+| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.828` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Anima animus** | `0.442` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.298` | `▓▓▓▓░░░░░░░░` |
+| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
+| **Madre** | `0.406` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.371` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -94,31 +94,31 @@ arquetipos:
 | [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[bios]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[iris]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[elpis]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hados]] | `-0.22` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
 | [[kairos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[kore]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[leon]] | `-0.85` | `▓░░░░░░░░░` | Ninguno |
+| [[kore]] | `-0.92` | `░░░░░░░░░░` | Ninguno |
+| [[leon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'luz_oblicua'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- **Día 25:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 26:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- **Día 27:** Soñó con `'fondo_que_sube'` (arquetipo `self`).
+- **Día 15:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* En rio lago, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 16:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self y lo reprimido se toleran esta noche en rio lago.
+- **Día 17:** Soñó con `'corriente_que_arrastra'` (arquetipo `self`).
+  - *Insight:* lo reprimido pesa demasiado — el self cede terreno en rio lago para no caer.
+- **Día 18:** Soñó con `'corriente_que_arrastra'` (arquetipo `self`).
   - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
-- **Día 28:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- **Día 29:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- **Día 30:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En cueva, el self encuentra tregua provisional con lo reprimido.
+- **Día 19:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self descansa en rio lago mientras lo reprimido aguarda en el umbral.
+- **Día 20:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
+- **Día 21:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En rio lago, lo reprimido pierde fuerza un instante — el self respira.
 
 ---
 
@@ -144,45 +144,207 @@ arquetipos:
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
-- Día 1: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
-- Día 1: Intentó manipular a Kore, pero fue descubierto.
-- Día 2: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- Día 3: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, el sombra encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'sal_en_herida' (sombra). Insight: El sombra busca equilibrio en costa abierta compensando la energía de lo reprimido.
-- Día 6: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra busca equilibrio en pradera humeda compensando la energía de lo reprimido.
-- Día 7: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- Día 7: Intentó manipular a Leon, pero fue descubierto.
-- Día 8: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 9: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- Día 9: Detectó y rechazó un intento de manipulación de Leon.
-- Día 9: Detectó y rechazó un intento de manipulación de Leon.
-- Día 9: Detectó y rechazó un intento de manipulación de Leon.
-- Día 9: Detectó y rechazó un intento de manipulación de Leon.
-- Día 9: Detectó y rechazó un intento de manipulación de Leon.
-- Día 10: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra encuentra tregua provisional con lo reprimido.
-- Día 11: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra encuentra tregua provisional con lo reprimido.
-- Día 12: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra busca equilibrio en pantano costero compensando la energía de lo reprimido.
-- Día 13: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, el sombra encuentra tregua provisional con lo reprimido.
-- Día 14: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
-- Día 15: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 16: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
-- Día 17: Soñó con 'agua_fría' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- Día 18: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 19: Soñó con 'árbol_sin_raíces' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 20: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- Día 21: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 23: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- Día 24: Soñó con 'luz_oblicua' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
-- Día 27: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
-- Día 28: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
-- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- Día 30: Soñó con 'mandala_incompleto' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 1: Detectó y rechazó un intento de manipulación de Kore.
+- Día 2: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- Día 2: Cedió ingenuamente ante la manipulación de Kore.
+- Día 2: Cedió ingenuamente ante la manipulación de Kore.
+- Día 3: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, el sombra negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 4: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra y lo reprimido se toleran esta noche en pradera humeda.
+- Día 4: Intentó manipular a Elpis, pero fue descubierto.
+- Día 5: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- Día 5: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 6: Soñó con 'hierba_que_corta' (sombra). Insight: Entre sombras de pradera humeda, el sombra y lo reprimido coexisten sin resolverse.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 7: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra y lo reprimido se toleran esta noche en lago interior.
+- Día 8: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra se disfraza de su contrario en valle fertil, lejos de lo reprimido.
+- Día 9: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, lo reprimido pierde fuerza un instante — el sombra respira.
+- Día 10: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra y lo reprimido se toleran esta noche en bosque templado.
+- Día 11: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 12: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
+- Día 13: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 13: Detectó y rechazó un intento de manipulación de Leon.
+- Día 13: Detectó y rechazó un intento de manipulación de Leon.
+- Día 13: Se impuso competitivamente ante Leon, absorbiendo sus recursos biológicos.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Soñó con 'centro_sin_lugar' (sombra). Insight: Entre sombras de rio lago, el sombra y lo reprimido coexisten sin resolverse.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, lo reprimido pierde fuerza un instante — el self respira.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 15: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y lo reprimido se toleran esta noche en rio lago.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 16: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Soñó con 'corriente_que_arrastra' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en rio lago para no caer.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 17: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 18: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en rio lago mientras lo reprimido aguarda en el umbral.
+- Día 19: Entró en disociación por sombra — melancolia_disociativa.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Leon.
+- Día 21: Soñó con 'unión_imposible' (self). Insight: En rio lago, lo reprimido pierde fuerza un instante — el self respira.
+- Día 22: Falleció a causa de inanicion.

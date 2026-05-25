@@ -84,6 +84,39 @@ _TRAUMA_KEYWORDS: dict[str, list[str]] = {
 
 _DEFAULT_SYMBOL = "sombra_sin_forma"
 
+# Plantillas de insight por tipo de procesamiento — elegidas aleatoriamente para evitar
+# que dos agentes con mismo arquetipo+complejo generen texto idéntico.
+_INSIGHT_TEMPLATES: dict[str, list[str]] = {
+    "integracion_parcial": [
+        "En {landscape}, el {dominante} encuentra tregua provisional con {wound}.",
+        "Entre sombras de {landscape}, el {dominante} y {wound} coexisten sin resolverse.",
+        "El {dominante} descansa en {landscape} mientras {wound} aguarda en el umbral.",
+        "En {landscape}, {wound} pierde fuerza un instante — el {dominante} respira.",
+        "El {dominante} y {wound} se toleran esta noche en {landscape}.",
+    ],
+    "amplificacion": [
+        "El {landscape} amplifica la tensión del {dominante}; {wound} presiona desde adentro.",
+        "El {dominante} crece desmedido en {landscape} — {wound} lo empuja sin nombre.",
+        "En {landscape} el {dominante} se expande más allá del control; {wound} es el combustible.",
+        "{wound} enciende el {dominante} en {landscape} hasta quemar lo que toca.",
+        "En {landscape}, el {dominante} no puede contenerse — {wound} alimenta el fuego.",
+    ],
+    "compensacion": [
+        "El {dominante} busca equilibrio en {landscape} compensando la energía de {wound}.",
+        "En {landscape}, el {dominante} toma prestada la forma opuesta para alejarse de {wound}.",
+        "{wound} pesa demasiado — el {dominante} cede terreno en {landscape} para no caer.",
+        "En {landscape}, el {dominante} negocia con {wound} en el único idioma posible: el silencio.",
+        "El {dominante} se disfraza de su contrario en {landscape}, lejos de {wound}.",
+    ],
+    "proyeccion": [
+        "El {dominante} proyecta {wound} sobre el horizonte de {landscape}.",
+        "En {landscape}, {wound} aparece en el otro — el {dominante} no se reconoce.",
+        "El {dominante} ve {wound} afuera en {landscape}, donde no puede alcanzarlo.",
+        "En {landscape}, {wound} tiene el rostro de otro — el {dominante} lo señala sin piedad.",
+        "El {dominante} expulsa {wound} hacia {landscape}: allá afuera, entre los demás.",
+    ],
+}
+
 # Pesos de cada capa en el pool de símbolos
 _LAYER_WEIGHT = {
     "biome":     1.0,
@@ -174,7 +207,7 @@ class DreamGrammarEngine:
         simbolo = self._sample_symbol(pool, r)
         procesamiento = _select_processing(tension, r)
         insight = self._generate_insight(
-            dominante, complejo_activo, procesamiento, bioma, traumas_recientes or []
+            dominante, complejo_activo, procesamiento, bioma, traumas_recientes or [], r
         )
         delta = self._compute_delta(dominante, complejo_activo, procesamiento, r)
 
@@ -248,28 +281,17 @@ class DreamGrammarEngine:
         procesamiento:   str,
         bioma:           str,
         traumas:         list[str],
+        rng:             random.Random | None = None,
     ) -> str:
+        r = rng or random.Random()
         landscape = bioma.replace("_", " ") if bioma != "tierra" else "la oscuridad"
         wound = (
             traumas[0].replace("_", " ") if traumas
             else complejo_activo or "lo reprimido"
         )
-
-        if procesamiento == "integracion_parcial":
-            return (
-                f"En {landscape}, el {dominante} encuentra tregua provisional con {wound}."
-            )
-        if procesamiento == "amplificacion":
-            return (
-                f"El {landscape} amplifica la tensión del {dominante}; {wound} presiona desde adentro."
-            )
-        if procesamiento == "compensacion":
-            return (
-                f"El {dominante} busca equilibrio en {landscape} compensando la energía de {wound}."
-            )
-        return (
-            f"El {dominante} proyecta {wound} sobre el horizonte de {landscape}."
-        )
+        templates = _INSIGHT_TEMPLATES.get(procesamiento, _INSIGHT_TEMPLATES["proyeccion"])
+        template = r.choice(templates)
+        return template.format(landscape=landscape, dominante=dominante, wound=wound)
 
     # ── Cómputo de deltas arquetípicos ───────────────────────────────────────
 

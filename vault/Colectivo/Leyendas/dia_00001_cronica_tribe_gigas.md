@@ -1,7 +1,7 @@
 ---
 tipo: cronica
 dia: 1
-tribu: tribe_leon
+tribu: tribe_gigas
 ---
 # 📜 Crónica — Día 1
 
