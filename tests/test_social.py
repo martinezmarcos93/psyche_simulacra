@@ -1929,7 +1929,7 @@ class TestKnowledgeSystem:
         ks  = KnowledgeSystem()
         ks.give("prof", "navegacion")  # complejidad 0.35 → prob ~9.75%
         # Con 100 intentos al menos uno debe tener éxito
-        success = any(ks.teach("prof", f"est{i}", "navegacion", rng) for i in range(100))
+        success = any(ks.teach("prof", f"est{i}", "navegacion", rng)[0] for i in range(100))
         assert success
 
     def test_teach_falla_si_ya_lo_sabe(self):
@@ -1938,8 +1938,9 @@ class TestKnowledgeSystem:
         ks  = KnowledgeSystem()
         ks.give("prof", "curacion")
         ks.give("est",  "curacion")
-        result = ks.teach("prof", "est", "curacion", rng)
-        assert result is False
+        success, fidelidad = ks.teach("prof", "est", "curacion", rng)
+        assert success is False
+        assert fidelidad == 0.0
 
     def test_tribe_tech_score(self):
         ks = KnowledgeSystem()

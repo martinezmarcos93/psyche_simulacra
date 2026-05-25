@@ -67,11 +67,12 @@ class NarratorEngine:
         self.client        = OllamaClient()
         self.leyendas_path = Path(vault_path) / "Colectivo" / "Leyendas"
 
-        self._queue:         queue.Queue[NarrativeEvent] = queue.Queue(maxsize=50)
-        self._known_tribes:  set[str]                    = set()
-        self._known_myths:   set[str]                    = set()  # tribe_id+day
-        self._worker:        threading.Thread | None     = None
-        self._running:       bool                        = False
+        self._queue:           queue.Queue[NarrativeEvent] = queue.Queue(maxsize=50)
+        self._known_tribes:    set[str]                    = set()
+        self._known_myths:     set[str]                    = set()  # tribe_id+day
+        self._worker:          threading.Thread | None     = None
+        self._running:         bool                        = False
+        self._ollama_available: bool                       = False
 
     # ── Ciclo de vida ─────────────────────────────────────────────────────────
 
@@ -83,8 +84,8 @@ class NarratorEngine:
         self._running = True
         self._worker  = threading.Thread(target=self._process_loop, daemon=True, name="NarratorWorker")
         self._worker.start()
-        available = self.client.is_available()
-        if available:
+        self._ollama_available = self.client.is_available()
+        if self._ollama_available:
             logger.info("NarratorEngine iniciado — modelo: %s", self.client.model)
             print(f"  [Narrador] Activo (Ollama · {self.client.model})")
         else:
@@ -205,9 +206,10 @@ class NarratorEngine:
             logger.warning("Error construyendo prompt '%s': %s", event.tipo, exc)
             return None
 
-        text = self.client.generate(prompt)
-        if text:
-            return text
+        if self._ollama_available:
+            text = self.client.generate(prompt)
+            if text:
+                return text
 
         # Fallback de plantilla
         return self._fallback_text(event)
