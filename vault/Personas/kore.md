@@ -5,25 +5,25 @@ rol: generico
 edad: 14
 sexo: F
 is_alive: True
-posicion: [39, 33]
-humor: 0.939
-energia: 0.506
-ansiedad: 0.220
+posicion: [41, 32]
+humor: 0.784
+energia: 0.846
+ansiedad: 0.823
 needs:
-  hambre: 0.059
-  fatiga: 0.494
-  sed: 0.042
-  sociabilidad: 0.030
+  hambre: 0.041
+  fatiga: 0.154
+  sed: 0.459
+  sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.621
+  self: 0.534
   persona: 0.500
-  sombra: 0.102
+  sombra: 0.100
   anima_animus: 0.400
   heroe: 0.500
   sabio: 0.400
-  trickster: 0.252
+  trickster: 0.250
   madre: 0.150
   padre: 0.400
   nino_divino: 0.300
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Kore
 
-> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(39, 33)`
+> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(41, 32)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
-| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.51 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
+| **Energía** | `[▓▓▓▓▓▓▓▓░░]` | 0.85 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.49 | 🟢 Descansado |
-| **Sociabilidad** | `[░░░░░░░░░░]` | 0.03 | 🟢 Conectado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.46 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓░░░░░░░░]` | 0.15 | 🟢 Descansado |
+| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
 
@@ -61,13 +61,13 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.621` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.534` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.102` | `▓░░░░░░░░░░░` |
+| **Sombra** | `0.100` | `▓░░░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.252` | `▓▓▓░░░░░░░░░` |
+| **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Madre** | `0.150` | `▓▓░░░░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
@@ -93,10 +93,9 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[iris]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
 | [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[moros]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
-| [[peitho]] | `+0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[moros]] | `-0.60` | `▓▓░░░░░░░░` | Ninguno |
+| [[peitho]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
@@ -104,10 +103,6 @@ arquetipos:
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
 - **Día 1:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
-- **Día 2:** Soñó con `'hierba_que_corta'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- **Día 3:** Soñó con `'silencio_pleno'` (arquetipo `self`).
   - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 
 ---
@@ -131,36 +126,3 @@ arquetipos:
 - Día 1: Intentó manipular a Moros, pero fue descubierto.
 - Día 1: Soñó con 'unión_imposible' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Intentó manipular a Moros, pero fue descubierto.
-- Día 1: Sufrió explotación y hostilidad de Peitho, cediendo recursos biológicos.
-- Día 1: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 1: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 1: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 1: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 1: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Día 2: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
-- Día 2: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Detectó y rechazó un intento de manipulación de Peitho.
-- Día 3: Soñó con 'silencio_pleno' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `3` | **Miembros vivos:** `1`
+> **Día:** `1` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,23 +8,23 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[hados]] (Hados) | generico | 24 | self |
+| [[hados]] (Hados) | generico | 24 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.361` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.090` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.510` | `▓▓▓▓▓░░░░░` |
-| **Muerte** | `0.441` | `▓▓▓▓░░░░░░` |
-| **Trickster** | `0.176` | `▓▓░░░░░░░░` |
-| **Padre** | `0.086` | `▓░░░░░░░░░` |
+| **Muerte** | `0.453` | `▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.225` | `▓▓░░░░░░░░` |
+| **Padre** | `0.090` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

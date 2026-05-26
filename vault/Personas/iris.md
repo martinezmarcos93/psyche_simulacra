@@ -5,34 +5,34 @@ rol: explorador
 edad: 21
 sexo: F
 is_alive: True
-posicion: [42, 30]
-humor: 0.761
-energia: 0.465
-ansiedad: 0.443
+posicion: [41, 31]
+humor: 0.941
+energia: 0.685
+ansiedad: 0.588
 needs:
-  hambre: 0.016
-  fatiga: 0.535
-  sed: 0.435
+  hambre: 0.104
+  fatiga: 0.315
+  sed: 0.045
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: manipulacion
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.619
-  persona: 0.600
+  self: 0.536
+  persona: 0.500
   sombra: 0.250
   anima_animus: 0.400
-  heroe: 0.502
+  heroe: 0.501
   sabio: 0.400
   trickster: 0.480
   madre: 0.400
   padre: 0.400
   nino_divino: 0.300
-  gobernante: 0.340
+  gobernante: 0.400
   rebelde: 0.300
 ---
 # 👤 Persona: Iris
 
-> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(42, 30)`
+> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(41, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
-| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.46 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
+| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.02 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.54 | 🟢 Descansado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.32 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,17 +61,17 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.619` | `▓▓▓▓▓▓▓░░░░░` |
-| **Persona** | `0.600` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.536` | `▓▓▓▓▓▓░░░░░░` |
+| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.340` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
@@ -91,10 +91,6 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[chara]] | `-0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[kairos]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[kore]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
-| [[peitho]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
@@ -103,10 +99,6 @@ arquetipos:
 
 - **Día 1:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
   - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- **Día 2:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- **Día 3:** Soñó con `'papel_sin_actor'` (arquetipo `persona`).
-  - *Insight:* El persona descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 
 ---
 
@@ -115,17 +107,3 @@ arquetipos:
 - Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
 - Día 1: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 2: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
-- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 2: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
-- Día 2: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
-- Día 2: Intentó manipular a Chara, pero fue descubierto.
-- Día 2: Manipuló con éxito y astucia a Kairos para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Kairos para ceder recursos.
-- Día 3: Soñó con 'papel_sin_actor' (persona). Insight: El persona descansa en pradera humeda mientras lo reprimido aguarda en el umbral.

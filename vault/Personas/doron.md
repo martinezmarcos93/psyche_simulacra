@@ -5,34 +5,34 @@ rol: guardian
 edad: 38
 sexo: M
 is_alive: True
-posicion: [45, 26]
-humor: 0.825
-energia: 0.665
-ansiedad: 0.345
+posicion: [42, 30]
+humor: 0.946
+energia: 0.585
+ansiedad: 0.587
 needs:
-  hambre: 0.044
-  fatiga: 0.335
-  sed: 0.405
-  sociabilidad: 0.020
+  hambre: 0.064
+  fatiga: 0.415
+  sed: 0.045
+  sociabilidad: 0.060
 arquetipo_dominante: gobernante
-estado_conductual: competencia
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.612
+  self: 0.529
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
-  heroe: 0.522
+  heroe: 0.521
   sabio: 0.400
   trickster: 0.250
-  madre: 0.401
+  madre: 0.400
   padre: 0.400
-  nino_divino: 0.301
+  nino_divino: 0.300
   gobernante: 0.620
   rebelde: 0.300
 ---
 # 👤 Persona: Doron
 
-> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(45, 26)`
+> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(42, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.34 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
+| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.59 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
-| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Conectado |
 
 ---
 
@@ -61,16 +61,16 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.612` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.529` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.522` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.521` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.620` | `▓▓▓▓▓▓▓░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
@@ -91,11 +91,11 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
+| [[arete]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[bios]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[gigas]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[hados]] | `-0.38` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[hados]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[leon]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 
@@ -105,10 +105,6 @@ arquetipos:
 
 - **Día 1:** Soñó con `'corona_que_duele'` (arquetipo `gobernante`).
   - *Insight:* El gobernante y lo reprimido se toleran esta noche en pradera humeda.
-- **Día 2:** Soñó con `'horizonte_inmóvil'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante y lo reprimido se toleran esta noche en pradera humeda.
-- **Día 3:** Soñó con `'ciudad_en_ruinas'` (arquetipo `gobernante`).
-  - *Insight:* Entre sombras de rio lago, el gobernante y lo reprimido coexisten sin resolverse.
 
 ---
 
@@ -126,10 +122,3 @@ arquetipos:
 - Día 0: Detectó y rechazó un intento de manipulación de Arete.
 - Día 1: Soñó con 'corona_que_duele' (gobernante). Insight: El gobernante y lo reprimido se toleran esta noche en pradera humeda.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 1: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
-- Día 2: Soñó con 'horizonte_inmóvil' (gobernante). Insight: El gobernante y lo reprimido se toleran esta noche en pradera humeda.
-- Día 2: Detectó y rechazó un intento de manipulación de Hados.
-- Día 2: Detectó y rechazó un intento de manipulación de Hados.
-- Día 2: Se impuso competitivamente ante Hados, absorbiendo sus recursos biológicos.
-- Día 2: Se impuso competitivamente ante Hados, absorbiendo sus recursos biológicos.
-- Día 3: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: Entre sombras de rio lago, el gobernante y lo reprimido coexisten sin resolverse.

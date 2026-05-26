@@ -236,8 +236,11 @@ class TestPhase5Criterion:
         extremos = [aid for aid, v in arquetipos_extremos.items() if v >= 0.80]
         assert len(extremos) >= 4, f"Menos de 4 perfiles extremos: {extremos}"
 
-    def test_beta_scope_motor_tick(self, tmp_path):
+    def test_beta_scope_motor_tick(self, tmp_path, monkeypatch):
         """[ ] Motor de tick corriendo sin errores"""
+        # Desactivar narrativa LLM: este test mide velocidad del motor, no de Ollama.
+        # setenv no alcanza (config.py se importa al inicio); parchear el atributo del módulo.
+        monkeypatch.setattr("core.narrative.narrator.NARRATIVE_ENABLED", False)
         runner = SimulationRunner.new_session(
             seed_file=SEEDS_FILE,
             db_path=str(tmp_path / "sim.db"),

@@ -5,26 +5,26 @@ rol: generico
 edad: 16
 sexo: M
 is_alive: True
-posicion: [39, 36]
-humor: 0.933
-energia: 0.665
-ansiedad: 0.198
+posicion: [40, 33]
+humor: 0.766
+energia: 0.725
+ansiedad: 0.830
 needs:
-  hambre: 0.084
-  fatiga: 0.335
-  sed: 0.075
+  hambre: 0.124
+  fatiga: 0.275
+  sed: 0.495
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.650
+  self: 0.552
   persona: 0.550
   sombra: 0.300
   anima_animus: 0.400
   heroe: 0.451
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
+  madre: 0.400
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.370
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Leon
 
-> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(39, 36)`
+> **Rol:** `generico` | **Edad:** 16 | **Sexo:** M | **Ubicación:** `(40, 33)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.93 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.20 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.77 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.72 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.83 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.12 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.28 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.650` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.552` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.451` | `▓▓▓▓▓░░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.370` | `▓▓▓▓░░░░░░░░` |
@@ -102,10 +102,6 @@ arquetipos:
 
 - **Día 1:** Soñó con `'aplauso_vacío'` (arquetipo `persona`).
   - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el persona respira.
-- **Día 2:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
-- **Día 3:** Soñó con `'semilla_negra'` (arquetipo `self`).
-  - *Insight:* Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
 
 ---
 
@@ -118,5 +114,3 @@ arquetipos:
 - Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
 - Día 1: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el persona respira.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 2: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.
-- Día 3: Soñó con 'semilla_negra' (self). Insight: Entre sombras de valle fertil, el self y lo reprimido coexisten sin resolverse.

@@ -5,34 +5,34 @@ rol: generico
 edad: 45
 sexo: M
 is_alive: True
-posicion: [40, 25]
-humor: 0.838
-energia: 0.625
-ansiedad: 0.360
+posicion: [41, 28]
+humor: 0.848
+energia: 0.719
+ansiedad: 0.747
 needs:
-  hambre: 0.104
-  fatiga: 0.335
-  sed: 0.405
+  hambre: 0.044
+  fatiga: 0.235
+  sed: 0.495
   sociabilidad: 0.020
 arquetipo_dominante: sabio
-estado_conductual: competencia
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.524
+  self: 0.501
   persona: 0.500
   sombra: 0.300
   anima_animus: 0.400
-  heroe: 0.402
-  sabio: 0.817
+  heroe: 0.401
+  sabio: 0.834
   trickster: 0.200
   madre: 0.400
   padre: 0.400
-  nino_divino: 0.376
+  nino_divino: 0.337
   gobernante: 0.400
   rebelde: 0.300
 ---
 # 👤 Persona: Sophron
 
-> **Rol:** `generico` | **Edad:** 45 | **Sexo:** M | **Ubicación:** `(40, 25)`
+> **Rol:** `generico` | **Edad:** 45 | **Sexo:** M | **Ubicación:** `(41, 28)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.36 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.85 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.72 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.75 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓░░░░░░░░]` | 0.24 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,16 +61,16 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.524` | `▓▓▓▓▓▓░░░░░░` |
+| **Self** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Sabio** | `0.817` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.834` | `▓▓▓▓▓▓▓▓▓▓░░` |
 | **Trickster** | `0.200` | `▓▓░░░░░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.376` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.337` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
@@ -105,10 +105,6 @@ arquetipos:
 
 - **Día 1:** Soñó con `'horizonte_inmóvil'` (arquetipo `sabio`).
   - *Insight:* El sabio se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
-- **Día 2:** Soñó con `'pregunta_sin_respuesta'` (arquetipo `sabio`).
-  - *Insight:* El sabio y lo reprimido se toleran esta noche en pradera humeda.
-- **Día 3:** Soñó con `'pregunta_sin_respuesta'` (arquetipo `sabio`).
-  - *Insight:* En pradera humeda, el sabio toma prestada la forma opuesta para alejarse de lo reprimido.
 
 ---
 
@@ -124,5 +120,3 @@ arquetipos:
 - Día 0: Intentó manipular a Bios, pero fue descubierto.
 - Día 1: Soñó con 'horizonte_inmóvil' (sabio). Insight: El sabio se disfraza de su contrario en pradera humeda, lejos de lo reprimido.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 2: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio y lo reprimido se toleran esta noche en pradera humeda.
-- Día 3: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio toma prestada la forma opuesta para alejarse de lo reprimido.

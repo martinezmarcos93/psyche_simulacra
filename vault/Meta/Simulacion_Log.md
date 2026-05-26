@@ -1,6 +1,6 @@
 # 📋 Bitácora Global de la Simulación
 
-**Última Sincronización:** Día `3`
+**Última Sincronización:** Día `1`
 
 ---
 
