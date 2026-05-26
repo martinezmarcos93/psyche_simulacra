@@ -5,19 +5,19 @@ rol: explorador
 edad: 26
 sexo: F
 is_alive: True
-posicion: [40, 32]
-humor: 0.913
+posicion: [40, 31]
+humor: 0.927
 energia: 0.665
-ansiedad: 0.213
+ansiedad: 0.193
 needs:
-  hambre: 0.144
+  hambre: 0.104
   fatiga: 0.335
   sed: 0.045
   sociabilidad: 0.020
 arquetipo_dominante: trickster
 estado_conductual: manipulacion
 arquetipos:
-  self: 0.618
+  self: 0.626
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(40, 32)`
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(40, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,14 +42,14 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.91 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.93 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.21 |
+| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.19 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.14 | 🟢 Saciado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
 | **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
@@ -61,7 +61,7 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.618` | `▓▓▓▓▓▓▓░░░░░` |
+| **Self** | `0.626` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -93,9 +93,9 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[iris]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[iris]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[kore]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kore]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 
 ---
 
@@ -105,8 +105,8 @@ arquetipos:
   - *Insight:* Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
 - **Día 2:** Soñó con `'viento_que_borra'` (arquetipo `trickster`).
   - *Insight:* Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
-- **Día 3:** Soñó con `'puerta_que_se_mueve'` (arquetipo `trickster`).
-  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el trickster respira.
+- **Día 3:** Soñó con `'máscara_adherida'` (arquetipo `trickster`).
+  - *Insight:* El trickster descansa en valle fertil mientras lo reprimido aguarda en el umbral.
 
 ---
 
@@ -123,7 +123,20 @@ arquetipos:
 - Día 0: Intentó manipular a Kore, pero fue descubierto.
 - Día 1: Soñó con 'campo_interminable' (trickster). Insight: Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 2.
-- Día 1: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
-- Día 1: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
 - Día 2: Soñó con 'viento_que_borra' (trickster). Insight: Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
-- Día 3: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el trickster respira.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 2: Intentó manipular a Kore, pero fue descubierto.
+- Día 3: Soñó con 'máscara_adherida' (trickster). Insight: El trickster descansa en valle fertil mientras lo reprimido aguarda en el umbral.

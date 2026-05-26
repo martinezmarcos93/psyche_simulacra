@@ -583,6 +583,10 @@ class Agent:
                 params   = {},
                 priority = 0.85,
             )
+        # El agente llegó a _last_known_water y no hay agua en radio 2: la fuente
+        # se agotó. Invalida el puntero para no volver a navegar hacia ese punto vacío.
+        if self._last_known_water == self.posicion:
+            self._last_known_water = None
         return self._explore_action(tp, snapshot)
 
     def _find_pilgrimage_site(

@@ -5,26 +5,26 @@ rol: recolector
 edad: 27
 sexo: F
 is_alive: True
-posicion: [39, 30]
-humor: 0.944
-energia: 0.665
-ansiedad: 0.397
+posicion: [42, 30]
+humor: 0.846
+energia: 0.705
+ansiedad: 0.364
 needs:
-  hambre: 0.144
-  fatiga: 0.335
-  sed: 0.075
+  hambre: 0.184
+  fatiga: 0.275
+  sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: madre
-estado_conductual: competencia
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.635
+  self: 0.627
   persona: 0.500
   sombra: 0.200
   anima_animus: 0.400
-  heroe: 0.501
+  heroe: 0.502
   sabio: 0.400
   trickster: 0.250
-  madre: 0.682
+  madre: 0.681
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Chara
 
-> **Rol:** `recolector` | **Edad:** 27 | **Sexo:** F | **Ubicación:** `(39, 30)`
+> **Rol:** `recolector` | **Edad:** 27 | **Sexo:** F | **Ubicación:** `(42, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.85 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.36 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.14 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Hambre** | `[▓▓░░░░░░░░]` | 0.18 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.28 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.635` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.627` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.200` | `▓▓░░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.682` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.681` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -91,10 +91,11 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[elpis]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[hados]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[kairos]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[arete]] | `+0.39` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hados]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[iris]] | `-0.11` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[kairos]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
@@ -105,9 +106,9 @@ arquetipos:
 - **Día 1:** Soñó con `'nido_que_asfixia'` (arquetipo `madre`).
   - *Insight:* El madre descansa en valle fertil mientras lo reprimido aguarda en el umbral.
 - **Día 2:** Soñó con `'árbol_que_aprieta'` (arquetipo `madre`).
-  - *Insight:* En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- **Día 3:** Soñó con `'nido_que_asfixia'` (arquetipo `madre`).
-  - *Insight:* El madre y lo reprimido se toleran esta noche en valle fertil.
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el madre respira.
+- **Día 3:** Soñó con `'viento_que_borra'` (arquetipo `madre`).
+  - *Insight:* El madre descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 
 ---
 
@@ -122,9 +123,27 @@ arquetipos:
 - Día 1: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hados.
 - Día 1: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hados.
 - Día 1: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hados.
-- Día 2: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con lo reprimido.
-- Día 2: Cedió ingenuamente ante la manipulación de Kairos.
-- Día 2: Cedió ingenuamente ante la manipulación de Kairos.
-- Día 2: Cedió ingenuamente ante la manipulación de Elpis.
-- Día 2: Cedió ingenuamente ante la manipulación de Kairos.
-- Día 3: Soñó con 'nido_que_asfixia' (madre). Insight: El madre y lo reprimido se toleran esta noche en valle fertil.
+- Día 1: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hados.
+- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el madre respira.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 2: Detectó y rechazó un intento de manipulación de Iris.
+- Día 2: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 2: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 3: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
+- Día 3: Soñó con 'viento_que_borra' (madre). Insight: El madre descansa en pradera humeda mientras lo reprimido aguarda en el umbral.

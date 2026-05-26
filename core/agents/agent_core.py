@@ -20,6 +20,7 @@ from core.world.culture_engine import CultureEngine
 from core.social.genealogy import LineageGraph
 from core.social.knowledge import KnowledgeSystem, KnowledgeUnit, _ALL_KNOWLEDGE, _DISCOVERY_TRIGGERS, ArtifactSystem
 from core.social.emergent_lexicon import EmergentLexiconSystem
+from core.liminal.collective_echo import MultiverseCollectiveEcho
 from core.world.substances import SUBSTANCES
 from .psyche.episodic_memory import EpisodicMemory, MemoryRecord
 from .psyche.dissociation import DissociativeState, select_tipo, ANSIEDAD_UMBRAL, DIAS_UMBRAL, DIAS_PERMANENCIA
@@ -142,6 +143,9 @@ class AgentCore:
         self.artifacts = ArtifactSystem()
         # R5-A4: lenguaje emergente — proto-vocabulario tribal
         self.emergent_lexicon = EmergentLexiconSystem()
+        # R5-E2: eco del multiverso — convergencia simbólica inter-tribal
+        self._multiverse_echo_engine    = MultiverseCollectiveEcho()
+        self._last_multiverse_echo                   = None
         # Presencias ancestrales: duelos tribales sin cierre ritual (Hito K)
         self._tribe_unprocessed_griefs: dict[str, list[UnprocessedGrief]] = {}
         # Proto-chamanismo: rol emergente de mediación simbólica (Ext. B)
@@ -323,6 +327,11 @@ class AgentCore:
                 self._register_death(agent, tp, "orfandad")
 
         # 4. Envejecimiento anual (un año simulado = 360 días)
+        # 4b. R5-A1: distorsión pasiva anual — el tiempo como transmisor silencioso
+        if tp.dia_simulado > 0 and tp.dia_simulado % 360 == 0:
+            for cmem_a1 in self.tribe_manager.cultural_memories.values():
+                if cmem_a1 is not None:
+                    cmem_a1.distort_aging_records(tp.dia_simulado, self._rng)
         if tp.dia_simulado > 0 and tp.dia_simulado % 360 == 0:
             for agent in self.agents.values():
                 if agent.is_alive:
@@ -427,6 +436,16 @@ class AgentCore:
             tp.dia_simulado,
         )
 
+        # 17i. Eco del multiverso — convergencia simbólica inter-tribal (R5-E2)
+        _liminal_sys_e2 = getattr(self.world_ref, "liminal_system", None)
+        self._last_multiverse_echo = self._multiverse_echo_engine.on_day(
+            tribe_fields      = self.tribe_manager.local_fields,
+            liminal_sys       = _liminal_sys_e2,
+            global_field      = self.collective_field,
+            cultural_memories = self.tribe_manager.cultural_memories,
+            dia               = tp.dia_simulado,
+        )
+
         # 18. Re-vivencias de memoria episódica — Hito A (Roadmap 4)
         self._process_episodic_revivals(tp.dia_simulado)
 
@@ -522,6 +541,28 @@ class AgentCore:
                         f"en el día {tp.dia_simulado}."
                     ),
                     intensidad          = 0.85,
+                )
+
+        # R5-A1: legado epistémico del anciano — sus últimas palabras entran en la
+        # memoria cultural con alta intensidad y serán distorsionadas por generaciones
+        if causa == "vejez" and agent.edad >= 40 and tribe_id:
+            cmem_leg = self.tribe_manager.cultural_memories.get(tribe_id)
+            if cmem_leg is not None and agent.episodic_log:
+                # La última entrada significativa del log como legado oral
+                legacy = next(
+                    (e for e in reversed(agent.episodic_log) if "Falleció" not in e),
+                    agent.episodic_log[-1],
+                )
+                cmem_leg.record_event(
+                    dia                 = tp.dia_simulado,
+                    agente_nombre       = agent.nombre,
+                    arquetipo_dominante = arch_norm,
+                    tipo_evento         = "legado_ancestral",
+                    descripcion         = (
+                        f"Las últimas palabras de {agent.nombre} "
+                        f"({arch_norm}, {agent.edad} años): «{legacy}»"
+                    ),
+                    intensidad          = 0.78,
                 )
 
         # Registrar la muerte en el GraveHex (con bond medio de los testigos presentes)

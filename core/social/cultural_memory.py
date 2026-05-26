@@ -281,6 +281,28 @@ class CulturalMemory:
         # Acotar para no distorsionar el arquetipo del hijo demasiado
         return {k: min(v, 0.10) for k, v in effects.items()}
 
+    # ── R5-A1: Distorsión anual pasiva ───────────────────────────────────────
+
+    def distort_aging_records(self, dia: int, rng: random.Random) -> int:
+        """
+        El tiempo como transmisor silencioso: recuerdos con ≥360 días de
+        antigüedad sufren una transmisión adicional sin agente identificable.
+        Modela cómo los eventos lejanos se deforman sin que nadie lo decida.
+        Devuelve el número de registros distorsionados.
+        """
+        _AGING_THRESHOLD = 360
+        count = 0
+        for rec in self.records:
+            if dia - rec.dia_origen >= _AGING_THRESHOLD:
+                self._distort.distort(
+                    record               = rec,
+                    transmisor_nombre    = "el_tiempo",
+                    transmisor_arquetipo = rng.choice(list(_EPITHETS.keys())),
+                    rng                  = rng,
+                )
+                count += 1
+        return count
+
     # ── Serialización ─────────────────────────────────────────────────────────
 
     def to_dict(self) -> dict:

@@ -6,13 +6,13 @@ edad: 34
 sexo: M
 is_alive: True
 posicion: [40, 30]
-humor: 0.802
+humor: 0.882
 energia: 0.659
-ansiedad: 0.381
+ansiedad: 0.273
 needs:
   hambre: 0.064
   fatiga: 0.335
-  sed: 0.435
+  sed: 0.225
   sociabilidad: 0.020
 arquetipo_dominante: heroe
 estado_conductual: competencia
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.88 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.38 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.27 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
+| **Sed** | `[▓▓░░░░░░░░]` | 0.23 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 

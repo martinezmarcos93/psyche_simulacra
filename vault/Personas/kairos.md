@@ -5,14 +5,14 @@ rol: cazador
 edad: 32
 sexo: M
 is_alive: True
-posicion: [43, 30]
-humor: 0.743
-energia: 0.645
-ansiedad: 0.453
+posicion: [42, 30]
+humor: 0.781
+energia: 0.705
+ansiedad: 0.419
 needs:
-  hambre: 0.044
-  fatiga: 0.355
-  sed: 0.595
+  hambre: 0.304
+  fatiga: 0.275
+  sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: heroe
 estado_conductual: cooperacion
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Kairos
 
-> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(43, 30)`
+> **Rol:** `cazador` | **Edad:** 32 | **Sexo:** M | **Ubicación:** `(42, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.74 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.45 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓▓▓░░░░]` | 0.60 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.36 | 🟢 Descansado |
+| **Hambre** | `[▓▓▓░░░░░░░]` | 0.30 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.28 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -91,10 +91,10 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[bios]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[chara]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[chara]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[gigas]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[iris]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 
@@ -122,17 +122,10 @@ arquetipos:
 - Día 0: Se impuso competitivamente ante Gigas, absorbiendo sus recursos biológicos.
 - Día 1: Soñó con 'victoria_vacía' (heroe). Insight: lo reprimido pesa demasiado — el heroe cede terreno en valle fertil para no caer.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 2.
-- Día 1: Se enfrentó en un choque violento y destructivo contra Arete.
-- Día 1: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
-- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
 - Día 2: Soñó con 'victoria_vacía' (heroe). Insight: El heroe descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
+- Día 2: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 2: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
+- Día 3: Cooperó de forma mutua y armónica con Chara. Su lazo social se fortaleció.
 - Día 3: Soñó con 'montaña_que_escalar' (heroe). Insight: El heroe y lo reprimido se toleran esta noche en pradera humeda.

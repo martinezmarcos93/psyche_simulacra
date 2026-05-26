@@ -6,13 +6,13 @@ edad: 28
 sexo: M
 is_alive: True
 posicion: [45, 30]
-humor: 0.859
+humor: 0.734
 energia: 0.665
-ansiedad: 0.224
+ansiedad: 0.420
 needs:
-  hambre: 0.084
+  hambre: 0.064
   fatiga: 0.335
-  sed: 0.075
+  sed: 0.405
   sociabilidad: 0.020
 arquetipo_dominante: sombra
 estado_conductual: aislamiento
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Hidratado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -95,7 +95,6 @@ arquetipos:
 | [[bios]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[iris]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[kairos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kore]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -142,12 +141,5 @@ arquetipos:
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
 - Día 1: Detectó y rechazó un intento de manipulación de Kore.
-- Día 1: Manipuló con éxito y astucia a Iris para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Iris para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Iris para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Iris para ceder recursos.
-- Día 1: Manipuló con éxito y astucia a Iris para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Iris para ceder recursos.
 - Día 2: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra descansa en costa abierta mientras lo reprimido aguarda en el umbral.
-- Día 2: Manipuló con éxito y astucia a Iris para ceder recursos.
 - Día 3: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero, el sombra negocia con lo reprimido en el único idioma posible: el silencio.

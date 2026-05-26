@@ -94,14 +94,19 @@ class PsycheRuntime:
     # ── Snapshot ──────────────────────────────────────────────────────────────
 
     def get_current_snapshot(self) -> dict | None:
-        """Retorna el WorldSnapshot actual serializado, o None si no hay runner."""
+        """Retorna el WorldSnapshot actual serializado, enriquecido con datos de AgentCore."""
         runner = self._get_runner()
         if runner is None:
             return None
         snap = runner.world.current_snapshot
         if snap is None:
             return None
-        return snap.to_dict() if hasattr(snap, "to_dict") else None
+        snap_dict = snap.to_dict() if hasattr(snap, "to_dict") else {}
+        # R5-E2: exponer eco del multiverso para la UI (sin modificar WorldSnapshot)
+        echo = getattr(runner.agents, "_last_multiverse_echo", None)
+        if echo is not None:
+            snap_dict["multiverse_echo"] = echo.to_dict()
+        return snap_dict
 
     # ── Ciclo de vida del runtime ─────────────────────────────────────────────
 

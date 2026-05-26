@@ -1,7 +1,7 @@
 ---
 tipo: fundacion
 dia: 1
-tribu: tribe_kore
+tribu: tribe_filia
 ---
 # 📜 Mito Fundacional — Día 1
 

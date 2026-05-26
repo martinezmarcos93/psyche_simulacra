@@ -32,6 +32,7 @@ SEEDS_FILE      = SEEDS_DIR / "initial_personas.yaml"
 VISUALIZER      = ROOT / "scripts" / "visualizer.py"
 DASHBOARD       = ROOT / "dashboard" / "app.py"
 LIMINAL_SERVER  = ROOT / "liminal_server" / "main.py"
+NICEGUI_LAUNCH  = ROOT / "ui" / "launch.py"
 
 
 # ── Estado ────────────────────────────────────────────────────────────────────
@@ -564,9 +565,21 @@ def _action_dashboard(console: Console) -> None:
 
     console.print(
         "[green]Dashboard iniciado.[/green]  "
-        "Abrí [bold cyan]http://localhost:8501[/bold cyan] en tu navegador."
+        "Abrí [bold cyan]http://localhost:8501[/bold cyan] en tu navegador.\n"
+        "[dim](Arqueología histórica — para observación en tiempo real, usar opción [3])[/dim]"
     )
     console.print("[dim](Para detenerlo cerrá la ventana de terminal del dashboard)[/dim]")
+
+
+def _action_nicegui(console: Console) -> None:
+    """Lanza la interfaz NiceGUI: simulación en background + browser en tiempo real."""
+    console.print(
+        "\n[bold cyan]Observatorio en tiempo real (NiceGUI)[/bold cyan]\n"
+        "[dim]La simulación corre en background. "
+        "El browser abre automáticamente en http://localhost:8080\n"
+        "Cerrá el browser o usá Ctrl+C para volver al menú.[/dim]\n"
+    )
+    subprocess.run([sys.executable, str(NICEGUI_LAUNCH)])
 
 
 def _action_new(console: Console, state: dict | None) -> None:
@@ -664,34 +677,36 @@ def main() -> None:
         if has_vivos:
             t.add_row("[1]", "Continuar en terminal  [dim](máxima velocidad)[/dim]")
             t.add_row("[2]", "Continuar en Pygame    [dim](tiempo real, con mapa)[/dim]")
+            t.add_row("[3]", "[bold green]Observar en tiempo real[/bold green]  [dim](NiceGUI — browser automático)[/dim]")
         else:
             t.add_row("[dim][1][/dim]", "[dim]Continuar en terminal  (sin agentes vivos)[/dim]")
             t.add_row("[dim][2][/dim]", "[dim]Continuar en Pygame    (sin agentes vivos)[/dim]")
+            t.add_row("[dim][3][/dim]", "[dim]Observar en tiempo real (sin agentes vivos)[/dim]")
 
-        t.add_row("[3]", "Abrir Dashboard Streamlit  [dim](lectura, no corre la simulación)[/dim]")
+        t.add_row("[4]", "Dashboard Streamlit  [dim](arqueología histórica — no corre la sim)[/dim]")
 
         if state:
-            t.add_row("[4]", "[red]Nueva simulación[/red]  [dim](archiva la anterior antes de borrar)[/dim]")
+            t.add_row("[5]", "[red]Nueva simulación[/red]  [dim](archiva la anterior antes de borrar)[/dim]")
         else:
-            t.add_row("[4]", "[yellow]Primera simulación[/yellow]")
+            t.add_row("[5]", "[yellow]Primera simulación[/yellow]")
 
         t.add_row("", "[dim]──────── ZONA LIMINAL ────────[/dim]")
 
         if has_vivos:
-            t.add_row("[5]", "Levantar servidor + conectar   [dim](hosteás vos — abre server en nueva ventana)[/dim]")
-            t.add_row("[6]", "Conectarse a servidor          [dim](te unís al servidor de tu amigo)[/dim]")
+            t.add_row("[6]", "Levantar servidor + conectar   [dim](hosteás vos — abre server en nueva ventana)[/dim]")
+            t.add_row("[7]", "Conectarse a servidor          [dim](te unís al servidor de tu amigo)[/dim]")
         else:
-            t.add_row("[dim][5][/dim]", "[dim]Levantar servidor + conectar   (sin agentes vivos)[/dim]")
-            t.add_row("[dim][6][/dim]", "[dim]Conectarse a servidor          (sin agentes vivos)[/dim]")
+            t.add_row("[dim][6][/dim]", "[dim]Levantar servidor + conectar   (sin agentes vivos)[/dim]")
+            t.add_row("[dim][7][/dim]", "[dim]Conectarse a servidor          (sin agentes vivos)[/dim]")
 
-        t.add_row("[7]", "Salir")
+        t.add_row("[8]", "Salir")
         console.print(t)
         console.print()
 
         try:
             choice = Prompt.ask(
                 "Opción",
-                choices=["1", "2", "3", "4", "5", "6", "7"],
+                choices=["1", "2", "3", "4", "5", "6", "7", "8"],
                 console=console,
             )
         except (KeyboardInterrupt, EOFError):
@@ -713,28 +728,35 @@ def main() -> None:
                 _wait_enter()
 
         elif choice == "3":
-            _action_dashboard(console)
+            if has_vivos:
+                _action_nicegui(console)
+            else:
+                console.print("[dim]No hay agentes vivos para continuar.[/dim]")
             _wait_enter()
 
         elif choice == "4":
-            _action_new(console, state)
+            _action_dashboard(console)
             _wait_enter()
 
         elif choice == "5":
+            _action_new(console, state)
+            _wait_enter()
+
+        elif choice == "6":
             if has_vivos:
                 _action_liminal_host(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
             _wait_enter()
 
-        elif choice == "6":
+        elif choice == "7":
             if has_vivos:
                 _action_liminal_join(console)
             else:
                 console.print("[dim]No hay agentes vivos para continuar.[/dim]")
             _wait_enter()
 
-        elif choice == "7":
+        elif choice == "8":
             console.print("\n[dim]Hasta pronto.[/dim]")
             break
 

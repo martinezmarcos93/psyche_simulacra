@@ -5,19 +5,19 @@ rol: recolector
 edad: 22
 sexo: F
 is_alive: True
-posicion: [42, 27]
-humor: 0.817
+posicion: [42, 26]
+humor: 0.803
 energia: 0.665
-ansiedad: 0.382
+ansiedad: 0.402
 needs:
-  hambre: 0.064
+  hambre: 0.104
   fatiga: 0.335
   sed: 0.405
   sociabilidad: 0.020
 arquetipo_dominante: self
 estado_conductual: cooperacion
 arquetipos:
-  self: 0.669
+  self: 0.656
   persona: 0.500
   sombra: 0.250
   anima_animus: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Elpis
 
-> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(42, 27)`
+> **Rol:** `recolector` | **Edad:** 22 | **Sexo:** F | **Ubicación:** `(42, 26)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,14 +42,14 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.38 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
@@ -61,7 +61,7 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.669` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.656` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -91,10 +91,10 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[chara]] | `+0.10` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[doron]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[filia]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[hados]] | `+0.10` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hados]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
@@ -104,10 +104,10 @@ arquetipos:
 
 - **Día 1:** Soñó con `'unión_imposible'` (arquetipo `self`).
   - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 2:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
+- **Día 2:** Soñó con `'horizonte_inmóvil'` (arquetipo `self`).
+  - *Insight:* El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 - **Día 3:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self y lo reprimido se toleran esta noche en pradera humeda.
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
 
 ---
 
@@ -124,7 +124,5 @@ arquetipos:
 - Día 0: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
 - Día 1: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 1: Cedió ingenuamente ante la manipulación de Hados.
-- Día 2: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
-- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
-- Día 3: Soñó con 'unión_imposible' (self). Insight: El self y lo reprimido se toleran esta noche en pradera humeda.
+- Día 2: Soñó con 'horizonte_inmóvil' (self). Insight: El self descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
+- Día 3: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.

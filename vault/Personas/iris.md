@@ -5,34 +5,34 @@ rol: explorador
 edad: 21
 sexo: F
 is_alive: True
-posicion: [49, 30]
-humor: 0.794
-energia: 0.665
-ansiedad: 0.396
+posicion: [42, 30]
+humor: 0.761
+energia: 0.465
+ansiedad: 0.443
 needs:
-  hambre: 0.064
-  fatiga: 0.335
+  hambre: 0.016
+  fatiga: 0.535
   sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: manipulacion
 arquetipos:
-  self: 0.609
-  persona: 0.500
-  sombra: 0.251
-  anima_animus: 0.401
-  heroe: 0.501
+  self: 0.619
+  persona: 0.600
+  sombra: 0.250
+  anima_animus: 0.400
+  heroe: 0.502
   sabio: 0.400
-  trickster: 0.481
+  trickster: 0.480
   madre: 0.400
   padre: 0.400
   nino_divino: 0.300
-  gobernante: 0.400
-  rebelde: 0.301
+  gobernante: 0.340
+  rebelde: 0.300
 ---
 # 👤 Persona: Iris
 
-> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(49, 30)`
+> **Rol:** `explorador` | **Edad:** 21 | **Sexo:** F | **Ubicación:** `(42, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.46 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.02 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.54 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.609` | `▓▓▓▓▓▓▓░░░░░` |
-| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.251` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.401` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
+| **Self** | `0.619` | `▓▓▓▓▓▓▓░░░░░` |
+| **Persona** | `0.600` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.250` | `▓▓▓░░░░░░░░░` |
+| **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.481` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.480` | `▓▓▓▓▓▓░░░░░░` |
 | **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.301` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.340` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -91,8 +91,10 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[moros]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[peitho]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[chara]] | `-0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kairos]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kore]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[peitho]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
@@ -102,9 +104,9 @@ arquetipos:
 - **Día 1:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
   - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
 - **Día 2:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y lo reprimido se toleran esta noche en costa abierta.
-- **Día 3:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En pantano costero, lo reprimido pierde fuerza un instante — el self respira.
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 3:** Soñó con `'papel_sin_actor'` (arquetipo `persona`).
+  - *Insight:* El persona descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
 
 ---
 
@@ -113,14 +115,17 @@ arquetipos:
 - Día 0: Cooperó de forma mutua y armónica con Sophron. Su lazo social se fortaleció.
 - Día 1: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 1: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
-- Día 1: Cooperó de forma mutua y armónica con Peitho. Su lazo social se fortaleció.
-- Día 1: Cedió ingenuamente ante la manipulación de Moros.
-- Día 1: Cedió ingenuamente ante la manipulación de Moros.
-- Día 1: Cedió ingenuamente ante la manipulación de Moros.
-- Día 1: Cedió ingenuamente ante la manipulación de Moros.
-- Día 1: Cedió ingenuamente ante la manipulación de Moros.
-- Día 2: Cedió ingenuamente ante la manipulación de Moros.
-- Día 2: Soñó con 'silencio_pleno' (self). Insight: El self y lo reprimido se toleran esta noche en costa abierta.
-- Día 2: Cedió ingenuamente ante la manipulación de Moros.
-- Día 3: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, lo reprimido pierde fuerza un instante — el self respira.
+- Día 2: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2: Cedió ingenuamente ante la manipulación de Peitho.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 2: Intentó manipular a Chara, pero fue descubierto.
+- Día 2: Manipuló con éxito y astucia a Kairos para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Chara para ceder recursos.
+- Día 2: Manipuló con éxito y astucia a Kairos para ceder recursos.
+- Día 3: Soñó con 'papel_sin_actor' (persona). Insight: El persona descansa en pradera humeda mientras lo reprimido aguarda en el umbral.
