@@ -150,7 +150,8 @@ Sistema opcional que conecta múltiples instancias de PSYCHE SIMULACRA a través
 - **SQLite** (WAL) — snapshots de agentes, clima, escenario, muertes, sesiones
 - **CheckpointManager** — guardado atómico JSON cada 10 días + al apagar
 - **Obsidian Vault** — sincronización diaria: `vault/Personas/`, `vault/Colectivo/`, `vault/Tribus/`, `vault/Colectivo/Leyendas/`
-- **Dashboard Streamlit** — red social, campo colectivo, inspector de agentes (solo lectura, corre en paralelo)
+- **Observatorio NiceGUI** — interfaz web en tiempo real (puerto 8080): 9 tabs con mapa hexagonal, red social cuántica, campo colectivo, tendencias, inspector de agentes, registro de sueños, civilización y Zona Liminal. Abre automáticamente al ejecutar `main.py`
+- **Dashboard Streamlit** — arqueología histórica: red social, campo colectivo, inspector (solo lectura, datos históricos de la DB)
 - **Visualizador Pygame** — mapa hexagonal en tiempo real con zoom y panning
 
 ---
@@ -172,6 +173,13 @@ Sesión nocturna de 8h → ~480 días simulados (> 1 año de vida del grupo)
 
 ```
 PSYCHE SIMULACRA/
+│
+├── ui/
+│   ├── __init__.py
+│   ├── app_state.py               AppState — singleton thread-safe (runner + runtime)
+│   ├── db_reader.py               Lecturas no bloqueantes de DB SQLite y checkpoint JSON
+│   ├── launch.py                  Punto de entrada alternativo para NiceGUI
+│   └── psyche_ui.py               Interfaz NiceGUI completa (launcher / 9 tabs monitor)
 │
 ├── core/
 │   ├── time/
@@ -296,7 +304,7 @@ PSYCHE SIMULACRA/
 │   └── visualizer/
 │       └── liminal_pygame.py         Ventana Pygame del mapa liminal
 │
-├── main.py                           Launcher interactivo (TUI con Rich)
+├── main.py                           Punto de entrada principal — abre NiceGUI en el browser
 ├── pyproject.toml
 └── requirements.txt
 ```
@@ -322,15 +330,27 @@ pip install -e ".[dashboard]"    # con Streamlit
 
 ## Ejecucion
 
-### Launcher interactivo (recomendado)
+### Observatorio NiceGUI (recomendado)
 
 ```bash
 python main.py
 ```
 
-Menu TUI que detecta la simulacion activa, muestra el dia y los agentes vivos.
-Al iniciar nueva simulacion, **archiva automaticamente la anterior** en `data/archive/`.
-Permite seleccionar entre archivos de semillas disponibles (15 o 100 agentes).
+Inicia Ollama en background y abre automáticamente `http://localhost:8080` en el browser.
+Desde ahí se elige **Continuar** la simulacion activa o iniciar una **Nueva** (con seleccion de semillas y seed).
+Una vez iniciada, el observatorio muestra 9 tabs en tiempo real:
+
+| Tab | Contenido |
+|-----|-----------|
+| Resumen | Temperatura, estación, carrying capacity, presión de recursos, tensión colectiva (presión emocional / mítica / confusión), muertes recientes |
+| Tendencias | Gráficos históricos: emociones, población, clima, recursos (desde SQLite) |
+| ICL | Carga memética de símbolos arquetípicos, mitología activa, léxico tribal emergente |
+| Red Social | Grafo cuántico: lazos positivos (verde), negativos (rojo), entrelazados (púrpura) |
+| Agentes | Inspector de todos los agentes vivos con tribu, arquetipo, métricas |
+| Sueños | Registro por individuo y por tribu |
+| Civilización | Estructuras construidas (altares, refugios, depósitos) · Tecnologías materializadas |
+| Mapa | Hexes explorados coloreados por bioma, fauna, tumbas, fuego, hexes liminales |
+| Zona Liminal | Solo si se activó el servidor liminal al iniciar |
 
 ### Motor headless (maxima velocidad)
 
@@ -353,21 +373,16 @@ python scripts/visualizer.py --resume --fps 10 --days 0
 
 ### Zona Liminal (multijugador experimental)
 
-Todo se maneja desde `main.py`. El menú tiene tres opciones dedicadas:
-
-| Opción | Qué hace |
-|--------|----------|
-| `[5]` Iniciar servidor Zona Liminal | Abre el servidor WebSocket en una nueva ventana — pide puerto y seed |
-| `[6]` Visualizador + Liminal local | Lanza el visualizador conectado a `localhost:8765` |
-| `[7]` Visualizador + Liminal remoto | Pide host y puerto, luego lanza el visualizador conectado |
+Desde el launcher NiceGUI, marcar **"Levantar servidor Zona Liminal"** antes de iniciar.
+El servidor se abre en una nueva ventana y el tab Liminal aparece en el observatorio.
 
 **Flujo típico en la misma PC (desarrollo/pruebas):**
-1. `python main.py` → `[5]` para iniciar el servidor (nueva ventana, puerto 8765)
-2. `python main.py` → `[6]` para conectar el visualizador
+1. `python main.py` → activar checkbox Zona Liminal → Continuar/Nueva → tab Liminal
 
-**Flujo entre dos PCs:**
-1. El hosteador corre `python main.py` → `[5]` y abre el puerto 8765 en su router
-2. El otro corre `python main.py` → `[7]` e ingresa la IP pública del hosteador
+**Flujo entre dos PCs:** el servidor liminal puede iniciarse manualmente:
+```bash
+python liminal_server/main.py --host 0.0.0.0 --port 8765 --seed 0
+```
 
 Aparece un hexágono violeta pulsante en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en la ventana del servidor.
 
@@ -377,12 +392,16 @@ cd liminal_server
 pip install -r requirements.txt
 ```
 
-### Dashboard analitico (solo lectura, corre en paralelo)
+### Dashboard Streamlit (arqueología histórica, opcional)
+
+Para análisis profundo de datos históricos en la DB:
 
 ```bash
 python -m streamlit run dashboard/app.py
 # Abrir http://localhost:8501
 ```
+
+No corre la simulación — solo lee datos históricos de la DB SQLite.
 
 ### Generar nuevas semillas de agentes
 
@@ -403,7 +422,7 @@ python scripts/run_robustness.py --runs 10 --days 200
 ## Tests
 
 ```bash
-pytest               # 181 tests
+pytest               # 329 tests
 pytest -v            # verbose
 pytest --tb=short    # traceback corto
 pytest tests/test_metrics.py -v   # solo metricas de emergencia
@@ -424,38 +443,43 @@ NARRATIVE_ENABLED=1                      # 0 para desactivar
 
 ## Stack tecnico
 
-| Componente | Tecnologia |
+| Componente | Tecnología |
 |------------|-----------|
 | Motor ABM | SimulationClock propio (tick-based, sin Mesa) |
 | Grafos sociales | NetworkX |
 | Vault | PyYAML (frontmatter Obsidian) |
 | Persistencia | SQLite stdlib (WAL mode) |
-| Dashboard | Streamlit |
-| Visualizador | Pygame |
-| Launcher TUI | Rich |
+| Observatorio principal | NiceGUI 3.x (browser, tiempo real) |
+| Visualización de datos | Plotly (gráficos, mapa hexagonal, red social) |
+| Dashboard histórico | Streamlit |
+| Visualizador legacy | Pygame |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
 | Zona Liminal (red) | websockets + asyncio (servidor) / threading (cliente) |
-| Tests | pytest |
+| Tests | pytest (329 tests) |
 
 ---
 
 ## Documentacion de diseno
 
-Los documentos originales de diseno estan en `src/`:
+Los documentos de diseño están en `src/` y `docs/`:
 
 | Archivo | Contenido |
 |---------|-----------|
-| `01-PSYCHE_IDEAS_IMPLEMENTACION.md` | Backlog de ideas con estimaciones |
-| `02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoria del inconsciente colectivo |
-| `03-PSYCHE_BETA_SCOPE.md` | MVP: criterios de exito |
-| `04-PSYCHE_SISTEMA_VIDA.md` | Nacimiento, muerte, herencia |
-| `05-PSYCHE_LECCIONES_SIMULACIONES.md` | Lecciones de Sims, RimWorld, Spore |
-| `06-PSYCHE_ESCENARIO_INICIAL.md` | Mundo hexagonal: 12 biomas |
-| `07-PSYCHE_AUDITORIA_PERSISTENCIA.md` | Esquema de BD y checkpoints |
-| `08-PSYCHE_EL_MUNDO.md` | Diseno completo de recursos y biomas |
-| `09-PSYCHE_ARQUITECTURA_NUCLEOS.md` | WorldCore + AgentCore |
-| `10-PSYCHE_SIMULATION_CLOCK.md` | SimulationClock |
-| `archive/00-ROADMAP_ORIGINAL_v1_COMPLETADO.md` | Roadmap original completado |
+| `docs/roadmap5.2.md` | **Roadmap activo** — refinamiento del observatorio NiceGUI |
+| `docs/model_spec.md` | Especificación del modelo ABM |
+| `docs/archetype_theory.md` | Teoría arquetípica jungiana aplicada |
+| `docs/Liminal_Zone.md` | Arquitectura de la Zona Liminal |
+| `src/01-PSYCHE_IDEAS_IMPLEMENTACION.md` | Backlog de ideas con estimaciones |
+| `src/02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoria del inconsciente colectivo |
+| `src/03-PSYCHE_BETA_SCOPE.md` | MVP: criterios de exito |
+| `src/04-PSYCHE_SISTEMA_VIDA.md` | Nacimiento, muerte, herencia |
+| `src/05-PSYCHE_LECCIONES_SIMULACIONES.md` | Lecciones de Sims, RimWorld, Spore |
+| `src/06-PSYCHE_ESCENARIO_INICIAL.md` | Mundo hexagonal: 12 biomas |
+| `src/07-PSYCHE_AUDITORIA_PERSISTENCIA.md` | Esquema de BD y checkpoints |
+| `src/08-PSYCHE_EL_MUNDO.md` | Diseno completo de recursos y biomas |
+| `src/09-PSYCHE_ARQUITECTURA_NUCLEOS.md` | WorldCore + AgentCore |
+| `src/10-PSYCHE_SIMULATION_CLOCK.md` | SimulationClock |
+| `src/archive/00-ROADMAP_ORIGINAL_v1_COMPLETADO.md` | Roadmap original completado |
 
 ---
 
