@@ -26,6 +26,7 @@ from .event_types import (
 from .runtime_state import RuntimeState
 from .service_manager import ServiceManager
 from .snapshot_pipeline import SnapshotPipeline
+from core.time import ClockPriority
 
 if TYPE_CHECKING:
     from core.time.simulation_clock import TimePoint
@@ -162,9 +163,9 @@ class PsycheRuntime:
             ))
             _prev_season[0] = tp.estacion
 
-        runner.clock.on_tick(          _tick_bridge,   priority=15)
-        runner.clock.on_day(           _day_bridge,    priority=15)
-        runner.clock.on_season_change( _season_bridge, priority=15)
+        runner.clock.on_tick(          _tick_bridge,   priority=ClockPriority.EVENT_BRIDGE)
+        runner.clock.on_day(           _day_bridge,    priority=ClockPriority.EVENT_BRIDGE)
+        runner.clock.on_season_change( _season_bridge, priority=ClockPriority.EVENT_BRIDGE)
 
     # ── Helpers ───────────────────────────────────────────────────────────────
 

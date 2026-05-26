@@ -4,7 +4,7 @@ import atexit
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from core.time import SimulationClock, TimePoint
+from core.time import SimulationClock, TimePoint, ClockPriority
 from core.world import WorldCore
 from core.agents import AgentCore
 from core.narrative.narrator import NarratorEngine
@@ -66,17 +66,17 @@ class SimulationRunner:
 
     def _wire_handlers(self) -> None:
         """Registra todos los handlers en el clock actual."""
-        self.clock.on_tick(self.world.on_tick,  priority=10)
-        self.clock.on_day(self.world.on_day,    priority=10)
+        self.clock.on_tick(self.world.on_tick,  priority=ClockPriority.WORLD)
+        self.clock.on_day(self.world.on_day,    priority=ClockPriority.WORLD)
 
-        self.clock.on_tick(self.agents.on_tick, priority=20)
-        self.clock.on_day(self.agents.on_day,   priority=20)
+        self.clock.on_tick(self.agents.on_tick, priority=ClockPriority.AGENT)
+        self.clock.on_day(self.agents.on_day,   priority=ClockPriority.AGENT)
 
-        self.clock.on_season_change(self.world.on_season_change,  priority=10)
-        self.clock.on_season_change(self.agents.on_season_change, priority=20)
+        self.clock.on_season_change(self.world.on_season_change,  priority=ClockPriority.WORLD)
+        self.clock.on_season_change(self.agents.on_season_change, priority=ClockPriority.AGENT)
 
-        self.clock.on_tick(self._persist_tick, priority=30)
-        self.clock.on_day(self._persist_day,   priority=30)
+        self.clock.on_tick(self._persist_tick, priority=ClockPriority.PERSISTENCE)
+        self.clock.on_day(self._persist_day,   priority=ClockPriority.PERSISTENCE)
 
         atexit.register(self._emergency_save)
 
@@ -338,7 +338,7 @@ class SimulationRunner:
                     done[0] = True
                     self.clock.shutdown()
 
-            self.clock.on_day(_stopper, priority=99)
+            self.clock.on_day(_stopper, priority=ClockPriority.STOPPER)
 
         # Parar si todos mueren
         def _extinction_check(tp: TimePoint) -> None:
@@ -346,7 +346,7 @@ class SimulationRunner:
                 print(f"\n[💀] EXTINCIÓN TOTAL detectada en el Día {tp.dia_simulado}. Deteniendo simulación.")
                 self.clock.shutdown()
         
-        self.clock.on_day(_extinction_check, priority=100)
+        self.clock.on_day(_extinction_check, priority=ClockPriority.EXTINCTION)
 
         self.narrator.start()
         try:

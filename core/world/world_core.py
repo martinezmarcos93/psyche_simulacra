@@ -192,7 +192,26 @@ class WorldCore:
                 success       = True,
                 world_effects = {"nuevos_hexes": len(newly)},
                 discoveries   = discoveries,
+                coord_dest    = action.coord,
             )
+
+        elif action.type == ActionType.MOVERSE:
+            q, r = action.coord
+            # Validamos límites geográficos en la grilla de 80x60
+            if 0 <= q < 80 and 0 <= r < 60:
+                return ActionResult(
+                    agent_id    = action.agent_id,
+                    action_type = ActionType.MOVERSE,
+                    success     = True,
+                    coord_dest  = action.coord,
+                )
+            else:
+                return ActionResult(
+                    agent_id       = action.agent_id,
+                    action_type    = ActionType.MOVERSE,
+                    success        = False,
+                    failure_reason = "fuera_de_limites",
+                )
 
         elif action.type == ActionType.CONSTRUIR_REFUGIO:
             ok = self.terrain.add_structure(

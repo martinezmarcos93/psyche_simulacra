@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from enum import Enum, auto
+from enum import Enum, auto, IntEnum
 from typing import Callable
 import time
 
@@ -11,6 +11,17 @@ class ClockState(Enum):
     RUNNING  = auto()
     PAUSED   = auto()
     SHUTDOWN = auto()
+
+
+class ClockPriority(IntEnum):
+    WORLD = 10
+    EVENT_BRIDGE = 15
+    AGENT = 20
+    LIMINAL = 25
+    PERSISTENCE = 30
+    STOPPER = 99
+    EXTINCTION = 100
+
 
 
 @dataclass(frozen=True)

@@ -221,8 +221,11 @@ class Agent:
         # Aplicar resultado de la acción del tick anterior
         if self.id in snapshot.action_results:
             result = snapshot.action_results[self.id]
-            if result.success and result.resource_gained:
-                self._apply_resource_gain(result.resource_gained)
+            if result.success:
+                if result.resource_gained:
+                    self._apply_resource_gain(result.resource_gained)
+                if getattr(result, "coord_dest", None) is not None:
+                    self.posicion = result.coord_dest
 
         # Actualizar efectos de sustancias activas
         self._tick_substances()
@@ -405,7 +408,6 @@ class Agent:
         valid = [(q + dq, r + dr) for dq, dr in directions
                  if 0 <= q + dq < 80 and 0 <= r + dr < 60]
         target = self._rng.choice(valid) if valid else (q, r)
-        self.posicion = target
         return WorldAction(
             agent_id = self.id,
             tick     = tp.tick,
@@ -553,7 +555,6 @@ class Agent:
                 if resources.get(water, 0) > 0.1:
                     if coord != self.posicion:
                         # Movimiento: un tick para llegar, recolectar el próximo
-                        self.posicion = coord
                         return WorldAction(
                             agent_id = self.id,
                             tick     = tp.tick,
@@ -574,7 +575,6 @@ class Agent:
         # Sin agua en radio 2: navegar hacia la última fuente conocida, o explorar
         if self._last_known_water is not None and self._last_known_water != self.posicion:
             target = self._step_toward(self._last_known_water)
-            self.posicion = target
             return WorldAction(
                 agent_id = self.id,
                 tick     = tp.tick,
@@ -620,7 +620,6 @@ class Agent:
         if target == self.posicion:
             return None
         dest = self._step_toward(target)
-        self.posicion = dest
         return WorldAction(
             agent_id = self.id,
             tick     = tp.tick,
@@ -676,7 +675,6 @@ class Agent:
         else:
             target = (q, r)  # Fallback si no hay salidas válidas
             
-        self.posicion = target
         return WorldAction(
             agent_id = self.id,
             tick     = tp.tick,

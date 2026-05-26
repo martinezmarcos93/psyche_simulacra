@@ -28,3 +28,7 @@ class ActionResult:
     # Información nueva descubierta durante la acción
     # [{"tipo": "recurso_oculto", "recurso": "miel", "coord": (41, 30)}]
     discoveries: list = field(default_factory=list)
+
+    # Destino posicional autorizado para acciones de movimiento o exploración
+    coord_dest: tuple[int, int] | None = None
+
