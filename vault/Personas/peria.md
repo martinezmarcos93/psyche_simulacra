@@ -1,0 +1,2075 @@
+---
+id: peria
+nombre: Peria
+rol: generico
+edad: 11
+sexo: F
+is_alive: True
+posicion: [68, 53]
+humor: 0.736
+energia: 0.530
+ansiedad: 0.424
+needs:
+  hambre: 0.074
+  fatiga: 0.308
+  sed: 0.287
+  sociabilidad: 0.020
+arquetipo_dominante: trickster
+estado_conductual: aislamiento
+arquetipos:
+  self: 0.981
+  persona: 0.987
+  sombra: 0.982
+  anima_animus: 0.989
+  heroe: 0.000
+  sabio: 0.998
+  trickster: 1.000
+  madre: 1.000
+  padre: 0.401
+  nino_divino: 0.703
+  gobernante: 0.000
+  rebelde: 0.414
+---
+# 👤 Persona: Peria
+
+> **Rol:** `generico` | **Edad:** 11 | **Sexo:** F | **Ubicación:** `(68, 53)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.74 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.53 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.07 | 🟢 Saciado |
+| **Sed** | `[▓▓▓░░░░░░░]` | 0.29 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.31 | 🟢 Descansado |
+| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.981` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.987` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.982` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.989` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.000` | `░░░░░░░░░░░░` |
+| **Sabio** | `0.998` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.703` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.414` | `▓▓▓▓▓░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[alethea]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[brenna]] | `-0.72` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[brysis]] | `+0.46` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[calix]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[decia]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[demos]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[desma]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[eudora]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[exan]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[fyria]] | `+0.46` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[garan]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[glaukia]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[hector]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[iambe]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[isidor]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ivar]] | `-0.74` | `▓░░░░░░░░░` | Ninguno |
+| [[lakon]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[lysane]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[meleager]] | `-0.80` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[nausicaa]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[nephele]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[oris]] | `-0.70` | `▓░░░░░░░░░` | Ninguno |
+| [[perion]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[phoibos]] | `+0.46` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[stenos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[tainis]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[talos]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[thalia]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[theron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[ulax]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[uritha]] | `+0.31` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[velia]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[vespa]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[wulfar]] | `+0.44` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[xanthe]] | `-0.32` | `▓▓▓░░░░░░░` | Ninguno |
+| [[yaron]] | `-0.19` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[ysolde]] | `-0.41` | `▓▓▓░░░░░░░` | Ninguno |
+| [[zephyra]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[zoia]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[zylas]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 1222:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- **Día 1223:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
+  - *Insight:* En bosque templado, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- **Día 1224:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- **Día 1225:** Soñó con `'habitación_prohibida'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- **Día 1226:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- **Día 1227:** Soñó con `'puerta_que_se_mueve'` (arquetipo `trickster`).
+  - *Insight:* En pradera humeda, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- **Día 1228:** Soñó con `'figura_que_sigue'` (arquetipo `trickster`).
+  - *Insight:* El trickster crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'luz_primera' (nino_divino). Insight: En pradera humeda, el nino_divino encuentra tregua provisional con lo reprimido.
+- Día 1: Sufrió explotación y hostilidad de Talos, cediendo recursos biológicos.
+- Día 2: Soñó con 'juego_que_mata' (nino_divino). Insight: El nino_divino busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 3: Soñó con 'calma_antes_de_algo' (nino_divino). Insight: En lago interior, el nino_divino encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'juego_que_mata' (nino_divino). Insight: En sabana abierta, el nino_divino encuentra tregua provisional con lo reprimido.
+- Día 5: Soñó con 'luz_primera' (nino_divino). Insight: El nino_divino busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 6: Soñó con 'cuna_sin_fondo' (nino_divino). Insight: El nino_divino busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 7: Soñó con 'tierra_resquebrajada' (nino_divino). Insight: El nino_divino busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 8: Soñó con 'cuna_sin_fondo' (nino_divino). Insight: En bosque templado, el nino_divino encuentra tregua provisional con lo reprimido.
+- Día 9: Soñó con 'campo_interminable' (nino_divino). Insight: El nino_divino busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 10: Soñó con 'luz_primera' (nino_divino). Insight: El nino_divino busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 11: Soñó con 'viento_que_borra' (nino_divino). Insight: El nino_divino busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 12: Soñó con 'cuna_sin_fondo' (nino_divino). Insight: El nino_divino busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 12: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 12: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 12: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 13: Soñó con 'juego_que_mata' (nino_divino). Insight: En pradera humeda, el nino_divino encuentra tregua provisional con lo reprimido.
+- Día 14: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 15: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Soñó con 'campo_interminable' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Calix. Su lazo social se fortaleció.
+- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 19: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 20: Soñó con 'sombra_que_camina' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 21: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 22: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 23: Soñó con 'sed_en_el_agua' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 24: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 25: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 27: Soñó con 'centro_sin_lugar' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 30: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 31: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 32: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 33: Soñó con 'fondo_que_sube' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 34: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 35: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 36: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 37: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 38: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 39: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 40: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 41: Soñó con 'sed_en_el_agua' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 42: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 43: Soñó con 'sombra_ausente' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 44: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 45: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 46: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 47: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 48: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 49: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 50: Soñó con 'niebla_densa' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 51: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 52: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 53: Soñó con 'raíz_invisible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 54: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 55: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 56: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 57: Soñó con 'danza_a_solas' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 58: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 59: Soñó con 'semilla_negra' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 60: Soñó con 'calor_que_piensa' (self). Insight: El self proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 61: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 62: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 63: Soñó con 'unión_imposible' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 64: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 65: Soñó con 'sed_en_el_agua' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 66: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 67: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 68: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 69: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 70: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 71: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 72: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 73: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 74: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 75: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 76: Soñó con 'fruto_amargo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 77: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 78: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 79: Soñó con 'luz_oblicua' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 80: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 81: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 82: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 83: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 84: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 85: Soñó con 'complemento_ausente' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 86: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 87: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 88: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 89: Soñó con 'río_tranquilo' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 90: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 91: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 92: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 93: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 94: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 95: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 96: Soñó con 'semilla_negra' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 97: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 98: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 98: Cooperó de forma mutua y armónica con Lysane. Su lazo social se fortaleció.
+- Día 98: Cooperó de forma mutua y armónica con Lysane. Su lazo social se fortaleció.
+- Día 98: Cooperó de forma mutua y armónica con Lysane. Su lazo social se fortaleció.
+- Día 99: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 100: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 101: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 102: Soñó con 'silencio_pleno' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 103: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 104: Soñó con 'vista_engañosa' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 105: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 106: Soñó con 'río_tranquilo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 107: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 108: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 109: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 110: Soñó con 'tierra_resquebrajada' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 111: Soñó con 'caída_sin_fondo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 111: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Día 112: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 113: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 113: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 114: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 115: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 116: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 117: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 118: Soñó con 'luz_oblicua' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 119: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 120: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 121: Soñó con 'horizonte_de_agua' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 122: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 123: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 124: Soñó con 'río_tranquilo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 124: Cooperó de forma mutua y armónica con Alethea. Su lazo social se fortaleció.
+- Día 125: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 126: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 127: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 127: Cedió ingenuamente ante la manipulación de Theron.
+- Día 127: Cedió ingenuamente ante la manipulación de Theron.
+- Día 128: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 129: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 130: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 131: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 132: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 133: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 134: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 135: Soñó con 'sed_en_el_agua' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 136: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 136: Cedió ingenuamente ante la manipulación de Zylas.
+- Día 137: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 138: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 138: Se impuso competitivamente ante Alethea, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Alethea, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Alethea, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Alethea, absorbiendo sus recursos biológicos.
+- Día 139: Soñó con 'bifurcación_sin_mapa' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 140: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 141: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 141: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 141: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 141: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 142: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 143: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 143: Cooperó de forma mutua y armónica con Lysane. Su lazo social se fortaleció.
+- Día 143: Sufrió explotación y hostilidad de Meleager, cediendo recursos biológicos.
+- Día 144: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 144: Sufrió explotación y hostilidad de Meleager, cediendo recursos biológicos.
+- Día 144: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 145: Soñó con 'terreno_que_cede' (anima_animus). Insight: El anima_animus busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Meleager.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Meleager.
+- Día 146: Soñó con 'escenario_sin_salida' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 146: Cooperó de forma mutua y armónica con Zylas. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 147: Soñó con 'río_tranquilo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 147: Detectó y rechazó un intento de manipulación de Nausicaa.
+- Día 147: Detectó y rechazó un intento de manipulación de Nausicaa.
+- Día 148: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 149: Soñó con 'escenario_sin_salida' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 150: Soñó con 'campo_interminable' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 150: Cooperó de forma mutua y armónica con Alethea. Su lazo social se fortaleció.
+- Día 151: Soñó con 'ojos_en_la_roca' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 151: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
+- Día 151: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
+- Día 152: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 152: Sufrió explotación y hostilidad de Glaukia, cediendo recursos biológicos.
+- Día 153: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 154: Soñó con 'salida_inexistente' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 155: Soñó con 'piedra_que_rueda' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 155: Cedió ingenuamente ante la manipulación de Thalia.
+- Día 155: Cedió ingenuamente ante la manipulación de Thalia.
+- Día 155: Cedió ingenuamente ante la manipulación de Thalia.
+- Día 155: Cedió ingenuamente ante la manipulación de Thalia.
+- Día 156: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 157: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 157: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 157: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 157: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 157: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 157: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 158: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 158: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 158: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Soñó con 'habitación_prohibida' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Sufrió explotación y hostilidad de Tainis, cediendo recursos biológicos.
+- Día 159: Intentó manipular a Tainis, pero fue descubierto.
+- Día 160: Soñó con 'danza_a_solas' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 160: Se enfrentó en un choque violento y destructivo contra Eudora.
+- Día 160: Se enfrentó en un choque violento y destructivo contra Eudora.
+- Día 160: Se enfrentó en un choque violento y destructivo contra Eudora.
+- Día 161: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 161: Cedió ingenuamente ante la manipulación de Brysis.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 162: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 162: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 163: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 163: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 163: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 163: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 163: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 164: Soñó con 'luz_oblicua' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 165: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 166: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 167: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 167: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 167: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 168: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 169: Soñó con 'oasis_espejismo' (self). Insight: El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 169: Sufrió explotación y hostilidad de Brenna, cediendo recursos biológicos.
+- Día 169: Sufrió explotación y hostilidad de Brenna, cediendo recursos biológicos.
+- Día 169: Sufrió explotación y hostilidad de Brenna, cediendo recursos biológicos.
+- Día 169: Sufrió explotación y hostilidad de Brenna, cediendo recursos biológicos.
+- Día 170: Soñó con 'reflejo_distorsionado' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 171: Soñó con 'habitación_prohibida' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 172: Soñó con 'habitación_prohibida' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Exan.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Exan.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 173: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 174: Soñó con 'leche_amarga' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 175: Soñó con 'danza_a_solas' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 176: Soñó con 'complemento_ausente' (anima_animus). Insight: El rio lago amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 177: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 178: Soñó con 'danza_a_solas' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 179: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 179: Intentó manipular a Ulax, pero fue descubierto.
+- Día 179: Intentó manipular a Ulax, pero fue descubierto.
+- Día 180: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 181: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 182: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 183: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 184: Soñó con 'leche_amarga' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 185: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 186: Soñó con 'mandala_incompleto' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 187: Soñó con 'centro_sin_lugar' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 188: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Perion.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 189: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 190: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 191: Soñó con 'manada_que_huye' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 192: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 193: Soñó con 'unión_imposible' (self). Insight: El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 194: Soñó con 'escenario_sin_salida' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 195: Soñó con 'raíz_invisible' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 196: Soñó con 'sombra_que_camina' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 197: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 198: Soñó con 'reflejo_distorsionado' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 199: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 200: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 200: Se enfrentó en un choque violento y destructivo contra Demos.
+- Día 200: Se enfrentó en un choque violento y destructivo contra Demos.
+- Día 200: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 201: Soñó con 'cima_en_niebla' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 201: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 201: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 202: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 202: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 202: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 203: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 203: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 203: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 203: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 203: Cedió ingenuamente ante la manipulación de Fyria.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 204: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 205: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 206: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 207: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 208: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 209: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 210: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 211: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 212: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 213: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 214: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 215: Soñó con 'espejo_que_miente' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 216: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 217: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 218: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 219: Soñó con 'papel_sin_actor' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 220: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 221: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 222: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 223: Soñó con 'aplauso_vacío' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 224: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 225: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 226: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 227: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 228: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 229: Soñó con 'camino_conocido' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 230: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 231: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 232: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 233: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 234: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 235: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 236: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 236: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 237: Soñó con 'fruto_amargo' (sabio). Insight: El valle fertil amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 238: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 239: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 239: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 239: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 239: Cooperó de forma mutua y armónica con Zephyra. Su lazo social se fortaleció.
+- Día 240: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Día 240: Manipuló con éxito y astucia a Zephyra para ceder recursos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 241: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 241: Cooperó de forma mutua y armónica con Hector. Su lazo social se fortaleció.
+- Día 241: Cooperó de forma mutua y armónica con Hector. Su lazo social se fortaleció.
+- Día 241: Cooperó de forma mutua y armónica con Hector. Su lazo social se fortaleció.
+- Día 241: Cooperó de forma mutua y armónica con Hector. Su lazo social se fortaleció.
+- Día 241: Cooperó de forma mutua y armónica con Hector. Su lazo social se fortaleció.
+- Día 242: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 243: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 244: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 245: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El rio lago amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 246: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 247: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 248: Soñó con 'camino_conocido' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 249: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pantano costero.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 250: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 251: Soñó con 'silencio_absoluto' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 252: Soñó con 'vista_engañosa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 253: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 254: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 255: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 256: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 257: Soñó con 'sendero_circular' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 258: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 259: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 260: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 261: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 262: Soñó con 'luz_oblicua' (madre). Insight: El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 263: Soñó con 'leche_amarga' (madre). Insight: El rio lago amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 264: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 265: Soñó con 'árbol_sin_raíces' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 266: Soñó con 'voz_propia_extraña' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 267: Soñó con 'voz_sin_cuerpo' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 268: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 269: Soñó con 'escenario_sin_salida' (persona). Insight: El colinas suaves amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 270: Soñó con 'papel_sin_actor' (persona). Insight: El sabana abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 271: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de desierto borde.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 272: Soñó con 'mandala_incompleto' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 273: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 274: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 275: Soñó con 'camino_conocido' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 276: Soñó con 'olor_a_descomposición' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 277: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 278: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 278: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 278: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 279: Soñó con 'luz_oblicua' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 280: Soñó con 'papel_sin_actor' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 281: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 282: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 283: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 284: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 285: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 286: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 287: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 288: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 289: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 290: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 290: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 291: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 292: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 293: Soñó con 'hierba_que_corta' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 294: Soñó con 'luz_oblicua' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 295: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 296: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 297: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 298: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 299: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 300: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 301: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 302: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 303: Soñó con 'vista_engañosa' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 304: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 305: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 306: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El colinas suaves amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 307: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 308: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 309: Soñó con 'papel_sin_actor' (persona). Insight: El sabana abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 310: Soñó con 'ojos_en_la_roca' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de cueva.
+- Día 311: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 311: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 311: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 311: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 312: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 312: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 312: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 313: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 314: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 315: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 316: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 317: Soñó con 'reflejo_sin_original' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 318: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 319: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 320: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 321: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 322: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 323: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 324: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 324: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 325: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 326: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 327: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 328: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 329: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 330: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 331: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 332: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 333: Soñó con 'árbol_sin_raíces' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 334: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 335: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 336: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 337: Soñó con 'papel_sin_actor' (persona). Insight: El lago interior amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 338: Soñó con 'sendero_circular' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 339: Soñó con 'piedra_que_rueda' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 340: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 341: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 342: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 343: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 344: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 345: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 346: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 347: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 348: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 349: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 349: Cooperó de forma mutua y armónica con Uritha. Su lazo social se fortaleció.
+- Día 349: Manipuló con éxito y astucia a Uritha para ceder recursos.
+- Día 349: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 349: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 349: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 349: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 349: Se impuso competitivamente ante Uritha, absorbiendo sus recursos biológicos.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 350: Detectó y rechazó un intento de manipulación de Uritha.
+- Día 351: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 352: Soñó con 'figura_que_sigue' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 353: Soñó con 'voz_propia_extraña' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 354: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 355: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 356: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 357: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El rio lago amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 357: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 357: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 357: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 357: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 358: Soñó con 'profundidad_sin_fondo' (sabio). Insight: El lago interior amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 359: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 360: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 361: Soñó con 'nido_que_asfixia' (madre). Insight: El desierto borde amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 362: Soñó con 'árbol_que_aprieta' (madre). Insight: El pantano costero amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 363: Soñó con 'leche_amarga' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 363: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 364: Soñó con 'cima_en_niebla' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 365: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 366: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 367: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 368: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 369: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 370: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 371: Soñó con 'caída_sin_fondo' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 372: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 373: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 374: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 375: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 376: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 377: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 378: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 379: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 380: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 381: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 382: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 383: Soñó con 'papel_sin_actor' (persona). Insight: El montana alta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 384: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 385: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 386: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 387: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 388: Soñó con 'campo_interminable' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 389: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 390: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 391: Soñó con 'papel_sin_actor' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 392: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 393: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 394: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 394: Cedió ingenuamente ante la manipulación de Nephele.
+- Día 394: Cedió ingenuamente ante la manipulación de Nephele.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 395: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 396: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 396: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Día 396: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Día 396: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 397: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 398: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 399: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 400: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 401: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 402: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 403: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 404: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 405: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 406: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 407: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 408: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 409: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 410: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 411: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 412: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 413: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 414: Soñó con 'mandala_incompleto' (sabio). Insight: El costa abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 415: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 416: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 417: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 418: Soñó con 'estrella_que_no_guía' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 419: Soñó con 'escenario_sin_salida' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 420: Soñó con 'sombra_ausente' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 421: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 422: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 423: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 424: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 424: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Oris, cediendo recursos biológicos.
+- Día 425: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 426: Soñó con 'aplauso_vacío' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 427: Soñó con 'máscara_cosida_a_cara' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 428: Soñó con 'aplauso_vacío' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 429: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 429: Cedió ingenuamente ante la manipulación de Oris.
+- Día 430: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 431: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 432: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 433: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 434: Soñó con 'máscara_adherida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 435: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 436: Soñó con 'huesos_propios' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 437: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 438: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 439: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 440: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 441: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 442: Soñó con 'sendero_circular' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 443: Soñó con 'papel_sin_actor' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 444: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 445: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El rio lago amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 446: Soñó con 'escenario_sin_salida' (persona). Insight: El rio lago amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 447: Soñó con 'sombra_ausente' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 448: Soñó con 'papel_sin_actor' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 449: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 450: Soñó con 'unión_imposible' (self). Insight: El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 451: Soñó con 'vista_engañosa' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 452: Soñó con 'centro_sin_lugar' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 453: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 454: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 455: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 456: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 457: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 458: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 459: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 460: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 461: Soñó con 'espejo_que_miente' (sabio). Insight: El montana alta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 462: Soñó con 'sed_en_el_agua' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 463: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 464: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 465: Soñó con 'leche_amarga' (madre). Insight: El valle fertil amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 466: Soñó con 'fondo_que_sube' (madre). Insight: El rio lago amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 467: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 468: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 469: Soñó con 'papel_sin_actor' (persona). Insight: El costa abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 469: Intentó manipular a Ivar, pero fue descubierto.
+- Día 469: Intentó manipular a Ivar, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 470: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 471: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 472: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 473: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 474: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 475: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 476: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 477: Soñó con 'escenario_sin_salida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 478: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 479: Soñó con 'escenario_sin_salida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 480: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 481: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 482: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 483: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 483: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 484: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 484: Cooperó de forma mutua y armónica con Nephele. Su lazo social se fortaleció.
+- Día 485: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 486: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 487: Soñó con 'centro_sin_lugar' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 488: Soñó con 'habitación_prohibida' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 489: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 489: Se impuso competitivamente ante Isidor, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 490: Soñó con 'papel_sin_actor' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 490: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 490: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 490: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 491: Soñó con 'descenso_inevitable' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 492: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 493: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 494: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 495: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 496: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 497: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 498: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 499: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El rio lago amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 500: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 501: Soñó con 'danza_a_solas' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 502: Soñó con 'sed_en_el_agua' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 503: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 504: Soñó con 'luz_oblicua' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 505: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 506: Soñó con 'camino_conocido' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 507: Soñó con 'descenso_inevitable' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 508: Soñó con 'figura_que_sigue' (sabio). Insight: El lago interior amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 509: Soñó con 'estrella_que_no_guía' (sabio). Insight: El costa abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 510: Soñó con 'habitación_prohibida' (sabio). Insight: El desierto borde amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 511: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 512: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 513: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 514: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 515: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El montana alta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 516: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 517: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 518: Soñó con 'luz_oblicua' (madre). Insight: El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 519: Soñó con 'escenario_sin_salida' (madre). Insight: El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 520: Soñó con 'fruto_amargo' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 521: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 522: Soñó con 'piedra_que_rueda' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 523: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 524: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 525: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de cueva.
+- Día 526: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 527: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 528: Soñó con 'habitación_prohibida' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 529: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 530: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 531: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 532: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 533: Soñó con 'sendero_circular' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 534: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 535: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 536: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 537: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 538: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 539: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 540: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 541: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 542: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 543: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 544: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 545: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 546: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 547: Soñó con 'complemento_ausente' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 548: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 549: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 550: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 551: Soñó con 'viento_que_borra' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 552: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 553: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 554: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 555: Soñó con 'leche_amarga' (sabio). Insight: El lago interior amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 556: Soñó con 'río_tranquilo' (sabio). Insight: El valle fertil amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 557: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 558: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 559: Soñó con 'papel_sin_actor' (persona). Insight: El lago interior amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 560: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 561: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 562: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 562: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 562: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 562: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 562: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 563: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 564: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 565: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 566: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 567: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 568: Soñó con 'habitación_prohibida' (anima_animus). Insight: El pantano costero amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 569: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 570: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 571: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 572: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 573: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 574: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 575: Soñó con 'figura_que_sigue' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 576: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 577: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 578: Soñó con 'árbol_que_aprieta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 579: Soñó con 'leche_amarga' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 580: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 581: Soñó con 'río_que_nutre' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 582: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 583: Soñó con 'máscara_cosida_a_cara' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 584: Soñó con 'roca_que_aplasta' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 585: Soñó con 'aplauso_vacío' (self). Insight: El desierto borde amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 586: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 587: Soñó con 'sendero_circular' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 588: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 589: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 590: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 591: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 592: Soñó con 'centro_sin_lugar' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 593: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 594: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 595: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 596: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 597: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 598: Soñó con 'espejo_que_miente' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 599: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 600: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 601: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 602: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 603: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 604: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 605: Soñó con 'escenario_sin_salida' (persona). Insight: El valle fertil amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 606: Soñó con 'papel_sin_actor' (persona). Insight: El lago interior amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 607: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 608: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 609: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 610: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 611: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 612: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 613: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 614: Soñó con 'complemento_ausente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 615: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 616: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 617: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 618: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 619: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 620: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 621: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 622: Soñó con 'voz_propia_extraña' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 623: Soñó con 'voz_sin_cuerpo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 624: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 625: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 626: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 627: Soñó con 'leche_amarga' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 628: Soñó con 'sol_que_calcina' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 629: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 630: Soñó con 'centro_sin_lugar' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 631: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 632: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 633: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 634: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 635: Soñó con 'sombra_que_camina' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 636: Soñó con 'vista_engañosa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 637: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 638: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 639: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 640: Soñó con 'calma_antes_de_algo' (sabio). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 641: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 642: Soñó con 'sombra_ausente' (self). Insight: El self expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 643: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 644: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 645: Soñó con 'sombra_ausente' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 646: Soñó con 'camino_conocido' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 647: Soñó con 'voz_propia_extraña' (sabio). Insight: En lago interior, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 648: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 649: Soñó con 'camino_conocido' (sabio). Insight: El valle fertil amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 650: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 651: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 652: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en desierto borde, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 653: Soñó con 'descenso_inevitable' (persona). Insight: El colinas suaves amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 654: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 655: Soñó con 'nido_que_asfixia' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 656: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 657: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 658: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 659: Soñó con 'marea_que_sube' (sombra). Insight: El sombra expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 660: Soñó con 'corriente_que_arrastra' (trickster). Insight: El trickster expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 661: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 662: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 663: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 664: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 665: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 666: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 667: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 668: Soñó con 'mandala_incompleto' (madre). Insight: El madre ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 669: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 670: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 671: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 672: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 673: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 674: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 675: Soñó con 'descenso_inevitable' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 676: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 677: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 678: Soñó con 'leche_amarga' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 679: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 680: Soñó con 'árbol_que_aprieta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 681: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 682: Soñó con 'escenario_sin_salida' (persona). Insight: El sabana abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 683: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 684: Soñó con 'piedra_que_rueda' (persona). Insight: lo reprimido enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 685: Soñó con 'oscuridad_total' (persona). Insight: En cueva, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 686: Soñó con 'estrella_que_no_guía' (sabio). Insight: lo reprimido enciende el sabio en montana alta hasta quemar lo que toca.
+- Día 687: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 687: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 688: Soñó con 'reflejo_sin_original' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 689: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 690: Soñó con 'río_que_nutre' (trickster). Insight: El trickster expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 690: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 691: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 692: Soñó con 'voz_propia_extraña' (sabio). Insight: En montana alta el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 693: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa lo reprimido hacia desierto borde: allá afuera, entre los demás.
+- Día 694: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 695: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 696: Soñó con 'niebla_densa' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 697: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 698: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: lo reprimido enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 699: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 700: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 701: Soñó con 'complemento_ausente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 702: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 703: Soñó con 'centro_sin_lugar' (self). Insight: lo reprimido enciende el self en bosque templado hasta quemar lo que toca.
+- Día 704: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 705: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 706: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 707: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 708: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 709: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 710: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 711: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 712: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 713: Soñó con 'descenso_inevitable' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 714: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 715: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 716: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 717: Soñó con 'leche_amarga' (madre). Insight: El sabana abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 718: Soñó con 'río_que_nutre' (madre). Insight: En montana alta, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 719: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 720: Soñó con 'sed_en_el_agua' (persona). Insight: El persona expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 721: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 722: Soñó con 'vista_engañosa' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 723: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 724: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 725: Soñó con 'sed_en_el_agua' (madre). Insight: El madre crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 726: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 727: Soñó con 'figura_que_sigue' (madre). Insight: El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 728: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 729: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 730: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 731: Soñó con 'escenario_sin_salida' (madre). Insight: El madre expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 732: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 733: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 734: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 735: Soñó con 'fruto_amargo' (madre). Insight: En valle fertil, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 736: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 737: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 738: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 739: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 740: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 741: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 742: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 743: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 744: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 745: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 746: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 747: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 748: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 749: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 750: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 751: Soñó con 'voz_sin_cuerpo' (persona). Insight: El rio lago amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 752: Soñó con 'hierba_que_corta' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 753: Soñó con 'aplauso_vacío' (persona). Insight: El sabana abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 754: Soñó con 'voz_propia_extraña' (persona). Insight: lo reprimido enciende el persona en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 755: Soñó con 'río_tranquilo' (persona). Insight: El persona ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 756: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 757: Soñó con 'estrella_que_no_guía' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 758: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 759: Soñó con 'sal_en_herida' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 760: Soñó con 'voz_propia_extraña' (self). Insight: En pantano costero, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 761: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 762: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 763: Soñó con 'estrella_que_no_guía' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 764: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 765: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 766: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En rio lago, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 767: Soñó con 'aplauso_vacío' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 768: Soñó con 'vista_engañosa' (persona). Insight: El persona crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 769: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 770: Soñó con 'estrella_que_no_guía' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 771: Soñó con 'sendero_circular' (sabio). Insight: lo reprimido enciende el sabio en bosque templado hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 772: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 773: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 774: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 775: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 776: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 777: Soñó con 'laberinto_que_ríe' (trickster). Insight: En colinas suaves, lo reprimido aparece en el otro — el trickster no se reconoce.
+- Día 778: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 779: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 780: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 781: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 782: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 783: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 784: Soñó con 'silencio_absoluto' (sabio). Insight: El montana alta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 785: Soñó con 'centro_sin_lugar' (self). Insight: lo reprimido enciende el self en bosque templado hasta quemar lo que toca.
+- Día 786: Soñó con 'unión_imposible' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 787: Soñó con 'silencio_pleno' (self). Insight: lo reprimido enciende el self en valle fertil hasta quemar lo que toca.
+- Día 788: Soñó con 'libro_en_lengua_muerta' (self). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 789: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 790: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 791: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 792: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 793: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 794: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 795: Soñó con 'escenario_sin_salida' (persona). Insight: En montana alta, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 796: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 797: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 798: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 799: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 800: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 801: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 802: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 803: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 804: Soñó con 'sombra_ausente' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 805: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 806: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 807: Soñó con 'voz_propia_extraña' (persona). Insight: El persona crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 808: Soñó con 'sol_que_calcina' (persona). Insight: En sabana abierta el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 809: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 810: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 811: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 812: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 813: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 814: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 815: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 816: Soñó con 'calma_antes_de_algo' (sabio). Insight: El sabio ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 817: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 818: Soñó con 'fruto_amargo' (trickster). Insight: El trickster crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 819: Soñó con 'máscara_adherida' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 820: Soñó con 'centro_sin_lugar' (trickster). Insight: lo reprimido enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Día 821: Soñó con 'laberinto_que_ríe' (trickster). Insight: El valle fertil amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 822: Soñó con 'calma_antes_de_algo' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 823: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 824: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 825: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 826: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 827: Soñó con 'árbol_que_aprieta' (madre). Insight: En pantano costero el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 828: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 829: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 830: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 831: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 832: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 833: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 834: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 835: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 836: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 837: Soñó con 'árbol_que_aprieta' (madre). Insight: En costa abierta el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 837: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 838: Soñó con 'sed_en_el_agua' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 839: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 840: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 841: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 842: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 843: Soñó con 'hierba_que_corta' (persona). Insight: El persona expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 844: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 845: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 846: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El montana alta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 847: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 848: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 849: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 850: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 851: Soñó con 'sombra_que_camina' (madre). Insight: El madre expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 852: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 853: Soñó con 'hierba_que_corta' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 854: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 855: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 856: Soñó con 'habitación_prohibida' (self). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 857: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 858: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 859: Soñó con 'nido_que_asfixia' (madre). Insight: lo reprimido enciende el madre en colinas suaves hasta quemar lo que toca.
+- Día 860: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en montana alta — lo reprimido lo empuja sin nombre.
+- Día 861: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 862: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 863: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 864: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 865: Soñó con 'abundancia_que_pudre' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 866: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 867: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 868: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 869: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 870: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 871: Soñó con 'reflejo_sin_original' (sabio). Insight: lo reprimido enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 872: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 873: Soñó con 'sendero_circular' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 874: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 875: Soñó con 'máscara_adherida' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 876: Soñó con 'sendero_circular' (trickster). Insight: lo reprimido enciende el trickster en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 877: Soñó con 'aplauso_vacío' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 878: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 878: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 879: Soñó con 'reflejo_sin_original' (trickster). Insight: En lago interior, lo reprimido aparece en el otro — el trickster no se reconoce.
+- Día 880: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 881: Soñó con 'piedra_que_rueda' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 882: Soñó con 'sendero_circular' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 883: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 884: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 885: Soñó con 'aplauso_vacío' (persona). Insight: lo reprimido enciende el persona en rio lago hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 886: Soñó con 'fondo_que_sube' (self). Insight: El self ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 887: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 888: Soñó con 'estrella_que_no_guía' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 889: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 890: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio expulsa lo reprimido hacia pantano costero: allá afuera, entre los demás.
+- Día 890: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 891: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 891: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 892: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 893: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 894: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 895: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 896: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 897: Soñó con 'unión_imposible' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 898: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 899: Soñó con 'papel_sin_actor' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- Día 900: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 901: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 902: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 903: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 904: Soñó con 'viento_que_borra' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 905: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 906: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 907: Soñó con 'sombra_que_camina' (sabio). Insight: lo reprimido enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 908: Soñó con 'escenario_sin_salida' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 909: Soñó con 'escenario_sin_salida' (sabio). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 910: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 911: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 912: Soñó con 'papel_sin_actor' (persona). Insight: El cueva amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 913: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 914: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 915: Soñó con 'campo_interminable' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 916: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 917: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 918: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 919: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 920: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 921: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 922: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 923: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 924: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 925: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 926: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 927: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 928: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 929: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 930: Soñó con 'viento_que_borra' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 930: Cedió ingenuamente ante la manipulación de Isidor.
+- Día 931: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 932: Soñó con 'complemento_ausente' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 933: Soñó con 'voz_propia_extraña' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 934: Soñó con 'centro_sin_lugar' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 935: Soñó con 'piedra_que_rueda' (sabio). Insight: En colinas suaves, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 936: Soñó con 'semilla_negra' (persona). Insight: El persona ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 937: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 938: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 939: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 940: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 941: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 942: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 943: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 944: Soñó con 'tierra_resquebrajada' (madre). Insight: En sabana abierta, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 945: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 946: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 947: Soñó con 'escenario_sin_salida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 948: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 949: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 950: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 951: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 952: Soñó con 'escenario_sin_salida' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 953: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 954: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 955: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 956: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 957: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 958: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 959: Soñó con 'escenario_sin_salida' (persona). Insight: En rio lago el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 960: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa lo reprimido hacia desierto borde: allá afuera, entre los demás.
+- Día 961: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 962: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 963: Soñó con 'papel_sin_actor' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 964: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 965: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 966: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 967: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 968: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 969: Soñó con 'descenso_inevitable' (trickster). Insight: El trickster expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 970: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 971: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 972: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 973: Soñó con 'cima_en_niebla' (anima_animus). Insight: En montana alta, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 974: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 975: Soñó con 'estrella_que_no_guía' (sabio). Insight: En costa abierta el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 976: Soñó con 'estrella_que_no_guía' (sabio). Insight: En colinas suaves, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 977: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 978: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 979: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 980: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 981: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 982: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 983: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 984: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 985: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 986: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 987: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 988: Soñó con 'complemento_ausente' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 989: Soñó con 'danza_a_solas' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 990: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 991: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 992: Soñó con 'árbol_que_aprieta' (sabio). Insight: El sabio ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 993: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 994: Soñó con 'máscara_adherida' (trickster). Insight: El colinas suaves amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 995: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 996: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 997: Soñó con 'fondo_que_sube' (anima_animus). Insight: En rio lago, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 998: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 999: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1000: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1001: Soñó con 'silencio_pleno' (trickster). Insight: El trickster expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1002: Soñó con 'silencio_pleno' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1003: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1004: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1005: Soñó con 'escenario_sin_salida' (madre). Insight: En pradera humeda, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1006: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1007: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1008: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1009: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1010: Soñó con 'voz_sin_cuerpo' (madre). Insight: El madre ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1011: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1012: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1013: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 1014: Soñó con 'figura_que_sigue' (madre). Insight: En valle fertil, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1015: Soñó con 'abundancia_que_pudre' (madre). Insight: El madre ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1016: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1017: Soñó con 'fondo_que_sube' (madre). Insight: lo reprimido enciende el madre en rio lago hasta quemar lo que toca.
+- Día 1018: Soñó con 'árbol_sin_raíces' (madre). Insight: El madre crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1019: Soñó con 'árbol_sin_raíces' (madre). Insight: El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1020: Soñó con 'leche_amarga' (madre). Insight: En colinas suaves, lo reprimido aparece en el otro — el madre no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1021: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1022: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1023: Soñó con 'escenario_sin_salida' (sabio). Insight: En costa abierta, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1024: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1025: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1026: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1027: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1028: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1029: Soñó con 'silencio_pleno' (self). Insight: El self expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1030: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra crece desmedido en pantano costero — lo reprimido lo empuja sin nombre.
+- Día 1031: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1032: Soñó con 'corriente_que_arrastra' (sabio). Insight: En rio lago, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1033: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1034: Soñó con 'mandala_incompleto' (sabio). Insight: lo reprimido enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1035: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1036: Soñó con 'mandala_incompleto' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1037: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1038: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1039: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1040: Soñó con 'voz_sin_cuerpo' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1041: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1042: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 1043: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1044: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1045: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1046: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1047: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1048: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1049: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1050: Soñó con 'tierra_resquebrajada' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1051: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1052: Soñó con 'complemento_ausente' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 1053: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1054: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1055: Soñó con 'danza_a_solas' (self). Insight: El self ve lo reprimido afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1056: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1057: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1058: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1059: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1060: Soñó con 'trampa_propia' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 1061: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 1062: Soñó con 'corriente_que_arrastra' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1063: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1064: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1065: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1066: Soñó con 'habitación_prohibida' (anima_animus). Insight: En rio lago, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 1067: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1068: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1069: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1070: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1071: Soñó con 'aplauso_vacío' (sombra). Insight: En desierto borde, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1072: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1073: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1074: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1075: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1076: Soñó con 'reflejo_sin_original' (sabio). Insight: El sabio ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1077: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1078: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1079: Soñó con 'trampa_propia' (trickster). Insight: En cueva el trickster se expande más allá del control; lo reprimido es el combustible.
+- Día 1080: Soñó con 'trampa_propia' (trickster). Insight: lo reprimido enciende el trickster en valle fertil hasta quemar lo que toca.
+- Día 1081: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1081: El colapso de nuestra tribu. Solo quedamos 3.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1082: Soñó con 'máscara_adherida' (trickster). Insight: En cueva, lo reprimido tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1083: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1084: Soñó con 'voz_propia_extraña' (madre). Insight: El madre expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1084: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1084: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1085: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1086: Soñó con 'río_tranquilo' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1086: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Velia.
+- Día 1086: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1086: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1086: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1086: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1086: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1086: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1087: Cedió ingenuamente ante la manipulación de Velia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1088: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1088: Intentó manipular a Velia, pero fue descubierto.
+- Día 1088: Intentó manipular a Velia, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1089: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1089: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1090: Soñó con 'manada_que_huye' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1091: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 1091: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 1091: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 1091: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 1091: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 1092: Soñó con 'espejo_que_miente' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 1093: Soñó con 'aplauso_vacío' (persona). Insight: El montana alta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1093: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1094: Cedió ingenuamente ante la manipulación de Velia.
+- Día 1095: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1095: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1095: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1095: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1095: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1096: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1097: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1098: Soñó con 'río_que_nutre' (madre). Insight: En lago interior, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1099: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1100: Soñó con 'hierba_que_corta' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1101: Soñó con 'bifurcación_sin_mapa' (persona). Insight: El colinas suaves amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1102: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1103: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1104: Soñó con 'hierba_que_corta' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1105: Soñó con 'luz_oblicua' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1106: Soñó con 'aplauso_vacío' (persona). Insight: En pantano costero, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1107: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1108: Soñó con 'camino_conocido' (anima_animus). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1109: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1110: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1110: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1111: Soñó con 'eco_sin_origen' (sombra). Insight: En cueva el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1112: Soñó con 'unión_imposible' (sombra). Insight: El sombra crece desmedido en cueva — lo reprimido lo empuja sin nombre.
+- Día 1113: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1114: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1115: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1116: Soñó con 'habitación_prohibida' (persona). Insight: En bosque templado, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1117: Soñó con 'trampa_propia' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1118: Soñó con 'figura_que_sigue' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1119: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1120: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1121: Soñó con 'espejo_que_miente' (self). Insight: El self expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1122: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1123: Soñó con 'huesos_propios' (sombra). Insight: lo reprimido enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 1124: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1125: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1126: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 1127: Soñó con 'manada_que_huye' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1128: Soñó con 'leche_amarga' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1129: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1129: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1130: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio ve lo reprimido afuera en cueva, donde no puede alcanzarlo.
+- Día 1131: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1132: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1132: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1132: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1132: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1132: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1132: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Soñó con 'manada_que_huye' (persona). Insight: El persona crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1133: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1134: Soñó con 'máscara_cosida_a_cara' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1135: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1136: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1137: Soñó con 'danza_a_solas' (anima_animus). Insight: lo reprimido enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 1138: Soñó con 'marea_que_sube' (anima_animus). Insight: En costa abierta, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1139: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1140: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1141: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1142: Soñó con 'máscara_adherida' (trickster). Insight: En colinas suaves, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1143: Soñó con 'máscara_adherida' (trickster). Insight: El bosque templado amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1144: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1145: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1145: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1146: Soñó con 'hierba_que_corta' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1147: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1148: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1148: Intentó manipular a Garan, pero fue descubierto.
+- Día 1149: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1150: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1151: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1152: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1153: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1154: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 1155: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1156: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1157: Soñó con 'reflejo_sin_original' (persona). Insight: El persona expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1158: Soñó con 'danza_a_solas' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1159: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1160: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1161: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1162: Soñó con 'puerta_que_se_mueve' (trickster). Insight: lo reprimido enciende el trickster en valle fertil hasta quemar lo que toca.
+- Día 1163: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1163: Cooperó de forma mutua y armónica con Garan. Su lazo social se fortaleció.
+- Día 1163: Cooperó de forma mutua y armónica con Garan. Su lazo social se fortaleció.
+- Día 1163: Cooperó de forma mutua y armónica con Garan. Su lazo social se fortaleció.
+- Día 1163: Cooperó de forma mutua y armónica con Garan. Su lazo social se fortaleció.
+- Día 1164: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1165: Soñó con 'máscara_adherida' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1165: Se enfrentó en un choque violento y destructivo contra Garan.
+- Día 1165: Se enfrentó en un choque violento y destructivo contra Garan.
+- Día 1165: Se enfrentó en un choque violento y destructivo contra Garan.
+- Día 1165: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1166: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1167: Soñó con 'reflejo_distorsionado' (madre). Insight: En rio lago, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1168: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1169: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1170: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1171: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1171: Cedió ingenuamente ante la manipulación de Decia.
+- Día 1171: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 1171: Cedió ingenuamente ante la manipulación de Decia.
+- Día 1171: Se enfrentó en un choque violento y destructivo contra Garan.
+- Día 1171: Se enfrentó en un choque violento y destructivo contra Garan.
+- Día 1172: Soñó con 'río_tranquilo' (anima_animus). Insight: lo reprimido enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 1173: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1174: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1174: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1174: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1174: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1174: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1174: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1174: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1174: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En sabana abierta el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1175: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1176: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1177: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1178: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1178: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 1178: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 1178: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 1178: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 1178: Cedió ingenuamente ante la manipulación de Fyria.
+- Día 1179: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, lo reprimido aparece en el otro — el trickster no se reconoce.
+- Día 1179: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1179: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1181: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1182: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1182: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 1182: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 1182: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1182: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1182: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1182: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1182: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1183: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1184: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1185: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1185: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1185: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1186: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1186: Manipuló con éxito y astucia a Zoia para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1187: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1187: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 1187: Sufrió explotación y hostilidad de Ivar, cediendo recursos biológicos.
+- Día 1188: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1189: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1190: Soñó con 'leche_amarga' (madre). Insight: lo reprimido enciende el madre en cueva hasta quemar lo que toca.
+- Día 1190: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1190: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1190: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1190: Cooperó de forma mutua y armónica con Velia. Su lazo social se fortaleció.
+- Día 1190: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 1191: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1192: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1192: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1193: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1194: Soñó con 'viento_que_borra' (madre). Insight: lo reprimido enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1194: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1194: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1195: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 1196: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1197: Soñó con 'reflejo_distorsionado' (sabio). Insight: lo reprimido enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 1198: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1199: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1200: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1201: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1202: Soñó con 'máscara_adherida' (trickster). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1203: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1203: Se enfrentó en un choque violento y destructivo contra Stenos.
+- Día 1204: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1205: Soñó con 'camino_conocido' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1206: Soñó con 'río_que_nutre' (madre). Insight: El madre ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1207: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1208: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1209: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1210: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1211: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1212: Soñó con 'nido_que_asfixia' (sabio). Insight: En bosque templado, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1213: Soñó con 'raíz_invisible' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 1214: Soñó con 'máscara_adherida' (trickster). Insight: En rio lago, lo reprimido tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1215: Soñó con 'semilla_negra' (persona). Insight: En valle fertil, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1216: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1217: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1218: Soñó con 'árbol_que_aprieta' (madre). Insight: lo reprimido enciende el madre en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1219: Soñó con 'habitación_prohibida' (self). Insight: El self expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1220: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1221: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1222: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1223: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1224: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1225: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1226: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1227: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1228: Soñó con 'figura_que_sigue' (trickster). Insight: El trickster crece desmedido en lago interior — lo reprimido lo empuja sin nombre.

@@ -63,7 +63,11 @@
       "Bash(Select-Object Name)",
       "Bash(xargs wc -l)",
       "Bash(python3 -m py_compile \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\core\\\\agents\\\\agent_core.py\")",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(Select-Object -First 30 FullName)",
+      "Bash(xargs grep -l \"tools\\\\|technologies\\\\|tools_and_materials\")",
+      "Bash(xargs grep -l \"nicegui\\\\|niceGUI\\\\|from nicegui\")",
+      "Bash(xargs grep -l \"knowledge\\\\|herramient\\\\|construcci\")"
     ]
   }
 }

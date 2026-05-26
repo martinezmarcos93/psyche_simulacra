@@ -8,9 +8,9 @@ import json
 import sqlite3
 from pathlib import Path
 
-
-_DB_PATH   = Path("data/db/simulation.db")
-_CP_DIR    = Path("data/checkpoints")
+_ROOT    = Path(__file__).parent.parent
+_DB_PATH = _ROOT / "data" / "db" / "simulation.db"
+_CP_DIR  = _ROOT / "data" / "checkpoints"
 
 
 # ── Checkpoint JSON ───────────────────────────────────────────────────────────
@@ -88,6 +88,27 @@ def load_climate_metrics() -> list[dict]:
                    AVG(survival_risk) as riesgo,
                    AVG(precipitacion) as precipitacion
             FROM climate_log
+            GROUP BY dia ORDER BY dia
+        """).fetchall()
+        return [dict(r) for r in rows]
+    except Exception:
+        return []
+    finally:
+        conn.close()
+
+
+def load_scenario_metrics() -> list[dict]:
+    """resource_pressure, carrying_capacity, hexes explorados por día."""
+    conn = _conn()
+    if conn is None:
+        return []
+    try:
+        rows = conn.execute("""
+            SELECT dia,
+                   AVG(resource_pressure)    as resource_pressure,
+                   AVG(carrying_capacity)    as carrying_capacity,
+                   MAX(n_hexes_explorados)   as hexes_explorados
+            FROM scenario_state_log
             GROUP BY dia ORDER BY dia
         """).fetchall()
         return [dict(r) for r in rows]
