@@ -1813,7 +1813,14 @@ def build_monitor_page(app_state) -> None:
             refs["radar_dialog"] = radar_dialog
 
             def _on_agent_select(e) -> None:
-                selected = e.selection
+                # NiceGUI pasa GenericEventArguments; Quasar QTable envía {added, rows, keys}
+                args = e.args if hasattr(e, "args") else {}
+                if isinstance(args, dict):
+                    selected = args.get("rows", args.get("selection", []))
+                elif isinstance(args, list):
+                    selected = args
+                else:
+                    return
                 if not selected:
                     return
                 row = selected[0]
