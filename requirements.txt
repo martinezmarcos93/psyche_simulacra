@@ -7,6 +7,8 @@ pyyaml>=6.0
 loguru>=0.7
 pygame>=2.5.0
 rich>=13.0
+plotly>=5.0
+nicegui>=2.0
 
 # Dashboard (opcional — instalar con: pip install psyche-simulacra[dashboard])
 # streamlit>=1.35

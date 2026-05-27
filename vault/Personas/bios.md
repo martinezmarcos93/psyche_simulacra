@@ -5,26 +5,26 @@ rol: cazador
 edad: 34
 sexo: M
 is_alive: True
-posicion: [42, 30]
-humor: 0.719
-energia: 0.305
-ansiedad: 0.514
+posicion: [41, 30]
+humor: 0.641
+energia: 0.225
+ansiedad: 0.627
 needs:
-  hambre: 0.124
-  fatiga: 0.695
-  sed: 0.435
-  sociabilidad: 0.080
-arquetipo_dominante: self
+  hambre: 0.678
+  fatiga: 0.775
+  sed: 0.005
+  sociabilidad: 0.180
+arquetipo_dominante: heroe
 estado_conductual: competencia
 arquetipos:
-  self: 0.704
+  self: 0.609
   persona: 0.500
   sombra: 0.300
   anima_animus: 0.400
-  heroe: 0.654
+  heroe: 0.652
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
+  madre: 0.400
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Bios
 
-> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(42, 30)`
+> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(41, 30)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.72 |
-| **Energía** | `[▓▓▓░░░░░░░]` | 0.30 |
-| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.51 |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.22 |
+| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.63 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.12 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓▓▓░░░]` | 0.70 | 🟢 Descansado |
-| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
+| **Hambre** | `[▓▓▓▓▓▓▓░░░]` | 0.68 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.01 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
+| **Sociabilidad** | `[▓▓░░░░░░░░]` | 0.18 | 🟢 Conectado |
 
 ---
 
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.704` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.609` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.654` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.652` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -91,23 +91,22 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[doron]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[elpis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[gigas]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[sophron]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[sophron]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4:** Soñó con `'montaña_que_escalar'` (arquetipo `heroe`).
-  - *Insight:* Entre sombras de pradera humeda, el heroe y lo reprimido coexisten sin resolverse.
-- **Día 5:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y lo reprimido se toleran esta noche en pradera humeda.
+- **Día 1:** Soñó con `'abundancia_que_pudre'` (arquetipo `heroe`).
+  - *Insight:* El heroe descansa en valle fertil mientras lo reprimido aguarda en el umbral.
+- **Día 2:** Soñó con `'montaña_que_escalar'` (arquetipo `heroe`).
+  - *Insight:* El heroe descansa en valle fertil mientras lo reprimido aguarda en el umbral.
 
 ---
 
@@ -155,13 +154,3 @@ arquetipos:
 - Día 1: Se enfrentó en un choque violento y destructivo contra Elpis.
 - Día 1: Se enfrentó en un choque violento y destructivo contra Elpis.
 - Día 2: Soñó con 'montaña_que_escalar' (heroe). Insight: El heroe descansa en valle fertil mientras lo reprimido aguarda en el umbral.
-- Día 2: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
-- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Sophron para ceder recursos.
-- Día 2: Manipuló con éxito y astucia a Arete para ceder recursos.
-- Día 3: Soñó con 'viento_que_borra' (heroe). Insight: En pradera humeda, el heroe encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'montaña_que_escalar' (heroe). Insight: Entre sombras de pradera humeda, el heroe y lo reprimido coexisten sin resolverse.
-- Día 4: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
-- Día 4: Se impuso competitivamente ante Arete, absorbiendo sus recursos biológicos.
-- Día 5: Soñó con 'silencio_pleno' (self). Insight: El self y lo reprimido se toleran esta noche en pradera humeda.

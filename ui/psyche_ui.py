@@ -22,13 +22,21 @@ ROOT = Path(__file__).parent.parent
 # ── Paleta ────────────────────────────────────────────────────────────────────
 
 _BIOME_COLORS: dict[str, str] = {
-    "pradera": "#5a8a3c", "bosque": "#2d6b2d", "desierto": "#c8a55a",
-    "tundra": "#8888aa", "montana": "#888888", "montaña": "#888888",
-    "montana_alta": "#aaaaaa", "costa": "#3d7aad", "agua": "#1a5280",
-    "pantano": "#4a6b4a", "pantano_costero": "#3d5e50",
-    "cueva": "#444455", "llanura": "#a0b870",
+    # Nombres reales de terrain.py / hexagon.py
+    "bosque_templado":  "#1f6b1f",
+    "pradera_humeda":   "#5a8a3c",
+    "rio_lago":         "#2471a3",
+    "montana_alta":     "#9e9e9e",
+    "sabana_abierta":   "#c8a040",
+    "pantano_costero":  "#3d6b5a",
+    "cueva":            "#3a3a4a",
+    "valle_fertil":     "#27ae60",
+    "costa_abierta":    "#3d7aad",
+    "desierto_borde":   "#d4a040",
+    "colinas_suaves":   "#7a9050",
+    "lago_interior":    "#1a5280",
 }
-_DEFAULT_BIOME = "#555566"
+_DEFAULT_BIOME = "#4a3a6a"  # púrpura oscuro para biomas no reconocidos
 _HEX_SIZE      = 8.0
 
 _ARCH_COLORS: dict[str, str] = {
@@ -296,6 +304,7 @@ def _build_hex_map(
     terrain_biomes: dict,
     agents_data: list | None = None,
     layer_flags: dict | None = None,
+    explored_coords: frozenset | None = None,
 ) -> "go.Figure | None":
     """
     Mapa hexagonal completo (D1/D2/D3):
@@ -315,7 +324,11 @@ def _build_hex_map(
     def _vis(key: str, default: bool = True) -> bool:
         return bool(flags.get(key, default))
 
-    explored = set((snap.recursos_por_hex or {}).keys())
+    # Usar terrain._explored_set si se proporcionó (más completo que recursos_por_hex)
+    if explored_coords is not None:
+        explored = explored_coords
+    else:
+        explored = set((snap.recursos_por_hex or {}).keys())
 
     # ── D1a: Niebla de guerra (hexes no explorados) ─────────────────────────
     fog_xs, fog_ys = [], []
@@ -1600,7 +1613,33 @@ def build_monitor_page(app_state) -> None:
             refs_hdr["tribus"] = ui.label("Tribus —").classes("text-blue-300 text-sm")
             refs_hdr["estado"] = ui.badge("—", color="grey").classes("text-xs")
 
-        # Botón Pausar / Reanudar (H — mejora transversal)
+        # Control de velocidad de simulación
+        _SPEED_LABELS = ["MAX", "×20", "×5", "×1", "Paso"]
+        _SPEED_VALUES = {
+            "MAX":  None,    # velocidad máxima (sin límite)
+            "×20":  0.05,    # 20 ticks/s → 1 día ≈ 1.2s
+            "×5":   0.2,     # 5 ticks/s  → 1 día ≈ 4.8s
+            "×1":   1.0,     # 1 tick/s   → 1 día ≈ 24s (observable)
+            "Paso": 5.0,     # 0.2 ticks/s → muy lento
+        }
+
+        speed_select = ui.select(
+            options=_SPEED_LABELS,
+            value="MAX",
+            label="Vel.",
+        ).classes("text-xs w-24 ml-4").props("dense dark")
+
+        def _on_speed_change():
+            rv = app_state.get_runner()
+            if rv:
+                try:
+                    rv.clock.set_speed(_SPEED_VALUES.get(speed_select.value))
+                except Exception:
+                    pass
+
+        speed_select.on("update:modelValue", lambda _: _on_speed_change())
+
+        # Botón Pausar / Reanudar
         def _toggle_pause() -> None:
             if app_state.is_paused:
                 app_state._pause_event.clear()
@@ -1618,7 +1657,7 @@ def build_monitor_page(app_state) -> None:
                     rt.state.simulation = "paused"
 
         pause_btn = ui.button("⏸ Pausar", on_click=_toggle_pause).classes(
-            "ml-auto text-xs bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded"
+            "text-xs bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded"
         )
 
     # ── Tabs ──────────────────────────────────────────────────────────────────
@@ -2180,6 +2219,11 @@ def build_monitor_page(app_state) -> None:
                 _map_tick[0] = 0
                 runner_now = app_state.get_runner()
                 agents_now = _extract_agents_data(runner_now) if runner_now else []
+                # terrain._explored_set es más completo que snap.recursos_por_hex
+                try:
+                    exp_coords = frozenset(runner_now.world.terrain._explored_set) if runner_now else None
+                except Exception:
+                    exp_coords = None
                 layer_flags = {
                     "niebla":    refs.get("layer_niebla")    and refs["layer_niebla"].value,
                     "agentes":   refs.get("layer_agentes")   and refs["layer_agentes"].value,
@@ -2189,7 +2233,7 @@ def build_monitor_page(app_state) -> None:
                     "liminales": refs.get("layer_liminales") and refs["layer_liminales"].value,
                     "fuego":     refs.get("layer_fuego")     and refs["layer_fuego"].value,
                 }
-                new_fig = _build_hex_map(snap, terrain_biomes, agents_now, layer_flags)
+                new_fig = _build_hex_map(snap, terrain_biomes, agents_now, layer_flags, exp_coords)
                 if new_fig:
                     refs["hex_plot"].update_figure(new_fig)
 

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu del Gobernante
 
-> **Día:** `5` | **Miembros vivos:** `1`
+> **Día:** `2` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,19 +8,19 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[doron]] (Doron) | guardian | 38 | self |
+| [[doron]] (Doron) | guardian | 38 | gobernante |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.371` `[▓▓▓▓░░░░░░░░]`
+> **Presión emocional:** `0.088` `[▓░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.553` | `▓▓▓▓▓▓░░░░` |
-| **Muerte** | `0.429` | `▓▓▓▓░░░░░░` |
-| **Padre** | `0.083` | `▓░░░░░░░░░` |
+| **Muerte** | `0.447` | `▓▓▓▓░░░░░░` |
+| **Sombra** | `0.221` | `▓▓░░░░░░░░` |
+| **Padre** | `0.088` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

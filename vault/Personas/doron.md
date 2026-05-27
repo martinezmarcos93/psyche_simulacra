@@ -5,26 +5,26 @@ rol: guardian
 edad: 38
 sexo: M
 is_alive: True
-posicion: [45, 29]
-humor: 0.766
-energia: 0.399
-ansiedad: 0.424
+posicion: [43, 29]
+humor: 0.776
+energia: 0.473
+ansiedad: 0.405
 needs:
   hambre: 0.044
-  fatiga: 0.615
+  fatiga: 0.535
   sed: 0.405
   sociabilidad: 0.020
-arquetipo_dominante: self
-estado_conductual: cooperacion
+arquetipo_dominante: gobernante
+estado_conductual: competencia
 arquetipos:
-  self: 0.641
+  self: 0.568
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
   heroe: 0.522
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
+  madre: 0.400
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.620
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Doron
 
-> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(45, 29)`
+> **Rol:** `guardian` | **Edad:** 38 | **Sexo:** M | **Ubicación:** `(43, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.77 |
-| **Energía** | `[▓▓▓▓░░░░░░]` | 0.40 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.42 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.47 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.41 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓▓▓░░░░]` | 0.62 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.54 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.641` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.568` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Heroe** | `0.522` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.620` | `▓▓▓▓▓▓▓░░░░░` |
@@ -94,7 +94,6 @@ arquetipos:
 | [[bios]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[gigas]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[kore]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
 | [[leon]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[moros]] | `-0.46` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
 | [[sophron]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -103,10 +102,10 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4:** Soñó con `'habitación_prohibida'` (arquetipo `gobernante`).
-  - *Insight:* En valle fertil, el gobernante encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'figura_que_sigue'` (arquetipo `gobernante`).
-  - *Insight:* El gobernante descansa en valle fertil mientras lo reprimido aguarda en el umbral.
+- **Día 1:** Soñó con `'hierba_que_corta'` (arquetipo `gobernante`).
+  - *Insight:* En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- **Día 2:** Soñó con `'corona_que_duele'` (arquetipo `gobernante`).
+  - *Insight:* El gobernante y lo reprimido se toleran esta noche en pradera humeda.
 
 ---
 
@@ -126,8 +125,3 @@ arquetipos:
 - Día 1: Soñó con 'hierba_que_corta' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
 - Día 2: Soñó con 'corona_que_duele' (gobernante). Insight: El gobernante y lo reprimido se toleran esta noche en pradera humeda.
-- Día 3: Soñó con 'horizonte_inmóvil' (gobernante). Insight: Entre sombras de pradera humeda, el gobernante y lo reprimido coexisten sin resolverse.
-- Día 3: Se enfrentó en un choque violento y destructivo contra Kore.
-- Día 3: Se enfrentó en un choque violento y destructivo contra Kore.
-- Día 4: Soñó con 'habitación_prohibida' (gobernante). Insight: En valle fertil, el gobernante encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'figura_que_sigue' (gobernante). Insight: El gobernante descansa en valle fertil mientras lo reprimido aguarda en el umbral.

@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Héroe
 
-> **Día:** `5` | **Miembros vivos:** `3`
+> **Día:** `2` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[bios]] (Bios) | cazador | 34 | self |
+| [[bios]] (Bios) | cazador | 34 | heroe |
 | [[kairos]] (Kairos) | cazador | 32 | heroe |
 | [[peitho]] (Peitho) | explorador | 26 | trickster |
 
@@ -21,9 +21,9 @@
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `0.980` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Muerte** | `0.458` | `▓▓▓▓▓░░░░░` |
-| **Trickster** | `0.416` | `▓▓▓▓░░░░░░` |
-| **Padre** | `0.083` | `▓░░░░░░░░░` |
+| **Muerte** | `0.459` | `▓▓▓▓▓░░░░░` |
+| **Padre** | `0.088` | `▓░░░░░░░░░` |
+| **Trickster** | `0.069` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |

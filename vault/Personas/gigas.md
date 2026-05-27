@@ -5,26 +5,26 @@ rol: cazador
 edad: 35
 sexo: M
 is_alive: True
-posicion: [41, 25]
-humor: 0.750
-energia: 0.577
-ansiedad: 0.431
+posicion: [39, 29]
+humor: 0.730
+energia: 0.505
+ansiedad: 0.458
 needs:
-  hambre: 0.104
-  fatiga: 0.415
+  hambre: 0.084
+  fatiga: 0.495
   sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: manipulacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.667
+  self: 0.593
   persona: 0.500
   sombra: 0.400
   anima_animus: 0.400
-  heroe: 0.502
+  heroe: 0.501
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
+  madre: 0.401
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.450
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Gigas
 
-> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(41, 25)`
+> **Rol:** `cazador` | **Edad:** 35 | **Sexo:** M | **Ubicación:** `(39, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.75 |
-| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.43 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
+| **Energía** | `[▓▓▓▓▓░░░░░]` | 0.50 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.46 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.50 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.667` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.593` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.450` | `▓▓▓▓▓░░░░░░░` |
@@ -95,18 +95,17 @@ arquetipos:
 | [[doron]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[hados]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[iris]] | `-0.94` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[kairos]] | `-0.14` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[sophron]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[sophron]] | `-0.94` | `░░░░░░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- **Día 5:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En desierto borde, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 1:** Soñó con `'abundancia_que_pudre'` (arquetipo `self`).
+  - *Insight:* En valle fertil, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 2:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
 
 ---
 
@@ -133,20 +132,3 @@ arquetipos:
 - Día 1: Detectó y rechazó un intento de manipulación de Sophron.
 - Día 2: Detectó y rechazó un intento de manipulación de Sophron.
 - Día 2: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Detectó y rechazó un intento de manipulación de Sophron.
-- Día 2: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
-- Día 2: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
-- Día 2: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 2: Se enfrentó en un choque violento y destructivo contra Iris.
-- Día 3: Soñó con 'unión_imposible' (self). Insight: El self y lo reprimido se toleran esta noche en pradera humeda.
-- Día 4: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
-- Día 5: Soñó con 'unión_imposible' (self). Insight: En desierto borde, lo reprimido pierde fuerza un instante — el self respira.

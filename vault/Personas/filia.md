@@ -5,26 +5,26 @@ rol: generico
 edad: 29
 sexo: F
 is_alive: True
-posicion: [44, 30]
-humor: 0.903
+posicion: [43, 29]
+humor: 0.809
 energia: 0.665
-ansiedad: 0.276
+ansiedad: 0.400
 needs:
-  hambre: 0.084
+  hambre: 0.124
   fatiga: 0.335
-  sed: 0.225
+  sed: 0.405
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: competencia
+estado_conductual: aislamiento
 arquetipos:
-  self: 0.658
+  self: 0.575
   persona: 0.500
   sombra: 0.220
   anima_animus: 0.400
-  heroe: 0.502
+  heroe: 0.501
   sabio: 0.400
   trickster: 0.250
-  madre: 0.402
+  madre: 0.401
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Filia
 
-> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(44, 30)`
+> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(43, 29)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.90 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.81 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.28 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.40 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
-| **Sed** | `[▓▓░░░░░░░░]` | 0.23 | 🟢 Hidratado |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.12 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.658` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.575` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.220` | `▓▓▓░░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.501` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -93,7 +93,7 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[hados]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hados]] | `+0.31` | `▓▓▓▓▓▓▓░░░` | Ninguno |
 | [[moros]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -102,9 +102,9 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4:** Soñó con `'horizonte_inmóvil'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- **Día 5:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+- **Día 1:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En valle fertil, lo reprimido pierde fuerza un instante — el self respira.
+- **Día 2:** Soñó con `'silencio_pleno'` (arquetipo `self`).
   - *Insight:* Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
 
 ---
@@ -126,6 +126,3 @@ arquetipos:
 - Día 1: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, lo reprimido pierde fuerza un instante — el self respira.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 4.
 - Día 2: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
-- Día 3: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 4: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 5: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.

@@ -5,26 +5,26 @@ rol: explorador
 edad: 26
 sexo: F
 is_alive: True
-posicion: [41, 33]
-humor: 0.942
+posicion: [40, 33]
+humor: 0.785
 energia: 0.665
-ansiedad: 0.192
+ansiedad: 0.392
 needs:
   hambre: 0.064
   fatiga: 0.335
-  sed: 0.105
+  sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: trickster
-estado_conductual: aislamiento
+estado_conductual: competencia
 arquetipos:
-  self: 0.672
+  self: 0.582
   persona: 0.500
   sombra: 0.350
   anima_animus: 0.400
-  heroe: 0.504
+  heroe: 0.502
   sabio: 0.400
   trickster: 0.820
-  madre: 0.401
+  madre: 0.400
   padre: 0.400
   nino_divino: 0.300
   gobernante: 0.400
@@ -32,7 +32,7 @@ arquetipos:
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(41, 33)`
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(40, 33)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.94 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓░░░░░░░░]` | 0.19 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.39 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
 | **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓░░░░░░░░░]` | 0.11 | 🟢 Hidratado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,14 +61,14 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.672` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Self** | `0.582` | `▓▓▓▓▓▓▓░░░░░` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
 | **Sombra** | `0.350` | `▓▓▓▓░░░░░░░░` |
 | **Anima animus** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Heroe** | `0.504` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.502` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Trickster** | `0.820` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Madre** | `0.401` | `▓▓▓▓▓░░░░░░░` |
+| **Madre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
 | **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
@@ -93,18 +93,17 @@ arquetipos:
 | :--- | :---: | :---: | :---: |
 | [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[kore]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
-| [[leon]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kore]] | `-0.26` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 4:** Soñó con `'laberinto_que_ríe'` (arquetipo `trickster`).
-  - *Insight:* Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
-- **Día 5:** Soñó con `'viento_que_borra'` (arquetipo `trickster`).
-  - *Insight:* Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
+- **Día 1:** Soñó con `'viento_que_borra'` (arquetipo `trickster`).
+  - *Insight:* En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
+- **Día 2:** Soñó con `'trampa_propia'` (arquetipo `trickster`).
+  - *Insight:* En pradera humeda, lo reprimido pierde fuerza un instante — el trickster respira.
 
 ---
 
@@ -125,8 +124,3 @@ arquetipos:
 - Día 1: Soñó con 'viento_que_borra' (trickster). Insight: En pradera humeda, el trickster encuentra tregua provisional con lo reprimido.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 3.
 - Día 2: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el trickster respira.
-- Día 3: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster y lo reprimido se toleran esta noche en pradera humeda.
-- Día 3: Se impuso competitivamente ante Leon, absorbiendo sus recursos biológicos.
-- Día 4: Soñó con 'laberinto_que_ríe' (trickster). Insight: Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
-- Día 4: Intentó manipular a Kore, pero fue descubierto.
-- Día 5: Soñó con 'viento_que_borra' (trickster). Insight: Entre sombras de pradera humeda, el trickster y lo reprimido coexisten sin resolverse.
