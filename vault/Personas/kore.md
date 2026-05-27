@@ -6,9 +6,9 @@ edad: 14
 sexo: F
 is_alive: True
 posicion: [51, 27]
-humor: 0.892
+humor: 0.859
 energia: 0.636
-ansiedad: 0.293
+ansiedad: 0.334
 needs:
   hambre: 0.096
   fatiga: 0.526
@@ -17,18 +17,18 @@ needs:
 arquetipo_dominante: self
 estado_conductual: manipulacion
 arquetipos:
-  self: 0.938
+  self: 0.962
   persona: 0.550
-  sombra: 0.182
-  anima_animus: 0.802
-  heroe: 0.448
-  sabio: 0.352
-  trickster: 0.351
-  madre: 0.066
-  padre: 0.414
-  nino_divino: 0.287
-  gobernante: 0.377
-  rebelde: 0.270
+  sombra: 0.252
+  anima_animus: 0.771
+  heroe: 0.479
+  sabio: 0.498
+  trickster: 0.343
+  madre: 0.141
+  padre: 0.296
+  nino_divino: 0.285
+  gobernante: 0.400
+  rebelde: 0.309
 ---
 # 👤 Persona: Kore
 
@@ -42,9 +42,9 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.89 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
 | **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.29 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.33 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.938` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Self** | `0.962` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.182` | `▓▓░░░░░░░░░░` |
-| **Anima animus** | `0.802` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Heroe** | `0.448` | `▓▓▓▓▓░░░░░░░` |
-| **Sabio** | `0.352` | `▓▓▓▓░░░░░░░░` |
-| **Trickster** | `0.351` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.066` | `▓░░░░░░░░░░░` |
-| **Padre** | `0.414` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.287` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.377` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.270` | `▓▓▓░░░░░░░░░` |
+| **Sombra** | `0.252` | `▓▓▓░░░░░░░░░` |
+| **Anima animus** | `0.771` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.479` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.498` | `▓▓▓▓▓▓░░░░░░` |
+| **Trickster** | `0.343` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.141` | `▓▓░░░░░░░░░░` |
+| **Padre** | `0.296` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.285` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.309` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -97,27 +97,26 @@ arquetipos:
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[filia]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
 | [[hados]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[moros]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[peitho]] | `-0.51` | `▓▓░░░░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'silencio_absoluto'` (arquetipo `self`).
+- **Día 24:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* El self descansa en montana alta mientras lo reprimido aguarda en el umbral.
+- **Día 25:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
   - *Insight:* El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
-- **Día 25:** Soñó con `'nino_divino'` (arquetipo `self`).
-  - *Insight:* En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 - **Día 26:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- **Día 27:** Soñó con `'nino_divino'` (arquetipo `self`).
   - *Insight:* Entre sombras de montana alta, el self y lo reprimido coexisten sin resolverse.
-- **Día 27:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+- **Día 28:** Soñó con `'caída_sin_fondo'` (arquetipo `self`).
   - *Insight:* El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
-- **Día 28:** Soñó con `'unión_imposible'` (arquetipo `self`).
+- **Día 29:** Soñó con `'rebelde'` (arquetipo `self`).
   - *Insight:* El self busca equilibrio en montana alta compensando la energía de lo reprimido.
-- **Día 29:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En montana alta, el self encuentra tregua provisional con lo reprimido.
 - **Día 30:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* El self y lo reprimido se toleran esta noche en montana alta.
+  - *Insight:* En montana alta, el self encuentra tregua provisional con lo reprimido.
 
 ---
 
@@ -241,17 +240,15 @@ arquetipos:
 - Día 16: Soñó con 'roca_que_aplasta' (self). Insight: El self y lo reprimido se toleran esta noche en montana alta.
 - Día 17: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
 - Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
-- Día 19: Soñó con 'silencio_pleno' (self). Insight: El self y lo reprimido se toleran esta noche en montana alta.
-- Día 20: Soñó con 'rebelde' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 21: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 22: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, lo reprimido pierde fuerza un instante — el self respira.
-- Día 22: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Moros.
-- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en montana alta mientras lo reprimido aguarda en el umbral.
-- Día 24: Soñó con 'silencio_absoluto' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
-- Día 25: Soñó con 'nino_divino' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 26: Soñó con 'unión_imposible' (self). Insight: Entre sombras de montana alta, el self y lo reprimido coexisten sin resolverse.
-- Día 26: Intentó manipular a Moros, pero fue descubierto.
-- Día 27: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
-- Día 28: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
-- Día 29: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
-- Día 30: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en montana alta.
+- Día 19: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 20: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en montana alta mientras lo reprimido aguarda en el umbral.
+- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 23: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en montana alta.
+- Día 24: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en montana alta mientras lo reprimido aguarda en el umbral.
+- Día 25: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
+- Día 26: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de lo reprimido.
+- Día 27: Soñó con 'nino_divino' (self). Insight: Entre sombras de montana alta, el self y lo reprimido coexisten sin resolverse.
+- Día 28: Soñó con 'caída_sin_fondo' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de lo reprimido.
+- Día 29: Soñó con 'rebelde' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 30: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.

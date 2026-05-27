@@ -8,22 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[iris]] (Iris) | explorador | 21 | self |
+| [[iris]] (Iris) | explorador | 21 | persona |
 | [[sophron]] (Sophron) | generico | 45 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.882` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.783` `[▓▓▓▓▓▓▓▓▓░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `0.868` | `▓▓▓▓▓▓▓▓▓░` |
 | **Trickster** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
-| **Muerte** | `0.632` | `▓▓▓▓▓▓░░░░` |
-| **Sabio** | `0.174` | `▓▓░░░░░░░░` |
-| **Nino_divino** | `0.054` | `▓░░░░░░░░░` |
+| **Sombra** | `0.739` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.404` | `▓▓▓▓░░░░░░` |
+| **Sabio** | `0.134` | `▓░░░░░░░░░` |
 | **Padre** | `0.050` | `▓░░░░░░░░░` |
 | **Heroe** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
@@ -31,6 +30,7 @@
 | **Madre** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Rebelde** | `0.000` | `░░░░░░░░░░` |
+| **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 
 ---
 

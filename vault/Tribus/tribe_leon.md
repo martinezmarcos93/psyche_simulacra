@@ -14,11 +14,11 @@
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.000` `[░░░░░░░░░░░░]`
+> **Presión emocional:** `0.013` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Muerte** | `0.319` | `▓▓▓░░░░░░░` |
+| **Muerte** | `0.328` | `▓▓▓░░░░░░░` |
 | **Heroe** | `0.215` | `▓▓░░░░░░░░` |
 | **Sombra** | `0.125` | `▓░░░░░░░░░` |
 | **Madre** | `0.107` | `▓░░░░░░░░░` |
