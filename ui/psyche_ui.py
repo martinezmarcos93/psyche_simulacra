@@ -468,26 +468,71 @@ def _build_hex_map(
     return fig
 
 
-def _build_trend_figure(rows: list[dict], fields: list[str], title: str,
-                        yrange: list | None = None):
+_TREND_COLORS = ["#00D2B4", "#E040FB", "#FF4B4B", "#F4D03F", "#4a9eff"]
+
+_EVENT_COLORS: dict[str, str] = {
+    "tormenta":    "rgba(74,158,255,0.25)",
+    "helada":      "rgba(174,214,241,0.25)",
+    "sequia":      "rgba(241,196,15,0.25)",
+    "granizo":     "rgba(174,214,241,0.20)",
+    "ola_calor":   "rgba(231,76,60,0.25)",
+    "inundacion":  "rgba(41,128,185,0.25)",
+}
+_EVENT_DEFAULT_COLOR = "rgba(155,89,182,0.20)"
+
+
+def _build_trend_figure(
+    rows: list[dict],
+    fields: list[str],
+    title: str,
+    yrange: list | None = None,
+    events: list[dict] | None = None,
+):
+    """
+    Gráfico de líneas temporales.
+    A1: events=[{dia, evento}] → bandas verticales coloreadas por tipo de evento.
+    """
     try:
         import plotly.graph_objects as go
     except ImportError:
         return None
     if not rows:
         return None
+
     dias = [r["dia"] for r in rows]
-    COLORS = ["#00D2B4", "#E040FB", "#FF4B4B", "#F4D03F", "#4a9eff"]
     traces = []
     for i, f in enumerate(fields):
         vals = [r.get(f) for r in rows]
         vals = [v if v is not None else 0 for v in vals]
-        traces.append(go.Scatter(x=dias, y=vals, mode="lines", name=f,
-                                 line=dict(color=COLORS[i % len(COLORS)], width=2)))
+        traces.append(go.Scatter(
+            x=dias, y=vals, mode="lines", name=f,
+            line=dict(color=_TREND_COLORS[i % len(_TREND_COLORS)], width=2),
+        ))
+
     fig = go.Figure(data=traces)
     yaxis_cfg = dict(color="#aaa", gridcolor="#1f2937")
     if yrange:
         yaxis_cfg["range"] = yrange
+
+    # A1 — Bandas de eventos climáticos
+    shapes = []
+    event_annotations = []
+    if events:
+        for ev in events:
+            d    = ev.get("dia", 0)
+            evnm = (ev.get("evento") or "").lower()
+            col  = _EVENT_COLORS.get(evnm, _EVENT_DEFAULT_COLOR)
+            shapes.append(dict(
+                type="rect", xref="x", yref="paper",
+                x0=d - 0.4, x1=d + 0.4, y0=0, y1=1,
+                fillcolor=col, line=dict(width=0), layer="below",
+            ))
+            event_annotations.append(dict(
+                x=d, y=1.02, xref="x", yref="paper",
+                text=evnm[:3], showarrow=False,
+                font=dict(size=7, color="#aaa"), textangle=-45,
+            ))
+
     fig.update_layout(
         title=dict(text=title, font=dict(color="#ccc", size=13)),
         paper_bgcolor="#111827", plot_bgcolor="#111827",
@@ -495,6 +540,47 @@ def _build_trend_figure(rows: list[dict], fields: list[str], title: str,
         margin=dict(l=40, r=10, t=40, b=30),
         xaxis=dict(color="#aaa", gridcolor="#1f2937"),
         yaxis=yaxis_cfg,
+        shapes=shapes,
+        annotations=event_annotations,
+    )
+    return fig
+
+
+def _build_emergence_figure(rows: list[dict]) -> "go.Figure | None":
+    """
+    A2 — Métricas de emergencia cultural (KL, VFE, IMI) desde emergence_series.csv.
+    """
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+    if not rows:
+        return None
+
+    dias     = [r["dia"] for r in rows]
+    kl_mean  = [r.get("kl_mean", 0.0)  for r in rows]
+    vfe      = [r.get("vfe_global", 0.0) for r in rows]
+    imi      = [r.get("imi", 0.0)       for r in rows]
+
+    traces = [
+        go.Scatter(x=dias, y=kl_mean, mode="lines", name="KL (div. psicológica)",
+                   line=dict(color="#E040FB", width=1.8)),
+        go.Scatter(x=dias, y=vfe, mode="lines", name="VFE (entropía colectiva)",
+                   line=dict(color="#F4D03F", width=1.8)),
+        go.Scatter(x=dias, y=imi, mode="lines", name="IMI (varianza arquetípica)",
+                   line=dict(color="#00D2B4", width=1.8)),
+    ]
+
+    fig = go.Figure(data=traces)
+    fig.update_layout(
+        title=dict(text="Métricas de emergencia cultural", font=dict(color="#ccc", size=13)),
+        paper_bgcolor="#111827", plot_bgcolor="#111827",
+        showlegend=True,
+        legend=dict(font=dict(color="#aaa", size=10), orientation="h",
+                    yanchor="bottom", y=1.02, xanchor="left", x=0),
+        margin=dict(l=40, r=10, t=50, b=30),
+        xaxis=dict(color="#aaa", gridcolor="#1f2937", title="Día simulado"),
+        yaxis=dict(color="#aaa", gridcolor="#1f2937"),
     )
     return fig
 
@@ -1055,6 +1141,7 @@ def build_monitor_page(app_state) -> None:
     from ui.db_reader import (
         load_checkpoint, load_agent_metrics,
         load_climate_metrics, load_scenario_metrics, load_deaths_log,
+        load_climate_events, load_emergence_metrics,
     )
 
     runner = app_state.get_runner()
@@ -1132,19 +1219,24 @@ def build_monitor_page(app_state) -> None:
             ui.label("Estado emocional poblacional").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-4"
             )
-            refs["plot_emoc"]     = ui.plotly({}).classes("w-full h-56 px-2")
+            refs["plot_emoc"]      = ui.plotly({}).classes("w-full h-52 px-2")
             ui.label("Población viva").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_poblacion"] = ui.plotly({}).classes("w-full h-44 px-2")
-            ui.label("Temperatura y riesgo climático").classes(
+            refs["plot_poblacion"] = ui.plotly({}).classes("w-full h-40 px-2")
+            ui.label("Temperatura y riesgo climático · Bandas = eventos extremos").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_clima"]    = ui.plotly({}).classes("w-full h-44 px-2")
+            refs["plot_clima"]     = ui.plotly({}).classes("w-full h-44 px-2")
             ui.label("Presión de recursos / Carrying capacity").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_recursos"] = ui.plotly({}).classes("w-full h-44 px-2")
+            refs["plot_recursos"]  = ui.plotly({}).classes("w-full h-40 px-2")
+            ui.separator().classes("mx-4 mt-3")
+            ui.label("Métricas de emergencia cultural — KL · VFE · IMI").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-2"
+            )
+            refs["plot_emergence"] = ui.plotly({}).classes("w-full h-52 px-2")
 
         # ── Tab ICL ───────────────────────────────────────────────────────────
         with ui.tab_panel(t_icl):
@@ -1421,13 +1513,14 @@ def build_monitor_page(app_state) -> None:
                 for d in deaths[:20]:
                     refs["deaths_log"].push(f"Día {d['dia']} — {d['nombre']} ({d['causa']})")
 
-            # ── Tendencias (cada 3 ciclos = 6s) ──────────────────────────────
+            # ── Tendencias A1+A2 (cada 3 ciclos = 6s) ────────────────────────
             _charts_tick[0] += 1
             if _charts_tick[0] >= 3:
                 _charts_tick[0] = 0
-                agent_metrics   = load_agent_metrics()
-                climate_metrics = load_climate_metrics()
+                agent_metrics    = load_agent_metrics()
+                climate_metrics  = load_climate_metrics()
                 scenario_metrics = load_scenario_metrics()
+                clim_events      = load_climate_events()
 
                 fig_emoc = _build_trend_figure(
                     agent_metrics, ["humor", "energia", "ansiedad"],
@@ -1442,9 +1535,11 @@ def build_monitor_page(app_state) -> None:
                 if fig_pop:
                     refs["plot_poblacion"].update_figure(fig_pop)
 
+                # A1 — Temperatura con bandas de eventos climáticos
                 fig_clima = _build_trend_figure(
                     climate_metrics, ["temperatura", "riesgo"],
                     "Temperatura (°C) · Riesgo supervivencia",
+                    events=clim_events,
                 )
                 if fig_clima:
                     refs["plot_clima"].update_figure(fig_clima)
@@ -1455,6 +1550,12 @@ def build_monitor_page(app_state) -> None:
                 )
                 if fig_res:
                     refs["plot_recursos"].update_figure(fig_res)
+
+                # A2 — Métricas de emergencia cultural
+                emerg_data = load_emergence_metrics(last_n_days=300)
+                fig_emerg  = _build_emergence_figure(emerg_data)
+                if fig_emerg:
+                    refs["plot_emergence"].update_figure(fig_emerg)
 
             # ── Mapa D1/D2/D3 (cada 3 ciclos = 6s) ──────────────────────────
             _map_tick[0] += 1

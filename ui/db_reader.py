@@ -4,6 +4,7 @@ Espejo de lo que hace el Streamlit dashboard, adaptado para NiceGUI.
 """
 from __future__ import annotations
 
+import csv
 import json
 import sqlite3
 from pathlib import Path
@@ -116,6 +117,74 @@ def load_scenario_metrics() -> list[dict]:
         return []
     finally:
         conn.close()
+
+
+def load_climate_events() -> list[dict]:
+    """Días con evento climático extremo (evento != NULL) para superposición en gráficos."""
+    conn = _conn()
+    if conn is None:
+        return []
+    try:
+        rows = conn.execute("""
+            SELECT dia, evento
+            FROM climate_log
+            WHERE evento IS NOT NULL AND evento != ''
+            GROUP BY dia, evento
+            ORDER BY dia
+        """).fetchall()
+        return [dict(r) for r in rows]
+    except Exception:
+        return []
+    finally:
+        conn.close()
+
+
+_EMERGENCE_CSV = _ROOT / "data" / "metrics" / "emergence_series.csv"
+
+
+def load_emergence_metrics(last_n_days: int = 300) -> list[dict]:
+    """
+    Lee emergence_series.csv y devuelve un punto por día (media de las métricas).
+    Limitado a los últimos last_n_days días para rendimiento.
+    """
+    if not _EMERGENCE_CSV.exists():
+        return []
+    try:
+        # Leer y agrupar por día
+        sums: dict[int, dict] = {}
+        counts: dict[int, int] = {}
+        _COLS = ("kl_mean", "kl_max", "vfe_global", "vfe_tribe_mean", "imi")
+
+        with open(_EMERGENCE_CSV, encoding="utf-8", errors="replace") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                try:
+                    dia = int(row["dia"])
+                except (KeyError, ValueError):
+                    continue
+                if dia not in sums:
+                    sums[dia]   = {c: 0.0 for c in _COLS}
+                    counts[dia] = 0
+                counts[dia] += 1
+                for c in _COLS:
+                    try:
+                        sums[dia][c] += float(row.get(c) or 0.0)
+                    except (TypeError, ValueError):
+                        pass
+
+        if not sums:
+            return []
+
+        # Tomar los últimos N días
+        all_dias = sorted(sums.keys())
+        dias     = all_dias[-last_n_days:]
+
+        return [
+            {"dia": d, **{c: sums[d][c] / max(counts[d], 1) for c in _COLS}}
+            for d in dias
+        ]
+    except Exception:
+        return []
 
 
 def load_deaths_log(limit: int = 100) -> list[dict]:
