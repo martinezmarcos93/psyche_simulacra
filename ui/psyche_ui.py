@@ -85,37 +85,47 @@ def _hex_xy(q: int, r: int) -> tuple[float, float]:
 def _extract_terrain(runner) -> dict[tuple[int, int], str]:
     try:
         return {coord: cell.biome for coord, cell in runner.world.terrain._cells.items()}
-    except Exception:
+    except Exception as e:
+        import sys
+        print(f"[UI] _extract_terrain: {e}", file=sys.stderr)
         return {}
 
 
 def _extract_agents_data(runner) -> list[dict]:
     """Lee posición y metadata de todos los agentes en vivo para el mapa."""
+    import sys
     try:
         ac  = runner.agents
         mgr = ac.tribe_manager
-        out = []
-        for agent_id, agent in ac.agents.items():
-            tribe = mgr.get_tribe_id(agent_id) or ""
+    except Exception as e:
+        print(f"[UI] _extract_agents_data setup: {e}", file=sys.stderr)
+        return []
+    out = []
+    for agent_id, agent in list(ac.agents.items()):
+        try:
             bs    = agent.behavioral_state
             estado = (
                 bs.estado.value if hasattr(bs, "estado") and hasattr(bs.estado, "value")
                 else str(bs)
             )
+            arch = agent.archetypes.dominant()
+            pos  = agent.posicion
+            if not isinstance(pos, (tuple, list)) or len(pos) != 2:
+                continue
             out.append({
-                "id":       agent_id,
-                "nombre":   agent.nombre,
-                "pos":      agent.posicion,
-                "alive":    agent.is_alive,
-                "humor":    round(agent.humor, 2),
-                "edad":     getattr(agent, "edad", 0),
-                "arquetipo": agent.archetypes.dominant(),
-                "estado":   estado,
-                "tribu":    tribe,
+                "id":        agent_id,
+                "nombre":    agent.nombre,
+                "pos":       tuple(pos),
+                "alive":     agent.is_alive,
+                "humor":     round(agent.humor, 2),
+                "edad":      getattr(agent, "edad", 0),
+                "arquetipo": arch,
+                "estado":    estado,
+                "tribu":     mgr.get_tribe_id(agent_id) or "",
             })
-        return out
-    except Exception:
-        return []
+        except Exception as e:
+            print(f"[UI] agent {agent_id}: {e}", file=sys.stderr)
+    return out
 
 
 # ── Spring layout (Fruchterman-Reingold) ─────────────────────────────────────
@@ -1556,8 +1566,9 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
                 )
             app_state._liminal_proc = proc
             runtime.state.liminal = "starting"
-        except Exception:
-            pass
+        except Exception as e:
+            import sys
+            print(f"[UI] liminal start: {e}", file=sys.stderr)
 
     # Limpiar evento de pausa anterior y registrar gate en el reloj
     app_state._pause_event.clear()
@@ -1572,8 +1583,9 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
     def _run():
         try:
             runner.run(n_days=None)
-        except Exception:
-            pass
+        except Exception as e:
+            import sys
+            print(f"[UI] sim thread: {e}", file=sys.stderr)
         finally:
             app_state._pause_event.clear()
             runtime.state.simulation = "stopped"
@@ -1981,9 +1993,9 @@ def build_monitor_page(app_state) -> None:
 
     # ── Timers de actualización ───────────────────────────────────────────────
     _prev_deaths:     list[int]  = [0]
-    _map_tick:        list[int]  = [0]
-    _slow_tick:       list[int]  = [0]
-    _charts_tick:     list[int]  = [0]
+    _map_tick:        list[int]  = [99]
+    _slow_tick:       list[int]  = [99]
+    _charts_tick:     list[int]  = [99]
     _prev_n_myths:    list[int]  = [0]    # H2 — detección de nuevos mitos
     _prev_hysteria:   list[bool] = [False]  # H2 — detección histeria
     _notified_deaths: set        = set()   # H2 — agentes destacados ya notificados
@@ -2222,7 +2234,9 @@ def build_monitor_page(app_state) -> None:
                 # terrain._explored_set es más completo que snap.recursos_por_hex
                 try:
                     exp_coords = frozenset(runner_now.world.terrain._explored_set) if runner_now else None
-                except Exception:
+                except Exception as e:
+                    import sys
+                    print(f"[UI] _explored_set: {e}", file=sys.stderr)
                     exp_coords = None
                 layer_flags = {
                     "niebla":    refs.get("layer_niebla")    and refs["layer_niebla"].value,
@@ -2339,8 +2353,9 @@ def build_monitor_page(app_state) -> None:
                                 type="info", timeout=10000,
                             )
 
-        except Exception:
-            pass
+        except Exception as e:
+            import sys, traceback
+            print(f"[UI] _refresh: {e}\n{traceback.format_exc()}", file=sys.stderr)
 
     ui.timer(2.0, _refresh)
 

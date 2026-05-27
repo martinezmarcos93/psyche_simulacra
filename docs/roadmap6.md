@@ -105,6 +105,17 @@
 - El G1 del R5.2 muestra radar pero no el log episódico prometido.
 - Añadir en el dialog: scroll de los últimos 10 eventos del `episodic_memory` del agente.
 
+### D5 — Mapa: agentes visibles en tiempo real
+- Los agentes deben aparecer como marcadores sobre su hex actual, actualizándose en vivo.
+- Diagnosticar por qué `_extract_agents_data` puede retornar lista vacía (excepciones silenciosas).
+- Verificar que `agent.posicion` llega correctamente a `_hex_xy` y que el marcador (size=14) no queda oculto bajo el terreno (size=17).
+- Meta: al hacer hover sobre un agente, ver nombre, tribu, arquetipo, humor y estado.
+
+### D6 — Botón Cerrar simulación
+- Añadir botón "Cerrar" en el header (junto a Pausar/Reanudar) que detenga el hilo de simulación limpiamente y cierre el servidor NiceGUI.
+- Evitar tener que interrumpir con Ctrl+C en la consola.
+- Implementación sugerida: `runner.stop()` → `app_state._pause_event.clear()` → `ui.run_javascript("window.close()")` o `app.shutdown()`.
+
 ---
 
 ## Bloque E — Merge y release ✦ proceso (requiere A+B+C completos)

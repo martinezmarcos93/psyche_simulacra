@@ -71,7 +71,8 @@
       "Bash(python3 -m pip show plotly)",
       "Bash(where python *)",
       "Bash(pip list *)",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "Bash(grep -n \"except Exception: pass\\\\|except Exception:\\\\s*$\\\\|except.*pass\" ui/psyche_ui.py)"
     ]
   }
 }

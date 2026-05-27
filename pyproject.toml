@@ -12,6 +12,8 @@ dependencies = [
     "pyyaml>=6.0",
     "loguru>=0.7",
     "pygame>=2.5.0",
+    "plotly>=5.0",
+    "nicegui>=2.0",
 ]
 
 [project.optional-dependencies]
