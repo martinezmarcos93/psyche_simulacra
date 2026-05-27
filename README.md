@@ -343,13 +343,13 @@ Una vez iniciada, el observatorio muestra 9 tabs en tiempo real:
 | Tab | Contenido |
 |-----|-----------|
 | Resumen | Temperatura, estación, carrying capacity, presión de recursos, tensión colectiva (presión emocional / mítica / confusión), muertes recientes |
-| Tendencias | Gráficos históricos: emociones, población, clima, recursos (desde SQLite) |
-| ICL | Carga memética de símbolos arquetípicos, mitología activa, léxico tribal emergente |
-| Red Social | Grafo cuántico: lazos positivos (verde), negativos (rojo), entrelazados (púrpura) |
-| Agentes | Inspector de todos los agentes vivos con tribu, arquetipo, métricas |
-| Sueños | Registro por individuo y por tribu |
-| Civilización | Estructuras construidas (altares, refugios, depósitos) · Tecnologías materializadas |
-| Mapa | Hexes explorados coloreados por bioma, fauna, tumbas, fuego, hexes liminales |
+| Tendencias | Gráficos históricos: emociones, población, clima con bandas de eventos extremos (A1), recursos · Métricas de emergencia: KL divergencia, VFE, IMI (A2) |
+| ICL | Gauges de estado del campo (B1) · Carga memética de símbolos con tribu dominante (B2) · Proto-mitos en gestación y mitos activos (B3) · Léxico tribal emergente |
+| Red Social | Grafo cuántico spring-layout agrupado por tribu (C1) · Tabla top-20 aristas con filtro tribu (C2) · Stats de red: clusters, hub, entrelazados (C3) |
+| Agentes | Inspector filtrable por tribu / arquetipo / estado (G2) · Click en fila → radar arquetípico 12 ejes (G1) |
+| Sueños | Frecuencia de arquetipos en sueños vs carga ICL (E1) · Tabla de sueños entrelazados / pares shared_with (E2) · Registro por individuo y por tribu |
+| Civilización | Estructuras construidas · Tecnologías materializadas · Memoria cultural y cadena de transmisión (F2) |
+| Mapa | Todo el terreno 80×60 WebGL con fog-of-war (D1) · Agentes coloreados por arquetipo (D2) · 7 capas toggle (D3) |
 | Zona Liminal | Solo si se activó el servidor liminal al iniciar |
 
 ### Motor headless (maxima velocidad)
@@ -422,7 +422,7 @@ python scripts/run_robustness.py --runs 10 --days 200
 ## Tests
 
 ```bash
-pytest               # 329 tests
+pytest               # 360 tests
 pytest -v            # verbose
 pytest --tb=short    # traceback corto
 pytest tests/test_metrics.py -v   # solo metricas de emergencia
@@ -430,14 +430,21 @@ pytest tests/test_metrics.py -v   # solo metricas de emergencia
 
 ---
 
-## Variables de entorno (narrativa LLM)
+## Variables de entorno
 
 ```bash
+# Narrativa LLM
 OLLAMA_BASE_URL=http://localhost:11434   # default
 OLLAMA_MODEL=llama3.2                    # default
 OLLAMA_TIMEOUT=120                       # segundos
 NARRATIVE_ENABLED=1                      # 0 para desactivar
+
+# Simulación
+CHECKPOINT_INTERVAL=50                   # días entre checkpoints automáticos
+DAYS_UNTIL_CLUSTERING=365               # días hasta primer clustering tribal
 ```
+
+Todas las variables configurables también desde el launcher NiceGUI (sección **Configuración avanzada**) sin necesidad de editar archivos.
 
 ---
 
@@ -455,7 +462,7 @@ NARRATIVE_ENABLED=1                      # 0 para desactivar
 | Visualizador legacy | Pygame |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
 | Zona Liminal (red) | websockets + asyncio (servidor) / threading (cliente) |
-| Tests | pytest (329 tests) |
+| Tests | pytest (360 tests) |
 
 ---
 
@@ -465,7 +472,6 @@ Los documentos de diseño están en `src/` y `docs/`:
 
 | Archivo | Contenido |
 |---------|-----------|
-| `docs/roadmap5.2.md` | **Roadmap activo** — refinamiento del observatorio NiceGUI |
 | `docs/model_spec.md` | Especificación del modelo ABM |
 | `docs/archetype_theory.md` | Teoría arquetípica jungiana aplicada |
 | `docs/Liminal_Zone.md` | Arquitectura de la Zona Liminal |
@@ -480,6 +486,8 @@ Los documentos de diseño están en `src/` y `docs/`:
 | `src/09-PSYCHE_ARQUITECTURA_NUCLEOS.md` | WorldCore + AgentCore |
 | `src/10-PSYCHE_SIMULATION_CLOCK.md` | SimulationClock |
 | `src/archive/00-ROADMAP_ORIGINAL_v1_COMPLETADO.md` | Roadmap original completado |
+| `src/archive/ROADMAP5.md` | Roadmap 5 — simulación completa: tribus, mitos, métricas |
+| `src/archive/ROADMAP5.2.md` | Roadmap 5.2 — observatorio NiceGUI: todos los bloques A→H |
 
 ---
 
