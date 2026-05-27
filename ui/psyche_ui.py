@@ -585,28 +585,180 @@ def _build_emergence_figure(rows: list[dict]) -> "go.Figure | None":
     return fig
 
 
-def _build_symbol_figure(symbols: dict):
+_ARCH_DESCRIPTIONS: dict[str, str] = {
+    "self_":        "El Sí-mismo — integración psíquica total",
+    "persona":      "La Máscara — rol social adoptado",
+    "sombra":       "La Sombra — contenido inconsciente reprimido",
+    "anima_animus": "Ánima/Ánimus — principio contrasexual",
+    "heroe":        "El Héroe — voluntad de superar obstáculos",
+    "sabio":        "El Sabio — búsqueda de significado",
+    "trickster":    "El Embaucador — caos creativo, transgresión",
+    "madre":        "La Gran Madre — nutrición, protección",
+    "padre":        "El Padre — autoridad, orden",
+    "nino_divino":  "El Niño Divino — potencial, nueva vida",
+    "gobernante":   "El Gobernante — control, estabilidad",
+    "rebelde":      "El Rebelde — ruptura, revolución",
+    "muerte":       "La Muerte — transformación, fin",
+    "fuego":        "El Fuego — purificación, energía",
+    "agua":         "El Agua — inconsciente, flujo",
+}
+
+
+def _build_icl_gauges(
+    emotional_pressure: float,
+    myth_pressure: float,
+    confusion: float,
+) -> "go.Figure | None":
+    """B1 — Tres gauges para el estado del campo colectivo."""
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    def _gauge_color(v: float) -> str:
+        return "#e74c3c" if v > 0.7 else "#f39c12" if v > 0.4 else "#2ecc71"
+
+    fig = go.Figure()
+    positions = [
+        ("Presión emocional", emotional_pressure, 0.15),
+        ("Presión mítica",    myth_pressure,       0.50),
+        ("Confusión",         confusion,           0.85),
+    ]
+    for title, val, x in positions:
+        col = _gauge_color(val)
+        fig.add_trace(go.Indicator(
+            mode="gauge+number",
+            value=round(val, 3),
+            domain=dict(x=[x - 0.14, x + 0.14], y=[0, 1]),
+            title=dict(text=title, font=dict(color="#ccc", size=11)),
+            gauge=dict(
+                axis=dict(range=[0, 1], tickcolor="#555", tickfont=dict(size=8, color="#666")),
+                bar=dict(color=col),
+                bgcolor="#1f2937",
+                borderwidth=0,
+                steps=[
+                    dict(range=[0, 0.4], color="#0f2027"),
+                    dict(range=[0.4, 0.7], color="#12263a"),
+                    dict(range=[0.7, 1.0], color="#1a1015"),
+                ],
+                threshold=dict(line=dict(color="#e74c3c", width=2), thickness=0.75, value=0.7),
+            ),
+            number=dict(font=dict(color=col, size=20)),
+        ))
+
+    fig.update_layout(
+        paper_bgcolor="#111827",
+        height=180,
+        margin=dict(l=10, r=10, t=20, b=10),
+        annotations=[dict(
+            x=0.5, y=-0.08, xref="paper", yref="paper",
+            text="Ψ(t) = ∑ Sᵢ(t) × Wᵢ",
+            showarrow=False, font=dict(color="#666", size=10),
+        )],
+    )
+    return fig
+
+
+def _build_symbol_figure(symbols: dict, local_fields: dict | None = None):
+    """
+    B2 — Carga memética de símbolos.
+    Ordenado por carga descendente. Tooltip incluye descripción del arquetipo
+    y qué tribu tiene mayor carga si local_fields disponible.
+    """
     try:
         import plotly.graph_objects as go
     except ImportError:
         return None
     if not symbols:
         return None
-    items = sorted(symbols.items(), key=lambda x: x[1])
-    names  = [k.replace("_", " ").capitalize() for k, _ in items]
+
+    # Ordenar descendente
+    items = sorted(symbols.items(), key=lambda x: -x[1])
+    keys   = [k for k, _ in items]
+    names  = [k.replace("_", " ").capitalize() for k in keys]
     values = [v for _, v in items]
-    colors = [_ARCH_COLORS.get(k, "#888") for k, _ in items]
-    fig = go.Figure(go.Bar(x=values, y=names, orientation="h",
-                           marker=dict(color=colors),
-                           text=[f"{v:.2f}" for v in values], textposition="outside"))
+    colors = [_ARCH_COLORS.get(k, "#888") for k in keys]
+
+    # B2 — Tribu con mayor carga por símbolo
+    tooltips = []
+    for k, v in items:
+        desc = _ARCH_DESCRIPTIONS.get(k, "")
+        tip  = f"<b>{k}</b>: {v:.3f}<br>{desc}"
+        if local_fields:
+            max_tribe = max(
+                local_fields.items(),
+                key=lambda kv: kv[1].get("symbols", {}).get(k, 0.0),
+                default=(None, {}),
+            )
+            if max_tribe[0]:
+                tribe_val = max_tribe[1].get("symbols", {}).get(k, 0.0)
+                tip += f"<br>Tribu dominante: {max_tribe[0]} ({tribe_val:.3f})"
+        tooltips.append(tip)
+
+    fig = go.Figure(go.Bar(
+        x=values, y=names, orientation="h",
+        marker=dict(color=colors),
+        text=[f"{v:.2f}" for v in values], textposition="outside",
+        hovertext=tooltips, hoverinfo="text",
+    ))
     fig.update_layout(
         paper_bgcolor="#111827", plot_bgcolor="#111827",
-        margin=dict(l=120, r=50, t=10, b=20),
-        xaxis=dict(range=[0, 1.1], color="#aaa", gridcolor="#1f2937"),
+        margin=dict(l=130, r=60, t=10, b=20),
+        xaxis=dict(range=[0, 1.15], color="#aaa", gridcolor="#1f2937"),
         yaxis=dict(color="#aaa"),
         showlegend=False,
     )
     return fig
+
+
+def _render_proto_myths_html(proto_myths: list, active_myths: list) -> str:
+    """B3 — Proto-mitos en gestación + mitos activos."""
+    parts = []
+
+    if active_myths:
+        parts.append("<b style='color:#E040FB'>Mitos activos</b><br>")
+        for m in active_myths:
+            dia_c = m.get("day_crystallized", m.get("dia_origen", "?"))
+            par   = " vs ".join(m.get("par", []))
+            coh   = m.get("coherencia", 0.0)
+            parts.append(
+                f"<div style='margin:4px 0;padding:6px 10px;"
+                f"background:rgba(155,89,182,0.15);border-left:3px solid #9b59b6;border-radius:3px'>"
+                f"<span style='color:#E040FB'>{m.get('tipo','?')}</span> — "
+                f"{par} · coherencia {coh:.2f} · día {dia_c}</div>"
+            )
+        parts.append("<br>")
+
+    if proto_myths:
+        parts.append("<b style='color:#aaa'>Proto-mitos en gestación</b>")
+        parts.append(
+            "<table style='width:100%;font-size:11px;border-collapse:collapse;margin-top:6px'>"
+            "<thead><tr style='border-bottom:1px solid #333'>"
+            "<th style='color:#666;text-align:left;padding:3px 8px'>Tipo</th>"
+            "<th style='color:#666;text-align:left;padding:3px 8px'>Par</th>"
+            "<th style='color:#666;text-align:right;padding:3px 8px'>Coherencia</th>"
+            "<th style='color:#666;text-align:right;padding:3px 8px'>Intensidad</th>"
+            "<th style='color:#666;text-align:right;padding:3px 8px'>Día</th>"
+            "</tr></thead><tbody>"
+        )
+        for pm in sorted(proto_myths, key=lambda x: -x.get("coherencia", 0)):
+            par  = " + ".join(pm.get("par", []))
+            coh  = pm.get("coherencia", 0.0)
+            intens = pm.get("intensidad_contexto", 0.0)
+            dia  = pm.get("dia_origen", "?")
+            coh_col = "#E040FB" if coh > 0.5 else "#aaa"
+            parts.append(
+                f"<tr><td style='color:#ccc;padding:3px 8px'>{pm.get('tipo','?')}</td>"
+                f"<td style='color:#aaa;padding:3px 8px'>{par}</td>"
+                f"<td style='color:{coh_col};text-align:right;padding:3px 8px'>{coh:.3f}</td>"
+                f"<td style='color:#666;text-align:right;padding:3px 8px'>{intens:.2f}</td>"
+                f"<td style='color:#555;text-align:right;padding:3px 8px'>{dia}</td></tr>"
+            )
+        parts.append("</tbody></table>")
+    elif not active_myths:
+        parts.append("<span style='color:#555'>Sin mitos activos ni proto-mitos registrados.</span>")
+
+    return "".join(parts)
 
 
 def _build_social_graph(cp: dict) -> "go.Figure | None":
@@ -1240,13 +1392,30 @@ def build_monitor_page(app_state) -> None:
 
         # ── Tab ICL ───────────────────────────────────────────────────────────
         with ui.tab_panel(t_icl):
-            ui.label("Carga Memética de Símbolos Arquetípicos").classes(
-                "text-sm font-semibold px-4 pt-4 text-purple-300"
+            # B1 — Gauges del campo colectivo
+            ui.label("Estado del campo colectivo · Ψ(t) = ∑ Sᵢ(t) × Wᵢ").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-4"
             )
-            refs["plot_symbols"] = ui.plotly({}).classes("w-full h-64 px-2")
+            refs["plot_gauges"] = ui.plotly({}).classes("w-full px-2").style("height:200px")
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
+            # B2 — Símbolos con tooltips arquetípicos
+            ui.label("Carga Memética de Símbolos Arquetípicos").classes(
+                "text-sm font-semibold px-4 text-purple-300"
+            )
+            refs["plot_symbols"] = ui.plotly({}).classes("w-full h-72 px-2")
 
             ui.separator().classes("mx-4 my-2")
-            ui.label("Mitología emergente").classes("text-xs text-gray-400 uppercase px-4")
+
+            # B3 — Proto-mitos y mitos activos
+            ui.label("Mitos activos y proto-mitos en gestación").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["proto_myths_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+
+            ui.separator().classes("mx-4 my-2")
+            ui.label("Mitología emergente (crystallized)").classes("text-xs text-gray-400 uppercase px-4")
             refs["myths_html"] = ui.html("").classes("px-4 pb-4 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
@@ -1477,15 +1646,30 @@ def build_monitor_page(app_state) -> None:
                 refs["agents_table"].rows = rows
                 refs["agents_table"].update()
 
-                # ICL: símbolos
-                symbols = cf.get("symbols", {})
-                fig_sym = _build_symbol_figure(symbols)
+                # ICL B1 — Gauges del campo colectivo
+                ep  = cf.get("emotional_pressure", 0.0)
+                mp  = cf.get("myth_pressure", 0.0)
+                con = cf.get("confusion", 0.0)
+                fig_gauges = _build_icl_gauges(ep, mp, con)
+                if fig_gauges:
+                    refs["plot_gauges"].update_figure(fig_gauges)
+
+                # ICL B2 — Símbolos con tooltips y tribu dominante
+                symbols    = cf.get("symbols", {})
+                lf_data    = t_data.get("local_fields", {})
+                fig_sym    = _build_symbol_figure(symbols, lf_data)
                 if fig_sym:
                     refs["plot_symbols"].update_figure(fig_sym)
 
-                # Mitos
-                my_data     = agentes_cp.get("mythology_engine", {})
-                active_myths = [m for m in my_data.get("active_myths", []) if m.get("active")]
+                # ICL B3 — Proto-mitos + mitos activos
+                my_data      = agentes_cp.get("mythology_engine", {})
+                proto_myths  = my_data.get("proto_myths", [])
+                active_myths = my_data.get("active_myths", [])
+                refs["proto_myths_html"].set_content(
+                    _render_proto_myths_html(proto_myths, active_myths)
+                )
+
+                # Mitos cristalizados
                 agent_names  = {a["id"]: a["nombre"] for a in agents_list}
                 refs["myths_html"].set_content(_render_myths_html(active_myths, agent_names))
 
