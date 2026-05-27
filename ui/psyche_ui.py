@@ -32,10 +32,18 @@ _DEFAULT_BIOME = "#555566"
 _HEX_SIZE      = 8.0
 
 _ARCH_COLORS: dict[str, str] = {
-    "heroe": "#00D2B4", "sombra": "#FF4B4B", "madre": "#E040FB",
-    "padre": "#4a9eff", "sabio": "#F4D03F", "trickster": "#FF9F43",
-    "rebelde": "#e74c3c", "gobernante": "#8e44ad", "nino_divino": "#2ecc71",
-    "muerte": "#cc8844", "fuego": "#ff6633", "comida": "#66cc44",
+    "self_":        "#ffffff",
+    "persona":      "#88aaff",
+    "sombra":       "#FF4B4B",
+    "anima_animus": "#E040FB",
+    "heroe":        "#00D2B4",
+    "sabio":        "#F4D03F",
+    "trickster":    "#FF9F43",
+    "madre":        "#ff69b4",
+    "padre":        "#4a9eff",
+    "nino_divino":  "#2ecc71",
+    "gobernante":   "#8e44ad",
+    "rebelde":      "#e74c3c",
 }
 
 _PROCESO_COLORS: dict[str, str] = {
@@ -73,64 +81,125 @@ def _extract_terrain(runner) -> dict[tuple[int, int], str]:
         return {}
 
 
+def _extract_agents_data(runner) -> list[dict]:
+    """Lee posición y metadata de todos los agentes en vivo para el mapa."""
+    try:
+        ac  = runner.agents
+        mgr = ac.tribe_manager
+        out = []
+        for agent_id, agent in ac.agents.items():
+            tribe = mgr.get_tribe_id(agent_id) or ""
+            bs    = agent.behavioral_state
+            estado = (
+                bs.estado.value if hasattr(bs, "estado") and hasattr(bs.estado, "value")
+                else str(bs)
+            )
+            out.append({
+                "id":       agent_id,
+                "nombre":   agent.nombre,
+                "pos":      agent.posicion,
+                "alive":    agent.is_alive,
+                "humor":    round(agent.humor, 2),
+                "edad":     getattr(agent, "edad", 0),
+                "arquetipo": agent.archetypes.dominant(),
+                "estado":   estado,
+                "tribu":    tribe,
+            })
+        return out
+    except Exception:
+        return []
+
+
 # ── Figuras Plotly ────────────────────────────────────────────────────────────
 
-def _build_hex_map(snap, terrain_biomes: dict) -> "go.Figure | None":
-    """Mapa de hexes explorados (recursos_por_hex) coloreados por bioma."""
+def _build_hex_map(
+    snap,
+    terrain_biomes: dict,
+    agents_data: list | None = None,
+    layer_flags: dict | None = None,
+) -> "go.Figure | None":
+    """
+    Mapa hexagonal completo (D1/D2/D3):
+      D1 — todo el terreno 80×60: niebla de guerra para inexplorados, bioma completo para explorados
+      D2 — capa de agentes coloreados por arquetipo dominante
+      D3 — visibilidad de capas controlada por layer_flags
+    """
     try:
         import plotly.graph_objects as go
     except ImportError:
         return None
 
-    if snap is None:
+    if snap is None or not terrain_biomes:
         return None
 
-    rph = snap.recursos_por_hex or {}
-    coords = list(rph.keys())
-    if not coords:
-        return None
+    flags = layer_flags or {}
+    def _vis(key: str, default: bool = True) -> bool:
+        return bool(flags.get(key, default))
 
-    xs, ys, colors, texts = [], [], [], []
-    for coord in coords:
-        q, r = coord
-        x, y = _hex_xy(q, r)
-        biome = terrain_biomes.get(coord, "")
-        xs.append(x); ys.append(y)
-        colors.append(_BIOME_COLORS.get(biome, _DEFAULT_BIOME))
-        texts.append(f"({q},{r}) {biome}")
+    explored = set((snap.recursos_por_hex or {}).keys())
 
-    traces: list = [go.Scatter(
-        x=xs, y=ys, mode="markers",
-        marker=dict(symbol="circle", size=9, color=colors, line=dict(width=0)),
-        text=texts, hoverinfo="text", name="Terreno",
-    )]
+    # ── D1a: Niebla de guerra (hexes no explorados) ─────────────────────────
+    fog_xs, fog_ys = [], []
+    exp_xs, exp_ys, exp_colors, exp_texts = [], [], [], []
 
-    # Hexes liminales
+    for coord, biome in terrain_biomes.items():
+        x, y = _hex_xy(*coord)
+        if coord in explored:
+            exp_xs.append(x); exp_ys.append(y)
+            exp_colors.append(_BIOME_COLORS.get(biome, _DEFAULT_BIOME))
+            exp_texts.append(f"({coord[0]},{coord[1]}) {biome}")
+        else:
+            fog_xs.append(x); fog_ys.append(y)
+
+    traces: list = []
+
+    if fog_xs:
+        traces.append(go.Scattergl(
+            x=fog_xs, y=fog_ys, mode="markers",
+            marker=dict(symbol="circle", size=5, color="#14082a", opacity=0.75, line=dict(width=0)),
+            hoverinfo="skip", name="Niebla",
+            visible=_vis("niebla"),
+        ))
+
+    # ── D1b: Terreno explorado ───────────────────────────────────────────────
+    if exp_xs:
+        traces.append(go.Scattergl(
+            x=exp_xs, y=exp_ys, mode="markers",
+            marker=dict(symbol="circle", size=9, color=exp_colors, line=dict(width=0)),
+            text=exp_texts, hoverinfo="text", name="Terreno explorado",
+            visible=True,
+        ))
+
+    # ── Hexes liminales ──────────────────────────────────────────────────────
     lim_xs, lim_ys, lim_t = [], [], []
     for lh in (getattr(snap, "liminal_hexes", None) or []):
         q, r = lh["coord"]
         x, y = _hex_xy(q, r)
         lim_xs.append(x); lim_ys.append(y)
-        lim_t.append(f"Liminal ({q},{r})<br>{', '.join(lh.get('symbol_pool',[]))}")
+        lim_t.append(f"Liminal ({q},{r})<br>{', '.join(lh.get('symbol_pool', []))}")
     if lim_xs:
-        traces.append(go.Scatter(
+        traces.append(go.Scattergl(
             x=lim_xs, y=lim_ys, mode="markers",
             marker=dict(symbol="circle-open", size=16, color="#9b59b6", line=dict(width=2)),
             text=lim_t, hoverinfo="text", name="Liminal",
+            visible=_vis("liminales"),
         ))
 
-    # Tumbas
+    # ── Tumbas ───────────────────────────────────────────────────────────────
     gx, gy = [], []
     for g in (getattr(snap, "graves_activos", None) or []):
         coord_g = g[0] if isinstance(g, (list, tuple)) else None
         if coord_g:
             x, y = _hex_xy(*coord_g); gx.append(x); gy.append(y)
     if gx:
-        traces.append(go.Scatter(x=gx, y=gy, mode="markers",
+        traces.append(go.Scattergl(
+            x=gx, y=gy, mode="markers",
             marker=dict(symbol="star", size=12, color="#bdc3c7"),
-            name="Tumbas", hoverinfo="skip"))
+            name="Tumbas", hoverinfo="skip",
+            visible=_vis("tumbas"),
+        ))
 
-    # Fauna simbólica
+    # ── Fauna simbólica ──────────────────────────────────────────────────────
     fx, fy, ft = [], [], []
     for f in (getattr(snap, "fauna_simbolica", None) or []):
         coord_f = f.get("coord")
@@ -138,27 +207,84 @@ def _build_hex_map(snap, terrain_biomes: dict) -> "go.Figure | None":
             x, y = _hex_xy(*coord_f); fx.append(x); fy.append(y)
             ft.append(f.get("nombre", "bestia"))
     if fx:
-        traces.append(go.Scatter(x=fx, y=fy, mode="markers",
+        traces.append(go.Scattergl(
+            x=fx, y=fy, mode="markers",
             marker=dict(symbol="triangle-up", size=14, color="#f39c12"),
-            text=ft, hoverinfo="text", name="Fauna"))
+            text=ft, hoverinfo="text", name="Fauna",
+            visible=_vis("fauna"),
+        ))
 
-    # Fuego
+    # ── Fuego ────────────────────────────────────────────────────────────────
     if getattr(snap, "fuego_activo", False) and getattr(snap, "fuego_coord", None):
         x, y = _hex_xy(*snap.fuego_coord)
-        traces.append(go.Scatter(x=[x], y=[y], mode="markers",
+        traces.append(go.Scattergl(
+            x=[x], y=[y], mode="markers",
             marker=dict(symbol="circle", size=22, color="#e74c3c", opacity=0.9),
-            name="Fuego", hoverinfo="skip"))
+            name="Fuego", hoverinfo="skip",
+            visible=_vis("fuego"),
+        ))
 
+    # ── D2: Agentes vivos ────────────────────────────────────────────────────
+    if agents_data and _vis("agentes"):
+        # Agrupa por arquetipo para una sola leyenda por arquetipo
+        by_arch: dict[str, list] = {}
+        dead_ax, dead_ay, dead_at = [], [], []
+        for a in agents_data:
+            if not a["alive"]:
+                if _vis("muertos"):
+                    x, y = _hex_xy(*a["pos"])
+                    dead_ax.append(x); dead_ay.append(y)
+                    dead_at.append(f"✝ {a['nombre']} ({a['tribu']})")
+                continue
+            arch  = a["arquetipo"]
+            entry = by_arch.setdefault(arch, {"xs": [], "ys": [], "texts": []})
+            x, y  = _hex_xy(*a["pos"])
+            entry["xs"].append(x); entry["ys"].append(y)
+            entry["texts"].append(
+                f"<b>{a['nombre']}</b><br>Tribu: {a['tribu']}<br>"
+                f"Arquetipo: {arch}<br>Humor: {a['humor']}<br>"
+                f"Edad: {a['edad']}  Estado: {a['estado']}"
+            )
+
+        for arch, data in by_arch.items():
+            color = _ARCH_COLORS.get(arch, "#cccccc")
+            traces.append(go.Scattergl(
+                x=data["xs"], y=data["ys"], mode="markers",
+                marker=dict(symbol="circle", size=11, color=color,
+                            line=dict(width=1.5, color="#000000")),
+                text=data["texts"], hoverinfo="text",
+                name=f"↑ {arch}", legendgroup="agentes",
+                visible=True,
+            ))
+
+        if dead_ax:
+            traces.append(go.Scattergl(
+                x=dead_ax, y=dead_ay, mode="markers",
+                marker=dict(symbol="x-thin-open", size=8, color="#666677",
+                            line=dict(width=1.5)),
+                text=dead_at, hoverinfo="text",
+                name="Muertos", legendgroup="agentes",
+                visible=_vis("muertos"),
+            ))
+
+    n_exp = len(explored)
+    n_tot = len(terrain_biomes)
     fig = go.Figure(data=traces)
     fig.update_layout(
         paper_bgcolor="#1a0a2e", plot_bgcolor="#1a0a2e",
         showlegend=True,
-        legend=dict(font=dict(color="#ccc"), bgcolor="rgba(0,0,0,0.4)"),
-        margin=dict(l=0, r=0, t=20, b=0),
+        legend=dict(font=dict(color="#ccc", size=10), bgcolor="rgba(0,0,0,0.5)",
+                    itemsizing="constant"),
+        margin=dict(l=0, r=0, t=24, b=0),
         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False,
                    scaleanchor="y", scaleratio=1),
         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        title=dict(text=f"{len(coords)} hexes explorados", font=dict(color="#888", size=11)),
+        title=dict(
+            text=f"{n_exp}/{n_tot} hexes explorados ({100*n_exp//max(n_tot,1)}%)",
+            font=dict(color="#888", size=11),
+        ),
+        dragmode="pan",
+        uirevision="map",
     )
     return fig
 
@@ -857,10 +983,17 @@ def build_monitor_page(app_state) -> None:
 
         # ── Tab Mapa ──────────────────────────────────────────────────────────
         with ui.tab_panel(t_mapa):
-            ui.label(
-                "Solo hexes explorados por los agentes. Actualización cada 20s."
-            ).classes("text-xs text-gray-400 px-4 py-2")
-            refs["hex_plot"] = ui.plotly({}).classes("w-full").style("height:80vh")
+            # D3 — Panel de control de capas
+            with ui.row().classes("px-4 py-2 gap-6 flex-wrap items-center"):
+                ui.label("Capas:").classes("text-xs text-gray-400 font-semibold")
+                refs["layer_niebla"]    = ui.checkbox("Niebla de guerra", value=True).classes("text-xs text-gray-300")
+                refs["layer_agentes"]   = ui.checkbox("Agentes",          value=True).classes("text-xs text-green-300")
+                refs["layer_muertos"]   = ui.checkbox("Muertos",          value=True).classes("text-xs text-gray-500")
+                refs["layer_tumbas"]    = ui.checkbox("Tumbas",           value=True).classes("text-xs text-gray-300")
+                refs["layer_fauna"]     = ui.checkbox("Fauna simbólica",  value=True).classes("text-xs text-yellow-300")
+                refs["layer_liminales"] = ui.checkbox("Hexes liminales",  value=True).classes("text-xs text-purple-300")
+                refs["layer_fuego"]     = ui.checkbox("Fuego",            value=True).classes("text-xs text-red-400")
+            refs["hex_plot"] = ui.plotly({}).classes("w-full").style("height:82vh")
 
         # ── Tab Liminal ───────────────────────────────────────────────────────
         if app_state.use_liminal:
@@ -1062,11 +1195,22 @@ def build_monitor_page(app_state) -> None:
                 if fig_res:
                     refs["plot_recursos"].update_figure(fig_res)
 
-            # ── Mapa (cada 10 ciclos = 20s) ───────────────────────────────────
+            # ── Mapa D1/D2/D3 (cada 3 ciclos = 6s) ──────────────────────────
             _map_tick[0] += 1
-            if _map_tick[0] >= 10 and snap is not None:
+            if _map_tick[0] >= 3 and snap is not None:
                 _map_tick[0] = 0
-                new_fig = _build_hex_map(snap, terrain_biomes)
+                runner_now = app_state.get_runner()
+                agents_now = _extract_agents_data(runner_now) if runner_now else []
+                layer_flags = {
+                    "niebla":    refs.get("layer_niebla")    and refs["layer_niebla"].value,
+                    "agentes":   refs.get("layer_agentes")   and refs["layer_agentes"].value,
+                    "muertos":   refs.get("layer_muertos")   and refs["layer_muertos"].value,
+                    "tumbas":    refs.get("layer_tumbas")    and refs["layer_tumbas"].value,
+                    "fauna":     refs.get("layer_fauna")     and refs["layer_fauna"].value,
+                    "liminales": refs.get("layer_liminales") and refs["layer_liminales"].value,
+                    "fuego":     refs.get("layer_fuego")     and refs["layer_fuego"].value,
+                }
+                new_fig = _build_hex_map(snap, terrain_biomes, agents_now, layer_flags)
                 if new_fig:
                     refs["hex_plot"].update_figure(new_fig)
 

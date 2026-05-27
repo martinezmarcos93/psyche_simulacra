@@ -303,7 +303,9 @@ class TestFindWaterAction:
         action = agent._find_water_action(tp, snap)
         assert action is not None
         assert action.type == ActionType.MOVERSE
-        assert agent.posicion == (41, 30)  # se movió
+        # La posición NO se actualiza aquí: el mundo la confirma via coord_dest en ActionResult
+        assert agent.posicion == (40, 30)
+        assert action.coord == (41, 30)
 
     def test_agua_en_hex_vecino_no_recolecta_en_mismo_tick(self):
         """El agente se mueve y el world no recibe RECOLECTAR este tick."""
