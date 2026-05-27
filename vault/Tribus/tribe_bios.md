@@ -1,6 +1,6 @@
 # 🏕️ Tribu del Self
 
-> **Día:** `30` | **Miembros vivos:** `2`
+> **Día:** `30` | **Miembros vivos:** `3`
 
 ---
 
@@ -9,24 +9,25 @@
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
 | [[bios]] (Bios) | cazador | 34 | self |
-| [[moros]] (Moros) | generico | 28 | self |
+| [[kairos]] (Kairos) | cazador | 32 | self |
+| [[peitho]] (Peitho) | explorador | 26 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.922` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.926` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
-| **Madre** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
-| **Muerte** | `0.643` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.817` | `▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.695` | `▓▓▓▓▓▓▓░░░` |
+| **Muerte** | `0.682` | `▓▓▓▓▓▓▓░░░` |
+| **Madre** | `0.507` | `▓▓▓▓▓░░░░░` |
 | **Rebelde** | `0.414` | `▓▓▓▓░░░░░░` |
-| **Sabio** | `0.131` | `▓░░░░░░░░░` |
-| **Padre** | `0.050` | `▓░░░░░░░░░` |
+| **Sabio** | `0.120` | `▓░░░░░░░░░` |
+| **Padre** | `0.114` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

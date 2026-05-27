@@ -1119,6 +1119,226 @@ def _render_technologies_html(cp: dict) -> str:
     return html
 
 
+# ── E1: Frecuencia simbólica en sueños ───────────────────────────────────────
+
+def _build_dream_frequency_figure(cp: dict) -> "go.Figure | None":
+    """
+    E1 — Barras de frecuencia de arquetipos en sueños, comparado con carga del ICL.
+    """
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    agents = cp.get("agentes", {}).get("agents", [])
+    cf     = cp.get("agentes", {}).get("collective_field", {})
+    icl_symbols = cf.get("symbols", {})
+
+    dream_arch: dict[str, int] = {}
+    for a in agents:
+        for d in a.get("dreams", []):
+            arch = d.get("arquetipo", "?")
+            dream_arch[arch] = dream_arch.get(arch, 0) + 1
+
+    if not dream_arch:
+        return None
+
+    archs   = sorted(dream_arch, key=lambda k: -dream_arch[k])
+    freq    = [dream_arch[a] for a in archs]
+    labels  = [a.replace("_", " ").capitalize() for a in archs]
+    colors  = [_ARCH_COLORS.get(a, "#888") for a in archs]
+    icl_vals = [icl_symbols.get(a, 0.0) for a in archs]
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        name="Frecuencia en sueños", x=labels, y=freq,
+        marker=dict(color=colors), opacity=0.85,
+        hovertemplate="%{x}: %{y} sueños<extra></extra>",
+    ))
+    fig.add_trace(go.Scatter(
+        name="Carga ICL (×10)", x=labels, y=[v * 10 for v in icl_vals],
+        mode="lines+markers", yaxis="y2",
+        line=dict(color="#ffffff", width=1.5, dash="dot"),
+        marker=dict(size=5, color="#ffffff"),
+        hovertemplate="%{x} ICL: %{customdata:.3f}<extra></extra>",
+        customdata=icl_vals,
+    ))
+
+    fig.update_layout(
+        title=dict(text="Frecuencia arquetipos en sueños vs carga ICL",
+                   font=dict(color="#ccc", size=12)),
+        paper_bgcolor="#111827", plot_bgcolor="#111827",
+        showlegend=True, legend=dict(font=dict(color="#aaa", size=9),
+                                     orientation="h", y=1.12),
+        margin=dict(l=40, r=40, t=55, b=50),
+        xaxis=dict(color="#aaa", tickfont=dict(size=9)),
+        yaxis=dict(color="#aaa", gridcolor="#1f2937", title="# sueños"),
+        yaxis2=dict(overlaying="y", side="right", color="#555",
+                    title="ICL ×10", showgrid=False),
+        barmode="group",
+    )
+    return fig
+
+
+# ── E2: Sueños compartidos (entrelazamiento onírico) ─────────────────────────
+
+def _render_shared_dreams_html(cp: dict) -> str:
+    """E2 — Pares de agentes con sueños entrelazados."""
+    agents  = cp.get("agentes", {}).get("agents", [])
+    id2name = {a["id"]: a["nombre"] for a in agents}
+
+    pairs = []
+    for a in agents:
+        for d in a.get("dreams", []):
+            sw = d.get("shared_with", [])
+            if sw:
+                for partner_id in (sw if isinstance(sw, list) else [sw]):
+                    pairs.append({
+                        "a1":      a["nombre"],
+                        "a2":      id2name.get(partner_id, partner_id),
+                        "dia":     d.get("dia", 0),
+                        "simbolo": d.get("simbolo", "?"),
+                        "arch":    d.get("arquetipo", "?"),
+                    })
+
+    if not pairs:
+        return (
+            "<span style='color:#555'>Sin sueños entrelazados registrados.<br>"
+            "Los sueños compartidos emergen cuando dos agentes sueñan el mismo símbolo "
+            "en circunstancias análogas.</span>"
+        )
+
+    pairs.sort(key=lambda x: -x["dia"])
+    _row_parts = []
+    for p in pairs[:30]:
+        ac = _ARCH_COLORS.get(p["arch"], "#888")
+        _row_parts.append(
+            f"<tr>"
+            f"<td style='color:#E040FB;padding:3px 8px'>{p['a1']}</td>"
+            f"<td style='color:#E040FB;padding:3px 8px'>{p['a2']}</td>"
+            f"<td style='color:#F4D03F;padding:3px 8px'>«{p['simbolo']}»</td>"
+            f"<td style='color:{ac};padding:3px 8px'>{p['arch']}</td>"
+            f"<td style='color:#555;padding:3px 8px;text-align:right'>Día {p['dia']}</td>"
+            f"</tr>"
+        )
+    rows = "".join(_row_parts)
+    return (
+        "<table style='width:100%;font-size:11px;border-collapse:collapse'>"
+        "<thead><tr style='border-bottom:1px solid #333'>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Agente A</th>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Agente B</th>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Símbolo</th>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Arquetipo</th>"
+        "<th style='color:#888;text-align:right;padding:4px 8px'>Día</th>"
+        f"</tr></thead><tbody>{rows}</tbody></table>"
+    )
+
+
+# ── F2: Memoria cultural y linaje de transmisión ──────────────────────────────
+
+def _render_cultural_memory_html(cp: dict) -> str:
+    """F2 — Árbol de transmisión cultural: eventos que viajaron entre agentes."""
+    tm = cp.get("agentes", {}).get("tribe_manager", {})
+    cm = tm.get("cultural_memories", {})
+
+    all_records = []
+    for tribe_id, mem in cm.items():
+        for rec in mem.get("records", []):
+            all_records.append({**rec, "tribe": tribe_id})
+
+    if not all_records:
+        return "<span style='color:#555'>Sin registros de memoria cultural.</span>"
+
+    all_records.sort(key=lambda r: -r.get("n_transmisiones", 0))
+
+    html = []
+    for rec in all_records[:25]:
+        n_trans = rec.get("n_transmisiones", 0)
+        trans   = rec.get("transmisores", [])
+        orig    = rec.get("agente_origen", "?")
+        dia_o   = rec.get("dia_origen", "?")
+        tipo    = rec.get("tipo_evento", "?").replace("_", " ")
+        desc_a  = rec.get("descripcion_actual", rec.get("descripcion_original", ""))[:100]
+        intens  = rec.get("intensidad_emocional", 0.0)
+        tribe_s = rec.get("tribe", "")[:12]
+
+        # Color de intensidad
+        ic = "#e74c3c" if intens > 0.7 else "#f39c12" if intens > 0.4 else "#2ecc71"
+        chain = " → ".join(trans[:5]) if trans else orig
+        if len(trans) > 5:
+            chain += f" … (+{len(trans)-5})"
+
+        html.append(
+            f"<div style='border-left:3px solid {ic};padding:6px 10px;margin-bottom:5px;"
+            f"background:rgba(0,0,0,0.15);border-radius:3px'>"
+            f"<div style='display:flex;justify-content:space-between;align-items:center'>"
+            f"<span style='color:{ic};font-size:0.72em;text-transform:uppercase'>{tipo}</span>"
+            f"<span style='color:#444;font-size:0.7em'>{tribe_s} · Día {dia_o} · "
+            f"{n_trans}✦ transmisión{'es' if n_trans!=1 else ''}</span></div>"
+            f"<div style='color:#aaa;font-size:0.8em;margin:2px 0;font-style:italic'>"
+            f"{desc_a}{'…' if len(rec.get('descripcion_actual',''))>100 else ''}</div>"
+            f"<div style='color:#555;font-size:0.72em'>Cadena: "
+            f"<span style='color:#9b59b6'>{chain}</span></div>"
+            f"</div>"
+        )
+
+    total = len(all_records)
+    if total > 25:
+        html.append(f"<span style='color:#444;font-size:0.75em'>… y {total-25} registros más</span>")
+    return "".join(html)
+
+
+# ── G1: Radar arquetípico por agente ─────────────────────────────────────────
+
+def _build_agent_radar(agent_data: dict) -> "go.Figure | None":
+    """G1 — Radar chart de 12 arquetipos para un agente seleccionado."""
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    archs = agent_data.get("archetypes", {})
+    if not archs:
+        return None
+
+    _RADAR_LABELS = [
+        "self", "persona", "sombra", "anima_animus", "heroe", "sabio",
+        "trickster", "madre", "padre", "nino_divino", "gobernante", "rebelde",
+    ]
+    # Mapear self → self_ para el dict del agente
+    values = []
+    for lbl in _RADAR_LABELS:
+        key = "self_" if lbl == "self" else lbl
+        values.append(archs.get(key, 0.0))
+    values_closed = values + [values[0]]
+    labels_closed = _RADAR_LABELS + [_RADAR_LABELS[0]]
+
+    dominant = max(archs, key=archs.get) if archs else "—"
+    dom_color = _ARCH_COLORS.get(dominant, "#00D2B4")
+
+    fig = go.Figure(go.Scatterpolar(
+        r=values_closed, theta=labels_closed,
+        fill="toself", fillcolor=dom_color.replace("#", "rgba(") + ",0.15)",
+        line=dict(color=dom_color, width=2),
+        name=agent_data.get("nombre", "?"),
+    ))
+    fig.update_layout(
+        polar=dict(
+            bgcolor="#0a0020",
+            radialaxis=dict(range=[0, 1], color="#555", gridcolor="#222", tickfont=dict(size=8)),
+            angularaxis=dict(color="#888", gridcolor="#222", tickfont=dict(size=9)),
+        ),
+        paper_bgcolor="#111827",
+        showlegend=False,
+        margin=dict(l=40, r=40, t=50, b=40),
+        title=dict(
+            text=f"{agent_data.get('nombre','?')} — {dominant}",
+            font=dict(color=dom_color, size=13),
+        ),
+    )
+    return fig
+
+
 # ── Helper UI ─────────────────────────────────────────────────────────────────
 
 def _mini_stat(title: str, value: str):
@@ -1149,6 +1369,7 @@ def _tension_bar(label: str, value: float, color_fn=None):
 # ── Página de lanzamiento ─────────────────────────────────────────────────────
 
 def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -> None:
+    import os
     from nicegui import ui
     from ui.db_reader import load_checkpoint, checkpoint_summary
 
@@ -1197,9 +1418,45 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
             seed_input = ui.number("Seed aleatoria", value=42, min=0).classes("w-full mb-4")
             use_liminal = ui.checkbox("Levantar servidor Zona Liminal", value=False).classes("mb-4")
 
+            # H3 — Configuración avanzada
+            with ui.expansion("Configuración avanzada", icon="settings").classes(
+                "w-full mb-4 text-gray-300"
+            ):
+                with ui.grid(columns=2).classes("w-full gap-3"):
+                    cfg_narrative = ui.select(
+                        {True: "Activada", False: "Desactivada"},
+                        value=os.environ.get("NARRATIVE_ENABLED", "true").lower() != "false",
+                        label="Narrativa (NARRATIVE_ENABLED)",
+                    ).classes("w-full")
+                    cfg_model = ui.input(
+                        label="Modelo Ollama (OLLAMA_MODEL)",
+                        value=os.environ.get("OLLAMA_MODEL", "llama3"),
+                        placeholder="llama3",
+                    ).classes("w-full")
+                    cfg_cp_interval = ui.number(
+                        label="Días entre checkpoints",
+                        value=int(os.environ.get("CHECKPOINT_INTERVAL", "50")),
+                        min=1, max=500,
+                    ).classes("w-full")
+                    cfg_clustering = ui.number(
+                        label="Días hasta clustering",
+                        value=int(os.environ.get("DAYS_UNTIL_CLUSTERING", "365")),
+                        min=1, max=9999,
+                    ).classes("w-full")
+                ui.label(
+                    "Los cambios se aplican al iniciar la simulación (no requieren reiniciar el servidor)."
+                ).classes("text-xs text-gray-500 mt-1")
+
+            def _apply_config() -> None:
+                os.environ["NARRATIVE_ENABLED"]    = str(cfg_narrative.value).lower()
+                os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3"
+                os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 50))
+                os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 365))
+
             with ui.row().classes("gap-4 w-full"):
                 if summ["vivos"] > 0:
                     async def _continue():
+                        _apply_config()
                         await _start_sim(app_state, mode="resume",
                                          use_liminal=use_liminal.value,
                                          liminal_server=LIMINAL_SERVER)
@@ -1208,6 +1465,7 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                     )
 
                 async def _new():
+                    _apply_config()
                     await _start_sim(app_state, mode="new",
                                      seeds_path=seed_select.value,
                                      seed=int(seed_input.value or 42),
@@ -1459,6 +1717,24 @@ def build_monitor_page(app_state) -> None:
             ui.label("Inspector de agentes").classes(
                 "text-sm font-semibold px-4 pt-4 text-purple-300"
             )
+            # G2 — Filtros
+            with ui.row().classes("px-4 pb-2 gap-4 flex-wrap items-end"):
+                refs["filter_tribu"]    = ui.select(
+                    options=["(todas)"], value="(todas)", label="Tribu"
+                ).classes("w-36 text-xs")
+                refs["filter_arquetipo"] = ui.select(
+                    options=["(todos)"] + list(_ARCH_COLORS.keys()),
+                    value="(todos)", label="Arquetipo"
+                ).classes("w-36 text-xs")
+                refs["filter_estado"]   = ui.select(
+                    options=["(todos)", "cooperacion", "competencia",
+                             "aislamiento", "manipulacion"],
+                    value="(todos)", label="Estado"
+                ).classes("w-36 text-xs")
+                ui.label("(click en fila → radar arquetípico)").classes(
+                    "text-xs text-gray-500 self-end pb-1"
+                )
+
             refs["agents_table"] = ui.table(
                 columns=[
                     {"name": "nombre",    "label": "Nombre",    "field": "nombre",    "align": "left"},
@@ -1473,18 +1749,84 @@ def build_monitor_page(app_state) -> None:
                 rows=[],
                 row_key="nombre",
                 pagination={"rowsPerPage": 25},
+                selection="single",
             ).classes("w-full px-4")
+
+            # G1 — Dialog con radar arquetípico al hacer click en fila
+            with ui.dialog() as radar_dialog, ui.card().classes(
+                "bg-gray-900 border border-purple-800"
+            ).style("min-width:420px"):
+                refs["radar_plot"]  = ui.plotly({}).style("width:380px;height:340px")
+                refs["radar_stats"] = ui.html("").classes("px-2 pb-2 text-xs text-gray-300")
+                ui.button("Cerrar", on_click=radar_dialog.close).classes(
+                    "mt-1 text-xs text-gray-400"
+                ).props("flat")
+            refs["radar_dialog"] = radar_dialog
+
+            def _on_agent_select(e) -> None:
+                selected = e.selection
+                if not selected:
+                    return
+                row = selected[0]
+                agent_id = row.get("id", "")
+                runner_now = app_state.get_runner()
+                if runner_now and agent_id:
+                    agent = runner_now.agents.agents.get(agent_id)
+                    if agent:
+                        ad = {
+                            "nombre":     agent.nombre,
+                            "archetypes": {
+                                k: getattr(agent.archetypes, k, 0.0)
+                                for k in ["self_","persona","sombra","anima_animus",
+                                          "heroe","sabio","trickster","madre","padre",
+                                          "nino_divino","gobernante","rebelde"]
+                            },
+                        }
+                        fig = _build_agent_radar(ad)
+                        if fig:
+                            refs["radar_plot"].update_figure(fig)
+                        top3 = agent.archetypes.top_n(3)
+                        stats_html = (
+                            f"<b style='color:#ccc'>{agent.nombre}</b>"
+                            f"<span style='color:#555'> · Tribu: {row.get('tribu','?')}"
+                            f" · Edad: {agent.edad}</span><br>"
+                            + " ".join(
+                                f"<span style='color:{_ARCH_COLORS.get(a,'#888')}'>"
+                                f"{a}: {v:.2f}</span>"
+                                for a, v in top3
+                            )
+                        )
+                        refs["radar_stats"].set_content(stats_html)
+                        radar_dialog.open()
+
+            refs["agents_table"].on("selection", _on_agent_select)
 
         # ── Tab Sueños ────────────────────────────────────────────────────────
         with ui.tab_panel(t_suenos):
-            with ui.row().classes("px-4 pt-4 gap-8 w-full"):
+            # E1 — Frecuencia simbólica
+            ui.label("Frecuencia de arquetipos en sueños vs carga ICL").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-4"
+            )
+            refs["plot_dream_freq"] = ui.plotly({}).classes("w-full h-56 px-2")
+
+            ui.separator().classes("mx-4 my-2")
+
+            # E2 — Sueños compartidos / entrelazados
+            ui.label("Sueños entrelazados (shared_with)").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["shared_dreams_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+
+            ui.separator().classes("mx-4 my-2")
+
+            with ui.row().classes("px-4 pt-2 gap-8 w-full"):
                 with ui.column().classes("flex-1"):
-                    ui.label("Registro de sueños — Por tribu").classes(
+                    ui.label("Registro por tribu").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
                     refs["dreams_tribe_html"] = ui.html("").classes("text-sm text-gray-300")
                 with ui.column().classes("flex-1"):
-                    ui.label("Registro de sueños — Por individuo").classes(
+                    ui.label("Registro por individuo").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
                     refs["dreams_html"] = ui.html("").classes("text-sm text-gray-300")
@@ -1502,6 +1844,16 @@ def build_monitor_page(app_state) -> None:
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
                     refs["technologies_html"] = ui.html("").classes("text-sm text-gray-300")
+
+            ui.separator().classes("mx-4 mt-3 mb-2")
+
+            # F2 — Memoria cultural y árbol de transmisión
+            ui.label("Memoria cultural — Linaje de transmisión").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["cultural_memory_html"] = ui.html("").classes(
+                "px-4 pb-4 text-sm text-gray-300"
+            )
 
         # ── Tab Mapa ──────────────────────────────────────────────────────────
         with ui.tab_panel(t_mapa):
@@ -1533,10 +1885,13 @@ def build_monitor_page(app_state) -> None:
                 )
 
     # ── Timers de actualización ───────────────────────────────────────────────
-    _prev_deaths: list[int]  = [0]
-    _map_tick:    list[int]  = [0]
-    _slow_tick:   list[int]  = [0]   # para social graph, sueños, civilización
-    _charts_tick: list[int]  = [0]
+    _prev_deaths:     list[int]  = [0]
+    _map_tick:        list[int]  = [0]
+    _slow_tick:       list[int]  = [0]
+    _charts_tick:     list[int]  = [0]
+    _prev_n_myths:    list[int]  = [0]    # H2 — detección de nuevos mitos
+    _prev_hysteria:   list[bool] = [False]  # H2 — detección histeria
+    _notified_deaths: set        = set()   # H2 — agentes destacados ya notificados
 
     _SIM_COLORS = {"running": "green", "stopped": "red", "paused": "orange", "error": "red"}
 
@@ -1628,20 +1983,42 @@ def build_monitor_page(app_state) -> None:
                         f"<div style='background:{color};width:{w}%;height:8px;border-radius:4px'></div></div>"
                     )
 
-                # Inspector de agentes
+                # G2+G1 — Inspector de agentes con filtros y id para radar
+                tf_tribu = refs.get("filter_tribu") and refs["filter_tribu"].value
+                tf_arch  = refs.get("filter_arquetipo") and refs["filter_arquetipo"].value
+                tf_est   = refs.get("filter_estado") and refs["filter_estado"].value
+
+                # Actualizar opciones de tribu en filtro
+                tribe_opts = sorted({a2t.get(a.get("id",""), "—") for a in alive_list})
+                if refs.get("filter_tribu"):
+                    refs["filter_tribu"].options = ["(todas)"] + tribe_opts
+                    refs["filter_tribu"].update()
+
                 rows = []
                 for a in alive_list:
-                    arch = a.get("archetypes", {})
-                    dom  = max(arch, key=lambda k: arch[k]) if arch else "—"
+                    arch    = a.get("archetypes", {})
+                    dom     = max(arch, key=lambda k: arch[k]) if arch else "—"
+                    tribu   = a2t.get(a.get("id",""), "—")[:14]
+                    estado  = a.get("estado_conductual", "vivo")
+
+                    # G2 — aplicar filtros
+                    if tf_tribu and tf_tribu != "(todas)" and tribu[:len(tf_tribu)] != tf_tribu:
+                        continue
+                    if tf_arch and tf_arch != "(todos)" and dom != tf_arch:
+                        continue
+                    if tf_est and tf_est != "(todos)" and tf_est not in estado.lower():
+                        continue
+
                     rows.append({
+                        "id":        a.get("id", ""),
                         "nombre":    a.get("nombre", "?"),
                         "edad":      a.get("edad", 0),
-                        "tribu":     a2t.get(a.get("id",""), "—")[:14],
+                        "tribu":     tribu,
                         "arquetipo": dom,
                         "humor":     f"{a.get('humor',0):.2f}",
                         "energia":   f"{a.get('energia',0):.2f}",
                         "ansiedad":  f"{a.get('ansiedad',0):.2f}",
-                        "estado":    "vivo",
+                        "estado":    estado,
                     })
                 refs["agents_table"].rows = rows
                 refs["agents_table"].update()
@@ -1805,6 +2182,62 @@ def build_monitor_page(app_state) -> None:
                     # Civilización
                     refs["structures_html"].set_content(_render_structures_html(cp_slow))
                     refs["technologies_html"].set_content(_render_technologies_html(cp_slow))
+
+                    # E1 — Frecuencia simbólica en sueños vs carga ICL
+                    fig_dream_freq = _build_dream_frequency_figure(cp_slow)
+                    if fig_dream_freq:
+                        refs["plot_dream_freq"].update_figure(fig_dream_freq)
+
+                    # E2 — Sueños entrelazados
+                    refs["shared_dreams_html"].set_content(
+                        _render_shared_dreams_html(cp_slow)
+                    )
+
+                    # F2 — Memoria cultural y linaje de transmisión
+                    refs["cultural_memory_html"].set_content(
+                        _render_cultural_memory_html(cp_slow)
+                    )
+
+                    # H2 — Notificación: nuevo mito cristalizado
+                    _my_data_sl = cp_slow.get("agentes", {}).get("mythology_engine", {})
+                    _active_sl  = _my_data_sl.get("active_myths", [])
+                    n_myths_now = len(_active_sl)
+                    if n_myths_now > _prev_n_myths[0] and _prev_n_myths[0] > 0:
+                        new_m = _active_sl[-1] if _active_sl else {}
+                        par   = " vs ".join(new_m.get("par", []))
+                        ui.notify(
+                            f"Nuevo mito: {new_m.get('tipo','?')} — {par}",
+                            type="positive", timeout=8000,
+                        )
+                    _prev_n_myths[0] = n_myths_now
+
+                    # H2 — Notificación: histeria colectiva activada
+                    _cf_sl   = cp_slow.get("agentes", {}).get("collective_field", {})
+                    hyst_now = _cf_sl.get("hysteria_active", False)
+                    if hyst_now and not _prev_hysteria[0]:
+                        ui.notify(
+                            f"⚡ HISTERIA COLECTIVA "
+                            f"(intensidad {_cf_sl.get('hysteria_intensity', 0):.2f})",
+                            type="warning", timeout=0,
+                        )
+                    _prev_hysteria[0] = hyst_now
+
+                    # H2 — Notificación: muerte de agente arquetípicamente destacado
+                    for ag in cp_slow.get("agentes", {}).get("agents", []):
+                        if ag.get("is_alive", True):
+                            continue
+                        aid = ag.get("id", "")
+                        if not aid or aid in _notified_deaths:
+                            continue
+                        arch    = ag.get("archetypes", {})
+                        dom_val = max(arch.values()) if arch else 0.0
+                        if dom_val >= 0.70:
+                            dom_name = max(arch, key=arch.get) if arch else "—"
+                            _notified_deaths.add(aid)
+                            ui.notify(
+                                f"✝ {ag.get('nombre','?')} — {dom_name} {dom_val:.2f}",
+                                type="info", timeout=10000,
+                            )
 
         except Exception:
             pass

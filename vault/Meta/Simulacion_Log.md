@@ -10,4 +10,4 @@ Acontecimientos existenciales y decesos registrados a lo largo del ciclo vital:
 
 | Día | Evento | Descripción |
 | :---: | :--- | :--- |
-| - | 🌱 Inicio | La simulación ha comenzado sin decesos registrados. |
+| **Día 25** | 💀 Deceso | [[gigas]] (Gigas) falleció a causa de `depredador_lobo_gris`. |

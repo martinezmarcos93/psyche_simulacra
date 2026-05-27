@@ -67,7 +67,10 @@
       "Bash(Select-Object -First 30 FullName)",
       "Bash(xargs grep -l \"tools\\\\|technologies\\\\|tools_and_materials\")",
       "Bash(xargs grep -l \"nicegui\\\\|niceGUI\\\\|from nicegui\")",
-      "Bash(xargs grep -l \"knowledge\\\\|herramient\\\\|construcci\")"
+      "Bash(xargs grep -l \"knowledge\\\\|herramient\\\\|construcci\")",
+      "Bash(python3 -m pip show plotly)",
+      "Bash(where python *)",
+      "Bash(pip list *)"
     ]
   }
 }
