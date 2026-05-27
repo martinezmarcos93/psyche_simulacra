@@ -21,6 +21,11 @@ class AppState:
         self.use_liminal:    bool                      = False
         self.liminal_port:   int                       = 8765
         self._liminal_proc   = None   # subprocess del servidor liminal
+        self._pause_event:   threading.Event           = threading.Event()
+
+    @property
+    def is_paused(self) -> bool:
+        return self._pause_event.is_set()
 
     # ── Acceso thread-safe ────────────────────────────────────────────────────
 

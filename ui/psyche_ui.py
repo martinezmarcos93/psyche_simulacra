@@ -335,7 +335,8 @@ def _build_hex_map(
     if fog_xs:
         traces.append(go.Scattergl(
             x=fog_xs, y=fog_ys, mode="markers",
-            marker=dict(symbol="circle", size=5, color="#14082a", opacity=0.75, line=dict(width=0)),
+            marker=dict(symbol="circle", size=13, color="#0d0520", opacity=0.90,
+                        line=dict(width=0)),
             hoverinfo="skip", name="Niebla",
             visible=_vis("niebla"),
         ))
@@ -344,7 +345,7 @@ def _build_hex_map(
     if exp_xs:
         traces.append(go.Scattergl(
             x=exp_xs, y=exp_ys, mode="markers",
-            marker=dict(symbol="circle", size=9, color=exp_colors, line=dict(width=0)),
+            marker=dict(symbol="circle", size=17, color=exp_colors, line=dict(width=0)),
             text=exp_texts, hoverinfo="text", name="Terreno explorado",
             visible=True,
         ))
@@ -429,8 +430,8 @@ def _build_hex_map(
             color = _ARCH_COLORS.get(arch, "#cccccc")
             traces.append(go.Scattergl(
                 x=data["xs"], y=data["ys"], mode="markers",
-                marker=dict(symbol="circle", size=11, color=color,
-                            line=dict(width=1.5, color="#000000")),
+                marker=dict(symbol="circle", size=14, color=color,
+                            line=dict(width=2.0, color="#000000")),
                 text=data["texts"], hoverinfo="text",
                 name=f"↑ {arch}", legendgroup="agentes",
                 visible=True,
@@ -1341,6 +1342,22 @@ def _build_agent_radar(agent_data: dict) -> "go.Figure | None":
 
 # ── Helper UI ─────────────────────────────────────────────────────────────────
 
+def _dark_placeholder() -> dict:
+    """Figura Plotly vacía con tema oscuro para inicializar ui.plotly()."""
+    return {
+        "data": [],
+        "layout": {
+            "paper_bgcolor": "#111827",
+            "plot_bgcolor":  "#111827",
+            "xaxis": {"color": "#333", "gridcolor": "#1a1a2e", "showgrid": True,
+                      "showticklabels": False},
+            "yaxis": {"color": "#333", "gridcolor": "#1a1a2e",
+                      "showticklabels": False},
+            "margin": {"l": 10, "r": 10, "t": 10, "b": 10},
+        },
+    }
+
+
 def _mini_stat(title: str, value: str):
     from nicegui import ui
     with ui.card().classes("p-4 bg-gray-800 text-white rounded-xl"):
@@ -1529,12 +1546,23 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
         except Exception:
             pass
 
+    # Limpiar evento de pausa anterior y registrar gate en el reloj
+    app_state._pause_event.clear()
+
+    def _pause_gate(tp) -> None:
+        import time as _t
+        while app_state._pause_event.is_set():
+            _t.sleep(0.05)
+
+    runner.clock.on_day(_pause_gate, priority=98)  # justo antes del stopper (99)
+
     def _run():
         try:
             runner.run(n_days=None)
         except Exception:
             pass
         finally:
+            app_state._pause_event.clear()
             runtime.state.simulation = "stopped"
 
     t = threading.Thread(target=_run, daemon=True, name="sim_worker")
@@ -1566,11 +1594,32 @@ def build_monitor_page(app_state) -> None:
     with ui.header().classes("bg-purple-950 text-white px-6 py-2 flex items-center gap-6"):
         ui.label("PSYCHE SIMULACRA").classes("text-lg font-bold tracking-widest")
         refs_hdr: dict = {}
-        with ui.row().classes("gap-6 ml-4"):
+        with ui.row().classes("gap-6 ml-4 flex-1 items-center"):
             refs_hdr["dia"]    = ui.label("Día —").classes("text-purple-200 text-sm")
             refs_hdr["vivos"]  = ui.label("Agentes —").classes("text-green-300 text-sm")
             refs_hdr["tribus"] = ui.label("Tribus —").classes("text-blue-300 text-sm")
             refs_hdr["estado"] = ui.badge("—", color="grey").classes("text-xs")
+
+        # Botón Pausar / Reanudar (H — mejora transversal)
+        def _toggle_pause() -> None:
+            if app_state.is_paused:
+                app_state._pause_event.clear()
+                pause_btn.set_text("⏸ Pausar")
+                pause_btn.props('color="purple-700"')
+                rt = app_state.get_runtime()
+                if rt:
+                    rt.state.simulation = "running"
+            else:
+                app_state._pause_event.set()
+                pause_btn.set_text("▶ Reanudar")
+                pause_btn.props('color="orange-600"')
+                rt = app_state.get_runtime()
+                if rt:
+                    rt.state.simulation = "paused"
+
+        pause_btn = ui.button("⏸ Pausar", on_click=_toggle_pause).classes(
+            "ml-auto text-xs bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded"
+        )
 
     # ── Tabs ──────────────────────────────────────────────────────────────────
     with ui.tabs().classes("bg-purple-900 text-white w-full") as tabs:
@@ -1629,24 +1678,24 @@ def build_monitor_page(app_state) -> None:
             ui.label("Estado emocional poblacional").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-4"
             )
-            refs["plot_emoc"]      = ui.plotly({}).classes("w-full h-52 px-2")
+            refs["plot_emoc"]      = ui.plotly(_dark_placeholder()).classes("w-full h-52 px-2")
             ui.label("Población viva").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_poblacion"] = ui.plotly({}).classes("w-full h-40 px-2")
+            refs["plot_poblacion"] = ui.plotly(_dark_placeholder()).classes("w-full h-40 px-2")
             ui.label("Temperatura y riesgo climático · Bandas = eventos extremos").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_clima"]     = ui.plotly({}).classes("w-full h-44 px-2")
+            refs["plot_clima"]     = ui.plotly(_dark_placeholder()).classes("w-full h-44 px-2")
             ui.label("Presión de recursos / Carrying capacity").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_recursos"]  = ui.plotly({}).classes("w-full h-40 px-2")
+            refs["plot_recursos"]  = ui.plotly(_dark_placeholder()).classes("w-full h-40 px-2")
             ui.separator().classes("mx-4 mt-3")
             ui.label("Métricas de emergencia cultural — KL · VFE · IMI").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
             )
-            refs["plot_emergence"] = ui.plotly({}).classes("w-full h-52 px-2")
+            refs["plot_emergence"] = ui.plotly(_dark_placeholder()).classes("w-full h-52 px-2")
 
         # ── Tab ICL ───────────────────────────────────────────────────────────
         with ui.tab_panel(t_icl):
@@ -1654,7 +1703,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Estado del campo colectivo · Ψ(t) = ∑ Sᵢ(t) × Wᵢ").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-4"
             )
-            refs["plot_gauges"] = ui.plotly({}).classes("w-full px-2").style("height:200px")
+            refs["plot_gauges"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:200px")
 
             ui.separator().classes("mx-4 mt-1 mb-2")
 
@@ -1662,7 +1711,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Carga Memética de Símbolos Arquetípicos").classes(
                 "text-sm font-semibold px-4 text-purple-300"
             )
-            refs["plot_symbols"] = ui.plotly({}).classes("w-full h-72 px-2")
+            refs["plot_symbols"] = ui.plotly(_dark_placeholder()).classes("w-full h-72 px-2")
 
             ui.separator().classes("mx-4 my-2")
 
@@ -1698,7 +1747,7 @@ def build_monitor_page(app_state) -> None:
                 refs["soc_hub"]     = ui.label("Hub: —").classes("text-xs text-yellow-300")
                 refs["soc_ent"]     = ui.label("Entrelazados: —").classes("text-xs text-purple-300")
 
-            refs["plot_social"] = ui.plotly({}).classes("w-full px-2").style("height:58vh")
+            refs["plot_social"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:58vh")
 
             ui.separator().classes("mx-4 mt-2 mb-1")
 
@@ -1756,7 +1805,7 @@ def build_monitor_page(app_state) -> None:
             with ui.dialog() as radar_dialog, ui.card().classes(
                 "bg-gray-900 border border-purple-800"
             ).style("min-width:420px"):
-                refs["radar_plot"]  = ui.plotly({}).style("width:380px;height:340px")
+                refs["radar_plot"]  = ui.plotly(_dark_placeholder()).style("width:380px;height:340px")
                 refs["radar_stats"] = ui.html("").classes("px-2 pb-2 text-xs text-gray-300")
                 ui.button("Cerrar", on_click=radar_dialog.close).classes(
                     "mt-1 text-xs text-gray-400"
@@ -1807,7 +1856,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Frecuencia de arquetipos en sueños vs carga ICL").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-4"
             )
-            refs["plot_dream_freq"] = ui.plotly({}).classes("w-full h-56 px-2")
+            refs["plot_dream_freq"] = ui.plotly(_dark_placeholder()).classes("w-full h-56 px-2")
 
             ui.separator().classes("mx-4 my-2")
 
@@ -1867,7 +1916,7 @@ def build_monitor_page(app_state) -> None:
                 refs["layer_fauna"]     = ui.checkbox("Fauna simbólica",  value=True).classes("text-xs text-yellow-300")
                 refs["layer_liminales"] = ui.checkbox("Hexes liminales",  value=True).classes("text-xs text-purple-300")
                 refs["layer_fuego"]     = ui.checkbox("Fuego",            value=True).classes("text-xs text-red-400")
-            refs["hex_plot"] = ui.plotly({}).classes("w-full").style("height:82vh")
+            refs["hex_plot"] = ui.plotly(_dark_placeholder()).classes("w-full").style("height:82vh")
 
         # ── Tab Liminal ───────────────────────────────────────────────────────
         if app_state.use_liminal:
