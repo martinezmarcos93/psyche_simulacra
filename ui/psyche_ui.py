@@ -110,6 +110,185 @@ def _extract_agents_data(runner) -> list[dict]:
         return []
 
 
+# ── Spring layout (Fruchterman-Reingold) ─────────────────────────────────────
+
+def _fruchterman_reingold(
+    positions: dict[str, list[float]],
+    adjacency: dict[str, dict[str, float]],
+    iterations: int = 60,
+    area: float = 4.0,
+) -> dict[str, tuple[float, float]]:
+    """
+    Layout spring para la red social. O(n²) por iteración — OK con ~100 nodos.
+    adjacency[u][v] = peso del lazo (bond_strength absoluto).
+    """
+    pos   = {n: list(p) for n, p in positions.items()}
+    nodes = list(pos.keys())
+    n     = len(nodes)
+    if n < 2:
+        return {nd: tuple(pos[nd]) for nd in nodes}
+
+    k = math.sqrt(area / max(n, 1))
+
+    for step in range(iterations):
+        disp = {nd: [0.0, 0.0] for nd in nodes}
+
+        # Fuerzas repulsivas (todos contra todos)
+        for i in range(n):
+            for j in range(i + 1, n):
+                u, v = nodes[i], nodes[j]
+                dx = pos[u][0] - pos[v][0]
+                dy = pos[u][1] - pos[v][1]
+                d  = math.sqrt(dx * dx + dy * dy) + 1e-6
+                f  = k * k / d
+                ux, uy = (dx / d) * f, (dy / d) * f
+                disp[u][0] += ux; disp[u][1] += uy
+                disp[v][0] -= ux; disp[v][1] -= uy
+
+        # Fuerzas atractivas (solo aristas)
+        for u, neighbors in adjacency.items():
+            for v, w in neighbors.items():
+                if u not in pos or v not in pos:
+                    continue
+                dx = pos[u][0] - pos[v][0]
+                dy = pos[u][1] - pos[v][1]
+                d  = math.sqrt(dx * dx + dy * dy) + 1e-6
+                f  = (d * d / k) * max(abs(w), 0.1)
+                fx, fy = (dx / d) * f, (dy / d) * f
+                disp[u][0] -= fx; disp[u][1] -= fy
+                disp[v][0] += fx; disp[v][1] += fy
+
+        # Actualizar con temperatura decreciente
+        t = area * (1.0 - step / iterations)
+        for nd in nodes:
+            d0, d1 = disp[nd]
+            dist   = math.sqrt(d0 * d0 + d1 * d1) + 1e-6
+            move   = min(dist, t)
+            pos[nd][0] += (d0 / dist) * move
+            pos[nd][1] += (d1 / dist) * move
+
+    return {nd: (pos[nd][0], pos[nd][1]) for nd in nodes}
+
+
+def _social_stats(alive: dict, live_edges: list[dict]) -> dict:
+    """
+    Calcula estadísticas de red (C3):
+    clusters, hub, grado máximo, pares entrelazados.
+    """
+    import collections
+
+    degree: dict[str, int] = collections.Counter()
+    adj: dict[str, set] = {aid: set() for aid in alive}
+    n_ent = 0
+
+    for e in live_edges:
+        u, v = e.get("u", ""), e.get("v", "")
+        if u not in alive or v not in alive:
+            continue
+        bs = e.get("bond_strength", 0.0)
+        if abs(bs) > 0.1:
+            degree[u] += 1
+            degree[v] += 1
+            adj[u].add(v)
+            adj[v].add(u)
+        if e.get("entangled"):
+            n_ent += 1
+
+    # BFS para componentes conectados
+    visited: set = set()
+    n_clusters = 0
+    for start in alive:
+        if start in visited:
+            continue
+        n_clusters += 1
+        queue = [start]
+        while queue:
+            cur = queue.pop()
+            if cur in visited:
+                continue
+            visited.add(cur)
+            for nb in adj.get(cur, []):
+                if nb not in visited:
+                    queue.append(nb)
+
+    hub_id  = degree.most_common(1)[0][0] if degree else None
+    hub_deg = degree[hub_id] if hub_id else 0
+    hub_nom = alive[hub_id].get("nombre", hub_id) if hub_id and hub_id in alive else "—"
+
+    n_active_edges = sum(1 for e in live_edges
+                         if abs(e.get("bond_strength", 0.0)) > 0.1
+                         and e.get("u", "") in alive and e.get("v", "") in alive)
+
+    return {
+        "n_nodos":       len(alive),
+        "n_aristas":     n_active_edges,
+        "n_clusters":    n_clusters,
+        "hub":           hub_nom,
+        "hub_grado":     hub_deg,
+        "n_entrelazados": n_ent,
+    }
+
+
+def _render_edge_table_html(
+    alive: dict,           # {id: agent_dict}
+    edges: list[dict],
+    a2t: dict[str, str],   # agent_id → tribe_id
+    tribe_filter: str = "",
+    top_n: int = 20,
+) -> str:
+    """
+    Tabla HTML de las top_n aristas más fuertes (C2).
+    tribe_filter: si no vacío, solo muestra aristas donde al menos un agente es de esa tribu.
+    """
+    live = []
+    for e in edges:
+        u, v = e.get("u", ""), e.get("v", "")
+        if u not in alive or v not in alive:
+            continue
+        if tribe_filter and a2t.get(u) != tribe_filter and a2t.get(v) != tribe_filter:
+            continue
+        live.append(e)
+
+    live.sort(key=lambda e: -abs(e.get("bond_strength", 0.0)))
+    live = live[:top_n]
+
+    if not live:
+        return "<span style='color:#666'>Sin aristas para este filtro.</span>"
+
+    rows = []
+    for e in live:
+        u, v   = e["u"], e["v"]
+        an, bn = alive[u].get("nombre","?"), alive[v].get("nombre","?")
+        bs     = e.get("bond_strength", 0.0)
+        intim  = e.get("intimacy", 0.0)
+        res    = e.get("resonance", 0.0)
+        ent    = "⚛" if e.get("entangled") else "·"
+        bs_col = "#FF4B4B" if bs < 0 else "#00D2B4"
+        rows.append(
+            f"<tr>"
+            f"<td style='color:#ddd;padding:3px 8px'>{an}</td>"
+            f"<td style='color:#ddd;padding:3px 8px'>{bn}</td>"
+            f"<td style='color:{bs_col};padding:3px 8px;text-align:right'>{bs:+.3f}</td>"
+            f"<td style='color:#aaa;padding:3px 8px;text-align:right'>{intim:.2f}</td>"
+            f"<td style='color:#aaa;padding:3px 8px;text-align:right'>{res:.2f}</td>"
+            f"<td style='color:#E040FB;padding:3px 8px;text-align:center'>{ent}</td>"
+            f"</tr>"
+        )
+
+    header = (
+        "<table style='width:100%;border-collapse:collapse;font-size:11px'>"
+        "<thead><tr style='border-bottom:1px solid #333'>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Agente A</th>"
+        "<th style='color:#888;text-align:left;padding:4px 8px'>Agente B</th>"
+        "<th style='color:#888;text-align:right;padding:4px 8px'>Bond</th>"
+        "<th style='color:#888;text-align:right;padding:4px 8px'>Intimidad</th>"
+        "<th style='color:#888;text-align:right;padding:4px 8px'>Resonancia</th>"
+        "<th style='color:#888;text-align:center;padding:4px 8px'>Ent.</th>"
+        "</tr></thead><tbody>"
+    )
+    return header + "".join(rows) + "</tbody></table>"
+
+
 # ── Figuras Plotly ────────────────────────────────────────────────────────────
 
 def _build_hex_map(
@@ -345,42 +524,64 @@ def _build_symbol_figure(symbols: dict):
 
 
 def _build_social_graph(cp: dict) -> "go.Figure | None":
-    """Red social cuántica: nodos=agentes vivos, aristas=lazos (entrelazados en púrpura)."""
+    """
+    Red social cuántica (C1):
+      - Spring layout Fruchterman-Reingold agrupado por tribu
+      - Aristas: verdes (lazo+), rojas (lazo−), púrpura (entrelazado)
+      - Nodos vivos coloreados por humor; nodos muertos como X gris
+    """
     try:
         import plotly.graph_objects as go
     except ImportError:
         return None
 
     agents_list = cp.get("agentes", {}).get("agents", [])
+    if not agents_list:
+        return None
+
     alive = {a["id"]: a for a in agents_list if a.get("is_alive", False)}
+    dead  = {a["id"]: a for a in agents_list if not a.get("is_alive", True)}
+
+    social = cp.get("agentes", {}).get("social_network", {})
+    edges  = social.get("edges", [])
+    t_data = cp.get("agentes", {}).get("tribe_manager", {})
+    a2t    = t_data.get("agent_to_tribe", {})
+
     if not alive:
         return None
 
-    social  = cp.get("agentes", {}).get("social_network", {})
-    edges   = social.get("edges", [])
-    t_data  = cp.get("agentes", {}).get("tribe_manager", {})
-    a2t     = t_data.get("agent_to_tribe", {})
-
-    # Circular layout agrupado por tribu
+    # ── C1a: Posiciones iniciales agrupadas por tribu ────────────────────────
     tribes: dict[str, list[str]] = {}
     for aid in alive:
         tid = a2t.get(aid, "_sin_tribu")
         tribes.setdefault(tid, []).append(aid)
 
-    positions: dict[str, tuple[float, float]] = {}
-    n = len(alive)
-    idx = 0
-    for tid, members in sorted(tribes.items()):
-        for member in members:
-            angle   = 2 * math.pi * idx / max(n, 1)
-            r_noise = 0.12 * ((hash(member) % 7) / 7.0)
-            positions[member] = (
-                (1.0 + r_noise) * math.cos(angle),
-                (1.0 + r_noise) * math.sin(angle),
-            )
-            idx += 1
+    tribe_list  = sorted(tribes.keys())
+    n_tribes    = max(len(tribe_list), 1)
+    tribe_angle = {tid: 2 * math.pi * i / n_tribes for i, tid in enumerate(tribe_list)}
 
-    # Filtrar aristas relevantes (sólo entre vivos)
+    init_pos: dict[str, list[float]] = {}
+    for tid, members in tribes.items():
+        cx = 2.5 * math.cos(tribe_angle[tid])
+        cy = 2.5 * math.sin(tribe_angle[tid])
+        for i, aid in enumerate(members):
+            angle = 2 * math.pi * i / max(len(members), 1)
+            init_pos[aid] = [cx + 0.5 * math.cos(angle), cy + 0.5 * math.sin(angle)]
+
+    # Construir adjacency para FR (solo aristas entre vivos con bs significativo)
+    adjacency: dict[str, dict[str, float]] = {aid: {} for aid in alive}
+    for e in edges:
+        u, v = e.get("u", ""), e.get("v", "")
+        if u not in alive or v not in alive:
+            continue
+        bs = abs(e.get("bond_strength", 0.0))
+        if bs > 0.1:
+            adjacency[u][v] = bs
+            adjacency[v][u] = bs
+
+    positions = _fruchterman_reingold(init_pos, adjacency, iterations=60)
+
+    # ── Aristas ──────────────────────────────────────────────────────────────
     ex_pos, ey_pos = [], []
     ex_neg, ey_neg = [], []
     ex_ent, ey_ent = [], []
@@ -396,7 +597,7 @@ def _build_social_graph(cp: dict) -> "go.Figure | None":
         if e.get("entangled"):
             ex_ent.extend([x0, x1, None])
             ey_ent.extend([y0, y1, None])
-        elif bs > 0.45:
+        elif bs > 0.3:
             ex_pos.extend([x0, x1, None])
             ey_pos.extend([y0, y1, None])
         elif bs < -0.15:
@@ -404,54 +605,92 @@ def _build_social_graph(cp: dict) -> "go.Figure | None":
             ey_neg.extend([y0, y1, None])
 
     traces = []
-    if ex_pos:
-        traces.append(go.Scatter(x=ex_pos, y=ey_pos, mode="lines",
-            line=dict(color="#00D2B4", width=0.6), hoverinfo="skip", name="Lazo ＋"))
-    if ex_neg:
-        traces.append(go.Scatter(x=ex_neg, y=ey_neg, mode="lines",
-            line=dict(color="#FF4B4B", width=0.6), hoverinfo="skip", name="Lazo −"))
     if ex_ent:
         traces.append(go.Scatter(x=ex_ent, y=ey_ent, mode="lines",
-            line=dict(color="#E040FB", width=1.8), hoverinfo="skip", name="⚛ Entrelazado"))
+            line=dict(color="#E040FB", width=1.5), hoverinfo="skip", name="⚛ Entrelazado"))
+    if ex_pos:
+        traces.append(go.Scatter(x=ex_pos, y=ey_pos, mode="lines",
+            line=dict(color="#00D2B4", width=0.5, dash="solid"),
+            hoverinfo="skip", name="Lazo ＋"))
+    if ex_neg:
+        traces.append(go.Scatter(x=ex_neg, y=ey_neg, mode="lines",
+            line=dict(color="#FF4B4B", width=0.5),
+            hoverinfo="skip", name="Lazo −"))
 
-    # Nodos
-    node_x, node_y, node_color, node_text, node_labels = [], [], [], [], []
+    # ── Nodos muertos como X pequeña ─────────────────────────────────────────
+    dx_list, dy_list, dead_t = [], [], []
+    for aid, ag in dead.items():
+        pos = positions.get(aid)
+        if pos:
+            dx_list.append(pos[0]); dy_list.append(pos[1])
+            dead_t.append(f"✝ {ag['nombre']}")
+    if dx_list:
+        traces.append(go.Scatter(
+            x=dx_list, y=dy_list, mode="markers",
+            marker=dict(symbol="x-thin-open", size=7, color="#555566",
+                        line=dict(width=1.2)),
+            text=dead_t, hoverinfo="text", name="Muertos",
+        ))
+
+    # ── Nodos vivos coloreados por humor + tribu en tooltip ──────────────────
+    # Un trace por tribu para color de borde diferenciado
+    tribe_node_x: dict[str, list] = {}
+    tribe_node_y: dict[str, list] = {}
+    tribe_node_c: dict[str, list] = {}
+    tribe_node_t: dict[str, list] = {}
+    tribe_labels: dict[str, list] = {}
+
+    _TRIBE_BORDER = ["#4a9eff","#ff9f43","#2ecc71","#e040fb","#ff4b4b",
+                     "#f4d03f","#00d2b4","#e74c3c","#8e44ad","#16a085",
+                     "#d35400","#1abc9c","#2980b9"]
+
     for aid, ag in alive.items():
+        tid = a2t.get(aid, "_sin_tribu")
         pos = positions.get(aid, (0.0, 0.0))
-        node_x.append(pos[0]); node_y.append(pos[1])
-        h = ag.get("humor", 0.5)
-        node_color.append("#FF4B4B" if h < 0.38 else "#F4D03F" if h < 0.65 else "#00D2B4")
-        tid_short = a2t.get(aid, "?")[:10]
-        node_text.append(
-            f"{ag['nombre']}<br>humor={h:.2f}<br>edad={ag.get('edad',0)}<br>tribu={tid_short}"
+        h   = ag.get("humor", 0.5)
+        tribe_node_x.setdefault(tid, []).append(pos[0])
+        tribe_node_y.setdefault(tid, []).append(pos[1])
+        tribe_node_c.setdefault(tid, []).append(
+            "#FF4B4B" if h < 0.35 else "#F4D03F" if h < 0.65 else "#00D2B4"
         )
-        node_labels.append(ag["nombre"][:5])
+        tribe_node_t.setdefault(tid, []).append(
+            f"<b>{ag['nombre']}</b><br>Tribu: {tid[:12]}<br>"
+            f"Humor: {h:.2f} · Edad: {ag.get('edad',0)}<br>"
+            f"Arquetipo: {ag.get('arquetipo_dominante','?')}"
+        )
+        tribe_labels.setdefault(tid, []).append(ag["nombre"][:6])
 
-    traces.append(go.Scatter(
-        x=node_x, y=node_y, mode="markers+text",
-        marker=dict(size=11, color=node_color, line=dict(color="#1a0a2e", width=1)),
-        text=node_labels,
-        textfont=dict(size=7, color="#ccc"),
-        textposition="top center",
-        hovertext=node_text, hoverinfo="text",
-        name="Agentes",
-    ))
+    for i, tid in enumerate(sorted(tribe_node_x)):
+        border = _TRIBE_BORDER[i % len(_TRIBE_BORDER)]
+        traces.append(go.Scatter(
+            x=tribe_node_x[tid], y=tribe_node_y[tid],
+            mode="markers+text",
+            marker=dict(size=12, color=tribe_node_c[tid],
+                        line=dict(color=border, width=2)),
+            text=tribe_labels[tid],
+            textfont=dict(size=7, color="#ddd"),
+            textposition="top center",
+            hovertext=tribe_node_t[tid], hoverinfo="text",
+            name=tid[:14],
+        ))
 
-    # Estadísticas de entrelazamiento
-    n_ent = len(ex_ent) // 3
+    stats_text = (
+        f"{len(alive)} vivos · {len(dead)} muertos · "
+        f"{len(ex_ent)//3} entrelazados · {len(ex_pos)//3} lazos+"
+    )
     fig = go.Figure(data=traces)
     fig.update_layout(
-        title=dict(
-            text=f"{len(alive)} nodos · {len(ex_ent)//3} entrelazados · {len(ex_pos)//3} lazos fuertes",
-            font=dict(color="#aaa", size=11),
-        ),
+        title=dict(text=stats_text, font=dict(color="#aaa", size=11)),
         paper_bgcolor="#0a0014", plot_bgcolor="#0a0014",
         showlegend=True,
-        legend=dict(font=dict(color="#ccc"), bgcolor="rgba(0,0,0,0.4)", x=0.01, y=0.99),
-        margin=dict(l=0, r=0, t=35, b=0),
-        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False, range=[-1.5, 1.5]),
+        legend=dict(font=dict(color="#ccc", size=9), bgcolor="rgba(0,0,0,0.4)",
+                    x=0.01, y=0.99),
+        margin=dict(l=0, r=0, t=30, b=0),
+        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False,
-                   range=[-1.5, 1.5], scaleanchor="x"),
+                   scaleanchor="x"),
+        dragmode="pan",
+        uirevision="social",
     )
     return fig
 
@@ -928,9 +1167,31 @@ def build_monitor_page(app_state) -> None:
                 "text-sm font-semibold px-4 pt-4 text-purple-300"
             )
             ui.label(
-                "Verde = lazo positivo · Rojo = lazo negativo · Púrpura = entrelazamiento cuántico"
+                "Nodos coloreados por humor (verde=alto · amarillo=medio · rojo=bajo). "
+                "Borde de nodo = tribu. Verde = lazo+ · Rojo = lazo− · Púrpura = entrelazado."
             ).classes("text-xs text-gray-500 px-4 pb-2")
-            refs["plot_social"] = ui.plotly({}).classes("w-full px-2").style("height:75vh")
+
+            # C3 — Stats de red
+            with ui.row().classes("px-4 pb-2 gap-6 flex-wrap"):
+                refs["soc_nodos"]   = ui.label("Nodos: —").classes("text-xs text-gray-300")
+                refs["soc_aristas"] = ui.label("Aristas: —").classes("text-xs text-gray-300")
+                refs["soc_cluster"] = ui.label("Clusters: —").classes("text-xs text-blue-300")
+                refs["soc_hub"]     = ui.label("Hub: —").classes("text-xs text-yellow-300")
+                refs["soc_ent"]     = ui.label("Entrelazados: —").classes("text-xs text-purple-300")
+
+            refs["plot_social"] = ui.plotly({}).classes("w-full px-2").style("height:58vh")
+
+            ui.separator().classes("mx-4 mt-2 mb-1")
+
+            # C2 — Tabla de aristas con filtro por tribu
+            with ui.row().classes("px-4 pb-1 gap-4 items-center"):
+                ui.label("Aristas más fuertes").classes("text-xs text-gray-400 uppercase font-semibold")
+                refs["soc_tribe_filter"] = ui.select(
+                    options=["(todas)"],
+                    value="(todas)",
+                    label="Tribu",
+                ).classes("text-xs w-40")
+            refs["soc_edge_table"] = ui.html("").classes("px-4 pb-4 overflow-x-auto")
 
         # ── Tab Agentes ───────────────────────────────────────────────────────
         with ui.tab_panel(t_agentes):
@@ -1220,10 +1481,37 @@ def build_monitor_page(app_state) -> None:
                 _slow_tick[0] = 0
                 cp_slow = load_checkpoint()
                 if cp_slow:
-                    # Red social
+                    # C1 — Red social (spring layout)
                     fig_social = _build_social_graph(cp_slow)
                     if fig_social:
                         refs["plot_social"].update_figure(fig_social)
+
+                    # C2 + C3 — Stats de red y tabla de aristas
+                    _agents_sl  = cp_slow.get("agentes", {}).get("agents", [])
+                    _alive_sl   = {a["id"]: a for a in _agents_sl if a.get("is_alive", False)}
+                    _t_data_sl  = cp_slow.get("agentes", {}).get("tribe_manager", {})
+                    _a2t_sl     = _t_data_sl.get("agent_to_tribe", {})
+                    _edges_sl   = cp_slow.get("agentes", {}).get("social_network", {}).get("edges", [])
+
+                    # C3 — Stats
+                    st = _social_stats(_alive_sl, _edges_sl)
+                    refs["soc_nodos"].set_text(f"Nodos vivos: {st['n_nodos']}")
+                    refs["soc_aristas"].set_text(f"Aristas activas: {st['n_aristas']}")
+                    refs["soc_cluster"].set_text(f"Clusters: {st['n_clusters']}")
+                    refs["soc_hub"].set_text(f"Hub: {st['hub']} ({st['hub_grado']})")
+                    refs["soc_ent"].set_text(f"Entrelazados: {st['n_entrelazados']}")
+
+                    # Actualizar opciones del filtro de tribu
+                    tribe_ids = sorted({_a2t_sl.get(aid,"?") for aid in _alive_sl})
+                    refs["soc_tribe_filter"].options = ["(todas)"] + tribe_ids
+                    refs["soc_tribe_filter"].update()
+
+                    # C2 — Tabla de aristas
+                    tribe_sel = refs["soc_tribe_filter"].value
+                    tf = "" if tribe_sel == "(todas)" else tribe_sel
+                    refs["soc_edge_table"].set_content(
+                        _render_edge_table_html(_alive_sl, _edges_sl, _a2t_sl, tf)
+                    )
 
                     # Sueños
                     refs["dreams_html"].set_content(_render_dreams_html(cp_slow))
