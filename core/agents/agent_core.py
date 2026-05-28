@@ -3643,6 +3643,7 @@ class AgentCore:
                 if self._rng.random() < lhex.misterio * 0.002:
                     tribe_id = self.tribe_manager.get_tribe_id(agent.id)
                     self._register_death(agent, tp, "causa_liminal_inexplicable")
+                    agent.in_liminal = False  # evitar estado muerto+en_liminal
                     # Registrar en memoria cultural: muerte sin causa = tabú
                     if tribe_id:
                         cmem = self.tribe_manager.cultural_memories.get(tribe_id)

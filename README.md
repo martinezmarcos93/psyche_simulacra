@@ -275,7 +275,7 @@ PSYCHE SIMULACRA/
 │   ├── plot_emergence.py             Reporte PNG con 6 graficas (KL, MIG, IMI, VFE, scatter, supervivencia)
 │   └── visualizer.py                 Visualizador Pygame en tiempo real
 │
-├── tests/                            181 tests (pytest)
+├── tests/                            390 tests (pytest)
 │   ├── test_agent.py
 │   ├── test_network.py
 │   ├── test_quantum.py
@@ -422,10 +422,10 @@ python scripts/run_robustness.py --runs 10 --days 200
 ## Tests
 
 ```bash
-pytest               # 360 tests
-pytest -v            # verbose
-pytest --tb=short    # traceback corto
-pytest tests/test_metrics.py -v   # solo metricas de emergencia
+python -m pytest                        # 390 tests
+python -m pytest -v                     # verbose
+python -m pytest --tb=short             # traceback corto
+python -m pytest tests/test_metrics.py -v   # solo metricas de emergencia
 ```
 
 ---
@@ -462,7 +462,7 @@ Todas las variables configurables también desde el launcher NiceGUI (sección *
 | Visualizador legacy | Pygame |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
 | Zona Liminal (red) | websockets + asyncio (servidor) / threading (cliente) |
-| Tests | pytest (360 tests) |
+| Tests | pytest (390 tests) |
 
 ---
 
@@ -486,7 +486,7 @@ Los documentos de diseño están en `src/` y `docs/`:
 | `src/09-PSYCHE_ARQUITECTURA_NUCLEOS.md` | WorldCore + AgentCore |
 | `src/10-PSYCHE_SIMULATION_CLOCK.md` | SimulationClock |
 | `src/archive/00-ROADMAP_ORIGINAL_v1_COMPLETADO.md` | Roadmap original completado |
-| `src/archive/ROADMAP5.md` | Roadmap 5 — simulación completa: tribus, mitos, métricas |
+| `src/archive/ROADMAP5.1.md` | Roadmap 5 — simulación completa: tribus, mitos, métricas |
 | `src/archive/ROADMAP5.2.md` | Roadmap 5.2 — observatorio NiceGUI: todos los bloques A→H |
 
 ---

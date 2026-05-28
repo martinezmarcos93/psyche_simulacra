@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from typing import TYPE_CHECKING
 
 import networkx as nx
@@ -16,7 +17,7 @@ if TYPE_CHECKING:
 # Positive bond threshold to include an edge in the tribe graph
 _MIN_BOND = 0.15
 # How often to re-cluster (simulated days)
-_RECLUSTER_INTERVAL = 30
+_RECLUSTER_INTERVAL = int(os.environ.get("DAYS_UNTIL_CLUSTERING", "30"))
 
 # Archetype drift delta per day per tribe member based on home biome
 # Key: biome name → {archetype_attr: delta}

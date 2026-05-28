@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import atexit
+import os
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -17,7 +18,7 @@ if TYPE_CHECKING:
 
 _DEFAULT_DB          = "data/db/simulation.db"
 _DEFAULT_CHECKPOINTS = "data/checkpoints"
-_CHECKPOINT_EVERY    = 10   # días simulados
+_CHECKPOINT_EVERY    = int(os.environ.get("CHECKPOINT_INTERVAL", "10"))  # días simulados
 
 
 class SimulationRunner:
@@ -392,9 +393,12 @@ class SimulationRunner:
 
     def _emergency_save(self) -> None:
         try:
-            self.buffer.flush()
+            self._save_checkpoint(reason="emergency")
         except Exception:
-            pass
+            try:
+                self.buffer.flush()
+            except Exception:
+                pass
 
     # ── Constructores de clase ────────────────────────────────────────────────
 

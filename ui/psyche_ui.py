@@ -1853,8 +1853,8 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                     ).classes("w-full")
                     cfg_model = ui.input(
                         label="Modelo Ollama (OLLAMA_MODEL)",
-                        value=os.environ.get("OLLAMA_MODEL", "llama3"),
-                        placeholder="llama3",
+                        value=os.environ.get("OLLAMA_MODEL", "llama3.2"),
+                        placeholder="llama3.2",
                     ).classes("w-full")
                     cfg_cp_interval = ui.number(
                         label="Días entre checkpoints",
@@ -1872,7 +1872,7 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
 
             def _apply_config() -> None:
                 os.environ["NARRATIVE_ENABLED"]    = str(cfg_narrative.value).lower()
-                os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3"
+                os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3.2"
                 os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 50))
                 os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 365))
 
@@ -1949,6 +1949,30 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
                 )
             app_state._liminal_proc = proc
             runtime.state.liminal = "starting"
+
+            import time as _time
+            _time.sleep(0.5)  # dar tiempo al servidor a iniciar el socket
+
+            from core.liminal.sim_identity import get_sim_id
+            from core.liminal.portal_hex import PortalHex
+            from core.liminal.liminal_client import LiminalClient
+            from core.liminal.agent_transfer import AgentTransferHandler
+
+            _sim_id = get_sim_id()
+            _portal = PortalHex(seed=seed)
+            _client = LiminalClient(sim_id=_sim_id, seed=seed)
+            _client.start(host="localhost", port=app_state.liminal_port)
+
+            _liminal_transfer = AgentTransferHandler(
+                agent_core=runner.agents,
+                portal=_portal,
+                client=_client,
+            )
+            runner.clock.on_tick(_liminal_transfer.on_tick, priority=25)
+            runner.clock.on_day(_liminal_transfer.on_day,   priority=25)
+            app_state.liminal_portal   = _portal
+            app_state.liminal_transfer = _liminal_transfer
+            runtime.state.liminal = "connected"
         except Exception as e:
             print(f"[UI] liminal start: {e}", file=sys.stderr)
 
