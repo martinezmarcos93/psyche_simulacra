@@ -1355,6 +1355,74 @@ def _render_cultural_memory_html(cp: dict) -> str:
     return "".join(html)
 
 
+# ── D4: Log episódico por agente ─────────────────────────────────────────────
+
+_EVENTO_COLORS: dict[str, str] = {
+    "muerte_vinculo":     "#e74c3c",
+    "trauma_catastrofe":  "#c0392b",
+    "vision":             "#9b59b6",
+    "nacimiento":         "#2ecc71",
+    "vinculo_formado":    "#3498db",
+    "ritual":             "#f39c12",
+    "transferencia":      "#1abc9c",
+    "catastrofe":         "#e67e22",
+}
+_EVENTO_DEFAULT_COLOR = "#888888"
+
+
+def _render_episodic_log_html(agent) -> str:
+    """D4 — Log episódico: corto y largo plazo del agente."""
+    try:
+        em = agent.episodic_memory
+    except AttributeError:
+        return "<span style='color:#555'>Sin memoria episódica.</span>"
+
+    def _row(rec, label_color: str) -> str:
+        col  = _EVENTO_COLORS.get(rec.tipo_evento, _EVENTO_DEFAULT_COLOR)
+        inten = rec.intensidad_emocional
+        bar  = int(inten * 10)
+        bar_html = (
+            f"<span style='color:{col}'>{'|' * bar}</span>"
+            f"<span style='color:#333'>{'|' * (10 - bar)}</span>"
+        )
+        revival = (
+            f" · revivido x{rec.n_revivencias} (día {rec.dia_ultimo_revivido})"
+            if rec.n_revivencias > 0 else ""
+        )
+        return (
+            f"<tr>"
+            f"<td style='color:#555;padding:1px 6px'>Día {rec.dia_origen}</td>"
+            f"<td style='color:{col};padding:1px 6px'>{rec.tipo_evento.replace('_',' ')}</td>"
+            f"<td style='font-family:monospace;padding:1px 4px'>{bar_html}</td>"
+            f"<td style='color:#aaa;padding:1px 6px'>{rec.agente_protagonista}</td>"
+            f"<td style='color:#666;padding:1px 6px;font-size:10px'>"
+            f"{rec.arquetipo_dominante}{revival}</td>"
+            f"</tr>"
+        )
+
+    short = list(reversed(em.all_short_term()))[:10]
+    long_ = sorted(em.all_long_term(), key=lambda r: -r.intensidad_emocional)
+
+    parts = ["<div style='font-size:11px;line-height:1.6'>"]
+
+    if short:
+        parts.append("<div style='color:#aaa;margin-bottom:2px'>Memoria reciente</div>")
+        parts.append("<table style='border-collapse:collapse;width:100%'>")
+        parts.extend(_row(r, "#aaa") for r in short)
+        parts.append("</table>")
+    else:
+        parts.append("<div style='color:#555'>Sin eventos recientes.</div>")
+
+    if long_:
+        parts.append("<div style='color:#e74c3c;margin-top:8px;margin-bottom:2px'>Traumas / Largo plazo</div>")
+        parts.append("<table style='border-collapse:collapse;width:100%'>")
+        parts.extend(_row(r, "#e74c3c") for r in long_)
+        parts.append("</table>")
+
+    parts.append("</div>")
+    return "".join(parts)
+
+
 # ── G1: Radar arquetípico por agente ─────────────────────────────────────────
 
 def _build_agent_radar(agent_data: dict) -> "go.Figure | None":
@@ -1925,12 +1993,16 @@ def build_monitor_page(app_state) -> None:
                 selection="single",
             ).classes("w-full px-4")
 
-            # G1 — Dialog con radar arquetípico al hacer click en fila
+            # G1 — Dialog con radar arquetípico + D4 log episódico al hacer click en fila
             with ui.dialog() as radar_dialog, ui.card().classes(
                 "bg-gray-900 border border-purple-800"
-            ).style("min-width:420px"):
-                refs["radar_plot"]  = ui.plotly(_dark_placeholder()).style("width:380px;height:340px")
-                refs["radar_stats"] = ui.html("").classes("px-2 pb-2 text-xs text-gray-300")
+            ).style("min-width:520px;max-width:640px"):
+                refs["radar_plot"]  = ui.plotly(_dark_placeholder()).style("width:480px;height:320px")
+                refs["radar_stats"] = ui.html("").classes("px-2 pb-1 text-xs text-gray-300")
+                ui.separator().classes("mx-2 my-1")
+                ui.label("Log episódico").classes("text-xs text-gray-400 uppercase px-2 pt-1")
+                with ui.scroll_area().style("height:200px;width:100%"):
+                    refs["episodic_log"] = ui.html("").classes("px-2 pb-2")
                 ui.button("Cerrar", on_click=radar_dialog.close).classes(
                     "mt-1 text-xs text-gray-400"
                 ).props("flat")
@@ -1977,6 +2049,9 @@ def build_monitor_page(app_state) -> None:
                             )
                         )
                         refs["radar_stats"].set_content(stats_html)
+                        refs["episodic_log"].set_content(
+                            _render_episodic_log_html(agent)
+                        )
                         radar_dialog.open()
 
             refs["agents_table"].on("selection", _on_agent_select)
