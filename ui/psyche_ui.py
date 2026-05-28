@@ -15,6 +15,7 @@ import math
 import subprocess
 import sys
 import threading
+import traceback
 from collections import deque
 from pathlib import Path
 
@@ -1946,7 +1947,6 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
             app_state._liminal_proc = proc
             runtime.state.liminal = "starting"
         except Exception as e:
-            import sys
             print(f"[UI] liminal start: {e}", file=sys.stderr)
 
     # Limpiar evento de pausa anterior y registrar gate en el reloj
@@ -2707,10 +2707,16 @@ def build_monitor_page(app_state) -> None:
                 try:
                     exp_coords = frozenset(runner_now.world.terrain._explored_set) if runner_now else None
                 except Exception as e:
-                    import sys
                     print(f"[UI] _explored_set: {e}", file=sys.stderr)
                     exp_coords = None
                 structures_now = _extract_structures_data(runner_now) if runner_now else []
+                print(
+                    f"[MAP] dia={app_state.dia_simulado} "
+                    f"agentes={len(agents_now)} estructuras={len(structures_now)} "
+                    f"snap={'ok' if snap else 'None'} "
+                    f"explored={len(exp_coords) if exp_coords else 'None'}",
+                    file=sys.stderr,
+                )
                 layer_flags = {
                     "niebla":      refs.get("layer_niebla")      and refs["layer_niebla"].value,
                     "agentes":     refs.get("layer_agentes")     and refs["layer_agentes"].value,
@@ -2830,7 +2836,6 @@ def build_monitor_page(app_state) -> None:
                             )
 
         except Exception as e:
-            import sys, traceback
             print(f"[UI] _refresh: {e}\n{traceback.format_exc()}", file=sys.stderr)
 
     ui.timer(2.0, _refresh)
