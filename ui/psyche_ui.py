@@ -1672,6 +1672,28 @@ def build_monitor_page(app_state) -> None:
             "text-xs bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded"
         )
 
+        # Botón Cerrar simulación
+        def _cerrar_simulacion() -> None:
+            rv = app_state.get_runner()
+            if rv:
+                try:
+                    rv.shutdown()
+                except Exception as e:
+                    print(f"[UI] shutdown error: {e}", file=sys.stderr)
+            proc = app_state._liminal_proc
+            if proc is not None:
+                try:
+                    proc.terminate()
+                except Exception:
+                    pass
+                app_state._liminal_proc = None
+            app_state.set_runner(None, None)
+            ui.navigate.to("/")
+
+        ui.button("✕ Cerrar", on_click=_cerrar_simulacion).classes(
+            "text-xs bg-red-800 hover:bg-red-700 text-white px-3 py-1 rounded ml-2"
+        )
+
     # ── Tabs ──────────────────────────────────────────────────────────────────
     with ui.tabs().classes("bg-purple-900 text-white w-full") as tabs:
         t_resumen    = ui.tab("Resumen")
