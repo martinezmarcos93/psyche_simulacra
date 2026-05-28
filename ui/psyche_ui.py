@@ -133,6 +133,31 @@ def _extract_agents_data(runner) -> list[dict]:
     return out
 
 
+def _extract_structures_data(runner) -> list[dict]:
+    """B1 — Lee estructuras culturales vivas desde culture_engine."""
+    try:
+        structs = runner.agents.culture_engine.structures
+    except Exception as e:
+        print(f"[UI] _extract_structures_data: {e}", file=sys.stderr)
+        return []
+    out = []
+    for s in structs:
+        try:
+            coord = s.coord if isinstance(s.coord, (tuple, list)) and len(s.coord) == 2 else None
+            if coord is None:
+                continue
+            estado = getattr(s, "estado", "activo")
+            out.append({
+                "tipo":  s.tipo,
+                "coord": (int(coord[0]), int(coord[1])),
+                "tribu": getattr(s, "tribe_id", "") or getattr(s, "tribu_origen", ""),
+                "estado": estado,
+            })
+        except Exception as e:
+            print(f"[UI] structure: {e}", file=sys.stderr)
+    return out
+
+
 # ── Spring layout (Fruchterman-Reingold) ─────────────────────────────────────
 
 def _fruchterman_reingold(
@@ -320,12 +345,16 @@ def _build_hex_map(
     agents_data: list | None = None,
     layer_flags: dict | None = None,
     explored_coords: frozenset | None = None,
+    structures_data: list | None = None,
 ) -> "go.Figure | None":
     """
-    Mapa hexagonal completo (D1/D2/D3):
-      D1 — todo el terreno 80×60: niebla de guerra para inexplorados, bioma completo para explorados
-      D2 — capa de agentes coloreados por arquetipo dominante
-      D3 — visibilidad de capas controlada por layer_flags
+    Mapa hexagonal completo (D1/D2/D3 + B1/B2/B3):
+      D1 — terreno 80×60 con niebla de guerra
+      D2 — agentes coloreados por arquetipo
+      D3 — visibilidad de capas por layer_flags
+      B1 — estructuras culturales (totem/altar/muralla/hoguera)
+      B2 — portal liminal resaltado
+      B3 — hexes liminales con símbolo diamond y misterio
     """
     try:
         import plotly.graph_objects as go
@@ -378,18 +407,43 @@ def _build_hex_map(
             visible=True,
         ))
 
-    # ── Hexes liminales ──────────────────────────────────────────────────────
-    lim_xs, lim_ys, lim_t = [], [], []
+    # ── B3: Hexes liminales (diamond-open, tamaño por misterio) ─────────────
+    lim_xs, lim_ys, lim_t, lim_sizes = [], [], [], []
+    portal_xs, portal_ys, portal_t = [], [], []
     for lh in (getattr(snap, "liminal_hexes", None) or []):
         q, r = lh["coord"]
         x, y = _hex_xy(q, r)
-        lim_xs.append(x); lim_ys.append(y)
-        lim_t.append(f"Liminal ({q},{r})<br>{', '.join(lh.get('symbol_pool', []))}")
+        mist = lh.get("misterio", 0.5)
+        pool = lh.get("symbol_pool", [])
+        tooltip = (
+            f"{'PORTAL LIMINAL' if lh.get('es_portal') else 'Hex Liminal'} "
+            f"({q},{r})<br>Misterio: {mist:.2f}<br>"
+            f"Símbolos: {', '.join(pool)}"
+        )
+        if lh.get("es_portal"):
+            # B2 — portal en traza propia
+            portal_xs.append(x); portal_ys.append(y); portal_t.append(tooltip)
+        else:
+            lim_xs.append(x); lim_ys.append(y)
+            lim_sizes.append(int(14 + mist * 10))   # 14–24 px según misterio
+            lim_t.append(tooltip)
+
     if lim_xs:
         traces.append(go.Scattergl(
             x=lim_xs, y=lim_ys, mode="markers",
-            marker=dict(symbol="circle-open", size=16, color="#9b59b6", line=dict(width=2)),
+            marker=dict(symbol="diamond-open", size=lim_sizes,
+                        color="#9b59b6", line=dict(width=2.5)),
             text=lim_t, hoverinfo="text", name="Liminal",
+            visible=_vis("liminales"),
+        ))
+
+    # ── B2: Portal liminal ───────────────────────────────────────────────────
+    if portal_xs:
+        traces.append(go.Scattergl(
+            x=portal_xs, y=portal_ys, mode="markers",
+            marker=dict(symbol="star", size=28, color="#c39bd3",
+                        line=dict(width=3, color="#9b59b6"), opacity=0.90),
+            text=portal_t, hoverinfo="text", name="Portal Liminal",
             visible=_vis("liminales"),
         ))
 
@@ -431,6 +485,47 @@ def _build_hex_map(
             name="Fuego", hoverinfo="skip",
             visible=_vis("fuego"),
         ))
+
+    # ── B1: Estructuras culturales ───────────────────────────────────────────
+    _STRUCT_SYMBOLS = {
+        "totem":   ("diamond",         "#E040FB", 16),   # violeta
+        "altar":   ("triangle-up",     "#F4D03F", 16),   # dorado
+        "muralla": ("square",          "#95a5a6", 14),   # gris
+        "hoguera": ("circle",          "#e74c3c", 14),   # rojo
+        "refugio": ("pentagon",        "#2ecc71", 13),   # verde
+        "marcador":("cross-thin-open", "#aaa",    12),   # gris claro
+        "deposito":("hexagon2-open",   "#f39c12", 13),   # naranja
+    }
+    if structures_data and _vis("estructuras"):
+        by_tipo: dict[str, dict] = {}
+        for s in structures_data:
+            tipo   = s["tipo"]
+            sym, col, sz = _STRUCT_SYMBOLS.get(tipo, ("circle-open", "#888", 12))
+            estado = s.get("estado", "activo")
+            # Ruinas más transparentes
+            opacity = 1.0 if estado == "activo" else (0.55 if estado == "abandonado" else 0.30)
+            key  = tipo
+            entry = by_tipo.setdefault(key, {"xs": [], "ys": [], "texts": [],
+                                             "sym": sym, "col": col, "sz": sz,
+                                             "opacities": []})
+            x, y = _hex_xy(*s["coord"])
+            entry["xs"].append(x); entry["ys"].append(y)
+            entry["texts"].append(
+                f"{tipo.capitalize()} [{estado}]<br>Tribu: {s['tribu'] or '?'}<br>"
+                f"Coord: {s['coord']}"
+            )
+            entry["opacities"].append(opacity)
+
+        for tipo, data in by_tipo.items():
+            traces.append(go.Scattergl(
+                x=data["xs"], y=data["ys"], mode="markers",
+                marker=dict(symbol=data["sym"], size=data["sz"],
+                            color=data["col"], opacity=data["opacities"],
+                            line=dict(width=1.5, color="#000")),
+                text=data["texts"], hoverinfo="text",
+                name=f"[E] {tipo}", legendgroup="estructuras",
+                visible=True,
+            ))
 
     # ── D2: Agentes vivos ────────────────────────────────────────────────────
     if agents_data and _vis("agentes"):
@@ -2196,13 +2291,14 @@ def build_monitor_page(app_state) -> None:
             # D3 — Panel de control de capas
             with ui.row().classes("px-4 py-2 gap-6 flex-wrap items-center"):
                 ui.label("Capas:").classes("text-xs text-gray-400 font-semibold")
-                refs["layer_niebla"]    = ui.checkbox("Niebla de guerra", value=True).classes("text-xs text-gray-300")
-                refs["layer_agentes"]   = ui.checkbox("Agentes",          value=True).classes("text-xs text-green-300")
-                refs["layer_muertos"]   = ui.checkbox("Muertos",          value=True).classes("text-xs text-gray-500")
-                refs["layer_tumbas"]    = ui.checkbox("Tumbas",           value=True).classes("text-xs text-gray-300")
-                refs["layer_fauna"]     = ui.checkbox("Fauna simbólica",  value=True).classes("text-xs text-yellow-300")
-                refs["layer_liminales"] = ui.checkbox("Hexes liminales",  value=True).classes("text-xs text-purple-300")
-                refs["layer_fuego"]     = ui.checkbox("Fuego",            value=True).classes("text-xs text-red-400")
+                refs["layer_niebla"]      = ui.checkbox("Niebla de guerra", value=True).classes("text-xs text-gray-300")
+                refs["layer_agentes"]     = ui.checkbox("Agentes",          value=True).classes("text-xs text-green-300")
+                refs["layer_muertos"]     = ui.checkbox("Muertos",          value=True).classes("text-xs text-gray-500")
+                refs["layer_tumbas"]      = ui.checkbox("Tumbas",           value=True).classes("text-xs text-gray-300")
+                refs["layer_fauna"]       = ui.checkbox("Fauna simbólica",  value=True).classes("text-xs text-yellow-300")
+                refs["layer_estructuras"] = ui.checkbox("Estructuras",      value=True).classes("text-xs text-yellow-200")
+                refs["layer_liminales"]   = ui.checkbox("Hexes liminales",  value=True).classes("text-xs text-purple-300")
+                refs["layer_fuego"]       = ui.checkbox("Fuego",            value=True).classes("text-xs text-red-400")
             refs["hex_plot"] = ui.plotly(_dark_placeholder()).classes("w-full").style("height:82vh")
 
         # ── Tab Liminal ───────────────────────────────────────────────────────
@@ -2457,16 +2553,20 @@ def build_monitor_page(app_state) -> None:
                     import sys
                     print(f"[UI] _explored_set: {e}", file=sys.stderr)
                     exp_coords = None
+                structures_now = _extract_structures_data(runner_now) if runner_now else []
                 layer_flags = {
-                    "niebla":    refs.get("layer_niebla")    and refs["layer_niebla"].value,
-                    "agentes":   refs.get("layer_agentes")   and refs["layer_agentes"].value,
-                    "muertos":   refs.get("layer_muertos")   and refs["layer_muertos"].value,
-                    "tumbas":    refs.get("layer_tumbas")    and refs["layer_tumbas"].value,
-                    "fauna":     refs.get("layer_fauna")     and refs["layer_fauna"].value,
-                    "liminales": refs.get("layer_liminales") and refs["layer_liminales"].value,
-                    "fuego":     refs.get("layer_fuego")     and refs["layer_fuego"].value,
+                    "niebla":      refs.get("layer_niebla")      and refs["layer_niebla"].value,
+                    "agentes":     refs.get("layer_agentes")     and refs["layer_agentes"].value,
+                    "muertos":     refs.get("layer_muertos")     and refs["layer_muertos"].value,
+                    "tumbas":      refs.get("layer_tumbas")      and refs["layer_tumbas"].value,
+                    "fauna":       refs.get("layer_fauna")       and refs["layer_fauna"].value,
+                    "estructuras": refs.get("layer_estructuras") and refs["layer_estructuras"].value,
+                    "liminales":   refs.get("layer_liminales")   and refs["layer_liminales"].value,
+                    "fuego":       refs.get("layer_fuego")       and refs["layer_fuego"].value,
                 }
-                new_fig = _build_hex_map(snap, terrain_biomes, agents_now, layer_flags, exp_coords)
+                new_fig = _build_hex_map(
+                    snap, terrain_biomes, agents_now, layer_flags, exp_coords, structures_now
+                )
                 if new_fig:
                     refs["hex_plot"].update_figure(new_fig)
 
