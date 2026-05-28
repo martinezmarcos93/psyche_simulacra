@@ -575,6 +575,102 @@ def _build_trend_figure(
     return fig
 
 
+def _build_trend_panel(
+    agent_metrics:    list[dict],
+    climate_metrics:  list[dict],
+    scenario_metrics: list[dict],
+    clim_events:      list[dict] | None = None,
+) -> "go.Figure | None":
+    """D2 — Panel unificado 4 tendencias con eje X compartido (zoom sincronizado)."""
+    try:
+        from plotly.subplots import make_subplots
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    if not any([agent_metrics, climate_metrics, scenario_metrics]):
+        return None
+
+    fig = make_subplots(
+        rows=4, cols=1,
+        shared_xaxes=True,
+        subplot_titles=[
+            "Humor · Energía · Ansiedad",
+            "Población viva",
+            "Temperatura · Riesgo · Eventos climáticos",
+            "Presión de recursos · Carrying capacity",
+        ],
+        vertical_spacing=0.07,
+        row_heights=[0.30, 0.18, 0.27, 0.25],
+    )
+
+    c = _TREND_COLORS
+
+    if agent_metrics:
+        dias = [r["dia"] for r in agent_metrics]
+        for i, (field, name) in enumerate([
+            ("humor", "Humor"), ("energia", "Energía"), ("ansiedad", "Ansiedad"),
+        ]):
+            vals = [r.get(field) or 0 for r in agent_metrics]
+            fig.add_trace(go.Scatter(x=dias, y=vals, name=name, mode="lines",
+                                     line=dict(color=c[i], width=1.8)), row=1, col=1)
+
+        vivos = [r.get("vivos") or 0 for r in agent_metrics]
+        fig.add_trace(go.Scatter(x=dias, y=vivos, name="Vivos", mode="lines",
+                                  line=dict(color="#4a9eff", width=1.8)), row=2, col=1)
+
+    if climate_metrics:
+        dias_c = [r["dia"] for r in climate_metrics]
+        for i, (field, name) in enumerate([("temperatura", "Temp °C"), ("riesgo", "Riesgo")]):
+            vals = [r.get(field) or 0 for r in climate_metrics]
+            fig.add_trace(go.Scatter(x=dias_c, y=vals, name=name, mode="lines",
+                                     line=dict(color=c[i], width=1.8)), row=3, col=1)
+
+    if scenario_metrics:
+        dias_s = [r["dia"] for r in scenario_metrics]
+        for i, (field, name) in enumerate([
+            ("resource_pressure", "Presión recursos"),
+            ("carrying_capacity", "Carrying cap."),
+        ]):
+            vals = [r.get(field) or 0 for r in scenario_metrics]
+            fig.add_trace(go.Scatter(x=dias_s, y=vals, name=name, mode="lines",
+                                     line=dict(color=c[i], width=1.8)), row=4, col=1)
+
+    # Bandas de eventos climáticos en fila 3
+    shapes, event_anns = [], []
+    for ev in (clim_events or []):
+        d    = ev.get("dia", 0)
+        evnm = (ev.get("evento") or "").lower()
+        col  = _EVENT_COLORS.get(evnm, _EVENT_DEFAULT_COLOR)
+        shapes.append(dict(
+            type="rect", xref="x3", yref="y3 domain",
+            x0=d - 0.4, x1=d + 0.4, y0=0, y1=1,
+            fillcolor=col, line=dict(width=0), layer="below",
+        ))
+
+    _ax = dict(color="#aaa", gridcolor="#1f2937")
+    fig.update_layout(
+        paper_bgcolor="#111827", plot_bgcolor="#111827",
+        height=580,
+        margin=dict(l=50, r=10, t=30, b=40),
+        showlegend=True,
+        legend=dict(font=dict(color="#aaa", size=9), bgcolor="rgba(0,0,0,0)",
+                    orientation="h", y=-0.07),
+        shapes=shapes,
+    )
+    fig.update_xaxes(**_ax)
+    fig.update_yaxes(**_ax)
+    fig.update_yaxes(range=[0, 1.05], row=1, col=1)
+    fig.update_xaxes(title_text="Día simulado", row=4, col=1,
+                     title_font=dict(color="#666", size=10))
+
+    for ann in fig.layout.annotations:
+        ann.font.color = "#888"
+        ann.font.size  = 10
+
+    return fig
+
+
 def _build_emergence_figure(rows: list[dict]) -> "go.Figure | None":
     """
     A2 — Métricas de emergencia cultural (KL, VFE, IMI) desde emergence_series.csv.
@@ -1859,22 +1955,7 @@ def build_monitor_page(app_state) -> None:
 
         # ── Tab Tendencias ────────────────────────────────────────────────────
         with ui.tab_panel(t_tendencias):
-            ui.label("Estado emocional poblacional").classes(
-                "text-xs text-gray-400 uppercase px-4 pt-4"
-            )
-            refs["plot_emoc"]      = ui.plotly(_dark_placeholder()).classes("w-full h-52 px-2")
-            ui.label("Población viva").classes(
-                "text-xs text-gray-400 uppercase px-4 pt-2"
-            )
-            refs["plot_poblacion"] = ui.plotly(_dark_placeholder()).classes("w-full h-40 px-2")
-            ui.label("Temperatura y riesgo climático · Bandas = eventos extremos").classes(
-                "text-xs text-gray-400 uppercase px-4 pt-2"
-            )
-            refs["plot_clima"]     = ui.plotly(_dark_placeholder()).classes("w-full h-44 px-2")
-            ui.label("Presión de recursos / Carrying capacity").classes(
-                "text-xs text-gray-400 uppercase px-4 pt-2"
-            )
-            refs["plot_recursos"]  = ui.plotly(_dark_placeholder()).classes("w-full h-40 px-2")
+            refs["plot_trends"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:580px")
             ui.separator().classes("mx-4 mt-3")
             ui.label("Métricas de emergencia cultural — KL · VFE · IMI").classes(
                 "text-xs text-gray-400 uppercase px-4 pt-2"
@@ -2350,34 +2431,12 @@ def build_monitor_page(app_state) -> None:
                 scenario_metrics = load_scenario_metrics()
                 clim_events      = load_climate_events()
 
-                fig_emoc = _build_trend_figure(
-                    agent_metrics, ["humor", "energia", "ansiedad"],
-                    "Humor / Energía / Ansiedad promedio", yrange=[0, 1.05]
+                # D2 — Panel unificado con eje X compartido
+                fig_trends = _build_trend_panel(
+                    agent_metrics, climate_metrics, scenario_metrics, clim_events
                 )
-                if fig_emoc:
-                    refs["plot_emoc"].update_figure(fig_emoc)
-
-                fig_pop = _build_trend_figure(
-                    agent_metrics, ["vivos"], "Población viva",
-                )
-                if fig_pop:
-                    refs["plot_poblacion"].update_figure(fig_pop)
-
-                # A1 — Temperatura con bandas de eventos climáticos
-                fig_clima = _build_trend_figure(
-                    climate_metrics, ["temperatura", "riesgo"],
-                    "Temperatura (°C) · Riesgo supervivencia",
-                    events=clim_events,
-                )
-                if fig_clima:
-                    refs["plot_clima"].update_figure(fig_clima)
-
-                fig_res = _build_trend_figure(
-                    scenario_metrics, ["resource_pressure", "carrying_capacity"],
-                    "Presión de recursos · Carrying capacity", yrange=[0, None]
-                )
-                if fig_res:
-                    refs["plot_recursos"].update_figure(fig_res)
+                if fig_trends:
+                    refs["plot_trends"].update_figure(fig_trends)
 
                 # A2 — Métricas de emergencia cultural
                 emerg_data = load_emergence_metrics(last_n_days=300)
