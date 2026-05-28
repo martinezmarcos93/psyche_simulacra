@@ -15,6 +15,7 @@ import math
 import subprocess
 import sys
 import threading
+from collections import deque
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -679,6 +680,44 @@ def _build_icl_gauges(
             text="Ψ(t) = ∑ Sᵢ(t) × Wᵢ",
             showarrow=False, font=dict(color="#666", size=10),
         )],
+    )
+    return fig
+
+
+def _build_icl_sparkline(history: "deque[dict]") -> "go.Figure | None":
+    """D3 — Sparkline de presión emocional, mítica y confusión (últimas N muestras)."""
+    if len(history) < 2:
+        return None
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    dias   = [h["dia"]               for h in history]
+    ep     = [h["emotional_pressure"] for h in history]
+    mp     = [h["myth_pressure"]      for h in history]
+    conf   = [h["confusion"]          for h in history]
+
+    fig = go.Figure()
+    for name, values, color in [
+        ("Presión emocional", ep,   "#e74c3c"),
+        ("Presión mítica",    mp,   "#E040FB"),
+        ("Confusión",         conf, "#f39c12"),
+    ]:
+        fig.add_trace(go.Scatter(
+            x=dias, y=values, name=name,
+            mode="lines", line=dict(color=color, width=1.5),
+            hovertemplate=f"{name}: %{{y:.2%}}<extra></extra>",
+        ))
+    fig.update_layout(
+        title=dict(text="Evolución de presiones del ICL", font=dict(color="#ccc", size=11)),
+        paper_bgcolor="#111827", plot_bgcolor="#111827",
+        height=160,
+        margin=dict(l=40, r=10, t=30, b=30),
+        xaxis=dict(color="#555", gridcolor="#1f2937", title="día"),
+        yaxis=dict(color="#aaa", gridcolor="#1f2937", range=[0, 1], tickformat=".0%"),
+        legend=dict(font=dict(color="#aaa", size=9), bgcolor="rgba(0,0,0,0)",
+                    orientation="h", y=-0.25),
     )
     return fig
 
@@ -1772,9 +1811,17 @@ def build_monitor_page(app_state) -> None:
 
         # ── Tab ICL ───────────────────────────────────────────────────────────
         with ui.tab_panel(t_icl):
+            # D3 — Sparkline histórico de presiones
+            ui.label("Evolución de presiones del campo colectivo").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-4"
+            )
+            refs["plot_icl_sparkline"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:160px")
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
             # B1 — Gauges del campo colectivo
             ui.label("Estado del campo colectivo · Ψ(t) = ∑ Sᵢ(t) × Wᵢ").classes(
-                "text-xs text-gray-400 uppercase px-4 pt-4"
+                "text-xs text-gray-400 uppercase px-4 pt-2"
             )
             refs["plot_gauges"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:200px")
 
@@ -2021,6 +2068,7 @@ def build_monitor_page(app_state) -> None:
     _prev_n_myths:    list[int]  = [0]    # H2 — detección de nuevos mitos
     _prev_hysteria:   list[bool] = [False]  # H2 — detección histeria
     _notified_deaths: set        = set()   # H2 — agentes destacados ya notificados
+    _icl_history:     deque      = deque(maxlen=120)  # D3 — últimas 120 muestras (~4min a 2s)
 
     _SIM_COLORS = {"running": "green", "stopped": "red", "paused": "orange", "error": "red"}
 
@@ -2159,6 +2207,17 @@ def build_monitor_page(app_state) -> None:
                 fig_gauges = _build_icl_gauges(ep, mp, con)
                 if fig_gauges:
                     refs["plot_gauges"].update_figure(fig_gauges)
+
+                # D3 — Sparkline: acumular muestra y redibujar
+                _icl_history.append({
+                    "dia":               app_state.dia_simulado,
+                    "emotional_pressure": ep,
+                    "myth_pressure":      mp,
+                    "confusion":          con,
+                })
+                fig_spark = _build_icl_sparkline(_icl_history)
+                if fig_spark:
+                    refs["plot_icl_sparkline"].update_figure(fig_spark)
 
                 # ICL B2 — Símbolos con tooltips y tribu dominante
                 symbols    = cf.get("symbols", {})
