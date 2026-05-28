@@ -102,6 +102,7 @@ def _extract_agents_data(runner) -> list[dict]:
         print(f"[UI] _extract_agents_data setup: {e}", file=sys.stderr)
         return []
     out = []
+    skipped = 0
     for agent_id, agent in list(ac.agents.items()):
         try:
             bs    = agent.behavioral_state
@@ -112,11 +113,12 @@ def _extract_agents_data(runner) -> list[dict]:
             arch = agent.archetypes.dominant()
             pos  = agent.posicion
             if not isinstance(pos, (tuple, list)) or len(pos) != 2:
+                skipped += 1
                 continue
             out.append({
                 "id":        agent_id,
                 "nombre":    agent.nombre,
-                "pos":       tuple(pos),
+                "pos":       (int(pos[0]), int(pos[1])),
                 "alive":     agent.is_alive,
                 "humor":     round(agent.humor, 2),
                 "edad":      getattr(agent, "edad", 0),
@@ -126,6 +128,8 @@ def _extract_agents_data(runner) -> list[dict]:
             })
         except Exception as e:
             print(f"[UI] agent {agent_id}: {e}", file=sys.stderr)
+    if skipped:
+        print(f"[UI] _extract_agents_data: {skipped} agentes sin posición válida", file=sys.stderr)
     return out
 
 
@@ -454,8 +458,8 @@ def _build_hex_map(
             color = _ARCH_COLORS.get(arch, "#cccccc")
             traces.append(go.Scattergl(
                 x=data["xs"], y=data["ys"], mode="markers",
-                marker=dict(symbol="circle", size=14, color=color,
-                            line=dict(width=2.0, color="#000000")),
+                marker=dict(symbol="circle", size=19, color=color,
+                            line=dict(width=2.5, color="#000000")),
                 text=data["texts"], hoverinfo="text",
                 name=f"↑ {arch}", legendgroup="agentes",
                 visible=True,
@@ -464,7 +468,7 @@ def _build_hex_map(
         if dead_ax:
             traces.append(go.Scattergl(
                 x=dead_ax, y=dead_ay, mode="markers",
-                marker=dict(symbol="x-thin-open", size=8, color="#666677",
+                marker=dict(symbol="x-thin-open", size=11, color="#666677",
                             line=dict(width=1.5)),
                 text=dead_at, hoverinfo="text",
                 name="Muertos", legendgroup="agentes",
