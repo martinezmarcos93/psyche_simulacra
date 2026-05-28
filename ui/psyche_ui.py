@@ -76,6 +76,15 @@ _STRUCT_COLORS: dict[str, str] = {
     "activo": "#2ecc71", "abandonado": "#f39c12", "ruina": "#e74c3c",
 }
 
+_LIMINAL_BIOME_COLORS: dict[str, str] = {
+    "vacio":      "#0f0c1e",
+    "nebulosa":   "#370c55",
+    "cristalino": "#123857",
+    "sombra":     "#080812",
+    "aurora":     "#124b41",
+}
+_LIMINAL_SIM_COLORS = ["#64b4ff", "#ff8266", "#5ae68c", "#ffdc50", "#dc78ff"]
+
 
 # ── Helpers geométricos ───────────────────────────────────────────────────────
 
@@ -666,6 +675,69 @@ def _build_trend_figure(
         yaxis=yaxis_cfg,
         shapes=shapes,
         annotations=event_annotations,
+    )
+    return fig
+
+
+def _build_liminal_map(state: dict) -> "go.Figure | None":
+    """C2 — Mapa Plotly del mundo liminal (30×20 hexes) con agentes en tránsito."""
+    try:
+        import plotly.graph_objects as go
+    except ImportError:
+        return None
+
+    hexes  = state.get("hexes", [])
+    agents = state.get("agents", [])
+    if not hexes:
+        return None
+
+    xs, ys, colors, texts = [], [], [], []
+    for h in hexes:
+        x, y = _hex_xy(h["q"], h["r"])
+        xs.append(x); ys.append(y)
+        colors.append(_LIMINAL_BIOME_COLORS.get(h["sub_biome"], "#1a0a2e"))
+        texts.append(f"({h['q']},{h['r']}) {h['sub_biome']}")
+
+    traces: list = [go.Scattergl(
+        x=xs, y=ys, mode="markers",
+        marker=dict(symbol="circle", size=15, color=colors, line=dict(width=0)),
+        text=texts, hoverinfo="text", name="Terreno liminal",
+    )]
+
+    by_sim: dict = {}
+    for a in agents:
+        sim = a.get("from_sim", "?")
+        entry = by_sim.setdefault(sim, {"xs": [], "ys": [], "texts": []})
+        x, y = _hex_xy(*a["pos"])
+        entry["xs"].append(x); entry["ys"].append(y)
+        entry["texts"].append(
+            f"<b>{a['nombre']}</b><br>Sim: {sim}<br>Arquetipo: {a['arquetipo']}"
+        )
+    for i, (sim, data) in enumerate(by_sim.items()):
+        col = _LIMINAL_SIM_COLORS[i % len(_LIMINAL_SIM_COLORS)]
+        traces.append(go.Scattergl(
+            x=data["xs"], y=data["ys"], mode="markers",
+            marker=dict(symbol="star", size=20, color=col,
+                        line=dict(width=2, color="#ffffff")),
+            text=data["texts"], hoverinfo="text",
+            name=f"Agentes [{sim}]",
+        ))
+
+    fig = go.Figure(data=traces)
+    fig.update_layout(
+        paper_bgcolor="#04030f", plot_bgcolor="#04030f",
+        showlegend=True,
+        legend=dict(font=dict(color="#aaa", size=9), bgcolor="rgba(0,0,0,0.5)"),
+        margin=dict(l=0, r=0, t=24, b=0),
+        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False,
+                   scaleanchor="y", scaleratio=1),
+        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+        title=dict(
+            text=(f"Zona Liminal · tick {state.get('tick', 0)} · "
+                  f"{len(agents)} agentes · {state.get('n_sims', 0)} sims"),
+            font=dict(color="#888", size=11),
+        ),
+        dragmode="pan", uirevision="liminal_map",
     )
     return fig
 
@@ -1758,7 +1830,11 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
             ).classes("w-full mb-2")
 
             seed_input = ui.number("Seed aleatoria", value=42, min=0).classes("w-full mb-4")
-            use_liminal = ui.checkbox("Levantar servidor Zona Liminal", value=False).classes("mb-4")
+            use_liminal = ui.checkbox("Levantar servidor Zona Liminal", value=False).classes("mb-1")
+            _lim_port = app_state.liminal_port
+            ui.label(
+                f"WebSocket: ws://0.0.0.0:{_lim_port}  |  HTTP /state: http://localhost:{_lim_port + 1}/state"
+            ).classes("text-xs text-gray-500 font-mono mb-3").bind_visibility_from(use_liminal, "value")
 
             # H3 — Configuración avanzada
             with ui.expansion("Configuración avanzada", icon="settings").classes(
@@ -2301,13 +2377,44 @@ def build_monitor_page(app_state) -> None:
                 refs["layer_fuego"]       = ui.checkbox("Fuego",            value=True).classes("text-xs text-red-400")
             refs["hex_plot"] = ui.plotly(_dark_placeholder()).classes("w-full").style("height:82vh")
 
-        # ── Tab Liminal ───────────────────────────────────────────────────────
+        # ── Tab Liminal (C2/C3) ───────────────────────────────────────────────
         if app_state.use_liminal:
             with ui.tab_panel(t_liminal):
-                ui.label("Zona Liminal").classes(
-                    "text-sm font-semibold px-4 pt-4 text-purple-300"
+                # C3 — Status header
+                with ui.row().classes("px-4 pt-3 pb-1 gap-6 items-center flex-wrap"):
+                    refs["lim_badge"]   = ui.badge("Conectando...", color="grey").classes("text-xs")
+                    refs["lim_tick"]    = ui.label("tick —").classes("text-xs text-purple-200")
+                    refs["lim_nsims"]   = ui.label("Sims: —").classes("text-xs text-blue-300")
+                    refs["lim_nagents"] = ui.label("Agentes: —").classes("text-xs text-green-300")
+                    ui.label(
+                        f"ws://localhost:{app_state.liminal_port}  |  "
+                        f"http://localhost:{app_state.liminal_port + 1}/state"
+                    ).classes("text-xs text-gray-500 font-mono")
+
+                # C2 — Mapa Plotly del mundo liminal
+                refs["lim_map"] = ui.plotly(_dark_placeholder()).classes("w-full px-2").style("height:52vh")
+
+                ui.separator().classes("mx-4 mt-2 mb-1")
+
+                with ui.row().classes("px-4 gap-6 flex-wrap w-full"):
+                    # C3 — Simulaciones conectadas
+                    with ui.column().classes("gap-1 flex-1"):
+                        ui.label("Simulaciones conectadas").classes("text-xs text-gray-400 uppercase")
+                        refs["lim_sims_html"] = ui.html("").classes("text-xs text-gray-300")
+
+                    # C3 — Agentes en tránsito
+                    with ui.column().classes("gap-1 flex-1"):
+                        ui.label("Agentes en tránsito").classes("text-xs text-gray-400 uppercase")
+                        refs["lim_agents_html"] = ui.html("").classes("text-xs text-gray-300")
+
+                ui.separator().classes("mx-4 mt-2 mb-1")
+
+                # Hexes liminales del mundo principal (del snapshot)
+                ui.label("Hexes liminales en el mundo principal").classes(
+                    "text-xs text-gray-400 uppercase px-4"
                 )
-                refs["lim_hexes"]  = ui.html("").classes("px-4 pb-2 text-xs font-mono text-purple-200")
+                refs["lim_hexes"] = ui.html("").classes("px-4 pb-2 text-xs font-mono text-purple-200")
+
                 ui.separator().classes("mx-4 my-2")
                 ui.label("Campo del Multiverso (R5-E2)").classes(
                     "text-xs text-gray-400 uppercase px-4"
@@ -2327,6 +2434,55 @@ def build_monitor_page(app_state) -> None:
     _icl_history:     deque      = deque(maxlen=120)  # D3 — últimas 120 muestras (~4min a 2s)
 
     _SIM_COLORS = {"running": "green", "stopped": "red", "paused": "orange", "error": "red"}
+
+    # ── C2/C3: polling HTTP al servidor liminal (cada 5s) ─────────────────────
+    if app_state.use_liminal:
+        import urllib.request as _urllib
+
+        def _refresh_liminal() -> None:
+            http_port = app_state.liminal_port + 1
+            url = f"http://localhost:{http_port}/state"
+            try:
+                with _urllib.urlopen(url, timeout=2) as resp:
+                    state = __import__("json").loads(resp.read())
+                refs["lim_badge"].set_text("Activo")
+                refs["lim_badge"].props('color="green"')
+                refs["lim_tick"].set_text(f"tick {state.get('tick', 0)}")
+                refs["lim_nsims"].set_text(f"Sims: {state.get('n_sims', 0)}")
+                refs["lim_nagents"].set_text(f"Agentes: {state.get('n_agents', 0)}")
+
+                fig_lim = _build_liminal_map(state)
+                if fig_lim:
+                    refs["lim_map"].update_figure(fig_lim)
+
+                sims = state.get("sims", [])
+                if sims:
+                    sims_html = "".join(
+                        f"<div><span style='color:#64b4ff'>{s['sim_id']}</span>"
+                        f" — {s['n_agents']} agentes</div>"
+                        for s in sims
+                    )
+                else:
+                    sims_html = "<span style='color:#555'>Sin simulaciones conectadas.</span>"
+                refs["lim_sims_html"].set_content(sims_html)
+
+                agents = state.get("agents", [])
+                if agents:
+                    ag_html = "".join(
+                        f"<div><b style='color:#ccc'>{a['nombre']}</b> "
+                        f"<span style='color:#555'>({a['from_sim']})</span> "
+                        f"— {a['arquetipo']}</div>"
+                        for a in agents[:20]
+                    )
+                else:
+                    ag_html = "<span style='color:#555'>Sin agentes en tránsito.</span>"
+                refs["lim_agents_html"].set_content(ag_html)
+
+            except Exception:
+                refs["lim_badge"].set_text("Sin conexion")
+                refs["lim_badge"].props('color="red"')
+
+        ui.timer(5.0, _refresh_liminal)
 
     def _refresh() -> None:
         try:

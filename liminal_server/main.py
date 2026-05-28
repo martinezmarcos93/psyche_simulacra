@@ -1,8 +1,10 @@
 """
 main.py — Punto de entrada del servidor LIMINAL ZONE.
 
-Arranca el servidor WebSocket en un thread de asyncio y el
-visualizador Pygame en el thread principal.
+Modo headless (sin Pygame). Expone:
+  - WebSocket en ws://host:port  (protocolo de interconexión de simulaciones)
+  - HTTP GET /state en http://host:port+1  (estado para NiceGUI / dashboard)
+  - HTTP GET /health en http://host:port+1 (liveness probe)
 
 Uso:
     python main.py
@@ -13,11 +15,11 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 import logging
 import sys
-import threading
 
-import pygame
+from aiohttp import web
 
 import config
 from core.liminal_world import LiminalWorld
@@ -25,7 +27,6 @@ from core.liminal_clock import LiminalClock
 from core.simulation_registry import SimulationRegistry
 from core.agent_registry import AgentRegistry
 from transport.websocket_server import LiminalServer
-from visualizer.liminal_pygame import LiminalPygame
 
 
 logging.basicConfig(
@@ -36,33 +37,84 @@ logging.basicConfig(
 logger = logging.getLogger("liminal.main")
 
 
-def _run_server_thread(server: LiminalServer) -> None:
-    """Corre el servidor WebSocket en un thread dedicado con su propio event loop."""
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    try:
-        loop.run_until_complete(server.serve())
-    except Exception as e:
-        logger.error(f"Error fatal en el servidor: {e}")
-    finally:
-        loop.close()
+# ── Endpoint HTTP /state ──────────────────────────────────────────────────────
+
+def _build_state_handler(world: LiminalWorld, clock: LiminalClock,
+                         sim_registry: SimulationRegistry,
+                         agent_registry: AgentRegistry):
+    async def state_handler(request: web.Request) -> web.Response:
+        hexes = [
+            {"q": h.q, "r": h.r, "sub_biome": h.sub_biome}
+            for h in world.all_cells()
+        ]
+        agents = [
+            {
+                "agent_id":  a.agent_id,
+                "nombre":    a.nombre,
+                "from_sim":  a.from_sim,
+                "pos":       list(a.pos),
+                "arquetipo": a.dominant_archetype,
+            }
+            for a in agent_registry.all()
+        ]
+        sims = [
+            {
+                "sim_id":   sid,
+                "n_agents": len(agent_registry.by_sim(sid)),
+            }
+            for sid in sim_registry.sim_ids()
+        ]
+        data = {
+            "tick":     clock.tick,
+            "n_sims":   sim_registry.count(),
+            "n_agents": agent_registry.count(),
+            "hexes":    hexes,
+            "agents":   agents,
+            "sims":     sims,
+        }
+        return web.Response(
+            text=json.dumps(data),
+            content_type="application/json",
+            headers={"Access-Control-Allow-Origin": "*"},
+        )
+    return state_handler
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="LIMINAL ZONE — Servidor de interconexión")
-    parser.add_argument("--host", default=config.SERVER_HOST)
-    parser.add_argument("--port", type=int, default=config.SERVER_PORT)
-    parser.add_argument("--seed", type=int, default=config.WORLD_SEED)
-    args = parser.parse_args()
+async def _run_http(world, clock, sim_registry, agent_registry, host: str, http_port: int):
+    """Levanta el servidor HTTP con aiohttp en el event loop actual."""
+    app = web.Application()
+    app.router.add_get("/state",  _build_state_handler(world, clock, sim_registry, agent_registry))
+    app.router.add_get("/health", lambda r: web.Response(text="ok"))
 
-    # ── Construir el mundo compartido ────────────────────────────────────────
-    logger.info(f"Inicializando LiminalWorld (seed={args.seed})")
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, host, http_port)
+    await site.start()
+    logger.info(f"HTTP /state disponible en http://{host}:{http_port}/state")
+    return runner
+
+
+# ── Clock ticker ──────────────────────────────────────────────────────────────
+
+async def _clock_ticker(clock: LiminalClock, server: LiminalServer,
+                        interval: float = 2.0) -> None:
+    """Avanza el reloj liminal y ejecuta la lógica de retorno cada interval segundos."""
+    while True:
+        await asyncio.sleep(interval)
+        clock.advance()
+        server.tick()
+
+
+# ── Entry point ───────────────────────────────────────────────────────────────
+
+async def _run(args: argparse.Namespace) -> None:
+    http_port = args.port + 1
+
     world          = LiminalWorld(seed=args.seed)
     clock          = LiminalClock()
     sim_registry   = SimulationRegistry()
     agent_registry = AgentRegistry()
 
-    # ── Construir e iniciar el servidor WebSocket en background ──────────────
     server = LiminalServer(
         world=world,
         clock=clock,
@@ -72,46 +124,42 @@ def main() -> None:
         port=args.port,
     )
 
-    srv_thread = threading.Thread(target=_run_server_thread, args=(server,), daemon=True)
-    srv_thread.start()
-    logger.info(f"Servidor WebSocket iniciado en ws://{args.host}:{args.port}")
+    http_runner = await _run_http(world, clock, sim_registry, agent_registry,
+                                   args.host, http_port)
 
-    # ── Construir el visualizador Pygame (thread principal) ──────────────────
-    viz = LiminalPygame(
-        world=world,
-        agent_registry=agent_registry,
-        sim_registry=sim_registry,
-        clock=clock,
-    )
-
-    logger.info("Visualizador Pygame listo — loop principal iniciado")
     print()
-    print("=" * 50)
-    print("  LIMINAL ZONE — Servidor activo")
-    print(f"  WebSocket: ws://{args.host}:{args.port}")
-    print(f"  Mapa:      {world.WIDTH}×{world.HEIGHT} hexágonos")
-    print(f"  Seed:      {args.seed}")
-    print("=" * 50)
+    print("=" * 52)
+    print("  LIMINAL ZONE — Servidor activo (headless)")
+    print(f"  WebSocket : ws://{args.host}:{args.port}")
+    print(f"  HTTP /state: http://{args.host}:{http_port}/state")
+    print(f"  Mapa      : {world.WIDTH}x{world.HEIGHT} hexagonos")
+    print(f"  Seed      : {args.seed}")
+    print("=" * 52)
     print()
-    print("  Esperando simulaciones...")
-    print("  Cerrá la ventana Pygame para detener el servidor.")
+    print("  Esperando simulaciones... (Ctrl+C para detener)")
     print()
 
-    # Loop principal: Pygame en foreground, servidor en background
-    tick_counter = 0
-    while viz.running:
-        if not viz.run_frame():
-            break
-        # Avanzar el reloj liminal cada 60 frames (~2 segundos a 30 FPS)
-        tick_counter += 1
-        if tick_counter >= 60:
-            clock.advance()
-            server.tick()   # chequea retornos y actualiza lógica liminal
-            tick_counter = 0
+    try:
+        await asyncio.gather(
+            server.serve(),
+            _clock_ticker(clock, server),
+        )
+    finally:
+        await http_runner.cleanup()
 
-    pygame.quit()
-    logger.info("Servidor detenido.")
-    sys.exit(0)
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="LIMINAL ZONE — Servidor de interconexion")
+    parser.add_argument("--host", default=config.SERVER_HOST)
+    parser.add_argument("--port", type=int, default=config.SERVER_PORT)
+    parser.add_argument("--seed", type=int, default=config.WORLD_SEED)
+    args = parser.parse_args()
+
+    try:
+        asyncio.run(_run(args))
+    except KeyboardInterrupt:
+        logger.info("Servidor detenido por el usuario.")
+        sys.exit(0)
 
 
 if __name__ == "__main__":
