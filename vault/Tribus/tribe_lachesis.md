@@ -1,6 +1,6 @@
-# 🏕️ Tribu de la Sombra
+# 🏕️ Tribu del Self
 
-> **Día:** `1987` | **Miembros vivos:** `2`
+> **Día:** `2410` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,8 +8,7 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[lachesis]] (Lachesis) | generico | 26 | sombra |
-| [[phoibos]] (Phoibos) | generico | 37 | sombra |
+| [[lachesis]] (Lachesis) | generico | 27 | self |
 
 ---
 
@@ -19,14 +18,14 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Muerte** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.739` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.663` | `▓▓▓▓▓▓▓░░░` |
-| **Sabio** | `0.040` | `░░░░░░░░░░` |
-| **Padre** | `0.024` | `░░░░░░░░░░` |
+| **Sombra** | `0.654` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.654` | `▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.359` | `▓▓▓▓░░░░░░` |
+| **Madre** | `0.276` | `▓▓▓░░░░░░░` |
+| **Rebelde** | `0.133` | `▓░░░░░░░░░` |
+| **Padre** | `0.049` | `░░░░░░░░░░` |
+| **Sabio** | `0.001` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

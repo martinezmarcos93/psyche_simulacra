@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `1980` | **Miembros vivos:** `2`
+> **Día:** `2370` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[fyria]] (Fyria) | cazador | 44 | sombra |
-| [[rhadys]] (Rhadys) | guardian | 54 | sombra |
+| [[fyria]] (Fyria) | cazador | 45 | sombra |
+| [[xanthe]] (Xanthe) | generico | 46 | sombra |
 
 ---
 
@@ -19,14 +19,14 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Muerte** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Sombra** | `0.983` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.796` | `▓▓▓▓▓▓▓▓░░` |
-| **Rebelde** | `0.625` | `▓▓▓▓▓▓░░░░` |
-| **Madre** | `0.617` | `▓▓▓▓▓▓░░░░` |
-| **Padre** | `0.087` | `▓░░░░░░░░░` |
-| **Sabio** | `0.072` | `▓░░░░░░░░░` |
+| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.693` | `▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.668` | `▓▓▓▓▓▓▓░░░` |
+| **Padre** | `0.059` | `▓░░░░░░░░░` |
+| **Sabio** | `0.047` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Ánima-Ánimus
+# 🏕️ Tribu de la Madre
 
-> **Día:** `1987` | **Miembros vivos:** `5`
+> **Día:** `2410` | **Miembros vivos:** `3`
 
 ---
 
@@ -8,11 +8,9 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[brysis]] (Brysis) | generico | 13 | anima_animus |
-| [[fyria]] (Fyria) | cazador | 44 | persona |
-| [[garan]] (Garan) | guardian | 26 | self |
-| [[peria]] (Peria) | generico | 13 | sombra |
-| [[rhadys]] (Rhadys) | guardian | 54 | sombra |
+| [[brysis]] (Brysis) | generico | 14 | madre |
+| [[fyria]] (Fyria) | cazador | 45 | anima_animus |
+| [[xanthe]] (Xanthe) | generico | 46 | sombra |
 
 ---
 
@@ -22,14 +20,14 @@
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Muerte** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.904` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.652` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.616` | `▓▓▓▓▓▓░░░░` |
-| **Sabio** | `0.145` | `▓░░░░░░░░░` |
-| **Padre** | `0.084` | `▓░░░░░░░░░` |
+| **Sombra** | `0.973` | `▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.922` | `▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.905` | `▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.842` | `▓▓▓▓▓▓▓▓░░` |
+| **Rebelde** | `0.682` | `▓▓▓▓▓▓▓░░░` |
+| **Padre** | `0.103` | `▓░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |

@@ -5,34 +5,34 @@ rol: generico
 edad: 14
 sexo: F
 is_alive: True
-posicion: [53, 34]
-humor: 0.860
-energia: 0.704
-ansiedad: 0.326
+posicion: [51, 27]
+humor: 0.871
+energia: 0.638
+ansiedad: 0.324
 needs:
-  hambre: 0.041
-  fatiga: 0.294
-  sed: 0.376
+  hambre: 0.000
+  fatiga: 0.526
+  sed: 0.042
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
-  self: 1.000
-  persona: 0.500
-  sombra: 0.130
-  anima_animus: 0.648
-  heroe: 0.517
-  sabio: 0.415
-  trickster: 0.234
-  madre: 0.206
-  padre: 0.402
-  nino_divino: 0.283
-  gobernante: 0.383
-  rebelde: 0.307
+  self: 0.995
+  persona: 0.550
+  sombra: 0.125
+  anima_animus: 0.798
+  heroe: 0.486
+  sabio: 0.444
+  trickster: 0.286
+  madre: 0.211
+  padre: 0.389
+  nino_divino: 0.374
+  gobernante: 0.402
+  rebelde: 0.332
 ---
 # 👤 Persona: Kore
 
-> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(53, 34)`
+> **Rol:** `generico` | **Edad:** 14 | **Sexo:** F | **Ubicación:** `(51, 27)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.86 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.70 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.33 |
+| **Humor** | `[▓▓▓▓▓▓▓▓▓░]` | 0.87 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
+| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.32 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.38 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.29 | 🟢 Descansado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.00 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓░░░░░]` | 0.53 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.130` | `▓▓░░░░░░░░░░` |
-| **Anima animus** | `0.648` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.517` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.415` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.234` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.206` | `▓▓░░░░░░░░░░` |
-| **Padre** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.283` | `▓▓▓░░░░░░░░░` |
-| **Gobernante** | `0.383` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.307` | `▓▓▓▓░░░░░░░░` |
+| **Self** | `0.995` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.125` | `▓░░░░░░░░░░░` |
+| **Anima animus** | `0.798` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.486` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.444` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.286` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.211` | `▓▓▓░░░░░░░░░` |
+| **Padre** | `0.389` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.374` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.402` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.332` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -95,28 +95,29 @@ arquetipos:
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[doron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[elpis]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[filia]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
 | [[hados]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[moros]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `-0.51` | `▓▓░░░░░░░░` | Ninguno |
-| [[sophron]] | `-0.52` | `▓▓░░░░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'semilla_negra'` (arquetipo `self`).
-  - *Insight:* El self y lo reprimido se toleran esta noche en valle fertil.
-- **Día 25:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en bosque templado, lejos de lo reprimido.
-- **Día 26:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En rio lago, lo reprimido pierde fuerza un instante — el self respira.
-- **Día 27:** Soñó con `'fondo_que_sube'` (arquetipo `self`).
-  - *Insight:* En rio lago, el self encuentra tregua provisional con lo reprimido.
-- **Día 28:** Soñó con `'descenso_inevitable'` (arquetipo `self`).
-  - *Insight:* En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- **Día 29:** Soñó con `'sendero_circular'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- **Día 30:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- **Día 24:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- **Día 25:** Soñó con `'caída_sin_fondo'` (arquetipo `self`).
+  - *Insight:* Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- **Día 26:** Soñó con `'rebelde'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 27:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 29:** Soñó con `'rebelde'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- **Día 30:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
 
 ---
 
@@ -136,8 +137,8 @@ arquetipos:
 - Día 0: Detectó y rechazó un intento de manipulación de Peitho.
 - Día 1: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
 - Día 1: El colapso de nuestra tribu. Solo quedamos 1.
-- Día 2: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de pradera humeda, el self y lo reprimido coexisten sin resolverse.
-- Día 3: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, lo reprimido pierde fuerza un instante — el self respira.
+- Día 2: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de pradera humeda, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 3: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Doron.
@@ -154,7 +155,7 @@ arquetipos:
 - Día 3: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 3: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
-- Día 4: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con colapso civilizatorio.
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
@@ -179,7 +180,7 @@ arquetipos:
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 4: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
-- Día 5: Soñó con 'unión_imposible' (self). Insight: El self y lo reprimido se toleran esta noche en costa abierta.
+- Día 5: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en costa abierta.
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
@@ -202,7 +203,7 @@ arquetipos:
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 5: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
-- Día 6: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 6: Soñó con 'árbol_sin_raíces' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
@@ -225,32 +226,31 @@ arquetipos:
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
 - Día 6: Se enfrentó en un choque violento y destructivo contra Doron.
-- Día 7: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 8: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de bosque templado, el self y lo reprimido coexisten sin resolverse.
-- Día 9: Soñó con 'mandala_incompleto' (self). Insight: El self y lo reprimido se toleran esta noche en lago interior.
-- Día 10: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 11: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
-- Día 12: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 13: Soñó con 'marea_que_sube' (self). Insight: El self y lo reprimido se toleran esta noche en costa abierta.
-- Día 14: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
-- Día 14: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
-- Día 14: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
-- Día 14: Sufrió explotación y hostilidad de Sophron, cediendo recursos biológicos.
-- Día 14: Manipuló con éxito y astucia a Sophron para ceder recursos.
-- Día 15: Soñó con 'mandala_incompleto' (self). Insight: lo reprimido pesa demasiado — el self cede terreno en sabana abierta para no caer.
-- Día 16: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de lo reprimido.
-- Día 17: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self negocia con lo reprimido en el único idioma posible: el silencio.
-- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en lago interior mientras lo reprimido aguarda en el umbral.
-- Día 19: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- Día 20: Soñó con 'sombra_que_camina' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de lo reprimido.
-- Día 21: Soñó con 'unión_imposible' (self). Insight: El self descansa en colinas suaves mientras lo reprimido aguarda en el umbral.
-- Día 22: Soñó con 'horizonte_de_agua' (self). Insight: El self y lo reprimido se toleran esta noche en costa abierta.
-- Día 23: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta, lo reprimido pierde fuerza un instante — el self respira.
-- Día 24: Soñó con 'semilla_negra' (self). Insight: El self y lo reprimido se toleran esta noche en valle fertil.
-- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de lo reprimido.
-- Día 26: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, lo reprimido pierde fuerza un instante — el self respira.
-- Día 27: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
-- Día 28: Soñó con 'descenso_inevitable' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
-- Día 29: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
-- Día 30: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 7: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 8: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de bosque templado, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 9: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en lago interior.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 10: Soñó con 'unión_imposible' (self). Insight: El self descansa en bosque templado mientras colapso civilizatorio aguarda en el umbral.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Filia.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Filia.
+- Día 11: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 12: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
+- Día 13: Soñó con 'roca_que_aplasta' (self). Insight: El self busca equilibrio en montana alta compensando la energía de colapso civilizatorio.
+- Día 14: Soñó con 'caída_sin_fondo' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 15: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 16: Soñó con 'silencio_absoluto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de colapso civilizatorio.
+- Día 19: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 20: Soñó con 'trickster' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 21: Soñó con 'roca_que_aplasta' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 22: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 23: Manipuló con éxito y astucia a Moros para ceder recursos.
+- Día 24: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 25: Soñó con 'caída_sin_fondo' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 26: Soñó con 'rebelde' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 27: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 29: Soñó con 'rebelde' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 30: Soñó con 'unión_imposible' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.

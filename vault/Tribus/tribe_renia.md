@@ -1,6 +1,6 @@
 # 🏕️ Tribu de la Sombra
 
-> **Día:** `1987` | **Miembros vivos:** `2`
+> **Día:** `2190` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,25 +8,24 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[renia]] (Renia) | recolector | 58 | sombra |
-| [[xanthe]] (Xanthe) | generico | 45 | sombra |
+| [[renia]] (Renia) | recolector | 59 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.950` `[▓▓▓▓▓▓▓▓▓▓▓░]`
+> **Presión emocional:** `0.390` `[▓▓▓▓▓░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Muerte** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Rebelde** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.960` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Madre** | `0.852` | `▓▓▓▓▓▓▓▓▓░` |
-| **Trickster** | `0.747` | `▓▓▓▓▓▓▓░░░` |
-| **Padre** | `0.031` | `░░░░░░░░░░` |
-| **Sabio** | `0.017` | `░░░░░░░░░░` |
+| **Heroe** | `0.834` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.627` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.616` | `▓▓▓▓▓▓░░░░` |
+| **Rebelde** | `0.333` | `▓▓▓░░░░░░░` |
+| **Sabio** | `0.090` | `▓░░░░░░░░░` |
+| **Padre** | `0.050` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |

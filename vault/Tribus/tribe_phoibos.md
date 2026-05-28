@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Self
+# 🏕️ Tribu de la Sombra
 
-> **Día:** `1920` | **Miembros vivos:** `1`
+> **Día:** `2410` | **Miembros vivos:** `2`
 
 ---
 
@@ -8,26 +8,27 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
-| [[phoibos]] (Phoibos) | generico | 37 | self |
+| [[phoibos]] (Phoibos) | generico | 38 | sombra |
+| [[rhadys]] (Rhadys) | guardian | 55 | sombra |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.739` `[▓▓▓▓▓▓▓▓▓░░░]`
+> **Presión emocional:** `0.933` `[▓▓▓▓▓▓▓▓▓▓▓░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
 | **Muerte** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Heroe** | `0.947` | `▓▓▓▓▓▓▓▓▓░` |
-| **Madre** | `0.841` | `▓▓▓▓▓▓▓▓░░` |
-| **Trickster** | `0.660` | `▓▓▓▓▓▓▓░░░` |
-| **Rebelde** | `0.535` | `▓▓▓▓▓░░░░░` |
-| **Padre** | `0.140` | `▓░░░░░░░░░` |
-| **Sabio** | `0.016` | `░░░░░░░░░░` |
+| **Rebelde** | `0.626` | `▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.141` | `▓░░░░░░░░░` |
+| **Padre** | `0.075` | `▓░░░░░░░░░` |
+| **Heroe** | `0.074` | `▓░░░░░░░░░` |
+| **Madre** | `0.037` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Trickster** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 

@@ -1,6 +1,6 @@
 # 🏛️ Cultura Material
 
-> **Día:** `1987` | **Estructuras activas:** `60`
+> **Día:** `2410` | **Estructuras activas:** `62`
 
 ---
 
@@ -68,6 +68,8 @@
 | 🗿 Tótem | `tribe_fyria` | `(74, 54)` | Día 1141 | 2 hex | `+0.015` | `-0.010` |
 | ⛩️ Altar | `tribe_brysis` | `(78, 57)` | Día 1209 | 2 hex | `+0.010` | `-0.015` |
 | 🧱 Muralla | `tribe_fyria` | `(71, 49)` | Día 1671 | 1 hex | `—` | `-0.020` |
+| 🗿 Tótem | `tribe_fyria` | `(79, 47)` | Día 2072 | 2 hex | `+0.015` | `-0.010` |
+| 🗿 Tótem | `tribe_myrrha` | `(77, 57)` | Día 2391 | 2 hex | `+0.015` | `-0.010` |
 
 ---
 
@@ -85,7 +87,7 @@
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.025`/día
 - **Impulso arquetípico:** sombra: +0.0003/día
 
-### 🗿 Tótem (3 activas)
+### 🗿 Tótem (5 activas)
 - **Radio:** 2 hexes
 - **Para miembros:** humor `+0.015`, ansiedad `-0.010`/día
 - **Para forasteros:** humor `+0.000`, ansiedad `+0.000`/día

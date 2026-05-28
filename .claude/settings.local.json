@@ -72,7 +72,9 @@
       "Bash(where python *)",
       "Bash(pip list *)",
       "Bash(git mv *)",
-      "Bash(grep -n \"except Exception: pass\\\\|except Exception:\\\\s*$\\\\|except.*pass\" ui/psyche_ui.py)"
+      "Bash(grep -n \"except Exception: pass\\\\|except Exception:\\\\s*$\\\\|except.*pass\" ui/psyche_ui.py)",
+      "Bash(git merge *)",
+      "Bash(git branch *)"
     ]
   }
 }
