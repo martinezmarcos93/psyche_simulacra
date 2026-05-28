@@ -550,10 +550,11 @@ def _build_hex_map(
                     dead_at.append(f"✝ {a['nombre']} ({a['tribu']})")
                 continue
             arch  = a["arquetipo"]
-            entry = by_arch.setdefault(arch, {"xs": [], "ys": [], "texts": []})
+            entry = by_arch.setdefault(arch, {"xs": [], "ys": [], "labels": [], "hovers": []})
             x, y  = _hex_xy(*a["pos"])
             entry["xs"].append(x); entry["ys"].append(y)
-            entry["texts"].append(
+            entry["labels"].append(a["nombre"])
+            entry["hovers"].append(
                 f"<b>{a['nombre']}</b><br>Tribu: {a['tribu']}<br>"
                 f"Arquetipo: {arch}<br>Humor: {a['humor']}<br>"
                 f"Edad: {a['edad']}  Estado: {a['estado']}"
@@ -562,10 +563,12 @@ def _build_hex_map(
         for arch, data in by_arch.items():
             color = _ARCH_COLORS.get(arch, "#cccccc")
             traces.append(go.Scattergl(
-                x=data["xs"], y=data["ys"], mode="markers",
+                x=data["xs"], y=data["ys"], mode="markers+text",
                 marker=dict(symbol="circle", size=19, color=color,
                             line=dict(width=2.5, color="#000000")),
-                text=data["texts"], hoverinfo="text",
+                text=data["labels"], textposition="top center",
+                textfont=dict(size=8, color="#ffffff"),
+                hovertext=data["hovers"], hoverinfo="text",
                 name=f"↑ {arch}", legendgroup="agentes",
                 visible=True,
             ))
