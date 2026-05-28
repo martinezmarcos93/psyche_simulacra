@@ -1716,7 +1716,8 @@ def _build_agent_radar(agent_data: dict) -> "go.Figure | None":
 
     fig = go.Figure(go.Scatterpolar(
         r=values_closed, theta=labels_closed,
-        fill="toself", fillcolor=dom_color.replace("#", "rgba(") + ",0.15)",
+        fill="toself", fillcolor="rgba({},{},{},0.15)".format(
+            int(dom_color[1:3], 16), int(dom_color[3:5], 16), int(dom_color[5:7], 16)),
         line=dict(color=dom_color, width=2),
         name=agent_data.get("nombre", "?"),
     ))
