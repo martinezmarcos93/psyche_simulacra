@@ -349,6 +349,8 @@ def _render_edge_table_html(
 
 # ── Figuras Plotly ────────────────────────────────────────────────────────────
 
+# TODO(duplicidad): lógica equivalente existe en scripts/visualizer.py (Pygame).
+# Consolidar en core/world/hex_renderer.py cuando se archive visualizer.py.
 def _build_hex_map(
     snap,
     terrain_biomes: dict,
@@ -1095,6 +1097,8 @@ def _render_proto_myths_html(proto_myths: list, active_myths: list) -> str:
     return "".join(parts)
 
 
+# TODO(duplicidad): variantes equivalentes en dashboard/components/network_graph.py
+# y tablas en dashboard/app.py. Consolidar en ui/graph_builders.py.
 def _build_social_graph(cp: dict) -> "go.Figure | None":
     """
     Red social cuántica (C1):
@@ -1899,6 +1903,8 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                 )
 
 
+# TODO(duplicidad): lógica análoga en scripts/run_simulation.py y scripts/visualizer.py.
+# Extraer a core/runtime/runner_factory.py para unificar los tres entry points.
 async def _start_sim(app_state, mode: str, seeds_path: str = None,
                      seed: int = 42, use_liminal: bool = False,
                      liminal_server: Path = None) -> None:

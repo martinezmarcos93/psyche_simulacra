@@ -204,16 +204,18 @@ y que debe **preservarse intacto**:
 
 ## 2. Problemas Estructurales Actuales
 
-### P1 — Sin orquestador central (el más grave)
-`main.py` es un menú interactivo, no un gestor de ciclo de vida. Lanza subprocesos sin
-monitorearlos, sin saber si fallaron, sin poder reiniciarlos. Si Ollama cae, nadie se entera.
-Si el servidor Liminal crashea, la simulación sigue corriendo sin saber que el canal murió.
+### P1 — Sin orquestador central ⚠️ PARCIALMENTE MITIGADO
+`main.py` fue refactorizado: el menú interactivo fue reemplazado por el launcher NiceGUI.
+Ollama ahora se inicia vía `OllamaDaemon` en un thread daemon al arrancar `main.py`.
+Queda pendiente: health-check activo del servidor Liminal desde la UI (si crashea,
+`runtime.state.liminal` no se actualiza automáticamente).
 
-### P2 — UI y simulación acopladas structuralmente
-`visualizer.py` instancia su propia copia de `SimulationRunner` en un thread daemon.
-Eso significa que hay **dos instancias** del sistema corriendo contra el mismo SQLite cuando
-el usuario abre la vista Pygame — una en main.py y otra en visualizer.py. Ambas leen y
-escriben checkpoints. Eso es una condición de carrera latente.
+### P2 — UI y simulación acopladas structuralmente ⚠️ MITIGADO (condición de carrera reducida)
+`main.py` ahora lanza solo NiceGUI (no `visualizer.py` en paralelo). El runner vive en un
+thread único dentro del proceso NiceGUI. `visualizer.py` (Pygame legacy) sigue siendo un
+entry point independiente con su propia instancia — si se ejecuta simultáneamente contra
+la misma DB, la condición de carrera de checkpoints persiste. Sin lock de archivo global,
+la concurrencia entre procesos sigue siendo responsabilidad del operador.
 
 ### P3 — Sin event bus interno
 El `SimulationClock` tiene handlers por prioridad, pero emite llamadas directas a objetos

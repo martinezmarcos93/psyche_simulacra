@@ -6,11 +6,11 @@
 
 ---
 
-## Bloque A — Estabilización crítica ✦ baja complejidad
+## Bloque A — Estabilización crítica ✦ baja complejidad ✅ COMPLETO
 
-> Fixes urgentes, sin diseño nuevo. Tiempo estimado: < 1 hora total.
+> Fixes urgentes, sin diseño nuevo.
 
-### A1 — Commit de correcciones acumuladas (staging actual)
+### A1 ✅ — Commit de correcciones acumuladas (staging actual)
 - `plotly` instalado y añadido a `requirements.txt` / `pyproject.toml`
 - `_BIOME_COLORS` corregido con los nombres reales de `hexagon.py`
 - `explored_coords` desde `terrain._explored_set` en lugar de `snap.recursos_por_hex`
@@ -18,19 +18,21 @@
 - Botón Pausar / Reanudar con `threading.Event` en el sim thread
 - Fix radar G1: `e.args.get("rows")` en lugar de `e.selection`
 
-### A2 — Primer carga inmediata de gráficos
+### A2 ✅ — Primer carga inmediata de gráficos
 - Los gráficos de tendencias y emergencia esperan 3 ciclos (6s) antes de cargar.
 - Disparar la primera carga en el tick inicial (`_charts_tick[0] = 99` al inicio).
 - Mismo patrón para el mapa (`_map_tick`) y el slow tick (`_slow_tick`).
 
-### A3 — Error logging visible
+### A3 ✅ — Error logging visible
 - El `except Exception: pass` en `_refresh()` traga errores en silencio.
 - Reemplazar por `except Exception as e: print(f"[UI] {e}", file=sys.stderr)`.
 - Permite diagnosticar problemas sin romper la UI.
 
-### A4 — Dependencias en pyproject.toml
-- Añadir `plotly>=5.0` y `nicegui>=2.0` a las dependencias del proyecto.
-- Verificar que `requirements.txt` y `pyproject.toml` están sincronizados.
+### A4 ✅ — Dependencias en pyproject.toml
+- `plotly>=5.0`, `nicegui>=2.0`, `websockets>=12.0`, `aiohttp>=3.9` añadidos.
+- Extras `dashboard` (matplotlib, pandas), `liminal` y `dev` documentados.
+- Paquetes `ui*` y `liminal_server*` incluidos en setuptools packages.find.
+- `requirements.txt` y `pyproject.toml` sincronizados.
 
 ---
 
@@ -57,12 +59,12 @@
 
 > Reemplazar la ventana Pygame externa por una visualización embedded. La mayor parte del código del servidor no cambia — solo la capa de visualización.
 
-### C1 — Eliminar Pygame del servidor liminal
-- `liminal_server/visualizer/liminal_pygame.py` → mover a `src/archive/`.
-- El servidor liminal queda como **WebSocket puro** (sin ventana gráfica).
-- El proceso lanzado desde el launcher ya no abre una segunda ventana.
+### C1 ⚠️ PENDIENTE — Eliminar Pygame del servidor liminal
+- `liminal_server/visualizer/liminal_pygame.py` sigue activo en el árbol (no archivado).
+- Mover a `src/archive/` y dejar el servidor como **WebSocket puro**.
+- Hasta que no se archive, el proceso del servidor puede abrir ventana Pygame.
 
-### C2 — Tab Zona Liminal: mapa Plotly del mundo liminal
+### C2 ✅ — Tab Zona Liminal: mapa Plotly del mundo liminal
 - El servidor liminal expone un endpoint HTTP `/state` (JSON) con el estado actual.
   - Hexes del mundo liminal 30×20 con sus biomas/portales.
   - Lista de agentes presentes (id, posición, sim_id de origen).
@@ -70,17 +72,17 @@
 - El tab Zona Liminal en NiceGUI hace polling HTTP cada 5s a ese endpoint.
 - Mapa Plotly Scattergl del mundo liminal (misma técnica que el mapa del mundo).
 
-### C3 — Panel de estado del servidor liminal
+### C3 ✅ — Panel de estado del servidor liminal
 - En el tab Zona Liminal:
   - Badge "Servidor: activo / inactivo" con ping.
   - Lista de simulaciones conectadas (sim_id, agentes enviados / recibidos).
   - Lista de agentes actualmente en tránsito.
   - Log de eventos recientes (agentes que entraron / salieron).
 
-### C4 — Conexión desde launcher
+### C4 ✅ — Conexión desde launcher
 - En el launcher (página `/`), si el servidor liminal está activo, mostrar IP:puerto.
 - Campo "Conectar a servidor externo" (IP:puerto para multijugador entre PCs).
-- El botón "Continuar simulación" levanta el cliente liminal apuntando a esa IP.
+- `_start_sim` levanta `LiminalClient` + `PortalHex` + `AgentTransferHandler` y los registra en el clock.
 
 ---
 

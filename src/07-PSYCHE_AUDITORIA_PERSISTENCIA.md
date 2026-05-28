@@ -678,11 +678,11 @@ class SimulationRunner:
 - [ ] coherencia del campo ← **AGREGAR**
 - [ ] agentes_resonantes_porcentaje ← **AGREGAR**
 
-### Persistencia ✅
-- [ ] Sistema de checkpoint ← **NUEVO Y CRÍTICO**
-- [ ] session_log ← **NUEVO**
-- [ ] Handlers de cierre graceful ← **NUEVO**
-- [ ] Write buffer con flush ← **NUEVO**
+### Persistencia ✅ — IMPLEMENTADO
+- [x] Sistema de checkpoint — `CheckpointManager` en `persistence/`, guardado atómico JSON, `_save_checkpoint()` en SimulationRunner
+- [x] session_log — `SessionLog` en `persistence/`, registra días, muertes y metadata de sesión
+- [x] Handlers de cierre graceful — `atexit.register(_emergency_save)` + `_emergency_save()` llama a `_save_checkpoint(reason="emergency")`
+- [x] Write buffer con flush — `WriteBuffer` en `persistence/`, flush automático cada 200 registros o N días
 
 ---
 

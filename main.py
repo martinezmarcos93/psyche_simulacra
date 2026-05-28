@@ -6,6 +6,7 @@ import os
 import shutil
 import subprocess
 import sys
+import threading
 from datetime import datetime
 from pathlib import Path
 
@@ -19,38 +20,6 @@ VAULT_DIR       = ROOT / "vault"
 SEEDS_DIR       = ROOT / "data" / "seeds"
 SEEDS_FILE      = SEEDS_DIR / "initial_personas.yaml"
 LIMINAL_SERVER  = ROOT / "liminal_server" / "main.py"
-
-
-# ── Ollama ────────────────────────────────────────────────────────────────────
-
-def _ollama_alive() -> bool:
-    import urllib.request
-    try:
-        with urllib.request.urlopen("http://localhost:11434/api/tags", timeout=2):
-            return True
-    except Exception:
-        return False
-
-
-def _ollama_start_background() -> None:
-    """Intenta iniciar Ollama en background; no bloquea ni falla si no está instalado."""
-    if _ollama_alive():
-        return
-    try:
-        if sys.platform == "win32":
-            subprocess.Popen(
-                ["ollama", "serve"],
-                creationflags=subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.DETACHED_PROCESS,
-                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
-            )
-        else:
-            subprocess.Popen(
-                ["ollama", "serve"],
-                start_new_session=True,
-                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
-            )
-    except FileNotFoundError:
-        pass  # ollama no instalado; narrativa LLM correrá en modo fallback
 
 
 # ── Utilidades de archivo ─────────────────────────────────────────────────────
@@ -118,7 +87,8 @@ def generate_seeds(n: int, seed: int) -> Path:
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 def main() -> None:
-    _ollama_start_background()
+    from core.narrative.daemon import OllamaDaemon
+    threading.Thread(target=OllamaDaemon().setup, daemon=True, name="ollama_setup").start()
 
     from ui.app_state import state
     from ui.psyche_ui import launch_ui

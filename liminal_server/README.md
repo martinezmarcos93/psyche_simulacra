@@ -201,8 +201,8 @@ liminal_server/
 | 0 | ✅ | Estructura del proyecto, protocolo base |
 | 1 | ✅ | Servidor mínimo — conexión y recepción de agentes |
 | 2 | ✅ | Cliente en PSYCHE SIMULACRA — portal hexagonal |
-| 3 | ✅ | Visualizador Pygame segunda ventana |
-| 4 | Pendiente | Conexión real entre dos PCs (port forwarding) |
-| 5 | Pendiente | Eventos simbólicos (mitos, sueños) cross-sim |
-| 6 | Pendiente | Interacción entre agentes de distintas sims |
-| 7 | Pendiente | Regreso de agentes a simulación de origen |
+| 3 | ✅ | Visualizador Pygame segunda ventana (`liminal_pygame.py`) |
+| 4 | Pendiente | Conexión real entre dos PCs (port forwarding / túnel) |
+| 5 | ⚠️ Parcial | Eventos simbólicos cross-sim — `AgentTransferHandler.on_day` propaga arquetipo/rasgos; eventos de mitos/sueños pendientes |
+| 6 | ⚠️ Parcial | Interacción cross-sim — agentes llegan al mundo liminal y se mueven; interacción directa entre agentes de distintas sims pendiente |
+| 7 | ⚠️ Parcial | Regreso — `AgentTransferHandler` maneja `agent_return` del servidor; reintegración completa al mundo de origen pendiente |
