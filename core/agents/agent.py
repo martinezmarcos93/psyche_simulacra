@@ -263,6 +263,10 @@ class Agent:
             self._pending_liminal_encounter = None
 
         traumas = extract_traumas_from_log(self.episodic_log)
+        # Enriquecer con traumas del episodic_memory estructurado (tipos de evento únicos por agente)
+        for rec in self.episodic_memory.all_short_term()[-7:]:
+            if rec.tipo_evento not in traumas:
+                traumas.append(rec.tipo_evento)
         dream = self._dream_engine.generate_dream(
             dia               = dia,
             dominante         = self.archetypes.dominant(),
@@ -272,6 +276,7 @@ class Agent:
             traumas_recientes = traumas,
             resonancia_grupal = resonancia_grupal,
             rng               = self._rng,
+            agent_id          = self.id,
         )
         self.dreams.append(dream)
         self.episodic_log.append(

@@ -200,11 +200,14 @@ class DreamGrammarEngine:
         traumas_recientes: list[str] | None = None,
         resonancia_grupal: str | None = None,
         rng:               random.Random | None = None,
+        agent_id:          str | None = None,
     ) -> Dream:
         r = rng or random.Random()
+        # Offset determinístico por agente: rompe empates cuando el pool es idéntico
+        agent_seed = (abs(hash(agent_id)) % 10_000) / 10_000.0 if agent_id else 0.0
 
         pool = self._build_pool(dominante, complejo_activo, bioma, traumas_recientes, resonancia_grupal)
-        simbolo = self._sample_symbol(pool, r)
+        simbolo = self._sample_symbol(pool, r, agent_seed)
         procesamiento = _select_processing(tension, r)
         insight = self._generate_insight(
             dominante, complejo_activo, procesamiento, bioma, traumas_recientes or [], r
@@ -260,11 +263,18 @@ class DreamGrammarEngine:
 
         return pool
 
-    def _sample_symbol(self, pool: list[tuple[str, float]], rng: random.Random) -> str:
+    def _sample_symbol(
+        self,
+        pool: list[tuple[str, float]],
+        rng: random.Random,
+        agent_seed: float = 0.0,
+    ) -> str:
         if not pool:
             return _DEFAULT_SYMBOL
         total = sum(w for _, w in pool)
-        r = rng.random() * total
+        # agent_seed desplaza el punto de muestreo de forma determinística por agente,
+        # garantizando que dos agentes con pool idéntico no aterricen en el mismo símbolo.
+        r = (rng.random() * total + agent_seed * (total / len(pool))) % total
         cumulative = 0.0
         for sym, w in pool:
             cumulative += w
