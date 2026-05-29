@@ -1719,7 +1719,8 @@ def _tension_bar(label: str, value: float, color_fn=None):
         val = ui.label(f"{value:.1%}").classes("text-lg font-bold").style(f"color:{color}")
         bar_ref = ui.html(
             f"<div style='background:#1f2937;border-radius:4px;height:8px;width:100%;margin-top:4px'>"
-            f"<div style='background:{color};width:{w}%;height:8px;border-radius:4px'></div></div>"
+            f"<div style='background:{color};width:{w}%;height:8px;border-radius:4px'></div></div>",
+            sanitize=False,
         )
     return val, bar_ref
 
@@ -2160,15 +2161,15 @@ def build_monitor_page(app_state) -> None:
             ui.label("Mitos activos y proto-mitos en gestación").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["proto_myths_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+            refs["proto_myths_html"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
             ui.label("Mitología emergente (crystallized)").classes("text-xs text-gray-400 uppercase px-4")
-            refs["myths_html"] = ui.html("").classes("px-4 pb-4 text-sm text-gray-300")
+            refs["myths_html"] = ui.html("", sanitize=False).classes("px-4 pb-4 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
             ui.label("Léxico tribal emergente").classes("text-xs text-gray-400 uppercase px-4")
-            refs["lexicon_html"] = ui.html("").classes("px-4 pb-4 text-xs font-mono text-purple-200")
+            refs["lexicon_html"] = ui.html("", sanitize=False).classes("px-4 pb-4 text-xs font-mono text-purple-200")
 
         # ── Tab Red Social ────────────────────────────────────────────────────
         with ui.tab_panel(t_redsocial):
@@ -2200,7 +2201,7 @@ def build_monitor_page(app_state) -> None:
                     value="(todas)",
                     label="Tribu",
                 ).classes("text-xs w-40")
-            refs["soc_edge_table"] = ui.html("").classes("px-4 pb-4 overflow-x-auto")
+            refs["soc_edge_table"] = ui.html("", sanitize=False).classes("px-4 pb-4 overflow-x-auto")
 
         # ── Tab Agentes ───────────────────────────────────────────────────────
         with ui.tab_panel(t_agentes):
@@ -2247,11 +2248,11 @@ def build_monitor_page(app_state) -> None:
                 "bg-gray-900 border border-purple-800"
             ).style("min-width:520px;max-width:640px"):
                 refs["radar_plot"]  = ui.plotly(_dark_placeholder()).style("width:480px;height:320px")
-                refs["radar_stats"] = ui.html("").classes("px-2 pb-1 text-xs text-gray-300")
+                refs["radar_stats"] = ui.html("", sanitize=False).classes("px-2 pb-1 text-xs text-gray-300")
                 ui.separator().classes("mx-2 my-1")
                 ui.label("Log episódico").classes("text-xs text-gray-400 uppercase px-2 pt-1")
                 with ui.scroll_area().style("height:200px;width:100%"):
-                    refs["episodic_log"] = ui.html("").classes("px-2 pb-2")
+                    refs["episodic_log"] = ui.html("", sanitize=False).classes("px-2 pb-2")
                 ui.button("Cerrar", on_click=radar_dialog.close).classes(
                     "mt-1 text-xs text-gray-400"
                 ).props("flat")
@@ -2319,7 +2320,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Sueños entrelazados (shared_with)").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["shared_dreams_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+            refs["shared_dreams_html"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
 
@@ -2328,12 +2329,12 @@ def build_monitor_page(app_state) -> None:
                     ui.label("Registro por tribu").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["dreams_tribe_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["dreams_tribe_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
                 with ui.column().classes("flex-1"):
                     ui.label("Registro por individuo").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["dreams_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["dreams_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
 
         # ── Tab Civilización ──────────────────────────────────────────────────
         with ui.tab_panel(t_civiliz):
@@ -2342,12 +2343,12 @@ def build_monitor_page(app_state) -> None:
                     ui.label("Estructuras — Altares, refugios, depósitos").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["structures_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["structures_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
                 with ui.column().classes("flex-1"):
                     ui.label("Tecnologías desarrolladas").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["technologies_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["technologies_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
 
             ui.separator().classes("mx-4 mt-3 mb-2")
 
@@ -2355,7 +2356,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Memoria cultural — Linaje de transmisión").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["cultural_memory_html"] = ui.html("").classes(
+            refs["cultural_memory_html"] = ui.html("", sanitize=False).classes(
                 "px-4 pb-4 text-sm text-gray-300"
             )
 
@@ -2397,12 +2398,12 @@ def build_monitor_page(app_state) -> None:
                     # C3 — Simulaciones conectadas
                     with ui.column().classes("gap-1 flex-1"):
                         ui.label("Simulaciones conectadas").classes("text-xs text-gray-400 uppercase")
-                        refs["lim_sims_html"] = ui.html("").classes("text-xs text-gray-300")
+                        refs["lim_sims_html"] = ui.html("", sanitize=False).classes("text-xs text-gray-300")
 
                     # C3 — Agentes en tránsito
                     with ui.column().classes("gap-1 flex-1"):
                         ui.label("Agentes en tránsito").classes("text-xs text-gray-400 uppercase")
-                        refs["lim_agents_html"] = ui.html("").classes("text-xs text-gray-300")
+                        refs["lim_agents_html"] = ui.html("", sanitize=False).classes("text-xs text-gray-300")
 
                 ui.separator().classes("mx-4 mt-2 mb-1")
 
@@ -2410,7 +2411,7 @@ def build_monitor_page(app_state) -> None:
                 ui.label("Hexes liminales en el mundo principal").classes(
                     "text-xs text-gray-400 uppercase px-4"
                 )
-                refs["lim_hexes"] = ui.html("").classes("px-4 pb-2 text-xs font-mono text-purple-200")
+                refs["lim_hexes"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-xs font-mono text-purple-200")
 
                 ui.separator().classes("mx-4 my-2")
                 ui.label("Campo del Multiverso (R5-E2)").classes(
