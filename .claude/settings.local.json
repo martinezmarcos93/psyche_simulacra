@@ -77,7 +77,8 @@
       "Bash(git branch *)",
       "Bash(git rm *)",
       "Bash(grep -E \"__pycache__|\\\\.pyc$\")",
-      "Bash(rm -rf dashboard/)"
+      "Bash(rm -rf dashboard/)",
+      "Bash(pip show *)"
     ]
   }
 }

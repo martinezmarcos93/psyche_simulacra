@@ -23,7 +23,7 @@ _BESTIA_SYMBOLIC     = 0.55     # carga simbólica base
 _LIMINAL_BIOMES = frozenset({"cueva", "montana_alta", "pantano_costero"})
 
 _ATTACK_RADIUS      = 2       # hexes (Manhattan) de radio de ataque depredador
-_PREDATOR_KILL_PROB = 0.015   # 1.5% por agente en radio por día
+_PREDATOR_KILL_PROB = 0.009   # C2: reducido 40% (de 0.015); más encuentros, menos muertes
 _SCAVENGER_RADIUS   = 3       # radio en que carroñero detecta tumbas activas
 _RARE_PROB_PER_DAY  = 0.004   # probabilidad diaria de fauna rara
 _MAX_PER_TYPE       = 2       # máximo de entidades simultáneas por tipo
@@ -129,6 +129,8 @@ class SymbolicFaunaSystem:
         # R4-D: bestias únicas procedurales y su registro de "bestias olvidadas"
         self._bestia_names:  set[str]                         = set()
         self.bestias_olvidadas: list[dict]                    = []
+        # C2: encuentros no letales — se popula en check_predator_attacks y se consume en agent_core
+        self._nonlethal: list[dict]                           = []
 
     # ── Ciclo diario ──────────────────────────────────────────────────────────
 
@@ -236,20 +238,32 @@ class SymbolicFaunaSystem:
         Los ataques no matan directamente — AgentCore los procesa.
         """
         attacks: list[dict] = []
+        self._nonlethal = []  # C2: limpiar antes de rellenar
         predators = [e for e in self.entities.values() if e.tipo == "depredador" and e.activo]
         for pred in predators:
             for agent_id, coord, tribe_id in agents_pos:
                 dist = abs(coord[0] - pred.coord[0]) + abs(coord[1] - pred.coord[1])
-                if dist <= _ATTACK_RADIUS and self._rng.random() < _PREDATOR_KILL_PROB:
+                if dist > _ATTACK_RADIUS:
+                    continue
+                roll = self._rng.random()
+                if roll < _PREDATOR_KILL_PROB:
                     attacks.append({
-                        "agent_id":   agent_id,
-                        "coord":      coord,
-                        "tribe_id":   tribe_id,
+                        "agent_id":     agent_id,
+                        "coord":        coord,
+                        "tribe_id":     tribe_id,
                         "fauna_nombre": pred.nombre,
                     })
                     self._kills.append(PredatorKill(
                         dia=dia, coord=coord, tribe_id=tribe_id, nombre=pred.nombre
                     ))
+                else:
+                    # C2: encuentro no letal — deja carga simbólica sin matar
+                    self._nonlethal.append({
+                        "agent_id":     agent_id,
+                        "coord":        coord,
+                        "tribe_id":     tribe_id,
+                        "fauna_nombre": pred.nombre,
+                    })
         return attacks
 
     # ── Consultas ─────────────────────────────────────────────────────────────

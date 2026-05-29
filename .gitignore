@@ -39,9 +39,17 @@ data/archive/**/checkpoint_*.json
 # Semillas iniciales SÍ se versionan (son configuración, no datos)
 !data/seeds/
 
-# ── Vault de Obsidian — excluir si es gitsubmodule ────────────────────────────
-# Descomenta si el vault vive en su propio repo:
-# vault/
+# ── Vault de Obsidian — contenido generado por simulación ────────────────────
+# Los .md de personas/tribus/colectivo son output de runtime, no código fuente
+vault/Personas/
+vault/Tribus/
+vault/Colectivo/
+vault/Meta/
+# La config de Obsidian sí se versiona (estructura del workspace)
+!vault/.obsidian/
+
+# ── Métricas de runtime ───────────────────────────────────────────────────────
+data/metrics/
 
 # ── IDE / editores ────────────────────────────────────────────────────────────
 .vscode/

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import random
 from typing import TYPE_CHECKING
 
@@ -59,7 +60,8 @@ _NOMBRES_POOL = [
     "Alexis", "Menalcas", "Corydon", "Chromis", "Mnasyllos", "Aegon",
 ]
 
-_BOND_REPRODUCCION    = 0.70   # vínculo mínimo para reproducirse
+_BOND_REPRODUCCION    = float(os.environ.get("BOND_REPRO_MIN",       "0.55"))
+
 
 # Hito I — Pares arquetípicos con tensión opuesta (Jung, "Tipos psicológicos")
 # Hito C — Objetos Sagrados
@@ -101,8 +103,9 @@ _INCOMPATIBLE_ARCH_PAIRS: frozenset = frozenset({
 })
 _EDAD_MIN_REPRO       = 16
 _EDAD_MAX_REPRO       = 45
-_PROB_REPRO_DIARIA    = 0.003  # 0.3% por par elegible por día (~1 nac./año con 3 pares)
-_COOLDOWN_REPRO       = 300    # días de espera post-nacimiento por padre
+_PROB_REPRO_DIARIA    = float(os.environ.get("PROB_REPRO_DIARIA",    "0.007"))
+_COOLDOWN_REPRO       = int(os.environ.get(  "REPRO_COOLDOWN_DIAS",  "180"))
+_REPRO_NEEDS_MAX      = float(os.environ.get("REPRO_NEEDS_MAX",      "0.45"))  # hambre/sed
 _LIMITE_POBLACION     = 150    # máximo de agentes simultáneos
 
 
@@ -113,14 +116,14 @@ class AgentCore:
     Lee WorldSnapshot, actualiza cada agente, envía WorldAction[] al WorldCore.
     """
 
-    def __init__(self, world_ref: WorldCore) -> None:
+    def __init__(self, world_ref: WorldCore, seed: int = 0) -> None:
         self.world_ref:  WorldCore          = world_ref
         self.agents:     dict[str, Agent]   = {}
         self._death_log: list[dict]         = []
         self._birth_log: list[dict]         = []
 
         # Ciclo de vida — estado de reproducción
-        self._rng               = random.Random()
+        self._rng               = random.Random(seed + 1)
         self._nombres_usados:   set[str] = set()
         self._proximo_id_hijo:  int = 0
 
@@ -128,9 +131,9 @@ class AgentCore:
         self.social_network     = SocialNetwork()
         self.interaction_engine = InteractionEngine()
         self.collective_field   = CollectiveField()
-        self.mythology_engine   = MythologyEngine()
+        self.mythology_engine   = MythologyEngine(seed=seed + 2)
         # Tribus y campos locales (Fase 2)
-        self.tribe_manager      = TribeManager()
+        self.tribe_manager      = TribeManager(seed=seed + 3)
         # Cultura material — estructuras y auras (Fase 4)
         self.culture_engine     = CultureEngine()
         # Árbol genealógico (Hito 7)
@@ -259,7 +262,12 @@ class AgentCore:
         self._process_selective_attention(tp.dia_simulado)
 
         # 2. Cristalización y feedback mítico global — on_day() ya incluye apply_myth_effects()
-        self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
+        self.mythology_engine.check_crystallization(
+            self.collective_field,
+            self.agents,
+            tp.dia_simulado,
+            local_fields=self.tribe_manager.local_fields,  # D3
+        )
 
         # 2b. Mecánicas tribales: re-clustering, campos locales, mitos locales, deriva de bioma (Fase 2)
         terrain = getattr(self.world_ref, "terrain", None)
@@ -281,6 +289,8 @@ class AgentCore:
                 self.tribe_manager.tribes,
                 terrain,
                 tp.dia_simulado,
+                tribal_memories=self.tribe_manager.cultural_memories,  # E2/E3
+                local_fields=self.tribe_manager.local_fields,           # E3
             )
 
         # 3. Control de vitalidad (hambre, sed, vejez)
@@ -2514,7 +2524,7 @@ class AgentCore:
                 continue
             if not (_EDAD_MIN_REPRO <= a.edad <= _EDAD_MAX_REPRO):
                 continue
-            if a.needs.hambre >= 0.3 or a.needs.sed >= 0.3 or a.needs.fatiga >= 0.5:
+            if a.needs.hambre >= _REPRO_NEEDS_MAX or a.needs.sed >= _REPRO_NEEDS_MAX or a.needs.fatiga >= 0.5:
                 continue
 
             for b in alive[i + 1:]:
@@ -2524,7 +2534,7 @@ class AgentCore:
                     continue
                 if not (_EDAD_MIN_REPRO <= b.edad <= _EDAD_MAX_REPRO):
                     continue
-                if b.needs.hambre >= 0.3 or b.needs.sed >= 0.3 or b.needs.fatiga >= 0.5:
+                if b.needs.hambre >= _REPRO_NEEDS_MAX or b.needs.sed >= _REPRO_NEEDS_MAX or b.needs.fatiga >= 0.5:
                     continue
                 if self.social_network.get_bond(a.id, b.id) < _BOND_REPRODUCCION:
                     continue
@@ -3111,10 +3121,12 @@ class AgentCore:
         """
         Mortalidad selectiva durante catástrofes activas.
         Infantes y ancianos tienen mayor riesgo. La plaga genera tabús de contagio.
+        C1: lethality_factor < 1.0 reduce muertes y amplifica trauma simbólico en supervivientes.
         """
         cat = cat_engine.active
         if cat is None:
             return
+        lethality = getattr(cat_engine, "lethality_factor", 1.0)
         for agent in list(self.agents.values()):
             if not agent.is_alive:
                 continue
@@ -3145,6 +3157,17 @@ class AgentCore:
                             ),
                             intensidad          = 0.80,
                         )
+        # C1: si lethality < 1.0, los supervivientes en el área reciben trauma simbólico extra
+        if lethality < 1.0:
+            extra = 0.15 * (1.0 - lethality)
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+                if cat.area_hexes is not None and agent.posicion not in cat.area_hexes:
+                    continue
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + extra)
+                lf.confusion     = min(1.0, lf.confusion     + extra * 0.5)
 
     def _process_catastrophe_anxiety(self, tp: TimePoint, cat_engine) -> None:
         """
@@ -3291,6 +3314,17 @@ class AgentCore:
             if a.is_alive and not a.in_liminal
         ]
         attacks = fauna_sys.check_predator_attacks(tp.dia_simulado, alive_pos)
+
+        # C2: encuentros no letales — cargan myth_pressure sin matar
+        for enc in getattr(fauna_sys, "_nonlethal", []):
+            agent = self.agents.get(enc["agent_id"])
+            if agent is None or not agent.is_alive:
+                continue
+            tribe_id = enc["tribe_id"]
+            lf = self.tribe_manager.local_fields.get(tribe_id) or self.collective_field
+            lf.myth_pressure = min(1.0, lf.myth_pressure + 0.15)
+            fauna_sys.register_sighting(tribe_id, enc["fauna_nombre"])
+
         killed_ids: set[str] = set()
         for atk in attacks:
             agent = self.agents.get(atk["agent_id"])
@@ -4607,10 +4641,10 @@ class AgentCore:
     # ── Factory helpers ───────────────────────────────────────────────────────
 
     @classmethod
-    def from_yaml(cls, path: str, world_ref: WorldCore) -> AgentCore:
+    def from_yaml(cls, path: str, world_ref: WorldCore, seed: int = 0) -> AgentCore:
         """Load agents from a YAML seed file (Phase 5)."""
         import yaml
-        core = cls(world_ref)
+        core = cls(world_ref, seed=seed)
         with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f)
         for i, entry in enumerate(data.get("agents", [])):

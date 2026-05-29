@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import os
 from typing import TYPE_CHECKING
 
@@ -58,13 +59,18 @@ class TribeManager:
     los motores de mitología por tribu y la divergencia cultural por bioma.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, seed: int = 0) -> None:
         self.tribes:            dict[str, list[str]]       = {}
         self.agent_to_tribe:    dict[str, str]             = {}
         self.local_fields:      dict[str, CollectiveField] = {}
         self.local_myths:       dict[str, MythologyEngine] = {}
         self.cultural_memories: dict[str, CulturalMemory]  = {}
         self._last_recluster:   int = -1
+        self._seed:             int = seed
+
+    def _tribe_seed(self, tribe_id: str) -> int:
+        """Seed estable por tribu derivado del seed global + nombre de tribu."""
+        return self._seed + int(hashlib.md5(tribe_id.encode()).hexdigest()[:8], 16)
 
     # ── Clustering ────────────────────────────────────────────────────────────
 
@@ -129,9 +135,9 @@ class TribeManager:
             if tribe_id not in self.local_fields:
                 self.local_fields[tribe_id] = CollectiveField()
             if tribe_id not in self.local_myths:
-                self.local_myths[tribe_id] = MythologyEngine()
+                self.local_myths[tribe_id] = MythologyEngine(seed=self._tribe_seed(tribe_id))
             if tribe_id not in self.cultural_memories:
-                self.cultural_memories[tribe_id] = CulturalMemory(tribe_id)
+                self.cultural_memories[tribe_id] = CulturalMemory(tribe_id, seed=self._tribe_seed(tribe_id))
 
         # Eliminar tribus extintas
         for old_id in set(self.tribes) - set(new_tribes):
