@@ -1561,6 +1561,106 @@ def _render_cultural_memory_html(cp: dict) -> str:
     return "".join(html)
 
 
+# ── Estructuras culturales (altares, tótems, murallas, hogueras) ─────────────
+
+_STRUCT_ICONS = {"totem": "🗿", "altar": "🕯️", "muralla": "🧱", "hoguera": "🔥"}
+_STRUCT_COLORS = {"totem": "#9b59b6", "altar": "#f39c12", "muralla": "#e74c3c", "hoguera": "#e67e22"}
+
+def _render_culture_engine_structures_html(cp: dict) -> str:
+    """Muestra las estructuras activas del CultureEngine (altar, tótem, muralla, hoguera)."""
+    structs = cp.get("agentes", {}).get("culture_engine", {}).get("structures", [])
+    if not structs:
+        return "<span style='color:#555'>Sin estructuras culturales activas.</span>"
+
+    # Agrupar por tipo
+    by_type: dict[str, list] = {}
+    for s in structs:
+        by_type.setdefault(s.get("tipo", "?"), []).append(s)
+
+    rows = []
+    for tipo, items in sorted(by_type.items()):
+        icon  = _STRUCT_ICONS.get(tipo, "🏛️")
+        color = _STRUCT_COLORS.get(tipo, "#6c8ebf")
+        rows.append(
+            f"<div style='margin-bottom:8px'>"
+            f"<div style='color:{color};font-weight:bold;margin-bottom:4px'>"
+            f"{icon} {tipo.upper()} ({len(items)})</div>"
+        )
+        for s in sorted(items, key=lambda x: x.get("day_built", 0), reverse=True):
+            tribe   = s.get("tribe_id", "?")[:14]
+            day     = s.get("day_built", "?")
+            coord   = s.get("coord", [0, 0])
+            dur     = s.get("duration")
+            dur_txt = f"  · ⏳ {dur}d" if dur else "  · permanente"
+            rows.append(
+                f"<div style='padding:3px 8px;border-left:2px solid {color};"
+                f"margin-bottom:3px;font-size:0.8em'>"
+                f"<span style='color:#aaa'>Tribu</span> "
+                f"<span style='color:#ddd'>{tribe}</span>"
+                f"  <span style='color:#555'>·</span>"
+                f"  <span style='color:#888'>Día {day}</span>"
+                f"  <span style='color:#555'>·</span>"
+                f"  <span style='color:#666'>({coord[0]},{coord[1]})</span>"
+                f"  <span style='color:#555;font-size:0.85em'>{dur_txt}</span>"
+                f"</div>"
+            )
+        rows.append("</div>")
+    return "".join(rows)
+
+
+# ── Dioses emergentes del ICL ─────────────────────────────────────────────────
+
+_DEITY_ARCH_ICONS = {
+    "heroe": "⚔️", "sombra": "🌑", "madre": "🌸", "padre": "🏔️",
+    "sabio": "📜", "trickster": "🎭", "gobernante": "👑",
+    "rebelde": "🔥", "nino_divino": "⭐", "muerte": "💀",
+    "anima_animus": "🌊", "self_": "☯️",
+}
+
+def _render_deities_html(cp: dict) -> str:
+    """Muestra las deidades emergentes cristalizadas del ICL."""
+    deities = cp.get("agentes", {}).get("mythology_engine", {}).get("deities", [])
+    if not deities:
+        return "<span style='color:#555'>Ninguna deidad ha emergido aún.</span>"
+
+    rows = []
+    for d in sorted(deities, key=lambda x: -x.get("dia_cristalizacion", 0)):
+        arq    = d.get("arquetipo_fundacional", "?")
+        icon   = _DEITY_ARCH_ICONS.get(arq, "🌟")
+        nombre = d.get("nombre", "?")
+        esfera = d.get("esfera_de_influencia", "?").replace("_", " ")
+        tribe  = d.get("tribu_origen", "?")[:14]
+        dia    = d.get("dia_cristalizacion", "?")
+        causa  = d.get("causa", "?")
+        intens = d.get("intensidad", 0.0)
+        activa = d.get("is_active", True)
+        bar    = "█" * int(intens * 8) + "░" * (8 - int(intens * 8))
+        alpha  = "1.0" if activa else "0.45"
+        badge  = "<span style='color:#2ecc71;font-size:0.7em'>ACTIVA</span>" if activa else \
+                 "<span style='color:#444;font-size:0.7em'>inactiva</span>"
+
+        rows.append(
+            f"<div style='border:1px solid #2a1a4a;border-radius:6px;padding:8px 12px;"
+            f"margin-bottom:8px;background:rgba(40,10,80,0.4);opacity:{alpha}'>"
+            f"<div style='display:flex;justify-content:space-between;align-items:center'>"
+            f"<span style='font-size:1.1em'>{icon} "
+            f"<strong style='color:#c39bd3'>{nombre}</strong></span>"
+            f"{badge}</div>"
+            f"<div style='color:#888;font-size:0.78em;margin-top:3px'>"
+            f"Esfera: <span style='color:#9b59b6'>{esfera}</span>"
+            f"  ·  Arquetipo: <span style='color:#6c8ebf'>{arq}</span>"
+            f"  ·  Tribu: <span style='color:#aaa'>{tribe}</span>"
+            f"  ·  Día {dia}  ·  ({causa})"
+            f"</div>"
+            f"<div style='color:#555;font-size:0.72em;margin-top:2px'>"
+            f"Intensidad: <span style='color:#9b59b6;font-family:monospace'>{bar}</span>"
+            f" {intens:.2f}"
+            f"</div>"
+            f"</div>"
+        )
+    return "".join(rows)
+
+
 # ── F1: Pulso cultural — contadores para el panel Resumen ────────────────────
 
 def _compute_cultura_pulse(cp: dict) -> dict:
@@ -2145,6 +2245,7 @@ def build_monitor_page(app_state) -> None:
             t = app_state.sim_thread
             if t is not None and t.is_alive():
                 t.join(timeout=5)
+            # Matar proceso liminal
             proc = app_state._liminal_proc
             if proc is not None:
                 try:
@@ -2152,6 +2253,18 @@ def build_monitor_page(app_state) -> None:
                 except Exception as e:
                     print(f"[UI] liminal terminate error: {e}", file=sys.stderr)
                 app_state._liminal_proc = None
+            # Matar procesos ollama serve activos
+            try:
+                import psutil
+                for p in psutil.process_iter(["name", "pid"]):
+                    try:
+                        if "ollama" in p.info["name"].lower():
+                            p.kill()
+                            print(f"[UI] Ollama PID {p.info['pid']} terminado.")
+                    except (psutil.NoSuchProcess, psutil.AccessDenied):
+                        pass
+            except Exception as e:
+                print(f"[UI] ollama kill error: {e}", file=sys.stderr)
             app_state.set_runner(None, None)
             ui.navigate.to("/")
 
@@ -2436,7 +2549,27 @@ def build_monitor_page(app_state) -> None:
 
         # ── Tab Civilización ──────────────────────────────────────────────────
         with ui.tab_panel(t_civiliz):
-            with ui.row().classes("px-4 pt-4 gap-8 w-full"):
+            # Estructuras culturales activas (altares, tótems, murallas, hogueras)
+            ui.label("Estructuras Culturales Activas").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-4"
+            )
+            refs["culture_structures_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3 text-sm text-gray-300"
+            )
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
+            # Dioses emergentes
+            ui.label("Deidades del Inconsciente Colectivo").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["deities_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3"
+            )
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
+            with ui.row().classes("px-4 pt-2 gap-8 w-full"):
                 with ui.column().classes("flex-1"):
                     ui.label("Estructuras — Altares, refugios, depósitos").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
@@ -2535,6 +2668,7 @@ def build_monitor_page(app_state) -> None:
     _slow_tick:       list[int]  = [99]
     _charts_tick:     list[int]  = [99]
     _prev_n_myths:    list[int]  = [0]    # H2 — detección de nuevos mitos
+    _prev_n_deities:  list[int]  = [0]    # H2 — detección de nuevas deidades
     _prev_hysteria:   list[bool] = [False]  # H2 — detección histeria
     _notified_deaths: set        = set()   # H2 — agentes destacados ya notificados
     _icl_history:     deque      = deque(maxlen=120)  # D3 — últimas 120 muestras (~4min a 2s)
@@ -2888,7 +3022,13 @@ def build_monitor_page(app_state) -> None:
                     refs["dreams_html"].set_content(_render_dreams_html(cp_slow))
                     refs["dreams_tribe_html"].set_content(_render_dreams_by_tribe_html(cp_slow))
 
-                    # Civilización
+                    # Civilización — estructuras culturales y dioses
+                    refs["culture_structures_html"].set_content(
+                        _render_culture_engine_structures_html({"agentes": cp_slow.get("agentes", {})})
+                    )
+                    refs["deities_html"].set_content(
+                        _render_deities_html({"agentes": cp_slow.get("agentes", {})})
+                    )
                     refs["structures_html"].set_content(_render_structures_html(cp_slow))
                     refs["technologies_html"].set_content(_render_technologies_html(cp_slow))
 
@@ -2924,6 +3064,19 @@ def build_monitor_page(app_state) -> None:
                             type="positive", timeout=8000,
                         )
                     _prev_n_myths[0] = n_myths_now
+
+                    # H2 — Notificación: nueva deidad cristalizada
+                    _deities_sl   = _my_data_sl.get("deities", [])
+                    n_deities_now = len(_deities_sl)
+                    if n_deities_now > _prev_n_deities[0] and _prev_n_deities[0] > 0:
+                        nd = _deities_sl[-1] if _deities_sl else {}
+                        ui.notify(
+                            f"🌟 Nueva deidad: «{nd.get('nombre','?')}» "
+                            f"— {nd.get('esfera_de_influencia','').replace('_',' ')} "
+                            f"(tribu {nd.get('tribu_origen','?')[:10]})",
+                            type="info", timeout=10000,
+                        )
+                    _prev_n_deities[0] = n_deities_now
 
                     # H2 — Notificación: histeria colectiva activada
                     _cf_sl   = cp_slow.get("agentes", {}).get("collective_field", {})
