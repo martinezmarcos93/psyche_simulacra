@@ -2233,40 +2233,57 @@ def build_monitor_page(app_state) -> None:
 
         # Botón Cerrar simulación
         def _cerrar_simulacion() -> None:
-            rv = app_state.get_runner()
-            if rv:
-                # Desbloquear spin loop de pausa antes de pedir shutdown;
-                # sin esto el sim_thread nunca llega a ver la señal de parada.
-                app_state._pause_event.clear()
-                try:
-                    rv.shutdown()
-                except Exception as e:
-                    print(f"[UI] shutdown error: {e}", file=sys.stderr)
-            t = app_state.sim_thread
-            if t is not None and t.is_alive():
-                t.join(timeout=5)
-            # Matar proceso liminal
-            proc = app_state._liminal_proc
-            if proc is not None:
-                try:
-                    proc.terminate()
-                except Exception as e:
-                    print(f"[UI] liminal terminate error: {e}", file=sys.stderr)
-                app_state._liminal_proc = None
-            # Matar procesos ollama serve activos
-            try:
-                import psutil
-                for p in psutil.process_iter(["name", "pid"]):
+            """Cierra la simulación, mata ollama y termina el proceso propio."""
+
+            def _do_shutdown() -> None:
+                # 1. Parar simulación y guardar checkpoint
+                rv = app_state.get_runner()
+                if rv:
+                    app_state._pause_event.clear()
                     try:
-                        if "ollama" in p.info["name"].lower():
-                            p.kill()
-                            print(f"[UI] Ollama PID {p.info['pid']} terminado.")
-                    except (psutil.NoSuchProcess, psutil.AccessDenied):
-                        pass
-            except Exception as e:
-                print(f"[UI] ollama kill error: {e}", file=sys.stderr)
-            app_state.set_runner(None, None)
-            ui.navigate.to("/")
+                        rv.shutdown()
+                    except Exception as e:
+                        print(f"[UI] shutdown error: {e}", file=sys.stderr)
+                sim_t = app_state.sim_thread
+                if sim_t is not None and sim_t.is_alive():
+                    sim_t.join(timeout=5)
+
+                # 2. Matar procesos externos en paralelo
+                def _kill_liminal() -> None:
+                    proc = app_state._liminal_proc
+                    if proc is not None:
+                        try:
+                            proc.terminate()
+                        except Exception:
+                            pass
+                        app_state._liminal_proc = None
+
+                def _kill_ollama() -> None:
+                    try:
+                        import psutil
+                        for p in psutil.process_iter(["name", "pid"]):
+                            try:
+                                if "ollama" in p.info["name"].lower():
+                                    p.kill()
+                                    print(f"[UI] Ollama PID {p.info['pid']} terminado.")
+                            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                                pass
+                    except Exception as e:
+                        print(f"[UI] ollama kill error: {e}", file=sys.stderr)
+
+                t_lim = threading.Thread(target=_kill_liminal, daemon=True)
+                t_oll = threading.Thread(target=_kill_ollama,  daemon=True)
+                t_lim.start()
+                t_oll.start()
+                t_lim.join(timeout=3)
+                t_oll.join(timeout=3)
+
+                # 3. Matar el propio proceso (main.py)
+                import os as _os
+                _os._exit(0)
+
+            # Lanzar en hilo para no bloquear el event loop de NiceGUI
+            threading.Thread(target=_do_shutdown, daemon=True, name="cerrar_sim").start()
 
         ui.button("✕ Cerrar", on_click=_cerrar_simulacion).classes(
             "text-xs bg-red-800 hover:bg-red-700 text-white px-3 py-1 rounded ml-2"
