@@ -53,8 +53,8 @@ def _run_and_collect(seed: int, days: int, tmp_path: Path) -> dict:
 
         return {
             "first_birth":     births[0]["dia"]                           if births  else None,
-            "first_protomyth": getattr(protos[0], "dia_inicio", None)     if protos  else None,
-            "first_structure": getattr(structs[0], "dia_construccion", 0) if structs else None,
+            "first_protomyth": getattr(protos[0], "dia_origen", None)  if protos  else None,
+            "first_structure": getattr(structs[0], "day_built",   None) if structs else None,
             "agents_alive":    sum(1 for a in runner.agents.agents.values() if a.is_alive),
             "n_agents":        len(runner.agents.agents),
         }

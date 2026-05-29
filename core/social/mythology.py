@@ -31,6 +31,7 @@ Tipos de mito (Campbell):
 
 from __future__ import annotations
 
+import hashlib
 import os
 import random
 from dataclasses import dataclass, field
@@ -75,7 +76,9 @@ _ARCH_TO_SPHERE: dict[str, str] = {
 
 def _deity_name(arquetipo: str, tribe_id: str) -> str:
     epithets = _DEITY_EPITHETS.get(arquetipo, [f"El Gran {arquetipo.capitalize()}"])
-    idx = abs(hash(tribe_id)) % len(epithets)
+    # hashlib.sha256 es estable entre procesos; hash() built-in no lo es (PYTHONHASHSEED)
+    digest = int(hashlib.sha256(f"{arquetipo}:{tribe_id}".encode()).hexdigest(), 16)
+    idx = digest % len(epithets)
     return epithets[idx]
 
 
@@ -364,7 +367,9 @@ class MythologyEngine:
         """
         Verifica si el ContextoEnunciativo actual genera un proto-mito.
 
-        Solo puede haber un proto-mito activo por tipo de mito a la vez.
+        Puede haber múltiples proto-mitos del mismo tipo siempre que difieran
+        en el par arquetípico (D2 — Roadmap 7). No se permite duplicar el mismo
+        (tipo, par) exacto como proto-mito activo ni como mito cristalizado.
         """
         ctx = field.contexto_enunciativo()
         prob = ctx.probabilidad_cristalizacion()

@@ -1998,12 +1998,12 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                     ).classes("w-full")
                     cfg_cp_interval = ui.number(
                         label="Días entre checkpoints",
-                        value=int(os.environ.get("CHECKPOINT_INTERVAL", "50")),
+                        value=int(os.environ.get("CHECKPOINT_INTERVAL", "10")),
                         min=1, max=500,
                     ).classes("w-full")
                     cfg_clustering = ui.number(
                         label="Días hasta clustering",
-                        value=int(os.environ.get("DAYS_UNTIL_CLUSTERING", "365")),
+                        value=int(os.environ.get("DAYS_UNTIL_CLUSTERING", "30")),
                         min=1, max=9999,
                     ).classes("w-full")
                 ui.label(
@@ -2013,8 +2013,8 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
             def _apply_config() -> None:
                 os.environ["NARRATIVE_ENABLED"]    = str(cfg_narrative.value).lower()
                 os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3.2"
-                os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 50))
-                os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 365))
+                os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 10))
+                os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 30))
                 if use_liminal.value:
                     app_state.liminal_host = (liminal_host_input.value or "localhost").strip()
                     app_state.liminal_port = int(liminal_port_input.value or 8765)
