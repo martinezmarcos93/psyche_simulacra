@@ -7,6 +7,7 @@ from __future__ import annotations
 import csv
 import json
 import sqlite3
+import sys
 from pathlib import Path
 
 _ROOT    = Path(__file__).parent.parent
@@ -71,7 +72,8 @@ def load_agent_metrics() -> list[dict]:
             GROUP BY dia ORDER BY dia
         """).fetchall()
         return [dict(r) for r in rows]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_agent_metrics: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()
@@ -92,7 +94,8 @@ def load_climate_metrics() -> list[dict]:
             GROUP BY dia ORDER BY dia
         """).fetchall()
         return [dict(r) for r in rows]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_climate_metrics: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()
@@ -113,7 +116,8 @@ def load_scenario_metrics() -> list[dict]:
             GROUP BY dia ORDER BY dia
         """).fetchall()
         return [dict(r) for r in rows]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_scenario_metrics: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()
@@ -133,7 +137,8 @@ def load_climate_events() -> list[dict]:
             ORDER BY dia
         """).fetchall()
         return [dict(r) for r in rows]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_climate_events: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()
@@ -183,7 +188,8 @@ def load_emergence_metrics(last_n_days: int = 300) -> list[dict]:
             {"dia": d, **{c: sums[d][c] / max(counts[d], 1) for c in _COLS}}
             for d in dias
         ]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_emergence_metrics: {e}", file=sys.stderr)
         return []
 
 
@@ -200,7 +206,8 @@ def load_deaths_log(limit: int = 100) -> list[dict]:
             LIMIT ?
         """, (limit,)).fetchall()
         return [dict(r) for r in rows]
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] load_deaths_log: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()

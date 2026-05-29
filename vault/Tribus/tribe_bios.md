@@ -10,26 +10,26 @@
 | :--- | :--- | :---: | :--- |
 | [[bios]] (Bios) | cazador | 34 | self |
 | [[kairos]] (Kairos) | cazador | 32 | self |
-| [[peitho]] (Peitho) | explorador | 26 | self |
+| [[peitho]] (Peitho) | explorador | 26 | persona |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.808` `[▓▓▓▓▓▓▓▓▓▓░░]`
+> **Presión emocional:** `0.191` `[▓▓░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
 | **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓` |
-| **Trickster** | `0.852` | `▓▓▓▓▓▓▓▓▓░` |
-| **Heroe** | `0.843` | `▓▓▓▓▓▓▓▓░░` |
-| **Muerte** | `0.689` | `▓▓▓▓▓▓▓░░░` |
-| **Madre** | `0.580` | `▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.769` | `▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.568` | `▓▓▓▓▓▓░░░░` |
+| **Trickster** | `0.568` | `▓▓▓▓▓▓░░░░` |
+| **Muerte** | `0.478` | `▓▓▓▓▓░░░░░` |
 | **Rebelde** | `0.414` | `▓▓▓▓░░░░░░` |
-| **Sabio** | `0.178` | `▓▓░░░░░░░░` |
 | **Padre** | `0.050` | `▓░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
+| **Sabio** | `0.000` | `░░░░░░░░░░` |
 | **Gobernante** | `0.000` | `░░░░░░░░░░` |
 | **Nino_divino** | `0.000` | `░░░░░░░░░░` |
 

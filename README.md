@@ -139,20 +139,19 @@ SimulationClock (tick = 1 hora simulada)
 Sistema opcional que conecta múltiples instancias de PSYCHE SIMULACRA a través de un servidor WebSocket central. Permite que agentes de distintas simulaciones (en la misma PC o en PCs diferentes) se encuentren en un espacio compartido.
 
 - **`sim_identity`** — cada simulación genera un `SIM_ID` único persistido en `data/sim_id.txt`
-- **`PortalHex`** — hexágono portal de posición determinista (depende del seed); se renderiza como nodo violeta pulsante en el mapa
+- **`PortalHex`** — hexágono portal de posición determinista (depende del seed); se renderiza como nodo estrella en el mapa
 - **`LiminalClient`** — cliente WebSocket asyncio; se conecta al servidor liminal en background
 - **`AgentTransferHandler`** — registrado en el `SimulationClock` a `priority=25`; cuando un agente pisa el portal activa `agent.in_liminal = True`, lo suspende del ciclo de actualización local y lo envía al servidor
-- **`liminal_server/`** — servidor WebSocket independiente (Python + asyncio + websockets) con mapa hexagonal propio 30×20, registro de simulaciones y agentes, reloj liminal, y visualizador Pygame de segunda ventana
-- Agentes en tránsito desaparecen del mapa local y aparecen en la ventana del servidor con el color de su simulación de origen
-- Los agentes regresan automáticamente tras `LIMINAL_RETURN_AFTER_TICKS` ticks liminales (~2 minutos a 30 FPS)
+- **`liminal_server/`** — servidor WebSocket headless (Python + asyncio + websockets) con mapa hexagonal propio 30×20, registro de simulaciones y agentes, reloj liminal, y endpoint HTTP `/state`. La visualización se realiza en el tab **Liminal** del dashboard NiceGUI
+- Agentes en tránsito desaparecen del mapa local y aparecen en el tab Liminal del observatorio con el color de su simulación de origen
+- Los agentes regresan automáticamente tras `LIMINAL_RETURN_AFTER_TICKS` ticks liminales
 
 ### Persistencia y observabilidad
 - **SQLite** (WAL) — snapshots de agentes, clima, escenario, muertes, sesiones
 - **CheckpointManager** — guardado atómico JSON cada 10 días + al apagar
 - **Obsidian Vault** — sincronización diaria: `vault/Personas/`, `vault/Colectivo/`, `vault/Tribus/`, `vault/Colectivo/Leyendas/`
 - **Observatorio NiceGUI** — interfaz web en tiempo real (puerto 8080): 9 tabs con mapa hexagonal, red social cuántica, campo colectivo, tendencias, inspector de agentes, registro de sueños, civilización y Zona Liminal. Abre automáticamente al ejecutar `main.py`
-- **Dashboard Streamlit** — arqueología histórica: red social, campo colectivo, inspector (solo lectura, datos históricos de la DB)
-- **Visualizador Pygame** — mapa hexagonal en tiempo real con zoom y panning
+- **Visualizador Pygame** (`scripts/visualizer.py`) — mapa hexagonal en tiempo real con zoom y panning; alternativa ligera al dashboard web
 
 ---
 
@@ -299,10 +298,8 @@ PSYCHE SIMULACRA/
 │   │   └── agent_registry.py         Agentes presentes en la zona
 │   ├── transport/
 │   │   └── websocket_server.py       Servidor WebSocket (websockets + asyncio)
-│   ├── protocol/
-│   │   └── schemas.py                Tipos de mensajes del protocolo
-│   └── visualizer/
-│       └── liminal_pygame.py         Ventana Pygame del mapa liminal
+│   └── protocol/
+│       └── schemas.py                Tipos de mensajes del protocolo
 │
 ├── main.py                           Punto de entrada principal — abre NiceGUI en el browser
 ├── pyproject.toml
@@ -374,17 +371,17 @@ python scripts/visualizer.py --resume --fps 10 --days 0
 ### Zona Liminal (multijugador experimental)
 
 Desde el launcher NiceGUI, marcar **"Levantar servidor Zona Liminal"** antes de iniciar.
-El servidor se abre en una nueva ventana y el tab Liminal aparece en el observatorio.
+El servidor corre en background y el tab **Liminal** aparece en el observatorio, mostrando el mapa del espacio liminal y los agentes en tránsito.
 
 **Flujo típico en la misma PC (desarrollo/pruebas):**
 1. `python main.py` → activar checkbox Zona Liminal → Continuar/Nueva → tab Liminal
 
-**Flujo entre dos PCs:** el servidor liminal puede iniciarse manualmente:
+**Flujo entre dos PCs:** el servidor liminal puede iniciarse manualmente en el host:
 ```bash
 python liminal_server/main.py --host 0.0.0.0 --port 8765 --seed 0
 ```
 
-Aparece un hexágono violeta pulsante en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en la ventana del servidor.
+Aparece un hexágono estrella en el mapa — ese es el portal. Cuando un agente lo pisa, desaparece del mapa local y aparece en el tab Liminal del observatorio.
 
 **Dependencias del servidor (instalar una vez):**
 ```bash
@@ -392,16 +389,10 @@ cd liminal_server
 pip install -r requirements.txt
 ```
 
-### Dashboard Streamlit (arqueología histórica, opcional)
+### Dashboard Streamlit (arqueológico, archivado)
 
-Para análisis profundo de datos históricos en la DB:
-
-```bash
-python -m streamlit run dashboard/app.py
-# Abrir http://localhost:8501
-```
-
-No corre la simulación — solo lee datos históricos de la DB SQLite.
+El dashboard Streamlit fue reemplazado por el Observatorio NiceGUI. El código fuente
+se conserva en `src/archive/dashboard_app.py` como referencia histórica.
 
 ### Generar nuevas semillas de agentes
 
@@ -458,11 +449,10 @@ Todas las variables configurables también desde el launcher NiceGUI (sección *
 | Persistencia | SQLite stdlib (WAL mode) |
 | Observatorio principal | NiceGUI 3.x (browser, tiempo real) |
 | Visualización de datos | Plotly (gráficos, mapa hexagonal, red social) |
-| Dashboard histórico | Streamlit |
-| Visualizador legacy | Pygame |
+| Visualizador alternativo | Pygame (`scripts/visualizer.py`) |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
-| Zona Liminal (red) | websockets + asyncio (servidor) / threading (cliente) |
-| Tests | pytest (390 tests) |
+| Zona Liminal (red) | websockets + asyncio (servidor headless) / threading (cliente) |
+| Tests | pytest (388 tests) |
 
 ---
 
@@ -472,8 +462,6 @@ Los documentos de diseño están en `src/` y `docs/`:
 
 | Archivo | Contenido |
 |---------|-----------|
-| `docs/model_spec.md` | Especificación del modelo ABM |
-| `docs/archetype_theory.md` | Teoría arquetípica jungiana aplicada |
 | `docs/Liminal_Zone.md` | Arquitectura de la Zona Liminal |
 | `src/01-PSYCHE_IDEAS_IMPLEMENTACION.md` | Backlog de ideas con estimaciones |
 | `src/02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoria del inconsciente colectivo |

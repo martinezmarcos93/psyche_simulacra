@@ -111,7 +111,7 @@ Se usan cuatro métricas complementarias para descartar ruido:
 
 **Requisitos mínimos:**
 ```bash
-pip install -r requirements.txt   # numpy, networkx, pyyaml, rich, scipy, matplotlib
+pip install -r requirements.txt   # numpy, networkx, pyyaml, scipy, plotly, nicegui, pygame…
 ```
 
 **Para la narrativa LLM (opcional pero recomendado):**
@@ -134,17 +134,12 @@ No se requiere GPU. La simulación core corre completamente en CPU. Ollama puede
 
 ### 11. ¿Qué es `main.py` y cuál es la diferencia con `run_simulation.py`?
 
-`main.py` es la **llave maestra**: un TUI (terminal UI) con menú Rich que centraliza todos los modos de uso del proyecto. Desde un único punto de entrada se puede:
+`main.py` es el **punto de entrada principal**: lanza el Observatorio NiceGUI en el browser (puerto 8080). Desde la página de inicio se puede:
 
-| Opción | Acción |
-|--------|--------|
-| `[1]` | Continuar simulación en terminal (headless, máxima velocidad) |
-| `[2]` | Continuar simulación con visualizador Pygame |
-| `[3]` | Abrir Dashboard Streamlit (solo lectura) |
-| `[4]` | Iniciar nueva simulación (archiva la anterior automáticamente) |
-| `[5]` | **Levantar servidor Zona Liminal + conectar** — inicia el server en nueva ventana y abre el visualizador conectado aquí (flujo del hosteador) |
-| `[6]` | **Conectarse a servidor** — pide la IP del hosteador y abre el visualizador conectado (flujo del amigo) |
-| `[7]` | Salir |
+- **Continuar** la última simulación desde el checkpoint más reciente
+- **Nueva sesión** con semillas frescas (archiva la anterior automáticamente)
+- Activar el servidor de **Zona Liminal** antes de iniciar
+- Configurar modelo Ollama, intervalo de checkpoint y clustering
 
 `run_simulation.py` es el **motor headless de línea de comandos**, sin interactividad. Acepta todos los parámetros por flags (`--seeds-file`, `--days`, `--seed`, `--resume`) y es el apropiado para correr desde scripts, crons, o servidores sin interfaz.
 
@@ -156,12 +151,7 @@ Para uso cotidiano: `python main.py`. Para automatización o robustez: `python s
 
 Sí. La narrativa LLM es completamente opcional. Si Ollama no está disponible, el `NarratorEngine` activa su modo fallback y genera leyendas con plantillas predefinidas en español. La simulación corre sin degradación en ninguna de las mecánicas de fondo (psicología, tribus, mitos, métricas).
 
-Al lanzar desde `main.py`, si Ollama no responde al confirmar la narrativa LLM, el TUI ofrece tres opciones:
-- `[1]` Iniciar Ollama ahora (espera hasta 12 segundos a que el daemon responda)
-- `[2]` Continuar sin iniciarlo (la simulación lo reintentará al arrancar)
-- `[3]` Desactivar narrativa y usar plantillas de fallback
-
-Si Ollama está activo, el TUI lista los modelos instalados y permite escribir cualquier nombre de modelo — si no está descargado, se hará `ollama pull` automáticamente al iniciar la simulación.
+Desde el launcher NiceGUI, el campo **Modelo Ollama** en la sección de configuración avanzada permite cambiar el modelo. Si Ollama no está disponible al iniciar, el narrador activa el modo fallback con plantillas predefinidas y la simulación continúa sin interrupciones.
 
 Desde línea de comandos para desactivar la narrativa:
 ```bash
@@ -174,7 +164,7 @@ NARRATIVE_ENABLED=0 python scripts/run_simulation.py --seeds-file data/seeds/100
 
 El `CheckpointManager` guarda el estado completo cada 10 días simulados y también al interrumpir con `Ctrl+C`. Para reanudar:
 
-- **Desde `main.py`:** opciones `[1]` o `[2]` del menú principal retoman automáticamente desde el último checkpoint.
+- **Desde `main.py`:** el botón **Continuar** en la página de inicio retoma automáticamente desde el último checkpoint.
 - **Desde línea de comandos:**
 ```bash
 python scripts/run_simulation.py --resume --days 500

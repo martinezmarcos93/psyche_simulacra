@@ -173,11 +173,13 @@ liminal_server/
 │   └── agent_registry.py      ← Agentes presentes en la zona
 ├── transport/
 │   └── websocket_server.py    ← Servidor WebSocket (websockets + asyncio)
-├── protocol/
-│   └── schemas.py             ← Tipos de mensajes del protocolo
-└── visualizer/
-    └── liminal_pygame.py      ← Ventana Pygame del mapa liminal
+└── protocol/
+    └── schemas.py             ← Tipos de mensajes del protocolo
 ```
+
+> El visualizador Pygame (`liminal_pygame.py`) fue archivado en `src/archive/`.
+> La visualización del estado liminal se realiza desde el tab **Liminal** del dashboard NiceGUI,
+> que consulta el endpoint HTTP `/state` del servidor.
 
 ---
 
@@ -187,7 +189,7 @@ liminal_server/
 |---|---|
 | Networking | WebSockets (`websockets` library) |
 | Async | asyncio |
-| Visualización | Pygame |
+| Visualización | NiceGUI (tab Liminal del dashboard principal) |
 | Mapa | Hexagonal axial (q, r) — 30×20 |
 | Serialización | JSON |
 | Protocolo | `PROTOCOL_VERSION = "0.1.0"` |

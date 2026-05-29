@@ -620,71 +620,6 @@ _EVENT_COLORS: dict[str, str] = {
 _EVENT_DEFAULT_COLOR = "rgba(155,89,182,0.20)"
 
 
-def _build_trend_figure(
-    rows: list[dict],
-    fields: list[str],
-    title: str,
-    yrange: list | None = None,
-    events: list[dict] | None = None,
-):
-    """
-    Gráfico de líneas temporales.
-    A1: events=[{dia, evento}] → bandas verticales coloreadas por tipo de evento.
-    """
-    try:
-        import plotly.graph_objects as go
-    except ImportError:
-        return None
-    if not rows:
-        return None
-
-    dias = [r["dia"] for r in rows]
-    traces = []
-    for i, f in enumerate(fields):
-        vals = [r.get(f) for r in rows]
-        vals = [v if v is not None else 0 for v in vals]
-        traces.append(go.Scatter(
-            x=dias, y=vals, mode="lines", name=f,
-            line=dict(color=_TREND_COLORS[i % len(_TREND_COLORS)], width=2),
-        ))
-
-    fig = go.Figure(data=traces)
-    yaxis_cfg = dict(color="#aaa", gridcolor="#1f2937")
-    if yrange:
-        yaxis_cfg["range"] = yrange
-
-    # A1 — Bandas de eventos climáticos
-    shapes = []
-    event_annotations = []
-    if events:
-        for ev in events:
-            d    = ev.get("dia", 0)
-            evnm = (ev.get("evento") or "").lower()
-            col  = _EVENT_COLORS.get(evnm, _EVENT_DEFAULT_COLOR)
-            shapes.append(dict(
-                type="rect", xref="x", yref="paper",
-                x0=d - 0.4, x1=d + 0.4, y0=0, y1=1,
-                fillcolor=col, line=dict(width=0), layer="below",
-            ))
-            event_annotations.append(dict(
-                x=d, y=1.02, xref="x", yref="paper",
-                text=evnm[:3], showarrow=False,
-                font=dict(size=7, color="#aaa"), textangle=-45,
-            ))
-
-    fig.update_layout(
-        title=dict(text=title, font=dict(color="#ccc", size=13)),
-        paper_bgcolor="#111827", plot_bgcolor="#111827",
-        showlegend=True, legend=dict(font=dict(color="#aaa")),
-        margin=dict(l=40, r=10, t=40, b=30),
-        xaxis=dict(color="#aaa", gridcolor="#1f2937"),
-        yaxis=yaxis_cfg,
-        shapes=shapes,
-        annotations=event_annotations,
-    )
-    return fig
-
-
 def _build_liminal_map(state: dict) -> "go.Figure | None":
     """C2 — Mapa Plotly del mundo liminal (30×20 hexes) con agentes en tránsito."""
     try:
@@ -2088,16 +2023,22 @@ def build_monitor_page(app_state) -> None:
         def _cerrar_simulacion() -> None:
             rv = app_state.get_runner()
             if rv:
+                # Desbloquear spin loop de pausa antes de pedir shutdown;
+                # sin esto el sim_thread nunca llega a ver la señal de parada.
+                app_state._pause_event.clear()
                 try:
                     rv.shutdown()
                 except Exception as e:
                     print(f"[UI] shutdown error: {e}", file=sys.stderr)
+            t = app_state.sim_thread
+            if t is not None and t.is_alive():
+                t.join(timeout=5)
             proc = app_state._liminal_proc
             if proc is not None:
                 try:
                     proc.terminate()
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"[UI] liminal terminate error: {e}", file=sys.stderr)
                 app_state._liminal_proc = None
             app_state.set_runner(None, None)
             ui.navigate.to("/")
@@ -2512,7 +2453,8 @@ def build_monitor_page(app_state) -> None:
                     ag_html = "<span style='color:#555'>Sin agentes en tránsito.</span>"
                 refs["lim_agents_html"].set_content(ag_html)
 
-            except Exception:
+            except Exception as e:
+                print(f"[UI] liminal poll {url}: {e}", file=sys.stderr)
                 refs["lim_badge"].set_text("Sin conexion")
                 refs["lim_badge"].props('color="red"')
 

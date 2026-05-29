@@ -28,7 +28,6 @@ from ui.psyche_ui import (
     _build_emergence_figure,
     _build_icl_gauges,
     _build_agent_radar,
-    _build_trend_figure,
 )
 from ui.db_reader import load_checkpoint
 
@@ -296,13 +295,3 @@ class TestBuildEmergenceFigure:
         assert fig is not None
 
 
-# ── _build_trend_figure (legacy, aún usada para compatibilidad) ───────────────
-
-class TestBuildTrendFigure:
-    def test_retorna_none_sin_rows(self):
-        assert _build_trend_figure([], ["humor"], "Test") is None
-
-    def test_retorna_figura_con_datos(self):
-        rows = [{"dia": i, "humor": 0.5 + i * 0.01} for i in range(5)]
-        fig = _build_trend_figure(rows, ["humor"], "Humor test")
-        assert fig is not None

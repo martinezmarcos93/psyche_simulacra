@@ -28,7 +28,7 @@ requires = ["setuptools>=70"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["core*", "persistence*", "obsidian*", "dashboard*", "ui*", "liminal_server*"]
+include = ["core*", "persistence*", "obsidian*", "ui*", "liminal_server*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

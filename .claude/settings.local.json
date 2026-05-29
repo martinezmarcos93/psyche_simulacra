@@ -74,7 +74,10 @@
       "Bash(git mv *)",
       "Bash(grep -n \"except Exception: pass\\\\|except Exception:\\\\s*$\\\\|except.*pass\" ui/psyche_ui.py)",
       "Bash(git merge *)",
-      "Bash(git branch *)"
+      "Bash(git branch *)",
+      "Bash(git rm *)",
+      "Bash(grep -E \"__pycache__|\\\\.pyc$\")",
+      "Bash(rm -rf dashboard/)"
     ]
   }
 }

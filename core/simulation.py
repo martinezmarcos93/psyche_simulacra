@@ -377,19 +377,19 @@ class SimulationRunner:
                 dia_actual = self.clock.to_dict().get("dia_simulado", 0),
                 razon      = "normal",
             )
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[shutdown] checkpoint/session error: {e}", file=sys.stderr)
         # 2. Narrador — puede tardar; el checkpoint ya está seguro
         try:
             self.narrator.drain(timeout=60)
             self.narrator.stop()
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[shutdown] narrator error: {e}", file=sys.stderr)
         try:
             self.metrics_exporter.flush()
             self.metrics_exporter.export_summary()
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[shutdown] metrics error: {e}", file=sys.stderr)
 
     def _emergency_save(self) -> None:
         try:
@@ -418,8 +418,8 @@ class SimulationRunner:
                 db_file.unlink()
                 Path(f"{db_path}-wal").unlink(missing_ok=True)
                 Path(f"{db_path}-shm").unlink(missing_ok=True)
-            except Exception:
-                pass
+            except Exception as e:
+                raise RuntimeError(f"No se pudo limpiar la DB anterior: {e}") from e
 
         # Limpiar checkpoints viejos
         cp_path = Path(checkpoint_dir)
@@ -427,8 +427,8 @@ class SimulationRunner:
             for f in cp_path.glob("checkpoint_*.json"):
                 try:
                     f.unlink()
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"[new_session] checkpoint cleanup error {f.name}: {e}", file=sys.stderr)
 
         # Limpiar archivos viejos del Obsidian vault
         vault_dir = Path("vault")

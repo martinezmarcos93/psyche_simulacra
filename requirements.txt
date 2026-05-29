@@ -6,7 +6,6 @@ scipy>=1.13
 pyyaml>=6.0
 loguru>=0.7
 pygame>=2.5.0
-rich>=13.0
 plotly>=5.0
 nicegui>=2.0
 websockets>=12.0

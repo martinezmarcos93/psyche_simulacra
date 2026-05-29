@@ -21,6 +21,7 @@ Sueños Compartidos (Entrelazamiento):
 
 from __future__ import annotations
 
+import hashlib
 import random
 from dataclasses import dataclass, field
 
@@ -204,7 +205,10 @@ class DreamGrammarEngine:
     ) -> Dream:
         r = rng or random.Random()
         # Offset determinístico por agente: rompe empates cuando el pool es idéntico
-        agent_seed = (abs(hash(agent_id)) % 10_000) / 10_000.0 if agent_id else 0.0
+        agent_seed = (
+            int(hashlib.sha256(agent_id.encode()).hexdigest()[-8:], 16) % 10_000 / 10_000.0
+            if agent_id else 0.0
+        )
 
         pool = self._build_pool(dominante, complejo_activo, bioma, traumas_recientes, resonancia_grupal)
         simbolo = self._sample_symbol(pool, r, agent_seed)

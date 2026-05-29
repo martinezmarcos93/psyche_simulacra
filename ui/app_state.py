@@ -45,7 +45,12 @@ class AppState:
     # ── Snapshot directo del mundo (sin serialización) ────────────────────────
 
     def get_snapshot(self):
-        """Retorna el WorldSnapshot vivo, o None. NO serializa."""
+        """Retorna el WorldSnapshot vivo, o None. NO serializa.
+
+        El runner se obtiene bajo lock. El snapshot se lee fuera del lock pero
+        world.current_snapshot se asigna atómicamente (CPython GIL) — nunca se
+        muta in-place, por lo que no se puede obtener un objeto a medio escribir.
+        """
         with self._lock:
             r = self.runner
         if r is None:
