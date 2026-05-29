@@ -66,8 +66,8 @@ _MIN_DIST: dict[str, int] = {
     "hoguera": 4,
 }
 
-# Intervalo mínimo de días entre construcciones de una tribu
-_BUILD_COOLDOWN = 50
+# Intervalo mínimo de días entre construcciones de una tribu (E1)
+_BUILD_COOLDOWN = 25
 
 
 class CultureEngine:
@@ -84,22 +84,47 @@ class CultureEngine:
 
     def on_day(
         self,
-        agents:  dict[str, Agent],
-        tribes:  dict[str, list[str]],   # tribe_id → [agent_ids]
-        terrain: TerrainGrid,
-        day:     int,
+        agents:         dict[str, Agent],
+        tribes:         dict[str, list[str]],   # tribe_id → [agent_ids]
+        terrain:        TerrainGrid,
+        day:            int,
+        tribal_memories: dict | None = None,    # E2/E3: tribe_id → CulturalMemory
+        local_fields:   dict | None = None,     # E3: tribe_id → CollectiveField
     ) -> None:
         """Evalúa triggers de construcción y aplica auras a todos los agentes."""
-        # 1. Expirar estructuras temporales
+        # 1. Expirar estructuras temporales; registrar ruinas (E3)
+        expired: list[StructureRecord] = [
+            s for s in self.structures
+            if s.duration is not None and (day - s.day_built) >= s.duration
+        ]
         self.structures = [
             s for s in self.structures
             if s.duration is None or (day - s.day_built) < s.duration
         ]
+        for s in expired:
+            if tribal_memories:
+                cmem = tribal_memories.get(s.tribe_id)
+                if cmem is not None:
+                    cmem.record_event(
+                        dia                 = day,
+                        agente_nombre       = "colectivo",
+                        arquetipo_dominante = "sabio",
+                        tipo_evento         = "ruina",
+                        descripcion         = (
+                            f"El {s.tipo} construido en el día {s.day_built} "
+                            f"quedó en ruinas. El recuerdo de lo que fue persiste."
+                        ),
+                        intensidad          = 0.40,
+                    )
+            if local_fields:
+                lf = local_fields.get(s.tribe_id)
+                if lf is not None:
+                    lf.myth_pressure = min(1.0, lf.myth_pressure + 0.05)
 
         # 2. Intentar construcción por tribu
         for tribe_id, member_ids in tribes.items():
             alive = [agents[aid] for aid in member_ids if aid in agents and agents[aid].is_alive]
-            if len(alive) < 3:
+            if len(alive) < 2:  # E1: mínimo 2 miembros
                 continue
             last = self._last_build.get(tribe_id, -_BUILD_COOLDOWN)
             if day - last < _BUILD_COOLDOWN:
@@ -110,7 +135,7 @@ class CultureEngine:
             coord = self._choose_location(alive, terrain, tipo)
             if coord is None:
                 continue
-            self._build(tribe_id, tipo, coord, day, terrain)
+            self._build(tribe_id, tipo, coord, day, terrain, tribal_memories)
             self._last_build[tribe_id] = day
 
         # 3. Aplicar auras a agentes vivos
@@ -183,11 +208,12 @@ class CultureEngine:
 
     def _build(
         self,
-        tribe_id: str,
-        tipo:     str,
-        coord:    tuple[int, int],
-        day:      int,
-        terrain:  TerrainGrid,
+        tribe_id:        str,
+        tipo:            str,
+        coord:           tuple[int, int],
+        day:             int,
+        terrain:         TerrainGrid,
+        tribal_memories: dict | None = None,
     ) -> None:
         tmpl = _TEMPLATES[tipo]
         record = StructureRecord(
@@ -200,9 +226,23 @@ class CultureEngine:
             ansiedad_d_ext=tmpl["ansiedad_d_ext"],
         )
         self.structures.append(record)
-        # Marcar el hex en el terreno (para el visualizador)
         terrain.add_structure(*coord, tipo)
         print(f"  [Cultura] Dia {day}: Tribu '{tribe_id}' erigió un {tipo} en {coord}")
+        # E2 — registrar construcción como evento cultural
+        if tribal_memories:
+            cmem = tribal_memories.get(tribe_id)
+            if cmem is not None:
+                cmem.record_event(
+                    dia                 = day,
+                    agente_nombre       = "colectivo",
+                    arquetipo_dominante = "gobernante",
+                    tipo_evento         = "construccion",
+                    descripcion         = (
+                        f"La tribu {tribe_id} erigió un {tipo} en {coord} "
+                        f"el día {day}. La estructura marcó el territorio."
+                    ),
+                    intensidad          = 0.55,
+                )
 
     # ── Irradiación de auras ──────────────────────────────────────────────────
 

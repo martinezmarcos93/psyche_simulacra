@@ -262,7 +262,12 @@ class AgentCore:
         self._process_selective_attention(tp.dia_simulado)
 
         # 2. Cristalización y feedback mítico global — on_day() ya incluye apply_myth_effects()
-        self.mythology_engine.check_crystallization(self.collective_field, self.agents, tp.dia_simulado)
+        self.mythology_engine.check_crystallization(
+            self.collective_field,
+            self.agents,
+            tp.dia_simulado,
+            local_fields=self.tribe_manager.local_fields,  # D3
+        )
 
         # 2b. Mecánicas tribales: re-clustering, campos locales, mitos locales, deriva de bioma (Fase 2)
         terrain = getattr(self.world_ref, "terrain", None)
@@ -284,6 +289,8 @@ class AgentCore:
                 self.tribe_manager.tribes,
                 terrain,
                 tp.dia_simulado,
+                tribal_memories=self.tribe_manager.cultural_memories,  # E2/E3
+                local_fields=self.tribe_manager.local_fields,           # E3
             )
 
         # 3. Control de vitalidad (hambre, sed, vejez)
@@ -3114,10 +3121,12 @@ class AgentCore:
         """
         Mortalidad selectiva durante catástrofes activas.
         Infantes y ancianos tienen mayor riesgo. La plaga genera tabús de contagio.
+        C1: lethality_factor < 1.0 reduce muertes y amplifica trauma simbólico en supervivientes.
         """
         cat = cat_engine.active
         if cat is None:
             return
+        lethality = getattr(cat_engine, "lethality_factor", 1.0)
         for agent in list(self.agents.values()):
             if not agent.is_alive:
                 continue
@@ -3148,6 +3157,17 @@ class AgentCore:
                             ),
                             intensidad          = 0.80,
                         )
+        # C1: si lethality < 1.0, los supervivientes en el área reciben trauma simbólico extra
+        if lethality < 1.0:
+            extra = 0.15 * (1.0 - lethality)
+            for agent in self.agents.values():
+                if not agent.is_alive:
+                    continue
+                if cat.area_hexes is not None and agent.posicion not in cat.area_hexes:
+                    continue
+                lf = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                lf.myth_pressure = min(1.0, lf.myth_pressure + extra)
+                lf.confusion     = min(1.0, lf.confusion     + extra * 0.5)
 
     def _process_catastrophe_anxiety(self, tp: TimePoint, cat_engine) -> None:
         """
@@ -3294,6 +3314,17 @@ class AgentCore:
             if a.is_alive and not a.in_liminal
         ]
         attacks = fauna_sys.check_predator_attacks(tp.dia_simulado, alive_pos)
+
+        # C2: encuentros no letales — cargan myth_pressure sin matar
+        for enc in getattr(fauna_sys, "_nonlethal", []):
+            agent = self.agents.get(enc["agent_id"])
+            if agent is None or not agent.is_alive:
+                continue
+            tribe_id = enc["tribe_id"]
+            lf = self.tribe_manager.local_fields.get(tribe_id) or self.collective_field
+            lf.myth_pressure = min(1.0, lf.myth_pressure + 0.15)
+            fauna_sys.register_sighting(tribe_id, enc["fauna_nombre"])
+
         killed_ids: set[str] = set()
         for atk in attacks:
             agent = self.agents.get(atk["agent_id"])

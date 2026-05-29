@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from core.agents import Agent
 
-_MAX_RECORDS = 30
+_MAX_RECORDS = 100  # E4: expandido de 30
 
 # Epítetos arquetípicos que el transmisor proyecta sobre el protagonista (identificación)
 _EPITHETS: dict[str, list[str]] = {
@@ -244,11 +244,11 @@ class CulturalMemory:
             es_extrovertido = agent.traits.extraversion > 0.60
 
             if es_sabio and es_extrovertido:
-                prob = 0.25
+                prob = 0.375  # E4: ×1.5 de 0.25
             elif es_sabio or es_extrovertido:
-                prob = 0.12
+                prob = 0.18   # E4: ×1.5 de 0.12
             else:
-                prob = 0.04
+                prob = 0.06   # E4: ×1.5 de 0.04
 
             if self._rng.random() >= prob:
                 continue
@@ -290,7 +290,7 @@ class CulturalMemory:
         Modela cómo los eventos lejanos se deforman sin que nadie lo decida.
         Devuelve el número de registros distorsionados.
         """
-        _AGING_THRESHOLD = 360
+        _AGING_THRESHOLD = 180  # E4: reducido de 360 — relatos mutan más rápido
         count = 0
         for rec in self.records:
             if dia - rec.dia_origen >= _AGING_THRESHOLD:
