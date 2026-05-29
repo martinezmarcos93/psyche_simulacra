@@ -39,7 +39,7 @@ class SimulationRunner:
     ) -> None:
         self.clock  = SimulationClock(start_dia=0, start_hora=6)
         self.world  = WorldCore(seed=seed)
-        self.agents = AgentCore(self.world)
+        self.agents = AgentCore(self.world, seed=seed)
         self.db     = DatabaseManager(db_path=db_path)
         self.buffer = WriteBuffer(self.db)
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
@@ -452,7 +452,7 @@ class SimulationRunner:
                         print(f"[new_session] vault cleanup error {f.name}: {e}", file=sys.stderr)
 
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
-        runner.agents = AgentCore.from_yaml(seed_file, runner.world)
+        runner.agents = AgentCore.from_yaml(seed_file, runner.world, seed=seed)
         runner.obsidian_sync.sync_from_vault(runner.agents.agents)
         runner._wire_handlers()
         runner.session.start(dia_inicio=0)

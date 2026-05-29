@@ -5,34 +5,34 @@ rol: generico
 edad: 29
 sexo: F
 is_alive: True
-posicion: [66, 28]
-humor: 0.843
-energia: 0.667
-ansiedad: 0.353
+posicion: [47, 27]
+humor: 0.721
+energia: 0.595
+ansiedad: 0.599
 needs:
-  hambre: 0.044
-  fatiga: 0.335
+  hambre: 0.000
+  fatiga: 0.435
   sed: 0.405
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: competencia
 arquetipos:
-  self: 0.989
+  self: 1.000
   persona: 0.500
-  sombra: 0.222
-  anima_animus: 0.753
-  heroe: 0.519
-  sabio: 0.403
-  trickster: 0.250
-  madre: 0.455
-  padre: 0.400
-  nino_divino: 0.300
-  gobernante: 0.402
-  rebelde: 0.300
+  sombra: 0.313
+  anima_animus: 0.508
+  heroe: 0.468
+  sabio: 0.395
+  trickster: 0.253
+  madre: 0.461
+  padre: 0.417
+  nino_divino: 0.309
+  gobernante: 0.486
+  rebelde: 0.391
 ---
 # 👤 Persona: Filia
 
-> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(66, 28)`
+> **Rol:** `generico` | **Edad:** 29 | **Sexo:** F | **Ubicación:** `(47, 27)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.35 |
+| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.72 |
+| **Energía** | `[▓▓▓▓▓▓░░░░]` | 0.60 |
+| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.60 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.00 | 🟢 Saciado |
 | **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.989` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
 | **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
-| **Sombra** | `0.222` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.753` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.519` | `▓▓▓▓▓▓░░░░░░` |
-| **Sabio** | `0.403` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
-| **Madre** | `0.455` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.402` | `▓▓▓▓▓░░░░░░░` |
-| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Sombra** | `0.313` | `▓▓▓▓░░░░░░░░` |
+| **Anima animus** | `0.508` | `▓▓▓▓▓▓░░░░░░` |
+| **Heroe** | `0.468` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.395` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.253` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.461` | `▓▓▓▓▓▓░░░░░░` |
+| **Padre** | `0.417` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.309` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.486` | `▓▓▓▓▓▓░░░░░░` |
+| **Rebelde** | `0.391` | `▓▓▓▓▓░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -92,11 +92,12 @@ arquetipos:
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
 | [[arete]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[bios]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[bios]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
 | [[chara]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[elpis]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[hados]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[kore]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hados]] | `+0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kore]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[leon]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[moros]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[peitho]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
@@ -106,19 +107,19 @@ arquetipos:
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
 - **Día 24:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
-- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- **Día 26:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en bosque templado.
-- **Día 27:** Soñó con `'agua_fría'` (arquetipo `self`).
-  - *Insight:* En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en pradera humeda.
-- **Día 29:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en sabana abierta.
-- **Día 30:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En sabana abierta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+  - *Insight:* El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- **Día 25:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 26:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- **Día 27:** Soñó con `'caída_sin_fondo'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 28:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
+- **Día 29:** Soñó con `'cima_en_niebla'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 30:** Soñó con `'caída_sin_fondo'` (arquetipo `self`).
+  - *Insight:* El self y colapso civilizatorio se toleran esta noche en montana alta.
 
 ---
 
@@ -155,42 +156,159 @@ arquetipos:
 - Día 8: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el self respira.
 - Día 9: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
 - Día 10: Soñó con 'corriente_que_arrastra' (self). Insight: El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
-- Día 11: Soñó con 'silencio_pleno' (self). Insight: El self descansa en cueva mientras colapso civilizatorio aguarda en el umbral.
-- Día 12: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
-- Día 13: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
-- Día 14: Soñó con 'salida_inexistente' (self). Insight: Entre sombras de cueva, el self y colapso civilizatorio coexisten sin resolverse.
-- Día 15: Soñó con 'semilla_negra' (self). Insight: El self se disfraza de su contrario en valle fertil, lejos de colapso civilizatorio.
-- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
-- Día 17: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
-- Día 18: Soñó con 'hierba_que_corta' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
-- Día 18: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
-- Día 20: Soñó con 'árbol_sin_raíces' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
-- Día 21: Soñó con 'unión_imposible' (self). Insight: En costa abierta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
-- Día 23: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 24: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
-- Día 25: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 26: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en bosque templado.
-- Día 27: Soñó con 'agua_fría' (self). Insight: En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 28: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
-- Día 29: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en sabana abierta.
-- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 11: Soñó con 'descenso_inevitable' (self). Insight: En colinas suaves, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 11: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 11: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 11: Cooperó de forma mutua y armónica con Leon. Su lazo social se fortaleció.
+- Día 12: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 13: Soñó con 'sombra' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 14: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Hados.
+- Día 14: Se impuso competitivamente ante Hados, absorbiendo sus recursos biológicos.
+- Día 15: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 17: Detectó y rechazó un intento de manipulación de Bios.
+- Día 17: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 17: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 17: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 17: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 17: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 18: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 19: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Soñó con 'caída_sin_fondo' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 20: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 21: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 22: Soñó con 'roca_que_aplasta' (self). Insight: El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
+- Día 22: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 22: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 22: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 22: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Soñó con 'unión_imposible' (self). Insight: El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 23: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 25: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 25: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 25: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 25: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 25: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Soñó con 'unión_imposible' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 26: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Soñó con 'unión_imposible' (self). Insight: El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 28: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Soñó con 'cima_en_niebla' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 29: Se impuso competitivamente ante Bios, absorbiendo sus recursos biológicos.
+- Día 30: Soñó con 'caída_sin_fondo' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.

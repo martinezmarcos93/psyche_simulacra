@@ -319,12 +319,12 @@ class MythologyEngine:
             del proto-mito activo.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, seed: int = 0) -> None:
         self.active_myths: list[MythCrystal]       = []
         self.proto_myths:  list[ProtoMito]          = []
         self.deities:      list[DeityRecord]        = []   # Hito E
         self._pair_counts: dict[str, int]           = {}   # "arch1|arch2" → n cristalizaciones
-        self._rng = random.Random()
+        self._rng = random.Random(seed)
 
     # ── Ciclo principal ────────────────────────────────────────────────────────
 

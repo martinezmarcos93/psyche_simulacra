@@ -1,6 +1,6 @@
-# 🏕️ Tribu del Héroe
+# 🏕️ Tribu del Self
 
-> **Día:** `30` | **Miembros vivos:** `0`
+> **Día:** `30` | **Miembros vivos:** `1`
 
 ---
 
@@ -8,20 +8,21 @@
 
 | Agente | Rol | Edad | Arquetipo Dominante |
 | :--- | :--- | :---: | :--- |
+| [[leon]] (Leon) | generico | 16 | self |
 
 ---
 
 ## 🌀 Inconsciente Colectivo Local
 
-> **Presión emocional:** `0.262` `[▓▓▓░░░░░░░░░]`
+> **Presión emocional:** `0.014` `[░░░░░░░░░░░░]`
 
 | Símbolo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Muerte** | `0.626` | `▓▓▓▓▓▓░░░░` |
-| **Sombra** | `0.339` | `▓▓▓░░░░░░░` |
-| **Heroe** | `0.051` | `▓░░░░░░░░░` |
+| **Muerte** | `0.328` | `▓▓▓░░░░░░░` |
+| **Heroe** | `0.215` | `▓▓░░░░░░░░` |
+| **Sombra** | `0.125` | `▓░░░░░░░░░` |
+| **Madre** | `0.107` | `▓░░░░░░░░░` |
 | **Padre** | `0.050` | `▓░░░░░░░░░` |
-| **Madre** | `0.026` | `░░░░░░░░░░` |
 | **Fuego** | `0.000` | `░░░░░░░░░░` |
 | **Comida** | `0.000` | `░░░░░░░░░░` |
 | **Trickster** | `0.000` | `░░░░░░░░░░` |

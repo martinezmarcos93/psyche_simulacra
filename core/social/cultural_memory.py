@@ -191,11 +191,11 @@ class CulturalMemory:
     no los hechos originales, y su perfil arquetípico inicial se ve influido por ella.
     """
 
-    def __init__(self, tribe_id: str) -> None:
+    def __init__(self, tribe_id: str, seed: int = 0) -> None:
         self.tribe_id  = tribe_id
         self.records:  list[TransmissionRecord] = []
         self._distort  = DistortionEngine()
-        self._rng      = random.Random()
+        self._rng      = random.Random(seed)
 
     # ── Ingesta de eventos ────────────────────────────────────────────────────
 

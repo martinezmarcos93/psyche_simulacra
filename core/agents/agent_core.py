@@ -113,14 +113,14 @@ class AgentCore:
     Lee WorldSnapshot, actualiza cada agente, envía WorldAction[] al WorldCore.
     """
 
-    def __init__(self, world_ref: WorldCore) -> None:
+    def __init__(self, world_ref: WorldCore, seed: int = 0) -> None:
         self.world_ref:  WorldCore          = world_ref
         self.agents:     dict[str, Agent]   = {}
         self._death_log: list[dict]         = []
         self._birth_log: list[dict]         = []
 
         # Ciclo de vida — estado de reproducción
-        self._rng               = random.Random()
+        self._rng               = random.Random(seed + 1)
         self._nombres_usados:   set[str] = set()
         self._proximo_id_hijo:  int = 0
 
@@ -128,9 +128,9 @@ class AgentCore:
         self.social_network     = SocialNetwork()
         self.interaction_engine = InteractionEngine()
         self.collective_field   = CollectiveField()
-        self.mythology_engine   = MythologyEngine()
+        self.mythology_engine   = MythologyEngine(seed=seed + 2)
         # Tribus y campos locales (Fase 2)
-        self.tribe_manager      = TribeManager()
+        self.tribe_manager      = TribeManager(seed=seed + 3)
         # Cultura material — estructuras y auras (Fase 4)
         self.culture_engine     = CultureEngine()
         # Árbol genealógico (Hito 7)
@@ -4607,10 +4607,10 @@ class AgentCore:
     # ── Factory helpers ───────────────────────────────────────────────────────
 
     @classmethod
-    def from_yaml(cls, path: str, world_ref: WorldCore) -> AgentCore:
+    def from_yaml(cls, path: str, world_ref: WorldCore, seed: int = 0) -> AgentCore:
         """Load agents from a YAML seed file (Phase 5)."""
         import yaml
-        core = cls(world_ref)
+        core = cls(world_ref, seed=seed)
         with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f)
         for i, entry in enumerate(data.get("agents", [])):
