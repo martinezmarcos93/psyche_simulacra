@@ -19,6 +19,7 @@ class AppState:
         self.runtime:        "PsycheRuntime | None"    = None
         self.sim_thread:     threading.Thread | None   = None
         self.use_liminal:    bool                      = False
+        self.liminal_host:   str                       = "localhost"
         self.liminal_port:   int                       = 8765
         self._liminal_proc   = None   # subprocess del servidor liminal
         self._pause_event:   threading.Event           = threading.Event()

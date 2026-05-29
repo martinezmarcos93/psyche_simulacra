@@ -41,7 +41,7 @@
 > El mapa ahora muestra biomas con colores reales. Este bloque añade las capas que faltan.
 
 ### B1 — Estructuras como capa del mapa
-- Leer `snap` o checkpoint para obtener `persistent_structures`.
+- Leer `runner.agents.culture_engine.structures` para obtener los objetos `StructureRecord` vivos (tipo, coord, tribe_id, estado). `world.persistent_structures` es un sistema separado que gestiona occupied_coords pero no contiene la info de visualización.
 - Añadir traza Scattergl: altares (▲ dorado), tótems (◆ violeta), murallas (■ gris), hogueras (● rojo).
 - Toggle "Estructuras" en el panel de capas (D3 del R5.2 ya tiene la infraestructura).
 

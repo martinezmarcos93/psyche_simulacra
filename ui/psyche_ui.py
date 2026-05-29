@@ -1774,11 +1774,22 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
             ).classes("w-full mb-2")
 
             seed_input = ui.number("Seed aleatoria", value=42, min=0).classes("w-full mb-4")
-            use_liminal = ui.checkbox("Levantar servidor Zona Liminal", value=False).classes("mb-1")
-            _lim_port = app_state.liminal_port
+            use_liminal = ui.checkbox("Zona Liminal", value=False).classes("mb-1")
+            with ui.row().classes("gap-2 w-full mb-1").bind_visibility_from(use_liminal, "value"):
+                liminal_host_input = ui.input(
+                    "Host del servidor",
+                    value=os.environ.get("LIMINAL_HOST", "localhost"),
+                    placeholder="localhost o IP remota",
+                ).classes("flex-1 text-sm")
+                liminal_port_input = ui.number(
+                    "Puerto",
+                    value=app_state.liminal_port,
+                    min=1024, max=65534,
+                ).classes("w-28 text-sm")
             ui.label(
-                f"WebSocket: ws://0.0.0.0:{_lim_port}  |  HTTP /state: http://localhost:{_lim_port + 1}/state"
-            ).classes("text-xs text-gray-500 font-mono mb-3").bind_visibility_from(use_liminal, "value")
+                "Dejá 'localhost' para levantar el servidor en esta PC. "
+                "Ingresá la IP del host para conectarte a un servidor remoto (no lanza proceso local)."
+            ).classes("text-xs text-gray-500 mb-3").bind_visibility_from(use_liminal, "value")
 
             # H3 — Configuración avanzada
             with ui.expansion("Configuración avanzada", icon="settings").classes(
@@ -1814,6 +1825,9 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                 os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3.2"
                 os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 50))
                 os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 365))
+                if use_liminal.value:
+                    app_state.liminal_host = (liminal_host_input.value or "localhost").strip()
+                    app_state.liminal_port = int(liminal_port_input.value or 8765)
 
             with ui.row().classes("gap-4 w-full"):
                 if summ["vivos"] > 0:
@@ -1874,25 +1888,33 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
     app_state.set_runner(runner, runtime)
     app_state.use_liminal = use_liminal
 
-    if use_liminal and liminal_server and liminal_server.exists():
+    if use_liminal:
         try:
-            if sys.platform == "win32":
-                proc = subprocess.Popen(
-                    [sys.executable, str(liminal_server), "--host", "0.0.0.0",
-                     "--port", str(app_state.liminal_port), "--seed", "0"],
-                    creationflags=subprocess.CREATE_NEW_CONSOLE,
-                )
-            else:
-                proc = subprocess.Popen(
-                    [sys.executable, str(liminal_server), "--host", "0.0.0.0",
-                     "--port", str(app_state.liminal_port), "--seed", "0"],
-                    start_new_session=True,
-                )
-            app_state._liminal_proc = proc
-            runtime.state.liminal = "starting"
+            _lim_host   = app_state.liminal_host
+            _lim_port   = app_state.liminal_port
+            _is_local   = _lim_host in ("localhost", "127.0.0.1")
 
-            import time as _time
-            _time.sleep(0.5)  # dar tiempo al servidor a iniciar el socket
+            # Solo lanzar proceso local si el host apunta a esta máquina
+            if _is_local and liminal_server and liminal_server.exists():
+                if sys.platform == "win32":
+                    proc = subprocess.Popen(
+                        [sys.executable, str(liminal_server), "--host", "0.0.0.0",
+                         "--port", str(_lim_port), "--seed", "0"],
+                        creationflags=subprocess.CREATE_NEW_CONSOLE,
+                    )
+                else:
+                    proc = subprocess.Popen(
+                        [sys.executable, str(liminal_server), "--host", "0.0.0.0",
+                         "--port", str(_lim_port), "--seed", "0"],
+                        start_new_session=True,
+                    )
+                app_state._liminal_proc = proc
+                runtime.state.liminal = "starting"
+
+                import time as _time
+                _time.sleep(0.5)  # dar tiempo al servidor a iniciar el socket
+            else:
+                runtime.state.liminal = "connecting"
 
             from core.liminal.sim_identity import get_sim_id
             from core.liminal.portal_hex import PortalHex
@@ -1902,7 +1924,7 @@ async def _start_sim(app_state, mode: str, seeds_path: str = None,
             _sim_id = get_sim_id()
             _portal = PortalHex(seed=seed)
             _client = LiminalClient(sim_id=_sim_id, seed=seed)
-            _client.start(host="localhost", port=app_state.liminal_port)
+            _client.start(host=_lim_host, port=_lim_port)
 
             _liminal_transfer = AgentTransferHandler(
                 agent_core=runner.agents,
@@ -2362,8 +2384,8 @@ def build_monitor_page(app_state) -> None:
                     refs["lim_nsims"]   = ui.label("Sims: —").classes("text-xs text-blue-300")
                     refs["lim_nagents"] = ui.label("Agentes: —").classes("text-xs text-green-300")
                     ui.label(
-                        f"ws://localhost:{app_state.liminal_port}  |  "
-                        f"http://localhost:{app_state.liminal_port + 1}/state"
+                        f"ws://{app_state.liminal_host}:{app_state.liminal_port}  |  "
+                        f"http://{app_state.liminal_host}:{app_state.liminal_port + 1}/state"
                     ).classes("text-xs text-gray-500 font-mono")
 
                 # C2 — Mapa Plotly del mundo liminal
@@ -2416,7 +2438,7 @@ def build_monitor_page(app_state) -> None:
 
         def _refresh_liminal() -> None:
             http_port = app_state.liminal_port + 1
-            url = f"http://localhost:{http_port}/state"
+            url = f"http://{app_state.liminal_host}:{http_port}/state"
             try:
                 with _urllib.urlopen(url, timeout=2) as resp:
                     state = __import__("json").loads(resp.read())
