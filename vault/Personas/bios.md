@@ -5,34 +5,34 @@ rol: cazador
 edad: 34
 sexo: M
 is_alive: True
-posicion: [47, 27]
-humor: 0.673
-energia: 0.664
-ansiedad: 0.726
+posicion: [38, 31]
+humor: 0.836
+energia: 0.665
+ansiedad: 0.356
 needs:
-  hambre: 0.594
-  fatiga: 0.000
-  sed: 0.045
+  hambre: 0.044
+  fatiga: 0.335
+  sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: cooperacion
+estado_conductual: manipulacion
 arquetipos:
-  self: 1.000
-  persona: 0.550
-  sombra: 0.270
-  anima_animus: 0.689
-  heroe: 0.675
-  sabio: 0.417
-  trickster: 0.294
-  madre: 0.450
-  padre: 0.470
-  nino_divino: 0.419
-  gobernante: 0.317
-  rebelde: 0.263
+  self: 0.983
+  persona: 0.650
+  sombra: 0.300
+  anima_animus: 0.703
+  heroe: 0.661
+  sabio: 0.400
+  trickster: 0.250
+  madre: 0.433
+  padre: 0.400
+  nino_divino: 0.300
+  gobernante: 0.310
+  rebelde: 0.300
 ---
 # 👤 Persona: Bios
 
-> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(47, 27)`
+> **Rol:** `cazador` | **Edad:** 34 | **Sexo:** M | **Ubicación:** `(38, 31)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,16 +42,16 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
 | **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.73 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.36 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓▓▓▓▓▓░░░░]` | 0.59 | 🟢 Saciado |
-| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
-| **Fatiga** | `[░░░░░░░░░░]` | 0.00 | 🟢 Descansado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
 ---
@@ -61,23 +61,23 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.270` | `▓▓▓░░░░░░░░░` |
-| **Anima animus** | `0.689` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Heroe** | `0.675` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Sabio** | `0.417` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.294` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.450` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.470` | `▓▓▓▓▓▓░░░░░░` |
-| **Nino divino** | `0.419` | `▓▓▓▓▓░░░░░░░` |
-| **Gobernante** | `0.317` | `▓▓▓▓░░░░░░░░` |
-| **Rebelde** | `0.263` | `▓▓▓░░░░░░░░░` |
+| **Self** | `0.983` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.650` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sombra** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Anima animus** | `0.703` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Heroe** | `0.661` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.250` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.433` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.310` | `▓▓▓▓░░░░░░░░` |
+| **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
 | :--- | :---: | :--- | :---: |
-| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Abandono | `0.65` | `▓▓▓▓▓▓░░░░` | 💤 Inactivo |
 | Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
 | Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
 | Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
@@ -91,34 +91,36 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[arete]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[chara]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[doron]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
 | [[elpis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
-| [[filia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[filia]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[gigas]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
-| [[kairos]] | `+0.98` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
+| [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
 | [[leon]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[moros]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[peitho]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[sophron]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en montana alta.
-- **Día 25:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
-- **Día 26:** Soñó con `'silencio_absoluto'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
-- **Día 27:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- **Día 28:** Soñó con `'silencio_absoluto'` (arquetipo `self`).
-  - *Insight:* En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- **Día 29:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- **Día 30:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en montana alta.
+- **Día 24:** Soñó con `'viento_que_borra'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 26:** Soñó con `'río_tranquilo'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 27:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 28:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 29:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
+- **Día 30:** Soñó con `'campo_interminable'` (arquetipo `self`).
+  - *Insight:* colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
 
 ---
 
@@ -176,260 +178,46 @@ arquetipos:
 - Día 3: Cooperó de forma mutua y armónica con Filia. Su lazo social se fortaleció.
 - Día 4: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
 - Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 5: Soñó con 'silencio_pleno' (self). Insight: El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
-- Día 6: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
-- Día 7: Soñó con 'silencio_pleno' (self). Insight: El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
-- Día 7: Cedió ingenuamente ante la manipulación de Arete.
-- Día 7: Cedió ingenuamente ante la manipulación de Arete.
-- Día 8: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
-- Día 9: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 10: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 11: Soñó con 'horizonte_inmóvil' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
-- Día 12: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 13: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
-- Día 14: Soñó con 'hierba_que_corta' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
-- Día 15: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de pradera humeda, el self y colapso civilizatorio coexisten sin resolverse.
-- Día 16: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 17: Soñó con 'olor_a_descomposición' (self). Insight: El self descansa en pantano costero mientras colapso civilizatorio aguarda en el umbral.
-- Día 17: Intentó manipular a Filia, pero fue descubierto.
-- Día 17: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 17: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 17: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 17: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 17: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 18: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Soñó con 'unión_imposible' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Kairos, cediendo recursos biológicos.
-- Día 19: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 19: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 19: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 20: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 20: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Soñó con 'silencio_absoluto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de colapso civilizatorio.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 21: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Soñó con 'roca_que_aplasta' (self). Insight: El self busca equilibrio en montana alta compensando la energía de colapso civilizatorio.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 22: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 22: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 23: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 24: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 25: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 25: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Soñó con 'silencio_absoluto' (self). Insight: El self se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 26: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 27: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 28: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 29: Sufrió explotación y hostilidad de Filia, cediendo recursos biológicos.
-- Día 30: Cooperó de forma mutua y armónica con Kairos. Su lazo social se fortaleció.
-- Día 30: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 5: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 6: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- Día 7: Soñó con 'unión_imposible' (self). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 8: Soñó con 'campo_interminable' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 9: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 9: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 10: Detectó y rechazó un intento de manipulación de Moros.
+- Día 11: Soñó con 'fruto_amargo' (self). Insight: El self se disfraza de su contrario en valle fertil, lejos de colapso civilizatorio.
+- Día 12: Soñó con 'silencio_pleno' (self). Insight: El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Día 13: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- Día 14: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 15: Soñó con 'río_tranquilo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de colapso civilizatorio.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 17: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 18: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 18: Cedió ingenuamente ante la manipulación de Peitho.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 20: Soñó con 'hierba_que_corta' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 21: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 22: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 23: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 24: Soñó con 'viento_que_borra' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 26: Soñó con 'río_tranquilo' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 27: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 28: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 30: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.

@@ -4,36 +4,36 @@ nombre: Hados
 rol: generico
 edad: 24
 sexo: M
-is_alive: True
-posicion: [42, 38]
-humor: 0.750
-energia: 0.663
-ansiedad: 0.441
+is_alive: False
+posicion: [49, 25]
+humor: 0.053
+energia: 0.033
+ansiedad: 0.948
 needs:
-  hambre: 0.084
-  fatiga: 0.335
-  sed: 0.405
-  sociabilidad: 0.020
+  hambre: 1.000
+  fatiga: 1.000
+  sed: 1.000
+  sociabilidad: 1.000
 arquetipo_dominante: self
-estado_conductual: aislamiento
+estado_conductual: competencia
 arquetipos:
-  self: 1.000
-  persona: 0.550
-  sombra: 0.546
-  anima_animus: 0.713
+  self: 0.959
+  persona: 0.500
+  sombra: 0.560
+  anima_animus: 0.634
   heroe: 0.223
-  sabio: 0.353
-  trickster: 0.308
-  madre: 0.424
-  padre: 0.406
-  nino_divino: 0.296
-  gobernante: 0.356
-  rebelde: 0.258
+  sabio: 0.393
+  trickster: 0.263
+  madre: 0.469
+  padre: 0.408
+  nino_divino: 0.303
+  gobernante: 0.408
+  rebelde: 0.282
 ---
 # 👤 Persona: Hados
 
-> **Rol:** `generico` | **Edad:** 24 | **Sexo:** M | **Ubicación:** `(42, 38)`
-> **Estado Vital:** **🟢 Conectado / Vivo**
+> **Rol:** `generico` | **Edad:** 24 | **Sexo:** M | **Ubicación:** `(49, 25)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
 
 ---
 
@@ -42,17 +42,17 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.75 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
-| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Humor** | `[▓░░░░░░░░░]` | 0.05 |
+| **Energía** | `[░░░░░░░░░░]` | 0.03 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.95 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
-| **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
-| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Aislado |
 
 ---
 
@@ -61,18 +61,18 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
-| **Sombra** | `0.546` | `▓▓▓▓▓▓▓░░░░░` |
-| **Anima animus** | `0.713` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Self** | `0.959` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.500` | `▓▓▓▓▓▓░░░░░░` |
+| **Sombra** | `0.560` | `▓▓▓▓▓▓▓░░░░░` |
+| **Anima animus** | `0.634` | `▓▓▓▓▓▓▓▓░░░░` |
 | **Heroe** | `0.223` | `▓▓▓░░░░░░░░░` |
-| **Sabio** | `0.353` | `▓▓▓▓░░░░░░░░` |
-| **Trickster** | `0.308` | `▓▓▓▓░░░░░░░░` |
-| **Madre** | `0.424` | `▓▓▓▓▓░░░░░░░` |
-| **Padre** | `0.406` | `▓▓▓▓▓░░░░░░░` |
-| **Nino divino** | `0.296` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.356` | `▓▓▓▓░░░░░░░░` |
-| **Rebelde** | `0.258` | `▓▓▓░░░░░░░░░` |
+| **Sabio** | `0.393` | `▓▓▓▓▓░░░░░░░` |
+| **Trickster** | `0.263` | `▓▓▓░░░░░░░░░` |
+| **Madre** | `0.469` | `▓▓▓▓▓▓░░░░░░` |
+| **Padre** | `0.408` | `▓▓▓▓▓░░░░░░░` |
+| **Nino divino** | `0.303` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.408` | `▓▓▓▓▓░░░░░░░` |
+| **Rebelde** | `0.282` | `▓▓▓░░░░░░░░░` |
 
 ### Complejos Activos
 | Complejo | Intensidad | Barra Visual | Estado |
@@ -91,31 +91,30 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
-| [[chara]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[filia]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
-| [[gigas]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
-| [[kairos]] | `-0.06` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[arete]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[filia]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[gigas]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kairos]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kore]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 
 ---
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'unión_imposible'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
-- **Día 25:** Soñó con `'hierba_que_corta'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- **Día 26:** Soñó con `'sombra_que_camina'` (arquetipo `self`).
-  - *Insight:* colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
-- **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- **Día 28:** Soñó con `'campo_interminable'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
-- **Día 29:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en lago interior, lejos de colapso civilizatorio.
-- **Día 30:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- **Día 21:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en bosque templado, lejos de colapso civilizatorio.
+- **Día 22:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
+- **Día 23:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* En rio lago, el self encuentra tregua provisional con colapso civilizatorio.
+- **Día 24:** Soñó con `'sed_en_el_agua'` (arquetipo `self`).
+  - *Insight:* Entre sombras de rio lago, el self y colapso civilizatorio coexisten sin resolverse.
+- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En rio lago, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 26:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- **Día 27:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
+  - *Insight:* En rio lago, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
 
 ---
 
@@ -158,37 +157,234 @@ arquetipos:
 - Día 5: Sufrió explotación y hostilidad de Arete, cediendo recursos biológicos.
 - Día 5: Sufrió explotación y hostilidad de Arete, cediendo recursos biológicos.
 - Día 5: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
-- Día 5: Cooperó de forma mutua y armónica con Arete. Su lazo social se fortaleció.
 - Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 6: Soñó con 'leche_amarga' (self). Insight: En lago interior, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 7: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 8: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
-- Día 9: Soñó con 'sal_en_herida' (self). Insight: El self se disfraza de su contrario en costa abierta, lejos de colapso civilizatorio.
-- Día 9: Se impuso competitivamente ante Chara, absorbiendo sus recursos biológicos.
-- Día 10: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 11: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 12: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 13: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 14: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 14: Se enfrentó en un choque violento y destructivo contra Filia.
-- Día 15: Soñó con 'campo_interminable' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
-- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en lago interior.
-- Día 17: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en lago interior.
-- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
-- Día 19: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 19: Se impuso competitivamente ante Kairos, absorbiendo sus recursos biológicos.
-- Día 19: Se impuso competitivamente ante Kairos, absorbiendo sus recursos biológicos.
-- Día 19: Se impuso competitivamente ante Kairos, absorbiendo sus recursos biológicos.
-- Día 19: Se impuso competitivamente ante Kairos, absorbiendo sus recursos biológicos.
-- Día 20: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en lago interior para no caer.
-- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 22: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 24: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 25: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 26: Soñó con 'sombra_que_camina' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
-- Día 27: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 28: Soñó con 'campo_interminable' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
-- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en lago interior, lejos de colapso civilizatorio.
-- Día 30: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- Día 6: Soñó con 'nido_que_asfixia' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 7: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 8: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de colapso civilizatorio.
+- Día 9: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Intentó manipular a Arete, pero fue descubierto.
+- Día 9: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 9: Manipuló con éxito y astucia a Arete para ceder recursos.
+- Día 10: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 11: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 12: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 13: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 14: Soñó con 'cima_en_niebla' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 15: Soñó con 'corriente_que_arrastra' (self). Insight: El self descansa en rio lago mientras colapso civilizatorio aguarda en el umbral.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 17: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 18: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en rio lago mientras colapso civilizatorio aguarda en el umbral.
+- Día 19: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 19: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Gigas.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 19: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 20: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de colapso civilizatorio.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 21: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Soñó con 'unión_imposible' (self). Insight: En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 22: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Soñó con 'unión_imposible' (self). Insight: En rio lago, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 23: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Soñó con 'sed_en_el_agua' (self). Insight: Entre sombras de rio lago, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 24: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 25: Entró en disociación por sombra — estupor_catatonico.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 25: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 26: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 27: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 28: Se enfrentó en un choque violento y destructivo contra Gigas.
+- Día 28: Falleció a causa de inanicion.
