@@ -242,13 +242,6 @@ PSYCHE SIMULACRA/
 │   ├── writer.py                     Escribe Personas, Tribus, Colectivo
 │   └── sync.py                       Sincronizacion bidireccional
 │
-├── dashboard/
-│   ├── app.py                        Streamlit (solo lectura)
-│   └── components/
-│       ├── network_graph.py
-│       ├── collective_field.py
-│       └── agent_inspector.py
-│
 ├── vault/                            Vault de Obsidian (generado en runtime)
 │   ├── Personas/                     Un .md por agente
 │   ├── Colectivo/                    Campo, mitologia, cultura material
@@ -431,8 +424,8 @@ OLLAMA_TIMEOUT=120                       # segundos
 NARRATIVE_ENABLED=1                      # 0 para desactivar
 
 # Simulación
-CHECKPOINT_INTERVAL=50                   # días entre checkpoints automáticos
-DAYS_UNTIL_CLUSTERING=365               # días hasta primer clustering tribal
+CHECKPOINT_INTERVAL=10                   # días entre checkpoints automáticos
+DAYS_UNTIL_CLUSTERING=30                # días hasta primer clustering tribal
 ```
 
 Todas las variables configurables también desde el launcher NiceGUI (sección **Configuración avanzada**) sin necesidad de editar archivos.

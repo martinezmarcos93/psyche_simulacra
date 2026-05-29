@@ -11,7 +11,6 @@ dependencies = [
     "scipy>=1.13",
     "pyyaml>=6.0",
     "loguru>=0.7",
-    "pygame>=2.5.0",
     "plotly>=5.0",
     "nicegui>=2.0",
     "websockets>=12.0",
@@ -19,7 +18,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dashboard = ["streamlit>=1.35", "matplotlib>=3.8", "pandas>=2.0"]
+visualizer = ["pygame>=2.5.0"]
 liminal = ["aiohttp>=3.9", "websockets>=12.0"]
 dev = ["pytest>=8.0", "pytest-cov>=5.0"]
 

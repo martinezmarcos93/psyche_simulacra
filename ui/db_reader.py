@@ -23,8 +23,8 @@ def load_checkpoint() -> dict | None:
         try:
             with open(path, encoding="utf-8") as f:
                 return json.load(f)
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[db_reader] load_checkpoint {path.name}: {e}", file=sys.stderr)
     return None
 
 
@@ -52,7 +52,8 @@ def _conn() -> sqlite3.Connection | None:
         c = sqlite3.connect(f"file:{_DB_PATH}?mode=ro", uri=True)
         c.row_factory = sqlite3.Row
         return c
-    except Exception:
+    except Exception as e:
+        print(f"[db_reader] _conn: {e}", file=sys.stderr)
         return None
 
 

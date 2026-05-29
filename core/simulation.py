@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import atexit
 import os
+import sys
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -439,16 +440,16 @@ class SimulationRunner:
                     for f in sub_dir.glob("*.md"):
                         try:
                             f.unlink()
-                        except Exception:
-                            pass
+                        except Exception as e:
+                            print(f"[new_session] vault cleanup error {f.name}: {e}", file=sys.stderr)
             # Subcarpeta de leyendas narrativas
             leyendas_dir = vault_dir / "Colectivo" / "Leyendas"
             if leyendas_dir.exists():
                 for f in leyendas_dir.glob("*.md"):
                     try:
                         f.unlink()
-                    except Exception:
-                        pass
+                    except Exception as e:
+                        print(f"[new_session] vault cleanup error {f.name}: {e}", file=sys.stderr)
 
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
         runner.agents = AgentCore.from_yaml(seed_file, runner.world)

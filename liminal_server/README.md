@@ -65,25 +65,21 @@ pip install -r requirements.txt
 
 ### PC-A (hosteador — quien tiene el servidor)
 
-**Paso 1 — Correr la simulación en una terminal**
+**Paso 1 — Correr la simulación**
 
+```bash
+python main.py
 ```
-python main.py → [4] Primera simulación  (si es la primera vez)
-python main.py → [1] Continuar           (si ya tiene checkpoint)
-```
+En la página de inicio del Observatorio NiceGUI (puerto 8080):
+- **Nueva simulación** (primera vez) o **Continuar** (desde checkpoint).
 Dejala correr unos días simulados para tener agentes con historia.
-Podés interrumpirla con `Ctrl+C` cuando quieras — el checkpoint se guarda.
 
-**Paso 2 — Levantar servidor y conectar (en otra terminal)**
+**Paso 2 — Activar Zona Liminal**
 
-```
-python main.py → [5] Levantar servidor + conectar
-```
-- Pide puerto (default 8765) y seed del mapa (default 0).
-- Abre el servidor en una **nueva ventana** automáticamente.
-- Muestra la IP local de tu PC — compartila con tu amigo.
-- Conecta el visualizador de tu simulación en esta misma terminal.
-- El HUD mostrará `Liminal: CONECTADO`.
+En el launcher NiceGUI, antes de iniciar (o reiniciar), marcar **Zona Liminal**:
+- El campo **Host** debe ser `localhost` (servidor local) o la IP del hosteador.
+- El campo **Puerto** es `8765` por defecto.
+- Al iniciar, el servidor se lanza en background y el tab **Liminal** aparece en el Observatorio.
 
 > Si PC-B va a conectarse desde otra red: abrí el puerto 8765 (TCP) en tu router con port forwarding hacia tu IP local.
 
@@ -151,7 +147,7 @@ python scripts/visualizer.py --liminal --liminal-host 192.168.1.100 --liminal-po
 2. Cuando un agente llega a ese hexágono, **desaparece del mapa local** (`in_liminal = True`).
 3. El cliente envía `agent_enter` al servidor con los datos psicológicos del agente (arquetipos, rasgos, tribu).
 4. El servidor asigna una posición cerca del centro y confirma con `agent_placed`.
-5. El agente aparece en la ventana Pygame del servidor con el color de su sim de origen.
+5. El agente aparece en el tab **Liminal** del Observatorio NiceGUI con el color de su sim de origen.
 6. Todas las simulaciones conectadas reciben `agent_arrived`.
 7. Tras 60 ticks liminales el servidor envía `agent_return` y el agente reaparece en su sim.
 

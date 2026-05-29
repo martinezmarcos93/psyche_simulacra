@@ -35,31 +35,26 @@ ngrok crea un túnel TCP desde internet hasta tu puerto 8765 sin tocar el router
 **Uso (flujo completo):**
 
 **PC-A (hosteador):**
-1. Terminal 1: `python main.py` → `[1] Continuar`
-2. Terminal 2: `python main.py` → `[5] Levantar servidor + conectar`
-   - Cuando pregunta `¿Usar ngrok?` → responder `s`
-   - ngrok abre en nueva ventana; el launcher lee la URL automáticamente y muestra:
-     ```
-     Host:   0.tcp.ngrok.io
-     Puerto: XXXXX          ← número asignado por ngrok (cambia cada sesión)
-     ```
-   - Compartir ese host y puerto con el amigo (WhatsApp, Discord, etc.)
+1. `python main.py` → abrir el Observatorio NiceGUI → **Nueva simulación** o **Continuar**.
+2. Antes de iniciar, marcar **Zona Liminal** en el launcher, dejar Host en `localhost`.
+3. Al iniciar, el servidor arranca en background y el tab **Liminal** aparece en el Observatorio.
+4. Obtener la IP local (ej: `192.168.1.10`) y compartirla junto con el puerto `8765`.
+   Con ngrok: `ngrok tcp 8765` → compartir el host y puerto que muestra ngrok.
 
 **PC-B (el amigo):**
-1. Terminal 1: `python main.py` → `[4]` o `[1]` para correr su propia simulación
-2. Terminal 2: `python main.py` → `[6] Conectarse a servidor`
-   - Host: `0.tcp.ngrok.io` (o lo que diga el hosteador)
-   - Puerto: `XXXXX` (el número que compartió el hosteador)
+1. `python main.py` → abrir el Observatorio NiceGUI → **Nueva simulación** o **Continuar**.
+2. Antes de iniciar, marcar **Zona Liminal**; poner en **Host** la IP/host del hosteador y el **Puerto** correcto.
+3. Iniciar — el cliente se conecta al servidor remoto (no lanza proceso local).
 
 **¿Cómo conecto dos PCs en la misma red local?**
 
 Si ambas PCs están en el mismo WiFi o LAN, no hace falta ngrok ni port forwarding:
-1. PC-A: `python main.py` → `[5]` → responder `N` a ngrok. El launcher muestra la IP local.
-2. PC-B: `python main.py` → `[6]` → ingresar esa IP local y puerto 8765.
+- PC-A: activar Zona Liminal con Host `localhost`. Obtener IP local (ej: `192.168.1.10`).
+- PC-B: activar Zona Liminal con Host = IP de PC-A, Puerto `8765`.
 
 **¿Cómo sé si la conexión funcionó?**
 
-En la ventana Pygame del servidor verás el nombre de la simulación conectada en el sidebar derecho. En PSYCHE SIMULACRA, el HUD mostrará "Liminal: CONECTADO".
+En el tab **Liminal** del Observatorio NiceGUI verás el badge **Activo** y el nombre de la simulación conectada en la lista de sims.
 
 **¿Qué pasa si una simulación se desconecta?**
 
@@ -67,22 +62,19 @@ Los agentes que estaban en la zona liminal quedan "flotando" hasta que el servid
 
 **¿Se puede correr el servidor y la simulación en la misma PC?**
 
-Sí. Para desarrollo y pruebas, todo corre en localhost. Desde `main.py`:
-- Opción `[5]` inicia el servidor en nueva ventana y conecta el visualizador a localhost:8765 en una sola acción.
+Sí. Para desarrollo y pruebas, marcar Zona Liminal con Host `localhost`. El servidor se lanza automáticamente en background al iniciar la simulación.
 
 **¿Cuál es el orden correcto de ejecución?**
 
 ```
-PC-A  terminal 1         PC-A  terminal 2              PC-B  terminal 2
-────────────────         ────────────────              ───────────────
-1. python main.py        2. python main.py             1. python main.py
-   → [1] Continuar          → [5] Levantar                → [1] Continuar
-     (sim corriendo)              servidor + conectar         (sim corriendo)
-                                → ¿usar ngrok? s
-                                → muestra host:puerto    2. python main.py
-                                   ← compartir →            → [6] Conectarse
-                                                               host: 0.tcp.ngrok.io
-                                                               puerto: XXXXX
+PC-A (launcher NiceGUI)              PC-B (launcher NiceGUI)
+──────────────────────────           ──────────────────────────
+1. python main.py                    1. python main.py
+2. Marcar Zona Liminal               2. Marcar Zona Liminal
+   Host: localhost                      Host: <IP de PC-A>
+3. Iniciar sim →                     3. Iniciar sim →
+   servidor arranca en bg               cliente conecta a PC-A
+   tab Liminal aparece                  tab Liminal aparece
 ```
 
 El servidor **debe estar activo** antes de que alguien intente conectarse. Las simulaciones pueden estar corriendo antes, durante o después de que el servidor arranque — son independientes.
@@ -100,7 +92,7 @@ La posición se calcula a partir del seed de la simulación, así siempre está 
 1. El agente desaparece del mapa local de PSYCHE SIMULACRA.
 2. Se envía un evento `agent_enter` al servidor con los datos psicológicos del agente.
 3. El servidor asigna una posición en el mapa liminal y confirma con `agent_placed`.
-4. El agente aparece en la ventana Pygame del servidor.
+4. El agente aparece en el tab **Liminal** del Observatorio NiceGUI.
 5. Todas las simulaciones conectadas reciben un broadcast `agent_arrived`.
 
 **¿El agente puede volver a su simulación?**
@@ -117,7 +109,7 @@ Ninguno. La Zona Liminal no tiene agua, comida, fauna, clima ni ningún recurso.
 
 **¿Mis agentes y los de mi amigo pueden verse entre sí?**
 
-En la ventana Pygame del servidor sí — aparecen como puntos con colores distintos según su simulación de origen. La interacción directa entre agentes de distintas sims está planificada para Fase 6.
+En el tab **Liminal** del Observatorio sí — aparecen como puntos con colores distintos según su simulación de origen. La interacción directa entre agentes de distintas sims está planificada para Fase 6.
 
 ---
 
@@ -129,7 +121,7 @@ Python 3.11 o superior (compatible con PSYCHE SIMULACRA).
 
 **¿El servidor necesita GPU?**
 
-No. Pygame usa renderizado CPU. Para el servidor, cualquier máquina sirve.
+No. El servidor es headless (no tiene rendering). Cualquier máquina sirve.
 
 **¿Qué pasa si la versión de protocolo no coincide?**
 

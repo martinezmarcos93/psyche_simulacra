@@ -59,10 +59,9 @@
 
 > Reemplazar la ventana Pygame externa por una visualización embedded. La mayor parte del código del servidor no cambia — solo la capa de visualización.
 
-### C1 ⚠️ PENDIENTE — Eliminar Pygame del servidor liminal
-- `liminal_server/visualizer/liminal_pygame.py` sigue activo en el árbol (no archivado).
-- Mover a `src/archive/` y dejar el servidor como **WebSocket puro**.
-- Hasta que no se archive, el proceso del servidor puede abrir ventana Pygame.
+### C1 ✅ — Eliminar Pygame del servidor liminal
+- `liminal_server/visualizer/liminal_pygame.py` archivado en `src/archive/`.
+- El servidor es **WebSocket + HTTP headless**; la visualización corre en el tab Liminal de NiceGUI.
 
 ### C2 ✅ — Tab Zona Liminal: mapa Plotly del mundo liminal
 - El servidor liminal expone un endpoint HTTP `/state` (JSON) con el estado actual.
@@ -93,10 +92,9 @@
 - Causa: el pool composicional no usa suficiente entropía individual.
 - Fix: añadir `agent.id[-4:]` como seed en la selección de símbolos; diversificar la capa de trauma.
 
-### D2 — Tendencias: sincronización de zoom y primer carga
-- Los 4 gráficos de Tendencias tienen ejes X independientes → al hacer zoom en uno no se propaga.
-- Usar `subplots` con `shared_xaxes=True` en lugar de 4 figuras separadas.
-- Esto requiere refactorizar `_build_trend_figure` en una sola figura multi-panel.
+### D2 ✅ — Tendencias: sincronización de zoom y primer carga
+- Implementado con `make_subplots(shared_xaxes=True)` en `_build_trend_panel()`.
+- `_build_trend_figure()` eliminada (código muerto); toda la lógica está en `_build_trend_panel`.
 
 ### D3 — ICL: sparkline de presión emocional
 - El B1 del R5.2 prometía un historial sparkline de `emotional_pressure`.
