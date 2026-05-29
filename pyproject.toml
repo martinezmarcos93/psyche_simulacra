@@ -32,3 +32,6 @@ include = ["core*", "persistence*", "obsidian*", "ui*", "liminal_server*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
+markers = [
+    "slow: tests que tardan varios minutos (excluir con -m 'not slow')",
+]

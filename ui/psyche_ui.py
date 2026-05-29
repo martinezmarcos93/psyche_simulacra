@@ -1561,6 +1561,95 @@ def _render_cultural_memory_html(cp: dict) -> str:
     return "".join(html)
 
 
+# ── F1: Pulso cultural — contadores para el panel Resumen ────────────────────
+
+def _compute_cultura_pulse(cp: dict) -> dict:
+    """Devuelve métricas de pulso cultural para F1."""
+    agentes = cp.get("agentes", {})
+    tm      = agentes.get("tribe_manager", {})
+    cm      = tm.get("cultural_memories", {})
+    myth    = agentes.get("mythology_engine", {})
+
+    n_nacimientos  = sum(
+        1 for mem in cm.values()
+        for rec in mem.get("records", [])
+        if rec.get("tipo_evento") == "nacimiento"
+    )
+    n_proto        = len(myth.get("proto_myths", []))
+    n_crystal      = len([m for m in myth.get("active_myths", []) if m.get("active") or m.get("es_leyenda")])
+    n_estructuras  = len(agentes.get("culture_engine", {}).get("structures", []))
+    n_eventos      = sum(len(mem.get("records", [])) for mem in cm.values())
+
+    return {
+        "nacimientos": n_nacimientos,
+        "proto":       n_proto,
+        "crystal":     n_crystal,
+        "estructuras": n_estructuras,
+        "eventos":     n_eventos,
+    }
+
+
+# ── F2: Timeline de eventos culturales ───────────────────────────────────────
+
+_TIPO_ICONS: dict[str, str] = {
+    "nacimiento":    "👶",
+    "construccion":  "🏛️",
+    "ruina":         "🪨",
+    "muerte":        "💀",
+    "catastrofe":    "⚡",
+    "taboo_causal":  "🚫",
+    "deposicion":    "👑",
+    "vinculo":       "🔗",
+    "conocimiento":  "📖",
+    "depredador":    "🐺",
+}
+
+def _render_cultural_timeline_html(cp: dict) -> str:
+    """F2 — Lista scrollable de los últimos 50 eventos culturales ordenados por día."""
+    tm = cp.get("agentes", {}).get("tribe_manager", {})
+    cm = tm.get("cultural_memories", {})
+
+    all_events: list[dict] = []
+    for tribe_id, mem in cm.items():
+        for rec in mem.get("records", []):
+            tipo = rec.get("tipo_evento", "evento")
+            all_events.append({
+                "dia":   rec.get("dia_origen", 0),
+                "tipo":  tipo,
+                "tribe": tribe_id,
+                "desc":  rec.get("descripcion_actual", rec.get("descripcion_original", ""))[:90],
+                "intens": rec.get("intensidad_emocional", 0.0),
+            })
+
+    if not all_events:
+        return "<span style='color:#555'>Sin eventos culturales aún.</span>"
+
+    all_events.sort(key=lambda e: -e["dia"])
+    shown = all_events[:50]
+
+    rows = []
+    for ev in shown:
+        tipo  = ev["tipo"]
+        icon  = _TIPO_ICONS.get(tipo.split("_")[0], "📌")
+        ic    = "#e74c3c" if ev["intens"] > 0.7 else "#f39c12" if ev["intens"] > 0.4 else "#6c8ebf"
+        tribe = ev["tribe"][:14]
+        rows.append(
+            f"<div style='display:flex;gap:6px;align-items:flex-start;"
+            f"padding:3px 4px;border-bottom:1px solid #1a1a2e'>"
+            f"<span style='min-width:24px;text-align:center'>{icon}</span>"
+            f"<span style='color:#555;min-width:40px;font-size:0.72em'>D{ev['dia']}</span>"
+            f"<span style='color:{ic};min-width:90px;font-size:0.72em'>{tipo.replace('_',' ')[:16]}</span>"
+            f"<span style='color:#888;font-size:0.72em;flex:1'>{ev['desc']}"
+            f"{'…' if len(ev['desc'])==90 else ''}</span>"
+            f"<span style='color:#333;font-size:0.68em;white-space:nowrap'>{tribe}</span>"
+            f"</div>"
+        )
+
+    total = len(all_events)
+    suffix = f"<div style='color:#333;font-size:0.7em;padding:4px'>… {total} eventos totales</div>" if total > 50 else ""
+    return "".join(rows) + suffix
+
+
 # ── D4: Log episódico por agente ─────────────────────────────────────────────
 
 _EVENTO_COLORS: dict[str, str] = {
@@ -2116,6 +2205,15 @@ def build_monitor_page(app_state) -> None:
             refs["fuego"]        = ui.label("").classes("px-4 text-red-400 text-sm")
             refs["catastrofe"]   = ui.label("").classes("px-4 text-orange-400 text-sm font-bold")
 
+            # F1 — Panel Pulso Cultural
+            ui.separator().classes("mx-4 mt-2")
+            ui.label("Pulso Cultural").classes("text-xs text-gray-400 uppercase px-4 pt-3")
+            with ui.grid(columns=4).classes("w-full gap-4 px-4 pb-3"):
+                refs["cult_nacimientos"] = _mini_stat("Nacimientos", "—")
+                refs["cult_mitos"]       = _mini_stat("Mitos (proto/crystal)", "—")
+                refs["cult_estructuras"] = _mini_stat("Estructuras activas", "—")
+                refs["cult_eventos"]     = _mini_stat("Eventos culturales", "—")
+
             ui.separator().classes("mx-4 mt-2")
             ui.label("Muertes recientes").classes("text-xs text-gray-400 uppercase px-4 pt-3")
             refs["deaths_log"] = ui.log(max_lines=20).classes(
@@ -2352,7 +2450,17 @@ def build_monitor_page(app_state) -> None:
 
             ui.separator().classes("mx-4 mt-3 mb-2")
 
-            # F2 — Memoria cultural y árbol de transmisión
+            # F2 — Timeline de eventos culturales
+            ui.label("Timeline Cultural — últimos 50 eventos").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["cultural_timeline_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3 text-xs text-gray-300 max-h-64 overflow-y-auto"
+            )
+
+            ui.separator().classes("mx-4 mt-2 mb-2")
+
+            # Memoria cultural y árbol de transmisión
             ui.label("Memoria cultural — Linaje de transmisión").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
@@ -2653,6 +2761,13 @@ def build_monitor_page(app_state) -> None:
                 lex = agentes_cp.get("emergent_lexicon", {})
                 refs["lexicon_html"].set_content(_render_lexicon_html(lex))
 
+                # F1 — Pulso cultural (panel Resumen)
+                pulse = _compute_cultura_pulse({"agentes": agentes_cp})
+                refs["cult_nacimientos"].set_text(str(pulse["nacimientos"]))
+                refs["cult_mitos"].set_text(f"{pulse['proto']} / {pulse['crystal']}")
+                refs["cult_estructuras"].set_text(str(pulse["estructuras"]))
+                refs["cult_eventos"].set_text(str(pulse["eventos"]))
+
                 # R5-E2 multiverse echo
                 if "multiverse" in refs:
                     echo = getattr(
@@ -2785,6 +2900,11 @@ def build_monitor_page(app_state) -> None:
                     # E2 — Sueños entrelazados
                     refs["shared_dreams_html"].set_content(
                         _render_shared_dreams_html(cp_slow)
+                    )
+
+                    # F2 — Timeline de eventos culturales
+                    refs["cultural_timeline_html"].set_content(
+                        _render_cultural_timeline_html(cp_slow)
                     )
 
                     # F2 — Memoria cultural y linaje de transmisión

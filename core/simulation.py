@@ -179,6 +179,15 @@ class SimulationRunner:
                 culture_engine=self.agents.culture_engine,
             )
 
+        # F3: exportar crónica cultural cada 100 días
+        if dia > 0 and dia % 100 == 0:
+            try:
+                self.obsidian_sync.writer.write_cronica(
+                    self.agents.tribe_manager, dia, n_events=50
+                )
+            except Exception:
+                pass  # No interrumpir la sim si falla la crónica
+
         # Checkpoint automático cada N días
         if dia > 0 and dia % _CHECKPOINT_EVERY == 0 and dia != self._last_cp_dia:
             self._last_cp_dia = dia
