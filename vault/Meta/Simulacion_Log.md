@@ -10,4 +10,4 @@ Acontecimientos existenciales y decesos registrados a lo largo del ciclo vital:
 
 | Día | Evento | Descripción |
 | :---: | :--- | :--- |
-| **Día 28** | 💀 Deceso | [[sophron]] (Sophron) falleció a causa de `depredador_lobo_gris`. |
+| **Día 29** | 💀 Deceso | [[sophron]] (Sophron) falleció a causa de `depredador_lobo_gris`. |

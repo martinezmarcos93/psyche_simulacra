@@ -5,34 +5,34 @@ rol: explorador
 edad: 26
 sexo: F
 is_alive: True
-posicion: [39, 23]
-humor: 0.819
-energia: 0.655
-ansiedad: 0.346
+posicion: [38, 16]
+humor: 0.793
+energia: 0.665
+ansiedad: 0.383
 needs:
-  hambre: 0.064
+  hambre: 0.044
   fatiga: 0.335
-  sed: 0.360
+  sed: 0.435
   sociabilidad: 0.020
 arquetipo_dominante: self
-estado_conductual: competencia
+estado_conductual: cooperacion
 arquetipos:
-  self: 0.968
-  persona: 0.650
-  sombra: 0.361
-  anima_animus: 0.729
-  heroe: 0.522
+  self: 1.000
+  persona: 0.550
+  sombra: 0.360
+  anima_animus: 0.723
+  heroe: 0.524
   sabio: 0.400
-  trickster: 0.821
-  madre: 0.605
+  trickster: 0.820
+  madre: 0.405
   padre: 0.400
   nino_divino: 0.300
-  gobernante: 0.310
+  gobernante: 0.370
   rebelde: 0.300
 ---
 # 👤 Persona: Peitho
 
-> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(39, 23)`
+> **Rol:** `explorador` | **Edad:** 26 | **Sexo:** F | **Ubicación:** `(38, 16)`
 > **Estado Vital:** **🟢 Conectado / Vivo**
 
 ---
@@ -42,15 +42,15 @@ arquetipos:
 ### Capa Emocional
 | Métrica | Visual | Valor |
 | :--- | :---: | :---: |
-| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.82 |
-| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.65 |
-| **Ansiedad** | `[▓▓▓░░░░░░░]` | 0.35 |
+| **Humor** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 |
+| **Energía** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+| **Ansiedad** | `[▓▓▓▓░░░░░░]` | 0.38 |
 
 ### Necesidades Biológicas
 | Necesidad | Visual | Valor | Estado |
 | :--- | :---: | :---: | :--- |
-| **Hambre** | `[▓░░░░░░░░░]` | 0.06 | 🟢 Saciado |
-| **Sed** | `[▓▓▓▓░░░░░░]` | 0.36 | 🟢 Hidratado |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Hidratado |
 | **Fatiga** | `[▓▓▓░░░░░░░]` | 0.34 | 🟢 Descansado |
 | **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
 
@@ -61,17 +61,17 @@ arquetipos:
 ### Capa Jungiana: Vector de Arquetipos
 | Arquetipo | Fuerza | Barra Visual |
 | :--- | :---: | :--- |
-| **Self** | `0.968` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
-| **Persona** | `0.650` | `▓▓▓▓▓▓▓▓░░░░` |
-| **Sombra** | `0.361` | `▓▓▓▓░░░░░░░░` |
-| **Anima animus** | `0.729` | `▓▓▓▓▓▓▓▓▓░░░` |
-| **Heroe** | `0.522` | `▓▓▓▓▓▓░░░░░░` |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.550` | `▓▓▓▓▓▓▓░░░░░` |
+| **Sombra** | `0.360` | `▓▓▓▓░░░░░░░░` |
+| **Anima animus** | `0.723` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Heroe** | `0.524` | `▓▓▓▓▓▓░░░░░░` |
 | **Sabio** | `0.400` | `▓▓▓▓▓░░░░░░░` |
-| **Trickster** | `0.821` | `▓▓▓▓▓▓▓▓▓▓░░` |
-| **Madre** | `0.605` | `▓▓▓▓▓▓▓░░░░░` |
+| **Trickster** | `0.820` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.405` | `▓▓▓▓▓░░░░░░░` |
 | **Padre** | `0.400` | `▓▓▓▓▓░░░░░░░` |
 | **Nino divino** | `0.300` | `▓▓▓▓░░░░░░░░` |
-| **Gobernante** | `0.310` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.370` | `▓▓▓▓░░░░░░░░` |
 | **Rebelde** | `0.300` | `▓▓▓▓░░░░░░░░` |
 
 ### Complejos Activos
@@ -91,7 +91,7 @@ arquetipos:
 ### Vínculos Emocionales
 | Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
 | :--- | :---: | :---: | :---: |
-| [[arete]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[chara]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[elpis]] | `-0.70` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
 | [[filia]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
 | [[kairos]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
@@ -102,20 +102,20 @@ arquetipos:
 
 ## 💤 Bitácora Onírica (Últimos Sueños)
 
-- **Día 24:** Soñó con `'manada_que_huye'` (arquetipo `self`).
-  - *Insight:* colapso civilizatorio pesa demasiado — el self cede terreno en sabana abierta para no caer.
-- **Día 25:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
+- **Día 24:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
+  - *Insight:* En colinas suaves, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- **Día 25:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self y colapso civilizatorio se toleran esta noche en pantano costero.
 - **Día 26:** Soñó con `'silencio_pleno'` (arquetipo `self`).
-  - *Insight:* En desierto borde, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- **Día 27:** Soñó con `'mandala_incompleto'` (arquetipo `self`).
-  - *Insight:* colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
-- **Día 28:** Soñó con `'centro_sin_lugar'` (arquetipo `self`).
-  - *Insight:* colapso civilizatorio pesa demasiado — el self cede terreno en cueva para no caer.
-- **Día 29:** Soñó con `'ojos_en_la_roca'` (arquetipo `self`).
-  - *Insight:* El self se disfraza de su contrario en cueva, lejos de colapso civilizatorio.
-- **Día 30:** Soñó con `'sombra_ausente'` (arquetipo `self`).
-  - *Insight:* El self y colapso civilizatorio se toleran esta noche en sabana abierta.
+  - *Insight:* En pradera humeda, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- **Día 27:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- **Día 28:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* El self descansa en sabana abierta mientras colapso civilizatorio aguarda en el umbral.
+- **Día 29:** Soñó con `'semilla_negra'` (arquetipo `self`).
+  - *Insight:* El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- **Día 30:** Soñó con `'unión_imposible'` (arquetipo `self`).
+  - *Insight:* Entre sombras de costa abierta, el self y colapso civilizatorio coexisten sin resolverse.
 
 ---
 
@@ -169,28 +169,20 @@ arquetipos:
 - Día 12: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
 - Día 13: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
 - Día 14: Soñó con 'campo_interminable' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
-- Día 15: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 16: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 15: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 16: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
 - Día 17: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Día 17: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arete.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 17: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arete.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 17: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arete.
-- Día 18: Soñó con 'silencio_pleno' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 19: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
-- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
-- Día 20: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con colapso civilizatorio.
-- Día 22: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en rio lago para no caer.
-- Día 23: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 24: Soñó con 'manada_que_huye' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en sabana abierta para no caer.
-- Día 25: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
-- Día 26: Soñó con 'silencio_pleno' (self). Insight: En desierto borde, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
-- Día 27: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
-- Día 28: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en cueva para no caer.
-- Día 29: Soñó con 'ojos_en_la_roca' (self). Insight: El self se disfraza de su contrario en cueva, lejos de colapso civilizatorio.
-- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
-- Día 30: Soñó con 'sombra_ausente' (self). Insight: El self y colapso civilizatorio se toleran esta noche en sabana abierta.
+- Día 18: Soñó con 'silencio_pleno' (self). Insight: En rio lago, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 18: Manipuló con éxito y astucia a Chara para ceder recursos.
+- Día 19: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 20: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 21: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de colapso civilizatorio.
+- Día 23: Soñó con 'viento_que_borra' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 24: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pantano costero.
+- Día 26: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 27: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: El self descansa en sabana abierta mientras colapso civilizatorio aguarda en el umbral.
+- Día 29: Soñó con 'semilla_negra' (self). Insight: El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Día 30: Soñó con 'unión_imposible' (self). Insight: Entre sombras de costa abierta, el self y colapso civilizatorio coexisten sin resolverse.

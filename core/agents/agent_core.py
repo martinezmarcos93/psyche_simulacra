@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import random
 from typing import TYPE_CHECKING
 
@@ -59,7 +60,8 @@ _NOMBRES_POOL = [
     "Alexis", "Menalcas", "Corydon", "Chromis", "Mnasyllos", "Aegon",
 ]
 
-_BOND_REPRODUCCION    = 0.70   # vínculo mínimo para reproducirse
+_BOND_REPRODUCCION    = float(os.environ.get("BOND_REPRO_MIN",       "0.55"))
+
 
 # Hito I — Pares arquetípicos con tensión opuesta (Jung, "Tipos psicológicos")
 # Hito C — Objetos Sagrados
@@ -101,8 +103,9 @@ _INCOMPATIBLE_ARCH_PAIRS: frozenset = frozenset({
 })
 _EDAD_MIN_REPRO       = 16
 _EDAD_MAX_REPRO       = 45
-_PROB_REPRO_DIARIA    = 0.003  # 0.3% por par elegible por día (~1 nac./año con 3 pares)
-_COOLDOWN_REPRO       = 300    # días de espera post-nacimiento por padre
+_PROB_REPRO_DIARIA    = float(os.environ.get("PROB_REPRO_DIARIA",    "0.007"))
+_COOLDOWN_REPRO       = int(os.environ.get(  "REPRO_COOLDOWN_DIAS",  "180"))
+_REPRO_NEEDS_MAX      = float(os.environ.get("REPRO_NEEDS_MAX",      "0.45"))  # hambre/sed
 _LIMITE_POBLACION     = 150    # máximo de agentes simultáneos
 
 
@@ -2514,7 +2517,7 @@ class AgentCore:
                 continue
             if not (_EDAD_MIN_REPRO <= a.edad <= _EDAD_MAX_REPRO):
                 continue
-            if a.needs.hambre >= 0.3 or a.needs.sed >= 0.3 or a.needs.fatiga >= 0.5:
+            if a.needs.hambre >= _REPRO_NEEDS_MAX or a.needs.sed >= _REPRO_NEEDS_MAX or a.needs.fatiga >= 0.5:
                 continue
 
             for b in alive[i + 1:]:
@@ -2524,7 +2527,7 @@ class AgentCore:
                     continue
                 if not (_EDAD_MIN_REPRO <= b.edad <= _EDAD_MAX_REPRO):
                     continue
-                if b.needs.hambre >= 0.3 or b.needs.sed >= 0.3 or b.needs.fatiga >= 0.5:
+                if b.needs.hambre >= _REPRO_NEEDS_MAX or b.needs.sed >= _REPRO_NEEDS_MAX or b.needs.fatiga >= 0.5:
                     continue
                 if self.social_network.get_bond(a.id, b.id) < _BOND_REPRODUCCION:
                     continue
