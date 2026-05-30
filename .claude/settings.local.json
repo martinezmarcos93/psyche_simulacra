@@ -79,7 +79,12 @@
       "Bash(grep -E \"__pycache__|\\\\.pyc$\")",
       "Bash(rm -rf dashboard/)",
       "Bash(pip show *)",
-      "Bash(xargs grep -l \"ClockPriority\")"
+      "Bash(xargs grep -l \"ClockPriority\")",
+      "Bash(sqlite3 *)",
+      "PowerShell(\\(Get-ChildItem \"D:\\\\01-Marcos\\\\00-Programacion\\\\00-Proyectos\\\\Simulacion\\\\PSYCHE SIMULACRA\\\\vault\\\\Personas\"\\).Count)",
+      "PowerShell(Remove-Item *)",
+      "Bash(ls src/archive/)",
+      "Bash(ls start_overnight.bat)"
     ]
   }
 }
