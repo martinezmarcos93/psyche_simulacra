@@ -1561,6 +1561,195 @@ def _render_cultural_memory_html(cp: dict) -> str:
     return "".join(html)
 
 
+# ── Estructuras culturales (altares, tótems, murallas, hogueras) ─────────────
+
+_STRUCT_ICONS = {"totem": "🗿", "altar": "🕯️", "muralla": "🧱", "hoguera": "🔥"}
+_STRUCT_COLORS = {"totem": "#9b59b6", "altar": "#f39c12", "muralla": "#e74c3c", "hoguera": "#e67e22"}
+
+def _render_culture_engine_structures_html(cp: dict) -> str:
+    """Muestra las estructuras activas del CultureEngine (altar, tótem, muralla, hoguera)."""
+    structs = cp.get("agentes", {}).get("culture_engine", {}).get("structures", [])
+    if not structs:
+        return "<span style='color:#555'>Sin estructuras culturales activas.</span>"
+
+    # Agrupar por tipo
+    by_type: dict[str, list] = {}
+    for s in structs:
+        by_type.setdefault(s.get("tipo", "?"), []).append(s)
+
+    rows = []
+    for tipo, items in sorted(by_type.items()):
+        icon  = _STRUCT_ICONS.get(tipo, "🏛️")
+        color = _STRUCT_COLORS.get(tipo, "#6c8ebf")
+        rows.append(
+            f"<div style='margin-bottom:8px'>"
+            f"<div style='color:{color};font-weight:bold;margin-bottom:4px'>"
+            f"{icon} {tipo.upper()} ({len(items)})</div>"
+        )
+        for s in sorted(items, key=lambda x: x.get("day_built", 0), reverse=True):
+            tribe   = s.get("tribe_id", "?")[:14]
+            day     = s.get("day_built", "?")
+            coord   = s.get("coord", [0, 0])
+            dur     = s.get("duration")
+            dur_txt = f"  · ⏳ {dur}d" if dur else "  · permanente"
+            rows.append(
+                f"<div style='padding:3px 8px;border-left:2px solid {color};"
+                f"margin-bottom:3px;font-size:0.8em'>"
+                f"<span style='color:#aaa'>Tribu</span> "
+                f"<span style='color:#ddd'>{tribe}</span>"
+                f"  <span style='color:#555'>·</span>"
+                f"  <span style='color:#888'>Día {day}</span>"
+                f"  <span style='color:#555'>·</span>"
+                f"  <span style='color:#666'>({coord[0]},{coord[1]})</span>"
+                f"  <span style='color:#555;font-size:0.85em'>{dur_txt}</span>"
+                f"</div>"
+            )
+        rows.append("</div>")
+    return "".join(rows)
+
+
+# ── Dioses emergentes del ICL ─────────────────────────────────────────────────
+
+_DEITY_ARCH_ICONS = {
+    "heroe": "⚔️", "sombra": "🌑", "madre": "🌸", "padre": "🏔️",
+    "sabio": "📜", "trickster": "🎭", "gobernante": "👑",
+    "rebelde": "🔥", "nino_divino": "⭐", "muerte": "💀",
+    "anima_animus": "🌊", "self_": "☯️",
+}
+
+def _render_deities_html(cp: dict) -> str:
+    """Muestra las deidades emergentes cristalizadas del ICL."""
+    deities = cp.get("agentes", {}).get("mythology_engine", {}).get("deities", [])
+    if not deities:
+        return "<span style='color:#555'>Ninguna deidad ha emergido aún.</span>"
+
+    rows = []
+    for d in sorted(deities, key=lambda x: -x.get("dia_cristalizacion", 0)):
+        arq    = d.get("arquetipo_fundacional", "?")
+        icon   = _DEITY_ARCH_ICONS.get(arq, "🌟")
+        nombre = d.get("nombre", "?")
+        esfera = d.get("esfera_de_influencia", "?").replace("_", " ")
+        tribe  = d.get("tribu_origen", "?")[:14]
+        dia    = d.get("dia_cristalizacion", "?")
+        causa  = d.get("causa", "?")
+        intens = d.get("intensidad", 0.0)
+        activa = d.get("is_active", True)
+        bar    = "█" * int(intens * 8) + "░" * (8 - int(intens * 8))
+        alpha  = "1.0" if activa else "0.45"
+        badge  = "<span style='color:#2ecc71;font-size:0.7em'>ACTIVA</span>" if activa else \
+                 "<span style='color:#444;font-size:0.7em'>inactiva</span>"
+
+        rows.append(
+            f"<div style='border:1px solid #2a1a4a;border-radius:6px;padding:8px 12px;"
+            f"margin-bottom:8px;background:rgba(40,10,80,0.4);opacity:{alpha}'>"
+            f"<div style='display:flex;justify-content:space-between;align-items:center'>"
+            f"<span style='font-size:1.1em'>{icon} "
+            f"<strong style='color:#c39bd3'>{nombre}</strong></span>"
+            f"{badge}</div>"
+            f"<div style='color:#888;font-size:0.78em;margin-top:3px'>"
+            f"Esfera: <span style='color:#9b59b6'>{esfera}</span>"
+            f"  ·  Arquetipo: <span style='color:#6c8ebf'>{arq}</span>"
+            f"  ·  Tribu: <span style='color:#aaa'>{tribe}</span>"
+            f"  ·  Día {dia}  ·  ({causa})"
+            f"</div>"
+            f"<div style='color:#555;font-size:0.72em;margin-top:2px'>"
+            f"Intensidad: <span style='color:#9b59b6;font-family:monospace'>{bar}</span>"
+            f" {intens:.2f}"
+            f"</div>"
+            f"</div>"
+        )
+    return "".join(rows)
+
+
+# ── F1: Pulso cultural — contadores para el panel Resumen ────────────────────
+
+def _compute_cultura_pulse(cp: dict) -> dict:
+    """Devuelve métricas de pulso cultural para F1."""
+    agentes = cp.get("agentes", {})
+    tm      = agentes.get("tribe_manager", {})
+    cm      = tm.get("cultural_memories", {})
+    myth    = agentes.get("mythology_engine", {})
+
+    n_nacimientos  = sum(
+        1 for mem in cm.values()
+        for rec in mem.get("records", [])
+        if rec.get("tipo_evento") == "nacimiento"
+    )
+    n_proto        = len(myth.get("proto_myths", []))
+    n_crystal      = len([m for m in myth.get("active_myths", []) if m.get("active") or m.get("es_leyenda")])
+    n_estructuras  = len(agentes.get("culture_engine", {}).get("structures", []))
+    n_eventos      = sum(len(mem.get("records", [])) for mem in cm.values())
+
+    return {
+        "nacimientos": n_nacimientos,
+        "proto":       n_proto,
+        "crystal":     n_crystal,
+        "estructuras": n_estructuras,
+        "eventos":     n_eventos,
+    }
+
+
+# ── F2: Timeline de eventos culturales ───────────────────────────────────────
+
+_TIPO_ICONS: dict[str, str] = {
+    "nacimiento":    "👶",
+    "construccion":  "🏛️",
+    "ruina":         "🪨",
+    "muerte":        "💀",
+    "catastrofe":    "⚡",
+    "taboo_causal":  "🚫",
+    "deposicion":    "👑",
+    "vinculo":       "🔗",
+    "conocimiento":  "📖",
+    "depredador":    "🐺",
+}
+
+def _render_cultural_timeline_html(cp: dict) -> str:
+    """F2 — Lista scrollable de los últimos 50 eventos culturales ordenados por día."""
+    tm = cp.get("agentes", {}).get("tribe_manager", {})
+    cm = tm.get("cultural_memories", {})
+
+    all_events: list[dict] = []
+    for tribe_id, mem in cm.items():
+        for rec in mem.get("records", []):
+            tipo = rec.get("tipo_evento", "evento")
+            all_events.append({
+                "dia":   rec.get("dia_origen", 0),
+                "tipo":  tipo,
+                "tribe": tribe_id,
+                "desc":  rec.get("descripcion_actual", rec.get("descripcion_original", ""))[:90],
+                "intens": rec.get("intensidad_emocional", 0.0),
+            })
+
+    if not all_events:
+        return "<span style='color:#555'>Sin eventos culturales aún.</span>"
+
+    all_events.sort(key=lambda e: -e["dia"])
+    shown = all_events[:50]
+
+    rows = []
+    for ev in shown:
+        tipo  = ev["tipo"]
+        icon  = _TIPO_ICONS.get(tipo.split("_")[0], "📌")
+        ic    = "#e74c3c" if ev["intens"] > 0.7 else "#f39c12" if ev["intens"] > 0.4 else "#6c8ebf"
+        tribe = ev["tribe"][:14]
+        rows.append(
+            f"<div style='display:flex;gap:6px;align-items:flex-start;"
+            f"padding:3px 4px;border-bottom:1px solid #1a1a2e'>"
+            f"<span style='min-width:24px;text-align:center'>{icon}</span>"
+            f"<span style='color:#555;min-width:40px;font-size:0.72em'>D{ev['dia']}</span>"
+            f"<span style='color:{ic};min-width:90px;font-size:0.72em'>{tipo.replace('_',' ')[:16]}</span>"
+            f"<span style='color:#888;font-size:0.72em;flex:1'>{ev['desc']}"
+            f"{'…' if len(ev['desc'])==90 else ''}</span>"
+            f"<span style='color:#333;font-size:0.68em;white-space:nowrap'>{tribe}</span>"
+            f"</div>"
+        )
+
+    total = len(all_events)
+    suffix = f"<div style='color:#333;font-size:0.7em;padding:4px'>… {total} eventos totales</div>" if total > 50 else ""
+    return "".join(rows) + suffix
+
+
 # ── D4: Log episódico por agente ─────────────────────────────────────────────
 
 _EVENTO_COLORS: dict[str, str] = {
@@ -1719,7 +1908,8 @@ def _tension_bar(label: str, value: float, color_fn=None):
         val = ui.label(f"{value:.1%}").classes("text-lg font-bold").style(f"color:{color}")
         bar_ref = ui.html(
             f"<div style='background:#1f2937;border-radius:4px;height:8px;width:100%;margin-top:4px'>"
-            f"<div style='background:{color};width:{w}%;height:8px;border-radius:4px'></div></div>"
+            f"<div style='background:{color};width:{w}%;height:8px;border-radius:4px'></div></div>",
+            sanitize=False,
         )
     return val, bar_ref
 
@@ -1808,12 +1998,12 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
                     ).classes("w-full")
                     cfg_cp_interval = ui.number(
                         label="Días entre checkpoints",
-                        value=int(os.environ.get("CHECKPOINT_INTERVAL", "50")),
+                        value=int(os.environ.get("CHECKPOINT_INTERVAL", "10")),
                         min=1, max=500,
                     ).classes("w-full")
                     cfg_clustering = ui.number(
                         label="Días hasta clustering",
-                        value=int(os.environ.get("DAYS_UNTIL_CLUSTERING", "365")),
+                        value=int(os.environ.get("DAYS_UNTIL_CLUSTERING", "30")),
                         min=1, max=9999,
                     ).classes("w-full")
                 ui.label(
@@ -1823,8 +2013,8 @@ def build_launcher_page(app_state, DB_PATH, CP_DIR, SEEDS_DIR, LIMINAL_SERVER) -
             def _apply_config() -> None:
                 os.environ["NARRATIVE_ENABLED"]    = str(cfg_narrative.value).lower()
                 os.environ["OLLAMA_MODEL"]          = str(cfg_model.value).strip() or "llama3.2"
-                os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 50))
-                os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 365))
+                os.environ["CHECKPOINT_INTERVAL"]  = str(int(cfg_cp_interval.value or 10))
+                os.environ["DAYS_UNTIL_CLUSTERING"] = str(int(cfg_clustering.value or 30))
                 if use_liminal.value:
                     app_state.liminal_host = (liminal_host_input.value or "localhost").strip()
                     app_state.liminal_port = int(liminal_port_input.value or 8765)
@@ -2043,27 +2233,57 @@ def build_monitor_page(app_state) -> None:
 
         # Botón Cerrar simulación
         def _cerrar_simulacion() -> None:
-            rv = app_state.get_runner()
-            if rv:
-                # Desbloquear spin loop de pausa antes de pedir shutdown;
-                # sin esto el sim_thread nunca llega a ver la señal de parada.
-                app_state._pause_event.clear()
-                try:
-                    rv.shutdown()
-                except Exception as e:
-                    print(f"[UI] shutdown error: {e}", file=sys.stderr)
-            t = app_state.sim_thread
-            if t is not None and t.is_alive():
-                t.join(timeout=5)
-            proc = app_state._liminal_proc
-            if proc is not None:
-                try:
-                    proc.terminate()
-                except Exception as e:
-                    print(f"[UI] liminal terminate error: {e}", file=sys.stderr)
-                app_state._liminal_proc = None
-            app_state.set_runner(None, None)
-            ui.navigate.to("/")
+            """Cierra la simulación, mata ollama y termina el proceso propio."""
+
+            def _do_shutdown() -> None:
+                # 1. Parar simulación y guardar checkpoint
+                rv = app_state.get_runner()
+                if rv:
+                    app_state._pause_event.clear()
+                    try:
+                        rv.shutdown()
+                    except Exception as e:
+                        print(f"[UI] shutdown error: {e}", file=sys.stderr)
+                sim_t = app_state.sim_thread
+                if sim_t is not None and sim_t.is_alive():
+                    sim_t.join(timeout=5)
+
+                # 2. Matar procesos externos en paralelo
+                def _kill_liminal() -> None:
+                    proc = app_state._liminal_proc
+                    if proc is not None:
+                        try:
+                            proc.terminate()
+                        except Exception:
+                            pass
+                        app_state._liminal_proc = None
+
+                def _kill_ollama() -> None:
+                    try:
+                        import psutil
+                        for p in psutil.process_iter(["name", "pid"]):
+                            try:
+                                if "ollama" in p.info["name"].lower():
+                                    p.kill()
+                                    print(f"[UI] Ollama PID {p.info['pid']} terminado.")
+                            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                                pass
+                    except Exception as e:
+                        print(f"[UI] ollama kill error: {e}", file=sys.stderr)
+
+                t_lim = threading.Thread(target=_kill_liminal, daemon=True)
+                t_oll = threading.Thread(target=_kill_ollama,  daemon=True)
+                t_lim.start()
+                t_oll.start()
+                t_lim.join(timeout=3)
+                t_oll.join(timeout=3)
+
+                # 3. Matar el propio proceso (main.py)
+                import os as _os
+                _os._exit(0)
+
+            # Lanzar en hilo para no bloquear el event loop de NiceGUI
+            threading.Thread(target=_do_shutdown, daemon=True, name="cerrar_sim").start()
 
         ui.button("✕ Cerrar", on_click=_cerrar_simulacion).classes(
             "text-xs bg-red-800 hover:bg-red-700 text-white px-3 py-1 rounded ml-2"
@@ -2115,6 +2335,15 @@ def build_monitor_page(app_state) -> None:
             refs["fuego"]        = ui.label("").classes("px-4 text-red-400 text-sm")
             refs["catastrofe"]   = ui.label("").classes("px-4 text-orange-400 text-sm font-bold")
 
+            # F1 — Panel Pulso Cultural
+            ui.separator().classes("mx-4 mt-2")
+            ui.label("Pulso Cultural").classes("text-xs text-gray-400 uppercase px-4 pt-3")
+            with ui.grid(columns=4).classes("w-full gap-4 px-4 pb-3"):
+                refs["cult_nacimientos"] = _mini_stat("Nacimientos", "—")
+                refs["cult_mitos"]       = _mini_stat("Mitos (proto/crystal)", "—")
+                refs["cult_estructuras"] = _mini_stat("Estructuras activas", "—")
+                refs["cult_eventos"]     = _mini_stat("Eventos culturales", "—")
+
             ui.separator().classes("mx-4 mt-2")
             ui.label("Muertes recientes").classes("text-xs text-gray-400 uppercase px-4 pt-3")
             refs["deaths_log"] = ui.log(max_lines=20).classes(
@@ -2160,15 +2389,15 @@ def build_monitor_page(app_state) -> None:
             ui.label("Mitos activos y proto-mitos en gestación").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["proto_myths_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+            refs["proto_myths_html"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
             ui.label("Mitología emergente (crystallized)").classes("text-xs text-gray-400 uppercase px-4")
-            refs["myths_html"] = ui.html("").classes("px-4 pb-4 text-sm text-gray-300")
+            refs["myths_html"] = ui.html("", sanitize=False).classes("px-4 pb-4 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
             ui.label("Léxico tribal emergente").classes("text-xs text-gray-400 uppercase px-4")
-            refs["lexicon_html"] = ui.html("").classes("px-4 pb-4 text-xs font-mono text-purple-200")
+            refs["lexicon_html"] = ui.html("", sanitize=False).classes("px-4 pb-4 text-xs font-mono text-purple-200")
 
         # ── Tab Red Social ────────────────────────────────────────────────────
         with ui.tab_panel(t_redsocial):
@@ -2200,7 +2429,7 @@ def build_monitor_page(app_state) -> None:
                     value="(todas)",
                     label="Tribu",
                 ).classes("text-xs w-40")
-            refs["soc_edge_table"] = ui.html("").classes("px-4 pb-4 overflow-x-auto")
+            refs["soc_edge_table"] = ui.html("", sanitize=False).classes("px-4 pb-4 overflow-x-auto")
 
         # ── Tab Agentes ───────────────────────────────────────────────────────
         with ui.tab_panel(t_agentes):
@@ -2247,11 +2476,11 @@ def build_monitor_page(app_state) -> None:
                 "bg-gray-900 border border-purple-800"
             ).style("min-width:520px;max-width:640px"):
                 refs["radar_plot"]  = ui.plotly(_dark_placeholder()).style("width:480px;height:320px")
-                refs["radar_stats"] = ui.html("").classes("px-2 pb-1 text-xs text-gray-300")
+                refs["radar_stats"] = ui.html("", sanitize=False).classes("px-2 pb-1 text-xs text-gray-300")
                 ui.separator().classes("mx-2 my-1")
                 ui.label("Log episódico").classes("text-xs text-gray-400 uppercase px-2 pt-1")
                 with ui.scroll_area().style("height:200px;width:100%"):
-                    refs["episodic_log"] = ui.html("").classes("px-2 pb-2")
+                    refs["episodic_log"] = ui.html("", sanitize=False).classes("px-2 pb-2")
                 ui.button("Cerrar", on_click=radar_dialog.close).classes(
                     "mt-1 text-xs text-gray-400"
                 ).props("flat")
@@ -2319,7 +2548,7 @@ def build_monitor_page(app_state) -> None:
             ui.label("Sueños entrelazados (shared_with)").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["shared_dreams_html"] = ui.html("").classes("px-4 pb-2 text-sm text-gray-300")
+            refs["shared_dreams_html"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-sm text-gray-300")
 
             ui.separator().classes("mx-4 my-2")
 
@@ -2328,34 +2557,64 @@ def build_monitor_page(app_state) -> None:
                     ui.label("Registro por tribu").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["dreams_tribe_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["dreams_tribe_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
                 with ui.column().classes("flex-1"):
                     ui.label("Registro por individuo").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["dreams_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["dreams_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
 
         # ── Tab Civilización ──────────────────────────────────────────────────
         with ui.tab_panel(t_civiliz):
-            with ui.row().classes("px-4 pt-4 gap-8 w-full"):
+            # Estructuras culturales activas (altares, tótems, murallas, hogueras)
+            ui.label("Estructuras Culturales Activas").classes(
+                "text-xs text-gray-400 uppercase px-4 pt-4"
+            )
+            refs["culture_structures_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3 text-sm text-gray-300"
+            )
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
+            # Dioses emergentes
+            ui.label("Deidades del Inconsciente Colectivo").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["deities_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3"
+            )
+
+            ui.separator().classes("mx-4 mt-1 mb-2")
+
+            with ui.row().classes("px-4 pt-2 gap-8 w-full"):
                 with ui.column().classes("flex-1"):
                     ui.label("Estructuras — Altares, refugios, depósitos").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["structures_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["structures_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
                 with ui.column().classes("flex-1"):
                     ui.label("Tecnologías desarrolladas").classes(
                         "text-sm font-semibold text-purple-300 mb-2"
                     )
-                    refs["technologies_html"] = ui.html("").classes("text-sm text-gray-300")
+                    refs["technologies_html"] = ui.html("", sanitize=False).classes("text-sm text-gray-300")
 
             ui.separator().classes("mx-4 mt-3 mb-2")
 
-            # F2 — Memoria cultural y árbol de transmisión
+            # F2 — Timeline de eventos culturales
+            ui.label("Timeline Cultural — últimos 50 eventos").classes(
+                "text-xs text-gray-400 uppercase px-4"
+            )
+            refs["cultural_timeline_html"] = ui.html("", sanitize=False).classes(
+                "px-4 pb-3 text-xs text-gray-300 max-h-64 overflow-y-auto"
+            )
+
+            ui.separator().classes("mx-4 mt-2 mb-2")
+
+            # Memoria cultural y árbol de transmisión
             ui.label("Memoria cultural — Linaje de transmisión").classes(
                 "text-xs text-gray-400 uppercase px-4"
             )
-            refs["cultural_memory_html"] = ui.html("").classes(
+            refs["cultural_memory_html"] = ui.html("", sanitize=False).classes(
                 "px-4 pb-4 text-sm text-gray-300"
             )
 
@@ -2397,12 +2656,12 @@ def build_monitor_page(app_state) -> None:
                     # C3 — Simulaciones conectadas
                     with ui.column().classes("gap-1 flex-1"):
                         ui.label("Simulaciones conectadas").classes("text-xs text-gray-400 uppercase")
-                        refs["lim_sims_html"] = ui.html("").classes("text-xs text-gray-300")
+                        refs["lim_sims_html"] = ui.html("", sanitize=False).classes("text-xs text-gray-300")
 
                     # C3 — Agentes en tránsito
                     with ui.column().classes("gap-1 flex-1"):
                         ui.label("Agentes en tránsito").classes("text-xs text-gray-400 uppercase")
-                        refs["lim_agents_html"] = ui.html("").classes("text-xs text-gray-300")
+                        refs["lim_agents_html"] = ui.html("", sanitize=False).classes("text-xs text-gray-300")
 
                 ui.separator().classes("mx-4 mt-2 mb-1")
 
@@ -2410,7 +2669,7 @@ def build_monitor_page(app_state) -> None:
                 ui.label("Hexes liminales en el mundo principal").classes(
                     "text-xs text-gray-400 uppercase px-4"
                 )
-                refs["lim_hexes"] = ui.html("").classes("px-4 pb-2 text-xs font-mono text-purple-200")
+                refs["lim_hexes"] = ui.html("", sanitize=False).classes("px-4 pb-2 text-xs font-mono text-purple-200")
 
                 ui.separator().classes("mx-4 my-2")
                 ui.label("Campo del Multiverso (R5-E2)").classes(
@@ -2426,6 +2685,7 @@ def build_monitor_page(app_state) -> None:
     _slow_tick:       list[int]  = [99]
     _charts_tick:     list[int]  = [99]
     _prev_n_myths:    list[int]  = [0]    # H2 — detección de nuevos mitos
+    _prev_n_deities:  list[int]  = [0]    # H2 — detección de nuevas deidades
     _prev_hysteria:   list[bool] = [False]  # H2 — detección histeria
     _notified_deaths: set        = set()   # H2 — agentes destacados ya notificados
     _icl_history:     deque      = deque(maxlen=120)  # D3 — últimas 120 muestras (~4min a 2s)
@@ -2652,6 +2912,13 @@ def build_monitor_page(app_state) -> None:
                 lex = agentes_cp.get("emergent_lexicon", {})
                 refs["lexicon_html"].set_content(_render_lexicon_html(lex))
 
+                # F1 — Pulso cultural (panel Resumen)
+                pulse = _compute_cultura_pulse({"agentes": agentes_cp})
+                refs["cult_nacimientos"].set_text(str(pulse["nacimientos"]))
+                refs["cult_mitos"].set_text(f"{pulse['proto']} / {pulse['crystal']}")
+                refs["cult_estructuras"].set_text(str(pulse["estructuras"]))
+                refs["cult_eventos"].set_text(str(pulse["eventos"]))
+
                 # R5-E2 multiverse echo
                 if "multiverse" in refs:
                     echo = getattr(
@@ -2772,7 +3039,13 @@ def build_monitor_page(app_state) -> None:
                     refs["dreams_html"].set_content(_render_dreams_html(cp_slow))
                     refs["dreams_tribe_html"].set_content(_render_dreams_by_tribe_html(cp_slow))
 
-                    # Civilización
+                    # Civilización — estructuras culturales y dioses
+                    refs["culture_structures_html"].set_content(
+                        _render_culture_engine_structures_html({"agentes": cp_slow.get("agentes", {})})
+                    )
+                    refs["deities_html"].set_content(
+                        _render_deities_html({"agentes": cp_slow.get("agentes", {})})
+                    )
                     refs["structures_html"].set_content(_render_structures_html(cp_slow))
                     refs["technologies_html"].set_content(_render_technologies_html(cp_slow))
 
@@ -2784,6 +3057,11 @@ def build_monitor_page(app_state) -> None:
                     # E2 — Sueños entrelazados
                     refs["shared_dreams_html"].set_content(
                         _render_shared_dreams_html(cp_slow)
+                    )
+
+                    # F2 — Timeline de eventos culturales
+                    refs["cultural_timeline_html"].set_content(
+                        _render_cultural_timeline_html(cp_slow)
                     )
 
                     # F2 — Memoria cultural y linaje de transmisión
@@ -2803,6 +3081,19 @@ def build_monitor_page(app_state) -> None:
                             type="positive", timeout=8000,
                         )
                     _prev_n_myths[0] = n_myths_now
+
+                    # H2 — Notificación: nueva deidad cristalizada
+                    _deities_sl   = _my_data_sl.get("deities", [])
+                    n_deities_now = len(_deities_sl)
+                    if n_deities_now > _prev_n_deities[0] and _prev_n_deities[0] > 0:
+                        nd = _deities_sl[-1] if _deities_sl else {}
+                        ui.notify(
+                            f"🌟 Nueva deidad: «{nd.get('nombre','?')}» "
+                            f"— {nd.get('esfera_de_influencia','').replace('_',' ')} "
+                            f"(tribu {nd.get('tribu_origen','?')[:10]})",
+                            type="info", timeout=10000,
+                        )
+                    _prev_n_deities[0] = n_deities_now
 
                     # H2 — Notificación: histeria colectiva activada
                     _cf_sl   = cp_slow.get("agentes", {}).get("collective_field", {})

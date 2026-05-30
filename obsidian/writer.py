@@ -490,7 +490,67 @@ class ObsidianWriter:
             body.append("| - | 🌱 Inicio | La simulación ha comenzado sin decesos registrados. |")
 
         full_content = "\n".join(body) + "\n"
-        
+
         file_path = os.path.join(self.meta_path, "Simulacion_Log.md")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(full_content)
+
+    # ── F3: Crónica de eventos culturales ────────────────────────────────────
+
+    def write_cronica(self, tribe_manager, dia: int, n_events: int = 50) -> None:
+        """F3 — Exporta los últimos N eventos de CulturalMemory a vault/Colectivo/Cronica.md."""
+        self._ensure_dirs()
+
+        all_events: list[dict] = []
+        for tribe_id, cmem in tribe_manager.cultural_memories.items():
+            for rec in cmem.records:
+                all_events.append({
+                    "dia":    rec.dia_origen,
+                    "tipo":   rec.tipo_evento,
+                    "tribe":  tribe_id,
+                    "origen": rec.agente_origen,
+                    "desc":   rec.descripcion_actual,
+                    "intens": rec.intensidad_emocional,
+                    "trans":  rec.n_transmisiones,
+                })
+
+        all_events.sort(key=lambda e: -e["dia"])
+        shown = all_events[:n_events]
+
+        tipo_icons = {
+            "nacimiento": "👶", "construccion": "🏛️", "ruina": "🪨",
+            "muerte": "💀", "catastrofe": "⚡", "taboo": "🚫",
+            "deposicion": "👑", "vinculo": "🔗", "conocimiento": "📖",
+            "depredador": "🐺",
+        }
+
+        lines = [
+            "# 📜 Crónica Cultural",
+            "",
+            f"_Exportada en el Día {dia} — últimos {n_events} eventos registrados_",
+            "",
+            "---",
+            "",
+        ]
+        for ev in shown:
+            icon = next(
+                (v for k, v in tipo_icons.items() if k in ev["tipo"]),
+                "📌",
+            )
+            intensidad_bar = "█" * int(ev["intens"] * 10) + "░" * (10 - int(ev["intens"] * 10))
+            lines += [
+                f"### {icon} Día {ev['dia']} — {ev['tipo'].replace('_', ' ').title()}",
+                f"**Tribu:** `{ev['tribe']}` · **Agente:** {ev['origen']} "
+                f"· **Intensidad:** `{intensidad_bar}` ({ev['intens']:.2f})",
+                f"**Transmisiones:** {ev['trans']}",
+                f"> {ev['desc']}",
+                "",
+            ]
+
+        if not shown:
+            lines.append("_Sin eventos culturales registrados aún._")
+
+        content = "\n".join(lines) + "\n"
+        path = os.path.join(self.colectivo_path, "Cronica.md")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)

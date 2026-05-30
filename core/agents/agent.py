@@ -839,6 +839,7 @@ class Agent:
     def to_dict(self) -> dict:
         return {
             **self.snapshot(),
+            "rng_state":         list(self._rng.getstate()[1]),  # restaurar RNG tras resume
             "last_known_water":  list(self._last_known_water) if self._last_known_water else None,
             "active_substances": dict(self._active_substances),
             "addiction":         dict(self._addiction),
@@ -908,6 +909,14 @@ class Agent:
             a.behavioral_state = BehavioralState.from_dict(data["behavioral_state"])
         if "base_state" in data and data["base_state"]:
             a._base_state = BehavioralState.from_dict(data["base_state"])
+
+        # Restaurar estado del RNG para reproducibilidad post-checkpoint
+        rng_raw = data.get("rng_state")
+        if rng_raw is not None:
+            try:
+                a._rng.setstate((3, tuple(rng_raw), None))
+            except Exception:
+                pass  # checkpoint viejo sin rng_state: continúa con RNG fresco
 
         a.episodic_log          = data.get("episodic_log", [])
         if "episodic_memory" in data:

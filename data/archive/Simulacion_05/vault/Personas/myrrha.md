@@ -1,0 +1,7974 @@
+---
+id: myrrha
+nombre: Myrrha
+rol: generico
+edad: 54
+sexo: F
+is_alive: True
+posicion: [59, 59]
+humor: 0.613
+energia: 0.189
+ansiedad: 0.647
+needs:
+  hambre: 0.224
+  fatiga: 0.783
+  sed: 0.405
+  sociabilidad: 0.080
+arquetipo_dominante: sabio
+estado_conductual: competencia
+arquetipos:
+  self: 0.980
+  persona: 0.973
+  sombra: 0.964
+  anima_animus: 0.967
+  heroe: 0.898
+  sabio: 1.000
+  trickster: 0.980
+  madre: 0.972
+  padre: 0.519
+  nino_divino: 0.534
+  gobernante: 0.010
+  rebelde: 0.597
+---
+# 👤 Persona: Myrrha
+
+> **Rol:** `generico` | **Edad:** 54 | **Sexo:** F | **Ubicación:** `(59, 59)`
+> **Estado Vital:** **🟢 Conectado / Vivo**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.61 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.19 |
+| **Ansiedad** | `[▓▓▓▓▓▓░░░░]` | 0.65 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓░░░░░░░░]` | 0.22 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
+| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.980` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.973` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.964` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.967` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.898` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Sabio** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.980` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `0.972` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.519` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.534` | `▓▓▓▓▓▓░░░░░░` |
+| **Gobernante** | `0.010` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.597` | `▓▓▓▓▓▓▓░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[brennus]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[bron]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[brysis]] | `-0.95` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[calix]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[calyce]] | `-0.27` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[cephalos]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[daphne]] | `-0.48` | `▓▓▓░░░░░░░` | Ninguno |
+| [[decia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[desma]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[eudora]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[evander]] | `-0.88` | `▓░░░░░░░░░` | Ninguno |
+| [[exan]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[feros]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[fyria]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[galatia]] | `-0.67` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[garan]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[glaukia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[graia]] | `-0.76` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[heron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hestia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iambe]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[idris]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | Ninguno |
+| [[imene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[isidor]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ivar]] | `-0.70` | `▓░░░░░░░░░` | Ninguno |
+| [[ixion]] | `+0.21` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[karis]] | `-0.62` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[kleis]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[lachesis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lakon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lyris]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[lysane]] | `-0.08` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[macron]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[meleager]] | `-0.26` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[nausicaa]] | `+0.38` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[nephele]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[neria]] | `-0.58` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[oinone]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[oris]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[peria]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[phoibe]] | `+0.08` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[phoibos]] | `-0.42` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[renia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[rhadys]] | `-0.10` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[rheia]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[ristos]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[selene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[stenos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[tainis]] | `-0.40` | `▓▓▓░░░░░░░` | Ninguno |
+| [[uritha]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | Ninguno |
+| [[velia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[vergil]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[vespa]] | `+0.29` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[wulfar]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[xanthe]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[xeron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ysolde]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[zoia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[zylas]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 2492:** Soñó con `'hierba_que_corta'` (arquetipo `sabio`).
+  - *Insight:* El sabio crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- **Día 2493:** Soñó con `'libro_en_lengua_muerta'` (arquetipo `sabio`).
+  - *Insight:* El sabio crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- **Día 2494:** Soñó con `'voz_propia_extraña'` (arquetipo `sabio`).
+  - *Insight:* El sabio crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- **Día 2495:** Soñó con `'voz_propia_extraña'` (arquetipo `sabio`).
+  - *Insight:* En lago interior el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- **Día 2496:** Soñó con `'estrella_que_no_guía'` (arquetipo `sabio`).
+  - *Insight:* El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- **Día 2497:** Soñó con `'campo_interminable'` (arquetipo `sabio`).
+  - *Insight:* En pradera humeda el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- **Día 2498:** Soñó con `'abundancia_que_pudre'` (arquetipo `sabio`).
+  - *Insight:* En valle fertil, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'laberinto_que_ríe' (trickster). Insight: En bosque templado, el trickster encuentra tregua provisional con lo reprimido.
+- Día 2: Soñó con 'trampa_propia' (trickster). Insight: En rio lago, el trickster encuentra tregua provisional con lo reprimido.
+- Día 2: Se impuso competitivamente ante Neria, absorbiendo sus recursos biológicos.
+- Día 2: Se impuso competitivamente ante Neria, absorbiendo sus recursos biológicos.
+- Día 3: Soñó con 'trampa_propia' (trickster). Insight: En bosque templado, el trickster encuentra tregua provisional con lo reprimido.
+- Día 4: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 5: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 6: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 7: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 7: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 8: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 9: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 10: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 11: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 12: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 13: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 14: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 15: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 16: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 17: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 17: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 18: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 18: Cooperó de forma mutua y armónica con Phoibe. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Phoibe. Su lazo social se fortaleció.
+- Día 18: Cooperó de forma mutua y armónica con Phoibe. Su lazo social se fortaleció.
+- Día 19: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 20: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 21: Soñó con 'semilla_negra' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 22: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 23: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 24: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 25: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 26: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 27: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Se impuso competitivamente ante Vergil, absorbiendo sus recursos biológicos.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 27: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 28: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 29: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 30: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 30: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 31: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 32: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 33: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 34: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 35: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 36: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 37: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 38: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 39: Soñó con 'naufragio_lento' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 40: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 41: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 42: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 43: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 44: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 44: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vergil.
+- Día 45: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 46: Soñó con 'profundidad_sin_fondo' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 46: Detectó y rechazó un intento de manipulación de Vergil.
+- Día 47: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 48: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 49: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 50: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 51: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 51: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 51: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 51: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 51: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 51: Sufrió explotación y hostilidad de Heron, cediendo recursos biológicos.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 51: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 52: Intentó manipular a Heron, pero fue descubierto.
+- Día 53: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 54: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Soñó con 'voz_sin_cuerpo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 61: Se enfrentó en un choque violento y destructivo contra Zylas.
+- Día 62: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 63: Soñó con 'viento_que_borra' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 64: Soñó con 'sed_en_el_agua' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 65: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 66: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 67: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 68: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 69: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 70: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 71: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 72: Soñó con 'silencio_pleno' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 73: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 74: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 75: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 76: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 77: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 78: Soñó con 'complemento_ausente' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 79: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 80: Soñó con 'sol_que_calcina' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 81: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 82: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 83: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 84: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 85: Soñó con 'manada_que_huye' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 86: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 87: Soñó con 'reflejo_que_actúa_solo' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 88: Soñó con 'agua_fría' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 89: Soñó con 'reflejo_que_actúa_solo' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 90: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 91: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 92: Soñó con 'hierba_que_corta' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 92: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 92: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 92: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 92: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 92: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 93: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 93: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 93: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 93: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 93: Cooperó de forma mutua y armónica con Galatia. Su lazo social se fortaleció.
+- Día 93: Sufrió explotación y hostilidad de Galatia, cediendo recursos biológicos.
+- Día 93: Sufrió explotación y hostilidad de Galatia, cediendo recursos biológicos.
+- Día 93: Sufrió explotación y hostilidad de Galatia, cediendo recursos biológicos.
+- Día 93: Cooperó de forma mutua y armónica con Exan. Su lazo social se fortaleció.
+- Día 94: Soñó con 'manada_que_huye' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 95: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 96: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 97: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 98: Soñó con 'centro_sin_lugar' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 98: Cedió ingenuamente ante la manipulación de Imene.
+- Día 99: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 99: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 100: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 100: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 100: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 100: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 101: Sufrió explotación y hostilidad de Vespa, cediendo recursos biológicos.
+- Día 102: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 103: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 104: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 105: Soñó con 'mandala_incompleto' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 106: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 107: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 108: Soñó con 'horizonte_inmóvil' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 109: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 110: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 111: Soñó con 'sol_que_calcina' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 112: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 113: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 113: Manipuló con éxito y astucia a Phoibe para ceder recursos.
+- Día 113: Manipuló con éxito y astucia a Feros para ceder recursos.
+- Día 113: Intentó manipular a Heron, pero fue descubierto.
+- Día 113: Manipuló con éxito y astucia a Feros para ceder recursos.
+- Día 113: Manipuló con éxito y astucia a Phoibe para ceder recursos.
+- Día 114: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 115: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 115: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 116: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 117: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 118: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 119: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 120: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 120: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
+- Día 120: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
+- Día 120: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
+- Día 120: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
+- Día 120: Sufrió explotación y hostilidad de Hestia, cediendo recursos biológicos.
+- Día 121: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 121: Detectó y rechazó un intento de manipulación de Galatia.
+- Día 121: Detectó y rechazó un intento de manipulación de Galatia.
+- Día 121: Detectó y rechazó un intento de manipulación de Galatia.
+- Día 122: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 123: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 124: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 125: Soñó con 'espejo_que_miente' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 126: Soñó con 'marea_que_sube' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 126: Cedió ingenuamente ante la manipulación de Macron.
+- Día 127: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 127: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 127: Detectó y rechazó un intento de manipulación de Macron.
+- Día 127: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 128: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 128: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 128: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 128: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 129: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 129: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 130: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 131: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 131: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 131: Se impuso competitivamente ante Daphne, absorbiendo sus recursos biológicos.
+- Día 132: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En desierto borde, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 132: Manipuló con éxito y astucia a Rheia para ceder recursos.
+- Día 133: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Karis.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Karis.
+- Día 134: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 135: Soñó con 'unión_imposible' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 135: Cedió ingenuamente ante la manipulación de Meleager.
+- Día 135: Cedió ingenuamente ante la manipulación de Meleager.
+- Día 135: Cedió ingenuamente ante la manipulación de Meleager.
+- Día 135: Cedió ingenuamente ante la manipulación de Meleager.
+- Día 136: Soñó con 'calor_que_piensa' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 137: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 137: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 138: Se impuso competitivamente ante Meleager, absorbiendo sus recursos biológicos.
+- Día 139: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 140: Se enfrentó en un choque violento y destructivo contra Iambe.
+- Día 141: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 142: Soñó con 'campo_interminable' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 143: Soñó con 'habitación_prohibida' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 144: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 144: Manipuló con éxito y astucia a Daphne para ceder recursos.
+- Día 144: Manipuló con éxito y astucia a Daphne para ceder recursos.
+- Día 144: Manipuló con éxito y astucia a Daphne para ceder recursos.
+- Día 145: Soñó con 'complemento_ausente' (anima_animus). Insight: En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 146: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 147: Soñó con 'escenario_sin_salida' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 147: Intentó manipular a Calix, pero fue descubierto.
+- Día 147: Intentó manipular a Eudora, pero fue descubierto.
+- Día 147: Intentó manipular a Calix, pero fue descubierto.
+- Día 148: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 148: Sufrió explotación y hostilidad de Karis, cediendo recursos biológicos.
+- Día 148: Sufrió explotación y hostilidad de Eudora, cediendo recursos biológicos.
+- Día 149: Soñó con 'escenario_sin_salida' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 150: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 151: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 152: Soñó con 'campo_interminable' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 153: Soñó con 'habitación_prohibida' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 154: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 155: Soñó con 'espejo_que_miente' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 156: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 156: Intentó manipular a Evander, pero fue descubierto.
+- Día 156: Intentó manipular a Evander, pero fue descubierto.
+- Día 156: Intentó manipular a Evander, pero fue descubierto.
+- Día 156: Intentó manipular a Evander, pero fue descubierto.
+- Día 157: Soñó con 'voz_propia_extraña' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 157: Intentó manipular a Evander, pero fue descubierto.
+- Día 157: Intentó manipular a Evander, pero fue descubierto.
+- Día 157: Intentó manipular a Evander, pero fue descubierto.
+- Día 157: Intentó manipular a Evander, pero fue descubierto.
+- Día 158: Soñó con 'figura_que_sigue' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 158: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 159: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 160: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 161: Soñó con 'voz_sin_cuerpo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 162: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 163: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 164: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 165: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 166: Soñó con 'estrella_que_no_guía' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 167: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 168: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 169: Soñó con 'árbol_sin_raíces' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 170: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 170: Manipuló con éxito y astucia a Evander para ceder recursos.
+- Día 170: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Macron.
+- Día 170: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Macron.
+- Día 170: Cedió ingenuamente ante la manipulación de Evander.
+- Día 170: Cedió ingenuamente ante la manipulación de Macron.
+- Día 170: Cedió ingenuamente ante la manipulación de Evander.
+- Día 170: Cedió ingenuamente ante la manipulación de Evander.
+- Día 170: Cedió ingenuamente ante la manipulación de Macron.
+- Día 170: Cedió ingenuamente ante la manipulación de Evander.
+- Día 170: Cedió ingenuamente ante la manipulación de Evander.
+- Día 171: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 172: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 173: Soñó con 'nido_que_asfixia' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 174: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 175: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 176: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 176: Detectó y rechazó un intento de manipulación de Macron.
+- Día 177: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 177: Intentó manipular a Kleis, pero fue descubierto.
+- Día 177: Intentó manipular a Calix, pero fue descubierto.
+- Día 177: Intentó manipular a Calix, pero fue descubierto.
+- Día 178: Soñó con 'espejo_que_miente' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 179: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 179: Intentó manipular a Calix, pero fue descubierto.
+- Día 179: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Calix.
+- Día 180: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 180: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 181: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 181: Intentó manipular a Tainis, pero fue descubierto.
+- Día 181: Intentó manipular a Tainis, pero fue descubierto.
+- Día 181: Intentó manipular a Tainis, pero fue descubierto.
+- Día 181: Intentó manipular a Tainis, pero fue descubierto.
+- Día 182: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Selene. Su lazo social se fortaleció.
+- Día 184: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 184: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 184: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 184: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 184: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 184: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 184: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 185: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 185: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 186: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 186: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 186: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 186: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 186: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 187: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 188: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 189: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 190: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 191: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 192: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 193: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 194: Sufrió explotación y hostilidad de Oinone, cediendo recursos biológicos.
+- Día 194: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 194: Sufrió explotación y hostilidad de Oinone, cediendo recursos biológicos.
+- Día 194: Cedió ingenuamente ante la manipulación de Oinone.
+- Día 194: Cedió ingenuamente ante la manipulación de Oinone.
+- Día 194: Cedió ingenuamente ante la manipulación de Oinone.
+- Día 194: Cedió ingenuamente ante la manipulación de Oinone.
+- Día 195: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 195: Detectó y rechazó un intento de manipulación de Oinone.
+- Día 195: Detectó y rechazó un intento de manipulación de Oinone.
+- Día 196: Soñó con 'unión_imposible' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 197: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 197: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Soñó con 'voz_sin_cuerpo' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Detectó y rechazó un intento de manipulación de Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 198: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 199: Se enfrentó en un choque violento y destructivo contra Calix.
+- Día 200: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 200: Se impuso competitivamente ante Calix, absorbiendo sus recursos biológicos.
+- Día 201: Se impuso competitivamente ante Calix, absorbiendo sus recursos biológicos.
+- Día 201: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 202: Soñó con 'tierra_resquebrajada' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 203: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 203: Intentó manipular a Lyris, pero fue descubierto.
+- Día 204: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 204: Detectó y rechazó un intento de manipulación de Zylas.
+- Día 204: Detectó y rechazó un intento de manipulación de Zylas.
+- Día 204: Detectó y rechazó un intento de manipulación de Zylas.
+- Día 204: Detectó y rechazó un intento de manipulación de Zylas.
+- Día 205: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Manipuló con éxito y astucia a Zylas para ceder recursos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 205: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Zylas, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 206: Cooperó de forma mutua y armónica con Brennus. Su lazo social se fortaleció.
+- Día 206: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 206: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 206: Cooperó de forma mutua y armónica con Brennus. Su lazo social se fortaleció.
+- Día 207: Sufrió explotación y hostilidad de Calix, cediendo recursos biológicos.
+- Día 207: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 207: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 207: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 207: Sufrió explotación y hostilidad de Imene, cediendo recursos biológicos.
+- Día 208: Soñó con 'unión_imposible' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 208: Sufrió explotación y hostilidad de Iambe, cediendo recursos biológicos.
+- Día 209: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 210: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 210: Intentó manipular a Ivar, pero fue descubierto.
+- Día 211: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 211: Manipuló con éxito y astucia a Ivar para ceder recursos.
+- Día 212: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 213: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 214: Soñó con 'fruto_amargo' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 214: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Cephalos.
+- Día 214: Manipuló con éxito y astucia a Nausicaa para ceder recursos.
+- Día 214: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Cephalos.
+- Día 214: Manipuló con éxito y astucia a Nausicaa para ceder recursos.
+- Día 214: Manipuló con éxito y astucia a Nausicaa para ceder recursos.
+- Día 215: Soñó con 'danza_a_solas' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 215: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 215: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 215: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 215: Cooperó de forma mutua y armónica con Nausicaa. Su lazo social se fortaleció.
+- Día 216: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 217: Soñó con 'mandala_incompleto' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 217: Detectó y rechazó un intento de manipulación de Ristos.
+- Día 217: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Soñó con 'olor_a_descomposición' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 218: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 219: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 219: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 220: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Soñó con 'río_tranquilo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Brennus.
+- Día 222: Soñó con 'silencio_pleno' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 222: Intentó manipular a Brennus, pero fue descubierto.
+- Día 222: Intentó manipular a Brennus, pero fue descubierto.
+- Día 222: Intentó manipular a Brennus, pero fue descubierto.
+- Día 222: Intentó manipular a Brennus, pero fue descubierto.
+- Día 223: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 223: Intentó manipular a Brennus, pero fue descubierto.
+- Día 223: Intentó manipular a Brennus, pero fue descubierto.
+- Día 224: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 224: Intentó manipular a Brennus, pero fue descubierto.
+- Día 224: Intentó manipular a Brennus, pero fue descubierto.
+- Día 225: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 225: Intentó manipular a Decia, pero fue descubierto.
+- Día 225: Intentó manipular a Decia, pero fue descubierto.
+- Día 225: Intentó manipular a Decia, pero fue descubierto.
+- Día 225: Intentó manipular a Brennus, pero fue descubierto.
+- Día 226: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 227: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 228: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 229: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 230: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 230: Manipuló con éxito y astucia a Hestia para ceder recursos.
+- Día 230: Manipuló con éxito y astucia a Hestia para ceder recursos.
+- Día 230: Manipuló con éxito y astucia a Hestia para ceder recursos.
+- Día 231: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 232: Soñó con 'luz_oblicua' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 233: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Soñó con 'complemento_ausente' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Hestia.
+- Día 235: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 236: Soñó con 'centro_sin_lugar' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 237: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 238: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 239: Soñó con 'complemento_ausente' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 239: Se impuso competitivamente ante Hestia, absorbiendo sus recursos biológicos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 239: Se impuso competitivamente ante Hestia, absorbiendo sus recursos biológicos.
+- Día 240: Soñó con 'reflejo_que_actúa_solo' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 241: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 242: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 243: Soñó con 'fruto_amargo' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 244: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 245: Soñó con 'complemento_ausente' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 245: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 245: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 245: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 245: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 246: Soñó con 'silencio_pleno' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 247: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 248: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Detectó y rechazó un intento de manipulación de Evander.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Selene.
+- Día 249: Detectó y rechazó un intento de manipulación de Evander.
+- Día 250: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 251: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 252: Soñó con 'danza_a_solas' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 252: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 252: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 252: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 253: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 254: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 255: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 255: Detectó y rechazó un intento de manipulación de Eudora.
+- Día 256: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 257: Soñó con 'mandala_incompleto' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 258: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 259: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 260: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 261: Soñó con 'terreno_que_cede' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 262: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 263: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 264: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 265: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 265: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 265: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 265: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 265: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 265: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 266: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 267: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 268: Soñó con 'sal_en_herida' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 269: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 270: Soñó con 'sendero_circular' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 271: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 272: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 273: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 274: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 274: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Día 274: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Día 274: Manipuló con éxito y astucia a Nephele para ceder recursos.
+- Día 275: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 276: Soñó con 'agua_fría' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 277: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 278: Soñó con 'centro_sin_lugar' (anima_animus). Insight: El anima_animus busca equilibrio en cueva compensando la energía de lo reprimido.
+- Día 279: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 280: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 281: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 282: Soñó con 'voz_sin_cuerpo' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 283: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 284: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 285: Soñó con 'bifurcación_sin_mapa' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 286: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 287: Soñó con 'calma_antes_de_algo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 288: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 289: Soñó con 'complemento_ausente' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 290: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 291: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 292: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 293: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 294: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 295: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 296: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 297: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 298: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 299: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 300: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 301: Soñó con 'danza_a_solas' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 302: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 303: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 304: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 305: Soñó con 'descenso_inevitable' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 306: Soñó con 'descenso_inevitable' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 307: Soñó con 'calma_antes_de_algo' (anima_animus). Insight: En lago interior, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 308: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 308: Cedió ingenuamente ante la manipulación de Calyce.
+- Día 308: Cedió ingenuamente ante la manipulación de Calyce.
+- Día 308: Cedió ingenuamente ante la manipulación de Calyce.
+- Día 308: Cedió ingenuamente ante la manipulación de Calyce.
+- Día 309: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 310: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 311: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 311: Sufrió explotación y hostilidad de Calyce, cediendo recursos biológicos.
+- Día 311: Cedió ingenuamente ante la manipulación de Calyce.
+- Día 312: Soñó con 'reflejo_que_actúa_solo' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 313: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 314: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 315: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 316: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 317: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 318: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 319: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 319: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Calyce.
+- Día 319: Intentó manipular a Calyce, pero fue descubierto.
+- Día 319: Intentó manipular a Calyce, pero fue descubierto.
+- Día 320: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 321: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 321: Se impuso competitivamente ante Calyce, absorbiendo sus recursos biológicos.
+- Día 321: Se impuso competitivamente ante Calyce, absorbiendo sus recursos biológicos.
+- Día 322: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 323: Soñó con 'semilla_negra' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 324: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 325: Soñó con 'sombra_que_camina' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 326: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 327: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 328: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 329: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 330: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 331: Soñó con 'voz_sin_cuerpo' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 332: Soñó con 'viento_que_borra' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 333: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En costa abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 334: Soñó con 'corriente_que_arrastra' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 335: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 336: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 337: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 338: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 339: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 340: Soñó con 'campo_interminable' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 341: Soñó con 'complemento_ausente' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 342: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 343: Soñó con 'centro_sin_lugar' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 344: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 345: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 346: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 347: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 348: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 349: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 350: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 351: Soñó con 'horizonte_de_agua' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 352: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 353: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 354: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 358: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 359: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 360: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 361: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self encuentra tregua provisional con lo reprimido.
+- Día 362: Soñó con 'calma_antes_de_algo' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 363: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 364: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 365: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 366: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 367: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 368: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 369: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 370: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 371: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 372: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 373: Soñó con 'viento_que_borra' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 374: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 375: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 376: Soñó con 'reflejo_que_actúa_solo' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 377: Soñó con 'centro_sin_lugar' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 378: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 379: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 380: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 381: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 382: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 383: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 384: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 385: Soñó con 'abundancia_que_pudre' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 386: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 387: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 388: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 389: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 390: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 391: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 392: Soñó con 'oscuridad_total' (self). Insight: En cueva, el self encuentra tregua provisional con lo reprimido.
+- Día 393: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 394: Soñó con 'silencio_pleno' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Día 395: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 396: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 397: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 398: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 399: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 399: Intentó manipular a Stenos, pero fue descubierto.
+- Día 400: Soñó con 'reflejo_que_actúa_solo' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 401: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 402: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 403: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 403: Intentó manipular a Xeron, pero fue descubierto.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 407: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 408: Soñó con 'campo_interminable' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 409: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 410: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 411: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 412: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 413: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 414: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 415: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 416: Soñó con 'marea_que_sube' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 417: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 418: Soñó con 'complemento_ausente' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 419: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 420: Soñó con 'luz_oblicua' (anima_animus). Insight: El anima_animus busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 421: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 422: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 423: Soñó con 'árbol_que_aprieta' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 424: Soñó con 'danza_a_solas' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 425: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 426: Soñó con 'complemento_ausente' (anima_animus). Insight: En desierto borde, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 427: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 428: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 429: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 430: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 431: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 432: Soñó con 'cima_en_niebla' (anima_animus). Insight: El anima_animus busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 433: Soñó con 'habitación_prohibida' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 434: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 434: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 434: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 434: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 435: Soñó con 'agua_fría' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 436: Soñó con 'nido_que_asfixia' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 437: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 438: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Día 439: Soñó con 'espejo_que_miente' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 440: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 441: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 442: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 443: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 444: Soñó con 'figura_que_sigue' (anima_animus). Insight: En sabana abierta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 445: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 446: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 447: Soñó con 'abundancia_que_pudre' (anima_animus). Insight: El anima_animus busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 448: Soñó con 'espejo_que_miente' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 449: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 450: Soñó con 'silencio_pleno' (anima_animus). Insight: En montana alta, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 451: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 452: Soñó con 'corriente_que_arrastra' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 452: Cooperó de forma mutua y armónica con Lysane. Su lazo social se fortaleció.
+- Día 453: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus busca equilibrio en desierto borde compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 454: Soñó con 'descenso_inevitable' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 455: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 456: Soñó con 'nido_que_asfixia' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 457: Soñó con 'habitación_prohibida' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 458: Soñó con 'leche_amarga' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 459: Soñó con 'figura_que_sigue' (self). Insight: El self busca equilibrio en montana alta compensando la energía de lo reprimido.
+- Día 460: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 461: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 462: Soñó con 'unión_imposible' (self). Insight: En desierto borde, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 463: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 464: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 465: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 466: Soñó con 'habitación_prohibida' (anima_animus). Insight: En cueva, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 467: Soñó con 'voz_propia_extraña' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 468: Soñó con 'nido_que_asfixia' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 469: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 469: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Día 469: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Día 470: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Día 471: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 472: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 473: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 474: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 474: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 474: Intentó manipular a Xeron, pero fue descubierto.
+- Día 474: Intentó manipular a Xeron, pero fue descubierto.
+- Día 474: Intentó manipular a Xeron, pero fue descubierto.
+- Día 474: Intentó manipular a Xeron, pero fue descubierto.
+- Día 474: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 475: Intentó manipular a Xeron, pero fue descubierto.
+- Día 476: Soñó con 'habitación_prohibida' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 477: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El anima_animus busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 478: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 479: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, el anima_animus encuentra tregua provisional con lo reprimido.
+- Día 480: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 480: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 480: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 481: Soñó con 'figura_que_sigue' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 482: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 483: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus encuentra tregua provisional con lo reprimido.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 484: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 485: Soñó con 'semilla_negra' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 486: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 487: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 488: Soñó con 'silencio_pleno' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 488: Detectó y rechazó un intento de manipulación de Phoibos.
+- Día 489: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 490: Soñó con 'fruto_amargo' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 491: Soñó con 'río_que_nutre' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 491: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 491: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 491: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 491: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 492: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 493: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 494: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 494: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 494: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 495: Soñó con 'descenso_inevitable' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 496: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 496: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 496: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Día 496: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Día 496: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 496: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 497: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 497: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Día 497: Cooperó de forma mutua y armónica con Rhadys. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 498: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 498: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 498: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 499: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 499: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 499: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 499: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 499: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 500: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 500: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 500: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 500: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 500: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 500: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 501: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 501: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 501: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 501: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 501: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 501: Detectó y rechazó un intento de manipulación de Stenos.
+- Día 502: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 503: Soñó con 'río_que_nutre' (madre). Insight: El valle fertil amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 504: Soñó con 'leche_amarga' (madre). Insight: El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 504: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 504: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Soñó con 'campo_interminable' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 505: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 506: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 507: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 508: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 509: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 509: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 510: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 511: Soñó con 'danza_a_solas' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 512: Soñó con 'figura_que_sigue' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 513: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 514: Soñó con 'centro_sin_lugar' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 515: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 516: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 517: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 518: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 518: Intentó manipular a Vespa, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 519: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 519: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 519: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 519: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 519: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 519: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 519: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 520: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 521: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de montana alta.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 522: Soñó con 'silencio_pleno' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 523: Soñó con 'unión_imposible' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 524: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 525: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 526: Soñó con 'fondo_que_sube' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 527: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 528: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 529: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 530: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 531: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 532: Soñó con 'habitación_prohibida' (sabio). Insight: El valle fertil amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 532: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 533: Soñó con 'silencio_pleno' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 533: Sufrió explotación y hostilidad de Renia, cediendo recursos biológicos.
+- Día 534: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 534: Cedió ingenuamente ante la manipulación de Renia.
+- Día 534: Cedió ingenuamente ante la manipulación de Renia.
+- Día 534: Cedió ingenuamente ante la manipulación de Renia.
+- Día 534: Cedió ingenuamente ante la manipulación de Renia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 534: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 534: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 534: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 534: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 534: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 535: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Día 535: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 535: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 535: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 535: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 535: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 537: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 537: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 537: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 537: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 537: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 537: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 538: Manipuló con éxito y astucia a Vespa para ceder recursos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 539: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 540: Soñó con 'complemento_ausente' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 540: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 540: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 540: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 541: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 542: Soñó con 'complemento_ausente' (anima_animus). Insight: El desierto borde amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 543: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 544: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 545: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 546: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 547: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El costa abierta amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 548: Soñó con 'trampa_propia' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 548: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 549: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 549: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 550: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 551: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 552: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 553: Soñó con 'danza_a_solas' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 554: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 555: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 556: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 557: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 558: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 558: Detectó y rechazó un intento de manipulación de Glaukia.
+- Día 559: Soñó con 'sed_en_el_agua' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 560: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 561: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 561: Detectó y rechazó un intento de manipulación de Decia.
+- Día 561: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 562: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 563: Soñó con 'río_tranquilo' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 564: Soñó con 'escenario_sin_salida' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 565: Soñó con 'aplauso_vacío' (persona). Insight: El desierto borde amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 566: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 567: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 568: Soñó con 'arena_que_avanza' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 569: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 569: Manipuló con éxito y astucia a Lysane para ceder recursos.
+- Día 570: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 571: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 572: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 573: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 574: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 574: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 574: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 575: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 576: Soñó con 'mandala_incompleto' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Soñó con 'nido_que_asfixia' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Soñó con 'leche_amarga' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Detectó y rechazó un intento de manipulación de Xanthe.
+- Día 579: Detectó y rechazó un intento de manipulación de Xanthe.
+- Día 579: Detectó y rechazó un intento de manipulación de Xanthe.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 579: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 579: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 580: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 581: Soñó con 'semilla_negra' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 581: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Soñó con 'reflejo_distorsionado' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 582: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 583: Se enfrentó en un choque violento y destructivo contra Velia.
+- Día 584: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 585: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 586: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 587: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 588: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 589: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 590: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 591: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 592: Soñó con 'papel_sin_actor' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 593: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 594: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 595: Soñó con 'sol_que_calcina' (madre). Insight: El sabana abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 596: Soñó con 'árbol_que_aprieta' (madre). Insight: El lago interior amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 597: Soñó con 'calma_antes_de_algo' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 598: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 599: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 600: Soñó con 'sombra_que_camina' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 601: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 602: Soñó con 'figura_que_sigue' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 603: Soñó con 'horizonte_inmóvil' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 604: Soñó con 'espejo_que_miente' (persona). Insight: El valle fertil amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 605: Soñó con 'voz_sin_cuerpo' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 606: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 607: Soñó con 'río_que_nutre' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 608: Soñó con 'río_que_nutre' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 609: Soñó con 'luz_oblicua' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 610: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 611: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 612: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 613: Soñó con 'mandala_incompleto' (self). Insight: El pantano costero amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 614: Soñó con 'árbol_sin_raíces' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 615: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 616: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 617: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 618: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 619: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 620: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 621: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 622: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de desierto borde.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 623: Soñó con 'silencio_pleno' (persona). Insight: El valle fertil amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 624: Soñó con 'voz_propia_extraña' (persona). Insight: El lago interior amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 625: Soñó con 'habitación_prohibida' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 626: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 627: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 628: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 629: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 630: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 630: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 631: Soñó con 'nido_que_asfixia' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 632: Soñó con 'leche_amarga' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 632: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 633: Soñó con 'eco_sin_origen' (trickster). Insight: El cueva amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 634: Soñó con 'agua_fría' (trickster). Insight: El lago interior amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 635: Soñó con 'trampa_propia' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 636: Soñó con 'sombra_que_camina' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 637: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 638: Soñó con 'leche_amarga' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Día 638: Sufrió explotación y hostilidad de Fyria, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Fyria, cediendo recursos biológicos.
+- Día 639: Soñó con 'unión_imposible' (self). Insight: En sabana abierta el self se expande más allá del control; lo reprimido es el combustible.
+- Día 640: Soñó con 'bifurcación_sin_mapa' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 641: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 642: Soñó con 'danza_a_solas' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 643: Soñó con 'olor_a_descomposición' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 644: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 645: Soñó con 'habitación_prohibida' (sabio). Insight: En sabana abierta, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 646: Soñó con 'papel_sin_actor' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 647: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 648: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 649: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 650: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En costa abierta, el trickster no puede contenerse — lo reprimido alimenta el fuego.
+- Día 651: Soñó con 'habitación_prohibida' (trickster). Insight: En colinas suaves, lo reprimido aparece en el otro — el trickster no se reconoce.
+- Día 652: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 653: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 654: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 655: Soñó con 'escenario_sin_salida' (madre). Insight: En costa abierta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 656: Soñó con 'papel_sin_actor' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 657: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 658: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 659: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 660: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 661: Soñó con 'complemento_ausente' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 662: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 663: Soñó con 'mandala_incompleto' (sombra). Insight: En montana alta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 664: Soñó con 'espejo_que_miente' (anima_animus). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 665: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 666: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En montana alta, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 667: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El montana alta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 668: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 669: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 670: Soñó con 'danza_a_solas' (anima_animus). Insight: lo reprimido enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 671: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 672: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 673: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 674: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 675: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 676: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 677: Soñó con 'sal_en_herida' (anima_animus). Insight: En costa abierta, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 678: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 679: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 680: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 681: Soñó con 'piedra_que_rueda' (trickster). Insight: El trickster ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 682: Soñó con 'silencio_pleno' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 682: Intentó manipular a Isidor, pero fue descubierto.
+- Día 682: Intentó manipular a Isidor, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 683: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 684: Soñó con 'centro_sin_lugar' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 684: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 685: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 686: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 687: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 687: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 688: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 689: Soñó con 'habitación_prohibida' (madre). Insight: El rio lago amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 689: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 689: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 689: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 689: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 689: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 690: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 690: Realizó ritual de integración para Nephele. La presencia se volvió protectora.
+- Día 690: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 691: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 691: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 692: Soñó con 'nido_que_asfixia' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 693: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 694: Soñó con 'sombra_ausente' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 694: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 695: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 695: Revivió el recuerdo de Falleció Uritha.
+- Día 696: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde el sombra se expande más allá del control; Falleció es el combustible.
+- Día 697: Soñó con 'lugar_vacío' (sombra). Insight: El sombra crece desmedido en colinas suaves — Falleció lo empuja sin nombre.
+- Día 697: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 698: Soñó con 'sombra_que_sigue_caminando' (persona). Insight: Falleció enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 699: Soñó con 'sombra_que_sigue_caminando' (persona). Insight: El persona expulsa Falleció hacia rio lago: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 700: Soñó con 'lugar_vacío' (self). Insight: El self ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 700: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 701: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 702: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En pantano costero, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 702: Revivió el recuerdo de Falleció Uritha.
+- Día 703: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — Falleció alimenta el fuego.
+- Día 703: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 704: Soñó con 'complemento_ausente' (anima_animus). Insight: En costa abierta, Falleció tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 705: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 705: Intentó manipular a Isidor, pero fue descubierto.
+- Día 705: Intentó manipular a Isidor, pero fue descubierto.
+- Día 706: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 706: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 707: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: El sabio ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 708: Soñó con 'danza_a_solas' (sombra). Insight: El sombra expulsa Falleció hacia cueva: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 709: Soñó con 'nombre_que_nadie_dice' (self). Insight: El self proyecta Falleció sobre el horizonte de cueva.
+- Día 709: Revivió el recuerdo de Falleció Uritha.
+- Día 709: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 710: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 711: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: En rio lago, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 712: Soñó con 'lugar_vacío' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 712: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 713: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 714: Soñó con 'sombra_que_sigue_caminando' (trickster). Insight: El rio lago amplifica la tensión del trickster; Falleció presiona desde adentro.
+- Día 715: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta Falleció sobre el horizonte de pradera humeda.
+- Día 715: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 716: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta el sombra se expande más allá del control; Falleció es el combustible.
+- Día 716: Revivió el recuerdo de Falleció Uritha.
+- Día 717: Soñó con 'lugar_vacío' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 718: Soñó con 'lugar_vacío' (sombra). Insight: El sombra ve Falleció afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 718: Presencia inquietante — Uritha no tiene lugar de descanso.
+- Día 719: Soñó con 'árbol_que_aprieta' (madre). Insight: Falleció enciende el madre en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 720: Soñó con 'nombre_que_nadie_dice' (madre). Insight: Falleció enciende el madre en lago interior hasta quemar lo que toca.
+- Día 721: Soñó con 'nombre_que_nadie_dice' (madre). Insight: En bosque templado el madre se expande más allá del control; Falleció es el combustible.
+- Día 722: Soñó con 'sombra_que_sigue_caminando' (madre). Insight: En montana alta el madre se expande más allá del control; Falleció es el combustible.
+- Día 723: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve Falleció afuera en pantano costero, donde no puede alcanzarlo.
+- Día 723: Revivió el recuerdo de Falleció Uritha.
+- Día 724: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, Falleció aparece en el otro — el sombra no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 725: Soñó con 'río_que_nutre' (self). Insight: En bosque templado, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 726: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra crece desmedido en lago interior — Falleció lo empuja sin nombre.
+- Día 727: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 728: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 729: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 730: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 730: Revivió el recuerdo de Falleció Uritha.
+- Día 731: Soñó con 'lugar_vacío' (sombra). Insight: En pantano costero, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 731: Revivió el recuerdo de Falleció Uritha.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 732: Soñó con 'nombre_que_nadie_dice' (persona). Insight: En bosque templado, el persona no puede contenerse — Falleció alimenta el fuego.
+- Día 733: Soñó con 'nombre_que_nadie_dice' (persona). Insight: El persona ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 734: Soñó con 'lugar_vacío' (sombra). Insight: El sombra crece desmedido en lago interior — Falleció lo empuja sin nombre.
+- Día 735: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa Falleció hacia desierto borde: allá afuera, entre los demás.
+- Día 736: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: Falleció enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 737: Soñó con 'nombre_que_nadie_dice' (sabio). Insight: El sabio ve Falleció afuera en desierto borde, donde no puede alcanzarlo.
+- Día 737: Revivió el recuerdo de Falleció Uritha.
+- Día 738: Soñó con 'estrella_que_no_guía' (sombra). Insight: En valle fertil el sombra se expande más allá del control; Falleció es el combustible.
+- Día 739: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: Falleció enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 740: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 741: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En bosque templado, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 742: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de lago interior.
+- Día 743: Soñó con 'pregunta_sin_respuesta' (madre). Insight: El madre proyecta Falleció sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 744: Soñó con 'sombra_que_sigue_caminando' (persona). Insight: El persona ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 744: Revivió el recuerdo de Falleció Uritha.
+- Día 744: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 744: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 745: Soñó con 'lugar_vacío' (sombra). Insight: En rio lago, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 746: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 747: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de cueva.
+- Día 748: Soñó con 'nombre_que_nadie_dice' (self). Insight: En lago interior, Falleció aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 749: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda el persona se expande más allá del control; Falleció es el combustible.
+- Día 750: Soñó con 'calma_antes_de_algo' (persona). Insight: El persona crece desmedido en lago interior — Falleció lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 751: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, Falleció tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 751: Revivió el recuerdo de Falleció Uritha.
+- Día 752: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 753: Soñó con 'sombra_que_sigue_caminando' (madre). Insight: El madre proyecta Falleció sobre el horizonte de sabana abierta.
+- Día 754: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 755: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda el persona se expande más allá del control; Falleció es el combustible.
+- Día 756: Soñó con 'nombre_que_nadie_dice' (persona). Insight: El persona ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 757: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: Falleció enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 758: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En rio lago el sombra se expande más allá del control; Falleció es el combustible.
+- Día 758: Revivió el recuerdo de Falleció Uritha.
+- Día 759: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 760: Soñó con 'campo_interminable' (madre). Insight: El madre ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 761: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, Falleció tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 762: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa Falleció hacia lago interior: allá afuera, entre los demás.
+- Día 763: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve Falleció afuera en lago interior, donde no puede alcanzarlo.
+- Día 764: Soñó con 'voz_propia_extraña' (persona). Insight: El persona crece desmedido en lago interior — Falleció lo empuja sin nombre.
+- Día 765: Soñó con 'nombre_que_nadie_dice' (persona). Insight: El persona ve Falleció afuera en lago interior, donde no puede alcanzarlo.
+- Día 765: Revivió el recuerdo de Falleció Uritha.
+- Día 766: Soñó con 'figura_que_sigue' (sombra). Insight: Falleció enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 767: Soñó con 'lugar_vacío' (sombra). Insight: El sombra expulsa Falleció hacia sabana abierta: allá afuera, entre los demás.
+- Día 768: Soñó con 'nombre_que_nadie_dice' (anima_animus). Insight: El anima_animus proyecta Falleció sobre el horizonte de colinas suaves.
+- Día 769: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En sabana abierta, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 770: Soñó con 'lugar_vacío' (sabio). Insight: En cueva, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 771: Soñó con 'tierra_resquebrajada' (sombra). Insight: Falleció enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 772: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 772: Revivió el recuerdo de Falleció Uritha.
+- Día 773: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; Falleció es el combustible.
+- Día 774: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de pradera humeda.
+- Día 775: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 776: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 777: Soñó con 'nombre_que_nadie_dice' (sabio). Insight: El sabio proyecta Falleció sobre el horizonte de pantano costero.
+- Día 778: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa Falleció hacia pantano costero: allá afuera, entre los demás.
+- Día 779: Soñó con 'trampa_propia' (trickster). Insight: El bosque templado amplifica la tensión del trickster; Falleció presiona desde adentro.
+- Día 780: Soñó con 'laberinto_que_ríe' (trickster). Insight: En pradera humeda, Falleció tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 781: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 782: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 783: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 784: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 785: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 785: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 785: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 785: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 785: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 786: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 786: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 787: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 788: Soñó con 'espejo_que_miente' (self). Insight: En cueva, lo reprimido aparece en el otro — el self no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 789: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 790: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 791: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 792: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 793: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 793: Revivió el recuerdo de Falleció Uritha.
+- Día 794: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En bosque templado, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 795: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En sabana abierta, Falleció aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 796: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta Falleció sobre el horizonte de rio lago.
+- Día 797: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 798: Soñó con 'lugar_vacío' (self). Insight: El self crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 798: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 799: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa Falleció hacia bosque templado: allá afuera, entre los demás.
+- Día 800: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 801: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 802: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 803: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 804: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 805: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En valle fertil, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 806: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: Falleció enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 807: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio expulsa Falleció hacia bosque templado: allá afuera, entre los demás.
+- Día 808: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 809: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra expulsa Falleció hacia bosque templado: allá afuera, entre los demás.
+- Día 810: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve Falleció afuera en costa abierta, donde no puede alcanzarlo.
+- Día 811: Soñó con 'estrella_que_no_guía' (sombra). Insight: En montana alta el sombra se expande más allá del control; Falleció es el combustible.
+- Día 812: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El sombra ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Día 813: Soñó con 'sombra_que_sigue_caminando' (self). Insight: En pradera humeda el self se expande más allá del control; Falleció es el combustible.
+- Día 814: Soñó con 'figura_que_sigue' (self). Insight: El self ve Falleció afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 815: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 816: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 817: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; Falleció es el combustible.
+- Día 818: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 819: Soñó con 'escenario_sin_salida' (persona). Insight: En colinas suaves, el persona no puede contenerse — Falleció alimenta el fuego.
+- Día 820: Soñó con 'sombra_que_sigue_caminando' (persona). Insight: En pradera humeda, Falleció aparece en el otro — el persona no se reconoce.
+- Día 821: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 822: Soñó con 'voz_propia_extraña' (persona). Insight: El bosque templado amplifica la tensión del persona; Falleció presiona desde adentro.
+- Día 823: Soñó con 'voz_propia_extraña' (persona). Insight: El persona ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 824: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 825: Soñó con 'sombra_que_sigue_caminando' (self). Insight: En valle fertil, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 826: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 827: Soñó con 'espejo_que_miente' (sombra). Insight: Falleció enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 828: Soñó con 'voz_sin_cuerpo' (sombra). Insight: Falleció enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 829: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — Falleció lo empuja sin nombre.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 829: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 830: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 831: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 832: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 832: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 832: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Soñó con 'sombra_ausente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 833: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 834: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 835: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 836: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 837: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 838: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 839: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 840: Soñó con 'horizonte_inmóvil' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 841: Soñó con 'fondo_que_sube' (madre). Insight: El madre ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 842: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 843: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 844: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 845: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 846: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 847: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 848: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 849: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 849: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 850: Soñó con 'figura_que_sigue' (trickster). Insight: En rio lago el trickster se expande más allá del control; lo reprimido es el combustible.
+- Día 851: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 851: Cooperó de forma mutua y armónica con Oris. Su lazo social se fortaleció.
+- Día 852: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 852: Revivió el recuerdo de Falleció Uritha.
+- Día 853: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Día 854: Soñó con 'semilla_negra' (sombra). Insight: El sombra expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 855: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 856: Soñó con 'habitación_prohibida' (sombra). Insight: Falleció enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 857: Soñó con 'espejo_que_miente' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 858: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 859: Soñó con 'nombre_que_nadie_dice' (self). Insight: En costa abierta, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 860: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 861: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra expulsa Falleció hacia lago interior: allá afuera, entre los demás.
+- Día 862: Soñó con 'nombre_que_nadie_dice' (trickster). Insight: En valle fertil, el trickster no puede contenerse — Falleció alimenta el fuego.
+- Día 863: Soñó con 'espejo_que_miente' (trickster). Insight: Falleció enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Día 864: Soñó con 'sombra_que_sigue_caminando' (trickster). Insight: El trickster ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Día 865: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En colinas suaves, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 866: Soñó con 'voz_propia_extraña' (madre). Insight: El madre proyecta Falleció sobre el horizonte de lago interior.
+- Día 867: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; Falleció es el combustible.
+- Día 868: Soñó con 'voz_propia_extraña' (sombra). Insight: Falleció enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 869: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 870: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — Falleció lo empuja sin nombre.
+- Día 871: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 872: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta, Falleció aparece en el otro — el trickster no se reconoce.
+- Día 873: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 873: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 874: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 876: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 878: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 879: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Soñó con 'figura_que_sigue' (sabio). Insight: En rio lago el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 880: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 881: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 882: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 883: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 884: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 884: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 884: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 884: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 884: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 884: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 884: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Soñó con 'semilla_negra' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 885: Revivió el recuerdo de Falleció Uritha.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Cedió ingenuamente ante la manipulación de Garan.
+- Día 885: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 886: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 886: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 887: Soñó con 'río_tranquilo' (persona). Insight: En valle fertil, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 888: Soñó con 'unión_imposible' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 889: Soñó con 'silencio_pleno' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 890: Soñó con 'máscara_cosida_a_cara' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 891: Soñó con 'silencio_pleno' (persona). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 892: Soñó con 'habitación_prohibida' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 892: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 892: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 892: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 893: Soñó con 'escenario_sin_salida' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 894: Soñó con 'campo_interminable' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 894: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 894: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 894: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 894: Manipuló con éxito y astucia a Garan para ceder recursos.
+- Día 894: Manipuló con éxito y astucia a Garan para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 895: Soñó con 'estrella_que_no_guía' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 896: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — lo reprimido lo empuja sin nombre.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 896: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 897: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 897: Revivió el recuerdo de Falleció Uritha.
+- Día 898: Soñó con 'estrella_que_no_guía' (self). Insight: El self expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 899: Soñó con 'lugar_vacío' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 900: Soñó con 'salida_inexistente' (sombra). Insight: El sombra expulsa Falleció hacia cueva: allá afuera, entre los demás.
+- Día 901: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 902: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de costa abierta.
+- Día 903: Soñó con 'figura_que_sigue' (madre). Insight: El madre expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 903: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vespa.
+- Día 903: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vespa.
+- Día 904: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 904: Intentó manipular a Renia, pero fue descubierto.
+- Día 904: Intentó manipular a Renia, pero fue descubierto.
+- Día 904: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa Falleció hacia pradera humeda: allá afuera, entre los demás.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 905: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 906: Soñó con 'espejo_que_miente' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 907: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 908: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 908: Detectó y rechazó un intento de manipulación de Garan.
+- Día 908: Detectó y rechazó un intento de manipulación de Garan.
+- Día 908: Detectó y rechazó un intento de manipulación de Garan.
+- Día 909: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 909: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 911: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 912: Soñó con 'figura_que_sigue' (madre). Insight: En rio lago, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Lakon.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Oris.
+- Día 912: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 913: Soñó con 'agua_fría' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 914: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en cueva — lo reprimido lo empuja sin nombre.
+- Día 915: Soñó con 'centro_sin_lugar' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 916: Soñó con 'corriente_que_arrastra' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 917: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 918: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 919: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 920: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 921: Soñó con 'silencio_pleno' (self). Insight: El self ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 921: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 922: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 922: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 922: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 922: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 923: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 924: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 924: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 925: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 926: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 927: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 927: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 927: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 927: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 927: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Soñó con 'unión_imposible' (sabio). Insight: En costa abierta, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 928: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 929: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 929: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 930: Soñó con 'habitación_prohibida' (self). Insight: lo reprimido enciende el self en sabana abierta hasta quemar lo que toca.
+- Día 930: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 931: Soñó con 'unión_imposible' (self). Insight: El self expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 932: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 932: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 932: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 933: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 933: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 933: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 933: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 933: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 933: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 933: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 934: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 934: Intentó manipular a Lakon, pero fue descubierto.
+- Día 935: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 936: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 937: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 937: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 937: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 937: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 938: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 939: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 940: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 940: Intentó manipular a Garan, pero fue descubierto.
+- Día 941: Soñó con 'fondo_que_sube' (madre). Insight: En rio lago, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 941: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
+- Día 942: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 943: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 944: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 944: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 944: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 944: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 944: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ysolde.
+- Día 945: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 946: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 946: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 946: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 946: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 947: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 948: Soñó con 'río_que_nutre' (sombra). Insight: lo reprimido enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 948: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 948: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 949: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 950: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 951: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Soñó con 'voz_propia_extraña' (persona). Insight: En rio lago el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 952: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Soñó con 'voz_propia_extraña' (persona). Insight: En rio lago, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 953: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 954: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 955: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 955: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 955: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 956: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 957: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 958: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 959: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 960: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — lo reprimido lo empuja sin nombre.
+- Día 961: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 962: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 963: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 964: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 965: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 966: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 967: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 968: Soñó con 'camino_conocido' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 969: Soñó con 'estrella_que_no_guía' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 969: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 969: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 969: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Vespa.
+- Día 970: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 971: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 971: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 971: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 971: Cooperó de forma mutua y armónica con Vespa. Su lazo social se fortaleció.
+- Día 972: Soñó con 'árbol_sin_raíces' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 973: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 974: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 975: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 975: Intentó manipular a Oris, pero fue descubierto.
+- Día 975: Intentó manipular a Oris, pero fue descubierto.
+- Día 975: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Oris.
+- Día 976: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 977: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 978: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 979: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 980: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 981: Soñó con 'silencio_absoluto' (sabio). Insight: El sabio ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 982: Soñó con 'campo_interminable' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 983: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 983: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 983: Sufrió explotación y hostilidad de Lakon, cediendo recursos biológicos.
+- Día 984: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 985: Soñó con 'río_tranquilo' (persona). Insight: El valle fertil amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 986: Soñó con 'vista_engañosa' (persona). Insight: lo reprimido enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 986: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 986: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 986: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 987: Soñó con 'raíz_invisible' (persona). Insight: En pantano costero el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 988: Soñó con 'cima_en_niebla' (persona). Insight: El persona expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 988: Detectó y rechazó un intento de manipulación de Oris.
+- Día 989: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 990: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 991: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 992: Soñó con 'puerta_que_se_mueve' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 993: Soñó con 'máscara_adherida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 994: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 995: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 996: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 997: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 998: Soñó con 'leche_amarga' (sombra). Insight: En pantano costero, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 999: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1000: Soñó con 'máscara_adherida' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1001: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1002: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1003: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1004: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1004: Detectó y rechazó un intento de manipulación de Garan.
+- Día 1005: Soñó con 'aplauso_vacío' (persona). Insight: En rio lago, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1006: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1007: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1008: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1008: Detectó y rechazó un intento de manipulación de Garan.
+- Día 1008: Detectó y rechazó un intento de manipulación de Garan.
+- Día 1009: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1010: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1010: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1011: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1011: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1011: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1012: Soñó con 'mandala_incompleto' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1013: Soñó con 'hierba_que_corta' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1014: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1015: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1016: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1017: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1018: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1019: Soñó con 'oscuridad_total' (sombra). Insight: En cueva, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1020: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1021: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1021: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1022: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1023: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1024: Soñó con 'silencio_pleno' (self). Insight: El self ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1025: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1026: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 1027: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1028: Soñó con 'nido_que_asfixia' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1029: Soñó con 'leche_amarga' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1030: Soñó con 'río_que_nutre' (madre). Insight: lo reprimido enciende el madre en lago interior hasta quemar lo que toca.
+- Día 1031: Soñó con 'árbol_sin_raíces' (madre). Insight: El madre crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1032: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1033: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1034: Soñó con 'árbol_que_aprieta' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1035: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1036: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1037: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1038: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1039: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1040: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1041: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1042: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1043: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1044: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1045: Soñó con 'habitación_prohibida' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1046: Soñó con 'sendero_circular' (madre). Insight: En bosque templado el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1047: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1048: Soñó con 'leche_amarga' (madre). Insight: lo reprimido enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 1049: Soñó con 'leche_amarga' (madre). Insight: El sabana abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1050: Soñó con 'río_que_nutre' (madre). Insight: En desierto borde el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1051: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1051: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1052: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1053: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1054: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1055: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1056: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1057: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1058: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1059: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1060: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1061: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1062: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1063: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1063: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1064: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1065: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1066: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1067: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1068: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1069: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1070: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1070: Sufrió explotación y hostilidad de Fyria, cediendo recursos biológicos.
+- Día 1071: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1072: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1073: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1074: Soñó con 'oscuridad_total' (madre). Insight: El cueva amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1075: Soñó con 'leche_amarga' (madre). Insight: lo reprimido enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1076: Soñó con 'sal_en_herida' (madre). Insight: En costa abierta el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1077: Soñó con 'árbol_sin_raíces' (madre). Insight: En bosque templado, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1078: Soñó con 'campo_interminable' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1079: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1080: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1081: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1082: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1083: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1084: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1085: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1086: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1087: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1088: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1089: Soñó con 'mandala_incompleto' (sabio). Insight: El sabio ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1090: Soñó con 'silencio_pleno' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1091: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1092: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1093: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1094: Soñó con 'centro_sin_lugar' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1095: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1096: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1097: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1098: Soñó con 'nido_que_asfixia' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1099: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1100: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1101: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1101: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1102: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1103: Soñó con 'sol_que_calcina' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1104: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1105: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1106: Soñó con 'campo_interminable' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1107: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1108: Soñó con 'vista_engañosa' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1109: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1109: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1109: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1110: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1110: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1111: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 1111: El colapso de nuestra tribu. Solo quedamos 1.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1112: Soñó con 'nido_que_asfixia' (madre). Insight: En sabana abierta, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1113: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1114: Soñó con 'tierra_resquebrajada' (madre). Insight: El sabana abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1115: Soñó con 'fondo_que_sube' (madre). Insight: El madre expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1116: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1117: Soñó con 'descenso_inevitable' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1118: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1119: Soñó con 'mandala_incompleto' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1120: Soñó con 'mandala_incompleto' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1121: Soñó con 'mandala_incompleto' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1121: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1122: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1123: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1124: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1125: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1126: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1127: Soñó con 'centro_sin_lugar' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 1128: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1129: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1130: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 1131: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1132: Soñó con 'voz_propia_extraña' (trickster). Insight: El valle fertil amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 1133: Soñó con 'estrella_que_no_guía' (trickster). Insight: El trickster expulsa lo reprimido hacia desierto borde: allá afuera, entre los demás.
+- Día 1134: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1134: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1134: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1134: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1134: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 1135: Soñó con 'hierba_que_corta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1135: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1136: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1136: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1136: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1136: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1136: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1137: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lachesis.
+- Día 1138: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1139: Soñó con 'figura_que_sigue' (trickster). Insight: lo reprimido enciende el trickster en costa abierta hasta quemar lo que toca.
+- Día 1140: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En bosque templado el trickster se expande más allá del control; lo reprimido es el combustible.
+- Día 1141: Soñó con 'semilla_negra' (trickster). Insight: El trickster crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1142: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1142: Creó 'Símbolo Oscuro de Sombra' (tipo=perturbador) en estado compulsivo.
+- Día 1143: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1144: Soñó con 'silencio_pleno' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1145: Soñó con 'leche_amarga' (madre). Insight: El bosque templado amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1146: Soñó con 'leche_amarga' (madre). Insight: El costa abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1147: Soñó con 'leche_amarga' (madre). Insight: En costa abierta el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1148: Soñó con 'reflejo_sin_original' (madre). Insight: En lago interior el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1149: Soñó con 'río_que_nutre' (madre). Insight: El lago interior amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1149: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1149: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1149: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1149: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1149: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1149: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1149: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1149: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1150: Soñó con 'semilla_negra' (madre). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1150: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1150: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1151: Soñó con 'sal_en_herida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1151: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1151: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1151: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1152: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1153: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1154: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1154: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1155: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1155: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1155: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1155: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1155: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1155: Intentó manipular a Lachesis, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1155: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1155: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1156: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1156: Intentó manipular a Stenos, pero fue descubierto.
+- Día 1156: Intentó manipular a Stenos, pero fue descubierto.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1156: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1157: Revivió el recuerdo de Falleció Uritha.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1157: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1158: Revivió el recuerdo de Falleció Uritha.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1158: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Soñó con 'sed_en_el_agua' (sabio). Insight: El rio lago amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1159: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Soñó con 'voz_propia_extraña' (sabio). Insight: En rio lago el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1160: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1161: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1162: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1163: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1164: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1165: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1166: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1167: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1168: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En cueva, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1169: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 1170: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1171: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1172: Soñó con 'semilla_negra' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1173: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1174: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1175: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1175: Revivió el recuerdo de Falleció Uritha.
+- Día 1175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1176: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus expulsa Falleció hacia pradera humeda: allá afuera, entre los demás.
+- Día 1177: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1178: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1179: Soñó con 'lugar_vacío' (sombra). Insight: El sombra ve Falleció afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1180: Soñó con 'voz_propia_extraña' (sabio). Insight: En valle fertil, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1181: Soñó con 'lugar_vacío' (sombra). Insight: En costa abierta, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1182: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1183: Soñó con 'lugar_vacío' (sombra). Insight: El sombra crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 1184: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: Falleció enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1185: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1186: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En rio lago, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1187: Soñó con 'nombre_que_nadie_dice' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; Falleció es el combustible.
+- Día 1188: Soñó con 'sombra_que_sigue_caminando' (trickster). Insight: En bosque templado el trickster se expande más allá del control; Falleció es el combustible.
+- Día 1189: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; Falleció presiona desde adentro.
+- Día 1190: Soñó con 'nombre_que_nadie_dice' (trickster). Insight: El trickster ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1191: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 1192: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El sombra crece desmedido en pradera humeda — Falleció lo empuja sin nombre.
+- Día 1193: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 1194: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Día 1195: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1195: Detectó y rechazó un intento de manipulación de Brysis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1195: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1196: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1197: Soñó con 'árbol_que_aprieta' (self). Insight: El self expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1198: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1198: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1198: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1198: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1198: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1198: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1198: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1198: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1198: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1198: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1199: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1199: Intentó manipular a Velia, pero fue descubierto.
+- Día 1199: Intentó manipular a Velia, pero fue descubierto.
+- Día 1200: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1200: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1201: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1201: Se enfrentó en un choque violento y destructivo contra Fyria.
+- Día 1202: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1203: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1204: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1205: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1206: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1207: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1208: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1209: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1210: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1211: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1211: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1211: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1211: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1211: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1212: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1212: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1212: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1213: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1213: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1213: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1213: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1213: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1213: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1214: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1215: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1215: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1215: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1215: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1215: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1215: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1216: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1216: Intentó manipular a Velia, pero fue descubierto.
+- Día 1216: Intentó manipular a Velia, pero fue descubierto.
+- Día 1217: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1218: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1219: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1220: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1220: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1221: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1222: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1222: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 1223: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1224: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1225: Soñó con 'laberinto_que_ríe' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1226: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1227: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1228: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1228: Revivió el recuerdo de Falleció Uritha.
+- Día 1229: Soñó con 'nombre_que_nadie_dice' (sabio). Insight: El sabio expulsa Falleció hacia montana alta: allá afuera, entre los demás.
+- Día 1230: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1231: Soñó con 'río_que_nutre' (self). Insight: En colinas suaves el self se expande más allá del control; Falleció es el combustible.
+- Día 1232: Soñó con 'unión_imposible' (self). Insight: El self expulsa Falleció hacia rio lago: allá afuera, entre los demás.
+- Día 1233: Soñó con 'árbol_que_aprieta' (sombra). Insight: En sabana abierta, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1234: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El sombra ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1235: Soñó con 'sombra_que_sigue_caminando' (self). Insight: En colinas suaves el self se expande más allá del control; Falleció es el combustible.
+- Día 1235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1236: Soñó con 'nombre_que_nadie_dice' (self). Insight: En bosque templado el self se expande más allá del control; Falleció es el combustible.
+- Día 1237: Soñó con 'nombre_que_nadie_dice' (self). Insight: En pradera humeda, el self no puede contenerse — Falleció alimenta el fuego.
+- Día 1237: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1237: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1238: Soñó con 'río_que_nutre' (self). Insight: El self crece desmedido en desierto borde — Falleció lo empuja sin nombre.
+- Día 1239: Soñó con 'lugar_vacío' (self). Insight: El self ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Día 1239: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1239: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1239: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1239: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1240: Soñó con 'nombre_que_nadie_dice' (self). Insight: El sabana abierta amplifica la tensión del self; Falleció presiona desde adentro.
+- Día 1240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1241: Soñó con 'sombra_que_sigue_caminando' (self). Insight: El self ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Día 1242: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa Falleció hacia colinas suaves: allá afuera, entre los demás.
+- Día 1242: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1243: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Día 1244: Soñó con 'sombra_que_sigue_caminando' (madre). Insight: En bosque templado, Falleció tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1245: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1246: Soñó con 'voz_propia_extraña' (sombra). Insight: Falleció enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1247: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1248: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En bosque templado, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1249: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 1249: Se impuso competitivamente ante Ivar, absorbiendo sus recursos biológicos.
+- Día 1249: Se impuso competitivamente ante Ivar, absorbiendo sus recursos biológicos.
+- Día 1249: Manipuló con éxito y astucia a Ivar para ceder recursos.
+- Día 1250: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 1250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1250: Intentó manipular a Ivar, pero fue descubierto.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1250: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Intentó manipular a Garan, pero fue descubierto.
+- Día 1251: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1251: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1252: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1252: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1253: Soñó con 'centro_sin_lugar' (madre). Insight: El madre ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1253: Creó 'Tótem Maldito de Trickster' (tipo=perturbador) en estado compulsivo.
+- Día 1254: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1254: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1255: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1255: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1256: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1256: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ivar.
+- Día 1257: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1257: Se impuso competitivamente ante Wulfar, absorbiendo sus recursos biológicos.
+- Día 1258: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1259: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1260: Soñó con 'unión_imposible' (self). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1260: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1260: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1260: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1260: Intentó manipular a Velia, pero fue descubierto.
+- Día 1260: Intentó manipular a Velia, pero fue descubierto.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1260: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1261: Detectó y rechazó un intento de manipulación de Velia.
+- Día 1262: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1263: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1264: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1265: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1265: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1266: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en costa abierta — lo reprimido lo empuja sin nombre.
+- Día 1267: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1268: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 1269: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1270: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1270: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1271: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1272: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1273: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1274: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1275: Soñó con 'luz_oblicua' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1275: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1276: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1277: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1277: Cedió ingenuamente ante la manipulación de Brysis.
+- Día 1277: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 1277: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 1278: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1278: Sufrió explotación y hostilidad de Peria, cediendo recursos biológicos.
+- Día 1279: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1280: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1280: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1281: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1281: Revivió el recuerdo de Falleció Uritha.
+- Día 1282: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa Falleció hacia bosque templado: allá afuera, entre los demás.
+- Día 1283: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, Falleció aparece en el otro — el sabio no se reconoce.
+- Día 1283: Intentó manipular a Brysis, pero fue descubierto.
+- Día 1283: Intentó manipular a Brysis, pero fue descubierto.
+- Día 1283: Intentó manipular a Brysis, pero fue descubierto.
+- Día 1283: Intentó manipular a Brysis, pero fue descubierto.
+- Día 1284: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1284: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1285: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1285: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1286: Soñó con 'fondo_que_sube' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1287: Soñó con 'nido_que_asfixia' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1288: Soñó con 'calma_antes_de_algo' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1288: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1290: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1290: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1291: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1291: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1292: Soñó con 'centro_sin_lugar' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1293: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1294: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1295: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1295: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1296: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1297: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1298: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1299: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1300: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1300: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1301: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1302: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: lo reprimido enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 1303: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1303: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1303: Sufrió explotación y hostilidad de Brysis, cediendo recursos biológicos.
+- Día 1303: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1304: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1304: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 1304: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 1304: Se impuso competitivamente ante Lachesis, absorbiendo sus recursos biológicos.
+- Día 1305: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1305: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1306: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1306: Intentó manipular a Garan, pero fue descubierto.
+- Día 1306: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1307: Soñó con 'silencio_absoluto' (sombra). Insight: lo reprimido enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1308: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1309: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1310: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1310: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1311: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1311: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 1312: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1313: Soñó con 'unión_imposible' (madre). Insight: En bosque templado, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1313: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1313: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1314: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1315: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1315: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1316: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1317: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1318: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 1319: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1319: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1319: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1319: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1319: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1319: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1320: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1320: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1321: Soñó con 'unión_imposible' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 1322: Soñó con 'hierba_que_corta' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1323: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1324: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1324: Intentó manipular a Decia, pero fue descubierto.
+- Día 1324: Intentó manipular a Decia, pero fue descubierto.
+- Día 1324: Intentó manipular a Decia, pero fue descubierto.
+- Día 1324: Intentó manipular a Decia, pero fue descubierto.
+- Día 1325: Soñó con 'marea_que_sube' (self). Insight: El self proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1325: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1326: Soñó con 'danza_a_solas' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1327: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1328: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1328: Intentó manipular a Decia, pero fue descubierto.
+- Día 1328: Intentó manipular a Decia, pero fue descubierto.
+- Día 1329: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1330: Soñó con 'hierba_que_corta' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1330: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1331: Soñó con 'fruto_amargo' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1332: Soñó con 'eco_sin_origen' (sombra). Insight: lo reprimido enciende el sombra en cueva hasta quemar lo que toca.
+- Día 1333: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1334: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1335: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1335: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1336: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1337: Soñó con 'marea_que_sube' (sombra). Insight: lo reprimido enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1338: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1339: Soñó con 'silencio_pleno' (self). Insight: El self ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1339: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1340: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1340: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1341: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1342: Soñó con 'manada_que_huye' (anima_animus). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1343: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1344: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1344: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1344: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1344: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1345: Cedió ingenuamente ante la manipulación de Stenos.
+- Día 1345: Soñó con 'voz_propia_extraña' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1345: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1345: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 1345: Intentó manipular a Xanthe, pero fue descubierto.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1346: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1347: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1348: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1348: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1348: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1349: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1349: Detectó y rechazó un intento de manipulación de Garan.
+- Día 1350: Soñó con 'aplauso_vacío' (sombra). Insight: lo reprimido enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 1350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1350: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1351: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1352: Soñó con 'horizonte_inmóvil' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1352: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1352: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1352: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1352: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1352: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1352: Intentó manipular a Peria, pero fue descubierto.
+- Día 1352: Intentó manipular a Peria, pero fue descubierto.
+- Día 1352: Intentó manipular a Peria, pero fue descubierto.
+- Día 1352: Intentó manipular a Peria, pero fue descubierto.
+- Día 1352: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Intentó manipular a Peria, pero fue descubierto.
+- Día 1353: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1353: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1354: Soñó con 'habitación_prohibida' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1355: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1355: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1355: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1355: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1355: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1355: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 1356: Soñó con 'espejo_que_miente' (madre). Insight: En colinas suaves, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1357: Soñó con 'figura_que_sigue' (madre). Insight: El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1357: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1358: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1359: Soñó con 'sendero_circular' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1359: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1359: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1360: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1360: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1361: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1362: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1362: Cedió ingenuamente ante la manipulación de Phoibos.
+- Día 1362: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1362: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1363: Soñó con 'espejo_que_miente' (madre). Insight: lo reprimido enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1364: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1365: Soñó con 'campo_interminable' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1365: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1366: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1367: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1368: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1369: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1370: Soñó con 'habitación_prohibida' (self). Insight: En sabana abierta, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1370: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1371: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1372: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1373: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1374: Soñó con 'viento_que_borra' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1375: Soñó con 'río_tranquilo' (sabio). Insight: En valle fertil, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1375: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1376: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1377: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1377: Revivió el recuerdo de Falleció Uritha.
+- Día 1377: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 1378: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1379: Soñó con 'río_tranquilo' (sombra). Insight: El sombra ve Falleció afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1380: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: Falleció enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 1380: Revivió el recuerdo de Falleció Uritha.
+- Día 1380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1380: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1380: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1381: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1381: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1382: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1383: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1384: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1385: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1385: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1386: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1386: Detectó y rechazó un intento de manipulación de Renia.
+- Día 1386: Detectó y rechazó un intento de manipulación de Renia.
+- Día 1386: Detectó y rechazó un intento de manipulación de Renia.
+- Día 1387: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1388: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1389: Soñó con 'raíz_invisible' (sabio). Insight: El sabio crece desmedido en pantano costero — lo reprimido lo empuja sin nombre.
+- Día 1390: Soñó con 'camino_conocido' (sabio). Insight: En desierto borde el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1390: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1391: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1392: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1393: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1394: Soñó con 'unión_imposible' (self). Insight: En valle fertil, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1395: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1395: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1395: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1396: Soñó con 'escenario_sin_salida' (sabio). Insight: En montana alta, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1397: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1397: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1397: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1398: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1399: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1400: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1400: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1401: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — lo reprimido lo empuja sin nombre.
+- Día 1402: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1403: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 1404: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1405: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1405: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1406: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1407: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1408: Soñó con 'laberinto_que_ríe' (self). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1409: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1410: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1410: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1411: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1412: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1413: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1414: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1415: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1415: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1416: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1417: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1417: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1418: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1419: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1420: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1420: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Manipuló con éxito y astucia a Velia para ceder recursos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1420: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Soñó con 'río_tranquilo' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1421: Sufrió explotación y hostilidad de Velia, cediendo recursos biológicos.
+- Día 1422: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1422: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1423: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1424: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1425: Soñó con 'figura_que_sigue' (self). Insight: El self ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1425: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1426: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1427: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1428: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1428: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1429: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1430: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1430: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1431: Soñó con 'cima_en_niebla' (anima_animus). Insight: lo reprimido enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 1432: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 1433: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1434: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1434: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1434: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1435: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1435: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1436: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1437: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1438: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1439: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1440: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1440: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1441: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1442: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1443: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1444: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1445: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1445: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1446: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1447: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1448: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1449: Soñó con 'sombra_ausente' (anima_animus). Insight: En sabana abierta el anima_animus se expande más allá del control; lo reprimido es el combustible.
+- Día 1450: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1450: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1451: Soñó con 'río_tranquilo' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1452: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1453: Soñó con 'camino_conocido' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1453: Cedió ingenuamente ante la manipulación de Garan.
+- Día 1454: Soñó con 'corriente_que_arrastra' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1455: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1455: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1456: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1457: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1458: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1459: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1460: Soñó con 'fruto_amargo' (madre). Insight: El madre expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1460: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1461: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1462: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1462: Revivió el recuerdo de Falleció Uritha.
+- Día 1462: Creó 'Símbolo Oscuro de Muerte' (tipo=perturbador) en estado compulsivo.
+- Día 1463: Soñó con 'lugar_vacío' (sabio). Insight: En rio lago el sabio se expande más allá del control; Falleció es el combustible.
+- Día 1463: Intentó manipular a Decia, pero fue descubierto.
+- Día 1463: Intentó manipular a Decia, pero fue descubierto.
+- Día 1464: Soñó con 'nombre_que_nadie_dice' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; Falleció presiona desde adentro.
+- Día 1465: Soñó con 'nombre_que_nadie_dice' (sabio). Insight: El sabio ve Falleció afuera en montana alta, donde no puede alcanzarlo.
+- Día 1465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1465: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1465: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1466: Soñó con 'lugar_vacío' (sombra). Insight: El sombra expulsa Falleció hacia pradera humeda: allá afuera, entre los demás.
+- Día 1466: Intentó manipular a Decia, pero fue descubierto.
+- Día 1466: Intentó manipular a Decia, pero fue descubierto.
+- Día 1467: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: El sabio ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1468: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En lago interior, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1469: Soñó con 'lugar_vacío' (sombra). Insight: En lago interior, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1470: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1470: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1470: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1471: Soñó con 'vista_engañosa' (self). Insight: El colinas suaves amplifica la tensión del self; Falleció presiona desde adentro.
+- Día 1471: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1471: Revivió el recuerdo de Falleció Uritha.
+- Día 1472: Soñó con 'hierba_que_corta' (self). Insight: El self crece desmedido en pradera humeda — Falleció lo empuja sin nombre.
+- Día 1473: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1474: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1475: Soñó con 'viento_que_borra' (self). Insight: Falleció enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1475: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1475: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1476: Soñó con 'nombre_que_nadie_dice' (self). Insight: En valle fertil, el self no puede contenerse — Falleció alimenta el fuego.
+- Día 1477: Soñó con 'nombre_que_nadie_dice' (self). Insight: En pradera humeda, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1478: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa Falleció hacia montana alta: allá afuera, entre los demás.
+- Día 1479: Soñó con 'estrella_que_no_guía' (self). Insight: El self proyecta Falleció sobre el horizonte de valle fertil.
+- Día 1480: Soñó con 'lugar_vacío' (sombra). Insight: El lago interior amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 1480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1480: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1480: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1481: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En bosque templado, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 1482: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve Falleció afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1483: Soñó con 'lugar_vacío' (sabio). Insight: En valle fertil, el sabio no puede contenerse — Falleció alimenta el fuego.
+- Día 1484: Soñó con 'sol_que_calcina' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; Falleció presiona desde adentro.
+- Día 1485: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: Falleció enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 1485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1485: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1485: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1486: Soñó con 'calma_antes_de_algo' (sabio). Insight: El sabio proyecta Falleció sobre el horizonte de lago interior.
+- Día 1486: Revivió el recuerdo de Falleció Uritha.
+- Día 1487: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: El sabio ve Falleció afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1487: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1488: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1489: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: lo reprimido enciende el sabio en costa abierta hasta quemar lo que toca.
+- Día 1489: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1490: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1490: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1490: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1491: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1492: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: lo reprimido enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 1493: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1494: Soñó con 'estrella_que_no_guía' (sabio). Insight: lo reprimido enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 1495: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1495: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1495: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1496: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1497: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1498: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En montana alta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1498: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1499: Intentó manipular a Decia, pero fue descubierto.
+- Día 1499: Intentó manipular a Decia, pero fue descubierto.
+- Día 1499: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1500: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1500: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1500: Intentó manipular a Decia, pero fue descubierto.
+- Día 1500: Intentó manipular a Decia, pero fue descubierto.
+- Día 1500: Intentó manipular a Decia, pero fue descubierto.
+- Día 1500: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1500: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1500: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1500: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1501: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1501: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1501: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1501: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1501: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1502: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1503: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1504: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1505: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1505: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1505: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1506: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1506: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1506: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1506: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1507: Soñó con 'campo_interminable' (madre). Insight: El madre crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1507: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Intentó manipular a Decia, pero fue descubierto.
+- Día 1508: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 1509: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1509: Revivió el recuerdo de Falleció Uritha.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1509: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Soñó con 'sendero_circular' (madre). Insight: El madre crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1510: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1510: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1510: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1511: Soñó con 'árbol_que_aprieta' (madre). Insight: En costa abierta el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1511: Intentó manipular a Renia, pero fue descubierto.
+- Día 1511: Intentó manipular a Renia, pero fue descubierto.
+- Día 1511: Intentó manipular a Renia, pero fue descubierto.
+- Día 1512: Soñó con 'horizonte_de_agua' (madre). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1513: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1513: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1513: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1514: Soñó con 'aplauso_vacío' (sabio). Insight: lo reprimido enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 1514: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1514: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1515: Soñó con 'aplauso_vacío' (sabio). Insight: lo reprimido enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 1515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1515: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1515: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1516: Soñó con 'reflejo_distorsionado' (sabio). Insight: El sabio crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1517: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En bosque templado, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1518: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1519: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1520: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1520: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1520: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1521: Soñó con 'abundancia_que_pudre' (madre). Insight: lo reprimido enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 1522: Soñó con 'abundancia_que_pudre' (madre). Insight: El madre expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1523: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1524: Soñó con 'calma_antes_de_algo' (madre). Insight: El madre expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1525: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1525: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1525: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1526: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1527: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1528: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El bosque templado amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 1529: Soñó con 'estrella_que_no_guía' (sabio). Insight: En desierto borde el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1529: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 1529: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1529: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1530: Soñó con 'voz_propia_extraña' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1530: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1530: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1530: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1530: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1530: Cedió ingenuamente ante la manipulación de Renia.
+- Día 1531: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1532: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1533: Soñó con 'mandala_incompleto' (self). Insight: El self ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1534: Soñó con 'laberinto_que_ríe' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1535: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1535: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1535: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1536: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1537: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1538: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1539: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1540: Soñó con 'roca_que_aplasta' (madre). Insight: El montana alta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1540: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1540: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1541: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1542: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1543: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1544: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1545: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1545: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1545: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1545: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1545: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1545: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1545: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1545: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Soñó con 'espejo_que_miente' (madre). Insight: En pradera humeda, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1546: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 1547: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1548: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1549: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1550: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1550: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1550: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1550: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1551: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — lo reprimido lo empuja sin nombre.
+- Día 1551: Cooperó de forma mutua y armónica con Zoia. Su lazo social se fortaleció.
+- Día 1551: Cooperó de forma mutua y armónica con Zoia. Su lazo social se fortaleció.
+- Día 1552: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1552: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1553: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1553: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1553: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1553: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 1554: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1555: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1555: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1555: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1556: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1557: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1557: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 1557: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 1558: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1559: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1560: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1560: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1560: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1561: Soñó con 'habitación_prohibida' (madre). Insight: El valle fertil amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1561: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1562: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1562: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1563: Soñó con 'figura_que_sigue' (madre). Insight: El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1564: Soñó con 'espejo_que_miente' (madre). Insight: lo reprimido enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 1565: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1565: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1565: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1566: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1566: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 1567: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1568: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1569: Soñó con 'unión_imposible' (self). Insight: En sabana abierta el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1570: Soñó con 'reflejo_que_actúa_solo' (self). Insight: En valle fertil, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1570: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1570: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1571: Soñó con 'fruto_amargo' (self). Insight: lo reprimido enciende el self en valle fertil hasta quemar lo que toca.
+- Día 1572: Soñó con 'unión_imposible' (self). Insight: En valle fertil, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1573: Soñó con 'fruto_amargo' (self). Insight: El self crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1574: Soñó con 'abundancia_que_pudre' (self). Insight: El self crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1575: Soñó con 'laberinto_que_ríe' (self). Insight: El self crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1575: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1575: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Soñó con 'puerta_que_se_mueve' (self). Insight: En valle fertil, el self no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1577: Soñó con 'mandala_incompleto' (self). Insight: El self ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1578: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1579: Soñó con 'nido_que_asfixia' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1580: Soñó con 'nido_que_asfixia' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1580: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1580: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1580: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1580: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1580: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1581: Soñó con 'vista_engañosa' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1581: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Soñó con 'río_que_nutre' (sabio). Insight: El sabio ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1582: Intentó manipular a Peria, pero fue descubierto.
+- Día 1583: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1583: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1583: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1583: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1583: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1583: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1584: Soñó con 'leche_amarga' (madre). Insight: lo reprimido enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 1584: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1584: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1585: Soñó con 'espejo_que_miente' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1585: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1585: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1586: Soñó con 'piedra_que_rueda' (madre). Insight: En colinas suaves, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1586: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1586: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1587: Soñó con 'manada_que_huye' (madre). Insight: lo reprimido enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1588: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1588: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1588: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1588: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1588: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1588: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1588: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1588: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1588: Sufrió explotación y hostilidad de Decia, cediendo recursos biológicos.
+- Día 1589: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1589: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1589: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1590: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1590: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1590: Sufrió explotación y hostilidad de Peria, cediendo recursos biológicos.
+- Día 1590: Sufrió explotación y hostilidad de Peria, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1591: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1591: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 1592: Soñó con 'luz_oblicua' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1593: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1593: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 1593: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 1593: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 1593: Cooperó de forma mutua y armónica con Decia. Su lazo social se fortaleció.
+- Día 1593: Cooperó de forma mutua y armónica con Decia. Su lazo social se fortaleció.
+- Día 1594: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1594: Cedió ingenuamente ante la manipulación de Decia.
+- Día 1595: Soñó con 'voz_propia_extraña' (madre). Insight: En bosque templado el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1595: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1595: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1595: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1595: Intentó manipular a Decia, pero fue descubierto.
+- Día 1595: Intentó manipular a Decia, pero fue descubierto.
+- Día 1596: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1596: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1596: Intentó manipular a Decia, pero fue descubierto.
+- Día 1597: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1597: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1597: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1597: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1597: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 1598: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1599: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1599: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ysolde.
+- Día 1599: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ysolde.
+- Día 1600: Soñó con 'máscara_adherida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1600: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1600: Intentó manipular a Decia, pero fue descubierto.
+- Día 1600: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1600: Intentó manipular a Decia, pero fue descubierto.
+- Día 1601: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1601: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Soñó con 'máscara_adherida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1602: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 1603: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1603: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ysolde.
+- Día 1604: Soñó con 'corriente_que_arrastra' (madre). Insight: El madre crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1605: Soñó con 'espejo_que_miente' (madre). Insight: En costa abierta, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1605: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1606: Soñó con 'sal_en_herida' (madre). Insight: El costa abierta amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1607: Soñó con 'habitación_prohibida' (madre). Insight: En rio lago, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1608: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1609: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1610: Soñó con 'figura_que_sigue' (madre). Insight: El madre expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1610: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1611: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1612: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1613: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1614: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1615: Soñó con 'trampa_propia' (self). Insight: El self ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1615: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1616: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1617: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1618: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1619: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1619: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1619: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 1619: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 1619: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 1619: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 1620: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1620: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1621: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1622: Soñó con 'centro_sin_lugar' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 1623: Soñó con 'campo_interminable' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1623: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Soñó con 'centro_sin_lugar' (sabio). Insight: En rio lago, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Renia, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1624: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1625: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Intentó manipular a Garan, pero fue descubierto.
+- Día 1625: Manipuló con éxito y astucia a Garan para ceder recursos.
+- Día 1625: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1625: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1625: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1626: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1627: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 1628: Soñó con 'aplauso_vacío' (persona). Insight: En rio lago, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1629: Soñó con 'agua_fría' (persona). Insight: lo reprimido enciende el persona en lago interior hasta quemar lo que toca.
+- Día 1630: Soñó con 'horizonte_de_agua' (persona). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1630: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1631: Soñó con 'figura_que_sigue' (persona). Insight: El persona expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1632: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1632: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 1633: Soñó con 'unión_imposible' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1633: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1633: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Intentó manipular a Peria, pero fue descubierto.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1634: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1635: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Peria, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Renia, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Renia, cediendo recursos biológicos.
+- Día 1635: Sufrió explotación y hostilidad de Peria, cediendo recursos biológicos.
+- Día 1636: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1637: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1638: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Stenos.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Stenos.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Soñó con 'raíz_invisible' (sombra). Insight: El sombra ve lo reprimido afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1639: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Renia.
+- Día 1640: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1640: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1641: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Manipuló con éxito y astucia a Stenos para ceder recursos.
+- Día 1641: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1641: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1641: Intentó manipular a Zoia, pero fue descubierto.
+- Día 1642: Soñó con 'leche_amarga' (madre). Insight: lo reprimido enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1643: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1644: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1644: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1644: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1645: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 1645: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1646: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1647: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1648: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1648: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1649: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1650: Soñó con 'río_que_nutre' (madre). Insight: En lago interior, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1650: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1651: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra ve lo reprimido afuera en montana alta, donde no puede alcanzarlo.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1651: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1652: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 1653: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1653: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 1653: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 1653: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 1653: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 1654: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1655: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1655: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1656: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1656: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1656: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1657: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1658: Soñó con 'manada_que_huye' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1658: Se enfrentó en un choque violento y destructivo contra Peria.
+- Día 1658: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1658: Detectó y rechazó un intento de manipulación de Xanthe.
+- Día 1658: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1659: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1660: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1660: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1661: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1662: Soñó con 'horizonte_de_agua' (sabio). Insight: El sabio crece desmedido en costa abierta — lo reprimido lo empuja sin nombre.
+- Día 1663: Soñó con 'semilla_negra' (sabio). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1664: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1665: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1665: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1665: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1665: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1665: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1665: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1665: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1666: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1666: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 1667: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1668: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1669: Soñó con 'río_que_nutre' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1670: Soñó con 'máscara_adherida' (trickster). Insight: En valle fertil, lo reprimido aparece en el otro — el trickster no se reconoce.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1670: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1671: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1671: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 1671: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1672: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1673: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1674: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1674: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1675: Soñó con 'camino_conocido' (sabio). Insight: En costa abierta, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1675: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1676: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1677: Soñó con 'espejo_que_miente' (sabio). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1678: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1679: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 1680: Soñó con 'sombra_ausente' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1680: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1681: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1682: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1683: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1684: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1685: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1685: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1686: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1687: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1688: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1689: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1690: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1690: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1691: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1691: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1691: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1691: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 1692: Soñó con 'unión_imposible' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1693: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1693: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1693: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1694: Soñó con 'centro_sin_lugar' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1694: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1694: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1694: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1695: Soñó con 'viento_que_borra' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1695: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1695: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1695: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1695: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1695: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1696: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1697: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1698: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1699: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1699: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1699: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1699: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1699: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 1700: Soñó con 'centro_sin_lugar' (self). Insight: lo reprimido enciende el self en costa abierta hasta quemar lo que toca.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1700: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1701: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1702: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1703: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1704: Soñó con 'habitación_prohibida' (self). Insight: El self ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1704: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1705: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1705: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1706: Soñó con 'figura_que_sigue' (madre). Insight: En sabana abierta, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1707: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1708: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1708: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1709: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1709: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1709: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1709: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1709: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1710: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1710: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1710: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1711: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1712: Soñó con 'fruto_amargo' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1713: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1714: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 1715: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1715: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1716: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1717: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 1718: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1718: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1719: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 1720: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1721: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1721: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 1721: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Rhadys.
+- Día 1721: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Rhadys.
+- Día 1722: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — lo reprimido lo empuja sin nombre.
+- Día 1722: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1722: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1723: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — lo reprimido lo empuja sin nombre.
+- Día 1724: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de cueva.
+- Día 1725: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en cueva, donde no puede alcanzarlo.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1726: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1727: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1728: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1728: Cedió ingenuamente ante la manipulación de Phoibos.
+- Día 1728: Cedió ingenuamente ante la manipulación de Phoibos.
+- Día 1729: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1730: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1731: Soñó con 'habitación_prohibida' (anima_animus). Insight: lo reprimido enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 1732: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1733: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1734: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1734: Manipuló con éxito y astucia a Zoia para ceder recursos.
+- Día 1734: Manipuló con éxito y astucia a Zoia para ceder recursos.
+- Día 1735: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1735: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 1736: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia sabana abierta: allá afuera, entre los demás.
+- Día 1737: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1738: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1739: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1740: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1741: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1741: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 1742: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1743: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1744: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra crece desmedido en pantano costero — lo reprimido lo empuja sin nombre.
+- Día 1745: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1746: Soñó con 'leche_amarga' (madre). Insight: El pradera humeda amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 1746: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1746: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 1747: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1748: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1748: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1749: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1750: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1751: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1752: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1753: Soñó con 'eco_sin_origen' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de cueva.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1753: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1754: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 1755: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1756: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1757: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1758: Soñó con 'río_tranquilo' (sombra). Insight: El sombra ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1759: Soñó con 'aplauso_vacío' (self). Insight: El self ve lo reprimido afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1759: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 1760: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1761: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1761: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Día 1762: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1762: Cooperó de forma mutua y armónica con Peria. Su lazo social se fortaleció.
+- Día 1763: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1764: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1764: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1764: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1765: Soñó con 'escenario_sin_salida' (sombra). Insight: En pantano costero, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1765: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1766: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1766: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 1767: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1768: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1769: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1770: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1770: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1771: Soñó con 'voz_propia_extraña' (sabio). Insight: lo reprimido enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 1772: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1773: Soñó con 'aplauso_vacío' (sabio). Insight: El costa abierta amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 1774: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1775: Soñó con 'bifurcación_sin_mapa' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1776: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra expulsa lo reprimido hacia lago interior: allá afuera, entre los demás.
+- Día 1777: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1777: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1778: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1779: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1780: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1781: Soñó con 'tierra_resquebrajada' (madre). Insight: lo reprimido enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1782: Soñó con 'voz_propia_extraña' (madre). Insight: En bosque templado el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1783: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1784: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1785: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1786: Soñó con 'escenario_sin_salida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1787: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1788: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1789: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1789: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 1790: Soñó con 'río_que_nutre' (madre). Insight: El madre ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1791: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1792: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1793: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1794: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1794: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 1795: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1796: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1797: Soñó con 'sombra_ausente' (self). Insight: El self ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1798: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1799: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, lo reprimido aparece en el otro — el self no se reconoce.
+- Día 1800: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1801: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1802: Soñó con 'mandala_incompleto' (persona). Insight: El persona ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1803: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1804: Soñó con 'habitación_prohibida' (madre). Insight: En lago interior, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1805: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1806: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1806: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1806: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1807: Sufrió explotación y hostilidad de Ysolde, cediendo recursos biológicos.
+- Día 1808: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1809: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1810: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1811: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1812: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1812: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1813: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1813: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1813: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1813: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1814: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1814: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1814: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1814: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1814: Cooperó de forma mutua y armónica con Ysolde. Su lazo social se fortaleció.
+- Día 1815: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1816: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1816: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1816: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1816: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1817: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1817: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1817: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1817: Detectó y rechazó un intento de manipulación de Decia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1818: Soñó con 'campo_interminable' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1819: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1820: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1821: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1822: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1823: Soñó con 'unión_imposible' (self). Insight: El self expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1824: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1825: Soñó con 'voz_propia_extraña' (sabio). Insight: En bosque templado el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1826: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En colinas suaves, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1827: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1828: Soñó con 'libro_en_lengua_muerta' (persona). Insight: El persona ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1829: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1830: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1830: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1830: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1830: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1831: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1831: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 1831: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1831: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1831: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1831: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 1831: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1831: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1831: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 1832: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1833: Soñó con 'silencio_pleno' (self). Insight: El self expulsa lo reprimido hacia montana alta: allá afuera, entre los demás.
+- Día 1833: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1833: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1833: Detectó y rechazó un intento de manipulación de Decia.
+- Día 1834: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia desierto borde: allá afuera, entre los demás.
+- Día 1835: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1836: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1837: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1838: Soñó con 'vista_engañosa' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 1839: Soñó con 'río_que_nutre' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1840: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1841: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1842: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1843: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1844: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1845: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1846: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1847: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1848: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1849: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1850: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1850: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Rhadys, cediendo recursos biológicos.
+- Día 1851: Cedió ingenuamente ante la manipulación de Rhadys.
+- Día 1851: Cedió ingenuamente ante la manipulación de Rhadys.
+- Día 1852: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1853: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1854: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1855: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1856: Soñó con 'vista_engañosa' (sombra). Insight: El sombra crece desmedido en colinas suaves — lo reprimido lo empuja sin nombre.
+- Día 1857: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1858: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1859: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 1860: Soñó con 'figura_que_sigue' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1861: Soñó con 'camino_conocido' (sabio). Insight: lo reprimido enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 1862: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1863: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1864: Soñó con 'espejo_que_miente' (sabio). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1865: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1866: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 1867: Soñó con 'espejo_que_miente' (self). Insight: lo reprimido enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1868: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 1869: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1870: Soñó con 'voz_propia_extraña' (self). Insight: En pradera humeda el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1871: Soñó con 'estrella_que_no_guía' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 1872: Soñó con 'estrella_que_no_guía' (self). Insight: El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 1873: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1874: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1875: Soñó con 'habitación_prohibida' (self). Insight: lo reprimido enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1876: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1876: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 1877: Soñó con 'sombra_que_camina' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1878: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 1879: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1880: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1881: Soñó con 'reflejo_distorsionado' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1882: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1883: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1884: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1885: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1886: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1887: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1888: Soñó con 'habitación_prohibida' (madre). Insight: En bosque templado, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1889: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 1890: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1891: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1891: Cedió ingenuamente ante la manipulación de Ysolde.
+- Día 1892: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1893: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1894: Soñó con 'viento_que_borra' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1895: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1896: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1897: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1898: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1899: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 1900: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1901: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1902: Soñó con 'roca_que_aplasta' (self). Insight: El self crece desmedido en montana alta — lo reprimido lo empuja sin nombre.
+- Día 1903: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1904: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1905: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1906: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa lo reprimido hacia costa abierta: allá afuera, entre los demás.
+- Día 1907: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1908: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1909: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1910: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1911: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En sabana abierta el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 1912: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1913: Soñó con 'sombra_que_camina' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1914: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1915: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1916: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1917: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Se impuso competitivamente ante Rhadys, absorbiendo sus recursos biológicos.
+- Día 1917: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1917: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1918: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1919: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 1920: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1920: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1921: Soñó con 'viento_que_borra' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1922: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1923: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1924: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1924: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1924: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1924: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1924: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1924: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 1925: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1926: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1927: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1928: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior, lo reprimido aparece en el otro — el madre no se reconoce.
+- Día 1929: Soñó con 'luz_oblicua' (sombra). Insight: El sombra ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1930: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1931: Soñó con 'río_tranquilo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 1932: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1933: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 1934: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1935: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1936: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1937: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1938: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1939: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1940: Soñó con 'nido_que_asfixia' (madre). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1941: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1942: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1943: Soñó con 'unión_imposible' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1944: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 1944: Intentó manipular a Fyria, pero fue descubierto.
+- Día 1944: Intentó manipular a Fyria, pero fue descubierto.
+- Día 1945: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1945: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1946: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 1947: Soñó con 'espejo_que_miente' (sombra). Insight: lo reprimido enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1948: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1948: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1948: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 1949: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1950: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1951: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1952: Soñó con 'habitación_prohibida' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1952: Cedió ingenuamente ante la manipulación de Rhadys.
+- Día 1952: Cedió ingenuamente ante la manipulación de Rhadys.
+- Día 1953: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1954: Soñó con 'figura_que_sigue' (madre). Insight: En bosque templado, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1955: Soñó con 'espejo_que_miente' (madre). Insight: En pradera humeda, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1956: Soñó con 'campo_interminable' (madre). Insight: lo reprimido enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1957: Soñó con 'figura_que_sigue' (madre). Insight: En sabana abierta el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 1957: Intentó manipular a Garan, pero fue descubierto.
+- Día 1957: Intentó manipular a Garan, pero fue descubierto.
+- Día 1957: Intentó manipular a Garan, pero fue descubierto.
+- Día 1958: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 1959: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 1960: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1961: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1962: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1962: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1962: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 1962: Cedió ingenuamente ante la manipulación de Lachesis.
+- Día 1962: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 1963: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1963: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1964: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 1964: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1964: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1964: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 1965: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1965: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1965: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1965: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1965: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 1966: Soñó con 'tierra_resquebrajada' (persona). Insight: En sabana abierta, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1966: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1967: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1968: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1969: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Soñó con 'fondo_que_sube' (madre). Insight: El madre proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1970: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — lo reprimido lo empuja sin nombre.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1971: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1972: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1973: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1974: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1975: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 1976: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 1977: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1977: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1977: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1978: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 1978: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1978: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1978: Intentó manipular a Rhadys, pero fue descubierto.
+- Día 1979: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Día 1980: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1980: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1980: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 1980: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 1980: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 1980: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1981: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1982: Soñó con 'pregunta_sin_respuesta' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1983: Soñó con 'estrella_que_no_guía' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1984: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1984: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 1984: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 1984: Cooperó de forma mutua y armónica con Brysis. Su lazo social se fortaleció.
+- Día 1984: Cooperó de forma mutua y armónica con Fyria. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1985: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1986: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1987: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1988: Soñó con 'sed_en_el_agua' (madre). Insight: En rio lago, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 1989: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1990: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1990: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 1991: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1992: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en cueva hasta quemar lo que toca.
+- Día 1993: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1994: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1995: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1996: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1997: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1998: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1999: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 2000: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2000: Soñó con 'horizonte_inmóvil' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2001: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2002: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2003: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2004: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2005: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2006: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2007: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2008: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2009: Soñó con 'figura_que_sigue' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2010: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2010: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2011: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 2012: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2013: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2014: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 2015: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2016: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2017: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2018: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2019: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2020: Soñó con 'voz_propia_extraña' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2021: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2022: Soñó con 'silencio_pleno' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2023: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2024: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2025: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2025: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2025: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2025: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2026: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2027: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2027: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2027: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2027: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2027: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2028: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2028: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2028: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2029: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2029: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2029: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2029: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2029: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2030: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2031: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2032: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2033: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 2033: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 2033: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Peria.
+- Día 2033: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 2033: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 2033: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 2033: Se impuso competitivamente ante Decia, absorbiendo sus recursos biológicos.
+- Día 2033: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 2034: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2034: Se impuso competitivamente ante Peria, absorbiendo sus recursos biológicos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2034: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2035: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2036: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2037: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2038: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2039: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2040: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2041: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2041: Manipuló con éxito y astucia a Peria para ceder recursos.
+- Día 2042: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2042: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2042: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2043: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2044: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2045: Soñó con 'cima_en_niebla' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2046: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 2047: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2048: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2048: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2048: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2048: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Lachesis, cediendo recursos biológicos.
+- Día 2049: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2050: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2051: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2052: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2053: Soñó con 'camino_conocido' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2054: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 2054: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2054: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2054: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2055: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2056: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2057: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2058: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2059: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 2060: Soñó con 'manada_que_huye' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2061: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2062: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2062: Manipuló con éxito y astucia a Zoia para ceder recursos.
+- Día 2063: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2064: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 2065: Soñó con 'reflejo_distorsionado' (sabio). Insight: El rio lago amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2065: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2065: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2065: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2065: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2065: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2065: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2065: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2066: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El rio lago amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2067: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2068: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2069: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2070: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2071: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2072: Soñó con 'figura_que_sigue' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2073: Soñó con 'voz_propia_extraña' (sabio). Insight: En rio lago, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2074: Soñó con 'raíz_invisible' (sabio). Insight: En pantano costero el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2075: Soñó con 'camino_conocido' (sabio). Insight: colapso civilizatorio enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2076: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2076: Detectó y rechazó un intento de manipulación de Lachesis.
+- Día 2076: Detectó y rechazó un intento de manipulación de Lachesis.
+- Día 2076: Detectó y rechazó un intento de manipulación de Lachesis.
+- Día 2077: Soñó con 'silencio_absoluto' (sabio). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2078: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2079: Soñó con 'caída_sin_fondo' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2079: Detectó y rechazó un intento de manipulación de Lachesis.
+- Día 2080: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2081: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2082: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2082: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2082: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2082: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2082: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2082: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2082: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2082: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2083: Soñó con 'habitación_prohibida' (sabio). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2084: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2084: Intentó manipular a Garan, pero fue descubierto.
+- Día 2084: Intentó manipular a Garan, pero fue descubierto.
+- Día 2084: Intentó manipular a Decia, pero fue descubierto.
+- Día 2084: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 2085: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2085: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 2085: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 2085: Sufrió explotación y hostilidad de Wulfar, cediendo recursos biológicos.
+- Día 2086: Soñó con 'figura_que_sigue' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2087: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2087: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 2087: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 2087: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 2088: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2089: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2090: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2091: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2092: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2092: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2092: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2093: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2094: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2094: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2095: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2096: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 2097: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2098: Soñó con 'agua_fría' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 2099: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2100: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2100: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2100: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2101: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2102: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 2102: Se impuso competitivamente ante Wulfar, absorbiendo sus recursos biológicos.
+- Día 2102: Se impuso competitivamente ante Wulfar, absorbiendo sus recursos biológicos.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2102: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Día 2103: Cooperó de forma mutua y armónica con Wulfar. Su lazo social se fortaleció.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2104: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2105: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2105: Manipuló con éxito y astucia a Decia para ceder recursos.
+- Día 2105: Manipuló con éxito y astucia a Decia para ceder recursos.
+- Día 2105: Manipuló con éxito y astucia a Decia para ceder recursos.
+- Día 2106: Soñó con 'río_tranquilo' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2107: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2108: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2109: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2110: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2111: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2112: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2112: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2113: Soñó con 'río_que_nutre' (madre). Insight: En valle fertil el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2113: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 2113: Cedió ingenuamente ante la manipulación de Wulfar.
+- Día 2114: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 2115: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2116: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2117: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Wulfar para ceder recursos.
+- Día 2118: Soñó con 'camino_conocido' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2119: Soñó con 'mandala_incompleto' (sabio). Insight: colapso civilizatorio enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 2120: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En valle fertil el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2121: Soñó con 'figura_que_sigue' (sabio). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2122: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2123: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2124: Soñó con 'nido_que_asfixia' (madre). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2125: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2126: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2127: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2128: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2129: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2129: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Soñó con 'figura_que_sigue' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2130: Se enfrentó en un choque violento y destructivo contra Wulfar.
+- Día 2131: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2132: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2133: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2134: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2135: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2136: Soñó con 'luz_oblicua' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 2137: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2138: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2139: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2140: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2141: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2142: Soñó con 'voz_sin_cuerpo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2142: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 2142: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 2142: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Wulfar.
+- Día 2143: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2144: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2145: Soñó con 'danza_a_solas' (sombra). Insight: En cueva, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2146: Soñó con 'danza_a_solas' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 2147: Soñó con 'fruto_amargo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2148: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2149: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2150: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2151: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2152: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2152: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2152: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2153: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 2154: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2155: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2156: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2157: Soñó con 'complemento_ausente' (sombra). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2158: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 2159: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2160: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2161: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2161: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2162: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2163: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2163: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2164: Intentó manipular a Renia, pero fue descubierto.
+- Día 2165: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2166: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2167: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2168: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2169: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 2170: Soñó con 'danza_a_solas' (madre). Insight: El madre ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2171: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2172: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2173: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2174: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 2175: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2176: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2176: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2176: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2176: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2176: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2177: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 2178: Soñó con 'reflejo_distorsionado' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2179: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2180: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2180: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2181: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2182: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2183: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2184: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2185: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2185: Intentó manipular a Decia, pero fue descubierto.
+- Día 2186: Soñó con 'habitación_prohibida' (sabio). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2187: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2187: Detectó y rechazó un intento de manipulación de Decia.
+- Día 2188: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2189: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2190: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2190: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2191: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2192: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2193: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2194: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2195: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2196: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2197: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2197: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2198: Se enfrentó en un choque violento y destructivo contra Decia.
+- Día 2199: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2200: Soñó con 'árbol_sin_raíces' (sabio). Insight: En bosque templado el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2201: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2202: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2202: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2202: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2202: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2202: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2202: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2203: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2204: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2205: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2206: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2207: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2208: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2209: Soñó con 'árbol_sin_raíces' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2210: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En lago interior el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2211: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2212: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: colapso civilizatorio enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 2213: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2214: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2215: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2216: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2216: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2217: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2217: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2217: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2217: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2217: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2217: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2217: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2217: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2218: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2218: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2218: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2219: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2219: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2220: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2220: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2220: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2220: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2221: Soñó con 'espejo_que_miente' (madre). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2222: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 2223: Soñó con 'danza_a_solas' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 2223: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 2224: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2225: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2225: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2226: Manipuló con éxito y astucia a Rhadys para ceder recursos.
+- Día 2227: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2227: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2227: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2227: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Soñó con 'árbol_sin_raíces' (sabio). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2228: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2229: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2229: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2229: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2229: Se enfrentó en un choque violento y destructivo contra Rhadys.
+- Día 2230: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2230: Detectó y rechazó un intento de manipulación de Wulfar.
+- Día 2231: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2232: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2233: Soñó con 'figura_que_sigue' (madre). Insight: En rio lago el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2234: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 2235: Soñó con 'fruto_amargo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2236: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2237: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2238: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2239: Soñó con 'figura_que_sigue' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2240: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2241: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2242: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2242: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Decia.
+- Día 2243: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2244: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 2245: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2246: Soñó con 'naufragio_lento' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 2247: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2248: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2249: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2249: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 2249: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 2249: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2249: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2250: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2250: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2251: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2251: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2252: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2253: Soñó con 'río_que_nutre' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2254: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2255: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2256: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2257: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2258: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2259: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2260: Soñó con 'leche_amarga' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2261: Soñó con 'leche_amarga' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2262: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 2263: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2263: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 2263: Se impuso competitivamente ante Fyria, absorbiendo sus recursos biológicos.
+- Día 2264: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2264: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2265: Cedió ingenuamente ante la manipulación de Xanthe.
+- Día 2265: Soñó con 'nido_que_asfixia' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2266: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2267: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2268: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 2269: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2270: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2270: Intentó manipular a Peria, pero fue descubierto.
+- Día 2270: Intentó manipular a Peria, pero fue descubierto.
+- Día 2270: Intentó manipular a Peria, pero fue descubierto.
+- Día 2270: Intentó manipular a Peria, pero fue descubierto.
+- Día 2271: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2272: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 2272: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2273: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2274: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2275: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2276: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2277: Soñó con 'fruto_amargo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 2278: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2279: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2280: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2280: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2281: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2281: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 2281: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 2281: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 2281: Se impuso competitivamente ante Garan, absorbiendo sus recursos biológicos.
+- Día 2282: Soñó con 'fruto_amargo' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2283: Soñó con 'agua_fría' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 2284: Soñó con 'río_que_nutre' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2285: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2286: Soñó con 'espejo_que_miente' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2287: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2288: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2289: Soñó con 'unión_imposible' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2289: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2289: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2290: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2291: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2291: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2291: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2292: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2292: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2292: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2292: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 2293: Soñó con 'árbol_que_aprieta' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 2294: Soñó con 'río_tranquilo' (self). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2295: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2296: Soñó con 'habitación_prohibida' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2297: Soñó con 'nido_que_asfixia' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2298: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en colinas suaves hasta quemar lo que toca.
+- Día 2299: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2300: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2301: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2301: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2302: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2302: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 2303: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2304: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2305: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2306: Soñó con 'agua_fría' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 2307: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2308: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2309: Soñó con 'árbol_que_aprieta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2309: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2309: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2310: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2310: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2310: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2311: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2312: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 2312: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2312: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Soñó con 'estrella_que_no_guía' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2313: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2313: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2313: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2313: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2313: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2314: Soñó con 'figura_que_sigue' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2315: Soñó con 'estrella_que_no_guía' (sabio). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2316: Soñó con 'horizonte_de_agua' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 2317: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2318: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2318: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2319: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2320: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2321: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2321: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 2322: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2323: Soñó con 'campo_interminable' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2323: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 2323: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 2323: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 2323: Intentó manipular a Lachesis, pero fue descubierto.
+- Día 2323: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2323: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Xanthe.
+- Día 2323: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2323: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2323: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2323: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2323: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2324: Soñó con 'campo_interminable' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2324: Manipuló con éxito y astucia a Fyria para ceder recursos.
+- Día 2324: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2324: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2324: Manipuló con éxito y astucia a Lachesis para ceder recursos.
+- Día 2325: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2326: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2326: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2327: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2327: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2327: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2327: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 2327: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2328: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2329: Soñó con 'leche_amarga' (madre). Insight: El costa abierta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 2329: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2329: Cooperó de forma mutua y armónica con Lachesis. Su lazo social se fortaleció.
+- Día 2330: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2330: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 2330: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 2330: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 2330: Se impuso competitivamente ante Stenos, absorbiendo sus recursos biológicos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2330: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Soñó con 'árbol_sin_raíces' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2331: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2332: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 2332: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2333: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2334: Soñó con 'figura_que_sigue' (madre). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2335: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2336: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 2336: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2337: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2337: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2337: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2337: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2338: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2338: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2338: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2338: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2338: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2338: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2338: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2338: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2339: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2339: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2339: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Stenos, cediendo recursos biológicos.
+- Día 2339: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2339: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2339: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2339: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2339: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2339: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2339: Manipuló con éxito y astucia a Phoibos para ceder recursos.
+- Día 2340: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2341: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2342: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2343: Soñó con 'horizonte_inmóvil' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2344: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2344: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2345: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2346: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2346: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Garan.
+- Día 2347: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2347: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2347: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 2347: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2347: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 2347: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 2347: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2347: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2348: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2349: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2350: Soñó con 'habitación_prohibida' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2351: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2352: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2352: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 2352: Cooperó de forma mutua y armónica con Xanthe. Su lazo social se fortaleció.
+- Día 2353: Soñó con 'voz_propia_extraña' (trickster). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2353: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2354: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2355: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 2355: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2356: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2357: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2358: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2359: Soñó con 'terreno_que_cede' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 2360: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2361: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2362: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2362: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2363: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2364: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 2365: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2366: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2367: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2368: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2368: Intentó manipular a Stenos, pero fue descubierto.
+- Día 2368: Intentó manipular a Stenos, pero fue descubierto.
+- Día 2369: Soñó con 'marea_que_sube' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2369: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2370: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 2370: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2370: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 2370: Sufrió explotación y hostilidad de Garan, cediendo recursos biológicos.
+- Día 2371: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2372: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 2372: Se enfrentó en un choque violento y destructivo contra Renia.
+- Día 2373: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2373: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 2373: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 2373: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Stenos.
+- Día 2373: Intentó manipular a Renia, pero fue descubierto.
+- Día 2374: Soñó con 'espejo_que_miente' (sabio). Insight: colapso civilizatorio enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 2375: Soñó con 'figura_que_sigue' (sabio). Insight: En costa abierta el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2376: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 2377: Soñó con 'figura_que_sigue' (sabio). Insight: El valle fertil amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2377: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2377: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2377: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2378: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2379: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2380: Soñó con 'voz_propia_extraña' (sabio). Insight: En bosque templado el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2381: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2381: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2381: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2381: Cooperó de forma mutua y armónica con Renia. Su lazo social se fortaleció.
+- Día 2382: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2383: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2383: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 2384: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2385: Soñó con 'trampa_propia' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2386: Soñó con 'marea_que_sube' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 2387: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2387: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 2387: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2387: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2388: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 2388: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2388: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2389: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 2390: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Phoibos.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Phoibos.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Phoibos.
+- Día 2390: Se enfrentó en un choque violento y destructivo contra Phoibos.
+- Día 2391: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2391: Se enfrentó en un choque violento y destructivo contra Phoibos.
+- Día 2392: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2393: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2394: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2395: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2396: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2397: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2398: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2399: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2399: Intentó manipular a Fyria, pero fue descubierto.
+- Día 2399: Manipuló con éxito y astucia a Ysolde para ceder recursos.
+- Día 2400: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2401: Soñó con 'fondo_que_sube' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 2402: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2403: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2404: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2405: Soñó con 'calma_antes_de_algo' (sabio). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2406: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 2406: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 2407: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2408: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2409: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2410: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2410: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Phoibos.
+- Día 2410: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2410: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2410: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2410: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2410: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2410: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2411: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2411: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2411: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2411: Cedió ingenuamente ante la manipulación de Zoia.
+- Día 2412: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2413: Soñó con 'habitación_prohibida' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2414: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 2414: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2414: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2414: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2414: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2414: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2415: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2415: Soñó con 'voz_propia_extraña' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2415: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2415: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2415: Intentó manipular a Renia, pero fue descubierto.
+- Día 2415: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Zoia.
+- Día 2416: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2417: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2417: Sufrió explotación y hostilidad de Phoibos, cediendo recursos biológicos.
+- Día 2417: Sufrió explotación y hostilidad de Renia, cediendo recursos biológicos.
+- Día 2417: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2417: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 2418: Soñó con 'papel_sin_actor' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2419: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2419: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Fyria.
+- Día 2419: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2419: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2419: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2419: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2419: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Día 2420: Detectó y rechazó un intento de manipulación de Fyria.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2421: Soñó con 'viento_que_borra' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 2422: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2423: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2423: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2424: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2424: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2424: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2424: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Día 2424: Manipuló con éxito y astucia a Renia para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2425: Soñó con 'unión_imposible' (self). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2426: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2427: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2428: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2429: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2430: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2431: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2432: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 2433: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2434: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2434: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2435: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2435: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2435: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2436: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2436: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2437: Soñó con 'río_que_nutre' (madre). Insight: El rio lago amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 2438: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2439: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2439: Intentó manipular a Brysis, pero fue descubierto.
+- Día 2439: Intentó manipular a Brysis, pero fue descubierto.
+- Día 2439: Intentó manipular a Brysis, pero fue descubierto.
+- Día 2439: Intentó manipular a Brysis, pero fue descubierto.
+- Día 2439: Intentó manipular a Brysis, pero fue descubierto.
+- Día 2440: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2441: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2441: Creó 'Símbolo Oscuro de Muerte' (tipo=perturbador) en estado compulsivo.
+- Día 2441: Intentó manipular a Phoibos, pero fue descubierto.
+- Día 2442: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2443: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2444: Soñó con 'sed_en_el_agua' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 2445: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2446: Soñó con 'laberinto_que_ríe' (trickster). Insight: colapso civilizatorio enciende el trickster en colinas suaves hasta quemar lo que toca.
+- Día 2447: Soñó con 'máscara_adherida' (trickster). Insight: En lago interior, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 2447: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 2447: Intentó manipular a Wulfar, pero fue descubierto.
+- Día 2448: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2449: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2450: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2451: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 2451: Intentó manipular a Ysolde, pero fue descubierto.
+- Día 2452: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2453: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2454: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2455: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2456: Soñó con 'aplauso_vacío' (persona). Insight: En cueva, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 2457: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2458: Soñó con 'sol_que_calcina' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2459: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2460: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2461: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2462: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 2463: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En lago interior, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2463: Intentó manipular a Zoia, pero fue descubierto.
+- Día 2464: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2465: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2465: Sufrió explotación y hostilidad de Zoia, cediendo recursos biológicos.
+- Día 2466: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2467: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 2468: Soñó con 'manada_que_huye' (madre). Insight: En sabana abierta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2469: Soñó con 'espejo_que_miente' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2470: Soñó con 'habitación_prohibida' (madre). Insight: En lago interior, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2471: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2472: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2473: Soñó con 'laberinto_que_ríe' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2474: Soñó con 'habitación_prohibida' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2475: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2475: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2476: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2477: Soñó con 'oasis_espejismo' (madre). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 2478: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2478: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2478: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2478: Se enfrentó en un choque violento y destructivo contra Lachesis.
+- Día 2479: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 2480: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2480: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Detectó y rechazó un intento de manipulación de Zoia.
+- Día 2481: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2481: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2481: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 2482: Soñó con 'figura_que_sigue' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2483: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2484: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2484: Detectó y rechazó un intento de manipulación de Renia.
+- Día 2485: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2486: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2487: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en cueva — colapso civilizatorio lo empuja sin nombre.
+- Día 2488: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2489: Soñó con 'árbol_sin_raíces' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2490: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2490: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 2491: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 2492: Soñó con 'hierba_que_corta' (sabio). Insight: El sabio crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2493: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 2493: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 2493: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 2493: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 2493: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 2494: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 2495: Soñó con 'voz_propia_extraña' (sabio). Insight: En lago interior el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Tótem Maldito de Trickster' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2496: Soñó con 'estrella_que_no_guía' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 2497: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2498: Soñó con 'abundancia_que_pudre' (sabio). Insight: En valle fertil, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.

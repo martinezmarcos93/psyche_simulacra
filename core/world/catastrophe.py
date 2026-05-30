@@ -1,7 +1,11 @@
 from __future__ import annotations
 
+import os
 import random
 from dataclasses import dataclass, field
+
+# C1 — Factor de letalidad configurable; <1.0 reduce muertes y aumenta trauma simbólico
+_LETHALITY_FACTOR: float = float(os.getenv("LETHALITY_FACTOR", "1.0"))
 
 # Biomas con fuentes de agua protegidas (no se secan del todo durante sequía)
 _WATER_RESILIENT_BIOMES = frozenset({"rio_lago", "pantano_costero", "lago_interior"})
@@ -76,6 +80,8 @@ class CatastropheEngine:
         # hexes con plaga activa (expanden gradualmente)
         self._plague_hexes: set[tuple[int, int]]             = set()
         self._rng = random.Random(seed)
+        # C1: factor de letalidad — <1.0 reduce muertes y amplifica trauma simbólico
+        self.lethality_factor: float = _LETHALITY_FACTOR
 
     @property
     def just_ended(self) -> CatastropheEvent | None:
@@ -268,7 +274,7 @@ class CatastropheEngine:
         if cat.tipo == "plaga" and coord not in self._plague_hexes:
             return 0.0
 
-        base = sev * 0.006  # 0.6% por día en severidad máxima (adulto)
+        base = sev * 0.006 * self.lethality_factor  # C1: escala con lethality_factor
 
         if is_infant:
             base *= 1.80

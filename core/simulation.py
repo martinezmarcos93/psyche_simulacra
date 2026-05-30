@@ -39,7 +39,7 @@ class SimulationRunner:
     ) -> None:
         self.clock  = SimulationClock(start_dia=0, start_hora=6)
         self.world  = WorldCore(seed=seed)
-        self.agents = AgentCore(self.world)
+        self.agents = AgentCore(self.world, seed=seed)
         self.db     = DatabaseManager(db_path=db_path)
         self.buffer = WriteBuffer(self.db)
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
@@ -178,6 +178,15 @@ class SimulationRunner:
                 tribe_manager=self.agents.tribe_manager,
                 culture_engine=self.agents.culture_engine,
             )
+
+        # F3: exportar crónica cultural cada 100 días
+        if dia > 0 and dia % 100 == 0:
+            try:
+                self.obsidian_sync.writer.write_cronica(
+                    self.agents.tribe_manager, dia, n_events=50
+                )
+            except Exception:
+                pass  # No interrumpir la sim si falla la crónica
 
         # Checkpoint automático cada N días
         if dia > 0 and dia % _CHECKPOINT_EVERY == 0 and dia != self._last_cp_dia:
@@ -452,7 +461,7 @@ class SimulationRunner:
                         print(f"[new_session] vault cleanup error {f.name}: {e}", file=sys.stderr)
 
         runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
-        runner.agents = AgentCore.from_yaml(seed_file, runner.world)
+        runner.agents = AgentCore.from_yaml(seed_file, runner.world, seed=seed)
         runner.obsidian_sync.sync_from_vault(runner.agents.agents)
         runner._wire_handlers()
         runner.session.start(dia_inicio=0)

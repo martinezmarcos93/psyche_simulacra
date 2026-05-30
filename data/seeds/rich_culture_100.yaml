@@ -1,0 +1,1307 @@
+meta:
+  version: '2.0'
+  seed: 7
+  n_agentes: 100
+  descripcion: Preset rich_culture — 100 agentes agrupados por bioma para emergencia
+    cultural maxima
+agents:
+- id: kore
+  nombre: Kore
+  edad: 20
+  sexo: M
+  rol: generico
+  posicion:
+  - 20
+  - 26
+  arquetipos:
+    nino_divino: 0.85
+    heroe: 0.44
+    trickster: 0.35
+    huerfano: 0.22
+- id: myron
+  nombre: Myron
+  edad: 28
+  sexo: F
+  rol: cazador
+  posicion:
+  - 23
+  - 24
+  arquetipos:
+    heroe: 0.84
+    guerrero: 0.6
+    gobernante: 0.34
+    sombra: 0.17
+- id: glaukos
+  nombre: Glaukos
+  edad: 54
+  sexo: M
+  rol: anciano
+  posicion:
+  - 20
+  - 24
+  arquetipos:
+    sabio: 0.71
+    muerte: 0.56
+    padre: 0.36
+    gobernante: 0.31
+- id: eris
+  nombre: Eris
+  edad: 27
+  sexo: M
+  rol: chaman
+  posicion:
+  - 23
+  - 21
+  arquetipos:
+    sabio: 0.81
+    padre: 0.37
+    gobernante: 0.34
+    heroe: 0.21
+- id: circe
+  nombre: Circe
+  edad: 33
+  sexo: M
+  rol: padre
+  posicion:
+  - 21
+  - 25
+  arquetipos:
+    padre: 0.8
+    gobernante: 0.51
+    heroe: 0.4
+    sabio: 0.3
+- id: aion
+  nombre: Aion
+  edad: 31
+  sexo: F
+  rol: madre
+  posicion:
+  - 22
+  - 24
+  arquetipos:
+    madre: 0.78
+    nino_divino: 0.43
+    heroe: 0.28
+    sombra: 0.18
+- id: malis
+  nombre: Malis
+  edad: 16
+  sexo: M
+  rol: cazador
+  posicion:
+  - 20
+  - 25
+  arquetipos:
+    heroe: 0.9
+    guerrero: 0.6
+    gobernante: 0.31
+    sombra: 0.2
+- id: dione
+  nombre: Dione
+  edad: 32
+  sexo: F
+  rol: generico
+  posicion:
+  - 19
+  - 27
+  arquetipos:
+    sombra: 0.93
+    trickster: 0.49
+    huerfano: 0.57
+    muerte: 0.28
+- id: ecale
+  nombre: Ecale
+  edad: 27
+  sexo: M
+  rol: cazador
+  posicion:
+  - 21
+  - 22
+  arquetipos:
+    heroe: 0.85
+    guerrero: 0.63
+    gobernante: 0.33
+    sombra: 0.17
+- id: kreon
+  nombre: Kreon
+  edad: 28
+  sexo: M
+  rol: padre
+  posicion:
+  - 25
+  - 27
+  arquetipos:
+    padre: 0.83
+    gobernante: 0.58
+    heroe: 0.42
+    sabio: 0.22
+- id: arche
+  nombre: Arche
+  edad: 27
+  sexo: M
+  rol: cazador
+  posicion:
+  - 23
+  - 24
+  arquetipos:
+    guerrero: 0.84
+    heroe: 0.65
+    gobernante: 0.43
+    muerte: 0.25
+- id: menis
+  nombre: Menis
+  edad: 35
+  sexo: F
+  rol: explorador
+  posicion:
+  - 20
+  - 26
+  arquetipos:
+    trickster: 0.83
+    sombra: 0.54
+    heroe: 0.3
+    muerte: 0.25
+- id: carme
+  nombre: Carme
+  edad: 29
+  sexo: F
+  rol: madre
+  posicion:
+  - 21
+  - 21
+  arquetipos:
+    madre: 0.82
+    nino_divino: 0.43
+    heroe: 0.3
+    sombra: 0.2
+- id: erato
+  nombre: Erato
+  edad: 32
+  sexo: M
+  rol: padre
+  posicion:
+  - 38
+  - 16
+  arquetipos:
+    padre: 0.76
+    gobernante: 0.59
+    heroe: 0.42
+    sabio: 0.25
+- id: daeira
+  nombre: Daeira
+  edad: 21
+  sexo: M
+  rol: cazador
+  posicion:
+  - 37
+  - 11
+  arquetipos:
+    heroe: 0.9
+    guerrero: 0.55
+    gobernante: 0.36
+    sombra: 0.2
+- id: dirce
+  nombre: Dirce
+  edad: 61
+  sexo: M
+  rol: anciano
+  posicion:
+  - 37
+  - 12
+  arquetipos:
+    sabio: 0.78
+    muerte: 0.6
+    padre: 0.42
+    gobernante: 0.29
+- id: neis
+  nombre: Neis
+  edad: 14
+  sexo: F
+  rol: generico
+  posicion:
+  - 36
+  - 15
+  arquetipos:
+    nino_divino: 0.88
+    heroe: 0.42
+    trickster: 0.26
+    huerfano: 0.22
+- id: kyros
+  nombre: Kyros
+  edad: 22
+  sexo: M
+  rol: chaman
+  posicion:
+  - 33
+  - 14
+  arquetipos:
+    sabio: 0.8
+    padre: 0.37
+    gobernante: 0.35
+    heroe: 0.23
+- id: keleos
+  nombre: Keleos
+  edad: 33
+  sexo: F
+  rol: cazador
+  posicion:
+  - 34
+  - 13
+  arquetipos:
+    heroe: 0.88
+    guerrero: 0.56
+    gobernante: 0.37
+    sombra: 0.24
+- id: meroe
+  nombre: Meroe
+  edad: 38
+  sexo: M
+  rol: padre
+  posicion:
+  - 37
+  - 15
+  arquetipos:
+    padre: 0.79
+    gobernante: 0.59
+    heroe: 0.4
+    sabio: 0.25
+- id: neda
+  nombre: Neda
+  edad: 16
+  sexo: F
+  rol: generico
+  posicion:
+  - 36
+  - 15
+  arquetipos:
+    sombra: 0.91
+    trickster: 0.46
+    huerfano: 0.58
+    muerte: 0.26
+- id: euros
+  nombre: Euros
+  edad: 25
+  sexo: F
+  rol: madre
+  posicion:
+  - 33
+  - 14
+  arquetipos:
+    madre: 0.8
+    nino_divino: 0.45
+    heroe: 0.31
+    sombra: 0.18
+- id: alphos
+  nombre: Alphos
+  edad: 17
+  sexo: M
+  rol: cazador
+  posicion:
+  - 32
+  - 15
+  arquetipos:
+    heroe: 0.82
+    guerrero: 0.55
+    gobernante: 0.31
+    sombra: 0.2
+- id: iapyx
+  nombre: Iapyx
+  edad: 18
+  sexo: F
+  rol: explorador
+  posicion:
+  - 32
+  - 17
+  arquetipos:
+    trickster: 0.82
+    sombra: 0.55
+    heroe: 0.26
+    muerte: 0.17
+- id: creon
+  nombre: Creon
+  edad: 38
+  sexo: F
+  rol: madre
+  posicion:
+  - 34
+  - 14
+  arquetipos:
+    madre: 0.82
+    nino_divino: 0.49
+    heroe: 0.32
+    sombra: 0.19
+- id: laimos
+  nombre: Laimos
+  edad: 22
+  sexo: M
+  rol: cazador
+  posicion:
+  - 34
+  - 15
+  arquetipos:
+    guerrero: 0.85
+    heroe: 0.56
+    gobernante: 0.36
+    muerte: 0.24
+- id: dryas
+  nombre: Dryas
+  edad: 20
+  sexo: F
+  rol: cazador
+  posicion:
+  - 48
+  - 21
+  arquetipos:
+    heroe: 0.82
+    guerrero: 0.65
+    gobernante: 0.34
+    sombra: 0.2
+- id: kimon
+  nombre: Kimon
+  edad: 23
+  sexo: M
+  rol: explorador
+  posicion:
+  - 52
+  - 25
+  arquetipos:
+    trickster: 0.86
+    sombra: 0.55
+    heroe: 0.24
+    muerte: 0.19
+- id: estes
+  nombre: Estes
+  edad: 18
+  sexo: M
+  rol: cazador
+  posicion:
+  - 49
+  - 21
+  arquetipos:
+    guerrero: 0.84
+    heroe: 0.55
+    gobernante: 0.41
+    muerte: 0.24
+- id: helos
+  nombre: Helos
+  edad: 26
+  sexo: F
+  rol: generico
+  posicion:
+  - 47
+  - 22
+  arquetipos:
+    sombra: 0.88
+    trickster: 0.41
+    huerfano: 0.6
+    muerte: 0.33
+- id: ixion
+  nombre: Ixion
+  edad: 30
+  sexo: F
+  rol: madre
+  posicion:
+  - 47
+  - 19
+  arquetipos:
+    madre: 0.86
+    nino_divino: 0.42
+    heroe: 0.33
+    sombra: 0.18
+- id: lethe
+  nombre: Lethe
+  edad: 30
+  sexo: M
+  rol: padre
+  posicion:
+  - 53
+  - 24
+  arquetipos:
+    padre: 0.79
+    gobernante: 0.55
+    heroe: 0.4
+    sabio: 0.25
+- id: eryx
+  nombre: Eryx
+  edad: 24
+  sexo: M
+  rol: cazador
+  posicion:
+  - 49
+  - 19
+  arquetipos:
+    heroe: 0.88
+    guerrero: 0.57
+    gobernante: 0.39
+    sombra: 0.18
+- id: nemos
+  nombre: Nemos
+  edad: 53
+  sexo: M
+  rol: anciano
+  posicion:
+  - 47
+  - 24
+  arquetipos:
+    sabio: 0.78
+    muerte: 0.51
+    padre: 0.44
+    gobernante: 0.26
+- id: mimas
+  nombre: Mimas
+  edad: 30
+  sexo: M
+  rol: cazador
+  posicion:
+  - 53
+  - 19
+  arquetipos:
+    heroe: 0.83
+    guerrero: 0.61
+    gobernante: 0.39
+    sombra: 0.18
+- id: irene
+  nombre: Irene
+  edad: 20
+  sexo: M
+  rol: generico
+  posicion:
+  - 48
+  - 19
+  arquetipos:
+    nino_divino: 0.9
+    heroe: 0.38
+    trickster: 0.27
+    huerfano: 0.24
+- id: macaon
+  nombre: Macaon
+  edad: 38
+  sexo: M
+  rol: padre
+  posicion:
+  - 52
+  - 21
+  arquetipos:
+    padre: 0.83
+    gobernante: 0.53
+    heroe: 0.4
+    sabio: 0.22
+- id: lyris
+  nombre: Lyris
+  edad: 16
+  sexo: F
+  rol: chaman
+  posicion:
+  - 49
+  - 25
+  arquetipos:
+    sabio: 0.8
+    padre: 0.35
+    gobernante: 0.35
+    heroe: 0.25
+- id: alke
+  nombre: Alke
+  edad: 29
+  sexo: M
+  rol: madre
+  posicion:
+  - 51
+  - 22
+  arquetipos:
+    madre: 0.84
+    nino_divino: 0.47
+    heroe: 0.32
+    sombra: 0.15
+- id: naiads
+  nombre: Naiads
+  edad: 22
+  sexo: M
+  rol: padre
+  posicion:
+  - 69
+  - 34
+  arquetipos:
+    padre: 0.76
+    gobernante: 0.57
+    heroe: 0.38
+    sabio: 0.22
+- id: molos
+  nombre: Molos
+  edad: 34
+  sexo: F
+  rol: madre
+  posicion:
+  - 63
+  - 38
+  arquetipos:
+    madre: 0.83
+    nino_divino: 0.47
+    heroe: 0.25
+    sombra: 0.12
+- id: malos
+  nombre: Malos
+  edad: 16
+  sexo: F
+  rol: chaman
+  posicion:
+  - 65
+  - 36
+  arquetipos:
+    sabio: 0.84
+    padre: 0.38
+    gobernante: 0.4
+    heroe: 0.18
+- id: deino
+  nombre: Deino
+  edad: 55
+  sexo: M
+  rol: anciano
+  posicion:
+  - 63
+  - 35
+  arquetipos:
+    sabio: 0.74
+    muerte: 0.5
+    padre: 0.39
+    gobernante: 0.3
+- id: graia
+  nombre: Graia
+  edad: 22
+  sexo: M
+  rol: cazador
+  posicion:
+  - 67
+  - 38
+  arquetipos:
+    heroe: 0.85
+    guerrero: 0.55
+    gobernante: 0.33
+    sombra: 0.16
+- id: idunn
+  nombre: Idunn
+  edad: 17
+  sexo: F
+  rol: explorador
+  posicion:
+  - 66
+  - 37
+  arquetipos:
+    trickster: 0.79
+    sombra: 0.48
+    heroe: 0.22
+    muerte: 0.21
+- id: elpe
+  nombre: Elpe
+  edad: 26
+  sexo: F
+  rol: madre
+  posicion:
+  - 67
+  - 39
+  arquetipos:
+    madre: 0.85
+    nino_divino: 0.47
+    heroe: 0.3
+    sombra: 0.13
+- id: ladon
+  nombre: Ladon
+  edad: 20
+  sexo: M
+  rol: cazador
+  posicion:
+  - 67
+  - 38
+  arquetipos:
+    heroe: 0.88
+    guerrero: 0.62
+    gobernante: 0.35
+    sombra: 0.19
+- id: euia
+  nombre: Euia
+  edad: 32
+  sexo: M
+  rol: cazador
+  posicion:
+  - 68
+  - 39
+  arquetipos:
+    guerrero: 0.78
+    heroe: 0.6
+    gobernante: 0.4
+    muerte: 0.28
+- id: isos
+  nombre: Isos
+  edad: 29
+  sexo: M
+  rol: padre
+  posicion:
+  - 69
+  - 33
+  arquetipos:
+    padre: 0.76
+    gobernante: 0.5
+    heroe: 0.41
+    sabio: 0.3
+- id: amara
+  nombre: Amara
+  edad: 30
+  sexo: M
+  rol: cazador
+  posicion:
+  - 66
+  - 39
+  arquetipos:
+    heroe: 0.86
+    guerrero: 0.61
+    gobernante: 0.37
+    sombra: 0.2
+- id: koures
+  nombre: Koures
+  edad: 18
+  sexo: M
+  rol: generico
+  posicion:
+  - 63
+  - 36
+  arquetipos:
+    sombra: 0.9
+    trickster: 0.41
+    huerfano: 0.57
+    muerte: 0.28
+- id: eos
+  nombre: Eos
+  edad: 16
+  sexo: F
+  rol: generico
+  posicion:
+  - 63
+  - 39
+  arquetipos:
+    nino_divino: 0.88
+    heroe: 0.37
+    trickster: 0.31
+    huerfano: 0.2
+- id: melan
+  nombre: Melan
+  edad: 62
+  sexo: M
+  rol: anciano
+  posicion:
+  - 69
+  - 23
+  arquetipos:
+    sabio: 0.77
+    muerte: 0.53
+    padre: 0.41
+    gobernante: 0.25
+- id: delos
+  nombre: Delos
+  edad: 30
+  sexo: M
+  rol: padre
+  posicion:
+  - 67
+  - 24
+  arquetipos:
+    padre: 0.85
+    gobernante: 0.51
+    heroe: 0.37
+    sabio: 0.25
+- id: medon
+  nombre: Medon
+  edad: 31
+  sexo: M
+  rol: padre
+  posicion:
+  - 72
+  - 25
+  arquetipos:
+    padre: 0.8
+    gobernante: 0.55
+    heroe: 0.36
+    sabio: 0.29
+- id: nomos
+  nombre: Nomos
+  edad: 18
+  sexo: M
+  rol: cazador
+  posicion:
+  - 68
+  - 23
+  arquetipos:
+    guerrero: 0.86
+    heroe: 0.55
+    gobernante: 0.4
+    muerte: 0.28
+- id: keyx
+  nombre: Keyx
+  edad: 28
+  sexo: M
+  rol: chaman
+  posicion:
+  - 70
+  - 23
+  arquetipos:
+    sabio: 0.89
+    padre: 0.44
+    gobernante: 0.31
+    heroe: 0.16
+- id: ambix
+  nombre: Ambix
+  edad: 24
+  sexo: F
+  rol: cazador
+  posicion:
+  - 72
+  - 25
+  arquetipos:
+    heroe: 0.81
+    guerrero: 0.63
+    gobernante: 0.35
+    sombra: 0.24
+- id: delia
+  nombre: Delia
+  edad: 23
+  sexo: F
+  rol: generico
+  posicion:
+  - 72
+  - 23
+  arquetipos:
+    sombra: 0.92
+    trickster: 0.45
+    huerfano: 0.5
+    muerte: 0.25
+- id: ethos
+  nombre: Ethos
+  edad: 36
+  sexo: F
+  rol: madre
+  posicion:
+  - 70
+  - 26
+  arquetipos:
+    madre: 0.84
+    nino_divino: 0.44
+    heroe: 0.29
+    sombra: 0.11
+- id: mecon
+  nombre: Mecon
+  edad: 26
+  sexo: F
+  rol: cazador
+  posicion:
+  - 69
+  - 21
+  arquetipos:
+    heroe: 0.88
+    guerrero: 0.56
+    gobernante: 0.39
+    sombra: 0.22
+- id: iris
+  nombre: Iris
+  edad: 24
+  sexo: F
+  rol: explorador
+  posicion:
+  - 72
+  - 23
+  arquetipos:
+    trickster: 0.8
+    sombra: 0.49
+    heroe: 0.29
+    muerte: 0.16
+- id: iole
+  nombre: Iole
+  edad: 30
+  sexo: F
+  rol: madre
+  posicion:
+  - 70
+  - 27
+  arquetipos:
+    madre: 0.78
+    nino_divino: 0.48
+    heroe: 0.28
+    sombra: 0.19
+- id: erastos
+  nombre: Erastos
+  edad: 18
+  sexo: F
+  rol: generico
+  posicion:
+  - 68
+  - 23
+  arquetipos:
+    nino_divino: 0.82
+    heroe: 0.39
+    trickster: 0.35
+    huerfano: 0.24
+- id: lysas
+  nombre: Lysas
+  edad: 31
+  sexo: M
+  rol: padre
+  posicion:
+  - 56
+  - 43
+  arquetipos:
+    padre: 0.8
+    gobernante: 0.59
+    heroe: 0.41
+    sabio: 0.22
+- id: kastor
+  nombre: Kastor
+  edad: 25
+  sexo: F
+  rol: cazador
+  posicion:
+  - 54
+  - 39
+  arquetipos:
+    heroe: 0.83
+    guerrero: 0.62
+    gobernante: 0.37
+    sombra: 0.19
+- id: ichnos
+  nombre: Ichnos
+  edad: 37
+  sexo: F
+  rol: madre
+  posicion:
+  - 52
+  - 39
+  arquetipos:
+    madre: 0.81
+    nino_divino: 0.42
+    heroe: 0.27
+    sombra: 0.12
+- id: anthe
+  nombre: Anthe
+  edad: 33
+  sexo: M
+  rol: explorador
+  posicion:
+  - 57
+  - 40
+  arquetipos:
+    trickster: 0.84
+    sombra: 0.48
+    heroe: 0.28
+    muerte: 0.19
+- id: ion
+  nombre: Ion
+  edad: 55
+  sexo: M
+  rol: anciano
+  posicion:
+  - 55
+  - 38
+  arquetipos:
+    sabio: 0.71
+    muerte: 0.53
+    padre: 0.36
+    gobernante: 0.27
+- id: gonos
+  nombre: Gonos
+  edad: 28
+  sexo: F
+  rol: madre
+  posicion:
+  - 53
+  - 43
+  arquetipos:
+    madre: 0.81
+    nino_divino: 0.47
+    heroe: 0.27
+    sombra: 0.13
+- id: chryse
+  nombre: Chryse
+  edad: 31
+  sexo: F
+  rol: cazador
+  posicion:
+  - 57
+  - 37
+  arquetipos:
+    heroe: 0.86
+    guerrero: 0.59
+    gobernante: 0.37
+    sombra: 0.2
+- id: indis
+  nombre: Indis
+  edad: 28
+  sexo: M
+  rol: padre
+  posicion:
+  - 57
+  - 43
+  arquetipos:
+    padre: 0.76
+    gobernante: 0.59
+    heroe: 0.39
+    sabio: 0.26
+- id: cleis
+  nombre: Cleis
+  edad: 16
+  sexo: M
+  rol: cazador
+  posicion:
+  - 54
+  - 39
+  arquetipos:
+    guerrero: 0.78
+    heroe: 0.59
+    gobernante: 0.43
+    muerte: 0.28
+- id: manto
+  nombre: Manto
+  edad: 16
+  sexo: M
+  rol: generico
+  posicion:
+  - 55
+  - 40
+  arquetipos:
+    sombra: 0.87
+    trickster: 0.49
+    huerfano: 0.58
+    muerte: 0.34
+- id: halys
+  nombre: Halys
+  edad: 13
+  sexo: F
+  rol: generico
+  posicion:
+  - 54
+  - 38
+  arquetipos:
+    nino_divino: 0.82
+    heroe: 0.45
+    trickster: 0.26
+    huerfano: 0.23
+- id: maia
+  nombre: Maia
+  edad: 30
+  sexo: M
+  rol: chaman
+  posicion:
+  - 56
+  - 42
+  arquetipos:
+    sabio: 0.86
+    padre: 0.35
+    gobernante: 0.38
+    heroe: 0.17
+- id: naos
+  nombre: Naos
+  edad: 28
+  sexo: F
+  rol: madre
+  posicion:
+  - 12
+  - 21
+  arquetipos:
+    madre: 0.79
+    nino_divino: 0.46
+    heroe: 0.25
+    sombra: 0.13
+- id: idmon
+  nombre: Idmon
+  edad: 26
+  sexo: M
+  rol: generico
+  posicion:
+  - 13
+  - 19
+  arquetipos:
+    sombra: 0.88
+    trickster: 0.42
+    huerfano: 0.52
+    muerte: 0.35
+- id: eidyia
+  nombre: Eidyia
+  edad: 16
+  sexo: F
+  rol: generico
+  posicion:
+  - 15
+  - 22
+  arquetipos:
+    nino_divino: 0.82
+    heroe: 0.44
+    trickster: 0.31
+    huerfano: 0.16
+- id: misos
+  nombre: Misos
+  edad: 58
+  sexo: M
+  rol: anciano
+  posicion:
+  - 11
+  - 22
+  arquetipos:
+    sabio: 0.79
+    muerte: 0.52
+    padre: 0.35
+    gobernante: 0.28
+- id: epops
+  nombre: Epops
+  edad: 34
+  sexo: M
+  rol: padre
+  posicion:
+  - 13
+  - 19
+  arquetipos:
+    padre: 0.77
+    gobernante: 0.58
+    heroe: 0.42
+    sabio: 0.25
+- id: kleis
+  nombre: Kleis
+  edad: 22
+  sexo: F
+  rol: cazador
+  posicion:
+  - 11
+  - 20
+  arquetipos:
+    heroe: 0.88
+    guerrero: 0.57
+    gobernante: 0.35
+    sombra: 0.18
+- id: heron
+  nombre: Heron
+  edad: 35
+  sexo: F
+  rol: explorador
+  posicion:
+  - 12
+  - 17
+  arquetipos:
+    trickster: 0.85
+    sombra: 0.54
+    heroe: 0.25
+    muerte: 0.24
+- id: ision
+  nombre: Ision
+  edad: 20
+  sexo: M
+  rol: cazador
+  posicion:
+  - 10
+  - 21
+  arquetipos:
+    guerrero: 0.86
+    heroe: 0.56
+    gobernante: 0.35
+    muerte: 0.26
+- id: lelex
+  nombre: Lelex
+  edad: 23
+  sexo: M
+  rol: padre
+  posicion:
+  - 13
+  - 17
+  arquetipos:
+    padre: 0.77
+    gobernante: 0.54
+    heroe: 0.42
+    sabio: 0.23
+- id: arsis
+  nombre: Arsis
+  edad: 21
+  sexo: F
+  rol: cazador
+  posicion:
+  - 10
+  - 17
+  arquetipos:
+    heroe: 0.82
+    guerrero: 0.62
+    gobernante: 0.35
+    sombra: 0.2
+- id: isca
+  nombre: Isca
+  edad: 28
+  sexo: F
+  rol: chaman
+  posicion:
+  - 12
+  - 22
+  arquetipos:
+    sabio: 0.9
+    padre: 0.39
+    gobernante: 0.31
+    heroe: 0.16
+- id: linos
+  nombre: Linos
+  edad: 35
+  sexo: M
+  rol: madre
+  posicion:
+  - 10
+  - 19
+  arquetipos:
+    madre: 0.83
+    nino_divino: 0.48
+    heroe: 0.29
+    sombra: 0.18
+- id: mneme
+  nombre: Mneme
+  edad: 31
+  sexo: M
+  rol: cazador
+  posicion:
+  - 41
+  - 44
+  arquetipos:
+    heroe: 0.86
+    guerrero: 0.57
+    gobernante: 0.36
+    sombra: 0.19
+- id: niobe
+  nombre: Niobe
+  edad: 30
+  sexo: M
+  rol: chaman
+  posicion:
+  - 42
+  - 39
+  arquetipos:
+    sabio: 0.88
+    padre: 0.36
+    gobernante: 0.32
+    heroe: 0.16
+- id: erene
+  nombre: Erene
+  edad: 27
+  sexo: F
+  rol: generico
+  posicion:
+  - 43
+  - 41
+  arquetipos:
+    sombra: 0.86
+    trickster: 0.5
+    huerfano: 0.5
+    muerte: 0.32
+- id: gaia
+  nombre: Gaia
+  edad: 30
+  sexo: M
+  rol: padre
+  posicion:
+  - 44
+  - 41
+  arquetipos:
+    padre: 0.78
+    gobernante: 0.57
+    heroe: 0.41
+    sabio: 0.28
+- id: mysia
+  nombre: Mysia
+  edad: 65
+  sexo: M
+  rol: anciano
+  posicion:
+  - 39
+  - 39
+  arquetipos:
+    sabio: 0.72
+    muerte: 0.55
+    padre: 0.45
+    gobernante: 0.35
+- id: gale
+  nombre: Gale
+  edad: 30
+  sexo: M
+  rol: padre
+  posicion:
+  - 42
+  - 45
+  arquetipos:
+    padre: 0.84
+    gobernante: 0.58
+    heroe: 0.36
+    sabio: 0.25
+- id: elate
+  nombre: Elate
+  edad: 25
+  sexo: M
+  rol: cazador
+  posicion:
+  - 39
+  - 45
+  arquetipos:
+    guerrero: 0.85
+    heroe: 0.63
+    gobernante: 0.41
+    muerte: 0.23
+- id: narke
+  nombre: Narke
+  edad: 27
+  sexo: M
+  rol: explorador
+  posicion:
+  - 41
+  - 42
+  arquetipos:
+    trickster: 0.84
+    sombra: 0.49
+    heroe: 0.22
+    muerte: 0.19
+- id: herse
+  nombre: Herse
+  edad: 37
+  sexo: F
+  rol: madre
+  posicion:
+  - 44
+  - 39
+  arquetipos:
+    madre: 0.8
+    nino_divino: 0.5
+    heroe: 0.34
+    sombra: 0.2
+- id: lycos
+  nombre: Lycos
+  edad: 24
+  sexo: F
+  rol: madre
+  posicion:
+  - 41
+  - 43
+  arquetipos:
+    madre: 0.81
+    nino_divino: 0.5
+    heroe: 0.35
+    sombra: 0.12
+- id: gorgon
+  nombre: Gorgon
+  edad: 19
+  sexo: M
+  rol: generico
+  posicion:
+  - 40
+  - 42
+  arquetipos:
+    nino_divino: 0.87
+    heroe: 0.43
+    trickster: 0.32
+    huerfano: 0.16
+- id: cteis
+  nombre: Cteis
+  edad: 25
+  sexo: F
+  rol: cazador
+  posicion:
+  - 45
+  - 41
+  arquetipos:
+    heroe: 0.86
+    guerrero: 0.59
+    gobernante: 0.37
+    sombra: 0.17

@@ -31,6 +31,8 @@ Tipos de mito (Campbell):
 
 from __future__ import annotations
 
+import hashlib
+import os
 import random
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
@@ -74,7 +76,9 @@ _ARCH_TO_SPHERE: dict[str, str] = {
 
 def _deity_name(arquetipo: str, tribe_id: str) -> str:
     epithets = _DEITY_EPITHETS.get(arquetipo, [f"El Gran {arquetipo.capitalize()}"])
-    idx = abs(hash(tribe_id)) % len(epithets)
+    # hashlib.sha256 es estable entre procesos; hash() built-in no lo es (PYTHONHASHSEED)
+    digest = int(hashlib.sha256(f"{arquetipo}:{tribe_id}".encode()).hexdigest(), 16)
+    idx = digest % len(epithets)
     return epithets[idx]
 
 
@@ -124,11 +128,11 @@ if TYPE_CHECKING:
     from core.agents import Agent
     from core.social.collective_field import CollectiveField
 
-# Umbral de contexto para que nazca un proto-mito
-_PROTO_MYTH_THRESHOLD: float = 0.35
+# Umbral de contexto para que nazca un proto-mito (D1 — configurable via env)
+_PROTO_MYTH_THRESHOLD: float = float(os.getenv("MYTH_CONTEXT_THRESHOLD", "0.25"))
 
-# Transmisiones sociales necesarias para cristalizar un proto-mito
-_COHERENCE_TO_CRYSTALLIZE: float = 5.0
+# Transmisiones sociales necesarias para cristalizar un proto-mito (D1)
+_COHERENCE_TO_CRYSTALLIZE: float = 3.0
 
 # Ganancia de coherencia por cada transmisión social
 _COHERENCE_PER_TRANSMISSION: float = 1.0
@@ -298,6 +302,7 @@ class MythCrystal:
     es_leyenda: bool = False
     day_became_legend: int | None = None
     intensidad: float = 1.0
+    tribe_id: str = ""           # D3 — tribu de origen del mito
     # R5-A1 — Distorsión transgeneracional
     distorsion_acumulada: float = 0.0   # 0.0 → 1.0 (irreconocible)
     relato_actual:        str   = ""    # Versión viva del mito (distorsionada)
@@ -319,12 +324,12 @@ class MythologyEngine:
             del proto-mito activo.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, seed: int = 0) -> None:
         self.active_myths: list[MythCrystal]       = []
         self.proto_myths:  list[ProtoMito]          = []
         self.deities:      list[DeityRecord]        = []   # Hito E
         self._pair_counts: dict[str, int]           = {}   # "arch1|arch2" → n cristalizaciones
-        self._rng = random.Random()
+        self._rng = random.Random(seed)
 
     # ── Ciclo principal ────────────────────────────────────────────────────────
 
@@ -333,9 +338,10 @@ class MythologyEngine:
         field: CollectiveField,
         agents: dict[str, Agent],
         dia: int,
+        local_fields: dict | None = None,
     ) -> None:
         self._check_proto_myths(field, dia)
-        self._check_crystallization(field, agents, dia)
+        self._check_crystallization(field, agents, dia, local_fields)
         self.apply_myth_effects(agents)
         self._check_myth_persistence(agents, dia)
         self._distort_myths(field, agents, dia)
@@ -361,7 +367,9 @@ class MythologyEngine:
         """
         Verifica si el ContextoEnunciativo actual genera un proto-mito.
 
-        Solo puede haber un proto-mito activo por tipo de mito a la vez.
+        Puede haber múltiples proto-mitos del mismo tipo siempre que difieran
+        en el par arquetípico (D2 — Roadmap 7). No se permite duplicar el mismo
+        (tipo, par) exacto como proto-mito activo ni como mito cristalizado.
         """
         ctx = field.contexto_enunciativo()
         prob = ctx.probabilidad_cristalizacion()
@@ -371,15 +379,17 @@ class MythologyEngine:
 
         par = field.dominant_archetype_pair()
         tipo = _PAIR_TO_MYTH_TYPE.get(frozenset(par), "mito_moral")
+        pair_key = "|".join(sorted(par))
 
-        # No crear proto-mito duplicado del mismo tipo
-        tipos_activos = {p.tipo for p in self.proto_myths}
-        if tipo in tipos_activos:
+        # No crear proto-mito duplicado del mismo (tipo, par)
+        if any(p.tipo == tipo and "|".join(sorted(p.par)) == pair_key for p in self.proto_myths):
             return
 
-        # No crear proto-mito si ya existe un mito cristalizado activo del mismo tipo
-        tipos_cristalizados = {m.tipo for m in self.active_myths if m.active or m.es_leyenda}
-        if tipo in tipos_cristalizados:
+        # No duplicar si ya existe mito cristalizado con el mismo (tipo, par)
+        if any(
+            m.tipo == tipo and "|".join(sorted(m.par)) == pair_key
+            for m in self.active_myths if m.active or m.es_leyenda
+        ):
             return
 
         self.proto_myths.append(ProtoMito(
@@ -396,6 +406,7 @@ class MythologyEngine:
         field: CollectiveField,
         agents: dict[str, Agent],
         dia: int,
+        local_fields: dict | None = None,
     ) -> None:
         """
         Cristaliza los proto-mitos que han alcanzado suficiente coherencia.
@@ -404,7 +415,7 @@ class MythologyEngine:
 
         for proto in listos:
             self.proto_myths.remove(proto)
-            crystal = self._crystallize(proto, field, agents, dia)
+            crystal = self._crystallize(proto, field, agents, dia, local_fields)
             if crystal:
                 self.active_myths.append(crystal)
                 # El mito cristalizado reduce la presión mítica del campo
@@ -418,6 +429,7 @@ class MythologyEngine:
         field: CollectiveField,
         agents: dict[str, Agent],
         dia: int,
+        local_fields: dict | None = None,
     ) -> MythCrystal | None:
         """
         Crea un MythCrystal a partir de un ProtoMito, asignando protagonistas
@@ -449,6 +461,11 @@ class MythologyEngine:
             par0=proto.par[0] if proto.par else "lo desconocido",
             par1=proto.par[1] if len(proto.par) > 1 else "el misterio",
         )
+        # D3 — determinar tribu de origen: la de mayor myth_pressure local
+        origin_tribe = ""
+        if local_fields:
+            origin_tribe = max(local_fields, key=lambda tid: local_fields[tid].myth_pressure, default="")
+
         crystal = MythCrystal(
             name=name,
             tipo=proto.tipo,
@@ -458,6 +475,7 @@ class MythologyEngine:
             protagonista_id=prot_id,
             antagonista_id=antag_id,
             intensidad=min(1.0, proto.intensidad_contexto + 0.2),
+            tribe_id=origin_tribe,
             relato_actual=relato,
         )
         # Hito E: registrar pares para detección de deidad por repetición
@@ -643,6 +661,7 @@ class MythologyEngine:
                     "es_leyenda":           m.es_leyenda,
                     "day_became_legend":    m.day_became_legend,
                     "intensidad":           m.intensidad,
+                    "tribe_id":             m.tribe_id,
                     "distorsion_acumulada": m.distorsion_acumulada,
                     "relato_actual":        m.relato_actual,
                 }
@@ -678,6 +697,7 @@ class MythologyEngine:
                 es_leyenda=m.get("es_leyenda", False),
                 day_became_legend=m.get("day_became_legend"),
                 intensidad=m.get("intensidad", 1.0),
+                tribe_id=m.get("tribe_id", ""),
                 distorsion_acumulada=m.get("distorsion_acumulada", 0.0),
                 relato_actual=m.get("relato_actual", ""),
             )
@@ -709,6 +729,7 @@ class MythologyEngine:
         field: CollectiveField,
         agents: dict[str, Agent],
         dia: int,
+        local_fields: dict | None = None,
     ) -> None:
         """Alias mantenido para retrocompatibilidad con agent_core.py."""
-        self.on_day(field, agents, dia)
+        self.on_day(field, agents, dia, local_fields)

@@ -1,0 +1,1702 @@
+---
+id: selene
+nombre: Selene
+rol: recolector
+edad: 45
+sexo: F
+is_alive: False
+posicion: [66, 34]
+humor: 0.346
+energia: 0.235
+ansiedad: 0.843
+needs:
+  hambre: 1.000
+  fatiga: 0.775
+  sed: 1.000
+  sociabilidad: 0.800
+arquetipo_dominante: sombra
+estado_conductual: cooperacion
+arquetipos:
+  self: 0.941
+  persona: 0.671
+  sombra: 1.000
+  anima_animus: 0.924
+  heroe: 0.667
+  sabio: 0.293
+  trickster: 0.372
+  madre: 0.404
+  padre: 0.610
+  nino_divino: 0.220
+  gobernante: 0.865
+  rebelde: 0.454
+---
+# 👤 Persona: Selene
+
+> **Rol:** `recolector` | **Edad:** 45 | **Sexo:** F | **Ubicación:** `(66, 34)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓░░░░░░░]` | 0.35 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.23 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.84 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
+| **Sociabilidad** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 | ⚠️ Aislado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.941` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Persona** | `0.671` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.924` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Heroe** | `0.667` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Sabio** | `0.293` | `▓▓▓▓░░░░░░░░` |
+| **Trickster** | `0.372` | `▓▓▓▓░░░░░░░░` |
+| **Madre** | `0.404` | `▓▓▓▓▓░░░░░░░` |
+| **Padre** | `0.610` | `▓▓▓▓▓▓▓░░░░░` |
+| **Nino divino** | `0.220` | `▓▓▓░░░░░░░░░` |
+| **Gobernante** | `0.865` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Rebelde** | `0.454` | `▓▓▓▓▓░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `0.38` | `▓▓▓▓░░░░░░` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[adras]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[barea]] | `-0.26` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[boreas]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[brenna]] | `-0.18` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[bron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[brysis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[calix]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[cephalos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[damon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[daphne]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[desma]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[drex]] | `-0.07` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[eudora]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[evander]] | `-0.30` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[feros]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[galen]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[glaukia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[graia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hector]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hestia]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[iambe]] | `+0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[imene]] | `-0.20` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[isidor]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kalliope]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kleis]] | `-0.66` | `▓▓░░░░░░░░` | Ninguno |
+| [[kyron]] | `-0.50` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[lysane]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[macron]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[malia]] | `-0.90` | `░░░░░░░░░░` | Ninguno |
+| [[medon]] | `-0.24` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[meroe]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[myrrha]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[nephele]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[neria]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[oinone]] | `-0.02` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[oris]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[perion]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[persis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[phoibe]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[phoibos]] | `+0.22` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[pyrros]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[renia]] | `-0.14` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[rhadys]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[rheia]] | `-0.10` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[ristos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[stenos]] | `+0.32` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[tainis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[talos]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[vespa]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[xanthe]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[xeron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[yaron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ysolde]] | `-0.91` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[zoia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+*Aún no se registran experiencias oníricas en esta psique.*
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Cooperó de forma mutua y armónica con Cephalos. Su lazo social se fortaleció.
+- Día 0: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 1: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: En lago interior, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 1: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 1: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 2: Soñó con 'reflejo_sin_original' (gobernante). Insight: En lago interior, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 2: Detectó y rechazó un intento de manipulación de Ysolde.
+- Día 2: Se impuso competitivamente ante Hector, absorbiendo sus recursos biológicos.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 2: Se enfrentó en un choque violento y destructivo contra Cephalos.
+- Día 2: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 2: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 2: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 2: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 2: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Soñó con 'trono_vacío' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 3: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Ysolde, absorbiendo sus recursos biológicos.
+- Día 3: Se enfrentó en un choque violento y destructivo contra Ysolde.
+- Día 4: Soñó con 'decisión_sin_retorno' (gobernante). Insight: El gobernante busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 4: Detectó y rechazó un intento de manipulación de Hestia.
+- Día 4: Detectó y rechazó un intento de manipulación de Hestia.
+- Día 4: Detectó y rechazó un intento de manipulación de Hestia.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hestia.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Hestia.
+- Día 5: Soñó con 'árbol_sin_raíces' (gobernante). Insight: El gobernante busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 5: Intentó manipular a Hestia, pero fue descubierto.
+- Día 5: Intentó manipular a Hestia, pero fue descubierto.
+- Día 5: Intentó manipular a Hestia, pero fue descubierto.
+- Día 5: Intentó manipular a Hestia, pero fue descubierto.
+- Día 5: Intentó manipular a Hestia, pero fue descubierto.
+- Día 6: Soñó con 'marea_que_sube' (gobernante). Insight: En costa abierta, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 7: Soñó con 'trono_vacío' (gobernante). Insight: En colinas suaves, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 8: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 9: Soñó con 'bifurcación_sin_mapa' (gobernante). Insight: El gobernante busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 10: Soñó con 'decisión_sin_retorno' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 11: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: En montana alta, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 12: Soñó con 'corona_que_duele' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 13: Soñó con 'corona_que_duele' (gobernante). Insight: El gobernante busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 13: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 14: Soñó con 'trono_vacío' (gobernante). Insight: En valle fertil, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 14: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 15: Soñó con 'decisión_sin_retorno' (gobernante). Insight: En pantano costero, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 16: Soñó con 'corona_que_duele' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 17: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 18: Soñó con 'hierba_que_corta' (gobernante). Insight: El gobernante busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 19: Soñó con 'ciudad_en_ruinas' (gobernante). Insight: El gobernante busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 20: Soñó con 'trono_vacío' (gobernante). Insight: En pradera humeda, el gobernante encuentra tregua provisional con lo reprimido.
+- Día 21: Soñó con 'trono_vacío' (gobernante). Insight: El gobernante busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 22: Soñó con 'río_tranquilo' (gobernante). Insight: El gobernante busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 23: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 24: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 24: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
+- Día 24: Se impuso competitivamente ante Desma, absorbiendo sus recursos biológicos.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 26: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 26: Cooperó de forma mutua y armónica con Macron. Su lazo social se fortaleció.
+- Día 26: Sufrió explotación y hostilidad de Perion, cediendo recursos biológicos.
+- Día 26: Cooperó de forma mutua y armónica con Macron. Su lazo social se fortaleció.
+- Día 27: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 28: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 28: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 28: Manipuló con éxito y astucia a Xanthe para ceder recursos.
+- Día 29: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 29: Manipuló con éxito y astucia a Oris para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 29: Manipuló con éxito y astucia a Ristos para ceder recursos.
+- Día 30: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 31: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 32: Soñó con 'unión_imposible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 32: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 33: Intentó manipular a Xeron, pero fue descubierto.
+- Día 34: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con lo reprimido.
+- Día 34: Cedió ingenuamente ante la manipulación de Xeron.
+- Día 34: Cedió ingenuamente ante la manipulación de Xeron.
+- Día 34: Cedió ingenuamente ante la manipulación de Xeron.
+- Día 35: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 36: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, el self encuentra tregua provisional con lo reprimido.
+- Día 36: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 36: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 36: Se impuso competitivamente ante Phoibe, absorbiendo sus recursos biológicos.
+- Día 37: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, el self encuentra tregua provisional con lo reprimido.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 37: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Soñó con 'unión_imposible' (self). Insight: En pantano costero, el self encuentra tregua provisional con lo reprimido.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 38: Se enfrentó en un choque violento y destructivo contra Phoibe.
+- Día 39: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 40: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de lo reprimido.
+- Día 41: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 42: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 43: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de lo reprimido.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 43: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de lo reprimido.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se impuso competitivamente ante Oinone, absorbiendo sus recursos biológicos.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 44: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 45: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 46: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 47: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 48: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 49: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con lo reprimido.
+- Día 50: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 51: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 51: Manipuló con éxito y astucia a Phoibe para ceder recursos.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 51: Manipuló con éxito y astucia a Phoibe para ceder recursos.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 51: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Daphne.
+- Día 52: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 53: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 53: Se impuso competitivamente ante Xeron, absorbiendo sus recursos biológicos.
+- Día 54: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de lo reprimido.
+- Día 54: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 54: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 54: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 54: Manipuló con éxito y astucia a Brysis para ceder recursos.
+- Día 54: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 54: Se impuso competitivamente ante Brysis, absorbiendo sus recursos biológicos.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 54: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 55: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de lo reprimido.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 55: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 56: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de lo reprimido.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Brysis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 56: Se enfrentó en un choque violento y destructivo contra Persis.
+- Día 57: Soñó con 'agua_fría' (self). Insight: El self busca equilibrio en lago interior compensando la energía de lo reprimido.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 57: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 58: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Soñó con 'silencio_pleno' (anima_animus). Insight: El anima_animus busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 59: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, el self encuentra tregua provisional con lo reprimido.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 60: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 61: Soñó con 'mandala_incompleto' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 62: Soñó con 'silencio_pleno' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 63: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 64: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 65: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 66: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 66: Cooperó de forma mutua y armónica con Brenna. Su lazo social se fortaleció.
+- Día 66: Cooperó de forma mutua y armónica con Brenna. Su lazo social se fortaleció.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 66: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Soñó con 'mandala_incompleto' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 67: Se impuso competitivamente ante Brenna, absorbiendo sus recursos biológicos.
+- Día 68: Soñó con 'sal_en_herida' (self). Insight: El costa abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 69: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se impuso competitivamente ante Vespa, absorbiendo sus recursos biológicos.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 69: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self encuentra tregua provisional con lo reprimido.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 70: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 71: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 71: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Soñó con 'reflejo_sin_original' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 72: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Soñó con 'corriente_que_arrastra' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 73: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en rio lago compensando la energía de lo reprimido.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 74: Se enfrentó en un choque violento y destructivo contra Vespa.
+- Día 75: Soñó con 'luz_oblicua' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 75: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self encuentra tregua provisional con lo reprimido.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 76: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 77: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 78: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 78: Cooperó de forma mutua y armónica con Isidor. Su lazo social se fortaleció.
+- Día 78: Cooperó de forma mutua y armónica con Isidor. Su lazo social se fortaleció.
+- Día 78: Cooperó de forma mutua y armónica con Boreas. Su lazo social se fortaleció.
+- Día 78: Cooperó de forma mutua y armónica con Isidor. Su lazo social se fortaleció.
+- Día 79: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 80: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 81: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 82: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 83: Soñó con 'mandala_incompleto' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 84: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 84: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 84: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 84: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 84: Cooperó de forma mutua y armónica con Stenos. Su lazo social se fortaleció.
+- Día 85: Soñó con 'centro_sin_lugar' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 86: Soñó con 'viento_que_borra' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 87: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 88: Soñó con 'luz_oblicua' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 88: Sufrió explotación y hostilidad de Damon, cediendo recursos biológicos.
+- Día 89: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 90: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 91: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 92: Soñó con 'voz_propia_extraña' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 93: Soñó con 'espejo_que_miente' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 94: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 95: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 96: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 97: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 98: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 99: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 99: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Soñó con 'unión_imposible' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se enfrentó en un choque violento y destructivo contra Zoia.
+- Día 100: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 101: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 101: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 102: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 102: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 102: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 102: Se enfrentó en un choque violento y destructivo contra Xanthe.
+- Día 103: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 104: Soñó con 'silencio_pleno' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 104: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 104: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 105: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 106: Soñó con 'marea_que_sube' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 106: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 106: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 107: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 107: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 107: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 107: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 107: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 108: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 108: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 108: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 109: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 110: Soñó con 'centro_sin_lugar' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 111: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 112: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 113: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 113: Cedió ingenuamente ante la manipulación de Drex.
+- Día 113: Cedió ingenuamente ante la manipulación de Drex.
+- Día 114: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 115: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 116: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 117: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 118: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 119: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 120: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 121: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 121: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Drex, absorbiendo sus recursos biológicos.
+- Día 122: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 123: Soñó con 'vista_engañosa' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 123: Cooperó de forma mutua y armónica con Yaron. Su lazo social se fortaleció.
+- Día 123: Cooperó de forma mutua y armónica con Yaron. Su lazo social se fortaleció.
+- Día 123: Cooperó de forma mutua y armónica con Yaron. Su lazo social se fortaleció.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 123: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se impuso competitivamente ante Yaron, absorbiendo sus recursos biológicos.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 124: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 125: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Soñó con 'luz_oblicua' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 126: Se enfrentó en un choque violento y destructivo contra Yaron.
+- Día 127: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 127: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 127: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 127: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Detectó y rechazó un intento de manipulación de Yaron.
+- Día 128: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 129: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 130: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 131: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 132: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 133: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 133: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 134: Se enfrentó en un choque violento y destructivo contra Ristos.
+- Día 135: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 136: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 137: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 138: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 139: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 140: Soñó con 'figura_que_sigue' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 140: Detectó y rechazó un intento de manipulación de Ristos.
+- Día 140: Detectó y rechazó un intento de manipulación de Ristos.
+- Día 140: Detectó y rechazó un intento de manipulación de Ristos.
+- Día 141: Soñó con 'voz_propia_extraña' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 141: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 141: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 142: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 143: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 144: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 145: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 146: Soñó con 'calor_que_piensa' (sombra). Insight: El desierto borde amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 147: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 148: Soñó con 'campo_interminable' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 149: Soñó con 'campo_interminable' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 149: Intentó manipular a Cephalos, pero fue descubierto.
+- Día 149: Intentó manipular a Cephalos, pero fue descubierto.
+- Día 149: Manipuló con éxito y astucia a Kyron para ceder recursos.
+- Día 149: Manipuló con éxito y astucia a Kyron para ceder recursos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 149: Se impuso competitivamente ante Kyron, absorbiendo sus recursos biológicos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 149: Se impuso competitivamente ante Kyron, absorbiendo sus recursos biológicos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 149: Se impuso competitivamente ante Kyron, absorbiendo sus recursos biológicos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 149: Se impuso competitivamente ante Kyron, absorbiendo sus recursos biológicos.
+- Día 149: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Detectó y rechazó un intento de manipulación de Cephalos.
+- Día 150: Se impuso competitivamente ante Kyron, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 150: Se impuso competitivamente ante Medon, absorbiendo sus recursos biológicos.
+- Día 151: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Kyron.
+- Día 151: Se enfrentó en un choque violento y destructivo contra Kyron.
+- Día 152: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 152: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 152: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 152: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 152: Se impuso competitivamente ante Rheia, absorbiendo sus recursos biológicos.
+- Día 153: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 154: Soñó con 'centro_sin_lugar' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 155: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 156: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 157: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 158: Soñó con 'figura_que_sigue' (self). Insight: El lago interior amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 159: Soñó con 'silencio_pleno' (self). Insight: El sabana abierta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 160: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 161: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 161: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 161: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 161: Cedió ingenuamente ante la manipulación de Tainis.
+- Día 161: Cedió ingenuamente ante la manipulación de Tainis.
+- Día 161: Cedió ingenuamente ante la manipulación de Tainis.
+- Día 161: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 161: Cedió ingenuamente ante la manipulación de Tainis.
+- Día 161: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 161: Sufrió explotación y hostilidad de Isidor, cediendo recursos biológicos.
+- Día 161: Cedió ingenuamente ante la manipulación de Tainis.
+- Día 162: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 163: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 163: Intentó manipular a Tainis, pero fue descubierto.
+- Día 163: Intentó manipular a Tainis, pero fue descubierto.
+- Día 163: Intentó manipular a Tainis, pero fue descubierto.
+- Día 164: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 164: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 164: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 164: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 164: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 164: Detectó y rechazó un intento de manipulación de Isidor.
+- Día 165: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 165: Intentó manipular a Isidor, pero fue descubierto.
+- Día 165: Intentó manipular a Isidor, pero fue descubierto.
+- Día 165: Intentó manipular a Isidor, pero fue descubierto.
+- Día 166: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 167: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 168: Soñó con 'mandala_incompleto' (self). Insight: El valle fertil amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 169: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 169: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 169: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 169: Sufrió explotación y hostilidad de Nephele, cediendo recursos biológicos.
+- Día 170: Soñó con 'sendero_circular' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 170: Detectó y rechazó un intento de manipulación de Malia.
+- Día 170: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 170: Detectó y rechazó un intento de manipulación de Malia.
+- Día 170: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 170: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 170: Detectó y rechazó un intento de manipulación de Malia.
+- Día 170: Detectó y rechazó un intento de manipulación de Malia.
+- Día 171: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 171: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 171: Detectó y rechazó un intento de manipulación de Malia.
+- Día 171: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 171: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 171: Detectó y rechazó un intento de manipulación de Rhadys.
+- Día 171: Detectó y rechazó un intento de manipulación de Malia.
+- Día 172: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 172: Se impuso competitivamente ante Nephele, absorbiendo sus recursos biológicos.
+- Día 172: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 172: Se impuso competitivamente ante Eudora, absorbiendo sus recursos biológicos.
+- Día 173: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 173: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Soñó con 'río_tranquilo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Galen.
+- Día 175: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 176: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 177: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 178: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 178: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 178: Se impuso competitivamente ante Galen, absorbiendo sus recursos biológicos.
+- Día 178: Se impuso competitivamente ante Phoibos, absorbiendo sus recursos biológicos.
+- Día 178: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 178: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 179: Se enfrentó en un choque violento y destructivo contra Isidor.
+- Día 180: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 180: Se impuso competitivamente ante Tainis, absorbiendo sus recursos biológicos.
+- Día 180: Se impuso competitivamente ante Tainis, absorbiendo sus recursos biológicos.
+- Día 180: Se impuso competitivamente ante Tainis, absorbiendo sus recursos biológicos.
+- Día 181: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 182: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 182: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 183: Cooperó de forma mutua y armónica con Myrrha. Su lazo social se fortaleció.
+- Día 184: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 184: Cooperó de forma mutua y armónica con Phoibos. Su lazo social se fortaleció.
+- Día 185: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 186: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 186: Se impuso competitivamente ante Calix, absorbiendo sus recursos biológicos.
+- Día 186: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 187: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 188: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Kalliope.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 188: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 189: Se enfrentó en un choque violento y destructivo contra Tainis.
+- Día 190: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 191: Soñó con 'unión_imposible' (self). Insight: El self proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 192: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 193: Soñó con 'centro_sin_lugar' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 194: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 195: Soñó con 'unión_imposible' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 196: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 197: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 198: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 199: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 199: Intentó manipular a Imene, pero fue descubierto.
+- Día 200: Soñó con 'voz_propia_extraña' (self). Insight: El colinas suaves amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 200: Detectó y rechazó un intento de manipulación de Tainis.
+- Día 200: Detectó y rechazó un intento de manipulación de Tainis.
+- Día 200: Detectó y rechazó un intento de manipulación de Tainis.
+- Día 201: Soñó con 'voz_propia_extraña' (self). Insight: El rio lago amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 202: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 203: Soñó con 'escenario_sin_salida' (self). Insight: El self proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 204: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 205: Soñó con 'luz_oblicua' (self). Insight: El bosque templado amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 206: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 207: Soñó con 'campo_interminable' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 208: Soñó con 'voz_propia_extraña' (self). Insight: El self proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 209: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 210: Soñó con 'fruto_amargo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 210: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 211: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Lysane, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
+- Día 211: Sufrió explotación y hostilidad de Adras, cediendo recursos biológicos.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 211: Intentó manipular a Adras, pero fue descubierto.
+- Día 212: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 212: Intentó manipular a Adras, pero fue descubierto.
+- Día 212: Intentó manipular a Adras, pero fue descubierto.
+- Día 213: Soñó con 'nido_que_asfixia' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 214: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 215: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 216: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 217: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 217: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 217: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 217: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 218: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 218: Se impuso competitivamente ante Talos, absorbiendo sus recursos biológicos.
+- Día 218: Se impuso competitivamente ante Talos, absorbiendo sus recursos biológicos.
+- Día 219: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 219: Se impuso competitivamente ante Lysane, absorbiendo sus recursos biológicos.
+- Día 220: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 220: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Soñó con 'aplauso_vacío' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 221: Se enfrentó en un choque violento y destructivo contra Xeron.
+- Día 222: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 223: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 224: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 225: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 226: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 227: Soñó con 'silencio_pleno' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 228: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 228: Intentó manipular a Xanthe, pero fue descubierto.
+- Día 228: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 228: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 228: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 228: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 229: Se impuso competitivamente ante Xanthe, absorbiendo sus recursos biológicos.
+- Día 229: Detectó y rechazó un intento de manipulación de Iambe.
+- Día 229: Detectó y rechazó un intento de manipulación de Iambe.
+- Día 229: Detectó y rechazó un intento de manipulación de Iambe.
+- Día 229: Detectó y rechazó un intento de manipulación de Iambe.
+- Día 229: Detectó y rechazó un intento de manipulación de Iambe.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 229: Manipuló con éxito y astucia a Iambe para ceder recursos.
+- Día 230: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 230: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Feros.
+- Día 230: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Feros.
+- Día 231: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 232: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 233: Soñó con 'papel_sin_actor' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 234: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 235: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 236: Soñó con 'aplauso_vacío' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 237: Soñó con 'aplauso_vacío' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 238: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 238: Intentó manipular a Hestia, pero fue descubierto.
+- Día 238: Intentó manipular a Hestia, pero fue descubierto.
+- Día 238: Intentó manipular a Hestia, pero fue descubierto.
+- Día 238: Intentó manipular a Hestia, pero fue descubierto.
+- Día 238: Intentó manipular a Hestia, pero fue descubierto.
+- Día 239: Soñó con 'escenario_sin_salida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 240: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 241: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 242: Soñó con 'voz_propia_extraña' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 243: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 244: Soñó con 'árbol_que_aprieta' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 245: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 246: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 246: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 246: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 246: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 246: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 246: Se impuso competitivamente ante Renia, absorbiendo sus recursos biológicos.
+- Día 247: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 248: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Detectó y rechazó un intento de manipulación de Evander.
+- Día 249: Detectó y rechazó un intento de manipulación de Evander.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Myrrha.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Bron.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Soñó con 'sal_en_herida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Damon.
+- Día 252: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 253: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de desierto borde.
+- Día 254: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 255: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 256: Soñó con 'habitación_prohibida' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 257: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 257: Intentó manipular a Imene, pero fue descubierto.
+- Día 257: Manipuló con éxito y astucia a Barea para ceder recursos.
+- Día 257: Manipuló con éxito y astucia a Barea para ceder recursos.
+- Día 257: Manipuló con éxito y astucia a Barea para ceder recursos.
+- Día 257: Intentó manipular a Hestia, pero fue descubierto.
+- Día 258: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 258: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 259: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Se impuso competitivamente ante Barea, absorbiendo sus recursos biológicos.
+- Día 259: Detectó y rechazó un intento de manipulación de Hestia.
+- Día 260: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 261: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 261: Intentó manipular a Pyrros, pero fue descubierto.
+- Día 261: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 261: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 261: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 261: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 261: Intentó manipular a Glaukia, pero fue descubierto.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Glaukia.
+- Día 263: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 264: Soñó con 'mandala_incompleto' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 265: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 266: Soñó con 'unión_imposible' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 267: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 268: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 269: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 270: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 271: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 272: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de costa abierta.
+- Día 273: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de rio lago.
+- Día 273: Intentó manipular a Neria, pero fue descubierto.
+- Día 273: Intentó manipular a Neria, pero fue descubierto.
+- Día 273: Intentó manipular a Neria, pero fue descubierto.
+- Día 274: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Neria.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 277: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 277: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Soñó con 'unión_imposible' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de montana alta.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Neria, cediendo recursos biológicos.
+- Día 279: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 280: Falleció a causa de deshidratacion.
