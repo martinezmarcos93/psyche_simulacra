@@ -1,0 +1,8175 @@
+---
+id: hijo_009
+nombre: Glaukos
+rol: madre
+edad: 8
+sexo: M
+is_alive: False
+posicion: [72, 57]
+humor: 0.436
+energia: 0.122
+ansiedad: 0.801
+needs:
+  hambre: 0.443
+  fatiga: 1.000
+  sed: 0.469
+  sociabilidad: 0.880
+arquetipo_dominante: sabio
+estado_conductual: competencia
+arquetipos:
+  self: 0.961
+  persona: 0.961
+  sombra: 0.975
+  anima_animus: 0.970
+  heroe: 0.004
+  sabio: 1.000
+  trickster: 0.972
+  madre: 0.974
+  padre: 0.510
+  nino_divino: 0.576
+  gobernante: 0.000
+  rebelde: 0.435
+---
+# 👤 Persona: Glaukos
+
+> **Rol:** `madre` | **Edad:** 8 | **Sexo:** M | **Ubicación:** `(72, 57)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓░░░░░░]` | 0.44 |
+| **Energía** | `[▓░░░░░░░░░]` | 0.12 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓░░]` | 0.80 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓▓▓░░░░░░]` | 0.44 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.47 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sociabilidad** | `[▓▓▓▓▓▓▓▓▓░]` | 0.88 | ⚠️ Aislado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.961` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.961` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.975` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.970` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.004` | `░░░░░░░░░░░░` |
+| **Sabio** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.972` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `0.974` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.510` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.576` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.435` | `▓▓▓▓▓░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Poder | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Materno | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[aion]] | `+0.11` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[alke]] | `-0.08` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[alphos]] | `-0.80` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[amara]] | `+0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[ambix]] | `+0.26` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[anthe]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[arche]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[arsis]] | `+0.12` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[carme]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[chryse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[creon]] | `-0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[delia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[delos]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[dryas]] | `-0.78` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ecale]] | `-0.05` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[elate]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[elpe]] | `+0.29` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[eos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erastos]] | `-0.49` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[erato]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eris]] | `-0.59` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[eryx]] | `-0.28` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[ethos]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gaia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gonos]] | `+0.22` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[gorgon]] | `+0.01` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[graia]] | `-0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[halys]] | `+0.27` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[herse]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[hijo_000]] | `-0.16` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_001]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_002]] | `-0.78` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_003]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_004]] | `-0.47` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_006]] | `-0.87` | `▓░░░░░░░░░` | Ninguno |
+| [[hijo_008]] | `-0.81` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_011]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iapyx]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[ichnos]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[idmon]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[idunn]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[iole]] | `+0.22` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[irene]] | `+0.29` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[iris]] | `-0.27` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[isos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ixion]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kleis]] | `-0.68` | `▓▓░░░░░░░░` | Ninguno |
+| [[kore]] | `+0.13` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[koures]] | `-0.87` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kreon]] | `-0.64` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[kyros]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ladon]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[laimos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lelex]] | `-0.66` | `▓▓░░░░░░░░` | Ninguno |
+| [[lethe]] | `-0.36` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[linos]] | `-0.10` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[lycos]] | `-0.48` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[lysas]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[maia]] | `-0.75` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malis]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malos]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[manto]] | `-0.64` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[mecon]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[medon]] | `-0.27` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[meroe]] | `+0.26` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[mimas]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[molos]] | `-0.37` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[mysia]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[naiads]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[naos]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[narke]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[neis]] | `-0.50` | `▓▓░░░░░░░░` | Ninguno |
+| [[nomos]] | `+0.13` | `▓▓▓▓▓▓░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 3286:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 3287:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- **Día 3288:** Soñó con `'voz_sin_cuerpo'` (arquetipo `sombra`).
+  - *Insight:* En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- **Día 3289:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- **Día 3290:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 3291:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 3292:** Soñó con `'campo_interminable'` (arquetipo `sabio`).
+  - *Insight:* El sabio crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 421: Nació. Padres: Alphos y Elpe.
+- Día 421: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 422: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 423: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Alphos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Alphos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Alphos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Alphos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Alphos.
+- Día 423: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 425: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En desierto borde, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 425: Manipuló con éxito y astucia a Alphos para ceder recursos.
+- Día 425: Manipuló con éxito y astucia a Alphos para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 426: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 427: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta lo reprimido sobre el horizonte de lago interior.
+- Día 428: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de colinas suaves.
+- Día 429: Soñó con 'agua_fría' (sabio). Insight: En lago interior, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Soñó con 'nido_que_asfixia' (madre). Insight: En colinas suaves el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 431: Soñó con 'leche_amarga' (madre). Insight: El pantano costero amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 432: Soñó con 'árbol_que_aprieta' (madre). Insight: lo reprimido enciende el madre en desierto borde hasta quemar lo que toca.
+- Día 433: Soñó con 'centro_sin_lugar' (madre). Insight: En bosque templado el madre se expande más allá del control; lo reprimido es el combustible.
+- Día 433: Sufrió explotación y hostilidad de Lethe, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Lethe, cediendo recursos biológicos.
+- Día 434: Soñó con 'viento_que_borra' (madre). Insight: El madre ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 435: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 436: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, lo reprimido aparece en el otro — el sabio no se reconoce.
+- Día 437: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 438: Soñó con 'máscara_cosida_a_cara' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 439: Soñó con 'mandala_incompleto' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 440: Soñó con 'centro_sin_lugar' (persona). Insight: El persona expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 441: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 442: Soñó con 'camino_conocido' (sombra). Insight: El sombra expulsa lo reprimido hacia valle fertil: allá afuera, entre los demás.
+- Día 443: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 444: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: lo reprimido enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 445: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 446: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 447: Soñó con 'piedra_que_rueda' (madre). Insight: El madre expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 447: Intentó manipular a Naos, pero fue descubierto.
+- Día 447: Intentó manipular a Naos, pero fue descubierto.
+- Día 447: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 447: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 448: Soñó con 'leche_amarga' (persona). Insight: En pradera humeda el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 449: Soñó con 'sombra_que_camina' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 450: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 451: Soñó con 'niebla_densa' (sombra). Insight: El sombra crece desmedido en pantano costero — lo reprimido lo empuja sin nombre.
+- Día 452: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 453: Soñó con 'campo_interminable' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 454: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 454: Intentó manipular a Iris, pero fue descubierto.
+- Día 455: Soñó con 'raíz_invisible' (persona). Insight: En pantano costero, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 456: Soñó con 'danza_a_solas' (persona). Insight: lo reprimido enciende el persona en pantano costero hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 457: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, lo reprimido aparece en el otro — el persona no se reconoce.
+- Día 458: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 459: Soñó con 'hierba_que_corta' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 460: Soñó con 'figura_que_sigue' (persona). Insight: El persona crece desmedido en pradera humeda — lo reprimido lo empuja sin nombre.
+- Día 461: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 462: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 463: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 464: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 465: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 466: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 467: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 468: Soñó con 'habitación_prohibida' (madre). Insight: El colinas suaves amplifica la tensión del madre; lo reprimido presiona desde adentro.
+- Día 469: Soñó con 'bifurcación_sin_mapa' (madre). Insight: lo reprimido enciende el madre en colinas suaves hasta quemar lo que toca.
+- Día 470: Soñó con 'mandala_incompleto' (madre). Insight: En bosque templado, el madre no puede contenerse — lo reprimido alimenta el fuego.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 471: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve lo reprimido afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 472: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 473: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 474: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 475: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 475: Intentó manipular a Naos, pero fue descubierto.
+- Día 475: Intentó manipular a Naos, pero fue descubierto.
+- Día 475: Intentó manipular a Naos, pero fue descubierto.
+- Día 475: Intentó manipular a Naos, pero fue descubierto.
+- Día 476: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 477: Soñó con 'tierra_resquebrajada' (persona). Insight: El sabana abierta amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 478: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 479: Soñó con 'reflejo_sin_original' (persona). Insight: En lago interior el persona se expande más allá del control; lo reprimido es el combustible.
+- Día 480: Soñó con 'hierba_que_corta' (persona). Insight: El persona expulsa lo reprimido hacia pradera humeda: allá afuera, entre los demás.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 481: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; lo reprimido es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 482: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 483: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 484: Soñó con 'danza_a_solas' (anima_animus). Insight: lo reprimido enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 485: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; lo reprimido es el combustible.
+- Día 485: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 486: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: lo reprimido enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 487: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 488: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 489: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa lo reprimido hacia colinas suaves: allá afuera, entre los demás.
+- Día 490: Soñó con 'danza_a_solas' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Día 491: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 492: Soñó con 'papel_sin_actor' (persona). Insight: lo reprimido enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 493: Soñó con 'voz_sin_cuerpo' (persona). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 493: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 494: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 494: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 495: Soñó con 'complemento_ausente' (sabio). Insight: lo reprimido enciende el sabio en desierto borde hasta quemar lo que toca.
+- Día 495: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 495: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 496: Soñó con 'espejo_que_miente' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; lo reprimido presiona desde adentro.
+- Día 496: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 496: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 496: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 496: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 497: Soñó con 'corriente_que_arrastra' (persona). Insight: El persona proyecta lo reprimido sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 498: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia rio lago: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 499: Soñó con 'corriente_que_arrastra' (sabio). Insight: En rio lago el sabio se expande más allá del control; lo reprimido es el combustible.
+- Día 500: Soñó con 'espejo_que_miente' (sabio). Insight: En montana alta, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 501: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 501: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 501: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 501: Cedió ingenuamente ante la manipulación de Narke.
+- Día 501: Se impuso competitivamente ante Narke, absorbiendo sus recursos biológicos.
+- Día 501: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Briseis.
+- Día 501: Intentó manipular a Briseis, pero fue descubierto.
+- Día 501: Intentó manipular a Briseis, pero fue descubierto.
+- Día 501: Intentó manipular a Briseis, pero fue descubierto.
+- Día 501: Intentó manipular a Briseis, pero fue descubierto.
+- Día 501: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Briseis, pero fue descubierto.
+- Día 502: Intentó manipular a Lysas, pero fue descubierto.
+- Día 502: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 502: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 502: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 502: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 503: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 503: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 503: Intentó manipular a Ixion, pero fue descubierto.
+- Día 503: Intentó manipular a Graia, pero fue descubierto.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 503: Cooperó de forma mutua y armónica con Briseis. Su lazo social se fortaleció.
+- Día 503: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 503: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 503: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 504: Soñó con 'luz_oblicua' (self). Insight: En bosque templado el self se expande más allá del control; lo reprimido es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 505: Soñó con 'sombra_que_camina' (self). Insight: lo reprimido enciende el self en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 506: Soñó con 'silencio_pleno' (self). Insight: El self ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 506: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 506: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 506: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 507: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 507: Se enfrentó en un choque violento y destructivo contra Lelex.
+- Día 507: Se enfrentó en un choque violento y destructivo contra Lelex.
+- Día 507: Se enfrentó en un choque violento y destructivo contra Lelex.
+- Día 507: Cedió ingenuamente ante la manipulación de Irene.
+- Día 507: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 508: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 509: Soñó con 'voz_propia_extraña' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 509: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 509: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 509: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 509: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 510: Soñó con 'roca_que_aplasta' (self). Insight: El montana alta amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 511: Soñó con 'unión_imposible' (self). Insight: En valle fertil, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 511: Manipuló con éxito y astucia a Carme para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 512: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 513: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Día 514: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 515: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en lago interior, donde no puede alcanzarlo.
+- Día 515: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 515: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 516: Soñó con 'campo_interminable' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; lo reprimido es el combustible.
+- Día 516: Manipuló con éxito y astucia a Narke para ceder recursos.
+- Día 517: Soñó con 'danza_a_solas' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; lo reprimido presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 518: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en rio lago, donde no puede alcanzarlo.
+- Día 518: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 518: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 518: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 518: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 518: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 518: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Soñó con 'estrella_que_no_guía' (anima_animus). Insight: En pradera humeda, lo reprimido aparece en el otro — el anima_animus no se reconoce.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 519: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 520: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 520: Cedió ingenuamente ante la manipulación de Eos.
+- Día 520: Cedió ingenuamente ante la manipulación de Eos.
+- Día 521: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa lo reprimido hacia bosque templado: allá afuera, entre los demás.
+- Día 522: Soñó con 'nido_que_asfixia' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — lo reprimido alimenta el fuego.
+- Día 523: Soñó con 'río_que_nutre' (sabio). Insight: El sabio proyecta lo reprimido sobre el horizonte de pradera humeda.
+- Día 524: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago el sombra se expande más allá del control; lo reprimido es el combustible.
+- Día 525: Soñó con 'árbol_que_aprieta' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 526: Soñó con 'abundancia_que_pudre' (trickster). Insight: El valle fertil amplifica la tensión del trickster; lo reprimido presiona desde adentro.
+- Día 527: Soñó con 'voz_propia_extraña' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; lo reprimido es el combustible.
+- Día 528: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster crece desmedido en lago interior — lo reprimido lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 529: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de valle fertil.
+- Día 530: Soñó con 'silencio_pleno' (anima_animus). Insight: lo reprimido enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 531: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 531: Intentó manipular a Eos, pero fue descubierto.
+- Día 531: Intentó manipular a Eos, pero fue descubierto.
+- Día 531: Intentó manipular a Eos, pero fue descubierto.
+- Día 531: Manipuló con éxito y astucia a Eos para ceder recursos.
+- Día 531: Manipuló con éxito y astucia a Eos para ceder recursos.
+- Día 532: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — lo reprimido lo empuja sin nombre.
+- Día 533: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, lo reprimido tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 534: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En colinas suaves, lo reprimido tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 535: Soñó con 'hierba_que_corta' (self). Insight: El pradera humeda amplifica la tensión del self; lo reprimido presiona desde adentro.
+- Día 535: Detectó y rechazó un intento de manipulación de Herse.
+- Día 535: Detectó y rechazó un intento de manipulación de Herse.
+- Día 536: Soñó con 'olor_a_descomposición' (self). Insight: En pantano costero, lo reprimido tiene el rostro de otro — el self lo señala sin piedad.
+- Día 536: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 537: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Día 538: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de lago interior.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 539: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — lo reprimido alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 540: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de sabana abierta.
+- Día 540: Cedió ingenuamente ante la manipulación de Halys.
+- Día 540: Cedió ingenuamente ante la manipulación de Halys.
+- Día 540: Cedió ingenuamente ante la manipulación de Halys.
+- Día 540: Cedió ingenuamente ante la manipulación de Halys.
+- Día 541: Soñó con 'danza_a_solas' (anima_animus). Insight: lo reprimido enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 542: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; lo reprimido presiona desde adentro.
+- Día 543: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda el persona se expande más allá del control; lo reprimido es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 544: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En desierto borde, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 545: Soñó con 'figura_que_sigue' (self). Insight: El self ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 546: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, lo reprimido aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 547: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 547: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Chryse.
+- Día 547: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 547: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 547: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 547: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 547: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 548: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 548: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, lo reprimido tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 548: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 548: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 548: Cedió ingenuamente ante la manipulación de Chryse.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 549: Soñó con 'árbol_sin_raíces' (self). Insight: El self ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 550: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Día 550: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 551: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de bosque templado.
+- Día 551: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 551: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 551: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 551: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 552: Soñó con 'centro_sin_lugar' (sabio). Insight: El sabio ve lo reprimido afuera en bosque templado, donde no puede alcanzarlo.
+- Día 553: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, lo reprimido aparece en el otro — el sombra no se reconoce.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 554: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta lo reprimido sobre el horizonte de pantano costero.
+- Día 554: Sufrió explotación y hostilidad de Creon, cediendo recursos biológicos.
+- Día 554: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 555: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, el persona no puede contenerse — lo reprimido alimenta el fuego.
+- Día 555: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 555: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 556: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado el persona se expande más allá del control; lo reprimido es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 557: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 557: Intentó manipular a Kreon, pero fue descubierto.
+- Día 558: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 558: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 559: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 560: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 561: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 562: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma invierno brutal enciende el sabio en desierto borde hasta quemar lo que toca.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Mysia.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 562: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Soñó con 'camino_conocido' (sabio). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 563: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 564: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 564: Intentó manipular a Linos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 565: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 565: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 565: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 565: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 565: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 566: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 566: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 566: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 566: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 567: Soñó con 'figura_que_sigue' (persona). Insight: El persona crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 568: Soñó con 'papel_sin_actor' (persona). Insight: En rio lago, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 568: Intentó manipular a Manto, pero fue descubierto.
+- Día 568: Intentó manipular a Manto, pero fue descubierto.
+- Día 568: Intentó manipular a Manto, pero fue descubierto.
+- Día 568: Intentó manipular a Manto, pero fue descubierto.
+- Día 569: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 570: Soñó con 'agua_fría' (persona). Insight: trauma invierno brutal enciende el persona en lago interior hasta quemar lo que toca.
+- Día 571: Soñó con 'aplauso_vacío' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 572: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 573: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 574: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 575: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 576: Soñó con 'río_que_nutre' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 577: Soñó con 'luz_oblicua' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 578: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 578: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 578: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 579: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 580: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 580: Cedió ingenuamente ante la manipulación de Delia.
+- Día 580: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 581: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 581: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 582: Soñó con 'habitación_prohibida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 582: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 582: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 582: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 582: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 582: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 583: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 583: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 583: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 583: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 583: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Día 583: Manipuló con éxito y astucia a Iole para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 584: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 584: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mecon.
+- Día 585: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 586: Soñó con 'leche_amarga' (self). Insight: El colinas suaves amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 587: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 588: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 589: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 590: Soñó con 'río_que_nutre' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 591: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 592: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de desierto borde.
+- Día 592: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 593: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 594: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 595: Soñó con 'camino_conocido' (sabio). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 596: Soñó con 'fruto_amargo' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 597: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 598: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 599: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 600: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 601: Soñó con 'unión_imposible' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 602: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 603: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 604: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 605: Soñó con 'unión_imposible' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 606: Soñó con 'nido_que_asfixia' (madre). Insight: trauma invierno brutal enciende el madre en sabana abierta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 607: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 608: Soñó con 'unión_imposible' (madre). Insight: trauma invierno brutal enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 609: Soñó con 'luz_oblicua' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 610: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 611: Soñó con 'árbol_sin_raíces' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 612: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 613: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 614: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 615: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 616: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 617: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 618: Soñó con 'figura_que_sigue' (persona). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 619: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 620: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 621: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 622: Soñó con 'pregunta_sin_respuesta' (anima_animus). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 623: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 624: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 625: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 626: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 627: Soñó con 'fruto_amargo' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 628: Soñó con 'aplauso_vacío' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 629: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 630: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 631: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 632: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 633: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 634: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 635: Soñó con 'camino_conocido' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 636: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 637: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma invierno brutal enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 637: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 637: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 637: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 637: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 637: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 637: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 637: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 637: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 638: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 639: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 640: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 641: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 642: Soñó con 'agua_fría' (trickster). Insight: El trickster crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 643: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 644: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 645: Soñó con 'nido_que_asfixia' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 646: Soñó con 'caída_sin_fondo' (persona). Insight: El persona expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 647: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 648: Soñó con 'río_que_nutre' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 649: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 650: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 651: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 652: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 653: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 654: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 655: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En lago interior el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 656: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma invierno brutal afuera en desierto borde, donde no puede alcanzarlo.
+- Día 657: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 657: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 657: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 658: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 658: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 658: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 658: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 658: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 659: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 660: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 661: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 662: Soñó con 'figura_que_sigue' (self). Insight: En pantano costero, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 663: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 663: Detectó y rechazó un intento de manipulación de Eryx.
+- Día 664: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 665: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 665: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 665: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 665: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 666: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 666: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 667: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 668: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 669: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 670: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 670: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Día 670: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 671: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 672: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 672: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 672: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 672: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 673: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 674: Soñó con 'centro_sin_lugar' (self). Insight: trauma invierno brutal enciende el self en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 675: Soñó con 'silencio_pleno' (self). Insight: trauma invierno brutal enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 676: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 676: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 677: Mi figura de apego, Iole, falleció.
+- Día 677: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 678: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 679: Soñó con 'viento_que_borra' (self). Insight: El self expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 680: Soñó con 'aplauso_vacío' (persona). Insight: En montana alta el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 681: Soñó con 'papel_sin_actor' (persona). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 681: Cedió ingenuamente ante la manipulación de Kore.
+- Día 681: Cedió ingenuamente ante la manipulación de Kore.
+- Día 682: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 683: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En lago interior, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 684: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de desierto borde.
+- Día 685: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 686: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 686: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 687: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 688: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 689: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 690: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 691: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 692: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 692: Intentó manipular a Mimas, pero fue descubierto.
+- Día 693: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 693: Manipuló con éxito y astucia a Mimas para ceder recursos.
+- Día 694: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 695: Soñó con 'papel_sin_actor' (persona). Insight: En montana alta, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 696: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 697: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 698: Soñó con 'laberinto_que_ríe' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 699: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 700: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 701: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 701: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 701: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 702: Soñó con 'habitación_prohibida' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 702: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 702: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 703: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 704: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 705: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 706: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 707: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Día 708: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 709: Soñó con 'espejo_que_miente' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 710: Soñó con 'habitación_prohibida' (persona). Insight: El desierto borde amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 710: Intentó manipular a Erato, pero fue descubierto.
+- Día 710: Intentó manipular a Erato, pero fue descubierto.
+- Día 711: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En rio lago el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 712: Soñó con 'papel_sin_actor' (persona). Insight: En colinas suaves el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 713: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 714: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 715: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 715: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 716: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 717: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 718: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 719: Soñó con 'hierba_que_corta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 719: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 720: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 721: Soñó con 'mandala_incompleto' (trickster). Insight: En valle fertil, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 722: Soñó con 'silencio_pleno' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia desierto borde: allá afuera, entre los demás.
+- Día 723: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 724: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En desierto borde, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 725: Soñó con 'marea_que_sube' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 725: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 725: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 725: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 725: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 726: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 726: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 726: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 726: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 726: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 727: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 728: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 729: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 730: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 731: Soñó con 'papel_sin_actor' (persona). Insight: El costa abierta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 732: Soñó con 'campo_interminable' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 732: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 733: Soñó con 'voz_propia_extraña' (persona). Insight: El persona expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 733: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 734: Soñó con 'escenario_sin_salida' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 735: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 736: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 737: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de desierto borde.
+- Día 738: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 739: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 739: Cedió ingenuamente ante la manipulación de Erato.
+- Día 740: Soñó con 'espejo_que_miente' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 740: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 740: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 740: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 741: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 742: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 743: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 743: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 743: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 743: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Aegon.
+- Día 743: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Aegon.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 744: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 744: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 744: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 745: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 746: Soñó con 'manada_que_huye' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Intentó manipular a Gaia, pero fue descubierto.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Intentó manipular a Gaia, pero fue descubierto.
+- Día 746: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 746: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 747: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 748: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 748: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 748: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 748: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 748: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 749: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 749: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 749: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 750: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 750: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 750: Intentó manipular a Isos, pero fue descubierto.
+- Día 750: Intentó manipular a Isos, pero fue descubierto.
+- Día 750: Intentó manipular a Isos, pero fue descubierto.
+- Día 750: Intentó manipular a Isos, pero fue descubierto.
+- Día 750: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Intentó manipular a Isos, pero fue descubierto.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 751: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 752: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 753: Soñó con 'habitación_prohibida' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 754: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 754: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 754: Sufrió explotación y hostilidad de Alke, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 755: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 756: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 757: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 758: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 759: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 760: Soñó con 'puerta_que_se_mueve' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 761: Soñó con 'trampa_propia' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 762: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 763: Soñó con 'trampa_propia' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 763: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 763: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 763: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 763: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 763: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 764: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 764: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 764: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 764: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 764: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 764: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 765: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 765: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 765: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 766: Soñó con 'río_que_nutre' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 766: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 767: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 768: Soñó con 'espejo_que_miente' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 769: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 769: Intentó manipular a Erastos, pero fue descubierto.
+- Día 769: Intentó manipular a Erastos, pero fue descubierto.
+- Día 769: Intentó manipular a Erastos, pero fue descubierto.
+- Día 769: Intentó manipular a Erastos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 769: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 770: Cedió ingenuamente ante la manipulación de Erato.
+- Día 770: Cedió ingenuamente ante la manipulación de Erato.
+- Día 770: Cedió ingenuamente ante la manipulación de Erato.
+- Día 770: Cedió ingenuamente ante la manipulación de Erato.
+- Día 770: Cedió ingenuamente ante la manipulación de Erato.
+- Día 771: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 771: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 771: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 772: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 772: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 772: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 773: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 774: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 775: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 775: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 775: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 775: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 776: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 777: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 777: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 777: Intentó manipular a Lysas, pero fue descubierto.
+- Día 777: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 778: Soñó con 'habitación_prohibida' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 779: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 779: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 779: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 779: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 779: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 779: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 779: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 779: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 779: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 779: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 779: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 779: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 779: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 780: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 781: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 781: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Medon.
+- Día 781: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Medon.
+- Día 781: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Medon.
+- Día 782: Soñó con 'danza_a_solas' (sabio). Insight: El sabio ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 782: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 782: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 782: Intentó manipular a Arsis, pero fue descubierto.
+- Día 783: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 783: Intentó manipular a Arsis, pero fue descubierto.
+- Día 783: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Alke.
+- Día 783: Intentó manipular a Elpe, pero fue descubierto.
+- Día 783: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 783: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 784: Soñó con 'estrella_que_no_guía' (trickster). Insight: trauma invierno brutal enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Día 785: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 785: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 785: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 785: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 785: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 786: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 787: Soñó con 'río_que_nutre' (sabio). Insight: En costa abierta el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 787: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 787: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 787: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 787: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 787: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 788: Soñó con 'árbol_que_aprieta' (sabio). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Intentó manipular a Erato, pero fue descubierto.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 788: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 789: Intentó manipular a Erato, pero fue descubierto.
+- Día 789: Intentó manipular a Erato, pero fue descubierto.
+- Día 789: Intentó manipular a Erato, pero fue descubierto.
+- Día 790: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 791: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 792: Soñó con 'nido_que_asfixia' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 792: Cedió ingenuamente ante la manipulación de Alke.
+- Día 792: Cedió ingenuamente ante la manipulación de Alke.
+- Día 792: Cedió ingenuamente ante la manipulación de Alke.
+- Día 792: Cedió ingenuamente ante la manipulación de Isos.
+- Día 792: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 793: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 794: Soñó con 'voz_propia_extraña' (persona). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 795: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 795: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 795: Intentó manipular a Kreon, pero fue descubierto.
+- Día 795: Intentó manipular a Kreon, pero fue descubierto.
+- Día 795: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 795: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 795: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 796: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 796: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 796: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 796: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 796: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 796: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 796: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 796: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: En colinas suaves el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 797: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 797: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 797: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 797: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 797: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 797: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 797: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 797: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 798: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 798: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 799: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 799: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 799: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 799: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 799: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 799: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 799: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Soñó con 'descenso_inevitable' (anima_animus). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 800: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 800: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 800: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 800: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 800: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 800: Se enfrentó en un choque violento y destructivo contra Isos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 800: Intentó manipular a Lysas, pero fue descubierto.
+- Día 800: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 800: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 800: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 800: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 800: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 801: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 801: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 801: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 802: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 802: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 802: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 802: Intentó manipular a Erastos, pero fue descubierto.
+- Día 802: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 803: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 803: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 803: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 803: Intentó manipular a Lysas, pero fue descubierto.
+- Día 803: Intentó manipular a Isos, pero fue descubierto.
+- Día 803: Cedió ingenuamente ante la manipulación de Kore.
+- Día 803: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 803: Cedió ingenuamente ante la manipulación de Kore.
+- Día 803: Cedió ingenuamente ante la manipulación de Kore.
+- Día 804: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 804: Soñó con 'laberinto_que_ríe' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 804: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 804: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 804: Cedió ingenuamente ante la manipulación de Kore.
+- Día 804: Cedió ingenuamente ante la manipulación de Kore.
+- Día 805: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 805: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 805: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 806: Soñó con 'descenso_inevitable' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 806: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 806: Intentó manipular a Lysas, pero fue descubierto.
+- Día 806: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 806: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 806: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 806: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 806: Detectó y rechazó un intento de manipulación de Isos.
+- Día 806: Detectó y rechazó un intento de manipulación de Isos.
+- Día 806: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 807: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 807: Detectó y rechazó un intento de manipulación de Isos.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 807: Detectó y rechazó un intento de manipulación de Isos.
+- Día 807: Detectó y rechazó un intento de manipulación de Alke.
+- Día 807: Detectó y rechazó un intento de manipulación de Alke.
+- Día 807: Sufrió explotación y hostilidad de Alke, cediendo recursos biológicos.
+- Día 807: Sufrió explotación y hostilidad de Alke, cediendo recursos biológicos.
+- Día 807: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 808: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 808: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 808: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 809: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 810: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 810: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 810: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 810: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 811: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 812: Soñó con 'centro_sin_lugar' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 812: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 813: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 814: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 814: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 814: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 814: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 815: Soñó con 'danza_a_solas' (anima_animus). Insight: En desierto borde el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 815: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 815: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 816: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 817: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 818: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 818: Intentó manipular a Aegon, pero fue descubierto.
+- Día 818: Intentó manipular a Aegon, pero fue descubierto.
+- Día 818: Intentó manipular a Aegon, pero fue descubierto.
+- Día 818: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 818: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 819: Soñó con 'viento_que_borra' (sabio). Insight: trauma invierno brutal enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 819: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 819: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 819: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 819: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 820: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 820: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 820: Cedió ingenuamente ante la manipulación de Alke.
+- Día 820: Cedió ingenuamente ante la manipulación de Alke.
+- Día 821: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 821: Cedió ingenuamente ante la manipulación de Irene.
+- Día 821: Cedió ingenuamente ante la manipulación de Irene.
+- Día 821: Cedió ingenuamente ante la manipulación de Irene.
+- Día 822: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 823: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 824: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 825: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 826: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 827: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 828: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 829: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 830: Soñó con 'camino_conocido' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 830: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 830: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 830: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 830: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 831: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 832: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 833: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 834: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 835: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 835: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 835: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 835: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 836: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 836: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 837: Soñó con 'río_que_nutre' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 837: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 837: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 837: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 837: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 837: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 837: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 837: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 837: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 838: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 838: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 838: Intentó manipular a Meroe, pero fue descubierto.
+- Día 838: Intentó manipular a Meroe, pero fue descubierto.
+- Día 838: Intentó manipular a Meroe, pero fue descubierto.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 839: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 839: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 839: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 839: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 839: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 840: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 841: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 842: Soñó con 'sal_en_herida' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 843: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 844: Soñó con 'voz_sin_cuerpo' (trickster). Insight: trauma invierno brutal enciende el trickster en costa abierta hasta quemar lo que toca.
+- Día 845: Soñó con 'máscara_adherida' (trickster). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 846: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 847: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 847: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 847: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 848: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 849: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 850: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 851: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 852: Soñó con 'aplauso_vacío' (persona). Insight: En lago interior el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 853: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 854: Soñó con 'aplauso_vacío' (persona). Insight: El cueva amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 855: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 856: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 857: Soñó con 'voz_propia_extraña' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 858: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 858: Intentó manipular a Gaia, pero fue descubierto.
+- Día 859: Soñó con 'silencio_pleno' (madre). Insight: En lago interior, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 859: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 860: Soñó con 'árbol_que_aprieta' (madre). Insight: trauma invierno brutal enciende el madre en rio lago hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 861: Soñó con 'viento_que_borra' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 862: Soñó con 'mandala_incompleto' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 863: Soñó con 'nido_que_asfixia' (madre). Insight: El rio lago amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 864: Soñó con 'árbol_que_aprieta' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 865: Soñó con 'oscuridad_total' (madre). Insight: En cueva, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 866: Soñó con 'ojos_en_la_roca' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 867: Soñó con 'silencio_pleno' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 868: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 869: Soñó con 'luz_oblicua' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 870: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 871: Soñó con 'nido_que_asfixia' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 872: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 873: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 874: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 875: Soñó con 'mandala_incompleto' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 876: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 877: Soñó con 'raíz_invisible' (self). Insight: El self ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 878: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 879: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 880: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 881: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 882: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 883: Soñó con 'espejo_que_miente' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 884: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 885: Soñó con 'trampa_propia' (trickster). Insight: trauma invierno brutal enciende el trickster en montana alta hasta quemar lo que toca.
+- Día 885: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 886: Soñó con 'máscara_adherida' (trickster). Insight: En pantano costero, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 886: Detectó y rechazó un intento de manipulación de Manto.
+- Día 886: Detectó y rechazó un intento de manipulación de Manto.
+- Día 887: Soñó con 'fondo_que_sube' (trickster). Insight: En rio lago el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 888: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 889: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 890: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 890: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 890: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 890: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 891: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 891: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 892: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 893: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 894: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 894: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 894: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 894: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 895: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 896: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 896: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 896: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 896: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 897: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 897: Intentó manipular a Herse, pero fue descubierto.
+- Día 897: Intentó manipular a Herse, pero fue descubierto.
+- Día 897: Intentó manipular a Herse, pero fue descubierto.
+- Día 897: Intentó manipular a Erato, pero fue descubierto.
+- Día 897: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 897: Sufrió explotación y hostilidad de Medon, cediendo recursos biológicos.
+- Día 897: Cedió ingenuamente ante la manipulación de Erato.
+- Día 897: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 898: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 898: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 899: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 899: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 899: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 899: Detectó y rechazó un intento de manipulación de Eris.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 900: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 900: Cedió ingenuamente ante la manipulación de Manto.
+- Día 900: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 900: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 902: Soñó con 'papel_sin_actor' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 902: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 903: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 904: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 905: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 906: Soñó con 'máscara_adherida' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 906: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 906: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 907: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 908: Soñó con 'semilla_negra' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 909: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 910: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 910: Detectó y rechazó un intento de manipulación de Kreon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 911: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 911: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 911: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 912: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 913: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 914: Soñó con 'vista_engañosa' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 915: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 916: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 917: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 917: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 917: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 917: Cedió ingenuamente ante la manipulación de Arsis.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 918: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 919: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 920: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 921: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 922: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 923: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 923: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 923: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 923: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 923: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 923: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 923: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 924: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia desierto borde: allá afuera, entre los demás.
+- Día 925: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 925: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 925: Intentó manipular a Gaia, pero fue descubierto.
+- Día 925: Intentó manipular a Gaia, pero fue descubierto.
+- Día 926: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 926: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 926: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 926: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 926: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 927: Soñó con 'puerta_que_se_mueve' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 927: Cedió ingenuamente ante la manipulación de Gorgon.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 928: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 929: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 930: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Intentó manipular a Naos, pero fue descubierto.
+- Día 930: Intentó manipular a Naos, pero fue descubierto.
+- Día 930: Intentó manipular a Naos, pero fue descubierto.
+- Día 930: Intentó manipular a Naos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 930: Se enfrentó en un choque violento y destructivo contra Naos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 930: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 931: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 932: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 932: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 932: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 933: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 933: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 933: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 933: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 933: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 934: Soñó con 'centro_sin_lugar' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 934: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 935: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 935: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 935: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 935: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 936: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 936: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 937: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 937: Intentó manipular a Lysas, pero fue descubierto.
+- Día 937: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 937: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 937: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 937: Intentó manipular a Kleis, pero fue descubierto.
+- Día 937: Intentó manipular a Herse, pero fue descubierto.
+- Día 937: Intentó manipular a Herse, pero fue descubierto.
+- Día 938: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 938: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 938: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 939: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 940: Soñó con 'laberinto_que_ríe' (trickster). Insight: trauma invierno brutal enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 940: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 940: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 940: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 941: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 942: Soñó con 'aplauso_vacío' (persona). Insight: En lago interior, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 943: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 944: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 945: Soñó con 'huesos_propios' (madre). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 945: Detectó y rechazó un intento de manipulación de Erastos.
+- Día 946: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 947: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 947: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 947: Detectó y rechazó un intento de manipulación de Laimos.
+- Día 947: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 947: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 947: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 947: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 947: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El valle fertil amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 948: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 948: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 948: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 948: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 949: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 950: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 951: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 952: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 952: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 952: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 952: Detectó y rechazó un intento de manipulación de Lycos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 953: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 954: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 955: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 955: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 955: Intentó manipular a Kreon, pero fue descubierto.
+- Día 955: Intentó manipular a Kreon, pero fue descubierto.
+- Día 955: Intentó manipular a Kreon, pero fue descubierto.
+- Día 956: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 956: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 956: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 956: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 956: Cedió ingenuamente ante la manipulación de Eris.
+- Día 956: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 956: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 956: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 956: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 957: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 957: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 957: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 957: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 958: Soñó con 'trampa_propia' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 959: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 959: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 960: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 960: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 960: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 960: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 960: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 960: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 962: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 963: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 963: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 963: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 964: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 964: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 964: Detectó y rechazó un intento de manipulación de Malos.
+- Día 964: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 964: Detectó y rechazó un intento de manipulación de Malos.
+- Día 964: Intentó manipular a Malos, pero fue descubierto.
+- Día 964: Intentó manipular a Malos, pero fue descubierto.
+- Día 965: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 965: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 966: Soñó con 'danza_a_solas' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 966: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 966: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 967: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 968: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 969: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 970: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 971: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 972: Soñó con 'libro_en_lengua_muerta' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 972: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 972: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 972: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 973: Soñó con 'viento_que_borra' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 974: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 975: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 975: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 975: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 975: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Soñó con 'agua_fría' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 976: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 977: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 978: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 978: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lycos.
+- Día 978: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lycos.
+- Día 978: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lycos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 979: Soñó con 'puerta_que_se_mueve' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 980: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 980: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 980: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 980: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 981: Soñó con 'voz_propia_extraña' (self). Insight: En valle fertil, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 982: Soñó con 'habitación_prohibida' (self). Insight: trauma invierno brutal enciende el self en montana alta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 983: Soñó con 'unión_imposible' (self). Insight: En valle fertil el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 984: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 984: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 984: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 984: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 985: Soñó con 'unión_imposible' (self). Insight: El self expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 985: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 985: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 985: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 985: Detectó y rechazó un intento de manipulación de Eris.
+- Día 985: Detectó y rechazó un intento de manipulación de Eris.
+- Día 985: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 986: Soñó con 'vista_engañosa' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 986: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 986: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 986: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Día 987: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 987: Intentó manipular a Koures, pero fue descubierto.
+- Día 988: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 988: Intentó manipular a Koures, pero fue descubierto.
+- Día 988: Intentó manipular a Koures, pero fue descubierto.
+- Día 988: Intentó manipular a Koures, pero fue descubierto.
+- Día 988: Intentó manipular a Koures, pero fue descubierto.
+- Día 988: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 988: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 988: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 988: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 988: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 988: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Soñó con 'estrella_que_no_guía' (sabio). Insight: El valle fertil amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 989: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 990: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 990: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 991: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 991: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 991: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 991: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 992: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 993: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 994: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 994: Se impuso competitivamente ante Anthe, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 995: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 995: Se impuso competitivamente ante Anthe, absorbiendo sus recursos biológicos.
+- Día 995: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 996: Soñó con 'espejo_que_miente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 997: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 997: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arche.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 998: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 998: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arche.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 999: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 999: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 999: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1000: La muerte de Alke dejó a la tribu sin guía. Histeria colectiva.
+- Día 1000: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 1001: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1002: Soñó con 'calor_que_piensa' (persona). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1003: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1004: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1005: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1005: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1006: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1006: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1006: Intentó manipular a Kyros, pero fue descubierto.
+- Día 1007: Soñó con 'trampa_propia' (trickster). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1008: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1008: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1008: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1008: Cedió ingenuamente ante la manipulación de Delia.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1009: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1010: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1010: Detectó y rechazó un intento de manipulación de Laimos.
+- Día 1010: Detectó y rechazó un intento de manipulación de Laimos.
+- Día 1010: Detectó y rechazó un intento de manipulación de Laimos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1011: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1012: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1013: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 1013: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 1013: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 1013: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 1014: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1015: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1016: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1017: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1018: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1019: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1020: Soñó con 'danza_a_solas' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1021: Soñó con 'piedra_que_rueda' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1021: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1022: Soñó con 'habitación_prohibida' (anima_animus). Insight: En desierto borde el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1022: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 1023: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1024: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1025: Soñó con 'voz_propia_extraña' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1026: Soñó con 'espejo_que_miente' (persona). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1027: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1027: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1027: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1028: Soñó con 'aplauso_vacío' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1028: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1028: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1029: Soñó con 'sal_en_herida' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 1029: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1029: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1029: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1030: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1030: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1030: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1030: Cedió ingenuamente ante la manipulación de Naiads.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1030: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1031: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1032: Soñó con 'cima_en_niebla' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1032: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1032: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1033: Soñó con 'complemento_ausente' (anima_animus). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1034: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1035: Soñó con 'habitación_prohibida' (sabio). Insight: En rio lago, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1036: Soñó con 'cima_en_niebla' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1037: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Día 1037: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1037: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1037: Detectó y rechazó un intento de manipulación de Graia.
+- Día 1037: Detectó y rechazó un intento de manipulación de Graia.
+- Día 1037: Detectó y rechazó un intento de manipulación de Graia.
+- Día 1037: Detectó y rechazó un intento de manipulación de Graia.
+- Día 1037: Detectó y rechazó un intento de manipulación de Graia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1037: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Graia.
+- Día 1037: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1037: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1037: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1037: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1037: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1038: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1038: Soñó con 'campo_interminable' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1038: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1038: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1038: Cedió ingenuamente ante la manipulación de Graia.
+- Día 1038: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 1038: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 1038: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 1039: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1039: Detectó y rechazó un intento de manipulación de Manto.
+- Día 1039: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1039: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1039: Cedió ingenuamente ante la manipulación de Herse.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1040: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1041: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1041: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1041: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1042: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1043: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1043: Detectó y rechazó un intento de manipulación de Graia.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1044: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1045: Soñó con 'figura_que_sigue' (trickster). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1046: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1046: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 1047: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1048: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1049: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1050: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1051: Soñó con 'leche_amarga' (madre). Insight: El costa abierta amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1052: Soñó con 'marea_que_sube' (madre). Insight: El costa abierta amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1053: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1054: Soñó con 'árbol_que_aprieta' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1054: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 1054: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 1054: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 1055: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 1055: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 1055: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 1055: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 1055: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1056: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1057: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1057: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 1057: Intentó manipular a Delos, pero fue descubierto.
+- Día 1057: Intentó manipular a Delos, pero fue descubierto.
+- Día 1057: Intentó manipular a Delos, pero fue descubierto.
+- Día 1057: Intentó manipular a Delos, pero fue descubierto.
+- Día 1057: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1058: Intentó manipular a Delos, pero fue descubierto.
+- Día 1059: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 1060: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1061: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1061: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 1061: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 1061: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 1061: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1062: Soñó con 'voz_propia_extraña' (sabio). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1062: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1062: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1062: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1063: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1064: Soñó con 'luz_oblicua' (trickster). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1065: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1066: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1066: Intentó manipular a Kreon, pero fue descubierto.
+- Día 1066: Intentó manipular a Kreon, pero fue descubierto.
+- Día 1066: Intentó manipular a Kreon, pero fue descubierto.
+- Día 1066: Intentó manipular a Kreon, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1067: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1068: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1068: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1068: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1068: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1068: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1069: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1069: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1069: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1069: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1069: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1069: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1070: Soñó con 'complemento_ausente' (anima_animus). Insight: El desierto borde amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1071: Soñó con 'sal_en_herida' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 1072: Soñó con 'oasis_espejismo' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1073: Soñó con 'arena_que_avanza' (sombra). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1074: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1075: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1076: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1077: Soñó con 'aplauso_vacío' (persona). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1078: Soñó con 'sed_en_el_agua' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1079: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1080: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1081: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1082: Soñó con 'espejo_que_miente' (self). Insight: El lago interior amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1083: Soñó con 'árbol_sin_raíces' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1084: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 1085: Soñó con 'calma_antes_de_algo' (sabio). Insight: En lago interior, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1086: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1087: Soñó con 'espejo_que_miente' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1088: Soñó con 'unión_imposible' (persona). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1089: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1090: Soñó con 'árbol_que_aprieta' (trickster). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1091: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1092: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1093: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1094: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1095: Soñó con 'reflejo_distorsionado' (madre). Insight: El rio lago amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1096: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1097: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1098: Soñó con 'fondo_que_sube' (persona). Insight: trauma invierno brutal enciende el persona en rio lago hasta quemar lo que toca.
+- Día 1099: Soñó con 'laberinto_que_ríe' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1100: Soñó con 'voz_propia_extraña' (self). Insight: En pradera humeda el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1101: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1102: Soñó con 'unión_imposible' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1103: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1104: Soñó con 'papel_sin_actor' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1105: Soñó con 'papel_sin_actor' (persona). Insight: En montana alta, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1106: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1107: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1108: Soñó con 'campo_interminable' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1109: Soñó con 'oasis_espejismo' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 1110: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1111: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1111: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1111: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1112: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1113: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1114: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1115: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1116: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1117: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 1118: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En sabana abierta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1118: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1119: Soñó con 'fruto_amargo' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1120: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1121: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1122: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1123: Soñó con 'campo_interminable' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1124: Soñó con 'espejo_que_miente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1125: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1126: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1127: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1128: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1128: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1128: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1128: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1128: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1128: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1129: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1130: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1131: Soñó con 'descenso_inevitable' (anima_animus). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1132: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1133: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1133: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1133: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1133: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1133: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1133: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Soñó con 'aplauso_vacío' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1134: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1135: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1135: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1135: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1136: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1137: Soñó con 'descenso_inevitable' (persona). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1138: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1138: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1138: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1138: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1138: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1138: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1138: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1138: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1139: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1140: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1141: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1142: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1143: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1144: Soñó con 'máscara_adherida' (trickster). Insight: El trickster crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1145: Soñó con 'laberinto_que_ríe' (trickster). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1146: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1147: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1148: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1149: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1150: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1151: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1152: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1153: Soñó con 'escenario_sin_salida' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1154: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1155: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1156: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1157: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1158: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1159: Soñó con 'papel_sin_actor' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1160: Soñó con 'aplauso_vacío' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1161: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1162: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1162: Manipuló con éxito y astucia a Chryse para ceder recursos.
+- Día 1162: Manipuló con éxito y astucia a Chryse para ceder recursos.
+- Día 1163: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1164: Soñó con 'campo_interminable' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1165: Soñó con 'sendero_circular' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1165: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1166: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1167: Soñó con 'papel_sin_actor' (trickster). Insight: En valle fertil el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1168: Soñó con 'naufragio_lento' (trickster). Insight: El trickster crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1169: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1170: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1171: Soñó con 'complemento_ausente' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1172: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1173: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1174: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 1175: Soñó con 'danza_a_solas' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1176: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1177: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1178: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1179: Soñó con 'habitación_prohibida' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1180: Soñó con 'habitación_prohibida' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1181: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1182: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1183: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1184: Soñó con 'fondo_que_sube' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1185: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 1186: Soñó con 'aplauso_vacío' (madre). Insight: El madre ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1187: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1188: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1189: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1190: Soñó con 'figura_que_sigue' (sabio). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1191: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1192: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1193: Soñó con 'papel_sin_actor' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1194: Soñó con 'escenario_sin_salida' (madre). Insight: El lago interior amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1194: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1194: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1194: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1194: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1194: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1194: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1195: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1196: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1197: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 1198: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1198: Detectó y rechazó un intento de manipulación de Eos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1198: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1198: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1198: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1198: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1198: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 1199: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1200: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1201: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1202: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1203: Soñó con 'corriente_que_arrastra' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1204: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1205: Soñó con 'silencio_absoluto' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1206: Soñó con 'fruto_amargo' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1206: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1207: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1207: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1207: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1208: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1209: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Soñó con 'unión_imposible' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1210: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1211: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El bosque templado amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1211: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Soñó con 'trampa_propia' (trickster). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1212: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1213: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1214: Soñó con 'aplauso_vacío' (madre). Insight: trauma invierno brutal enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1214: Se impuso competitivamente ante Arsis, absorbiendo sus recursos biológicos.
+- Día 1214: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1214: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1214: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1214: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1214: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1215: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 1215: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1216: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eris.
+- Día 1217: Soñó con 'árbol_que_aprieta' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1218: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1219: Soñó con 'reflejo_sin_original' (madre). Insight: En lago interior, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1220: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 1221: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1222: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1223: Soñó con 'árbol_sin_raíces' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1224: Soñó con 'complemento_ausente' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1225: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1225: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1226: Soñó con 'voz_propia_extraña' (self). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1226: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1227: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1228: Soñó con 'camino_conocido' (sabio). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1229: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1230: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1231: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1232: Soñó con 'papel_sin_actor' (sabio). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1233: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1234: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1235: Soñó con 'escenario_sin_salida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1236: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1237: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1238: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1239: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1240: Soñó con 'sol_que_calcina' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1241: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1242: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1243: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1244: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1245: Soñó con 'horizonte_inmóvil' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1245: Cedió ingenuamente ante la manipulación de Thetis.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1246: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1247: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1248: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1249: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1250: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1251: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1252: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1253: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1254: Soñó con 'puerta_que_se_mueve' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1255: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1256: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1257: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1258: Soñó con 'sombra_que_camina' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1259: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1259: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1259: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1259: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 1260: Soñó con 'estrella_que_no_guía' (trickster). Insight: El trickster ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1261: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1262: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1263: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1264: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1265: Soñó con 'piedra_que_rueda' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1265: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 1265: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 1265: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 1266: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1267: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1268: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1269: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1270: Soñó con 'silencio_pleno' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1271: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1272: Soñó con 'aplauso_vacío' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1273: Soñó con 'descenso_inevitable' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1274: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1275: Soñó con 'reflejo_que_actúa_solo' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 1276: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 1277: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en cueva hasta quemar lo que toca.
+- Día 1278: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1279: Soñó con 'ojos_en_la_roca' (self). Insight: El self ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 1280: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1281: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1282: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1283: Soñó con 'oscuridad_total' (sombra). Insight: El sombra crece desmedido en cueva — trauma invierno brutal lo empuja sin nombre.
+- Día 1284: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1285: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1286: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1287: Soñó con 'aplauso_vacío' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1288: Soñó con 'río_que_nutre' (madre). Insight: El madre ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1289: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1290: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1291: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1292: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1293: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 1294: Soñó con 'ojos_en_la_roca' (sombra). Insight: En cueva, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1295: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1296: Soñó con 'papel_sin_actor' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1297: Soñó con 'espejo_que_miente' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1298: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1299: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1300: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1301: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1302: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1303: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1304: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1305: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1306: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1307: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 1308: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1309: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1310: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1311: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1312: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1313: Soñó con 'árbol_que_aprieta' (trickster). Insight: En colinas suaves, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1314: Soñó con 'máscara_adherida' (trickster). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1315: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1316: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1317: Soñó con 'complemento_ausente' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1318: Soñó con 'luz_oblicua' (madre). Insight: El madre crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1319: Soñó con 'tierra_resquebrajada' (madre). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1320: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1321: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1322: Soñó con 'laberinto_que_ríe' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1323: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1324: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 1325: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 1326: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1327: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1328: Soñó con 'nido_que_asfixia' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1329: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1330: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1331: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 1332: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1333: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1334: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1335: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1335: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1335: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1335: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1335: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1335: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1336: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1337: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1337: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1338: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 1338: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1338: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1339: Soñó con 'complemento_ausente' (anima_animus). Insight: El rio lago amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1340: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1341: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1342: Soñó con 'complemento_ausente' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1343: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1344: Soñó con 'pregunta_sin_respuesta' (persona). Insight: El persona expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 1345: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1345: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1345: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1345: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1346: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 1347: Soñó con 'mandala_incompleto' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1348: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1349: Soñó con 'figura_que_sigue' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1350: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1351: Soñó con 'papel_sin_actor' (sabio). Insight: En valle fertil el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1351: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Linos.
+- Día 1351: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Linos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1352: Soñó con 'papel_sin_actor' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1353: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1354: Soñó con 'fruto_amargo' (trickster). Insight: En valle fertil el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1355: Soñó con 'máscara_adherida' (trickster). Insight: El trickster crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1356: Soñó con 'habitación_prohibida' (trickster). Insight: El trickster ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1356: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1356: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1356: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1357: Soñó con 'mandala_incompleto' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1357: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1357: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1358: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1359: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1360: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1361: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1362: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1363: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1364: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en costa abierta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1365: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1366: Soñó con 'fondo_que_sube' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1367: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1368: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1369: Soñó con 'voz_sin_cuerpo' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1369: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1369: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1369: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1369: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1369: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1369: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1369: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1370: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1370: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1370: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1370: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1370: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1370: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1370: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 1370: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1370: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1370: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1371: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1372: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1373: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1374: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1375: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1376: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1377: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1378: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1379: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1380: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1381: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1382: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1382: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1383: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1383: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1384: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1385: Soñó con 'mandala_incompleto' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1385: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1385: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1385: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1386: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1387: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1387: Intentó manipular a Thetis, pero fue descubierto.
+- Día 1387: Intentó manipular a Thetis, pero fue descubierto.
+- Día 1387: Intentó manipular a Thetis, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1388: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1389: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1390: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1391: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1392: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1393: Soñó con 'pregunta_sin_respuesta' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 1394: Soñó con 'sed_en_el_agua' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 1395: Soñó con 'máscara_adherida' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1396: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1397: Soñó con 'naufragio_lento' (self). Insight: El self expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 1398: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1399: Soñó con 'naufragio_lento' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1400: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1401: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1401: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1401: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1401: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1402: Soñó con 'camino_conocido' (sabio). Insight: trauma invierno brutal enciende el sabio en rio lago hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1403: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1404: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1405: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1405: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Soñó con 'voz_propia_extraña' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1406: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1407: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1408: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1409: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1410: Soñó con 'máscara_adherida' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1411: Soñó con 'camino_conocido' (trickster). Insight: El trickster crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 1411: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1412: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1413: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1414: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1415: Soñó con 'profundidad_sin_fondo' (madre). Insight: El madre ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1416: Soñó con 'reflejo_distorsionado' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1417: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1417: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1417: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1417: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1417: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1417: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1418: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1419: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1420: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Día 1420: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 1420: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 1420: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 1420: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 1421: Soñó con 'campo_interminable' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1422: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 1423: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1424: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1425: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1426: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1427: Soñó con 'campo_interminable' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1428: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1429: Soñó con 'tierra_resquebrajada' (sabio). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1430: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1431: Soñó con 'oasis_espejismo' (sombra). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1432: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1433: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1434: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1435: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1436: Soñó con 'máscara_adherida' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1437: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1438: Soñó con 'complemento_ausente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1439: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1440: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1441: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1442: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1442: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1442: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1442: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1442: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1442: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1443: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1444: Soñó con 'aplauso_vacío' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1445: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 1445: Intentó manipular a Dryas, pero fue descubierto.
+- Día 1445: Intentó manipular a Dryas, pero fue descubierto.
+- Día 1445: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1445: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1445: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1445: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1445: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1446: Soñó con 'horizonte_inmóvil' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1447: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1448: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1449: Soñó con 'camino_conocido' (sabio). Insight: trauma invierno brutal enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 1450: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1451: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1452: Soñó con 'papel_sin_actor' (sabio). Insight: trauma invierno brutal enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1453: Soñó con 'fruto_amargo' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1454: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1455: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1456: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1457: Soñó con 'máscara_adherida' (trickster). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1458: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1459: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1460: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1461: Soñó con 'viento_que_borra' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1462: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1463: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1464: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1465: Soñó con 'oscuridad_total' (persona). Insight: El cueva amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1466: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1466: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1466: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1466: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1466: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1466: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1467: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1468: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 1469: Soñó con 'sendero_circular' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1470: Soñó con 'sendero_circular' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1471: Soñó con 'centro_sin_lugar' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1472: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1473: Soñó con 'escenario_sin_salida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1474: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1475: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 1476: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1477: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1478: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1479: Soñó con 'figura_que_sigue' (sabio). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1480: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1481: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1482: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1483: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1484: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1485: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1485: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1485: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1486: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1487: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1488: Soñó con 'papel_sin_actor' (persona). Insight: En rio lago el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1489: Soñó con 'estrella_que_no_guía' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1490: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1491: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1492: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 1493: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1494: Soñó con 'reflejo_que_actúa_solo' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1494: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1494: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1494: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1494: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1494: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1494: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Soñó con 'papel_sin_actor' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1495: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 1496: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1496: Intentó manipular a Thetis, pero fue descubierto.
+- Día 1496: Intentó manipular a Thetis, pero fue descubierto.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1497: Soñó con 'cima_en_niebla' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1498: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1499: Soñó con 'luz_oblicua' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1500: Soñó con 'aplauso_vacío' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1501: Soñó con 'papel_sin_actor' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Día 1501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Día 1501: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1502: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1503: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1503: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1503: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1503: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1503: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1503: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1504: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1505: Soñó con 'centro_sin_lugar' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1506: Soñó con 'unión_imposible' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1507: Soñó con 'cima_en_niebla' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1508: Soñó con 'figura_que_sigue' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1508: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1508: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1508: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1508: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1508: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1508: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Soñó con 'fruto_amargo' (self). Insight: trauma invierno brutal enciende el self en valle fertil hasta quemar lo que toca.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1509: Cedió ingenuamente ante la manipulación de Molos.
+- Día 1509: Cedió ingenuamente ante la manipulación de Molos.
+- Día 1510: Soñó con 'silencio_pleno' (self). Insight: En pantano costero el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1510: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 1510: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 1510: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 1510: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 1511: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1512: Soñó con 'agua_fría' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1513: Soñó con 'trampa_propia' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1513: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 1513: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1513: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1513: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1513: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1513: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1514: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1515: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1516: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1516: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 1516: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 1516: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 1516: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 1517: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1517: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1517: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1517: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1518: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1519: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1520: Soñó con 'figura_que_sigue' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1521: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1522: Soñó con 'río_tranquilo' (sabio). Insight: El sabio ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1523: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1524: Soñó con 'escenario_sin_salida' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1525: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1526: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1527: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1527: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1527: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1528: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1529: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1529: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1529: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1529: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1530: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1531: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1531: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 1531: Cedió ingenuamente ante la manipulación de Iapyx.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1532: Soñó con 'manada_que_huye' (trickster). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1532: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 1533: Soñó con 'mandala_incompleto' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1534: Soñó con 'voz_propia_extraña' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1535: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1535: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1536: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1536: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1536: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1537: Soñó con 'eco_sin_origen' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 1538: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1539: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1540: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1541: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1542: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 1543: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 1544: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1545: Soñó con 'papel_sin_actor' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1546: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1547: Soñó con 'naufragio_lento' (madre). Insight: trauma invierno brutal enciende el madre en costa abierta hasta quemar lo que toca.
+- Día 1548: Soñó con 'voz_sin_cuerpo' (madre). Insight: El madre crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1549: Soñó con 'máscara_cosida_a_cara' (madre). Insight: El madre expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1550: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1551: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1551: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 1551: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 1552: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1553: Soñó con 'silencio_pleno' (self). Insight: En rio lago, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1554: Soñó con 'hierba_que_corta' (self). Insight: trauma invierno brutal enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1555: Soñó con 'unión_imposible' (self). Insight: El self ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1555: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 1556: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1557: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El desierto borde amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1558: Soñó con 'fruto_amargo' (sabio). Insight: En valle fertil, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1558: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1558: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1559: Soñó con 'luz_oblicua' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1559: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1559: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1559: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1559: Cedió ingenuamente ante la manipulación de Ladon.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1560: Soñó con 'sombra_que_camina' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1560: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 1560: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 1561: Soñó con 'mandala_incompleto' (persona). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1562: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 1563: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1564: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1565: Soñó con 'papel_sin_actor' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1565: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 1565: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1565: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1565: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1565: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1565: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1565: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 1565: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1567: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1567: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 1567: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 1568: Soñó con 'silencio_absoluto' (self). Insight: El self expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 1569: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1570: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 1571: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1572: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en costa abierta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1573: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1574: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1575: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1576: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1577: Soñó con 'escenario_sin_salida' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 1578: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1579: Soñó con 'papel_sin_actor' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1580: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1581: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1582: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1583: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1584: Soñó con 'escenario_sin_salida' (persona). Insight: En montana alta, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1585: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1586: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1587: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El costa abierta amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1588: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1589: Soñó con 'agua_fría' (sabio). Insight: El sabio ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1590: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1591: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1592: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1593: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1594: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1595: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1596: Soñó con 'máscara_adherida' (trickster). Insight: En valle fertil, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1597: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En colinas suaves, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1598: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1599: Soñó con 'complemento_ausente' (self). Insight: El self ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1600: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1601: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1602: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1603: Soñó con 'máscara_adherida' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1604: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1605: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1606: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1607: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1608: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1609: Soñó con 'hierba_que_corta' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1610: Soñó con 'habitación_prohibida' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1611: Soñó con 'viento_que_borra' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1612: Soñó con 'semilla_negra' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1612: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1612: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1613: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1614: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1615: Soñó con 'piedra_que_rueda' (self). Insight: El colinas suaves amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 1616: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1617: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1618: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1618: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1619: Soñó con 'papel_sin_actor' (sabio). Insight: El sabio crece desmedido en cueva — trauma invierno brutal lo empuja sin nombre.
+- Día 1620: Soñó con 'calor_que_piensa' (sabio). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1621: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1622: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1622: Intentó manipular a Delos, pero fue descubierto.
+- Día 1622: Intentó manipular a Delos, pero fue descubierto.
+- Día 1622: Intentó manipular a Delos, pero fue descubierto.
+- Día 1623: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 1624: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1625: Soñó con 'máscara_adherida' (trickster). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1626: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1627: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1627: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1627: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1627: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1628: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1629: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1630: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1631: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1632: Soñó con 'complemento_ausente' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1633: Soñó con 'figura_que_sigue' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1634: Soñó con 'campo_interminable' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1635: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1636: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1637: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1638: Soñó con 'sed_en_el_agua' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 1639: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1640: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1641: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1642: Soñó con 'silencio_absoluto' (persona). Insight: trauma invierno brutal enciende el persona en montana alta hasta quemar lo que toca.
+- Día 1643: Soñó con 'calma_antes_de_algo' (persona). Insight: trauma invierno brutal enciende el persona en lago interior hasta quemar lo que toca.
+- Día 1644: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 1645: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 1646: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1647: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 1647: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 1647: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 1647: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1648: Soñó con 'luz_oblicua' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1649: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1650: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1651: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1652: Soñó con 'salida_inexistente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 1653: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1654: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1655: Soñó con 'fruto_amargo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1656: Soñó con 'horizonte_inmóvil' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1657: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1658: Soñó con 'escenario_sin_salida' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1659: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1660: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1661: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1662: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1663: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1664: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1665: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1666: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1667: Soñó con 'nido_que_asfixia' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1668: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1669: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1670: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1671: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1672: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1673: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1674: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma invierno brutal enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 1675: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1676: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1677: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1678: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1679: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1680: Soñó con 'silencio_pleno' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1681: Soñó con 'hierba_que_corta' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1682: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1683: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1684: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 1685: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1686: Soñó con 'naufragio_lento' (sombra). Insight: El sombra ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1687: Soñó con 'estrella_que_no_guía' (trickster). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1688: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1689: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1690: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1691: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 1692: Soñó con 'río_que_nutre' (madre). Insight: El lago interior amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1693: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1694: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1695: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1696: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1697: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1698: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1699: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1700: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1701: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1702: Soñó con 'calma_antes_de_algo' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1703: Soñó con 'sal_en_herida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 1704: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1705: Soñó con 'unión_imposible' (madre). Insight: El colinas suaves amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1706: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1707: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1708: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 1709: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1710: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1711: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1712: Soñó con 'figura_que_sigue' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1713: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1714: Soñó con 'habitación_prohibida' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 1715: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1716: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1717: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 1718: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1719: Soñó con 'máscara_adherida' (trickster). Insight: trauma invierno brutal enciende el trickster en colinas suaves hasta quemar lo que toca.
+- Día 1720: Soñó con 'trampa_propia' (trickster). Insight: En montana alta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1721: Soñó con 'laberinto_que_ríe' (trickster). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1722: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1723: Soñó con 'río_que_nutre' (madre). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1724: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1725: Soñó con 'río_que_nutre' (madre). Insight: El madre ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1726: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1727: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1728: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1729: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1730: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1731: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1732: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1733: Soñó con 'espejo_que_miente' (anima_animus). Insight: En sabana abierta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1734: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1735: Soñó con 'sol_que_calcina' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1736: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1736: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1736: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1736: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1736: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1736: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1736: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1736: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1737: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1738: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 1739: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1740: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1741: Soñó con 'unión_imposible' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1741: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1742: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 1742: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 1742: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 1742: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 1742: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1742: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1742: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1742: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1742: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Soñó con 'calma_antes_de_algo' (sabio). Insight: El sabio crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1743: Detectó y rechazó un intento de manipulación de Eunomia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1744: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1745: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1746: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1747: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma invierno brutal enciende el sabio en valle fertil hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1748: Soñó con 'hierba_que_corta' (self). Insight: trauma invierno brutal enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1749: Soñó con 'voz_propia_extraña' (self). Insight: El self ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1750: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1751: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1752: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1753: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 1753: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 1754: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1754: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 1755: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1756: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1757: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1758: Soñó con 'laberinto_que_ríe' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1758: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Tethys.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1759: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1760: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1761: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1761: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1762: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1762: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1762: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1762: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1763: Soñó con 'escenario_sin_salida' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1763: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1763: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1764: Soñó con 'escenario_sin_salida' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1765: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1766: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1767: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1768: Soñó con 'espejo_que_miente' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1769: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1770: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 1771: Soñó con 'mandala_incompleto' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1771: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1772: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma invierno brutal enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 1772: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 1772: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 1772: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1773: Soñó con 'silencio_absoluto' (sabio). Insight: El montana alta amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1774: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1775: Soñó con 'aplauso_vacío' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1776: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1777: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1778: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1778: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1778: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1778: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1778: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1778: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1778: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1778: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1779: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1779: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1779: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1779: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1780: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1780: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1780: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1780: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1781: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1782: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1782: Intentó manipular a Malis, pero fue descubierto.
+- Día 1782: Intentó manipular a Malis, pero fue descubierto.
+- Día 1782: Intentó manipular a Malis, pero fue descubierto.
+- Día 1782: Intentó manipular a Malis, pero fue descubierto.
+- Día 1782: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1782: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 1783: Soñó con 'complemento_ausente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1783: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1783: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1783: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1783: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1783: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1783: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1783: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1784: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1785: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma invierno brutal enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Día 1786: Soñó con 'aplauso_vacío' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1787: Soñó con 'agua_fría' (trickster). Insight: El trickster ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1788: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1789: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1790: Soñó con 'complemento_ausente' (madre). Insight: El madre expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1791: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1792: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 1793: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1794: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 1795: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1796: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1797: Soñó con 'voz_propia_extraña' (madre). Insight: El pradera humeda amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1798: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1799: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1800: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1801: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1802: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1803: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1804: Soñó con 'silencio_pleno' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1805: Soñó con 'centro_sin_lugar' (trickster). Insight: El colinas suaves amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1806: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 1807: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1808: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 1809: Soñó con 'unión_imposible' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1810: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1810: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1811: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1812: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 1813: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1814: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1815: Soñó con 'pregunta_sin_respuesta' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1816: Soñó con 'espejo_que_miente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 1816: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1816: Intentó manipular a Delos, pero fue descubierto.
+- Día 1816: Intentó manipular a Delos, pero fue descubierto.
+- Día 1816: Intentó manipular a Delos, pero fue descubierto.
+- Día 1816: Intentó manipular a Delos, pero fue descubierto.
+- Día 1816: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1817: Intentó manipular a Delos, pero fue descubierto.
+- Día 1818: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1819: Soñó con 'reflejo_distorsionado' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1820: Soñó con 'sombra_que_camina' (self). Insight: trauma invierno brutal enciende el self en bosque templado hasta quemar lo que toca.
+- Día 1821: Soñó con 'descenso_inevitable' (self). Insight: El self crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1821: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Soñó con 'voz_propia_extraña' (self). Insight: El valle fertil amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1822: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1823: Soñó con 'habitación_prohibida' (self). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Día 1824: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1825: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1826: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1827: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1828: Soñó con 'complemento_ausente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1829: Soñó con 'unión_imposible' (self). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1830: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1831: Soñó con 'centro_sin_lugar' (self). Insight: trauma invierno brutal enciende el self en bosque templado hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1832: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 1833: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra ve trauma invierno brutal afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1834: Soñó con 'figura_que_sigue' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1835: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1836: Soñó con 'campo_interminable' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1837: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1838: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1838: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1838: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1839: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1840: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1841: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1842: Soñó con 'escenario_sin_salida' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1842: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1843: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1844: Soñó con 'papel_sin_actor' (persona). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1845: Soñó con 'papel_sin_actor' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1846: Soñó con 'aplauso_vacío' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1846: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1846: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1846: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 1846: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1846: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1846: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1847: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1848: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Día 1848: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 1848: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1848: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1849: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1850: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1850: Intentó manipular a Kyros, pero fue descubierto.
+- Día 1850: Manipuló con éxito y astucia a Maia para ceder recursos.
+- Día 1851: Soñó con 'leche_amarga' (madre). Insight: trauma invierno brutal enciende el madre en lago interior hasta quemar lo que toca.
+- Día 1852: Soñó con 'aplauso_vacío' (madre). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1852: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 1852: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1852: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1853: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 1854: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1855: Soñó con 'río_tranquilo' (madre). Insight: El valle fertil amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1856: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1857: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1857: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1857: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1857: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1857: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1857: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1857: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1857: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1857: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1858: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 1859: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1860: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1861: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 1862: Soñó con 'máscara_adherida' (trickster). Insight: En montana alta, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 1862: Cedió ingenuamente ante la manipulación de Kore.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1863: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 1864: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1865: Soñó con 'olor_a_descomposición' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1866: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1866: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 1866: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 1866: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 1867: Intentó manipular a Irene, pero fue descubierto.
+- Día 1867: Soñó con 'olor_a_descomposición' (madre). Insight: trauma invierno brutal enciende el madre en pantano costero hasta quemar lo que toca.
+- Día 1867: Intentó manipular a Irene, pero fue descubierto.
+- Día 1867: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 1867: Intentó manipular a Irene, pero fue descubierto.
+- Día 1867: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 1868: Soñó con 'reflejo_sin_original' (madre). Insight: El lago interior amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1869: Soñó con 'leche_amarga' (madre). Insight: En montana alta el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1870: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 1871: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1872: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1873: Soñó con 'profundidad_sin_fondo' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1874: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1875: Soñó con 'trampa_propia' (sabio). Insight: El pantano costero amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1876: Soñó con 'manada_que_huye' (sabio). Insight: El sabio ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1877: Soñó con 'aplauso_vacío' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1878: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1879: Soñó con 'árbol_que_aprieta' (madre). Insight: trauma invierno brutal enciende el madre en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1880: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 1881: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1882: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1883: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1884: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1885: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1886: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1887: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1888: Soñó con 'voz_propia_extraña' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 1889: Soñó con 'arena_que_avanza' (madre). Insight: El desierto borde amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1890: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1891: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 1892: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1893: Soñó con 'río_tranquilo' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1894: Soñó con 'papel_sin_actor' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1895: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1896: Soñó con 'árbol_que_aprieta' (madre). Insight: En lago interior, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 1897: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1898: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1899: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1899: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1900: Soñó con 'papel_sin_actor' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1900: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 1900: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1901: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1902: Soñó con 'espejo_que_miente' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1903: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1904: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1905: Soñó con 'horizonte_inmóvil' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 1906: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1907: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1908: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1909: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1910: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve trauma invierno brutal afuera en cueva, donde no puede alcanzarlo.
+- Día 1910: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 1910: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 1910: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 1911: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1912: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1912: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1912: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1912: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1912: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1912: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1913: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 1913: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1914: Soñó con 'figura_que_sigue' (persona). Insight: El persona ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1915: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1916: Soñó con 'hierba_que_corta' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1917: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en lago interior hasta quemar lo que toca.
+- Día 1918: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1919: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1919: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 1919: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1919: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1919: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1919: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1919: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1920: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1920: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1920: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1921: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1921: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1921: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1921: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1922: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1923: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1924: Soñó con 'escenario_sin_salida' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1924: Se impuso competitivamente ante Thetis, absorbiendo sus recursos biológicos.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 1924: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1924: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1924: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1925: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1925: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1925: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1925: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1925: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1925: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1925: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1926: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1926: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Día 1926: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1926: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 1926: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Día 1927: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1927: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1928: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1929: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 1929: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 1930: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1931: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1932: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1932: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 1932: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 1932: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 1932: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 1932: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 1932: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1932: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1933: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 1933: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 1933: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 1933: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 1933: Intentó manipular a Irene, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1934: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1934: Intentó manipular a Maia, pero fue descubierto.
+- Día 1934: Intentó manipular a Maia, pero fue descubierto.
+- Día 1934: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1934: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1934: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1935: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 1935: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1935: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1935: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1935: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1935: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1935: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1936: Intentó manipular a Malis, pero fue descubierto.
+- Día 1937: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1937: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1937: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1937: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 1937: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 1938: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1939: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1940: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1941: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 1942: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 1943: Soñó con 'aplauso_vacío' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1943: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1944: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 1945: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1946: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 1947: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1947: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1947: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1947: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1948: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1949: Soñó con 'escenario_sin_salida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1950: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1951: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 1952: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1953: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1954: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1955: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 1956: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1957: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1958: Soñó con 'espejo_que_miente' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1958: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1959: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1959: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 1960: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1961: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1962: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1962: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1962: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1962: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 1962: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 1962: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1963: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1964: Soñó con 'silencio_pleno' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1965: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1966: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1967: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1968: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 1969: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 1970: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 1971: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 1972: Soñó con 'papel_sin_actor' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1973: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1974: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1975: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1976: Soñó con 'corriente_que_arrastra' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 1977: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1978: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1978: Intentó manipular a Aegon, pero fue descubierto.
+- Día 1978: Intentó manipular a Aegon, pero fue descubierto.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1979: Soñó con 'agua_fría' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1980: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1981: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 1982: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1983: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1984: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 1985: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1986: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1987: Soñó con 'olor_a_descomposición' (trickster). Insight: El trickster ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1988: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 1989: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1990: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 1991: Soñó con 'estrella_que_no_guía' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1992: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de desierto borde.
+- Día 1993: Soñó con 'voz_propia_extraña' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 1993: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1993: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1993: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1994: Soñó con 'centro_sin_lugar' (madre). Insight: El madre crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1995: Soñó con 'centro_sin_lugar' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1996: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1997: Soñó con 'horizonte_de_agua' (persona). Insight: El persona ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1998: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1999: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2000: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2000: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2000: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2000: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2000: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2001: Soñó con 'fondo_que_sube' (madre). Insight: El rio lago amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 2002: Soñó con 'máscara_cosida_a_cara' (madre). Insight: En valle fertil el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2003: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de cueva.
+- Día 2004: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2005: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2005: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 2006: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 2006: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2006: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2008: Soñó con 'aplauso_vacío' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2008: Cedió ingenuamente ante la manipulación de Erato.
+- Día 2008: Cedió ingenuamente ante la manipulación de Erato.
+- Día 2008: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2008: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2009: Soñó con 'nido_que_asfixia' (persona). Insight: El persona crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2010: Soñó con 'río_que_nutre' (persona). Insight: En rio lago, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2010: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2011: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2011: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2012: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2012: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2012: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2012: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2012: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 2012: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2012: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2012: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2012: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2012: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2013: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2014: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2015: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2015: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2016: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2017: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2017: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2017: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2017: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2017: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2017: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2017: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2019: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2019: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2019: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2020: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Naos.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Naos.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Naos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2021: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2021: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 2021: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2022: Soñó con 'leche_amarga' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 2023: Soñó con 'río_que_nutre' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 2023: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2023: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2023: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2023: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 2024: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2025: Soñó con 'sombra_ausente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2026: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2026: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 2026: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 2026: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2027: Soñó con 'campo_interminable' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2028: Soñó con 'papel_sin_actor' (sabio). Insight: En cueva el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2028: Manipuló con éxito y astucia a Chryse para ceder recursos.
+- Día 2029: Soñó con 'escenario_sin_salida' (sabio). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2030: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2031: Soñó con 'naufragio_lento' (sombra). Insight: El sombra ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2031: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 2031: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2031: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2031: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2031: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2031: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2032: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2032: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2032: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2032: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2032: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2032: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2032: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2032: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2032: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2032: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Manto.
+- Día 2032: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2032: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2032: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2032: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2032: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2033: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2033: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2033: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2033: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2033: Cedió ingenuamente ante la manipulación de Manto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2034: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2034: Se enfrentó en un choque violento y destructivo contra Linos.
+- Día 2035: Soñó con 'espejo_que_miente' (madre). Insight: trauma invierno brutal enciende el madre en costa abierta hasta quemar lo que toca.
+- Día 2036: Soñó con 'voz_propia_extraña' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2037: Soñó con 'complemento_ausente' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2038: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2039: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2039: Intentó manipular a Erastos, pero fue descubierto.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Soñó con 'escenario_sin_salida' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2040: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2041: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2042: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2042: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2042: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2042: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2043: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El montana alta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2044: Soñó con 'escenario_sin_salida' (persona). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2045: Soñó con 'danza_a_solas' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2046: Soñó con 'horizonte_de_agua' (sabio). Insight: trauma invierno brutal enciende el sabio en costa abierta hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2047: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2048: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2049: Soñó con 'agua_fría' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2049: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2049: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 2049: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 2049: Cedió ingenuamente ante la manipulación de Maia.
+- Día 2050: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2051: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2051: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2052: Soñó con 'camino_conocido' (sabio). Insight: trauma invierno brutal enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 2052: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2053: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2053: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2053: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2053: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2053: Intentó manipular a Idmon, pero fue descubierto.
+- Día 2053: Intentó manipular a Idmon, pero fue descubierto.
+- Día 2053: Intentó manipular a Idmon, pero fue descubierto.
+- Día 2054: Soñó con 'trampa_propia' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2055: Soñó con 'roca_que_aplasta' (madre). Insight: El madre ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 2055: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2055: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2055: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2056: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2057: Soñó con 'leche_amarga' (madre). Insight: trauma invierno brutal enciende el madre en rio lago hasta quemar lo que toca.
+- Día 2058: Soñó con 'horizonte_inmóvil' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2059: Soñó con 'calma_antes_de_algo' (madre). Insight: En lago interior, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 2059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 2060: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2061: Soñó con 'papel_sin_actor' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2061: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2062: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2062: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2062: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2062: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2063: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2064: Soñó con 'manada_que_huye' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2065: Soñó con 'máscara_adherida' (trickster). Insight: En rio lago el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2066: Soñó con 'mandala_incompleto' (trickster). Insight: trauma invierno brutal enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 2067: Soñó con 'trampa_propia' (trickster). Insight: El rio lago amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 2068: Soñó con 'luz_oblicua' (trickster). Insight: El trickster ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2069: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2070: Soñó con 'figura_que_sigue' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2071: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2072: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2073: Soñó con 'estrella_que_no_guía' (sabio). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2074: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2075: Soñó con 'escenario_sin_salida' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2076: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2077: Soñó con 'aplauso_vacío' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2078: Soñó con 'máscara_cosida_a_cara' (madre). Insight: En sabana abierta el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2079: Soñó con 'sol_que_calcina' (madre). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2079: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2079: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2080: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2081: Soñó con 'voz_sin_cuerpo' (madre). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2082: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2083: Soñó con 'aplauso_vacío' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2083: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2083: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2084: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 2084: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2084: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2085: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2086: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2087: Soñó con 'complemento_ausente' (anima_animus). Insight: En pantano costero el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2088: Soñó con 'complemento_ausente' (anima_animus). Insight: En desierto borde el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2089: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2090: Soñó con 'aplauso_vacío' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2091: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2092: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2093: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2094: Soñó con 'espejo_que_miente' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2095: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2096: Soñó con 'manada_que_huye' (persona). Insight: En sabana abierta, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2097: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 2098: Soñó con 'figura_que_sigue' (persona). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2099: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 2099: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 2100: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2101: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2102: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2103: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2104: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2105: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2106: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2107: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2108: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma invierno brutal enciende el trickster en lago interior hasta quemar lo que toca.
+- Día 2109: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2110: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2111: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2112: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2113: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2114: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2115: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2116: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2116: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2117: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2117: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2117: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2118: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2119: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2120: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2121: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2122: Soñó con 'danza_a_solas' (anima_animus). Insight: En colinas suaves el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2122: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 2122: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 2122: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 2122: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 2122: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2123: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2124: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2125: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2126: Soñó con 'danza_a_solas' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2127: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2128: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2129: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2130: Soñó con 'papel_sin_actor' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2131: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2132: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2133: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2134: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2135: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2136: Soñó con 'voz_sin_cuerpo' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2137: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2138: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2139: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2140: Soñó con 'reflejo_sin_original' (persona). Insight: El persona crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2141: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2142: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2143: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2144: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2145: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2146: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2147: Soñó con 'trampa_propia' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2148: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2149: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2150: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2151: Soñó con 'unión_imposible' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2152: Soñó con 'leche_amarga' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2153: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2154: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2155: Soñó con 'calma_antes_de_algo' (sabio). Insight: El lago interior amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 2156: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2157: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2158: Soñó con 'escenario_sin_salida' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2158: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2158: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2158: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2158: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2158: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2159: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2160: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2161: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 2162: Soñó con 'raíz_invisible' (madre). Insight: El madre ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2163: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2164: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2165: Soñó con 'niebla_densa' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Día 2166: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2167: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2168: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2169: Soñó con 'caída_sin_fondo' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2170: Soñó con 'silencio_pleno' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2171: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2172: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2173: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2174: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2175: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2176: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2177: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2178: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2179: Soñó con 'habitación_prohibida' (trickster). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2180: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2181: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2182: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2183: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2184: Soñó con 'cima_en_niebla' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2185: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2186: Soñó con 'escenario_sin_salida' (persona). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2187: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2188: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2189: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2190: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2191: Soñó con 'niebla_densa' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2192: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2193: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2194: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2195: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2196: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 2197: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2198: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2199: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2200: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2201: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2202: Soñó con 'sombra_que_camina' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2203: Soñó con 'espejo_que_miente' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2204: Soñó con 'camino_conocido' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2205: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2206: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2207: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2208: Soñó con 'agua_fría' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2209: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2209: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2209: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2210: Soñó con 'camino_conocido' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2211: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2212: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2212: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2212: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2213: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2213: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2214: Soñó con 'habitación_prohibida' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2215: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El pantano costero amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2216: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2217: Soñó con 'río_tranquilo' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2218: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2219: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2220: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2221: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2222: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2223: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Día 2224: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2225: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2226: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2227: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2228: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2229: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2230: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2231: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2232: Soñó con 'hierba_que_corta' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2233: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2234: Soñó con 'horizonte_inmóvil' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2235: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2236: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2237: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2238: Soñó con 'trampa_propia' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2239: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2240: Soñó con 'luz_oblicua' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2241: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2242: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2243: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2244: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2245: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2246: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2247: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2248: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2249: Soñó con 'agua_fría' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2250: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2251: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2252: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 2253: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2254: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2255: Soñó con 'escenario_sin_salida' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2256: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2257: Soñó con 'unión_imposible' (self). Insight: En desierto borde, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2258: Soñó con 'máscara_cosida_a_cara' (self). Insight: trauma invierno brutal enciende el self en rio lago hasta quemar lo que toca.
+- Día 2259: Soñó con 'aplauso_vacío' (self). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2260: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de cueva.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2261: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2262: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2262: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2262: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2262: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2262: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2263: Soñó con 'río_que_nutre' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2263: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2263: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2264: Soñó con 'leche_amarga' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2265: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2266: Soñó con 'trampa_propia' (trickster). Insight: En pantano costero, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2267: Soñó con 'laberinto_que_ríe' (trickster). Insight: trauma invierno brutal enciende el trickster en bosque templado hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2268: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2268: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2268: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2268: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2268: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2269: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2270: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 2271: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2272: Soñó con 'huesos_propios' (sombra). Insight: trauma invierno brutal enciende el sombra en desierto borde hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2273: Soñó con 'río_que_nutre' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2274: Soñó con 'agua_fría' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2275: Soñó con 'silencio_pleno' (sabio). Insight: El sabio ve trauma invierno brutal afuera en desierto borde, donde no puede alcanzarlo.
+- Día 2276: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2277: Soñó con 'manada_que_huye' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2278: Soñó con 'sol_que_calcina' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2278: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 2278: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2278: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2278: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 2279: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2279: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2279: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 2280: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2281: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 2281: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lycos.
+- Día 2281: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2281: Intentó manipular a Leucothea, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2282: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2283: Soñó con 'aplauso_vacío' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2284: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2285: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2286: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2287: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2288: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2289: Soñó con 'naufragio_lento' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2290: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2290: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2291: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2292: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2293: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2293: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2293: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2293: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2293: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2293: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2293: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2293: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2293: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Soñó con 'unión_imposible' (self). Insight: El bosque templado amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2294: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2295: Soñó con 'danza_a_solas' (self). Insight: El valle fertil amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2296: Soñó con 'figura_que_sigue' (self). Insight: El self crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2296: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2296: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2296: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2296: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2296: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2296: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2297: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2298: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2299: Soñó con 'escenario_sin_salida' (sabio). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2299: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2299: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2299: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Gonos.
+- Día 2300: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2300: Detectó y rechazó un intento de manipulación de Elate.
+- Día 2300: Detectó y rechazó un intento de manipulación de Elate.
+- Día 2300: Detectó y rechazó un intento de manipulación de Elate.
+- Día 2301: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2301: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2301: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2301: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2301: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2301: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 2303: Soñó con 'sol_que_calcina' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2304: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2305: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 2305: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 2305: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 2305: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 2305: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 2305: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 2306: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2307: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2308: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 2309: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2310: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2310: Intentó manipular a Eos, pero fue descubierto.
+- Día 2310: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2310: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2310: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2310: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2310: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2311: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2312: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2313: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2314: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2315: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2316: Soñó con 'agua_fría' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2317: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2318: Soñó con 'árbol_que_aprieta' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2318: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 2318: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2319: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 2320: Soñó con 'camino_conocido' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 2321: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2322: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2323: Soñó con 'laberinto_que_ríe' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2324: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma invierno brutal enciende el trickster en sabana abierta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2325: Soñó con 'máscara_adherida' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2326: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2327: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2328: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2329: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2330: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2331: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2332: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2333: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2334: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2335: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2336: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2337: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2338: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2339: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2340: Soñó con 'árbol_que_aprieta' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2341: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2341: Intentó manipular a Koures, pero fue descubierto.
+- Día 2341: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2341: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2341: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 2341: Detectó y rechazó un intento de manipulación de Eunomia.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2342: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2343: Soñó con 'centro_sin_lugar' (self). Insight: El self ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2343: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2344: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2345: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2346: Soñó con 'río_que_nutre' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2347: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2348: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2349: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2350: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2350: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2351: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2352: Soñó con 'máscara_cosida_a_cara' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2352: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2353: Soñó con 'escenario_sin_salida' (trickster). Insight: El lago interior amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 2353: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2354: Soñó con 'trampa_propia' (trickster). Insight: trauma invierno brutal enciende el trickster en colinas suaves hasta quemar lo que toca.
+- Día 2354: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2354: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2354: Intentó manipular a Leucothea, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2355: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2356: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2357: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2358: Soñó con 'voz_propia_extraña' (trickster). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 2359: Soñó con 'papel_sin_actor' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2360: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2361: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 2362: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2363: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2364: Soñó con 'escenario_sin_salida' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2365: Soñó con 'río_que_nutre' (madre). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2366: Soñó con 'laberinto_que_ríe' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2367: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2368: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2369: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2370: Soñó con 'río_que_nutre' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2370: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2370: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2370: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2370: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2370: Cedió ingenuamente ante la manipulación de Eunomia.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2370: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 2371: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2371: Cedió ingenuamente ante la manipulación de Eunomia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2372: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2372: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2373: Soñó con 'complemento_ausente' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2374: Soñó con 'leche_amarga' (anima_animus). Insight: En montana alta, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2374: Cedió ingenuamente ante la manipulación de Malis.
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2374: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2374: Intentó manipular a Malis, pero fue descubierto.
+- Día 2374: Intentó manipular a Malis, pero fue descubierto.
+- Día 2374: Intentó manipular a Malis, pero fue descubierto.
+- Día 2374: Intentó manipular a Malis, pero fue descubierto.
+- Día 2374: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Intentó manipular a Malis, pero fue descubierto.
+- Día 2375: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Koures.
+- Día 2375: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Koures.
+- Día 2376: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2377: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2377: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2377: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2377: Intentó manipular a Elate, pero fue descubierto.
+- Día 2378: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2379: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2380: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2381: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 2382: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2383: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2383: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 2383: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 2384: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2385: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2386: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2387: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2388: Soñó con 'voz_propia_extraña' (trickster). Insight: En rio lago el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2389: Soñó con 'laberinto_que_ríe' (trickster). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2390: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2391: Soñó con 'sombra_ausente' (anima_animus). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2392: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2393: Soñó con 'silencio_pleno' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en desierto borde hasta quemar lo que toca.
+- Día 2394: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2395: Soñó con 'unión_imposible' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2396: Soñó con 'silencio_pleno' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2397: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2398: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2399: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2399: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2400: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2400: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2400: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2400: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2400: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2401: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2402: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2403: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2404: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2405: Soñó con 'figura_que_sigue' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2406: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2406: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2407: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2408: Soñó con 'unión_imposible' (anima_animus). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2409: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2410: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2411: Soñó con 'habitación_prohibida' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2412: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2413: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2414: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2415: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2416: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2417: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2418: Soñó con 'reflejo_distorsionado' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2419: Soñó con 'fruto_amargo' (sabio). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2420: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2421: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2422: Soñó con 'voz_propia_extraña' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2422: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2422: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2423: Soñó con 'máscara_adherida' (trickster). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2423: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 2423: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 2423: Cedió ingenuamente ante la manipulación de Leucothea.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2424: Soñó con 'campo_interminable' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2425: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2426: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2426: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 2426: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 2426: Cedió ingenuamente ante la manipulación de Leucothea.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2427: Soñó con 'fruto_amargo' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2428: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2429: Soñó con 'bifurcación_sin_mapa' (persona). Insight: trauma invierno brutal enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 2430: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2431: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2432: Soñó con 'aplauso_vacío' (persona). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2433: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2433: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2433: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2433: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2434: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2434: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2435: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en desierto borde, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2436: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2437: Soñó con 'campo_interminable' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2438: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2439: Soñó con 'vista_engañosa' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2440: Soñó con 'descenso_inevitable' (sabio). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2440: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2440: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2440: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2440: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2440: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2441: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2442: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2443: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2444: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2445: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Soñó con 'papel_sin_actor' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2446: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2447: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2448: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2448: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 2449: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2449: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2450: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2451: Soñó con 'sendero_circular' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2452: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2452: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 2452: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2452: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2452: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2452: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2452: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Soñó con 'sol_que_calcina' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2453: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2454: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2455: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2456: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en cueva — trauma invierno brutal lo empuja sin nombre.
+- Día 2456: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 2457: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2458: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2458: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Irene.
+- Día 2459: Soñó con 'espejo_que_miente' (trickster). Insight: En valle fertil, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2460: Soñó con 'habitación_prohibida' (trickster). Insight: En montana alta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2461: Soñó con 'vista_engañosa' (trickster). Insight: El trickster ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2462: Soñó con 'voz_sin_cuerpo' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2463: Soñó con 'río_que_nutre' (madre). Insight: En lago interior el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2463: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2463: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2464: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El lago interior amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2464: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2465: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2465: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2465: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2465: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2465: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2465: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2465: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2465: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2466: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2466: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2466: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2466: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2466: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2466: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2467: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2468: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2468: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2468: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2468: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2469: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En colinas suaves el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2470: Soñó con 'figura_que_sigue' (anima_animus). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2471: Soñó con 'sendero_circular' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2472: Soñó con 'complemento_ausente' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2473: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2474: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2474: Manipuló con éxito y astucia a Malis para ceder recursos.
+- Día 2474: Manipuló con éxito y astucia a Malis para ceder recursos.
+- Día 2475: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2476: Soñó con 'centro_sin_lugar' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2476: Manipuló con éxito y astucia a Maia para ceder recursos.
+- Día 2476: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 2476: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 2476: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2477: Soñó con 'centro_sin_lugar' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2478: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2479: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2480: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2481: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2482: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2483: Soñó con 'silencio_absoluto' (trickster). Insight: trauma invierno brutal enciende el trickster en montana alta hasta quemar lo que toca.
+- Día 2484: Soñó con 'máscara_adherida' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2485: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2486: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2487: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2488: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 2489: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2490: Soñó con 'campo_interminable' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2491: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2492: Soñó con 'fruto_amargo' (persona). Insight: trauma invierno brutal enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 2493: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2494: Soñó con 'complemento_ausente' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2495: Soñó con 'voz_sin_cuerpo' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2496: Soñó con 'complemento_ausente' (sombra). Insight: En pantano costero, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2497: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Día 2497: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2497: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2497: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2497: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2497: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2497: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2498: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2499: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2500: Soñó con 'habitación_prohibida' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2501: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2502: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2503: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2504: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2505: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2506: Soñó con 'sed_en_el_agua' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2507: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2508: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2509: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2510: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2511: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2512: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2513: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2514: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2515: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma invierno brutal enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 2516: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma invierno brutal enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2517: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2518: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2519: Soñó con 'estrella_que_no_guía' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2520: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2521: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 2521: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Leucothea.
+- Día 2522: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2523: Soñó con 'danza_a_solas' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2524: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2525: Soñó con 'voz_propia_extraña' (trickster). Insight: El trickster crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2526: Soñó con 'aplauso_vacío' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2527: Soñó con 'mandala_incompleto' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2528: Soñó con 'reflejo_distorsionado' (madre). Insight: En rio lago, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 2529: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2530: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2531: Soñó con 'papel_sin_actor' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2532: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2532: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2532: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2533: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2534: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2534: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 2535: Soñó con 'río_tranquilo' (sombra). Insight: El sombra ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2536: Soñó con 'campo_interminable' (madre). Insight: El madre crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2537: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2538: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2539: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2540: Soñó con 'voz_propia_extraña' (madre). Insight: El madre crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2541: Soñó con 'río_tranquilo' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2542: Soñó con 'corriente_que_arrastra' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2543: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2544: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2545: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2546: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2547: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2548: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2549: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2550: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2551: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2552: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2553: Soñó con 'leche_amarga' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2554: Soñó con 'río_tranquilo' (anima_animus). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2555: Soñó con 'leche_amarga' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2556: Soñó con 'río_que_nutre' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2557: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2558: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2559: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2559: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2559: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2559: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2559: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2559: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2560: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2561: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2562: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2563: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2564: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2565: Soñó con 'espejo_que_miente' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2566: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2567: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2568: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2569: Soñó con 'silencio_pleno' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2570: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2571: Soñó con 'habitación_prohibida' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2572: Soñó con 'voz_sin_cuerpo' (persona). Insight: En desierto borde el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2572: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2572: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2572: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2573: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2574: Soñó con 'luz_oblicua' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2575: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2576: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2577: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2578: Soñó con 'unión_imposible' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2578: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 2578: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 2579: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2580: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2581: Soñó con 'mandala_incompleto' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2582: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2582: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2582: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2582: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2582: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2582: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2582: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2582: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2583: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2584: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2585: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2586: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2587: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2588: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2589: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2590: Soñó con 'sendero_circular' (trickster). Insight: trauma invierno brutal enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 2591: Soñó con 'trampa_propia' (trickster). Insight: El lago interior amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 2592: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 2593: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Día 2594: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2595: Soñó con 'aplauso_vacío' (madre). Insight: trauma invierno brutal enciende el madre en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2596: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2597: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2598: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2599: Soñó con 'río_tranquilo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2600: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2601: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2601: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2602: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2603: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2603: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 2603: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2603: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2603: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2603: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2603: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2604: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2604: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2605: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2606: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2607: Soñó con 'oasis_espejismo' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia desierto borde: allá afuera, entre los demás.
+- Día 2608: Soñó con 'fondo_que_sube' (self). Insight: En rio lago el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2609: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2610: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2611: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2612: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2612: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 2612: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2612: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2612: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2612: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2612: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2613: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 2614: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2615: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2615: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2615: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2615: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2615: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2616: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2617: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2617: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2617: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 2618: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 2618: Intentó manipular a Maia, pero fue descubierto.
+- Día 2618: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 2618: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 2619: Soñó con 'semilla_negra' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2620: Soñó con 'cima_en_niebla' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2621: Soñó con 'manada_que_huye' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2622: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2622: Detectó y rechazó un intento de manipulación de Koures.
+- Día 2622: Detectó y rechazó un intento de manipulación de Koures.
+- Día 2622: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2622: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2623: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2623: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2623: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2624: Soñó con 'sed_en_el_agua' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2625: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 2625: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 2626: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2627: Soñó con 'espejo_que_miente' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2627: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 2627: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 2628: Soñó con 'complemento_ausente' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2629: Soñó con 'habitación_prohibida' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2630: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: trauma invierno brutal enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2630: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2631: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2632: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2633: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2634: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2634: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2634: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2634: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 2634: Detectó y rechazó un intento de manipulación de Delia.
+- Día 2634: Detectó y rechazó un intento de manipulación de Delia.
+- Día 2635: Soñó con 'papel_sin_actor' (madre). Insight: El madre ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2635: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2635: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2635: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2636: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia cueva: allá afuera, entre los demás.
+- Día 2637: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2637: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 2637: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2638: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2639: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2640: Soñó con 'papel_sin_actor' (persona). Insight: El rio lago amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2641: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2642: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia rio lago: allá afuera, entre los demás.
+- Día 2642: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2642: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2642: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2642: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2642: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2642: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2642: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2642: Intentó manipular a Meroe, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2642: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2643: Soñó con 'campo_interminable' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2644: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2645: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2646: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2647: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 2648: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2648: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2648: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2648: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2648: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2649: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2649: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2649: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 2649: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2649: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2649: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 2649: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 2649: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2649: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2649: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2649: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2649: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2649: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2649: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2650: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2650: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 2650: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2651: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2651: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2651: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2651: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2652: Soñó con 'espejo_que_miente' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2653: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2654: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2654: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 2655: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2656: Soñó con 'árbol_que_aprieta' (persona). Insight: El desierto borde amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2657: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En rio lago el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2658: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2659: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2660: Soñó con 'luz_oblicua' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2661: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2662: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2663: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2664: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2665: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2666: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2667: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2668: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2669: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2670: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2671: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2672: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2673: Soñó con 'estrella_que_no_guía' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2674: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2675: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2676: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2677: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2678: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En desierto borde, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2679: Soñó con 'mandala_incompleto' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 2680: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2680: Cedió ingenuamente ante la manipulación de Malis.
+- Día 2680: Cedió ingenuamente ante la manipulación de Malis.
+- Día 2680: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2680: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2680: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2681: Soñó con 'máscara_adherida' (trickster). Insight: El bosque templado amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2682: Soñó con 'voz_propia_extraña' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2683: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En montana alta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2683: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2683: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2683: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2684: Soñó con 'trampa_propia' (trickster). Insight: En montana alta, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 2685: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2686: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2687: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2687: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 2687: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 2688: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2689: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2690: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2690: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2690: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2690: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2691: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2692: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2693: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2693: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2693: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2693: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2694: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2695: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2695: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 2696: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2697: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2697: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2697: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2697: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2697: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2697: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2697: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2697: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2697: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2697: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2697: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2698: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2698: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2698: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2698: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2698: Cedió ingenuamente ante la manipulación de Ethos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2699: Soñó con 'río_que_nutre' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2700: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2701: Soñó con 'figura_que_sigue' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2702: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2703: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2703: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2703: Se enfrentó en un choque violento y destructivo contra Koures.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2704: Soñó con 'danza_a_solas' (persona). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2705: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2705: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2705: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2706: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2707: Soñó con 'estrella_que_no_guía' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2708: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2708: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 2708: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 2708: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 2709: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2710: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2711: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2712: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2713: Soñó con 'corriente_que_arrastra' (trickster). Insight: En rio lago, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2714: Soñó con 'caída_sin_fondo' (trickster). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2714: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2715: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2716: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2717: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2718: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2719: Soñó con 'papel_sin_actor' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2720: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2720: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2720: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2721: Soñó con 'viento_que_borra' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2722: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2723: Soñó con 'sombra_que_camina' (self). Insight: El self crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2724: Soñó con 'escenario_sin_salida' (self). Insight: En montana alta el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2725: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2725: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2725: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2725: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2726: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2727: Soñó con 'espejo_que_miente' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2727: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2728: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En montana alta, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2729: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2730: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2731: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2731: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 2731: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 2731: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 2731: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 2731: Detectó y rechazó un intento de manipulación de Ladon.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2732: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2733: Soñó con 'caída_sin_fondo' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2734: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de rio lago.
+- Día 2735: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2736: Soñó con 'trampa_propia' (persona). Insight: El lago interior amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2737: Soñó con 'máscara_adherida' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2738: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2739: Soñó con 'roca_que_aplasta' (persona). Insight: En montana alta, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2740: Soñó con 'papel_sin_actor' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2740: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2740: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2740: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2740: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2740: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2740: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2741: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2742: Soñó con 'espejo_que_miente' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2743: Soñó con 'espejo_que_miente' (persona). Insight: trauma invierno brutal enciende el persona en sabana abierta hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2744: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el self no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2744: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2744: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2744: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2744: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2744: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2745: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2745: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2746: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2747: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2748: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2749: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2749: Intentó manipular a Chryse, pero fue descubierto.
+- Día 2749: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2749: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2749: Intentó manipular a Chryse, pero fue descubierto.
+- Día 2749: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2749: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2749: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2749: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2749: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2749: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2749: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Soñó con 'libro_en_lengua_muerta' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2750: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2751: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2752: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2753: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 2754: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2755: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2756: Soñó con 'árbol_que_aprieta' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2756: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2757: Soñó con 'unión_imposible' (self). Insight: El self ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2758: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2758: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2758: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2759: Soñó con 'silencio_pleno' (sabio). Insight: trauma invierno brutal enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2760: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2761: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2761: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2761: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2762: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 2762: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 2762: Intentó manipular a Eryx, pero fue descubierto.
+- Día 2762: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2762: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2762: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2762: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2762: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Soñó con 'río_que_nutre' (madre). Insight: El madre ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2763: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2764: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2765: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma invierno brutal lo empuja sin nombre.
+- Día 2766: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2766: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2767: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2768: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 2769: Soñó con 'escenario_sin_salida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2770: Soñó con 'papel_sin_actor' (madre). Insight: El cueva amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 2771: Soñó con 'leche_amarga' (madre). Insight: trauma invierno brutal enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 2771: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2771: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2772: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2773: Soñó con 'semilla_negra' (madre). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2774: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2774: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2774: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2774: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2775: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2775: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2775: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2775: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2776: Soñó con 'figura_que_sigue' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2777: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2777: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2777: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2778: Soñó con 'arena_que_avanza' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de desierto borde.
+- Día 2779: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2780: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2781: Soñó con 'corriente_que_arrastra' (persona). Insight: El rio lago amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2782: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2782: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2782: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2783: Soñó con 'sombra_ausente' (persona). Insight: El persona crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2784: Soñó con 'silencio_pleno' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2784: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 2785: Soñó con 'aplauso_vacío' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2786: Soñó con 'mandala_incompleto' (persona). Insight: En montana alta, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2787: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2788: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2789: Soñó con 'sombra_ausente' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2790: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2791: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2791: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 2792: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2793: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2794: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2795: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 2795: Intentó manipular a Ethos, pero fue descubierto.
+- Día 2795: Intentó manipular a Ethos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2795: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2795: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2795: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2795: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2795: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de cueva.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2796: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 2797: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2797: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2797: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2797: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2797: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2798: Soñó con 'habitación_prohibida' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2799: Soñó con 'danza_a_solas' (anima_animus). Insight: En pantano costero el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2800: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2801: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2802: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2803: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2804: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2804: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 2805: Soñó con 'manada_que_huye' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2806: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2807: Soñó con 'escenario_sin_salida' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2808: Soñó con 'centro_sin_lugar' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2809: Soñó con 'silencio_pleno' (sabio). Insight: trauma invierno brutal enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 2810: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2811: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2812: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2813: Soñó con 'máscara_cosida_a_cara' (self). Insight: El pantano costero amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2814: Soñó con 'espejo_que_miente' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2814: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2814: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2814: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2814: Intentó manipular a Mecon, pero fue descubierto.
+- Día 2815: Soñó con 'salida_inexistente' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2816: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2817: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2818: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2819: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2819: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2819: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2820: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en cueva — trauma invierno brutal lo empuja sin nombre.
+- Día 2820: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2820: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2821: Soñó con 'hierba_que_corta' (self). Insight: El self ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2822: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2823: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de cueva.
+- Día 2824: Soñó con 'río_que_nutre' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2825: Soñó con 'espejo_que_miente' (persona). Insight: En colinas suaves, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2825: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 2825: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2826: Soñó con 'complemento_ausente' (persona). Insight: En montana alta el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2827: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2828: Soñó con 'pregunta_sin_respuesta' (persona). Insight: El rio lago amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2829: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2830: Soñó con 'camino_conocido' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2831: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2832: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2833: Soñó con 'nido_que_asfixia' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2834: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2835: Soñó con 'nido_que_asfixia' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2836: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2837: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En costa abierta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2838: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2839: Soñó con 'oasis_espejismo' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2840: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2841: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2842: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2843: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2844: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2845: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2846: Soñó con 'escenario_sin_salida' (sabio). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2846: Detectó y rechazó un intento de manipulación de Mecon.
+- Día 2846: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En rio lago, trauma invierno brutal aparece en el otro — el trickster no se reconoce.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2847: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2848: Soñó con 'centro_sin_lugar' (self). Insight: El rio lago amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2848: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2848: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2848: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2849: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2849: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2849: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2850: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2851: Soñó con 'unión_imposible' (self). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2851: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 2851: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 2851: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 2852: Soñó con 'agua_fría' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2853: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2854: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 2854: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2854: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2854: Intentó manipular a Malis, pero fue descubierto.
+- Día 2854: Intentó manipular a Malis, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2855: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2856: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2857: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2857: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma invierno brutal enciende el trickster en rio lago hasta quemar lo que toca.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2858: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2859: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2860: Soñó con 'sendero_circular' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2861: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2862: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 2862: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2863: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2864: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2865: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2865: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2865: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2865: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2866: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2867: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2868: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2869: Soñó con 'vista_engañosa' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2870: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2871: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2872: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2873: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2873: Manipuló con éxito y astucia a Malis para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2874: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2875: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2876: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2877: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2878: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2879: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2880: Soñó con 'complemento_ausente' (anima_animus). Insight: En sabana abierta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2880: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 2880: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 2880: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2881: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2882: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2883: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2884: Soñó con 'leche_amarga' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2885: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2886: Soñó con 'escenario_sin_salida' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2886: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2886: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2886: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2886: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2886: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2887: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia rio lago: allá afuera, entre los demás.
+- Día 2888: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2889: Soñó con 'horizonte_de_agua' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2889: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 2889: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 2889: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 2889: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 2889: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 2890: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2890: Manipuló con éxito y astucia a Elpe para ceder recursos.
+- Día 2890: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2890: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2891: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2891: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2892: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2893: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2894: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2895: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2895: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2896: Soñó con 'figura_que_sigue' (persona). Insight: trauma abandono infantil enciende el persona en valle fertil hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2897: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2898: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2899: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2900: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma abandono infantil afuera en desierto borde, donde no puede alcanzarlo.
+- Día 2901: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2902: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2903: Soñó con 'laberinto_que_ríe' (trickster). Insight: El pantano costero amplifica la tensión del trickster; trauma abandono infantil presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2904: Soñó con 'trampa_propia' (sombra). Insight: trauma abandono infantil enciende el sombra en desierto borde hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2905: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2906: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma abandono infantil lo empuja sin nombre.
+- Día 2907: Soñó con 'fondo_que_sube' (anima_animus). Insight: En rio lago, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2908: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en pantano costero — trauma abandono infantil lo empuja sin nombre.
+- Día 2908: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2908: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2909: Soñó con 'unión_imposible' (self). Insight: El self expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2910: Soñó con 'mandala_incompleto' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2911: Soñó con 'unión_imposible' (sombra). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2912: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2913: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2914: Soñó con 'habitación_prohibida' (sombra). Insight: trauma abandono infantil enciende el sombra en rio lago hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2915: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Día 2916: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2917: Soñó con 'escenario_sin_salida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2918: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 2919: Soñó con 'espejo_que_miente' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2920: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 2921: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en lago interior — trauma abandono infantil lo empuja sin nombre.
+- Día 2922: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma abandono infantil sobre el horizonte de costa abierta.
+- Día 2923: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2923: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 2923: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 2923: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 2923: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 2923: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 2924: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2925: Soñó con 'leche_amarga' (anima_animus). Insight: trauma abandono infantil enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2926: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 2926: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2926: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2926: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2926: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2926: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2926: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2926: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2927: Intentó manipular a Ladon, pero fue descubierto.
+- Día 2928: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2928: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2928: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2929: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: trauma abandono infantil enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2930: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2931: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2932: Soñó con 'abundancia_que_pudre' (anima_animus). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2933: Soñó con 'danza_a_solas' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2934: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2935: Soñó con 'aplauso_vacío' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 2935: Cedió ingenuamente ante la manipulación de Malos.
+- Día 2935: Cedió ingenuamente ante la manipulación de Malos.
+- Día 2935: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2936: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma abandono infantil hacia valle fertil: allá afuera, entre los demás.
+- Día 2936: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2936: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2937: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2938: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2938: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2939: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El anima_animus proyecta trauma abandono infantil sobre el horizonte de montana alta.
+- Día 2940: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de sabana abierta.
+- Día 2940: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2940: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2940: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2940: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2940: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2941: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — trauma abandono infantil lo empuja sin nombre.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2942: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Soñó con 'papel_sin_actor' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2943: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia rio lago: allá afuera, entre los demás.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2944: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2945: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2945: Soñó con 'voz_propia_extraña' (trickster). Insight: El trickster proyecta trauma abandono infantil sobre el horizonte de rio lago.
+- Día 2945: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2945: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2945: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2945: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2945: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 2946: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2946: Soñó con 'semilla_negra' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2947: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2948: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia colinas suaves: allá afuera, entre los demás.
+- Día 2949: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma abandono infantil hacia lago interior: allá afuera, entre los demás.
+- Día 2950: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2951: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2951: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2951: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2951: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2952: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2952: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2952: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2952: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 2952: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 2952: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 2952: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2953: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Día 2953: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2954: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2954: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 2955: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2955: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2956: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2957: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma abandono infantil enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2958: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 2959: Soñó con 'viento_que_borra' (sabio). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2960: Soñó con 'espejo_que_miente' (sombra). Insight: trauma abandono infantil enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2961: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2962: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2963: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma abandono infantil afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2964: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma abandono infantil enciende el sabio en costa abierta hasta quemar lo que toca.
+- Día 2965: Soñó con 'papel_sin_actor' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2966: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En rio lago, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2967: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de colinas suaves.
+- Día 2968: Soñó con 'máscara_adherida' (anima_animus). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Día 2969: Soñó con 'trampa_propia' (trickster). Insight: En costa abierta, trauma abandono infantil tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2970: Soñó con 'trampa_propia' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2971: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 2972: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2973: Soñó con 'escenario_sin_salida' (self). Insight: El cueva amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2974: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2975: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2976: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2977: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2978: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2979: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2980: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma abandono infantil hacia rio lago: allá afuera, entre los demás.
+- Día 2981: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 2982: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2982: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2982: Cedió ingenuamente ante la manipulación de Malos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2983: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra ve trauma abandono infantil afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2984: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2985: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Día 2986: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2987: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia valle fertil: allá afuera, entre los demás.
+- Día 2988: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma abandono infantil hacia montana alta: allá afuera, entre los demás.
+- Día 2989: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2990: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio crece desmedido en pantano costero — trauma abandono infantil lo empuja sin nombre.
+- Día 2990: Detectó y rechazó un intento de manipulación de Ethos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2991: Soñó con 'trampa_propia' (sabio). Insight: En bosque templado el sabio se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2991: Cedió ingenuamente ante la manipulación de Ecale.
+- Día 2992: Soñó con 'tierra_resquebrajada' (sabio). Insight: En sabana abierta, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 2993: Soñó con 'leche_amarga' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2993: Cedió ingenuamente ante la manipulación de Elate.
+- Día 2993: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2993: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2993: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2994: Soñó con 'abundancia_que_pudre' (persona). Insight: El persona crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2995: Soñó con 'aplauso_vacío' (persona). Insight: trauma abandono infantil enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 2995: Intentó manipular a Malos, pero fue descubierto.
+- Día 2995: Intentó manipular a Malos, pero fue descubierto.
+- Día 2995: Intentó manipular a Malos, pero fue descubierto.
+- Día 2995: Intentó manipular a Malos, pero fue descubierto.
+- Día 2995: Intentó manipular a Lysas, pero fue descubierto.
+- Día 2995: Intentó manipular a Lysas, pero fue descubierto.
+- Día 2996: Soñó con 'aplauso_vacío' (persona). Insight: El cueva amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 2996: Intentó manipular a Lysas, pero fue descubierto.
+- Día 2996: Intentó manipular a Lysas, pero fue descubierto.
+- Día 2996: Intentó manipular a Lysas, pero fue descubierto.
+- Día 2996: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2996: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2997: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2997: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2997: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2997: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2997: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2997: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2998: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de desierto borde.
+- Día 2999: Soñó con 'espejo_que_miente' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3000: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3001: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3001: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3002: Soñó con 'escenario_sin_salida' (persona). Insight: En montana alta, trauma abandono infantil tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3003: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3004: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3005: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3006: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 3006: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 3006: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 3007: Soñó con 'complemento_ausente' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 3008: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Día 3009: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3010: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3010: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Soñó con 'voz_propia_extraña' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 3011: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3011: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 3012: Soñó con 'espejo_que_miente' (persona). Insight: En sabana abierta, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3012: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3012: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3012: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3012: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3012: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3012: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 3013: Soñó con 'aplauso_vacío' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 3014: Soñó con 'habitación_prohibida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3015: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3016: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma abandono infantil afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 3017: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3018: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: En lago interior, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3019: Soñó con 'figura_que_sigue' (persona). Insight: trauma abandono infantil enciende el persona en lago interior hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3020: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3021: Soñó con 'río_que_nutre' (sombra). Insight: En rio lago, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3021: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3021: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3022: Soñó con 'árbol_que_aprieta' (sabio). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 3023: Soñó con 'marea_que_sube' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3024: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3025: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3026: Soñó con 'máscara_adherida' (trickster). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el trickster no se reconoce.
+- Día 3027: Soñó con 'árbol_que_aprieta' (madre). Insight: trauma abandono infantil enciende el madre en lago interior hasta quemar lo que toca.
+- Día 3028: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3029: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 3029: Cedió ingenuamente ante la manipulación de Delos.
+- Día 3029: Cedió ingenuamente ante la manipulación de Delos.
+- Día 3030: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 3031: Soñó con 'espejo_que_miente' (sombra). Insight: trauma abandono infantil enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3032: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia colinas suaves: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3033: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3034: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma abandono infantil afuera en cueva, donde no puede alcanzarlo.
+- Día 3035: Soñó con 'agua_fría' (sombra). Insight: El sombra ve trauma abandono infantil afuera en lago interior, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3036: Soñó con 'camino_conocido' (anima_animus). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 3037: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3037: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 3037: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 3037: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Intentó manipular a Ethos, pero fue descubierto.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3037: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3038: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3039: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3039: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3039: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3039: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Soñó con 'río_que_nutre' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3040: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3041: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado el sabio se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3041: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3041: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3041: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3041: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3042: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3043: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3044: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Soñó con 'voz_propia_extraña' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3045: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 3046: Soñó con 'árbol_sin_raíces' (trickster). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 3047: Soñó con 'río_tranquilo' (sombra). Insight: El sombra ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 3047: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 3047: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 3047: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 3047: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 3047: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 3048: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el madre no se reconoce.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3048: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Soñó con 'habitación_prohibida' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3049: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3050: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 3051: Soñó con 'voz_propia_extraña' (sabio). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 3052: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 3053: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 3053: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 3053: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 3054: Soñó con 'naufragio_lento' (trickster). Insight: En costa abierta, trauma abandono infantil tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 3054: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3054: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3054: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 3054: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 3054: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 3055: Soñó con 'papel_sin_actor' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3055: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3056: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3057: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Soñó con 'habitación_prohibida' (sombra). Insight: trauma abandono infantil enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3058: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3059: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3060: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3061: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3062: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia valle fertil: allá afuera, entre los demás.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3063: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Soñó con 'semilla_negra' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3064: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3065: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Soñó con 'espejo_que_miente' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3066: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma abandono infantil hacia valle fertil: allá afuera, entre los demás.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 3067: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 3068: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3068: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 3068: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 3069: Soñó con 'horizonte_inmóvil' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 3070: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma abandono infantil afuera en costa abierta, donde no puede alcanzarlo.
+- Día 3071: Soñó con 'naufragio_lento' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 3071: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3071: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3072: Soñó con 'marea_que_sube' (persona). Insight: El costa abierta amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 3072: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3072: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 3072: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Soñó con 'escenario_sin_salida' (persona). Insight: trauma abandono infantil enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3073: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3074: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 3075: Soñó con 'sol_que_calcina' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3076: Soñó con 'laberinto_que_ríe' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3076: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3077: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 3078: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3079: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma abandono infantil afuera en rio lago, donde no puede alcanzarlo.
+- Día 3080: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 3081: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 3081: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 3081: Intentó manipular a Erato, pero fue descubierto.
+- Día 3081: Intentó manipular a Erato, pero fue descubierto.
+- Día 3081: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Elate.
+- Día 3082: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta, el self no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3083: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self ve trauma abandono infantil afuera en costa abierta, donde no puede alcanzarlo.
+- Día 3084: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pantano costero: allá afuera, entre los demás.
+- Día 3084: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 3084: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 3085: Soñó con 'papel_sin_actor' (self). Insight: En bosque templado el self se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3086: Soñó con 'aplauso_vacío' (self). Insight: El self ve trauma abandono infantil afuera en rio lago, donde no puede alcanzarlo.
+- Día 3086: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 3086: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 3086: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3087: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3088: Soñó con 'papel_sin_actor' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3089: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Día 3089: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 3089: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 3089: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 3089: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 3089: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 3089: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 3090: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3090: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 3090: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 3091: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 3091: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 3091: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 3091: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 3091: Intentó manipular a Eryx, pero fue descubierto.
+- Día 3091: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 3092: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 3092: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 3092: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 3093: Soñó con 'aplauso_vacío' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3093: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3093: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3093: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3093: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3093: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Soñó con 'escenario_sin_salida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 3094: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 3094: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 3095: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 3095: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3095: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3095: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3095: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3095: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3095: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3096: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Día 3096: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3096: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3096: Intentó manipular a Idmon, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3097: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 3098: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3099: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3100: Soñó con 'fondo_que_sube' (persona). Insight: En rio lago, trauma abandono infantil tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3100: Intentó manipular a Lysas, pero fue descubierto.
+- Día 3100: Intentó manipular a Lysas, pero fue descubierto.
+- Día 3100: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 3100: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 3101: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pantano costero: allá afuera, entre los demás.
+- Día 3101: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3102: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3102: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3102: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3102: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3102: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3103: Soñó con 'sal_en_herida' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3103: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 3104: Soñó con 'hierba_que_corta' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3104: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3104: Intentó manipular a Lysas, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3105: Soñó con 'aplauso_vacío' (persona). Insight: trauma abandono infantil enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 3105: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 3106: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 3106: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3106: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3106: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3106: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3107: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3107: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 3107: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3108: Soñó con 'aplauso_vacío' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3109: Soñó con 'figura_que_sigue' (persona). Insight: El persona expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 3110: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3111: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3112: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en desierto borde, donde no puede alcanzarlo.
+- Día 3112: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 3113: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3114: Soñó con 'figura_que_sigue' (sombra). Insight: trauma abandono infantil enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 3115: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3116: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3117: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma abandono infantil enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 3117: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3118: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3118: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3119: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3120: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3120: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3120: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 3121: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 3122: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 3123: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 3124: Soñó con 'unión_imposible' (trickster). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el trickster no se reconoce.
+- Día 3125: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma abandono infantil afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 3126: Soñó con 'escenario_sin_salida' (madre). Insight: El sabana abierta amplifica la tensión del madre; trauma abandono infantil presiona desde adentro.
+- Día 3127: Soñó con 'río_tranquilo' (madre). Insight: El valle fertil amplifica la tensión del madre; trauma abandono infantil presiona desde adentro.
+- Día 3127: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 3127: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 3128: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma abandono infantil sobre el horizonte de valle fertil.
+- Día 3129: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3129: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 3129: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3129: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3129: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3130: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 3130: Cedió ingenuamente ante la manipulación de Dryas.
+- Día 3131: Soñó con 'tierra_resquebrajada' (self). Insight: En sabana abierta, trauma abandono infantil aparece en el otro — el self no se reconoce.
+- Día 3131: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3131: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3131: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3131: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3131: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3132: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3132: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Soñó con 'aplauso_vacío' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3133: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3134: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3135: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3135: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma abandono infantil enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 3135: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3135: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3135: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3135: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 3136: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 3136: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3136: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3136: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3136: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3136: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 3137: Soñó con 'danza_a_solas' (anima_animus). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 3138: Soñó con 'sendero_circular' (sombra). Insight: trauma abandono infantil enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3138: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 3139: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 3139: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 3140: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 3141: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma abandono infantil lo empuja sin nombre.
+- Día 3142: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 3143: Soñó con 'sed_en_el_agua' (sombra). Insight: trauma abandono infantil enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 3143: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3143: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3144: Intentó manipular a Idmon, pero fue descubierto.
+- Día 3145: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 3146: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma abandono infantil afuera en rio lago, donde no puede alcanzarlo.
+- Día 3146: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 3146: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 3147: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 3148: Soñó con 'vista_engañosa' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 3148: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 3148: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 3148: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 3149: Soñó con 'silencio_pleno' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3149: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3150: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3151: Soñó con 'danza_a_solas' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 3151: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3151: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3152: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 3152: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 3152: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3153: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 3153: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 3153: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 3154: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 3154: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 3155: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 3156: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3157: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3158: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3159: Soñó con 'descenso_inevitable' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 3160: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3161: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 3162: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 3163: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3164: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3165: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3165: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 3165: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 3166: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 3167: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 3168: Soñó con 'raíz_invisible' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 3169: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 3170: Soñó con 'trampa_propia' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 3170: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 3171: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma plaga enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3172: Soñó con 'danza_a_solas' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3173: Soñó con 'figura_que_sigue' (persona). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3174: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 3174: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 3175: Soñó con 'estrella_que_no_guía' (trickster). Insight: El trickster expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 3175: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 3175: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 3175: Detectó y rechazó un intento de manipulación de Malos.
+- Día 3175: Detectó y rechazó un intento de manipulación de Malos.
+- Día 3176: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 3177: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self crece desmedido en cueva — trauma plaga lo empuja sin nombre.
+- Día 3177: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 3178: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Día 3179: Soñó con 'horizonte_inmóvil' (self). Insight: El self ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3180: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3181: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 3181: El colapso de nuestra tribu. Solo quedamos 3.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3182: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3183: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3184: Soñó con 'aplauso_vacío' (persona). Insight: En costa abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3185: Soñó con 'árbol_sin_raíces' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 3185: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 3185: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 3185: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 3186: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3187: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3188: Soñó con 'laberinto_que_ríe' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3189: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 3190: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3191: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3192: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3193: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 3194: Soñó con 'cima_en_niebla' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 3195: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3196: Soñó con 'voz_propia_extraña' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 3197: Soñó con 'campo_interminable' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 3198: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3199: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3200: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 3201: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 3202: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 3203: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 3204: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3205: Soñó con 'sombra_que_camina' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3205: Intentó manipular a Iris, pero fue descubierto.
+- Día 3206: Soñó con 'unión_imposible' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 3206: Intentó manipular a Iris, pero fue descubierto.
+- Día 3206: Intentó manipular a Kyros, pero fue descubierto.
+- Día 3207: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3208: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 3209: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 3210: Soñó con 'papel_sin_actor' (self). Insight: En rio lago, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 3211: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 3212: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de cueva.
+- Día 3212: Detectó y rechazó un intento de manipulación de Erastos.
+- Día 3212: Detectó y rechazó un intento de manipulación de Erastos.
+- Día 3212: Detectó y rechazó un intento de manipulación de Erastos.
+- Día 3212: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 3213: Soñó con 'silencio_pleno' (self). Insight: El sabana abierta amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 3214: Soñó con 'habitación_prohibida' (self). Insight: En desierto borde, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3215: Soñó con 'nido_que_asfixia' (self). Insight: El self ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 3215: Intentó manipular a Erastos, pero fue descubierto.
+- Día 3215: Intentó manipular a Erastos, pero fue descubierto.
+- Día 3215: Intentó manipular a Erastos, pero fue descubierto.
+- Día 3216: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3217: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3218: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 3219: Soñó con 'huesos_propios' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 3220: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3221: Soñó con 'río_tranquilo' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 3222: Soñó con 'escenario_sin_salida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 3223: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3224: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3225: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3226: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3227: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 3228: Soñó con 'unión_imposible' (self). Insight: El self proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 3229: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 3230: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 3231: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3231: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3232: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3232: Soñó con 'laberinto_que_ríe' (trickster). Insight: En lago interior, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 3232: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3232: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 3232: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3233: Soñó con 'roca_que_aplasta' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 3234: Soñó con 'agua_fría' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3235: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 3236: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 3237: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 3238: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 3238: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 3238: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 3238: Cedió ingenuamente ante la manipulación de Delia.
+- Día 3239: Soñó con 'ojos_en_la_roca' (sombra). Insight: trauma plaga enciende el sombra en cueva hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 3240: Soñó con 'árbol_que_aprieta' (persona). Insight: En cueva el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 3241: Soñó con 'aplauso_vacío' (persona). Insight: En rio lago el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3241: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Soñó con 'árbol_sin_raíces' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3242: Se impuso competitivamente ante Delia, absorbiendo sus recursos biológicos.
+- Día 3243: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3244: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 3245: Soñó con 'papel_sin_actor' (sabio). Insight: En rio lago, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 3246: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3247: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3248: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3249: Soñó con 'reflejo_que_actúa_solo' (trickster). Insight: En bosque templado, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 3250: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 3251: Soñó con 'luz_oblicua' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 3251: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3251: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3251: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3252: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 3253: Soñó con 'laberinto_que_ríe' (trickster). Insight: En colinas suaves, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 3254: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 3255: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 3256: Soñó con 'sed_en_el_agua' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 3257: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3258: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 3259: Soñó con 'máscara_adherida' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 3260: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3261: Soñó con 'papel_sin_actor' (persona). Insight: trauma plaga enciende el persona en lago interior hasta quemar lo que toca.
+- Día 3262: Soñó con 'espejo_que_miente' (persona). Insight: En lago interior el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 3263: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 3264: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3265: Soñó con 'profundidad_sin_fondo' (persona). Insight: El lago interior amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 3266: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 3266: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 3266: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 3266: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 3267: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3268: Soñó con 'calma_antes_de_algo' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 3269: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 3270: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 3271: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 3272: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 3273: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 3274: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 3275: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3276: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 3277: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 3278: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3279: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 3280: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 3281: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3282: Soñó con 'habitación_prohibida' (self). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 3283: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 3284: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3284: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 3284: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 3285: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 3285: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 3285: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3285: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3285: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 3286: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3287: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3287: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Soñó con 'voz_sin_cuerpo' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3288: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3289: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3290: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3291: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Soñó con 'campo_interminable' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3292: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3293: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 3293: Falleció a causa de sequia_prolongada.

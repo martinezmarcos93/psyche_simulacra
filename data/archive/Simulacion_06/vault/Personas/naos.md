@@ -1,0 +1,9057 @@
+---
+id: naos
+nombre: Naos
+rol: madre
+edad: 35
+sexo: F
+is_alive: False
+posicion: [76, 18]
+humor: 0.579
+energia: 0.258
+ansiedad: 0.658
+needs:
+  hambre: 0.204
+  fatiga: 0.786
+  sed: 0.405
+  sociabilidad: 0.080
+arquetipo_dominante: sabio
+estado_conductual: cooperacion
+arquetipos:
+  self: 0.979
+  persona: 0.992
+  sombra: 0.987
+  anima_animus: 0.986
+  heroe: 0.758
+  sabio: 1.000
+  trickster: 0.987
+  madre: 0.979
+  padre: 0.863
+  nino_divino: 0.594
+  gobernante: 0.001
+  rebelde: 0.325
+---
+# 👤 Persona: Naos
+
+> **Rol:** `madre` | **Edad:** 35 | **Sexo:** F | **Ubicación:** `(76, 18)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.58 |
+| **Energía** | `[▓▓▓░░░░░░░]` | 0.26 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.66 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓░░░░░░░░]` | 0.20 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.79 | 🟢 Descansado |
+| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.979` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.992` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.987` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.986` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.758` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Sabio** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.987` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `0.979` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.863` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Nino divino** | `0.594` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.001` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.325` | `▓▓▓▓░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[alke]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[alphos]] | `-0.16` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[ambix]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[anthe]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[arche]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[arsis]] | `-0.36` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[chryse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[creon]] | `+0.28` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[delia]] | `-0.68` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[delos]] | `-0.72` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[dione]] | `+0.08` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[dirce]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[dryas]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[ecale]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eidyia]] | `-0.90` | `░░░░░░░░░░` | Ninguno |
+| [[elate]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[elpe]] | `+0.58` | `▓▓▓▓▓▓▓▓░░` | ⚛️ Entrelazado |
+| [[eos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erastos]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erato]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[eris]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[eryx]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ethos]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gaia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gonos]] | `-0.79` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gorgon]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[graia]] | `-0.40` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[herse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_000]] | `-0.98` | `░░░░░░░░░░` | Ninguno |
+| [[hijo_001]] | `-0.24` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_002]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_003]] | `-0.63` | `▓▓░░░░░░░░` | Ninguno |
+| [[hijo_004]] | `-0.72` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_005]] | `-0.82` | `▓░░░░░░░░░` | Ninguno |
+| [[hijo_008]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_009]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_011]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hijo_012]] | `-0.06` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[iapyx]] | `+0.18` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[ichnos]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[idmon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iole]] | `-0.36` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[irene]] | `-0.34` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[iris]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[isca]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[ision]] | `-0.62` | `▓▓░░░░░░░░` | Ninguno |
+| [[isos]] | `-0.42` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[ixion]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kleis]] | `+0.58` | `▓▓▓▓▓▓▓▓░░` | ⚛️ Entrelazado |
+| [[kore]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[koures]] | `-0.87` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kreon]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kyros]] | `-0.18` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[ladon]] | `-0.60` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[laimos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lethe]] | `+0.00` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[linos]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lycos]] | `-0.69` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[lysas]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[maia]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malos]] | `-0.05` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[manto]] | `-0.96` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[mecon]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[medon]] | `-0.86` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[meroe]] | `-0.86` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[mimas]] | `-0.76` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[misos]] | `-0.96` | `░░░░░░░░░░` | Ninguno |
+| [[mneme]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[molos]] | `-0.46` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[myron]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[mysia]] | `-0.52` | `▓▓░░░░░░░░` | Ninguno |
+| [[naiads]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[narke]] | `-0.28` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[neis]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[nomos]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 2669:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- **Día 2670:** Soñó con `'libro_en_lengua_muerta'` (arquetipo `sombra`).
+  - *Insight:* En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- **Día 2671:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- **Día 2672:** Soñó con `'bifurcación_sin_mapa'` (arquetipo `sombra`).
+  - *Insight:* El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- **Día 2673:** Soñó con `'figura_que_sigue'` (arquetipo `trickster`).
+  - *Insight:* El trickster expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- **Día 2674:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- **Día 2675:** Soñó con `'habitación_prohibida'` (arquetipo `sabio`).
+  - *Insight:* El valle fertil amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, el madre negocia con lo reprimido en el único idioma posible: el silencio.
+- Día 1: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2: Soñó con 'arena_que_avanza' (madre). Insight: El madre descansa en desierto borde mientras colapso civilizatorio aguarda en el umbral.
+- Día 2: Sufrió explotación y hostilidad de Isca, cediendo recursos biológicos.
+- Día 3: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, el madre encuentra tregua provisional con colapso civilizatorio.
+- Día 3: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 3: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 4: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 5: Soñó con 'nido_que_asfixia' (madre). Insight: El madre y colapso civilizatorio se toleran esta noche en bosque templado.
+- Día 5: Se enfrentó en un choque violento y destructivo contra Ision.
+- Día 5: Se enfrentó en un choque violento y destructivo contra Ision.
+- Día 6: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, el madre negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 7: Soñó con 'reflejo_distorsionado' (madre). Insight: El madre busca equilibrio en rio lago compensando la energía de colapso civilizatorio.
+- Día 8: Soñó con 'árbol_que_aprieta' (madre). Insight: Entre sombras de lago interior, el madre y colapso civilizatorio coexisten sin resolverse.
+- Día 9: Soñó con 'corriente_que_arrastra' (madre). Insight: El madre se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- Día 10: Soñó con 'leche_amarga' (madre). Insight: En sabana abierta, el madre negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 11: Soñó con 'leche_amarga' (madre). Insight: El madre se disfraza de su contrario en sabana abierta, lejos de colapso civilizatorio.
+- Día 12: Soñó con 'corriente_que_arrastra' (madre). Insight: En rio lago, el madre encuentra tregua provisional con colapso civilizatorio.
+- Día 13: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, el madre toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 14: Soñó con 'fondo_que_sube' (madre). Insight: colapso civilizatorio pesa demasiado — el madre cede terreno en rio lago para no caer.
+- Día 15: Soñó con 'árbol_que_aprieta' (madre). Insight: En desierto borde, colapso civilizatorio pierde fuerza un instante — el madre respira.
+- Día 16: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 16: Cooperó de forma mutua y armónica con Misos. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Misos. Su lazo social se fortaleció.
+- Día 17: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 18: Soñó con 'fondo_que_sube' (madre). Insight: En rio lago, el madre encuentra tregua provisional con colapso civilizatorio.
+- Día 19: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, el madre negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 20: Soñó con 'reflejo_sin_original' (madre). Insight: El madre se disfraza de su contrario en lago interior, lejos de colapso civilizatorio.
+- Día 21: Soñó con 'nido_que_asfixia' (madre). Insight: El madre y colapso civilizatorio se toleran esta noche en sabana abierta.
+- Día 22: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 23: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 24: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 25: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 26: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 27: Soñó con 'bifurcación_sin_mapa' (self). Insight: El self descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 27: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 28: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- Día 29: Soñó con 'unión_imposible' (self). Insight: El self descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 30: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 31: Soñó con 'río_tranquilo' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 32: Soñó con 'luz_oblicua' (self). Insight: El self y colapso civilizatorio se toleran esta noche en bosque templado.
+- Día 33: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 33: Sufrió explotación y hostilidad de Eidyia, cediendo recursos biológicos.
+- Día 33: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 33: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 33: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 33: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 33: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Soñó con 'viento_que_borra' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 34: Sufrió explotación y hostilidad de Eidyia, cediendo recursos biológicos.
+- Día 34: Sufrió explotación y hostilidad de Eidyia, cediendo recursos biológicos.
+- Día 35: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 36: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de bosque templado, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 37: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 38: Soñó con 'hierba_que_corta' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 39: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de sabana abierta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 40: Soñó con 'centro_sin_lugar' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
+- Día 41: Soñó con 'río_tranquilo' (self). Insight: El self se disfraza de su contrario en valle fertil, lejos de colapso civilizatorio.
+- Día 42: Soñó con 'unión_imposible' (self). Insight: Entre sombras de costa abierta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 43: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 44: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 45: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en valle fertil.
+- Día 46: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 47: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 48: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en bosque templado mientras colapso civilizatorio aguarda en el umbral.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 49: Soñó con 'silencio_pleno' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 50: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 51: Soñó con 'fruto_amargo' (self). Insight: Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 52: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 53: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en lago interior para no caer.
+- Día 54: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de sabana abierta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 55: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en lago interior compensando la energía de colapso civilizatorio.
+- Día 56: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de colinas suaves, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 57: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 58: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 59: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 59: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 59: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 59: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 60: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 60: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 61: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en sabana abierta.
+- Día 62: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Día 63: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
+- Día 64: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en sabana abierta compensando la energía de colapso civilizatorio.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 65: Soñó con 'viento_que_borra' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 66: Soñó con 'unión_imposible' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 66: Se enfrentó en un choque violento y destructivo contra Ision.
+- Día 66: Se enfrentó en un choque violento y destructivo contra Ision.
+- Día 66: Cooperó de forma mutua y armónica con Ision. Su lazo social se fortaleció.
+- Día 66: Cooperó de forma mutua y armónica con Ision. Su lazo social se fortaleció.
+- Día 67: Soñó con 'unión_imposible' (self). Insight: El pantano costero amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 68: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 69: Soñó con 'campo_interminable' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 70: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 71: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 71: Creó 'Objeto Sagrado de Sombra' (tipo=ambiguo) en estado compulsivo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 72: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 73: Soñó con 'abundancia_que_pudre' (self). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 74: Soñó con 'árbol_que_aprieta' (madre). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 75: Soñó con 'silencio_pleno' (madre). Insight: El madre ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 76: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 77: Soñó con 'árbol_sin_raíces' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 78: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 79: Soñó con 'río_que_nutre' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 80: Soñó con 'nido_que_asfixia' (madre). Insight: El madre busca equilibrio en desierto borde compensando la energía de colapso civilizatorio.
+- Día 81: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en cueva para no caer.
+- Día 82: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre busca equilibrio en sabana abierta compensando la energía de colapso civilizatorio.
+- Día 83: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 84: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 85: Soñó con 'mandala_incompleto' (self). Insight: El costa abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 86: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 87: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 88: Soñó con 'centro_sin_lugar' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 89: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 90: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 91: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 91: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 91: Cooperó de forma mutua y armónica con Ision. Su lazo social se fortaleció.
+- Día 92: Soñó con 'reflejo_sin_original' (self). Insight: El self crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 93: Soñó con 'caída_sin_fondo' (self). Insight: El montana alta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 93: Manipuló con éxito y astucia a Ision para ceder recursos.
+- Día 93: Manipuló con éxito y astucia a Ision para ceder recursos.
+- Día 93: Manipuló con éxito y astucia a Ision para ceder recursos.
+- Día 93: Manipuló con éxito y astucia a Ision para ceder recursos.
+- Día 93: Manipuló con éxito y astucia a Ision para ceder recursos.
+- Día 93: Se impuso competitivamente ante Ision, absorbiendo sus recursos biológicos.
+- Día 93: Se impuso competitivamente ante Ision, absorbiendo sus recursos biológicos.
+- Día 93: Se impuso competitivamente ante Ision, absorbiendo sus recursos biológicos.
+- Día 93: Se impuso competitivamente ante Ision, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 94: Soñó con 'viento_que_borra' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 95: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en lago interior hasta quemar lo que toca.
+- Día 96: Soñó con 'nido_que_asfixia' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 97: Soñó con 'reflejo_que_actúa_solo' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 98: Soñó con 'complemento_ausente' (self). Insight: El self ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 99: Soñó con 'unión_imposible' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 100: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 101: Soñó con 'roca_que_aplasta' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 102: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 103: Soñó con 'centro_sin_lugar' (self). Insight: El colinas suaves amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 104: Soñó con 'danza_a_solas' (self). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 105: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 106: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 107: Soñó con 'ojos_en_la_roca' (madre). Insight: El madre expulsa colapso civilizatorio hacia cueva: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 108: Soñó con 'manada_que_huye' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 109: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 110: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 111: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 112: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 113: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 114: Soñó con 'sal_en_herida' (madre). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 115: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 116: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 117: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 118: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 119: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 120: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 121: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 122: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 123: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 124: Soñó con 'ojos_en_la_roca' (madre). Insight: El madre crece desmedido en cueva — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 125: Soñó con 'agua_fría' (madre). Insight: En lago interior, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 126: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 127: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 128: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 129: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 130: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 131: Soñó con 'luz_oblicua' (madre). Insight: El madre ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 132: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 132: Cooperó de forma mutua y armónica con Misos. Su lazo social se fortaleció.
+- Día 132: Cooperó de forma mutua y armónica con Misos. Su lazo social se fortaleció.
+- Día 132: Cooperó de forma mutua y armónica con Misos. Su lazo social se fortaleció.
+- Día 132: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Misos.
+- Día 132: Detectó y rechazó un intento de manipulación de Misos.
+- Día 132: Detectó y rechazó un intento de manipulación de Misos.
+- Día 132: Detectó y rechazó un intento de manipulación de Misos.
+- Día 132: Detectó y rechazó un intento de manipulación de Misos.
+- Día 132: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Detectó y rechazó un intento de manipulación de Misos.
+- Día 133: Manipuló con éxito y astucia a Misos para ceder recursos.
+- Día 133: Manipuló con éxito y astucia a Misos para ceder recursos.
+- Día 134: Soñó con 'danza_a_solas' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 135: Soñó con 'descenso_inevitable' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 136: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 137: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 138: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 139: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 140: Soñó con 'eco_sin_origen' (sombra). Insight: colapso civilizatorio enciende el sombra en cueva hasta quemar lo que toca.
+- Día 141: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 141: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 142: Soñó con 'agua_fría' (madre). Insight: El lago interior amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 143: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 144: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 145: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 146: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 147: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 148: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 149: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 150: Soñó con 'nido_que_asfixia' (madre). Insight: En colinas suaves el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 151: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 152: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 153: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 154: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 155: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 156: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 157: Soñó con 'danza_a_solas' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 158: Soñó con 'horizonte_de_agua' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 159: Soñó con 'cima_en_niebla' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 160: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 161: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 162: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 163: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 164: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 165: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 166: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 167: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 168: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 169: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 170: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 171: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 172: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 173: Soñó con 'descenso_inevitable' (self). Insight: El self crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 174: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 175: Soñó con 'reflejo_distorsionado' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 176: Soñó con 'silencio_pleno' (self). Insight: En desierto borde el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 177: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 178: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 179: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 180: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 181: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 182: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 183: Soñó con 'unión_imposible' (self). Insight: En cueva, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 184: Soñó con 'horizonte_de_agua' (self). Insight: En costa abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 185: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 186: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 187: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 188: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 189: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 190: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 191: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 192: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 193: Soñó con 'marea_que_sube' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 194: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 195: Soñó con 'centro_sin_lugar' (self). Insight: El pantano costero amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 196: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en valle fertil hasta quemar lo que toca.
+- Día 197: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 198: Soñó con 'sed_en_el_agua' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 199: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 200: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 201: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 202: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 203: Soñó con 'descenso_inevitable' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 203: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 204: Soñó con 'figura_que_sigue' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 205: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 206: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 207: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 208: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 209: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 210: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 211: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 212: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 213: Soñó con 'espejo_que_miente' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 214: Soñó con 'unión_imposible' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 215: Soñó con 'silencio_pleno' (self). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 216: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 217: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 218: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 219: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 220: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 221: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 222: Soñó con 'profundidad_sin_fondo' (self). Insight: El self expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 223: Soñó con 'leche_amarga' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 224: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 225: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 226: Soñó con 'reflejo_sin_original' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 227: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 228: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 229: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 230: Soñó con 'espejo_que_miente' (anima_animus). Insight: En lago interior, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 231: Soñó con 'descenso_inevitable' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 231: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 232: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 233: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 234: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 235: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 236: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 237: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 238: Soñó con 'campo_interminable' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 239: Soñó con 'descenso_inevitable' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 240: Soñó con 'espejo_que_miente' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 241: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 242: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 243: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 244: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 245: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 246: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 247: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 248: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 249: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 250: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 251: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 252: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 253: Soñó con 'silencio_absoluto' (madre). Insight: El madre expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 254: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 255: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 256: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 257: Soñó con 'tierra_resquebrajada' (madre). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 258: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 259: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 260: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 261: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 262: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 263: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 264: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 265: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 266: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 267: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 268: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 269: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 270: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 271: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 272: Soñó con 'corriente_que_arrastra' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 273: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 274: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 275: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 276: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 277: Soñó con 'río_que_nutre' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 278: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 279: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 280: Soñó con 'habitación_prohibida' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 281: Soñó con 'voz_propia_extraña' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 282: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 282: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 283: Soñó con 'fondo_que_sube' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 283: Detectó y rechazó un intento de manipulación de Kyros.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 284: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 285: Soñó con 'horizonte_inmóvil' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 286: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 287: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 288: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 289: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 290: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 291: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 291: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 291: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Soñó con 'campo_interminable' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 295: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 296: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 297: Soñó con 'voz_propia_extraña' (madre). Insight: colapso civilizatorio enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 297: Manipuló con éxito y astucia a Dirce para ceder recursos.
+- Día 297: Manipuló con éxito y astucia a Dirce para ceder recursos.
+- Día 297: Manipuló con éxito y astucia a Dirce para ceder recursos.
+- Día 297: Manipuló con éxito y astucia a Dirce para ceder recursos.
+- Día 297: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Dirce.
+- Día 297: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Dirce.
+- Día 298: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 298: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 298: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 299: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 299: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mecon.
+- Día 300: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mecon.
+- Día 300: Soñó con 'horizonte_inmóvil' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 301: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 302: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 302: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 303: Soñó con 'leche_amarga' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 304: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 305: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 306: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Dirce.
+- Día 306: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 306: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 307: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Myron.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 308: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 309: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 310: Soñó con 'silencio_absoluto' (sabio). Insight: El montana alta amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 310: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 311: Soñó con 'huesos_propios' (persona). Insight: El persona ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 312: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 312: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 312: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 313: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 313: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 314: Soñó con 'manada_que_huye' (sabio). Insight: colapso civilizatorio enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 314: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 315: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 315: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 315: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 315: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 316: Soñó con 'voz_propia_extraña' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 317: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 317: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 318: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 319: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 320: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 321: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 321: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 322: Soñó con 'aplauso_vacío' (anima_animus). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 323: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 324: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 325: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 326: Soñó con 'estrella_que_no_guía' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 327: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 328: Soñó con 'fruto_amargo' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 329: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 329: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 329: Cedió ingenuamente ante la manipulación de Ecale.
+- Día 329: Cedió ingenuamente ante la manipulación de Ecale.
+- Día 330: Soñó con 'manada_que_huye' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 331: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 332: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 333: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 334: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 335: Soñó con 'complemento_ausente' (self). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 336: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 337: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 338: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 338: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 339: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 340: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 341: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 342: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 343: Soñó con 'complemento_ausente' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 344: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 344: Se impuso competitivamente ante Mimas, absorbiendo sus recursos biológicos.
+- Día 344: Se impuso competitivamente ante Mimas, absorbiendo sus recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 344: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 345: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 345: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 345: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 345: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 346: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 347: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 348: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 348: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 350: Soñó con 'salida_inexistente' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 351: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 352: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 352: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 353: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 353: Cedió ingenuamente ante la manipulación de Arche.
+- Día 353: Cedió ingenuamente ante la manipulación de Arche.
+- Día 353: Cedió ingenuamente ante la manipulación de Arche.
+- Día 354: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 355: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 356: Soñó con 'río_que_nutre' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 357: Soñó con 'danza_a_solas' (anima_animus). Insight: El cueva amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 358: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 358: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 358: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 358: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 359: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 360: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 361: Soñó con 'sendero_circular' (sabio). Insight: El sabio ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 362: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 363: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 364: Nació Niobe.
+- Día 364: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 365: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 366: Soñó con 'voz_sin_cuerpo' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 367: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 368: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 369: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 370: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 371: Soñó con 'río_tranquilo' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 372: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 373: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 374: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 375: Soñó con 'silencio_pleno' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 376: Soñó con 'mandala_incompleto' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 377: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 377: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 378: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 379: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 380: Soñó con 'voz_propia_extraña' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 380: Intentó manipular a Mneme, pero fue descubierto.
+- Día 380: Intentó manipular a Mneme, pero fue descubierto.
+- Día 380: Intentó manipular a Mneme, pero fue descubierto.
+- Día 381: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 382: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 383: Soñó con 'río_que_nutre' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 384: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 385: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 386: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 387: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 388: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 388: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 388: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 388: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 388: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 388: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Día 389: Cedió ingenuamente ante la manipulación de Mneme.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 390: Soñó con 'sombra_que_camina' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 390: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 390: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 390: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 390: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 390: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 391: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 392: Soñó con 'papel_sin_actor' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 393: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 394: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 395: Soñó con 'escenario_sin_salida' (madre). Insight: En pantano costero, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 396: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 397: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 398: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 399: Soñó con 'complemento_ausente' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 399: Detectó y rechazó un intento de manipulación de Linos.
+- Día 399: Detectó y rechazó un intento de manipulación de Linos.
+- Día 399: Detectó y rechazó un intento de manipulación de Linos.
+- Día 399: Detectó y rechazó un intento de manipulación de Linos.
+- Día 399: Detectó y rechazó un intento de manipulación de Linos.
+- Día 400: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 400: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cedió ingenuamente ante la manipulación de Dirce.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 401: Cooperó de forma mutua y armónica con Anthe. Su lazo social se fortaleció.
+- Día 402: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 403: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 403: Cedió ingenuamente ante la manipulación de Linos.
+- Día 403: Cedió ingenuamente ante la manipulación de Linos.
+- Día 403: Cedió ingenuamente ante la manipulación de Linos.
+- Día 403: Cedió ingenuamente ante la manipulación de Linos.
+- Día 403: Cedió ingenuamente ante la manipulación de Linos.
+- Día 404: Cedió ingenuamente ante la manipulación de Linos.
+- Día 404: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 404: Cedió ingenuamente ante la manipulación de Linos.
+- Día 404: Cedió ingenuamente ante la manipulación de Linos.
+- Día 404: Cedió ingenuamente ante la manipulación de Linos.
+- Día 404: Cedió ingenuamente ante la manipulación de Linos.
+- Día 405: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 406: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 406: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 407: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 408: Soñó con 'figura_que_sigue' (persona). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 409: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 409: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 409: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 409: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 410: Soñó con 'descenso_inevitable' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 411: Soñó con 'camino_conocido' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 411: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 411: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 411: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 411: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 411: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 411: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 412: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 412: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 412: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 412: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 412: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 413: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 414: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 415: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 416: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 417: Soñó con 'sombra_que_camina' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 418: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 418: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 419: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 419: Intentó manipular a Delia, pero fue descubierto.
+- Día 420: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 421: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 422: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 422: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 422: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 422: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 422: Cooperó de forma mutua y armónica con Creon. Su lazo social se fortaleció.
+- Día 422: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 422: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 422: Manipuló con éxito y astucia a Creon para ceder recursos.
+- Día 423: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 423: Intentó manipular a Creon, pero fue descubierto.
+- Día 423: Intentó manipular a Creon, pero fue descubierto.
+- Día 423: Intentó manipular a Creon, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 424: Soñó con 'escenario_sin_salida' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 424: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 425: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 425: Cedió ingenuamente ante la manipulación de Creon.
+- Día 426: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 426: Cedió ingenuamente ante la manipulación de Lethe.
+- Día 426: Se impuso competitivamente ante Lethe, absorbiendo sus recursos biológicos.
+- Día 426: Se impuso competitivamente ante Lethe, absorbiendo sus recursos biológicos.
+- Día 426: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 426: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 427: Soñó con 'espejo_que_miente' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 428: Soñó con 'danza_a_solas' (anima_animus). Insight: En lago interior, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 429: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 429: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 430: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 430: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 430: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 430: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 431: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 432: Soñó con 'fruto_amargo' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 433: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 433: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 433: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 433: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 434: Soñó con 'semilla_negra' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 435: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 436: Soñó con 'sol_que_calcina' (sabio). Insight: El sabio crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 437: Soñó con 'sol_que_calcina' (sabio). Insight: El sabio crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 438: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En valle fertil, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 439: Soñó con 'camino_conocido' (sabio). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 440: Soñó con 'centro_sin_lugar' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 441: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 441: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 441: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 441: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 441: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 442: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 443: Soñó con 'niebla_densa' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 443: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 443: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 443: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 443: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 443: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 444: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 445: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 446: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 447: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 447: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 447: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 447: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 447: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 448: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 449: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 450: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 451: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 451: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 452: Soñó con 'manada_que_huye' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 453: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 454: Soñó con 'laberinto_que_ríe' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 455: Soñó con 'puerta_que_se_mueve' (madre). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 456: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 456: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 457: Soñó con 'escenario_sin_salida' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 458: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 459: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 460: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 461: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 462: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 463: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 464: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 464: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 464: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 464: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 464: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 464: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 464: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 464: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Soñó con 'voz_sin_cuerpo' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 465: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 466: Soñó con 'aplauso_vacío' (persona). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 467: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 468: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 468: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 468: Intentó manipular a Gonos, pero fue descubierto.
+- Día 468: Intentó manipular a Gonos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 469: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 470: Soñó con 'unión_imposible' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 471: Soñó con 'mandala_incompleto' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 472: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 472: Intentó manipular a Eos, pero fue descubierto.
+- Día 472: Intentó manipular a Eos, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 473: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 473: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 473: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 473: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 473: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 473: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 474: Cedió ingenuamente ante la manipulación de Manto.
+- Día 475: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 475: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 475: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 475: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 475: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 476: Soñó con 'sol_que_calcina' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 477: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 478: Soñó con 'voz_sin_cuerpo' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 478: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 479: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 480: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 481: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 482: Soñó con 'reflejo_distorsionado' (sabio). Insight: El rio lago amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 483: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 484: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 485: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: En valle fertil el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 486: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: El trickster crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 487: Soñó con 'piedra_que_rueda' (trickster). Insight: En colinas suaves el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 488: Soñó con 'mandala_incompleto' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 489: Soñó con 'río_tranquilo' (trickster). Insight: En valle fertil, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 490: Soñó con 'centro_sin_lugar' (trickster). Insight: En sabana abierta el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 491: Soñó con 'laberinto_que_ríe' (trickster). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 492: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 493: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 494: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 495: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En valle fertil, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 496: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 497: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 498: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 499: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 500: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 501: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 502: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 503: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 504: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 505: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de desierto borde.
+- Día 506: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 507: Soñó con 'figura_que_sigue' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 508: Soñó con 'habitación_prohibida' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 509: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 510: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 511: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 512: Soñó con 'danza_a_solas' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 512: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 513: Soñó con 'eco_sin_origen' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 514: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 514: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 515: Soñó con 'habitación_prohibida' (self). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 516: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 517: Soñó con 'complemento_ausente' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 518: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 519: Soñó con 'sombra_que_camina' (trickster). Insight: El bosque templado amplifica la tensión del trickster; colapso civilizatorio presiona desde adentro.
+- Día 520: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 521: Soñó con 'laberinto_que_ríe' (trickster). Insight: colapso civilizatorio enciende el trickster en valle fertil hasta quemar lo que toca.
+- Día 522: Soñó con 'trampa_propia' (trickster). Insight: En costa abierta, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 523: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 523: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 523: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 523: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 524: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 525: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 526: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 527: Soñó con 'espejo_que_miente' (sabio). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 528: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 529: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 530: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 531: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 532: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 533: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 533: Detectó y rechazó un intento de manipulación de Niobe.
+- Día 534: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 535: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En costa abierta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 535: Manipuló con éxito y astucia a Niobe para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Niobe para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Niobe para ceder recursos.
+- Día 535: Manipuló con éxito y astucia a Niobe para ceder recursos.
+- Día 536: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 537: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 538: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 539: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 540: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 541: Soñó con 'silencio_absoluto' (persona). Insight: El persona crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 542: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 543: Soñó con 'aplauso_vacío' (persona). Insight: En montana alta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 544: Soñó con 'espejo_que_miente' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 545: Soñó con 'voz_propia_extraña' (persona). Insight: En montana alta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 546: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 547: Soñó con 'unión_imposible' (persona). Insight: El persona ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 548: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 549: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 550: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 551: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 552: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 553: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 554: Soñó con 'voz_propia_extraña' (madre). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 555: Soñó con 'voz_propia_extraña' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 556: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 557: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 558: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 559: Soñó con 'piedra_que_rueda' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 560: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 561: Soñó con 'complemento_ausente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 562: Soñó con 'complemento_ausente' (anima_animus). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 563: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 564: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 565: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 566: Soñó con 'sombra_ausente' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 567: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 568: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 569: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 570: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 571: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 572: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 573: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 574: Soñó con 'máscara_adherida' (trickster). Insight: En bosque templado el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 575: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 575: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 576: Soñó con 'espejo_que_miente' (madre). Insight: El costa abierta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Intentó manipular a Tethys, pero fue descubierto.
+- Día 576: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Tethys.
+- Día 576: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 576: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 576: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 576: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 576: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 577: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 577: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 577: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 577: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 577: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 577: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 578: Soñó con 'leche_amarga' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 579: Soñó con 'unión_imposible' (madre). Insight: El madre crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 580: Soñó con 'silencio_pleno' (madre). Insight: El valle fertil amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 581: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 581: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 582: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 583: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 584: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En rio lago, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 585: Soñó con 'camino_conocido' (sabio). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 586: Soñó con 'piedra_que_rueda' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 587: Soñó con 'complemento_ausente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 587: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 587: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 587: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 588: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 588: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 588: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 589: Soñó con 'habitación_prohibida' (trickster). Insight: En costa abierta, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 590: Soñó con 'raíz_invisible' (trickster). Insight: En pantano costero, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 591: Soñó con 'espejo_que_miente' (trickster). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 592: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 592: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 593: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 594: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 595: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 596: Soñó con 'marea_que_sube' (madre). Insight: El madre ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 597: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 598: Soñó con 'complemento_ausente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 599: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 599: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 599: Intentó manipular a Arsis, pero fue descubierto.
+- Día 600: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 600: Intentó manipular a Arsis, pero fue descubierto.
+- Día 600: Se impuso competitivamente ante Arsis, absorbiendo sus recursos biológicos.
+- Día 601: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 602: Soñó con 'estrella_que_no_guía' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 602: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 602: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 602: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 602: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 602: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 603: Soñó con 'silencio_pleno' (self). Insight: En valle fertil el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 604: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 605: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 605: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 605: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 605: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 605: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 606: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 607: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 608: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 609: Soñó con 'estrella_que_no_guía' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 610: Soñó con 'danza_a_solas' (anima_animus). Insight: El rio lago amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 611: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 612: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 613: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 614: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 615: Soñó con 'unión_imposible' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 616: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 617: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 618: Soñó con 'laberinto_que_ríe' (trickster). Insight: En rio lago, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 619: Soñó con 'centro_sin_lugar' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 620: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 621: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 621: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 621: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 621: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 622: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 622: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 622: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 622: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 623: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 624: Soñó con 'río_que_nutre' (madre). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 625: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 626: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 626: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 627: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 628: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 629: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 630: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 631: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 631: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 631: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 632: Soñó con 'escenario_sin_salida' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 632: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 632: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 632: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 633: Soñó con 'habitación_prohibida' (sabio). Insight: En rio lago, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 633: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 634: Soñó con 'corriente_que_arrastra' (sabio). Insight: colapso civilizatorio enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 634: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 635: Soñó con 'camino_conocido' (sabio). Insight: En rio lago, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 635: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 635: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 635: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 635: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 635: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 636: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 637: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 637: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 637: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 638: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 638: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 638: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 639: Soñó con 'escenario_sin_salida' (persona). Insight: El lago interior amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 640: Soñó con 'escenario_sin_salida' (persona). Insight: El sabana abierta amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 640: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 641: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 642: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 643: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 644: Soñó con 'unión_imposible' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 645: Soñó con 'escenario_sin_salida' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 645: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 646: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 647: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 648: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 649: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 649: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 650: Soñó con 'máscara_adherida' (trickster). Insight: colapso civilizatorio enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 650: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 650: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 650: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 651: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 651: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 651: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 651: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 652: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 653: Soñó con 'sed_en_el_agua' (madre). Insight: En rio lago, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 653: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Soñó con 'tierra_resquebrajada' (madre). Insight: El sabana abierta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 654: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 655: Soñó con 'luz_oblicua' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 655: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 656: Soñó con 'libro_en_lengua_muerta' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 656: Detectó y rechazó un intento de manipulación de Iris.
+- Día 656: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 656: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 656: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 657: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 658: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 659: Soñó con 'espejo_que_miente' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 660: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 661: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 662: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 663: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 664: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 664: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 664: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 664: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 664: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 664: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 665: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 666: Soñó con 'habitación_prohibida' (self). Insight: El self ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 667: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 668: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 669: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 670: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 671: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 672: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 673: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 674: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 675: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 676: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 677: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 678: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 679: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 680: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 681: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 682: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 682: Realizó ritual de integración para Misos. La presencia se volvió protectora.
+- Día 683: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 684: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 684: Cedió ingenuamente ante la manipulación de Isos.
+- Día 684: Cedió ingenuamente ante la manipulación de Isos.
+- Día 684: Cedió ingenuamente ante la manipulación de Isos.
+- Día 684: Cedió ingenuamente ante la manipulación de Isos.
+- Día 685: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 686: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 687: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 688: Soñó con 'bifurcación_sin_mapa' (madre). Insight: En colinas suaves el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 689: Soñó con 'leche_amarga' (madre). Insight: En rio lago, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 690: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 691: Soñó con 'unión_imposible' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 692: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 693: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 694: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 695: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 696: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 697: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 697: Intentó manipular a Iris, pero fue descubierto.
+- Día 698: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 699: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 700: Soñó con 'leche_amarga' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 700: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 700: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 700: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 700: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 700: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 700: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 700: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 700: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 701: Soñó con 'árbol_que_aprieta' (self). Insight: El costa abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 701: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 702: Soñó con 'voz_propia_extraña' (self). Insight: El self crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 703: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 704: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 705: Soñó con 'voz_propia_extraña' (self). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 706: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 706: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 706: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 707: Soñó con 'habitación_prohibida' (anima_animus). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 708: Soñó con 'profundidad_sin_fondo' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 709: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 710: Soñó con 'trampa_propia' (trickster). Insight: En lago interior, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 711: Soñó con 'habitación_prohibida' (trickster). Insight: El trickster proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 712: Soñó con 'río_tranquilo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 713: Soñó con 'figura_que_sigue' (sabio). Insight: colapso civilizatorio enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 714: Soñó con 'silencio_absoluto' (sabio). Insight: En montana alta el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 715: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 716: Soñó con 'luz_oblicua' (sabio). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 717: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 718: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 719: Soñó con 'espejo_que_miente' (anima_animus). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 720: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 721: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 722: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 723: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 724: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 725: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 726: Soñó con 'semilla_negra' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 727: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 728: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 729: Soñó con 'viento_que_borra' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 730: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 731: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 732: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 733: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 734: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 735: Soñó con 'profundidad_sin_fondo' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 736: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 737: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 738: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 739: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: colapso civilizatorio enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 740: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 741: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 742: Soñó con 'fruto_amargo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 743: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 744: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 745: Soñó con 'espejo_que_miente' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 746: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 747: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 748: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 749: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 750: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 751: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 752: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 753: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 754: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 755: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 756: Soñó con 'máscara_adherida' (trickster). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 757: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 758: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 759: Soñó con 'mandala_incompleto' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 760: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 761: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 762: Soñó con 'laberinto_que_ríe' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 763: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 764: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 765: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 766: Soñó con 'nido_que_asfixia' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 767: Soñó con 'tierra_resquebrajada' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 768: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 768: Creó 'Símbolo Oscuro de Sombra' (tipo=perturbador) en estado compulsivo.
+- Día 769: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 770: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 771: Soñó con 'río_que_nutre' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 772: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 773: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 774: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 775: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 776: Soñó con 'hierba_que_corta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 777: Soñó con 'montaña_que_escalar' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 778: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 779: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 780: Soñó con 'escenario_sin_salida' (persona). Insight: El pantano costero amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 781: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 782: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 783: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 784: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 785: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 786: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 787: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 788: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 789: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 790: Soñó con 'espejo_que_miente' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 791: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 792: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 793: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 794: Soñó con 'abundancia_que_pudre' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 795: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 796: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 797: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 798: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 799: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 800: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 801: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 802: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 803: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 804: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 805: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 806: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en lago interior hasta quemar lo que toca.
+- Día 807: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 808: Soñó con 'horizonte_inmóvil' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 809: Soñó con 'fruto_amargo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 810: Soñó con 'unión_imposible' (self). Insight: En costa abierta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 811: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 812: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 813: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 814: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 815: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 816: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 817: Soñó con 'habitación_prohibida' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 818: Soñó con 'naufragio_lento' (madre). Insight: En costa abierta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 819: Soñó con 'luz_oblicua' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 820: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en costa abierta hasta quemar lo que toca.
+- Día 820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 821: Soñó con 'árbol_que_aprieta' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 822: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 823: Soñó con 'tierra_resquebrajada' (madre). Insight: El sabana abierta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 824: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 825: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 826: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 827: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 828: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 829: Soñó con 'luz_oblicua' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 830: Soñó con 'habitación_prohibida' (madre). Insight: En sabana abierta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 831: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 832: Soñó con 'figura_que_sigue' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 833: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 834: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 835: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 836: Soñó con 'río_que_nutre' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 837: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 838: Soñó con 'tierra_resquebrajada' (self). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 839: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 839: Cedió ingenuamente ante la manipulación de Eos.
+- Día 839: Cedió ingenuamente ante la manipulación de Eos.
+- Día 840: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 841: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 842: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 843: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 844: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 845: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 846: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 847: Soñó con 'voz_propia_extraña' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 848: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 849: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 850: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 850: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 850: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 851: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 852: Soñó con 'río_que_nutre' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 853: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 853: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 854: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 855: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 856: Soñó con 'árbol_sin_raíces' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 857: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 858: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 859: Soñó con 'silencio_pleno' (madre). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 860: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 861: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 862: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 863: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 864: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 865: Soñó con 'calma_antes_de_algo' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 866: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 867: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 868: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 869: Soñó con 'silencio_pleno' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 870: Soñó con 'voz_propia_extraña' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 870: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 870: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 870: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 870: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 871: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 872: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 873: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 873: Creó 'Símbolo Oscuro de Sombra' (tipo=perturbador) en estado compulsivo.
+- Día 874: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 875: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 876: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 877: Soñó con 'semilla_negra' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 878: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 879: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 880: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 881: Soñó con 'trampa_propia' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 882: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 883: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 884: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 885: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 886: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 887: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 888: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 889: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 890: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 891: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 891: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 891: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 891: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 891: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 891: Detectó y rechazó un intento de manipulación de Graia.
+- Día 891: Detectó y rechazó un intento de manipulación de Graia.
+- Día 892: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 893: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 894: Soñó con 'escenario_sin_salida' (persona). Insight: En cueva, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 895: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 896: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 896: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 896: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 897: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 898: Soñó con 'árbol_que_aprieta' (madre). Insight: El colinas suaves amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 899: Soñó con 'nido_que_asfixia' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 900: Soñó con 'reflejo_distorsionado' (madre). Insight: colapso civilizatorio enciende el madre en rio lago hasta quemar lo que toca.
+- Día 900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 901: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 902: Soñó con 'leche_amarga' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 903: Soñó con 'sombra_ausente' (madre). Insight: En sabana abierta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 903: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 903: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 904: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 905: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 905: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 905: Intentó manipular a Gorgon, pero fue descubierto.
+- Día 905: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 905: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 906: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 906: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 906: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 907: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 907: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 907: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 908: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 909: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 910: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 910: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 911: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 912: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 912: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 912: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 912: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 913: Soñó con 'viento_que_borra' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 914: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 915: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa colapso civilizatorio hacia desierto borde: allá afuera, entre los demás.
+- Día 915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 915: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 915: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 915: Detectó y rechazó un intento de manipulación de Delos.
+- Día 915: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 916: Soñó con 'estrella_que_no_guía' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 917: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 918: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 918: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 918: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 918: Manipuló con éxito y astucia a Delos para ceder recursos.
+- Día 918: Manipuló con éxito y astucia a Delos para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 919: Soñó con 'ojos_en_la_roca' (persona). Insight: En cueva, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 920: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 921: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 921: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 921: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 921: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 921: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 921: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 922: Intentó manipular a Ambix, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 923: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 924: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 924: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 924: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 924: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 925: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 926: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 926: Intentó manipular a Ixion, pero fue descubierto.
+- Día 926: Intentó manipular a Ixion, pero fue descubierto.
+- Día 926: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 926: Intentó manipular a Ixion, pero fue descubierto.
+- Día 927: Soñó con 'tierra_resquebrajada' (trickster). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 928: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 928: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 929: Soñó con 'manada_que_huye' (madre). Insight: El madre ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 929: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 929: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 930: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 930: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 930: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 930: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 930: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 930: Se enfrentó en un choque violento y destructivo contra Glaukos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 930: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Soñó con 'árbol_que_aprieta' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 931: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 931: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 932: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 932: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Día 932: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 933: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 933: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 934: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 934: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 935: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 935: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 936: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 937: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 937: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 937: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 937: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 937: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 938: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 939: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 940: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 940: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Día 940: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Día 940: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Día 941: Soñó con 'laberinto_que_ríe' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 942: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 942: Cedió ingenuamente ante la manipulación de Alke.
+- Día 942: Cedió ingenuamente ante la manipulación de Alke.
+- Día 942: Cedió ingenuamente ante la manipulación de Alke.
+- Día 943: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 943: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 943: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 943: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 944: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 944: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 944: Sufrió explotación y hostilidad de Medon, cediendo recursos biológicos.
+- Día 944: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 945: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En lago interior, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 946: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Día 946: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 946: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 947: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 947: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 947: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 948: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 949: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 950: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 950: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 950: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 951: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 952: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 953: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 953: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 954: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 954: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 955: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 956: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 957: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 958: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 959: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 960: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 961: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 961: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 962: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 962: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 962: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 963: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 964: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 965: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 966: Soñó con 'danza_a_solas' (madre). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 966: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 967: Sufrió explotación y hostilidad de Anthe, cediendo recursos biológicos.
+- Día 967: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 968: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 969: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 970: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 970: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 970: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 970: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 971: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 971: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 972: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 972: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 972: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 972: Se enfrentó en un choque violento y destructivo contra Medon.
+- Día 972: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 973: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 974: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 975: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 975: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 975: Cedió ingenuamente ante la manipulación de Koures.
+- Día 975: Cedió ingenuamente ante la manipulación de Koures.
+- Día 976: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 976: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 976: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 976: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 977: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 977: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 978: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 979: Soñó con 'voz_propia_extraña' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 980: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 980: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 980: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 980: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 980: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 980: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 980: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 981: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 981: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 981: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 981: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 982: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 982: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 982: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 982: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 982: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 982: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 982: Cooperó de forma mutua y armónica con Medon. Su lazo social se fortaleció.
+- Día 983: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 983: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 983: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 984: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 984: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 985: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 985: Cedió ingenuamente ante la manipulación de Koures.
+- Día 985: Cedió ingenuamente ante la manipulación de Koures.
+- Día 986: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 987: Soñó con 'máscara_adherida' (trickster). Insight: El trickster proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 987: Intentó manipular a Lysas, pero fue descubierto.
+- Día 987: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 988: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 989: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 990: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 991: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 991: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 992: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 992: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 992: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 992: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 992: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 992: Intentó manipular a Idmon, pero fue descubierto.
+- Día 992: Intentó manipular a Idmon, pero fue descubierto.
+- Día 992: Intentó manipular a Idmon, pero fue descubierto.
+- Día 993: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 993: Intentó manipular a Idmon, pero fue descubierto.
+- Día 993: Intentó manipular a Idmon, pero fue descubierto.
+- Día 994: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 994: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 995: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 995: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 996: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 996: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 996: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 997: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 998: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 999: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 999: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 999: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 999: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1000: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1001: Soñó con 'sombra_ausente' (sabio). Insight: El sabio ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1002: Soñó con 'papel_sin_actor' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1002: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1002: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1003: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1003: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1004: Soñó con 'fruto_amargo' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1005: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1006: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1006: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1006: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1006: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1007: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1007: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1008: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1009: Soñó con 'mandala_incompleto' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1010: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1011: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1012: Soñó con 'voz_propia_extraña' (persona). Insight: El persona ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1013: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1013: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1013: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1014: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1015: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 1015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1015: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iapyx.
+- Día 1015: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iapyx.
+- Día 1015: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 1015: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 1016: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1016: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1017: Soñó con 'agua_fría' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 1018: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1019: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1020: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1020: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1020: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1021: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1022: Soñó con 'ojos_en_la_roca' (sombra). Insight: El sombra ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Día 1023: Soñó con 'habitación_prohibida' (self). Insight: El colinas suaves amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1024: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1024: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1024: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1025: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1025: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1025: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1026: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1027: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1027: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1027: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1027: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1028: Soñó con 'mandala_incompleto' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1029: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1030: Soñó con 'voz_propia_extraña' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1031: Soñó con 'figura_que_sigue' (self). Insight: En valle fertil el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1032: Soñó con 'profundidad_sin_fondo' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1032: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1033: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1033: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1034: Soñó con 'manada_que_huye' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1034: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1034: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1034: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1035: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1036: Soñó con 'marea_que_sube' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 1036: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1036: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1037: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1038: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1039: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1040: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1041: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1042: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 1043: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1044: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 1045: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1046: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1047: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1048: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1049: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1050: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1051: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1052: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 1053: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1053: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1053: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1053: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1053: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1054: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 1055: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1056: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1057: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1058: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1059: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 1060: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1061: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1061: Intentó manipular a Amaryllis, pero fue descubierto.
+- Día 1061: Intentó manipular a Amaryllis, pero fue descubierto.
+- Día 1061: Intentó manipular a Amaryllis, pero fue descubierto.
+- Día 1062: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1063: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1064: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1065: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1066: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 1067: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1068: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1069: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1070: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1071: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 1072: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1073: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1074: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1075: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1076: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 1077: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1078: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1079: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1080: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1081: Soñó con 'árbol_que_aprieta' (madre). Insight: El colinas suaves amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 1082: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1083: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1084: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1085: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1086: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1087: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1088: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1089: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1090: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1091: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1092: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1093: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1094: Soñó con 'sal_en_herida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1095: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1096: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1097: Soñó con 'unión_imposible' (self). Insight: En sabana abierta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1098: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1099: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1100: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1101: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 1102: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1103: Soñó con 'unión_imposible' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1104: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1105: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1106: Soñó con 'unión_imposible' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1107: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1108: Soñó con 'voz_propia_extraña' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1109: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1110: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1111: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1112: Soñó con 'silencio_pleno' (self). Insight: El colinas suaves amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1113: Soñó con 'luz_oblicua' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1114: Soñó con 'figura_que_sigue' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1115: Soñó con 'habitación_prohibida' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1116: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1117: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1118: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1119: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1120: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1121: Soñó con 'mandala_incompleto' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1122: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1123: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1124: Soñó con 'sombra_que_camina' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1125: Soñó con 'árbol_que_aprieta' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1126: Soñó con 'árbol_que_aprieta' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1127: Soñó con 'figura_que_sigue' (madre). Insight: En sabana abierta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1128: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1129: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1130: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1131: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1132: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1133: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1134: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1135: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1136: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1137: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1138: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1139: Soñó con 'calma_antes_de_algo' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1140: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1141: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1142: Soñó con 'camino_conocido' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1143: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1144: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1145: Soñó con 'tierra_resquebrajada' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1146: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1147: Soñó con 'estrella_que_no_guía' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1148: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1149: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1150: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1151: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1152: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1153: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1154: Soñó con 'camino_conocido' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1155: Soñó con 'abundancia_que_pudre' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1156: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1157: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1158: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 1159: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 1160: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1161: Soñó con 'mandala_incompleto' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1162: Soñó con 'figura_que_sigue' (self). Insight: En rio lago, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1163: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1164: Soñó con 'sed_en_el_agua' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1165: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 1165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1166: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1167: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1168: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1168: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1168: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1168: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1168: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1169: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1170: Soñó con 'figura_que_sigue' (self). Insight: El self expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1171: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1172: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1172: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1172: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1172: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1173: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 1174: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1175: Soñó con 'figura_que_sigue' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1176: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1177: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1178: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1179: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1180: Soñó con 'fondo_que_sube' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1180: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1181: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1182: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1183: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 1184: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 1185: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1186: Soñó con 'mandala_incompleto' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1186: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1186: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1186: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1186: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1186: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1187: Soñó con 'unión_imposible' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1187: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1187: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1187: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1188: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1189: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1190: Soñó con 'fruto_amargo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1191: Soñó con 'habitación_prohibida' (sabio). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1192: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1193: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1194: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1195: Soñó con 'silencio_pleno' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 1195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1196: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1197: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1197: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 1197: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 1198: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1199: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1200: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1200: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1200: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1200: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1201: Soñó con 'unión_imposible' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1202: Soñó con 'unión_imposible' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1202: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1202: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1202: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1202: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1202: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1203: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1204: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1205: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1205: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1206: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1207: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 1207: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1207: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1207: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1207: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1208: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1208: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1208: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1208: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1208: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1208: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1209: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1210: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1210: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1210: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1211: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1211: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1211: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1211: Cedió ingenuamente ante la manipulación de Tethys.
+- Día 1211: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1211: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1211: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1211: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1212: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1212: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1212: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1213: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1214: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1215: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1216: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1216: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1217: Intentó manipular a Meroe, pero fue descubierto.
+- Día 1218: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1219: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1220: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1220: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 1220: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 1220: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 1221: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 1222: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1222: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 1222: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 1222: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 1222: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 1222: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 1223: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1223: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Aegon.
+- Día 1223: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Aegon.
+- Día 1224: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1224: Intentó manipular a Aegon, pero fue descubierto.
+- Día 1224: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 1224: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1224: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1224: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1224: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1224: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Soñó con 'río_tranquilo' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1225: Manipuló con éxito y astucia a Eunomia para ceder recursos.
+- Día 1226: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1227: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 1228: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1228: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 1228: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 1228: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 1228: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 1229: Soñó con 'unión_imposible' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1230: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1231: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1232: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1233: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1234: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1234: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1234: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1234: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1235: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1235: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1236: Soñó con 'habitación_prohibida' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1236: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1236: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1237: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1237: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1237: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1237: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1237: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1237: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1237: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1238: Soñó con 'abundancia_que_pudre' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1239: Soñó con 'árbol_sin_raíces' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1240: Soñó con 'habitación_prohibida' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1241: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1241: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1241: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1242: Soñó con 'río_que_nutre' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1242: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1242: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 1243: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1243: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 1243: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1243: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1243: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1244: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1244: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1245: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1246: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 1246: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1246: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1247: Soñó con 'ojos_en_la_roca' (persona). Insight: El persona ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Día 1248: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1249: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1250: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1251: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1252: Soñó con 'río_tranquilo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1253: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1254: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1255: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1256: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1256: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1257: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1258: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1259: Soñó con 'campo_interminable' (madre). Insight: El madre crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1260: Soñó con 'voz_propia_extraña' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1261: Soñó con 'hierba_que_corta' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1261: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1261: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1261: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1262: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1262: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 1262: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 1262: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 1263: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1263: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1264: Soñó con 'sed_en_el_agua' (self). Insight: El self expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1265: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1266: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1266: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1266: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1266: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1267: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1267: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1268: Soñó con 'centro_sin_lugar' (persona). Insight: En pradera humeda el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1268: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1268: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1268: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1268: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1268: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1268: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1268: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1268: Se enfrentó en un choque violento y destructivo contra Kyros.
+- Día 1268: Detectó y rechazó un intento de manipulación de Molos.
+- Día 1268: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 1269: Soñó con 'figura_que_sigue' (persona). Insight: El persona crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1269: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1269: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1269: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1269: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 1269: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1270: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1270: Soñó con 'espada_rota' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 1270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1270: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1270: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1270: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1271: Soñó con 'voz_propia_extraña' (persona). Insight: El persona ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1272: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1273: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1274: Soñó con 'estrella_que_no_guía' (sabio). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1274: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1274: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1274: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1275: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1275: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1275: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1275: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 1276: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1277: Soñó con 'unión_imposible' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1277: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1277: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1278: Soñó con 'sombra_que_camina' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1279: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1279: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Meroe.
+- Día 1280: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1280: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1281: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1282: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1282: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Día 1282: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Día 1283: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1284: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1284: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1284: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 1284: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1285: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 1285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1285: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1286: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1286: Detectó y rechazó un intento de manipulación de Aegon.
+- Día 1287: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 1287: Intentó manipular a Eirene, pero fue descubierto.
+- Día 1287: Intentó manipular a Eirene, pero fue descubierto.
+- Día 1288: Soñó con 'leche_amarga' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1289: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1290: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1290: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 1291: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1292: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1293: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1294: Soñó con 'sed_en_el_agua' (persona). Insight: El rio lago amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1295: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 1295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1296: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1297: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1297: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1298: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1299: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1299: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1299: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1299: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1300: Soñó con 'leche_amarga' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1300: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1300: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1300: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1300: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1300: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1300: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1300: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1301: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1301: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1301: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1301: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1301: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1301: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1302: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1303: Soñó con 'árbol_que_aprieta' (madre). Insight: El lago interior amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 1304: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 1304: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Día 1305: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1306: Soñó con 'voz_propia_extraña' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1306: Manipuló con éxito y astucia a Mysia para ceder recursos.
+- Día 1307: Soñó con 'árbol_que_aprieta' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1308: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1309: Soñó con 'reflejo_distorsionado' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1309: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1309: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1309: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1309: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1309: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1309: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 1310: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1310: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1310: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1310: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1311: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1311: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1311: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1311: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1311: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1312: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1312: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1312: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1312: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1313: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1314: Soñó con 'complemento_ausente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 1315: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1316: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1317: Soñó con 'reflejo_que_actúa_solo' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1318: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1319: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 1320: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1321: Soñó con 'oscuridad_total' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 1321: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1321: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1321: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1321: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1322: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1322: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Maia.
+- Día 1323: Soñó con 'unión_imposible' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1324: Soñó con 'calor_que_piensa' (self). Insight: El self ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1324: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1324: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1325: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1326: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1326: Soñó con 'monstruo_sin_forma' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1326: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1326: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1326: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1327: Soñó con 'habitación_prohibida' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1328: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1329: Soñó con 'descenso_inevitable' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 1330: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1330: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1330: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1330: Cedió ingenuamente ante la manipulación de Elate.
+- Día 1330: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1330: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1330: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1330: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1330: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1331: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1332: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1333: Soñó con 'abundancia_que_pudre' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1333: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1333: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1334: Soñó con 'centro_sin_lugar' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1335: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1335: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 1336: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1336: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 1337: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1337: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1338: Soñó con 'estrella_que_no_guía' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1339: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 1340: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 1340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1341: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1342: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1343: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1344: Soñó con 'río_que_nutre' (sombra). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1345: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1346: Soñó con 'camino_conocido' (sabio). Insight: En montana alta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1347: Soñó con 'monstruo_sin_forma' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1348: Soñó con 'monstruo_sin_forma' (sabio). Insight: colapso civilizatorio enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 1349: Soñó con 'montaña_que_escalar' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1349: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 1349: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 1349: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 1349: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1350: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1350: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1350: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1350: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1350: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1350: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1350: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1350: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1351: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1352: Soñó con 'camino_conocido' (sabio). Insight: En rio lago el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1352: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1352: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1352: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 1352: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 1352: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 1352: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1352: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1352: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1353: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1354: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 1355: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1356: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1356: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1356: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1356: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1356: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1357: Soñó con 'mandala_incompleto' (sabio). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1358: Soñó con 'agua_fría' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1359: Soñó con 'centro_sin_lugar' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1359: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 1359: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 1360: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1361: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 1362: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1363: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1364: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1365: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 1365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1366: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1367: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1367: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1367: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1368: Soñó con 'silencio_pleno' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1369: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1370: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1371: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1372: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1372: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1372: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1372: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1372: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1373: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1373: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1374: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1375: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 1375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1375: Detectó y rechazó un intento de manipulación de Delos.
+- Día 1376: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1376: Cedió ingenuamente ante la manipulación de Delos.
+- Día 1377: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1378: Soñó con 'reflejo_sin_original' (self). Insight: colapso civilizatorio enciende el self en lago interior hasta quemar lo que toca.
+- Día 1379: Soñó con 'unión_imposible' (self). Insight: El pantano costero amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1380: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1381: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1382: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1383: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1384: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1384: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1385: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1386: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1387: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1388: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1388: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1388: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1388: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1389: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1389: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1389: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1389: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1389: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1390: Soñó con 'estrella_que_no_guía' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1391: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1392: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1393: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 1394: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1395: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 1395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1395: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 1395: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 1395: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 1395: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 1396: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1397: Soñó con 'camino_conocido' (sabio). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1398: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 1399: Soñó con 'calor_que_piensa' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1400: Soñó con 'luz_oblicua' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1401: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1402: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1402: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 1403: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1403: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1403: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1403: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1404: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1404: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1404: Intentó manipular a Graia, pero fue descubierto.
+- Día 1404: Intentó manipular a Graia, pero fue descubierto.
+- Día 1405: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1406: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1407: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1408: Soñó con 'unión_imposible' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1408: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Soñó con 'centro_sin_lugar' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 1409: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Malis.
+- Día 1410: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1410: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Delos.
+- Día 1411: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1412: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1413: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1414: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1415: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1416: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1417: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1418: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 1419: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1420: Soñó con 'espejo_que_miente' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1421: Soñó con 'hierba_que_corta' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1422: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1423: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1424: Soñó con 'reflejo_distorsionado' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1425: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1425: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1425: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1425: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1425: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1425: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1426: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1427: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1428: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1429: Soñó con 'sombra_que_camina' (sabio). Insight: El bosque templado amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 1429: Cedió ingenuamente ante la manipulación de Manto.
+- Día 1430: Soñó con 'fondo_que_sube' (sabio). Insight: El sabio ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1430: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1431: Soñó con 'arena_que_avanza' (sombra). Insight: El sombra ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1432: Soñó con 'tierra_resquebrajada' (sabio). Insight: El sabana abierta amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 1432: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 1432: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 1432: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1432: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Soñó con 'sed_en_el_agua' (sabio). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1433: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1434: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1434: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1434: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1434: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1435: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1436: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1437: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1438: Soñó con 'semilla_negra' (self). Insight: El self crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1438: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1438: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1439: Soñó con 'unión_imposible' (self). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1440: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1441: Soñó con 'figura_que_sigue' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1442: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1442: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1443: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 1444: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1445: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1446: Soñó con 'luz_oblicua' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1447: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1448: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 1449: Soñó con 'espada_rota' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1450: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1451: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1452: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1453: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1454: Soñó con 'bifurcación_sin_mapa' (madre). Insight: colapso civilizatorio enciende el madre en colinas suaves hasta quemar lo que toca.
+- Día 1455: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1456: Soñó con 'voz_propia_extraña' (madre). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1457: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1458: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1459: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1460: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1461: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1462: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1463: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1464: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1465: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1466: Soñó con 'luz_oblicua' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1467: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1468: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1468: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1469: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1470: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1471: Soñó con 'monstruo_sin_forma' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1472: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1473: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1474: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1475: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1476: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1477: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1478: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 1479: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1480: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1481: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1482: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1483: Soñó con 'campo_interminable' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1484: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1485: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1485: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1485: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1485: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1485: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1485: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1486: Soñó con 'horizonte_inmóvil' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1487: Soñó con 'figura_que_sigue' (persona). Insight: El persona ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1487: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1487: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1488: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1488: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1488: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1488: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1488: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1488: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1488: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1488: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1488: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Soñó con 'papel_sin_actor' (persona). Insight: colapso civilizatorio enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1490: Soñó con 'danza_a_solas' (persona). Insight: En valle fertil, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1491: Soñó con 'oscuridad_total' (persona). Insight: En cueva el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1492: Soñó con 'danza_a_solas' (persona). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1493: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1494: Soñó con 'espejo_que_miente' (persona). Insight: El persona crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1495: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 1495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1496: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1497: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1498: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1499: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1500: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1501: Soñó con 'árbol_que_aprieta' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1502: Soñó con 'sombra_ausente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1502: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1502: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1502: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1502: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 1503: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1504: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1505: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1506: Soñó con 'complemento_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1507: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 1508: Soñó con 'camino_conocido' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1509: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1510: Soñó con 'leche_amarga' (madre). Insight: El lago interior amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 1510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1511: Soñó con 'leche_amarga' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1512: Soñó con 'profundidad_sin_fondo' (madre). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1513: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 1514: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1515: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1516: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1517: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1518: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 1519: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1520: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1521: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1522: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1523: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1524: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1525: Soñó con 'voz_propia_extraña' (madre). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1526: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 1527: Soñó con 'leche_amarga' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1528: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1529: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1530: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1531: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1532: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1533: Soñó con 'nido_que_asfixia' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1533: Intentó manipular a Molos, pero fue descubierto.
+- Día 1533: Intentó manipular a Molos, pero fue descubierto.
+- Día 1534: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1535: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 1535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1536: Soñó con 'camino_conocido' (sabio). Insight: En costa abierta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1537: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 1537: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1537: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Soñó con 'manada_que_huye' (sabio). Insight: El sabio crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1538: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Soñó con 'semilla_negra' (sabio). Insight: colapso civilizatorio enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1539: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Arche, absorbiendo sus recursos biológicos.
+- Día 1540: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 1540: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1540: Manipuló con éxito y astucia a Arche para ceder recursos.
+- Día 1541: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1542: Soñó con 'campo_interminable' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1542: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 1542: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 1542: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 1543: Soñó con 'corriente_que_arrastra' (sabio). Insight: El sabio crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 1544: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1545: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1546: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1546: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Soñó con 'viento_que_borra' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1547: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1548: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Soñó con 'aplauso_vacío' (sabio). Insight: colapso civilizatorio enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1549: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 1550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1550: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1551: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1552: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1553: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1554: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 1555: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1556: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 1557: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1557: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1558: Soñó con 'figura_que_sigue' (self). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1558: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1558: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1558: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1558: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1559: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1560: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1560: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 1560: Cedió ingenuamente ante la manipulación de Arche.
+- Día 1560: Cedió ingenuamente ante la manipulación de Arche.
+- Día 1560: Cedió ingenuamente ante la manipulación de Arche.
+- Día 1561: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1561: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1561: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1562: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1562: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1562: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1563: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1563: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 1564: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1565: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1566: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 1567: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1568: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1569: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1570: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1570: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1571: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1572: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1573: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1573: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 1573: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1573: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1573: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1573: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1573: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1574: Soñó con 'vista_engañosa' (madre). Insight: El madre expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 1574: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1574: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 1575: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1575: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1575: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1575: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1575: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1575: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Malis.
+- Día 1575: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Malis.
+- Día 1576: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1577: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1578: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 1578: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 1578: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 1579: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 1580: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 1580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1581: Soñó con 'árbol_que_aprieta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1581: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1581: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1582: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1582: Detectó y rechazó un intento de manipulación de Eris.
+- Día 1582: Detectó y rechazó un intento de manipulación de Eris.
+- Día 1582: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1583: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1584: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1584: Detectó y rechazó un intento de manipulación de Malos.
+- Día 1584: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 1584: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1584: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1585: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1585: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1586: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1587: Soñó con 'monstruo_sin_forma' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1588: Soñó con 'marea_que_sube' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1589: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1590: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: Intentó manipular a Malos, pero fue descubierto.
+- Día 1590: Intentó manipular a Malos, pero fue descubierto.
+- Día 1590: Intentó manipular a Malos, pero fue descubierto.
+- Día 1590: Intentó manipular a Malos, pero fue descubierto.
+- Día 1590: Intentó manipular a Malos, pero fue descubierto.
+- Día 1591: Intentó manipular a Malos, pero fue descubierto.
+- Día 1591: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1592: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1592: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1592: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1592: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1593: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1593: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1593: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1594: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1594: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1594: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1594: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1594: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1595: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1595: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1595: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1595: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1596: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de desierto borde.
+- Día 1597: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1597: Intentó manipular a Malos, pero fue descubierto.
+- Día 1597: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1598: Intentó manipular a Malos, pero fue descubierto.
+- Día 1599: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 1600: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1600: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1600: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 1600: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1600: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1601: Soñó con 'trampa_propia' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 1602: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1603: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1604: Soñó con 'silencio_pleno' (self). Insight: El rio lago amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1605: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 1606: Soñó con 'figura_que_sigue' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 1606: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1606: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1606: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1606: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1607: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1608: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1609: Soñó con 'camino_conocido' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1609: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1610: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1611: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1612: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 1613: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 1614: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1615: Soñó con 'espejo_que_miente' (self). Insight: El self expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1615: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1615: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1616: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1616: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1616: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1616: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 1616: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 1617: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1617: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1617: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1617: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1617: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1617: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1617: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1617: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1617: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1617: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1618: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1618: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1619: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1619: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1619: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 1619: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 1619: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Soñó con 'horizonte_inmóvil' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1620: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1620: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1620: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1621: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1621: Intentó manipular a Molos, pero fue descubierto.
+- Día 1621: Intentó manipular a Molos, pero fue descubierto.
+- Día 1621: Intentó manipular a Molos, pero fue descubierto.
+- Día 1621: Intentó manipular a Molos, pero fue descubierto.
+- Día 1621: Intentó manipular a Molos, pero fue descubierto.
+- Día 1621: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1621: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1621: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1621: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1621: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1621: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1622: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 1623: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 1623: Intentó manipular a Gaia, pero fue descubierto.
+- Día 1623: Intentó manipular a Gaia, pero fue descubierto.
+- Día 1623: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1624: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1625: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1625: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1625: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1626: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1626: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1627: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1627: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1627: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1628: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 1628: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1628: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1628: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1628: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Soñó con 'danza_a_solas' (sombra). Insight: En cueva el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 1629: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1629: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1629: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1629: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1630: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1630: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1631: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1631: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 1631: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 1631: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1632: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1632: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1632: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1633: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1633: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1633: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1633: Sufrió explotación y hostilidad de Ichnos, cediendo recursos biológicos.
+- Día 1633: Sufrió explotación y hostilidad de Ichnos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1634: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1634: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1635: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1635: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1636: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1636: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1636: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1637: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1637: Intentó manipular a Gonos, pero fue descubierto.
+- Día 1638: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 1639: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1639: Intentó manipular a Delia, pero fue descubierto.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1639: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1640: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: Intentó manipular a Delia, pero fue descubierto.
+- Día 1640: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1640: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1641: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1641: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 1641: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1641: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1642: Soñó con 'agua_fría' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 1642: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1643: Soñó con 'camino_conocido' (trickster). Insight: En rio lago el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1644: Soñó con 'trampa_propia' (trickster). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1645: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1646: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 1647: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1648: Soñó con 'mandala_incompleto' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1649: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1649: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1649: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1649: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1650: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1650: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1650: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1650: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1650: Sufrió explotación y hostilidad de Ichnos, cediendo recursos biológicos.
+- Día 1650: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1650: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1651: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1652: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1652: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1653: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1654: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1655: Soñó con 'leche_amarga' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1656: Soñó con 'escenario_sin_salida' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1656: Intentó manipular a Tethys, pero fue descubierto.
+- Día 1657: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1657: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1657: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1657: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1657: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1657: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1658: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1659: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1660: Soñó con 'espejo_que_miente' (trickster). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1661: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1662: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 1662: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 1662: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1662: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1662: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1662: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1662: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Día 1663: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1663: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1663: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Día 1664: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 1664: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1664: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1664: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1664: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1664: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1665: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1666: Soñó con 'habitación_prohibida' (sabio). Insight: En bosque templado, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1666: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1667: Soñó con 'hierba_que_corta' (sabio). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 1668: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1668: Intentó manipular a Arsis, pero fue descubierto.
+- Día 1668: Intentó manipular a Arsis, pero fue descubierto.
+- Día 1668: Intentó manipular a Arsis, pero fue descubierto.
+- Día 1668: Intentó manipular a Arsis, pero fue descubierto.
+- Día 1668: Intentó manipular a Arsis, pero fue descubierto.
+- Día 1669: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1669: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1669: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 1670: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1671: Soñó con 'espejo_que_miente' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1671: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 1671: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 1671: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 1672: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 1673: Soñó con 'hierba_que_corta' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 1674: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 1674: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1674: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1674: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1674: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1675: Soñó con 'danza_a_solas' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1676: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1677: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1678: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1679: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1680: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1681: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1682: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en desierto borde — colapso civilizatorio lo empuja sin nombre.
+- Día 1683: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1684: Soñó con 'libro_en_lengua_muerta' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1685: Soñó con 'espejo_que_miente' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1686: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 1687: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1688: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1688: Cedió ingenuamente ante la manipulación de Malos.
+- Día 1688: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1689: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1689: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1689: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1689: Cedió ingenuamente ante la manipulación de Malos.
+- Día 1690: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1691: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1692: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1693: Soñó con 'árbol_que_aprieta' (self). Insight: El sabana abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 1694: Soñó con 'campo_interminable' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 1695: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1695: Intentó manipular a Delia, pero fue descubierto.
+- Día 1695: Intentó manipular a Delia, pero fue descubierto.
+- Día 1695: Intentó manipular a Delia, pero fue descubierto.
+- Día 1695: Intentó manipular a Delia, pero fue descubierto.
+- Día 1695: Intentó manipular a Manto, pero fue descubierto.
+- Día 1695: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1695: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1696: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1696: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1696: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1696: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1697: Soñó con 'espejo_que_miente' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 1698: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1698: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1698: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1698: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1699: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1700: Soñó con 'río_que_nutre' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1701: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1702: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1702: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1702: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1703: Soñó con 'raíz_invisible' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1703: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1704: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 1705: Soñó con 'unión_imposible' (self). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1706: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1706: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1707: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1708: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 1709: Soñó con 'monstruo_sin_forma' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1709: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1709: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1710: Soñó con 'monstruo_sin_forma' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1711: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 1711: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1711: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1712: Soñó con 'victoria_vacía' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 1712: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1712: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1712: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1712: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1712: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1712: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1712: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1712: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1712: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1712: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1712: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1712: Intentó manipular a Isos, pero fue descubierto.
+- Día 1712: Intentó manipular a Gonos, pero fue descubierto.
+- Día 1713: Soñó con 'espada_rota' (sabio). Insight: El bosque templado amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 1713: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 1713: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 1713: Intentó manipular a Isos, pero fue descubierto.
+- Día 1714: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1714: Intentó manipular a Isos, pero fue descubierto.
+- Día 1714: Intentó manipular a Isos, pero fue descubierto.
+- Día 1714: Intentó manipular a Isos, pero fue descubierto.
+- Día 1714: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 1714: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 1714: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1714: Intentó manipular a Isos, pero fue descubierto.
+- Día 1715: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1715: Intentó manipular a Isos, pero fue descubierto.
+- Día 1715: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 1716: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1716: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1716: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1716: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1717: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1717: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1717: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1718: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1718: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1719: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1720: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1720: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1721: Soñó con 'abundancia_que_pudre' (madre). Insight: El madre ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1721: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1722: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1722: Revivió el recuerdo de Falleció Kleis.
+- Día 1722: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 1723: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: En valle fertil el sabio se expande más allá del control; Falleció es el combustible.
+- Día 1723: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1724: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En sabana abierta el sabio se expande más allá del control; Falleció es el combustible.
+- Día 1724: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1724: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1724: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1724: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 1725: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1725: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1725: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 1725: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 1725: Se enfrentó en un choque violento y destructivo contra Graia.
+- Día 1726: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1726: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1727: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Día 1727: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1727: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1728: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1729: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1729: Revivió el recuerdo de Falleció Kleis.
+- Día 1730: Soñó con 'lugar_vacío' (sombra). Insight: Falleció enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1730: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1730: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1731: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1732: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1733: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1733: Presencia inquietante — Kleis no tiene lugar de descanso.
+- Día 1734: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1734: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1735: Revivió el recuerdo de Falleció Kleis.
+- Día 1735: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1735: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1735: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 1736: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1737: Soñó con 'hierba_que_corta' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1738: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1739: Soñó con 'nido_que_asfixia' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1739: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1739: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1740: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1740: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1741: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1741: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1741: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1742: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1743: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1744: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1745: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1745: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1746: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1747: Soñó con 'voz_propia_extraña' (self). Insight: En lago interior, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1748: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1749: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1750: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1750: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1751: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 1752: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1752: Intentó manipular a Ecale, pero fue descubierto.
+- Día 1753: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1754: Soñó con 'aplauso_vacío' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1755: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1755: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1756: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1757: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1758: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1759: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1760: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1760: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1761: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1762: Soñó con 'espejo_que_miente' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1763: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1764: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1765: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1765: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1766: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1767: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1768: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1769: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 1770: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1770: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1770: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1771: Soñó con 'camino_conocido' (sabio). Insight: En rio lago el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1772: Soñó con 'río_que_nutre' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1773: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1774: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 1775: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1775: Revivió el recuerdo de Falleció Kleis.
+- Día 1775: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1775: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1775: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1775: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1776: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1777: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1778: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1779: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1779: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 1779: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1779: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1780: Soñó con 'naufragio_lento' (madre). Insight: El costa abierta amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1780: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1780: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 1780: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 1781: Soñó con 'espejo_que_miente' (madre). Insight: El madre crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1782: Soñó con 'figura_que_sigue' (madre). Insight: El madre expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1782: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 1782: Cedió ingenuamente ante la manipulación de Chryse.
+- Día 1783: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1783: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1783: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1783: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1784: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1784: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1785: Soñó con 'nido_que_asfixia' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1785: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1786: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1787: Soñó con 'libro_en_lengua_muerta' (madre). Insight: En pantano costero, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1788: Soñó con 'figura_que_sigue' (madre). Insight: trauma plaga enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1789: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1790: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1790: Revivió el recuerdo de Falleció Kleis.
+- Día 1790: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1791: Soñó con 'lugar_vacío' (sombra). Insight: El sombra expulsa Falleció hacia pradera humeda: allá afuera, entre los demás.
+- Día 1791: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1791: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 1791: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1792: Soñó con 'nombre_que_nadie_dice' (madre). Insight: En pradera humeda el madre se expande más allá del control; Falleció es el combustible.
+- Día 1792: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1792: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1792: Detectó y rechazó un intento de manipulación de Manto.
+- Día 1792: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1793: Soñó con 'lugar_vacío' (madre). Insight: En rio lago, el madre no puede contenerse — Falleció alimenta el fuego.
+- Día 1793: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1793: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 1794: Soñó con 'voz_propia_extraña' (madre). Insight: Falleció enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1794: Cedió ingenuamente ante la manipulación de Manto.
+- Día 1794: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1794: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1794: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1794: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1794: Sufrió explotación y hostilidad de Elpe, cediendo recursos biológicos.
+- Día 1795: Soñó con 'nombre_que_nadie_dice' (madre). Insight: Falleció enciende el madre en lago interior hasta quemar lo que toca.
+- Día 1795: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1796: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa Falleció hacia lago interior: allá afuera, entre los demás.
+- Día 1796: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 1797: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 1797: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1797: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1798: Soñó con 'nombre_que_nadie_dice' (madre). Insight: El madre ve Falleció afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1798: Revivió el recuerdo de Falleció Kleis.
+- Día 1799: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra crece desmedido en valle fertil — Falleció lo empuja sin nombre.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1799: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1800: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 1800: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1801: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1801: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1802: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1803: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1804: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1805: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1805: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1805: Intentó manipular a Isos, pero fue descubierto.
+- Día 1805: Intentó manipular a Isos, pero fue descubierto.
+- Día 1806: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1807: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1808: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1809: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1810: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1810: Revivió el recuerdo de Falleció Kleis.
+- Día 1810: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1811: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: Falleció enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1812: Soñó con 'habitación_prohibida' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1813: Soñó con 'complemento_ausente' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de sabana abierta.
+- Día 1814: Soñó con 'sombra_que_sigue_caminando' (sabio). Insight: El sabio ve Falleció afuera en rio lago, donde no puede alcanzarlo.
+- Día 1815: Soñó con 'danza_a_solas' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1815: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1816: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1816: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1817: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1818: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1819: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1819: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1819: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1819: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1819: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1819: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1820: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1820: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1821: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Soñó con 'habitación_prohibida' (madre). Insight: En rio lago el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1822: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1823: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Soñó con 'reflejo_distorsionado' (madre). Insight: En rio lago, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1824: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Soñó con 'sed_en_el_agua' (madre). Insight: El madre expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1825: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1825: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Soñó con 'reflejo_distorsionado' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1826: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1827: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1828: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1829: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1830: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1830: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1831: Soñó con 'río_que_nutre' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1832: Soñó con 'hierba_que_corta' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1832: Revivió el recuerdo de Falleció Kleis.
+- Día 1833: Soñó con 'nombre_que_nadie_dice' (madre). Insight: El rio lago amplifica la tensión del madre; Falleció presiona desde adentro.
+- Día 1834: Soñó con 'sol_que_calcina' (madre). Insight: El sabana abierta amplifica la tensión del madre; Falleció presiona desde adentro.
+- Día 1834: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1834: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1834: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1834: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1834: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1835: Soñó con 'espejo_que_miente' (madre). Insight: Falleció enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1835: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1835: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1835: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1835: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1835: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1836: Soñó con 'silencio_pleno' (madre). Insight: trauma plaga enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1837: Soñó con 'nido_que_asfixia' (madre). Insight: El colinas suaves amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1838: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1839: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1839: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Soñó con 'sombra_ausente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1840: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1840: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1841: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1842: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1842: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mecon.
+- Día 1842: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 1842: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1842: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1843: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1844: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1844: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1844: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 1845: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1845: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1846: Soñó con 'espejo_que_miente' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1846: Detectó y rechazó un intento de manipulación de Mecon.
+- Día 1846: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1847: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1847: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1848: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1849: Soñó con 'escenario_sin_salida' (persona). Insight: En rio lago el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1850: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1850: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1850: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1850: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1851: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1852: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1853: Soñó con 'semilla_negra' (madre). Insight: El madre crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1854: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1855: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1855: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1856: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1856: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 1856: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1857: Soñó con 'habitación_prohibida' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1858: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1859: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1860: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1860: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1860: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 1861: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1862: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1863: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1863: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1863: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1863: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1863: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1863: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1863: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1863: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1864: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1864: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1865: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1865: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1865: Intentó manipular a Delia, pero fue descubierto.
+- Día 1866: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil el self se expande más allá del control; trauma plaga es el combustible.
+- Día 1867: Soñó con 'mandala_incompleto' (self). Insight: El self ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1868: Soñó con 'oasis_espejismo' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1869: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1870: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1870: Revivió el recuerdo de Falleció Kleis.
+- Día 1870: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1870: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1871: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1872: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1873: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1874: Soñó con 'sol_que_calcina' (madre). Insight: trauma plaga enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1874: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1874: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1874: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1875: Soñó con 'mandala_incompleto' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1875: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1875: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1875: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1875: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1875: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1875: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1876: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1876: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1876: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1877: Soñó con 'figura_que_sigue' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1877: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1877: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1878: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1879: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1879: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1880: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1880: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1880: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1880: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1881: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1882: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1882: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1882: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1882: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1882: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1882: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1883: Soñó con 'nido_que_asfixia' (madre). Insight: trauma plaga enciende el madre en montana alta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1884: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1885: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1885: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1886: Soñó con 'habitación_prohibida' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1886: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Soñó con 'río_que_nutre' (madre). Insight: El valle fertil amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1887: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1888: Soñó con 'río_que_nutre' (madre). Insight: El cueva amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1889: Soñó con 'roca_que_aplasta' (madre). Insight: El montana alta amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1889: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1889: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1889: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1889: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1889: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1890: Soñó con 'río_que_nutre' (madre). Insight: El valle fertil amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1890: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1891: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1891: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Soñó con 'centro_sin_lugar' (madre). Insight: En valle fertil, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1892: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1892: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1892: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1892: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1892: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1893: Soñó con 'silencio_pleno' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1893: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1893: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1893: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1893: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1893: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1894: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1894: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1894: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1895: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 1895: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1895: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1895: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1895: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1896: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1897: Soñó con 'mandala_incompleto' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1898: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1899: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1900: Soñó con 'hierba_que_corta' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 1900: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1901: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1901: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1901: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1901: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1901: Cedió ingenuamente ante la manipulación de Molos.
+- Día 1901: Cedió ingenuamente ante la manipulación de Molos.
+- Día 1901: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1901: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1902: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1903: Soñó con 'montaña_que_escalar' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1904: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1905: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma plaga enciende el sabio en montana alta hasta quemar lo que toca.
+- Día 1905: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1905: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1905: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1905: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1905: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1905: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1906: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1907: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1907: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1908: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1908: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1908: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1908: Cedió ingenuamente ante la manipulación de Linos.
+- Día 1909: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1910: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1910: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1911: Soñó con 'árbol_que_aprieta' (self). Insight: El self crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1912: Soñó con 'espejo_que_miente' (self). Insight: El self ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1913: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1914: Soñó con 'árbol_sin_raíces' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1914: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 1915: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1915: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1916: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1916: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1916: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1916: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 1917: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1918: Soñó con 'figura_que_sigue' (trickster). Insight: En bosque templado, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1919: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 1920: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1920: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1921: Soñó con 'unión_imposible' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1922: Soñó con 'silencio_pleno' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1923: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1923: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1923: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1923: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Eos, pero fue descubierto.
+- Día 1924: Intentó manipular a Molos, pero fue descubierto.
+- Día 1924: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1924: Intentó manipular a Ethos, pero fue descubierto.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1924: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1924: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1924: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1924: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1924: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1925: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1925: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1925: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1925: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1925: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1925: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1925: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1925: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 1926: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1926: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 1927: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1928: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1928: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1928: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1929: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1930: Soñó con 'sal_en_herida' (sombra). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1930: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1931: Soñó con 'abundancia_que_pudre' (sabio). Insight: En valle fertil el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1932: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1932: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 1933: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Día 1934: Soñó con 'oasis_espejismo' (madre). Insight: En desierto borde el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1935: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1935: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1936: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1936: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1937: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1938: Soñó con 'nido_que_asfixia' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1939: Soñó con 'árbol_que_aprieta' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1940: Soñó con 'nido_que_asfixia' (madre). Insight: En colinas suaves, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1940: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1941: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1942: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1943: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1944: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1944: Revivió el recuerdo de Falleció Kleis.
+- Día 1945: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1945: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1946: Soñó con 'lugar_vacío' (sombra). Insight: En bosque templado, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1947: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En valle fertil el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1948: Soñó con 'lugar_vacío' (sombra). Insight: Falleció enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1949: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra expulsa Falleció hacia pradera humeda: allá afuera, entre los demás.
+- Día 1950: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, Falleció tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1950: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1951: Soñó con 'lugar_vacío' (sombra). Insight: El sombra expulsa Falleció hacia bosque templado: allá afuera, entre los demás.
+- Día 1952: Soñó con 'trampa_propia' (trickster). Insight: Falleció enciende el trickster en valle fertil hasta quemar lo que toca.
+- Día 1953: Soñó con 'sombra_que_sigue_caminando' (trickster). Insight: En valle fertil el trickster se expande más allá del control; Falleció es el combustible.
+- Día 1954: Soñó con 'lugar_vacío' (trickster). Insight: El trickster crece desmedido en bosque templado — Falleció lo empuja sin nombre.
+- Día 1955: Soñó con 'sombra_que_sigue_caminando' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — Falleció alimenta el fuego.
+- Día 1955: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1956: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa Falleció hacia rio lago: allá afuera, entre los demás.
+- Día 1957: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: Falleció enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1958: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1958: Revivió el recuerdo de Falleció Kleis.
+- Día 1959: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — Falleció alimenta el fuego.
+- Día 1960: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de rio lago.
+- Día 1960: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1961: Soñó con 'nombre_que_nadie_dice' (self). Insight: En pradera humeda, el self no puede contenerse — Falleció alimenta el fuego.
+- Día 1962: Soñó con 'nombre_que_nadie_dice' (self). Insight: El self proyecta Falleció sobre el horizonte de bosque templado.
+- Día 1962: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 1962: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 1962: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 1963: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: En desierto borde el sombra se expande más allá del control; Falleció es el combustible.
+- Día 1964: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de lago interior.
+- Día 1965: Soñó con 'sombra_que_sigue_caminando' (self). Insight: En lago interior, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1965: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1965: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1965: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1966: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1966: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1967: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1968: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1968: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1968: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1969: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1970: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1970: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1971: Soñó con 'figura_que_sigue' (madre). Insight: El madre expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1971: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1971: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 1972: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1972: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1972: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1972: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1972: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1972: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1972: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1972: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Soñó con 'leche_amarga' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1973: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1973: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 1973: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 1973: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 1974: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1974: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1974: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1974: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1974: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1974: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1974: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1974: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1974: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1974: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1974: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Soñó con 'unión_imposible' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1975: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1975: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1976: Soñó con 'manada_que_huye' (persona). Insight: En sabana abierta, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1977: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1977: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 1977: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 1977: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 1978: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1978: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1978: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1978: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1978: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1978: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1979: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1980: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1980: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1981: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1982: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1983: Soñó con 'nido_que_asfixia' (madre). Insight: trauma plaga enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 1984: Soñó con 'nido_que_asfixia' (madre). Insight: En costa abierta el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1984: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1984: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1984: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1984: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1985: Soñó con 'corriente_que_arrastra' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1985: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1986: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1986: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1986: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 1987: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1988: Soñó con 'río_que_nutre' (madre). Insight: trauma plaga enciende el madre en costa abierta hasta quemar lo que toca.
+- Día 1989: Soñó con 'río_que_nutre' (madre). Insight: trauma plaga enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1990: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1990: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1991: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1991: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1991: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 1992: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1992: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1992: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 1992: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 1993: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1994: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1995: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 1995: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 1996: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1996: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1996: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1996: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1996: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1997: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1998: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1999: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1999: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1999: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2000: Soñó con 'centro_sin_lugar' (self). Insight: El self ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 2000: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2001: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2001: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2001: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2002: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2003: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2004: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2005: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2005: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2005: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2006: Soñó con 'trampa_propia' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2007: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de cueva.
+- Día 2007: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2007: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2007: Manipuló con éxito y astucia a Erastos para ceder recursos.
+- Día 2008: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 2009: Soñó con 'corriente_que_arrastra' (trickster). Insight: El trickster expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2010: Soñó con 'libro_en_lengua_muerta' (self). Insight: El self ve trauma plaga afuera en cueva, donde no puede alcanzarlo.
+- Día 2010: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2011: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2012: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2013: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2014: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2014: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 2014: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 2014: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 2014: Intentó manipular a Eunomia, pero fue descubierto.
+- Día 2015: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2015: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2015: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2015: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2015: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2015: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2016: Soñó con 'niebla_densa' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Día 2017: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2018: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2019: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2020: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2020: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Glaukos.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Glaukos.
+- Día 2020: Se enfrentó en un choque violento y destructivo contra Glaukos.
+- Día 2021: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2021: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 2022: Soñó con 'unión_imposible' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2023: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2024: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2025: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2025: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2026: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2027: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2028: Soñó con 'marea_que_sube' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 2028: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 2028: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 2029: Soñó con 'centro_sin_lugar' (madre). Insight: En colinas suaves el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 2030: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 2030: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2031: Soñó con 'centro_sin_lugar' (madre). Insight: trauma plaga enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2031: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2032: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2033: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2033: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2034: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2035: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2035: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2035: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2036: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2036: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2036: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2036: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2036: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2037: Revivió el recuerdo de Falleció Kleis.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2037: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2038: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 2038: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Día 2038: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2038: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2038: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2038: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2039: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2039: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2039: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2039: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2039: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2040: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2040: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2041: Soñó con 'río_que_nutre' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2042: Soñó con 'sol_que_calcina' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 2042: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2042: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2042: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2042: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2042: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2042: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2043: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2044: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2045: Soñó con 'complemento_ausente' (anima_animus). Insight: En desierto borde el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2045: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2046: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2046: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2046: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2046: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2046: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 2047: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2048: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2049: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2050: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2050: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2051: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2052: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2052: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 2052: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 2053: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2054: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2055: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2055: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2055: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2055: Manipuló con éxito y astucia a Graia para ceder recursos.
+- Día 2056: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 2057: Soñó con 'leche_amarga' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2058: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2058: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2058: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2059: Soñó con 'sombra_ausente' (trickster). Insight: El trickster expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 2059: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2059: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2059: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2059: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2059: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2060: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2060: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2061: Soñó con 'pregunta_sin_respuesta' (madre). Insight: trauma plaga enciende el madre en montana alta hasta quemar lo que toca.
+- Día 2062: Soñó con 'figura_que_sigue' (madre). Insight: En colinas suaves el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 2062: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 2062: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 2062: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2062: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2062: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 2062: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 2063: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 2063: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 2063: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 2064: Soñó con 'silencio_pleno' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2065: Soñó con 'camino_conocido' (sabio). Insight: trauma plaga enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 2065: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2066: Soñó con 'estrella_que_no_guía' (sabio). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2067: Soñó con 'sombra_que_camina' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2067: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2067: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2068: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2069: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 2069: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2069: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2070: Soñó con 'sol_que_calcina' (sabio). Insight: El sabio ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2070: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2070: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2070: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2071: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2071: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2071: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2072: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2072: Revivió el recuerdo de Falleció Kleis.
+- Día 2072: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2072: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2072: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2072: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2072: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2072: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2073: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2074: Soñó con 'nido_que_asfixia' (madre). Insight: En costa abierta, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 2074: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 2074: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2075: Soñó con 'puerta_que_se_mueve' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2075: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2076: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2076: Manipuló con éxito y astucia a Kyros para ceder recursos.
+- Día 2077: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2078: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2079: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 2079: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2079: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2079: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2080: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2080: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2080: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 2081: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2082: Soñó con 'puerta_que_se_mueve' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2083: Soñó con 'danza_a_solas' (anima_animus). Insight: En costa abierta el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2083: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Día 2083: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Día 2084: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2085: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2085: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2085: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2085: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2085: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2086: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2087: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2088: Soñó con 'sombra_que_camina' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2088: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 2088: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 2088: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 2089: Soñó con 'silencio_pleno' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2090: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 2090: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2091: Soñó con 'horizonte_inmóvil' (self). Insight: El self expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2092: Soñó con 'leche_amarga' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2092: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2092: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2092: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2092: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2093: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2093: Revivió el recuerdo de Falleció Kleis.
+- Día 2093: Intentó manipular a Irene, pero fue descubierto.
+- Día 2093: Intentó manipular a Irene, pero fue descubierto.
+- Día 2093: Intentó manipular a Irene, pero fue descubierto.
+- Día 2093: Intentó manipular a Irene, pero fue descubierto.
+- Día 2093: Intentó manipular a Irene, pero fue descubierto.
+- Día 2094: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra expulsa Falleció hacia valle fertil: allá afuera, entre los demás.
+- Día 2094: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2095: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 2095: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2095: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2096: Intentó manipular a Irene, pero fue descubierto.
+- Día 2097: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2098: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2099: Soñó con 'silencio_pleno' (self). Insight: El self proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 2100: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2100: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2101: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2101: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2101: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2102: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2103: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2104: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2104: Revivió el recuerdo de Falleció Kleis.
+- Día 2105: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El sombra expulsa Falleció hacia colinas suaves: allá afuera, entre los demás.
+- Día 2105: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2105: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2105: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2105: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2105: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 2106: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2107: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2108: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2109: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 2110: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 2110: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2111: Soñó con 'danza_a_solas' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 2112: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En sabana abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2113: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2114: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2115: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2115: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2116: Soñó con 'sombra_que_camina' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2117: Soñó con 'silencio_pleno' (sabio). Insight: En lago interior el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2117: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2118: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2119: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2120: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2120: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2121: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2122: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2123: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2124: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2125: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2125: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2126: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2127: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2128: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2129: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2129: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2129: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2130: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2130: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2130: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2130: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2131: Soñó con 'estrella_que_no_guía' (sabio). Insight: El valle fertil amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2132: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2133: Soñó con 'habitación_prohibida' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2133: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2133: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2133: Cooperó de forma mutua y armónica con Koures. Su lazo social se fortaleció.
+- Día 2133: Cooperó de forma mutua y armónica con Koures. Su lazo social se fortaleció.
+- Día 2133: Cooperó de forma mutua y armónica con Koures. Su lazo social se fortaleció.
+- Día 2134: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2135: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2135: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2136: Soñó con 'voz_propia_extraña' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2137: Soñó con 'camino_conocido' (sabio). Insight: En bosque templado el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2138: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2139: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2139: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2139: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2139: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2139: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 2140: Soñó con 'fondo_que_sube' (sabio). Insight: El sabio ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2140: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2141: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2142: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2142: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2143: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En montana alta, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2144: Soñó con 'habitación_prohibida' (sabio). Insight: El desierto borde amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2144: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2144: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2144: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2145: Soñó con 'habitación_prohibida' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2145: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2145: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2145: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2145: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2146: Soñó con 'habitación_prohibida' (sabio). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2146: Revivió el recuerdo de Falleció Kleis.
+- Día 2147: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta Falleció sobre el horizonte de pradera humeda.
+- Día 2148: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El sombra ve Falleció afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2149: Soñó con 'leche_amarga' (madre). Insight: En lago interior, Falleció tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2150: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 2150: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2151: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: En pradera humeda, Falleció aparece en el otro — el sombra no se reconoce.
+- Día 2152: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa Falleció hacia rio lago: allá afuera, entre los demás.
+- Día 2152: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 2153: Soñó con 'figura_que_sigue' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2153: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 2153: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 2153: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 2154: Soñó con 'agua_fría' (sombra). Insight: En lago interior, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2155: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; Falleció es el combustible.
+- Día 2155: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2155: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2155: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2155: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2156: Soñó con 'voz_propia_extraña' (sabio). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2156: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2156: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 2157: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2158: Soñó con 'espejo_que_miente' (sabio). Insight: En desierto borde el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2159: Soñó con 'figura_que_sigue' (sabio). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2160: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2160: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2161: Soñó con 'unión_imposible' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2161: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2161: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2161: Sufrió explotación y hostilidad de Dryas, cediendo recursos biológicos.
+- Día 2162: Soñó con 'abundancia_que_pudre' (sabio). Insight: En valle fertil, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2163: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2164: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2165: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2165: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2166: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 2167: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2168: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2169: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2170: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2170: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2171: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2172: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2172: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 2172: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 2173: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2174: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 2175: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2175: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2176: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2176: Se impuso competitivamente ante Thetis, absorbiendo sus recursos biológicos.
+- Día 2176: Se impuso competitivamente ante Thetis, absorbiendo sus recursos biológicos.
+- Día 2176: Se impuso competitivamente ante Thetis, absorbiendo sus recursos biológicos.
+- Día 2177: Soñó con 'leche_amarga' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 2178: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2179: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2180: Soñó con 'unión_imposible' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 2180: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2181: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2181: Revivió el recuerdo de Falleció Kleis.
+- Día 2182: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2183: Soñó con 'nido_que_asfixia' (madre). Insight: Falleció enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 2184: Soñó con 'lugar_vacío' (madre). Insight: El madre crece desmedido en pradera humeda — Falleció lo empuja sin nombre.
+- Día 2185: Soñó con 'sombra_que_sigue_caminando' (madre). Insight: El madre crece desmedido en pradera humeda — Falleció lo empuja sin nombre.
+- Día 2185: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2186: Soñó con 'lugar_vacío' (madre). Insight: El madre crece desmedido en pradera humeda — Falleció lo empuja sin nombre.
+- Día 2187: Soñó con 'profundidad_sin_fondo' (madre). Insight: El madre proyecta Falleció sobre el horizonte de lago interior.
+- Día 2188: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, Falleció tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2189: Soñó con 'caída_sin_fondo' (self). Insight: El montana alta amplifica la tensión del self; Falleció presiona desde adentro.
+- Día 2190: Soñó con 'mandala_incompleto' (self). Insight: Falleció enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 2190: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2191: Soñó con 'voz_propia_extraña' (self). Insight: Falleció enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 2192: Soñó con 'lugar_vacío' (self). Insight: El bosque templado amplifica la tensión del self; Falleció presiona desde adentro.
+- Día 2193: Soñó con 'sombra_que_sigue_caminando' (self). Insight: En lago interior, Falleció tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2194: Soñó con 'nombre_que_nadie_dice' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 2195: Soñó con 'sombra_que_sigue_caminando' (sombra). Insight: El pantano costero amplifica la tensión del sombra; Falleció presiona desde adentro.
+- Día 2195: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2195: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2195: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2195: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2195: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2196: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2197: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2198: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 2199: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2199: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 2200: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2200: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2201: Soñó con 'calma_antes_de_algo' (madre). Insight: El madre crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2201: Cedió ingenuamente ante la manipulación de Lycos.
+- Día 2201: Cedió ingenuamente ante la manipulación de Lycos.
+- Día 2202: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 2202: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2202: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 2202: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2202: Cedió ingenuamente ante la manipulación de Maia.
+- Día 2202: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2202: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2203: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 2203: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2204: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2204: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2204: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 2205: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2206: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2207: Soñó con 'silencio_absoluto' (anima_animus). Insight: En montana alta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2207: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2207: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2208: Soñó con 'mandala_incompleto' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2209: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2210: Soñó con 'figura_que_sigue' (sabio). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2210: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2211: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2212: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2213: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2214: Soñó con 'voz_propia_extraña' (trickster). Insight: En pradera humeda, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 2214: Cedió ingenuamente ante la manipulación de Gonos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2215: Soñó con 'semilla_negra' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2215: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2215: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 2215: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2215: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2216: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2216: Soñó con 'silencio_pleno' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2216: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2216: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2216: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2216: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2216: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2216: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2216: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2216: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2217: Soñó con 'nido_que_asfixia' (madre). Insight: El desierto borde amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2218: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2218: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2218: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2218: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2219: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2220: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2220: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2220: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2220: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2221: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2222: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2222: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2223: Soñó con 'fruto_amargo' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2224: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2225: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2225: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2226: Soñó con 'unión_imposible' (self). Insight: En valle fertil, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 2227: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2227: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2227: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2227: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2227: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Soñó con 'río_que_nutre' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2228: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2228: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2229: Soñó con 'escenario_sin_salida' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2229: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2229: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2229: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 2229: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 2229: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2230: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2230: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2230: Detectó y rechazó un intento de manipulación de Aegon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2231: Soñó con 'leche_amarga' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2232: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2232: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2232: Detectó y rechazó un intento de manipulación de Malos.
+- Día 2233: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2234: Soñó con 'voz_propia_extraña' (madre). Insight: El rio lago amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2235: Soñó con 'río_que_nutre' (madre). Insight: El lago interior amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2235: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2235: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2236: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2236: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2237: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2237: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2237: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 2238: Soñó con 'naufragio_lento' (self). Insight: En costa abierta, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2238: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2238: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2238: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2238: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2239: Soñó con 'silencio_pleno' (self). Insight: El self ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2239: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2239: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2239: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2239: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2239: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2239: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2240: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2240: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2240: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2240: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2241: Soñó con 'espejo_que_miente' (self). Insight: El self crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2241: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2242: Soñó con 'horizonte_inmóvil' (self). Insight: El pradera humeda amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 2243: Soñó con 'corriente_que_arrastra' (self). Insight: El rio lago amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 2244: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 2245: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2245: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2246: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2247: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2247: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2248: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2248: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2248: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2249: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2250: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2250: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2252: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 2253: Soñó con 'campo_interminable' (self). Insight: El pradera humeda amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 2253: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2253: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2254: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2254: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2255: Soñó con 'mandala_incompleto' (self). Insight: trauma plaga enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 2255: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2255: Detectó y rechazó un intento de manipulación de Eris.
+- Día 2255: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2255: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2255: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2255: Cedió ingenuamente ante la manipulación de Aegon.
+- Día 2255: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2255: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2255: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2255: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2255: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Soñó con 'horizonte_inmóvil' (self). Insight: El self expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2256: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2257: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2257: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2257: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2258: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2259: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2260: Soñó con 'silencio_pleno' (self). Insight: El montana alta amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 2260: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2260: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 2261: Soñó con 'calor_que_piensa' (self). Insight: El self proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 2262: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2263: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2263: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2264: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 2264: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2264: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2265: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2265: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2266: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2267: Soñó con 'voz_propia_extraña' (madre). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2268: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2269: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2269: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2269: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2269: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2269: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2269: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 2269: Intentó manipular a Arsis, pero fue descubierto.
+- Día 2269: Intentó manipular a Arsis, pero fue descubierto.
+- Día 2269: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2270: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Día 2270: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2270: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2271: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2272: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 2272: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2273: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2274: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2275: Soñó con 'árbol_sin_raíces' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2275: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2276: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2277: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2278: Soñó con 'leche_amarga' (madre). Insight: El pradera humeda amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2279: Soñó con 'leche_amarga' (madre). Insight: trauma plaga enciende el madre en rio lago hasta quemar lo que toca.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Soñó con 'nido_que_asfixia' (madre). Insight: trauma plaga enciende el madre en rio lago hasta quemar lo que toca.
+- Día 2280: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2280: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2280: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2281: Soñó con 'fondo_que_sube' (madre). Insight: El madre expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2282: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2282: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2282: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2282: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2282: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2283: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2283: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2284: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 2285: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2285: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2285: Sufrió explotación y hostilidad de Aegon, cediendo recursos biológicos.
+- Día 2285: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 2286: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2286: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2286: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2286: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2286: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 2286: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2286: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2286: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2287: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2288: Soñó con 'habitación_prohibida' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2288: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2288: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2288: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2288: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2288: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2289: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2289: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2289: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2289: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2289: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naiads.
+- Día 2290: Soñó con 'laberinto_que_ríe' (trickster). Insight: En costa abierta, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 2290: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2291: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 2291: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2291: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2291: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2291: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2291: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2291: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2292: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2292: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2292: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2293: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2294: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 2294: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2294: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2295: Soñó con 'unión_imposible' (self). Insight: El self expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2295: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2295: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 2295: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 2296: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2297: Soñó con 'papel_sin_actor' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2297: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2298: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Soñó con 'espejo_que_miente' (madre). Insight: En rio lago, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2299: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2300: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2300: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2300: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2300: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2300: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2300: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2300: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2301: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2301: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2302: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2302: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2302: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 2303: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2303: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2303: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2304: Soñó con 'danza_a_solas' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2304: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2304: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2304: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2304: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2304: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2305: Soñó con 'danza_a_solas' (anima_animus). Insight: En montana alta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2305: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2306: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2307: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2307: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2307: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2307: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2307: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 2308: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2308: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2308: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2308: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2308: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2309: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2310: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2310: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2311: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2312: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2313: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2314: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2315: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2315: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2315: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2315: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2316: Soñó con 'victoria_vacía' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2317: Soñó con 'montaña_que_escalar' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 2317: Creó 'Objeto Tapu de Sombra' (tipo=perturbador) en estado compulsivo.
+- Día 2318: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2319: Soñó con 'montaña_que_escalar' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2320: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2320: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2321: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 2322: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2322: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2322: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2322: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2322: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2322: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2322: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2323: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2324: Soñó con 'monstruo_sin_forma' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2325: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2325: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2326: Soñó con 'figura_que_sigue' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2326: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Soñó con 'espejo_que_miente' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2327: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2328: Soñó con 'habitación_prohibida' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2328: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2328: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2329: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2329: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2330: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 2330: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2331: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2332: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2333: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2333: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 2333: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 2333: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 2334: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2335: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2335: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2336: Soñó con 'reflejo_distorsionado' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2337: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2338: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2338: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2339: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 2340: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2340: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2341: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2341: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2342: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2343: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2344: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2345: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2345: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2345: Cedió ingenuamente ante la manipulación de Eos.
+- Día 2345: Cedió ingenuamente ante la manipulación de Eos.
+- Día 2345: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2345: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2345: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2345: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2346: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2347: Soñó con 'habitación_prohibida' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 2348: Soñó con 'espejo_que_miente' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 2349: Soñó con 'luz_oblicua' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2349: Cedió ingenuamente ante la manipulación de Delos.
+- Día 2349: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 2349: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 2349: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 2350: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 2350: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2351: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2352: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2353: Soñó con 'monstruo_sin_forma' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 2354: Soñó con 'monstruo_sin_forma' (self). Insight: En sabana abierta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2355: Soñó con 'montaña_que_escalar' (self). Insight: El sabana abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2355: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2356: Soñó con 'espada_rota' (self). Insight: En valle fertil el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2357: Soñó con 'silencio_pleno' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2358: Soñó con 'victoria_vacía' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2358: Revivió el recuerdo de Falleció Kleis.
+- Día 2359: Soñó con 'nombre_que_nadie_dice' (self). Insight: El self ve Falleció afuera en desierto borde, donde no puede alcanzarlo.
+- Día 2360: Soñó con 'voz_propia_extraña' (sombra). Insight: Falleció enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2360: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2361: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 2362: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 2363: Soñó con 'unión_imposible' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2364: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2365: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 2365: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2366: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 2367: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2368: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 2369: Soñó con 'mandala_incompleto' (self). Insight: El sabana abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2370: Soñó con 'centro_sin_lugar' (self). Insight: El self ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2370: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2371: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2372: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2373: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 2374: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2375: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2375: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2376: Soñó con 'viento_que_borra' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2377: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 2378: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2379: Soñó con 'nido_que_asfixia' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2379: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 2379: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2379: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2379: Cedió ingenuamente ante la manipulación de Erastos.
+- Día 2380: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 2380: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2381: Soñó con 'árbol_que_aprieta' (madre). Insight: El sabana abierta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 2381: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2382: Soñó con 'leche_amarga' (madre). Insight: El lago interior amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 2383: Soñó con 'victoria_vacía' (madre). Insight: En sabana abierta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2383: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2384: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en pantano costero hasta quemar lo que toca.
+- Día 2384: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2385: Soñó con 'roca_que_aplasta' (madre). Insight: El montana alta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 2385: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2385: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2386: Soñó con 'espejo_que_miente' (madre). Insight: En lago interior, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2386: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2386: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2386: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2387: Soñó con 'leche_amarga' (madre). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2387: Intentó manipular a Koures, pero fue descubierto.
+- Día 2387: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2387: Intentó manipular a Elate, pero fue descubierto.
+- Día 2388: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2389: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2390: Soñó con 'huesos_propios' (sombra). Insight: En desierto borde, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2390: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2391: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en lago interior hasta quemar lo que toca.
+- Día 2392: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2393: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 2394: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 2395: Soñó con 'figura_que_sigue' (sabio). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 2395: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2396: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2397: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2398: Soñó con 'campo_interminable' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 2399: Soñó con 'río_que_nutre' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2399: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 2400: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 2400: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2401: Soñó con 'habitación_prohibida' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 2402: Soñó con 'estrella_que_no_guía' (self). Insight: En lago interior, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 2403: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2404: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 2404: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 2404: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2404: Se enfrentó en un choque violento y destructivo contra Lycos.
+- Día 2405: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 2405: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2406: Soñó con 'viento_que_borra' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2407: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2407: Manipuló con éxito y astucia a Elpe para ceder recursos.
+- Día 2408: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2408: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 2408: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2408: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2408: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2408: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 2408: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2409: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 2409: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2409: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2410: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2410: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2411: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 2412: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 2412: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2412: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2412: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2412: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2413: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 2413: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2413: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2413: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 2414: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 2414: Manipuló con éxito y astucia a Meroe para ceder recursos.
+- Día 2414: Intentó manipular a Iris, pero fue descubierto.
+- Día 2414: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2415: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2415: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2415: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2415: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 2415: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 2416: Soñó con 'leche_amarga' (persona). Insight: En colinas suaves el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2416: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 2416: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 2416: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 2417: Soñó con 'río_tranquilo' (persona). Insight: El persona ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2417: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 2417: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 2417: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2417: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2417: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2418: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Soñó con 'sed_en_el_agua' (madre). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2419: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2420: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2420: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2421: Soñó con 'victoria_vacía' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2421: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Soñó con 'montaña_que_escalar' (self). Insight: En lago interior el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2422: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2423: Soñó con 'mandala_incompleto' (self). Insight: trauma invierno brutal enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 2423: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2423: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2423: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2423: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2424: Soñó con 'luz_oblicua' (self). Insight: El self ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2424: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2424: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2425: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2425: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2426: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2426: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2426: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2427: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2428: Soñó con 'espejo_que_miente' (self). Insight: El self expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2428: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2429: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2430: Soñó con 'fruto_amargo' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2430: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2430: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 2431: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2431: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2432: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2433: Soñó con 'silencio_pleno' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2434: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de colinas suaves.
+- Día 2435: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2435: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2435: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Soñó con 'río_que_nutre' (madre). Insight: En sabana abierta, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2436: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2437: Soñó con 'mandala_incompleto' (madre). Insight: El madre ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2438: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2439: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2440: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2440: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2441: Soñó con 'luz_oblicua' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2441: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2441: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 2442: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2443: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2444: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2445: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2445: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2446: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2447: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2448: Soñó con 'habitación_prohibida' (sabio). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2449: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2450: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en rio lago, donde no puede alcanzarlo.
+- Día 2450: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2451: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2452: Soñó con 'camino_conocido' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2453: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2454: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2455: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2455: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2456: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Día 2457: Soñó con 'figura_que_sigue' (persona). Insight: El persona crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2458: Soñó con 'bifurcación_sin_mapa' (persona). Insight: En colinas suaves, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2459: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2460: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2460: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2461: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2462: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2463: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en cueva hasta quemar lo que toca.
+- Día 2464: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2465: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2465: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2466: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2467: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2468: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2468: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2469: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2469: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2470: Soñó con 'centro_sin_lugar' (self). Insight: trauma invierno brutal enciende el self en sabana abierta hasta quemar lo que toca.
+- Día 2470: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2471: Soñó con 'libro_en_lengua_muerta' (self). Insight: En lago interior el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2472: Soñó con 'silencio_pleno' (self). Insight: trauma invierno brutal enciende el self en sabana abierta hasta quemar lo que toca.
+- Día 2473: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2474: Soñó con 'habitación_prohibida' (self). Insight: En lago interior, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2474: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2474: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2475: Soñó con 'habitación_prohibida' (self). Insight: En pradera humeda el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2475: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2476: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2477: Soñó con 'figura_que_sigue' (self). Insight: En pradera humeda, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2478: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; trauma invierno brutal presiona desde adentro.
+- Día 2479: Soñó con 'unión_imposible' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2480: Soñó con 'figura_que_sigue' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2480: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2481: Soñó con 'caída_sin_fondo' (self). Insight: El self crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2482: Soñó con 'unión_imposible' (self). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2483: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de sabana abierta.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2483: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2485: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2485: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2486: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2487: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2488: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2489: Soñó con 'puerta_que_se_mueve' (self). Insight: El self crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Día 2490: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2490: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2491: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2492: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2493: Soñó con 'habitación_prohibida' (self). Insight: El self ve trauma invierno brutal afuera en montana alta, donde no puede alcanzarlo.
+- Día 2494: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2495: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2495: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2496: Soñó con 'agua_fría' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2497: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2498: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 2498: Se enfrentó en un choque violento y destructivo contra Amaryllis.
+- Día 2498: Se enfrentó en un choque violento y destructivo contra Amaryllis.
+- Día 2498: Se enfrentó en un choque violento y destructivo contra Amaryllis.
+- Día 2498: Se enfrentó en un choque violento y destructivo contra Amaryllis.
+- Día 2498: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 2498: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 2499: Soñó con 'habitación_prohibida' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2499: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 2499: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 2499: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 2499: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 2500: Soñó con 'complemento_ausente' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2500: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2501: Soñó con 'complemento_ausente' (anima_animus). Insight: En costa abierta el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2501: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2502: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pantano costero: allá afuera, entre los demás.
+- Día 2503: Soñó con 'río_que_nutre' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2504: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2505: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2505: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2506: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2507: Soñó con 'sombra_que_camina' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2508: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2509: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2510: Soñó con 'espada_rota' (sombra). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2510: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2511: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2512: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2512: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2512: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2512: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2512: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2512: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2512: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2513: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2514: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2515: Soñó con 'oasis_espejismo' (sombra). Insight: En desierto borde, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2515: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2516: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma invierno brutal presiona desde adentro.
+- Día 2517: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2518: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2519: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2520: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2520: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2520: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2520: Cooperó de forma mutua y armónica con Aegon. Su lazo social se fortaleció.
+- Día 2521: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2522: Soñó con 'centro_sin_lugar' (sabio). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2523: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2524: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 2525: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2525: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2526: Soñó con 'unión_imposible' (self). Insight: El self proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2526: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2526: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2527: Soñó con 'silencio_pleno' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2528: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2528: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2528: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2528: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2528: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2528: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2528: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2528: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2529: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2530: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2530: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2531: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2532: Soñó con 'silencio_pleno' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2533: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2534: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2535: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2535: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2536: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2537: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2538: Soñó con 'escenario_sin_salida' (persona). Insight: En colinas suaves, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2539: Soñó con 'figura_que_sigue' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2540: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Día 2540: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2541: Soñó con 'espejo_que_miente' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2542: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2543: Soñó con 'centro_sin_lugar' (madre). Insight: El madre crece desmedido en valle fertil — trauma invierno brutal lo empuja sin nombre.
+- Día 2544: Soñó con 'luz_oblicua' (madre). Insight: El madre crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2545: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve trauma invierno brutal afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2545: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2545: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2545: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2545: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2545: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2545: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2545: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2545: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2545: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2546: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2547: Soñó con 'reflejo_sin_original' (madre). Insight: En lago interior, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2548: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa trauma invierno brutal hacia sabana abierta: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2549: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2550: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2550: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2550: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2551: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2552: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Soñó con 'estrella_que_no_guía' (sabio). Insight: El valle fertil amplifica la tensión del sabio; trauma invierno brutal presiona desde adentro.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2553: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 2554: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2555: Soñó con 'habitación_prohibida' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2555: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2556: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2556: Cedió ingenuamente ante la manipulación de Eryx.
+- Día 2556: Cedió ingenuamente ante la manipulación de Eryx.
+- Día 2557: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2558: Soñó con 'sal_en_herida' (self). Insight: El self ve trauma invierno brutal afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2559: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2560: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2560: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2560: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 2560: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 2560: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 2561: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2562: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2563: Soñó con 'horizonte_de_agua' (madre). Insight: En costa abierta el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2564: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2564: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 2564: Manipuló con éxito y astucia a Aegon para ceder recursos.
+- Día 2565: Soñó con 'habitación_prohibida' (sombra). Insight: trauma invierno brutal enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2565: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2566: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2567: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; trauma invierno brutal presiona desde adentro.
+- Día 2568: Soñó con 'leche_amarga' (madre). Insight: En colinas suaves el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2569: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2570: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2570: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2571: Soñó con 'centro_sin_lugar' (madre). Insight: trauma invierno brutal enciende el madre en lago interior hasta quemar lo que toca.
+- Día 2572: Soñó con 'unión_imposible' (madre). Insight: trauma invierno brutal enciende el madre en bosque templado hasta quemar lo que toca.
+- Día 2573: Soñó con 'abundancia_que_pudre' (madre). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2574: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2575: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2575: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2576: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2577: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2578: Soñó con 'papel_sin_actor' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2579: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2580: Soñó con 'luz_oblicua' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Día 2580: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2581: Soñó con 'nido_que_asfixia' (persona). Insight: El persona expulsa trauma invierno brutal hacia colinas suaves: allá afuera, entre los demás.
+- Día 2582: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2583: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia lago interior: allá afuera, entre los demás.
+- Día 2584: Soñó con 'sal_en_herida' (self). Insight: El self expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 2585: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2585: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2586: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2587: Soñó con 'figura_que_sigue' (madre). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 2588: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia costa abierta: allá afuera, entre los demás.
+- Día 2589: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2590: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2590: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2591: Soñó con 'estrella_que_no_guía' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2591: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 2591: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 2591: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 2591: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 2591: Manipuló con éxito y astucia a Eryx para ceder recursos.
+- Día 2592: Soñó con 'habitación_prohibida' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2593: Soñó con 'montaña_que_escalar' (sabio). Insight: El sabio ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2594: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Día 2595: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2595: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2596: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2597: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2598: Soñó con 'estrella_que_no_guía' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2599: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 2600: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2600: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2601: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de costa abierta.
+- Día 2602: Soñó con 'niebla_densa' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pantano costero, donde no puede alcanzarlo.
+- Día 2603: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: El trickster ve trauma invierno brutal afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2603: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2604: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2605: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2605: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2605: Cooperó de forma mutua y armónica con Eryx. Su lazo social se fortaleció.
+- Día 2605: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2605: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2605: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2605: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2605: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Soñó con 'pregunta_sin_respuesta' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2606: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 2607: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2608: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2609: Soñó con 'árbol_sin_raíces' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2610: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2610: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2611: Soñó con 'unión_imposible' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2612: Soñó con 'unión_imposible' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2613: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2614: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Día 2615: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2615: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2616: Soñó con 'nido_que_asfixia' (madre). Insight: En pantano costero el madre se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2617: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, trauma invierno brutal tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2618: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma invierno brutal lo empuja sin nombre.
+- Día 2619: Soñó con 'hierba_que_corta' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2620: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia bosque templado: allá afuera, entre los demás.
+- Día 2620: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2621: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2622: Soñó con 'silencio_pleno' (sombra). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2623: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 2624: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2625: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2625: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2625: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2625: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2625: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2626: Soñó con 'olor_a_descomposición' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de pantano costero.
+- Día 2627: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2628: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Día 2629: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2630: Soñó con 'agua_fría' (sabio). Insight: El sabio crece desmedido en lago interior — trauma invierno brutal lo empuja sin nombre.
+- Día 2630: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2631: Soñó con 'estrella_que_no_guía' (sabio). Insight: En costa abierta, trauma invierno brutal aparece en el otro — el sabio no se reconoce.
+- Día 2632: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2633: Soñó con 'habitación_prohibida' (sabio). Insight: trauma invierno brutal enciende el sabio en costa abierta hasta quemar lo que toca.
+- Día 2634: Soñó con 'estrella_que_no_guía' (sabio). Insight: En lago interior, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2635: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de lago interior.
+- Día 2635: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2636: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Día 2637: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2638: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2639: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves el self se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2640: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2640: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2641: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra ve trauma invierno brutal afuera en lago interior, donde no puede alcanzarlo.
+- Día 2642: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2643: Soñó con 'luz_oblicua' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2644: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 2645: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2645: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2646: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2647: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: En sabana abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2648: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2649: Soñó con 'semilla_negra' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2650: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2650: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2651: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2651: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2651: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2652: Soñó con 'espada_rota' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 2652: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2652: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2652: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2653: Soñó con 'montaña_que_escalar' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2653: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2654: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 2654: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 2655: Soñó con 'árbol_que_aprieta' (madre). Insight: En desierto borde, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 2655: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2656: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2657: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2658: Soñó con 'espejo_que_miente' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2659: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2660: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2660: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2661: Soñó con 'nido_que_asfixia' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2661: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2662: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2663: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2664: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 2665: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma plaga enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2665: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2666: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 2667: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2668: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 2669: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2670: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2670: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2671: Soñó con 'espejo_que_miente' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2672: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2673: Soñó con 'figura_que_sigue' (trickster). Insight: El trickster expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 2674: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2675: Soñó con 'habitación_prohibida' (sabio). Insight: El valle fertil amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2675: El 'Símbolo Oscuro de Muerte' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2676: Falleció a causa de sequia_prolongada.

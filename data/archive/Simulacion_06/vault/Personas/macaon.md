@@ -1,0 +1,3539 @@
+---
+id: macaon
+nombre: Macaon
+rol: padre
+edad: 39
+sexo: M
+is_alive: False
+posicion: [51, 27]
+humor: 0.547
+energia: 0.245
+ansiedad: 0.680
+needs:
+  hambre: 0.104
+  fatiga: 1.000
+  sed: 0.405
+  sociabilidad: 0.080
+arquetipo_dominante: sombra
+estado_conductual: competencia
+arquetipos:
+  self: 0.976
+  persona: 0.968
+  sombra: 0.996
+  anima_animus: 0.986
+  heroe: 0.094
+  sabio: 0.955
+  trickster: 0.876
+  madre: 0.833
+  padre: 0.933
+  nino_divino: 0.316
+  gobernante: 0.065
+  rebelde: 0.163
+---
+# 👤 Persona: Macaon
+
+> **Rol:** `padre` | **Edad:** 39 | **Sexo:** M | **Ubicación:** `(51, 27)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.55 |
+| **Energía** | `[▓▓░░░░░░░░]` | 0.25 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.68 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓░░░░░░░░░]` | 0.10 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓░░░░░░]` | 0.41 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sociabilidad** | `[▓░░░░░░░░░]` | 0.08 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.976` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.968` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.996` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.986` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.094` | `▓░░░░░░░░░░░` |
+| **Sabio** | `0.955` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Trickster** | `0.876` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.833` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Padre** | `0.933` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Nino divino** | `0.316` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.065` | `▓░░░░░░░░░░░` |
+| **Rebelde** | `0.163` | `▓▓░░░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[aion]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[alke]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[ambix]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[anthe]] | `-0.44` | `▓▓▓░░░░░░░` | Ninguno |
+| [[chryse]] | `-0.76` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[cleis]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[daeira]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[deino]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[delos]] | `-0.68` | `▓▓░░░░░░░░` | Ninguno |
+| [[dione]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[dirce]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[dryas]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[elate]] | `-0.48` | `▓▓▓░░░░░░░` | Ninguno |
+| [[epops]] | `-0.48` | `▓▓▓░░░░░░░` | Ninguno |
+| [[erastos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erene]] | `-0.13` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[eris]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eryx]] | `-0.90` | `▓░░░░░░░░░` | Ninguno |
+| [[euia]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[euros]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gonos]] | `-0.01` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[halys]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[herse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_001]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[ichnos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[idunn]] | `-0.46` | `▓▓▓░░░░░░░` | Ninguno |
+| [[irene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iris]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[isos]] | `-0.42` | `▓▓▓░░░░░░░` | Ninguno |
+| [[keleos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[keyx]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[kimon]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[kore]] | `-0.70` | `▓▓░░░░░░░░` | Ninguno |
+| [[koures]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[ladon]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lycos]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[malos]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[manto]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[mecon]] | `-0.84` | `▓░░░░░░░░░` | Ninguno |
+| [[medon]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[mimas]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[misos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[molos]] | `-0.36` | `▓▓▓░░░░░░░` | Ninguno |
+| [[myron]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[naiads]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[neis]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[nomos]] | `-0.06` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 484:** Soñó con `'roca_que_aplasta'` (arquetipo `anima_animus`).
+  - *Insight:* El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- **Día 485:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 486:** Soñó con `'silencio_absoluto'` (arquetipo `anima_animus`).
+  - *Insight:* En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- **Día 487:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- **Día 488:** Soñó con `'cima_en_niebla'` (arquetipo `anima_animus`).
+  - *Insight:* En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- **Día 489:** Soñó con `'complemento_ausente'` (arquetipo `anima_animus`).
+  - *Insight:* El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- **Día 490:** Soñó con `'voz_sin_cuerpo'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'tormenta_controlada' (padre). Insight: El padre descansa en bosque templado mientras lo reprimido aguarda en el umbral.
+- Día 1: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2: Soñó con 'mano_que_cierra' (padre). Insight: El padre y colapso civilizatorio se toleran esta noche en lago interior.
+- Día 3: Soñó con 'ley_grabada_en_carne' (padre). Insight: El padre se disfraza de su contrario en colinas suaves, lejos de colapso civilizatorio.
+- Día 3: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 3: Cedió ingenuamente ante la manipulación de Irene.
+- Día 4: Soñó con 'mano_que_cierra' (padre). Insight: El padre y colapso civilizatorio se toleran esta noche en colinas suaves.
+- Día 5: Soñó con 'mano_que_cierra' (padre). Insight: El padre descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 6: Soñó con 'ley_grabada_en_carne' (padre). Insight: colapso civilizatorio pesa demasiado — el padre cede terreno en costa abierta para no caer.
+- Día 7: Soñó con 'tormenta_controlada' (padre). Insight: En costa abierta, el padre negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 8: Soñó con 'tormenta_controlada' (padre). Insight: El padre se disfraza de su contrario en lago interior, lejos de colapso civilizatorio.
+- Día 8: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 8: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 9: Soñó con 'mano_que_cierra' (padre). Insight: El padre descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 9: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 10: Soñó con 'sol_que_calcina' (padre). Insight: En sabana abierta, el padre encuentra tregua provisional con colapso civilizatorio.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 10: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 10: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 10: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 10: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 11: Soñó con 'piedra_que_rueda' (padre). Insight: El padre se disfraza de su contrario en colinas suaves, lejos de colapso civilizatorio.
+- Día 12: Soñó con 'silencio_pleno' (padre). Insight: El padre busca equilibrio en colinas suaves compensando la energía de colapso civilizatorio.
+- Día 13: Soñó con 'mano_que_cierra' (padre). Insight: En pantano costero, el padre encuentra tregua provisional con colapso civilizatorio.
+- Día 14: Soñó con 'hierba_que_corta' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 15: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: En desierto borde, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 17: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 17: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 17: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 18: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de colapso civilizatorio.
+- Día 19: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en valle fertil compensando la energía de colapso civilizatorio.
+- Día 20: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 21: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en colinas suaves compensando la energía de colapso civilizatorio.
+- Día 21: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 22: Soñó con 'tormenta_controlada' (padre). Insight: El padre busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
+- Día 23: Soñó con 'unión_imposible' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 24: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de colinas suaves, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
+- Día 26: Soñó con 'sendero_circular' (self). Insight: El self descansa en bosque templado mientras colapso civilizatorio aguarda en el umbral.
+- Día 27: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de bosque templado, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 28: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en lago interior, lejos de colapso civilizatorio.
+- Día 29: Soñó con 'horizonte_inmóvil' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 30: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en desierto borde para no caer.
+- Día 31: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en lago interior para no caer.
+- Día 32: Soñó con 'unión_imposible' (self). Insight: Entre sombras de sabana abierta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 33: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 34: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 35: Soñó con 'viento_que_borra' (self). Insight: Entre sombras de pradera humeda, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 36: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 37: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 38: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de bosque templado, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 39: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 40: Soñó con 'corriente_que_arrastra' (self). Insight: Entre sombras de rio lago, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 41: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de rio lago, el self y colapso civilizatorio coexisten sin resolverse.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 42: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de colapso civilizatorio.
+- Día 42: Sufrió explotación y hostilidad de Keyx, cediendo recursos biológicos.
+- Día 43: Soñó con 'mandala_incompleto' (self). Insight: En colinas suaves, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 44: Soñó con 'silencio_pleno' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 45: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de pradera humeda, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 46: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Día 47: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 48: Soñó con 'silencio_pleno' (self). Insight: El self descansa en sabana abierta mientras colapso civilizatorio aguarda en el umbral.
+- Día 49: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 50: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 51: Soñó con 'luz_oblicua' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de colapso civilizatorio.
+- Día 51: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 51: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 52: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 53: Soñó con 'complemento_ausente' (anima_animus). Insight: En lago interior, colapso civilizatorio pierde fuerza un instante — el anima_animus respira.
+- Día 53: Detectó y rechazó un intento de manipulación de Iris.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 54: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 55: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 56: Soñó con 'silencio_pleno' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 57: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 58: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 59: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 60: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 61: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 62: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 63: Soñó con 'horizonte_de_agua' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 63: Detectó y rechazó un intento de manipulación de Koures.
+- Día 63: Detectó y rechazó un intento de manipulación de Koures.
+- Día 63: Detectó y rechazó un intento de manipulación de Koures.
+- Día 63: Se impuso competitivamente ante Mecon, absorbiendo sus recursos biológicos.
+- Día 64: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en pantano costero hasta quemar lo que toca.
+- Día 65: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en costa abierta hasta quemar lo que toca.
+- Día 66: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 67: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 68: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 69: Soñó con 'fondo_que_sube' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 69: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 69: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 69: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 69: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 70: Soñó con 'mandala_incompleto' (self). Insight: El costa abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 71: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 72: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 73: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 74: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 75: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 76: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 77: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 78: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 79: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 80: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 81: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 82: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 83: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 84: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 85: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 86: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 86: Se impuso competitivamente ante Anthe, absorbiendo sus recursos biológicos.
+- Día 86: Se impuso competitivamente ante Anthe, absorbiendo sus recursos biológicos.
+- Día 86: Detectó y rechazó un intento de manipulación de Anthe.
+- Día 86: Detectó y rechazó un intento de manipulación de Anthe.
+- Día 87: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 88: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 89: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 89: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 90: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 91: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 91: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 92: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 93: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 94: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 95: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 96: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 97: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 97: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 97: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 97: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 98: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 98: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 98: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 99: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 100: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 101: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 102: Soñó con 'espejo_que_miente' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 103: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 104: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 104: Detectó y rechazó un intento de manipulación de Erene.
+- Día 104: Detectó y rechazó un intento de manipulación de Erene.
+- Día 104: Detectó y rechazó un intento de manipulación de Erene.
+- Día 104: Cooperó de forma mutua y armónica con Erene. Su lazo social se fortaleció.
+- Día 104: Cooperó de forma mutua y armónica con Erene. Su lazo social se fortaleció.
+- Día 104: Cooperó de forma mutua y armónica con Erene. Su lazo social se fortaleció.
+- Día 104: Cooperó de forma mutua y armónica con Erene. Su lazo social se fortaleció.
+- Día 105: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 105: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 105: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 106: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 107: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 108: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 108: Manipuló con éxito y astucia a Chryse para ceder recursos.
+- Día 109: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 110: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 111: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 112: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 113: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 113: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 113: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 113: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 114: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 115: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 115: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 115: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 115: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 115: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 115: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 116: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 116: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 116: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 116: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 117: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 118: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 119: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 120: Soñó con 'río_que_nutre' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 121: Soñó con 'figura_que_sigue' (self). Insight: El self expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 121: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 121: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 122: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 123: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 124: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 125: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 125: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 125: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 125: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 125: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 125: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 126: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 127: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 127: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 127: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 127: Sufrió explotación y hostilidad de Cleis, cediendo recursos biológicos.
+- Día 127: Sufrió explotación y hostilidad de Cleis, cediendo recursos biológicos.
+- Día 127: Sufrió explotación y hostilidad de Cleis, cediendo recursos biológicos.
+- Día 128: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 128: Se impuso competitivamente ante Cleis, absorbiendo sus recursos biológicos.
+- Día 129: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 129: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 129: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 129: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 130: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 131: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 132: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 132: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Irene.
+- Día 133: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 134: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 134: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 134: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 135: Soñó con 'río_que_nutre' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 135: Cedió ingenuamente ante la manipulación de Irene.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 136: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 136: Detectó y rechazó un intento de manipulación de Delos.
+- Día 136: Detectó y rechazó un intento de manipulación de Delos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 137: Soñó con 'habitación_prohibida' (madre). Insight: El madre expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 138: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 139: Soñó con 'complemento_ausente' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 140: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 141: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 141: Cedió ingenuamente ante la manipulación de Irene.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 142: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 142: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 142: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 142: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 142: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 142: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 143: Soñó con 'sal_en_herida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 143: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 143: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 143: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 143: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 144: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 145: Soñó con 'sol_que_calcina' (self). Insight: El self crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 145: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 146: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 147: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 148: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 149: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 150: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 150: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 150: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 151: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 151: Detectó y rechazó un intento de manipulación de Irene.
+- Día 151: Detectó y rechazó un intento de manipulación de Irene.
+- Día 151: Detectó y rechazó un intento de manipulación de Irene.
+- Día 151: Detectó y rechazó un intento de manipulación de Irene.
+- Día 151: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Soñó con 'campo_interminable' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 152: Detectó y rechazó un intento de manipulación de Irene.
+- Día 153: Soñó con 'olor_a_descomposición' (self). Insight: El self crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 153: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Neis.
+- Día 153: Se enfrentó en un choque violento y destructivo contra Neis.
+- Día 153: Detectó y rechazó un intento de manipulación de Kore.
+- Día 153: Detectó y rechazó un intento de manipulación de Kore.
+- Día 153: Detectó y rechazó un intento de manipulación de Kore.
+- Día 153: Detectó y rechazó un intento de manipulación de Kore.
+- Día 153: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 154: Detectó y rechazó un intento de manipulación de Kore.
+- Día 155: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 155: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 155: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 155: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 155: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 156: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 157: Soñó con 'papel_sin_actor' (madre). Insight: El madre expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 157: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 158: Soñó con 'escenario_sin_salida' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 159: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 159: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 160: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 160: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 160: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 160: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 160: Intentó manipular a Chryse, pero fue descubierto.
+- Día 161: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 161: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 162: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 162: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 163: Soñó con 'eco_sin_origen' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 163: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 164: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 165: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 166: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 167: Soñó con 'río_tranquilo' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 168: Soñó con 'fruto_amargo' (madre). Insight: En valle fertil, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 169: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa colapso civilizatorio hacia cueva: allá afuera, entre los demás.
+- Día 169: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 169: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 169: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 169: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 169: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Soñó con 'aplauso_vacío' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 170: Intentó manipular a Ladon, pero fue descubierto.
+- Día 170: Intentó manipular a Ladon, pero fue descubierto.
+- Día 170: Intentó manipular a Ladon, pero fue descubierto.
+- Día 170: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 170: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 171: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 172: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 173: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 174: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 175: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 175: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 175: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 175: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 175: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 175: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 175: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 176: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 177: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 177: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 177: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 178: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 179: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 180: Soñó con 'espejo_que_miente' (self). Insight: En desierto borde el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 181: Soñó con 'centro_sin_lugar' (self). Insight: El costa abierta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 182: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 183: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 184: Soñó con 'vista_engañosa' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 184: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 185: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 186: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 187: Soñó con 'voz_propia_extraña' (madre). Insight: El madre ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 187: Se enfrentó en un choque violento y destructivo contra Ambix.
+- Día 187: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 187: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 187: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 188: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 188: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 188: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 188: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 189: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 190: Soñó con 'nido_que_asfixia' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 191: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 192: Soñó con 'sol_que_calcina' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 193: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Día 193: Sufrió explotación y hostilidad de Myron, cediendo recursos biológicos.
+- Día 193: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 193: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 193: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 193: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 193: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 194: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 195: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 195: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 195: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 195: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 195: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 196: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 197: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 197: Cedió ingenuamente ante la manipulación de Deino.
+- Día 197: Cedió ingenuamente ante la manipulación de Deino.
+- Día 198: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 199: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 200: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 201: Soñó con 'leche_amarga' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 201: Se impuso competitivamente ante Dirce, absorbiendo sus recursos biológicos.
+- Día 201: Se impuso competitivamente ante Dirce, absorbiendo sus recursos biológicos.
+- Día 202: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 203: Soñó con 'nido_que_asfixia' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 204: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 204: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 204: Manipuló con éxito y astucia a Medon para ceder recursos.
+- Día 205: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 206: Soñó con 'niebla_densa' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 207: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 208: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 209: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 210: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 211: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 212: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 213: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 213: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Nomos, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Nomos, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Nomos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 214: Soñó con 'habitación_prohibida' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 214: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 215: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 215: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 216: Soñó con 'roca_que_aplasta' (anima_animus). Insight: En montana alta, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 216: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 216: Detectó y rechazó un intento de manipulación de Myron.
+- Día 216: Detectó y rechazó un intento de manipulación de Myron.
+- Día 216: Detectó y rechazó un intento de manipulación de Myron.
+- Día 216: Detectó y rechazó un intento de manipulación de Myron.
+- Día 216: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Día 217: Detectó y rechazó un intento de manipulación de Myron.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 218: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 219: Soñó con 'habitación_prohibida' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 220: Soñó con 'sendero_circular' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 220: Sufrió explotación y hostilidad de Myron, cediendo recursos biológicos.
+- Día 220: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 221: Soñó con 'voz_propia_extraña' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 221: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Día 221: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 222: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 223: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 224: Soñó con 'papel_sin_actor' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 225: Soñó con 'aplauso_vacío' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 226: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 227: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 228: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 228: Se impuso competitivamente ante Dirce, absorbiendo sus recursos biológicos.
+- Día 228: Detectó y rechazó un intento de manipulación de Dirce.
+- Día 228: Detectó y rechazó un intento de manipulación de Dirce.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 229: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 230: Soñó con 'leche_amarga' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 231: Soñó con 'árbol_que_aprieta' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 232: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 233: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 234: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 234: Detectó y rechazó un intento de manipulación de Idunn.
+- Día 235: Soñó con 'escenario_sin_salida' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 236: Soñó con 'escenario_sin_salida' (persona). Insight: En lago interior, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 237: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 238: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 238: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 239: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 240: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 241: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 241: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Día 241: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 242: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 243: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 243: Detectó y rechazó un intento de manipulación de Idunn.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 244: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 245: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 245: Detectó y rechazó un intento de manipulación de Manto.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 246: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 246: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 247: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 247: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 247: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 247: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 247: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 248: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 248: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 248: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 249: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 250: Soñó con 'olor_a_descomposición' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 251: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 251: Se impuso competitivamente ante Idunn, absorbiendo sus recursos biológicos.
+- Día 251: Se impuso competitivamente ante Idunn, absorbiendo sus recursos biológicos.
+- Día 251: Se impuso competitivamente ante Idunn, absorbiendo sus recursos biológicos.
+- Día 252: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 253: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 254: Soñó con 'silencio_absoluto' (madre). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 255: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 255: Intentó manipular a Idunn, pero fue descubierto.
+- Día 255: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 255: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 256: Soñó con 'tierra_resquebrajada' (self). Insight: El self expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 256: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 256: Detectó y rechazó un intento de manipulación de Eris.
+- Día 256: Detectó y rechazó un intento de manipulación de Eris.
+- Día 256: Detectó y rechazó un intento de manipulación de Eris.
+- Día 256: Detectó y rechazó un intento de manipulación de Eris.
+- Día 256: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Detectó y rechazó un intento de manipulación de Eris.
+- Día 257: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 258: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 259: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 260: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 261: Soñó con 'viento_que_borra' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 262: Soñó con 'río_que_nutre' (madre). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 263: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 264: Soñó con 'calor_que_piensa' (persona). Insight: El desierto borde amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 265: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 265: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 265: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 265: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 266: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 266: Se enfrentó en un choque violento y destructivo contra Gonos.
+- Día 267: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 267: Detectó y rechazó un intento de manipulación de Erastos.
+- Día 267: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 268: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 269: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 270: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 270: Intentó manipular a Epops, pero fue descubierto.
+- Día 270: Intentó manipular a Epops, pero fue descubierto.
+- Día 271: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 272: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 273: Soñó con 'abundancia_que_pudre' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 273: Cedió ingenuamente ante la manipulación de Epops.
+- Día 273: Cedió ingenuamente ante la manipulación de Epops.
+- Día 274: Soñó con 'luz_oblicua' (persona). Insight: colapso civilizatorio enciende el persona en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 275: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 276: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 277: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 278: Soñó con 'manada_que_huye' (madre). Insight: El madre ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 279: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 280: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Soñó con 'unión_imposible' (self). Insight: En pantano costero el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 281: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 282: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 283: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 283: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 283: Cooperó de forma mutua y armónica con Aion. Su lazo social se fortaleció.
+- Día 284: Soñó con 'agua_fría' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 285: Soñó con 'centro_sin_lugar' (self). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 285: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 286: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 287: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 288: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 289: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 290: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 291: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 292: Soñó con 'piedra_que_rueda' (madre). Insight: En colinas suaves el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 292: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 292: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 292: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 293: Soñó con 'leche_amarga' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 294: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 295: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 296: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 297: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 297: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 298: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 299: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 300: Soñó con 'sol_que_calcina' (sabio). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 301: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 302: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 303: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 304: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 305: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 306: Soñó con 'luz_oblicua' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 306: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 306: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 306: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 307: Soñó con 'eco_sin_origen' (madre). Insight: colapso civilizatorio enciende el madre en cueva hasta quemar lo que toca.
+- Día 308: Soñó con 'río_que_nutre' (madre). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Isos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 309: Soñó con 'ojos_en_la_roca' (sombra). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 310: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 311: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 312: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 313: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 314: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 315: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en costa abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 316: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 317: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 318: Soñó con 'danza_a_solas' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 319: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 320: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 321: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 322: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 323: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 323: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 324: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 325: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 326: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 327: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 328: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 329: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 330: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 330: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 330: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 331: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 332: Soñó con 'hierba_que_corta' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 333: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 334: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 334: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 334: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 334: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 335: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 335: Cedió ingenuamente ante la manipulación de Halys.
+- Día 335: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Soñó con 'complemento_ausente' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 337: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 337: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 339: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 340: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Dryas.
+- Día 341: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 342: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 343: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 344: Soñó con 'niebla_densa' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 345: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 346: Soñó con 'camino_conocido' (sabio). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 347: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 347: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 347: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 348: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 348: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Chryse.
+- Día 348: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Chryse.
+- Día 348: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Chryse.
+- Día 348: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 348: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 348: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 348: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 348: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 348: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 349: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 349: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 349: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 350: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 351: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 352: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 353: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 354: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 355: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 355: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 355: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 356: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 357: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 358: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 359: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 359: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 359: Detectó y rechazó un intento de manipulación de Ladon.
+- Día 360: Soñó con 'piedra_que_rueda' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 361: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 362: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 362: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 363: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 364: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 365: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 365: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 366: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 367: Soñó con 'fruto_amargo' (self). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 367: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 367: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 368: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 369: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 369: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 369: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 370: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 370: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 370: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 370: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 370: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 371: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 371: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 371: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 372: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 372: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 372: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 372: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 372: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 372: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 372: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Soñó con 'silencio_absoluto' (trickster). Insight: El trickster crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 373: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 373: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 373: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Soñó con 'caída_sin_fondo' (trickster). Insight: El trickster crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 374: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 374: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 374: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 374: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 374: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 375: Soñó con 'roca_que_aplasta' (trickster). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 375: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 375: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 375: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 375: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 375: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 375: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 375: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 376: Soñó con 'trampa_propia' (trickster). Insight: En montana alta, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 376: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 376: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 376: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 377: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 377: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 377: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 377: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 378: Soñó con 'cima_en_niebla' (sabio). Insight: En montana alta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 378: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 378: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en montana alta hasta quemar lo que toca.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 379: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 380: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 380: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 381: Soñó con 'caída_sin_fondo' (trickster). Insight: En montana alta el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 381: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 381: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 381: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 382: Soñó con 'silencio_pleno' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 382: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 382: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 382: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 382: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 382: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 382: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 383: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 384: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 384: Soñó con 'silencio_absoluto' (sabio). Insight: El sabio ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 384: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 384: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 384: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 384: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 384: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 385: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 385: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 385: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 385: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 385: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 385: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 385: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 385: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 385: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 385: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 386: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 386: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 387: Soñó con 'roca_que_aplasta' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 388: Soñó con 'silencio_pleno' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 388: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 388: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 388: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 388: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 388: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 389: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 389: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 389: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 389: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 390: Soñó con 'caída_sin_fondo' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 390: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 390: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 390: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 390: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 390: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 391: Soñó con 'laberinto_que_ríe' (madre). Insight: El madre crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 391: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 391: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 391: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 391: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 391: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 391: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 391: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 392: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 392: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 392: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 392: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 392: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 393: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 393: Soñó con 'figura_que_sigue' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 393: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 393: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 393: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 393: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 393: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 393: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 394: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 394: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 394: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 394: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 394: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 395: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 395: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 395: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 395: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 395: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 395: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 395: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 395: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 396: Soñó con 'laberinto_que_ríe' (trickster). Insight: En montana alta el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 396: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 396: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 396: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 396: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 396: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 396: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 396: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 397: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 397: Soñó con 'máscara_adherida' (trickster). Insight: En montana alta, colapso civilizatorio aparece en el otro — el trickster no se reconoce.
+- Día 397: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 397: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 397: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 397: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 397: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 398: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 398: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 399: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 399: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 399: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 399: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 399: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 399: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 399: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 399: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 399: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 400: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 400: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 400: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 400: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 401: Soñó con 'estrella_que_no_guía' (sabio). Insight: En montana alta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 401: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 401: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 401: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 401: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 402: Soñó con 'espejo_que_miente' (sabio). Insight: El montana alta amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 402: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 402: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 402: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 402: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 403: Soñó con 'camino_conocido' (sabio). Insight: colapso civilizatorio enciende el sabio en montana alta hasta quemar lo que toca.
+- Día 403: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 403: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 403: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 403: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 403: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 403: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 404: Soñó con 'figura_que_sigue' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 404: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 404: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 404: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 404: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 404: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 404: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 404: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 404: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 404: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 405: Soñó con 'habitación_prohibida' (trickster). Insight: El trickster ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 405: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 405: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 405: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 405: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 405: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 405: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 405: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 406: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 406: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 406: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 406: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 406: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 406: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 407: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 407: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 407: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Soñó con 'estrella_que_no_guía' (sabio). Insight: El montana alta amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 408: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 408: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 408: Se impuso competitivamente ante Euros, absorbiendo sus recursos biológicos.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 409: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 409: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 410: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 412: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 412: Soñó con 'trampa_propia' (trickster). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 412: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 412: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 413: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 413: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 413: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 414: Soñó con 'voz_propia_extraña' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 414: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 415: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 415: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 416: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 416: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 416: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Soñó con 'habitación_prohibida' (trickster). Insight: En montana alta el trickster se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 418: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 422: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 423: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 423: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 424: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 425: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 426: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 426: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 426: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 427: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 427: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 428: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 428: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 428: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 429: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 429: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 429: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 430: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Soñó con 'silencio_pleno' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 431: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 432: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 433: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 433: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 433: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 434: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 434: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 434: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 434: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 435: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 435: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 436: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 436: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 436: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 436: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 437: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 437: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 437: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Soñó con 'habitación_prohibida' (self). Insight: En montana alta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 438: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 438: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 438: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 438: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 439: Soñó con 'cima_en_niebla' (self). Insight: El self crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 439: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Soñó con 'silencio_absoluto' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 441: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 442: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 442: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 443: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 444: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 444: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 444: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 444: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 445: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 446: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 446: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 446: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 447: Soñó con 'trampa_propia' (trickster). Insight: colapso civilizatorio enciende el trickster en montana alta hasta quemar lo que toca.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 447: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 447: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 448: Soñó con 'figura_que_sigue' (trickster). Insight: El trickster ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 448: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 448: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 448: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 448: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 448: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 449: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 450: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 451: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 451: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 451: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 451: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 452: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 452: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 453: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 453: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 453: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 454: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 455: Soñó con 'centro_sin_lugar' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 456: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 456: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 456: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 456: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 457: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 458: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 458: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 459: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 459: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 460: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 461: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 461: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 462: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 462: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 462: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 462: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Soñó con 'caída_sin_fondo' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 463: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 464: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 464: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 464: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 465: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 465: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 466: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 466: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 467: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 468: Soñó con 'silencio_pleno' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 468: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 469: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 470: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 471: Soñó con 'trampa_propia' (trickster). Insight: En montana alta, el trickster no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 471: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 471: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 472: Soñó con 'estrella_que_no_guía' (sabio). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Soñó con 'voz_sin_cuerpo' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 473: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 474: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 474: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 474: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 474: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 474: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 474: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 475: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 475: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 475: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 475: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 475: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 476: Soñó con 'silencio_absoluto' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 476: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 476: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 476: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 476: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 476: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 477: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 477: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 477: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 477: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 478: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 478: Soñó con 'reflejo_que_actúa_solo' (sabio). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 478: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 479: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 479: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 479: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 479: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 480: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 481: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 481: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 482: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 482: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 482: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 482: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 483: Soñó con 'complemento_ausente' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 483: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 483: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 484: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 484: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 484: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 484: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 484: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 485: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 485: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 486: Soñó con 'silencio_absoluto' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 486: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 486: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 486: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 487: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 487: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 487: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 487: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 487: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Soñó con 'cima_en_niebla' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 488: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 488: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Soñó con 'complemento_ausente' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 489: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 489: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 489: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 489: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 490: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 490: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 490: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Daeira.
+- Día 490: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Keleos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 490: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 490: Se impuso competitivamente ante Misos, absorbiendo sus recursos biológicos.
+- Día 491: Falleció a causa de causa_liminal_inexplicable.

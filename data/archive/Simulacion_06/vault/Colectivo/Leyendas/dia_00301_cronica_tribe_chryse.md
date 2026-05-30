@@ -1,0 +1,12 @@
+---
+tipo: cronica
+dia: 301
+tribu: tribe_chryse
+---
+# 📜 Crónica — Día 301
+
+> *Tribu del Self*
+
+---
+
+Y pasaron los días 202 al 301 como agua entre piedras. La tribu del self siguió su camino, 10 almas cargando el peso del campo colectivo. El símbolo del sombra marcó esta época.

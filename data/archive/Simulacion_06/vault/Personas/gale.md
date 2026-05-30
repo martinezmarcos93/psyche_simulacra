@@ -1,0 +1,2237 @@
+---
+id: gale
+nombre: Gale
+rol: padre
+edad: 31
+sexo: M
+is_alive: False
+posicion: [73, 58]
+humor: 0.548
+energia: 0.304
+ansiedad: 0.669
+needs:
+  hambre: 0.762
+  fatiga: 0.781
+  sed: 0.961
+  sociabilidad: 0.400
+arquetipo_dominante: sombra
+estado_conductual: competencia
+arquetipos:
+  self: 0.985
+  persona: 0.991
+  sombra: 1.000
+  anima_animus: 0.968
+  heroe: 0.465
+  sabio: 0.987
+  trickster: 0.702
+  madre: 0.985
+  padre: 0.828
+  nino_divino: 0.335
+  gobernante: 0.001
+  rebelde: 0.309
+---
+# 👤 Persona: Gale
+
+> **Rol:** `padre` | **Edad:** 31 | **Sexo:** M | **Ubicación:** `(73, 58)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓░░░░░]` | 0.55 |
+| **Energía** | `[▓▓▓░░░░░░░]` | 0.30 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓░░░]` | 0.67 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓▓▓▓▓▓▓░░]` | 0.76 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓▓▓▓▓▓]` | 0.96 | ⚠️ Alerta / Crítico |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓░░]` | 0.78 | 🟢 Descansado |
+| **Sociabilidad** | `[▓▓▓▓░░░░░░]` | 0.40 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.985` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.991` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.968` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.465` | `▓▓▓▓▓▓░░░░░░` |
+| **Sabio** | `0.987` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `0.702` | `▓▓▓▓▓▓▓▓░░░░` |
+| **Madre** | `0.985` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.828` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Nino divino** | `0.335` | `▓▓▓▓░░░░░░░░` |
+| **Gobernante** | `0.001` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.309` | `▓▓▓▓░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[aion]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[alke]] | `+0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[alphos]] | `+0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[amara]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[anthe]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[arsis]] | `-0.18` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[carme]] | `+0.24` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[chryse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[creon]] | `-0.44` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[elate]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[elpe]] | `-0.26` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[eos]] | `-0.16` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[erastos]] | `-0.20` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[erato]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[eris]] | `-0.12` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[eryx]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ethos]] | `+0.36` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[euia]] | `+0.08` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[gaia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gonos]] | `+0.36` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[gorgon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[graia]] | `-0.60` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[halys]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[herse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_001]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_002]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hijo_004]] | `-0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[hijo_006]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hijo_007]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_010]] | `-0.18` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[iapyx]] | `+0.35` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[ichnos]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ion]] | `-0.45` | `▓▓▓░░░░░░░` | Ninguno |
+| [[irene]] | `-0.40` | `▓▓▓░░░░░░░` | Ninguno |
+| [[iris]] | `-0.36` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[isos]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[ixion]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kastor]] | `-0.58` | `▓▓░░░░░░░░` | Ninguno |
+| [[kimon]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[koures]] | `-0.24` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[kreon]] | `-0.32` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[kyros]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[ladon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[laimos]] | `-0.07` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[lelex]] | `-0.74` | `▓░░░░░░░░░` | Ninguno |
+| [[lethe]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[linos]] | `-0.22` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[lycos]] | `+0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[lysas]] | `-0.60` | `▓▓░░░░░░░░` | Ninguno |
+| [[maia]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[malos]] | `-0.22` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[manto]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[melan]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[meroe]] | `-0.98` | `░░░░░░░░░░` | Ninguno |
+| [[mimas]] | `+0.18` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[molos]] | `+0.36` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[myron]] | `-0.14` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[mysia]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[naiads]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[narke]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[neda]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[neis]] | `-0.67` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[niobe]] | `-0.08` | `▓▓▓▓▓░░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 606:** Soñó con `'voz_propia_extraña'` (arquetipo `persona`).
+  - *Insight:* En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- **Día 607:** Soñó con `'papel_sin_actor'` (arquetipo `persona`).
+  - *Insight:* El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- **Día 608:** Soñó con `'pregunta_sin_respuesta'` (arquetipo `persona`).
+  - *Insight:* En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- **Día 609:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- **Día 610:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- **Día 611:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 612:** Soñó con `'leche_amarga'` (arquetipo `madre`).
+  - *Insight:* En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'ley_grabada_en_carne' (padre). Insight: El padre y lo reprimido se toleran esta noche en lago interior.
+- Día 1: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2: Soñó con 'sal_en_herida' (padre). Insight: Entre sombras de costa abierta, el padre y colapso civilizatorio coexisten sin resolverse.
+- Día 3: Soñó con 'mano_que_cierra' (padre). Insight: En colinas suaves, el padre encuentra tregua provisional con colapso civilizatorio.
+- Día 4: Soñó con 'reflejo_sin_original' (padre). Insight: En lago interior, el padre toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 5: Soñó con 'tormenta_controlada' (padre). Insight: El padre descansa en lago interior mientras colapso civilizatorio aguarda en el umbral.
+- Día 6: Soñó con 'ley_grabada_en_carne' (padre). Insight: En valle fertil, el padre encuentra tregua provisional con colapso civilizatorio.
+- Día 7: Soñó con 'herencia_pesada' (padre). Insight: El padre descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Día 8: Soñó con 'ley_grabada_en_carne' (padre). Insight: En bosque templado, el padre toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 9: Soñó con 'mano_que_cierra' (padre). Insight: Entre sombras de sabana abierta, el padre y colapso civilizatorio coexisten sin resolverse.
+- Día 10: Soñó con 'herencia_pesada' (padre). Insight: El padre descansa en desierto borde mientras colapso civilizatorio aguarda en el umbral.
+- Día 11: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 12: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 13: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
+- Día 14: Soñó con 'vista_engañosa' (padre). Insight: El padre se disfraza de su contrario en colinas suaves, lejos de colapso civilizatorio.
+- Día 15: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en bosque templado para no caer.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 18: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 19: Soñó con 'ley_grabada_en_carne' (padre). Insight: Entre sombras de costa abierta, el padre y colapso civilizatorio coexisten sin resolverse.
+- Día 20: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 21: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 22: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 23: Soñó con 'río_tranquilo' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
+- Día 24: Soñó con 'unión_imposible' (self). Insight: En costa abierta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 25: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 26: Soñó con 'mandala_incompleto' (self). Insight: En costa abierta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 27: Soñó con 'sombra_ausente' (self). Insight: Entre sombras de sabana abierta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 28: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en costa abierta compensando la energía de colapso civilizatorio.
+- Día 29: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
+- Día 30: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 31: Soñó con 'semilla_negra' (self). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 32: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en valle fertil para no caer.
+- Día 33: Soñó con 'unión_imposible' (self). Insight: En rio lago, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 34: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
+- Día 35: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 36: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus descansa en bosque templado mientras colapso civilizatorio aguarda en el umbral.
+- Día 37: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en rio lago para no caer.
+- Día 38: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, colapso civilizatorio pierde fuerza un instante — el anima_animus respira.
+- Día 39: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 40: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 41: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 42: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 43: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 44: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el anima_animus respira.
+- Día 45: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 46: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 47: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en valle fertil, lejos de colapso civilizatorio.
+- Día 48: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, el anima_animus toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 49: Soñó con 'reflejo_distorsionado' (self). Insight: El self ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 50: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago, colapso civilizatorio pierde fuerza un instante — el anima_animus respira.
+- Día 51: Soñó con 'bifurcación_sin_mapa' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 52: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 53: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: Entre sombras de bosque templado, el anima_animus y colapso civilizatorio coexisten sin resolverse.
+- Día 54: Soñó con 'sombra_ausente' (self). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 55: Soñó con 'tierra_resquebrajada' (self). Insight: En sabana abierta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 56: Soñó con 'huesos_propios' (self). Insight: En desierto borde el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 57: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 58: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 59: Soñó con 'complemento_ausente' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 59: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 59: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Gonos.
+- Día 59: Intentó manipular a Gonos, pero fue descubierto.
+- Día 59: Intentó manipular a Gonos, pero fue descubierto.
+- Día 59: Intentó manipular a Gonos, pero fue descubierto.
+- Día 59: Intentó manipular a Gonos, pero fue descubierto.
+- Día 59: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 60: Intentó manipular a Gonos, pero fue descubierto.
+- Día 61: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 62: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 62: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 62: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 62: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 62: Se enfrentó en un choque violento y destructivo contra Ichnos.
+- Día 63: Soñó con 'piedra_que_rueda' (self). Insight: El colinas suaves amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 64: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 65: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 66: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 67: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 68: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 69: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 70: Soñó con 'unión_imposible' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 71: Soñó con 'complemento_ausente' (anima_animus). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Día 72: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 73: Soñó con 'sed_en_el_agua' (sombra). Insight: colapso civilizatorio enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 74: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 75: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 76: Soñó con 'voz_propia_extraña' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 77: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 78: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 79: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 80: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 81: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 82: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 82: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 82: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 83: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 84: Soñó con 'silencio_absoluto' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 85: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 86: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 87: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 88: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 89: Soñó con 'sed_en_el_agua' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 90: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 91: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 91: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 92: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 92: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 92: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 93: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 94: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 95: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 96: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 96: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 97: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 98: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 99: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 100: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 101: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 102: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 103: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 104: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 105: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 106: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 107: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 108: Soñó con 'silencio_pleno' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 109: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 110: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 111: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 111: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 111: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 112: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 112: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 112: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 112: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 113: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 114: Soñó con 'unión_imposible' (self). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 114: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 114: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 114: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 115: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 115: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 115: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 116: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 117: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 118: Soñó con 'mandala_incompleto' (self). Insight: El desierto borde amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 118: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 119: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Día 119: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 119: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 119: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 119: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 119: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Soñó con 'centro_sin_lugar' (self). Insight: El rio lago amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 120: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 121: Soñó con 'sombra_ausente' (self). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 122: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 123: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 124: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 125: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 126: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 127: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 128: Soñó con 'silencio_pleno' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 128: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 128: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 129: Soñó con 'espejo_que_miente' (self). Insight: En costa abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 130: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 131: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 131: Intentó manipular a Manto, pero fue descubierto.
+- Día 131: Intentó manipular a Manto, pero fue descubierto.
+- Día 131: Intentó manipular a Manto, pero fue descubierto.
+- Día 131: Intentó manipular a Manto, pero fue descubierto.
+- Día 131: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 131: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Día 132: Soñó con 'centro_sin_lugar' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 133: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 134: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 134: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 135: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 135: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 135: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 136: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 136: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 136: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 136: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 136: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 137: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 138: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 139: Soñó con 'viento_que_borra' (madre). Insight: El madre crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 139: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 139: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 139: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 139: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 139: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Soñó con 'espejo_que_miente' (madre). Insight: El madre ve colapso civilizatorio afuera en desierto borde, donde no puede alcanzarlo.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Naiads, pero fue descubierto.
+- Día 140: Intentó manipular a Manto, pero fue descubierto.
+- Día 141: Soñó con 'silencio_pleno' (madre). Insight: colapso civilizatorio enciende el madre en colinas suaves hasta quemar lo que toca.
+- Día 142: Soñó con 'unión_imposible' (madre). Insight: En rio lago el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 143: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 143: Cedió ingenuamente ante la manipulación de Amara.
+- Día 144: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 144: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 144: Se enfrentó en un choque violento y destructivo contra Manto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 145: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 146: Soñó con 'centro_sin_lugar' (madre). Insight: El madre expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 147: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 147: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 147: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 147: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 148: Soñó con 'semilla_negra' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 148: Sufrió explotación y hostilidad de Amara, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 149: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 150: Soñó con 'figura_que_sigue' (anima_animus). Insight: En rio lago, colapso civilizatorio aparece en el otro — el anima_animus no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 151: Soñó con 'fruto_amargo' (persona). Insight: El persona crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 152: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 153: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 153: Se impuso competitivamente ante Melan, absorbiendo sus recursos biológicos.
+- Día 153: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 153: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 153: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 154: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 154: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 154: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 154: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 154: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 155: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 156: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 157: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 158: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 159: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 160: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 161: Soñó con 'viento_que_borra' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 162: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 163: Soñó con 'río_que_nutre' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 163: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 163: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 163: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 163: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 164: Soñó con 'fruto_amargo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 165: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 166: Soñó con 'nido_que_asfixia' (madre). Insight: En costa abierta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 167: Soñó con 'corriente_que_arrastra' (madre). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Halys.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Halys.
+- Día 167: Se enfrentó en un choque violento y destructivo contra Halys.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 168: Soñó con 'campo_interminable' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 168: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 168: Se impuso competitivamente ante Melan, absorbiendo sus recursos biológicos.
+- Día 168: Se impuso competitivamente ante Melan, absorbiendo sus recursos biológicos.
+- Día 169: Soñó con 'mandala_incompleto' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 170: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 170: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Soñó con 'semilla_negra' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 171: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 171: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 172: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 172: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 172: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 172: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 172: Se impuso competitivamente ante Isos, absorbiendo sus recursos biológicos.
+- Día 173: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 174: Soñó con 'marea_que_sube' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 174: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 175: Soñó con 'leche_amarga' (madre). Insight: En valle fertil, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 176: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 176: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 177: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 178: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 179: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 179: Se impuso competitivamente ante Kastor, absorbiendo sus recursos biológicos.
+- Día 179: Se impuso competitivamente ante Kastor, absorbiendo sus recursos biológicos.
+- Día 179: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 179: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 179: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 179: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 179: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Soñó con 'río_que_nutre' (madre). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 180: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 181: Soñó con 'silencio_pleno' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 182: Soñó con 'máscara_cosida_a_cara' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 182: Cedió ingenuamente ante la manipulación de Melan.
+- Día 182: Cedió ingenuamente ante la manipulación de Melan.
+- Día 183: Soñó con 'reflejo_distorsionado' (persona). Insight: El persona ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 183: Se impuso competitivamente ante Amara, absorbiendo sus recursos biológicos.
+- Día 184: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 185: Soñó con 'figura_que_sigue' (persona). Insight: El persona expulsa colapso civilizatorio hacia cueva: allá afuera, entre los demás.
+- Día 186: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 186: Se impuso competitivamente ante Narke, absorbiendo sus recursos biológicos.
+- Día 186: Se impuso competitivamente ante Narke, absorbiendo sus recursos biológicos.
+- Día 187: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 187: Se enfrentó en un choque violento y destructivo contra Narke.
+- Día 187: Cedió ingenuamente ante la manipulación de Amara.
+- Día 187: Cedió ingenuamente ante la manipulación de Amara.
+- Día 187: Cedió ingenuamente ante la manipulación de Amara.
+- Día 187: Cedió ingenuamente ante la manipulación de Amara.
+- Día 187: Cedió ingenuamente ante la manipulación de Amara.
+- Día 188: Cedió ingenuamente ante la manipulación de Amara.
+- Día 188: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 188: Cedió ingenuamente ante la manipulación de Amara.
+- Día 188: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 188: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 188: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 188: Cedió ingenuamente ante la manipulación de Amara.
+- Día 188: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 188: Cooperó de forma mutua y armónica con Lethe. Su lazo social se fortaleció.
+- Día 188: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 188: Cedió ingenuamente ante la manipulación de Euia.
+- Día 188: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 188: Sufrió explotación y hostilidad de Amara, cediendo recursos biológicos.
+- Día 188: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 189: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 189: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 189: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 190: Soñó con 'sol_que_calcina' (persona). Insight: En sabana abierta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 191: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 191: Se enfrentó en un choque violento y destructivo contra Euia.
+- Día 192: Soñó con 'espejo_que_miente' (sombra). Insight: El costa abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 193: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 194: Soñó con 'aplauso_vacío' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 194: Se impuso competitivamente ante Euia, absorbiendo sus recursos biológicos.
+- Día 194: Se impuso competitivamente ante Euia, absorbiendo sus recursos biológicos.
+- Día 195: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 196: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 197: Soñó con 'sombra_ausente' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 198: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 199: Soñó con 'reflejo_que_actúa_solo' (madre). Insight: El colinas suaves amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 200: Soñó con 'árbol_que_aprieta' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 201: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 201: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 201: Se impuso competitivamente ante Narke, absorbiendo sus recursos biológicos.
+- Día 201: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 201: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 201: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 201: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 201: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 202: Cedió ingenuamente ante la manipulación de Narke.
+- Día 202: Cedió ingenuamente ante la manipulación de Narke.
+- Día 202: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 203: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 203: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 203: Se enfrentó en un choque violento y destructivo contra Amara.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 204: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 205: Soñó con 'escenario_sin_salida' (persona). Insight: El costa abierta amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 206: Soñó con 'sombra_ausente' (persona). Insight: El persona crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 206: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 206: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 206: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 206: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 206: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Detectó y rechazó un intento de manipulación de Amara.
+- Día 207: Detectó y rechazó un intento de manipulación de Amara.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Amara.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 207: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Soñó con 'leche_amarga' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 208: Se enfrentó en un choque violento y destructivo contra Ladon.
+- Día 209: Soñó con 'nido_que_asfixia' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Detectó y rechazó un intento de manipulación de Amara.
+- Día 209: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 210: Soñó con 'voz_propia_extraña' (madre). Insight: El bosque templado amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 211: Soñó con 'reflejo_distorsionado' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 211: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 211: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 211: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 211: Cooperó de forma mutua y armónica con Aion. Su lazo social se fortaleció.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 211: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 212: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Aion.
+- Día 213: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 213: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 213: Detectó y rechazó un intento de manipulación de Alke.
+- Día 213: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 213: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 214: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 215: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 216: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 217: Soñó con 'río_tranquilo' (persona). Insight: El persona expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 218: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 218: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 218: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 218: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 218: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 218: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 219: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 219: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 219: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 219: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 219: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 220: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 220: Cedió ingenuamente ante la manipulación de Neis.
+- Día 220: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 220: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 221: Soñó con 'río_que_nutre' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 221: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 221: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Día 221: Se impuso competitivamente ante Eos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 222: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En rio lago, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 223: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 223: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Neis.
+- Día 223: Manipuló con éxito y astucia a Alke para ceder recursos.
+- Día 224: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 225: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 225: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 225: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 225: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 226: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 227: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 228: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 229: Soñó con 'árbol_sin_raíces' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 229: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 229: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 229: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 229: Cedió ingenuamente ante la manipulación de Anthe.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 230: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 231: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 231: Cedió ingenuamente ante la manipulación de Herse.
+- Día 232: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 232: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 232: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 232: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 232: Detectó y rechazó un intento de manipulación de Lysas.
+- Día 232: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 232: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 233: Soñó con 'silencio_pleno' (madre). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 233: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Herse.
+- Día 233: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 233: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 233: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 234: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 234: Cedió ingenuamente ante la manipulación de Anthe.
+- Día 234: Detectó y rechazó un intento de manipulación de Anthe.
+- Día 234: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 234: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 234: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 234: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 234: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Anthe.
+- Día 235: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 236: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 236: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 237: Soñó con 'río_tranquilo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 238: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en lago interior hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 239: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 240: Soñó con 'habitación_prohibida' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 241: Soñó con 'campo_interminable' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 242: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 243: Soñó con 'fruto_amargo' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 244: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 245: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 246: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 247: Soñó con 'hierba_que_corta' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 247: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 247: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 247: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 248: Soñó con 'voz_propia_extraña' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 249: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 250: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 251: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 252: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 253: Soñó con 'aplauso_vacío' (madre). Insight: El madre expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 254: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 255: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 255: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 255: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 255: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 255: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 255: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 256: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 257: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 257: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 257: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 257: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 257: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 258: Soñó con 'complemento_ausente' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 259: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 259: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 259: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 260: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 261: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 261: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 261: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 261: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 261: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 261: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 263: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 264: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 265: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 266: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 267: Soñó con 'leche_amarga' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 268: Soñó con 'papel_sin_actor' (madre). Insight: colapso civilizatorio enciende el madre en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 269: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 270: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 270: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 270: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 270: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 271: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 272: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 272: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 272: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Día 272: Se impuso competitivamente ante Aegon, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 273: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 273: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 273: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 274: Soñó con 'máscara_cosida_a_cara' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 274: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 274: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 275: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 276: Soñó con 'leche_amarga' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 277: Soñó con 'piedra_que_rueda' (persona). Insight: En colinas suaves, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 278: Soñó con 'papel_sin_actor' (persona). Insight: colapso civilizatorio enciende el persona en rio lago hasta quemar lo que toca.
+- Día 279: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En pantano costero el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 279: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 279: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 280: Soñó con 'luz_oblicua' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 280: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 280: Se impuso competitivamente ante Koures, absorbiendo sus recursos biológicos.
+- Día 281: Soñó con 'libro_en_lengua_muerta' (madre). Insight: colapso civilizatorio enciende el madre en rio lago hasta quemar lo que toca.
+- Día 282: Soñó con 'árbol_que_aprieta' (madre). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 282: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 283: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 283: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 284: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 285: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 285: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 285: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 286: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 287: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 288: Soñó con 'nido_que_asfixia' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 289: Soñó con 'sombra_ausente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 290: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 291: Soñó con 'luz_oblicua' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 291: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 291: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 292: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 292: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 292: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Soñó con 'calor_que_piensa' (anima_animus). Insight: El anima_animus crece desmedido en desierto borde — colapso civilizatorio lo empuja sin nombre.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 294: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 295: Soñó con 'nido_que_asfixia' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 295: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 295: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 295: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 295: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eunomia.
+- Día 296: Soñó con 'máscara_cosida_a_cara' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 297: Soñó con 'manada_que_huye' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 298: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 299: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 300: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 301: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 302: Soñó con 'complemento_ausente' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 303: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 304: Soñó con 'voz_propia_extraña' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 304: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 304: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 305: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 305: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 306: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 307: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 308: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 308: Cedió ingenuamente ante la manipulación de Halys.
+- Día 308: Cedió ingenuamente ante la manipulación de Halys.
+- Día 309: Soñó con 'sombra_ausente' (madre). Insight: El madre ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 310: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 311: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 312: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 313: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 313: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 313: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 313: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 314: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 314: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 314: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 314: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 314: Se impuso competitivamente ante Gorgon, absorbiendo sus recursos biológicos.
+- Día 315: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 316: Soñó con 'espejo_que_miente' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 317: Soñó con 'escenario_sin_salida' (persona). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 317: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 318: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 319: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 320: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 320: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 320: Se impuso competitivamente ante Neda, absorbiendo sus recursos biológicos.
+- Día 321: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Soñó con 'escenario_sin_salida' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 323: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 324: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 325: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Lelex.
+- Día 326: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 327: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 328: Soñó con 'unión_imposible' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 329: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 330: Soñó con 'campo_interminable' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 331: Soñó con 'escenario_sin_salida' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 332: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 333: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 333: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 333: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 334: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 334: Cooperó de forma mutua y armónica con Lelex. Su lazo social se fortaleció.
+- Día 335: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 335: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 335: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 335: Se impuso competitivamente ante Erastos, absorbiendo sus recursos biológicos.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 336: Soñó con 'mandala_incompleto' (persona). Insight: El persona expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 337: Soñó con 'unión_imposible' (persona). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 338: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 339: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 340: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 341: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 342: Soñó con 'figura_que_sigue' (self). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 343: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 344: Soñó con 'máscara_cosida_a_cara' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 344: Cedió ingenuamente ante la manipulación de Euia.
+- Día 344: Cedió ingenuamente ante la manipulación de Euia.
+- Día 345: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 345: Soñó con 'centro_sin_lugar' (self). Insight: El self ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 345: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 345: Cedió ingenuamente ante la manipulación de Euia.
+- Día 345: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 346: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 347: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 348: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 349: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 349: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 349: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 350: Detectó y rechazó un intento de manipulación de Herse.
+- Día 351: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 352: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 353: Soñó con 'espejo_que_miente' (self). Insight: El colinas suaves amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 354: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 355: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 356: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 357: Soñó con 'fruto_amargo' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 358: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 359: Soñó con 'río_que_nutre' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 359: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 360: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 360: Creó 'Símbolo Oscuro de Sombra' (tipo=perturbador) en estado compulsivo.
+- Día 360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 360: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 361: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Meroe.
+- Día 362: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 363: Soñó con 'sed_en_el_agua' (self). Insight: El rio lago amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 364: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 365: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 366: Soñó con 'fruto_amargo' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 367: Soñó con 'voz_sin_cuerpo' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 368: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 369: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 370: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 371: Soñó con 'libro_en_lengua_muerta' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 372: Soñó con 'río_tranquilo' (self). Insight: colapso civilizatorio enciende el self en valle fertil hasta quemar lo que toca.
+- Día 373: Soñó con 'hierba_que_corta' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 374: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 375: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 376: Soñó con 'sombra_ausente' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 377: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 378: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 379: Soñó con 'espejo_que_miente' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 380: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 380: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 381: Soñó con 'hierba_que_corta' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 381: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 381: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 381: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 382: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 383: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 384: Soñó con 'papel_sin_actor' (persona). Insight: El bosque templado amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 385: Soñó con 'libro_en_lengua_muerta' (persona). Insight: colapso civilizatorio enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 386: Soñó con 'papel_sin_actor' (persona). Insight: En rio lago, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 387: Soñó con 'árbol_que_aprieta' (madre). Insight: colapso civilizatorio enciende el madre en rio lago hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 388: Soñó con 'nido_que_asfixia' (madre). Insight: En rio lago, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 389: Soñó con 'camino_conocido' (sombra). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 390: Soñó con 'leche_amarga' (madre). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 391: Soñó con 'escenario_sin_salida' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 392: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 393: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 394: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 395: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 396: Soñó con 'agua_fría' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 397: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 398: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 399: Soñó con 'árbol_que_aprieta' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 400: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 401: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 402: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 403: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 404: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En lago interior, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 405: Soñó con 'escenario_sin_salida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 406: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 407: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 408: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 409: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 410: Soñó con 'papel_sin_actor' (persona). Insight: colapso civilizatorio enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 411: Soñó con 'niebla_densa' (persona). Insight: El persona expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 411: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 411: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Kastor.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Kastor.
+- Día 412: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 413: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 414: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 415: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 416: Soñó con 'profundidad_sin_fondo' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 416: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 416: Cedió ingenuamente ante la manipulación de Eris.
+- Día 417: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 418: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 418: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 418: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 418: Se impuso competitivamente ante Niobe, absorbiendo sus recursos biológicos.
+- Día 418: Se impuso competitivamente ante Niobe, absorbiendo sus recursos biológicos.
+- Día 419: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 420: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 421: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 422: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 423: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 424: Soñó con 'danza_a_solas' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 425: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 426: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 427: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 428: Soñó con 'calma_antes_de_algo' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 429: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 429: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 429: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 429: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 429: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 429: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 429: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 429: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 429: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 430: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 431: Soñó con 'huesos_propios' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 432: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 433: Soñó con 'calor_que_piensa' (persona). Insight: colapso civilizatorio enciende el persona en desierto borde hasta quemar lo que toca.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 434: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 435: Soñó con 'papel_sin_actor' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 435: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 435: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 435: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 436: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 437: Soñó con 'silencio_pleno' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 438: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 439: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 440: Soñó con 'río_que_nutre' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 441: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 442: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 443: Soñó con 'reflejo_distorsionado' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 444: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 444: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 445: Soñó con 'sed_en_el_agua' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 445: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 445: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 445: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 446: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 446: Sufrió explotación y hostilidad de Niobe, cediendo recursos biológicos.
+- Día 447: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 448: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 449: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 449: Cedió ingenuamente ante la manipulación de Halys.
+- Día 449: Intentó manipular a Halys, pero fue descubierto.
+- Día 449: Intentó manipular a Halys, pero fue descubierto.
+- Día 449: Intentó manipular a Halys, pero fue descubierto.
+- Día 449: Intentó manipular a Halys, pero fue descubierto.
+- Día 449: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 450: Intentó manipular a Halys, pero fue descubierto.
+- Día 451: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 452: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 453: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 453: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 453: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 453: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 453: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Mysia, absorbiendo sus recursos biológicos.
+- Día 454: Se impuso competitivamente ante Halys, absorbiendo sus recursos biológicos.
+- Día 454: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 454: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 455: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 456: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 457: Soñó con 'unión_imposible' (sombra). Insight: El sombra crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 457: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 457: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 457: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 458: Soñó con 'manada_que_huye' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 459: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 460: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 460: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 460: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 460: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 460: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Soñó con 'nido_que_asfixia' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 461: Cooperó de forma mutua y armónica con Myron. Su lazo social se fortaleció.
+- Día 462: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 463: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 464: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 465: Soñó con 'danza_a_solas' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 466: Soñó con 'caída_sin_fondo' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 467: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 467: Cedió ingenuamente ante la manipulación de Narke.
+- Día 467: Cedió ingenuamente ante la manipulación de Narke.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 468: Soñó con 'unión_imposible' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 468: Intentó manipular a Erato, pero fue descubierto.
+- Día 469: Soñó con 'espejo_que_miente' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 469: Cooperó de forma mutua y armónica con Briseis. Su lazo social se fortaleció.
+- Día 469: Cooperó de forma mutua y armónica con Briseis. Su lazo social se fortaleció.
+- Día 470: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 471: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 472: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 473: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 474: Soñó con 'fondo_que_sube' (madre). Insight: colapso civilizatorio enciende el madre en rio lago hasta quemar lo que toca.
+- Día 475: Soñó con 'espejo_que_miente' (madre). Insight: El madre ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 476: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 477: Soñó con 'ojos_en_la_roca' (madre). Insight: El madre expulsa colapso civilizatorio hacia cueva: allá afuera, entre los demás.
+- Día 478: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 479: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 480: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 480: Se impuso competitivamente ante Myron, absorbiendo sus recursos biológicos.
+- Día 481: Soñó con 'centro_sin_lugar' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 482: Soñó con 'sombra_ausente' (sombra). Insight: El sombra crece desmedido en sabana abierta — colapso civilizatorio lo empuja sin nombre.
+- Día 483: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 483: Intentó manipular a Eryx, pero fue descubierto.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 485: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Soñó con 'estrella_que_no_guía' (self). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Soñó con 'voz_propia_extraña' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Soñó con 'fondo_que_sube' (self). Insight: colapso civilizatorio enciende el self en rio lago hasta quemar lo que toca.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Soñó con 'río_que_nutre' (self). Insight: El self expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Soñó con 'río_que_nutre' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 494: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 495: Soñó con 'piedra_que_rueda' (self). Insight: En colinas suaves el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 496: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 497: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 498: Soñó con 'viento_que_borra' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 499: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 500: Soñó con 'reflejo_distorsionado' (madre). Insight: El rio lago amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 501: Soñó con 'unión_imposible' (madre). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 502: Soñó con 'silencio_pleno' (sombra). Insight: colapso civilizatorio enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 503: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 504: Soñó con 'viento_que_borra' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 505: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 506: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 507: Soñó con 'mandala_incompleto' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 508: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia desierto borde: allá afuera, entre los demás.
+- Día 509: Soñó con 'fruto_amargo' (self). Insight: El self crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 510: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 510: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 511: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 512: Se enfrentó en un choque violento y destructivo contra Creon.
+- Día 513: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 513: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 514: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 514: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 514: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 514: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 514: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 514: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 515: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Día 515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 515: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 515: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 515: Se enfrentó en un choque violento y destructivo contra Lethe.
+- Día 516: Soñó con 'espejo_que_miente' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 517: Soñó con 'campo_interminable' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 518: Soñó con 'horizonte_inmóvil' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 519: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 520: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 521: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 522: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en valle fertil hasta quemar lo que toca.
+- Día 523: Soñó con 'leche_amarga' (madre). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 523: Cedió ingenuamente ante la manipulación de Alphos.
+- Día 523: Cedió ingenuamente ante la manipulación de Alphos.
+- Día 524: Soñó con 'espejo_que_miente' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 525: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 525: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 525: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 525: Sufrió explotación y hostilidad de Halys, cediendo recursos biológicos.
+- Día 525: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 525: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 525: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 525: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 525: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Día 526: Cooperó de forma mutua y armónica con Halys. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 527: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 527: Detectó y rechazó un intento de manipulación de Laimos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 528: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 529: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 530: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 531: Soñó con 'raíz_invisible' (anima_animus). Insight: En pantano costero, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 531: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 531: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 531: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 532: Soñó con 'estrella_que_no_guía' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 533: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 534: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 534: Se enfrentó en un choque violento y destructivo contra Neis.
+- Día 534: Se enfrentó en un choque violento y destructivo contra Neis.
+- Día 535: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 536: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 536: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 536: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 537: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 538: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 539: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 540: Soñó con 'reflejo_sin_original' (anima_animus). Insight: El anima_animus crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 541: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 541: Cedió ingenuamente ante la manipulación de Eris.
+- Día 542: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 543: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 543: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 544: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 544: Cedió ingenuamente ante la manipulación de Tethys.
+- Día 544: Cedió ingenuamente ante la manipulación de Tethys.
+- Día 544: Cedió ingenuamente ante la manipulación de Tethys.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 544: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 544: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Intentó manipular a Tethys, pero fue descubierto.
+- Día 545: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naiads.
+- Día 545: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naiads.
+- Día 546: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 546: Se enfrentó en un choque violento y destructivo contra Linos.
+- Día 546: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 547: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 548: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 549: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 550: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 551: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 552: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 552: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 553: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 554: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Neda.
+- Día 556: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 557: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 558: Soñó con 'leche_amarga' (madre). Insight: En rio lago, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 559: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 560: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 561: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 562: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 563: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 564: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 565: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 566: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 567: Soñó con 'campo_interminable' (sabio). Insight: El sabio crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 567: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 567: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 568: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 568: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 568: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 569: Soñó con 'salida_inexistente' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 570: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 570: Cedió ingenuamente ante la manipulación de Dike.
+- Día 571: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 572: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 573: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 573: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 575: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 576: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 576: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Myron.
+- Día 577: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 577: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 578: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 578: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 579: Soñó con 'abundancia_que_pudre' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 580: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 580: Detectó y rechazó un intento de manipulación de Ion.
+- Día 580: Detectó y rechazó un intento de manipulación de Ion.
+- Día 580: Detectó y rechazó un intento de manipulación de Ion.
+- Día 581: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en lago interior, donde no puede alcanzarlo.
+- Día 581: Se enfrentó en un choque violento y destructivo contra Dike.
+- Día 582: Soñó con 'voz_propia_extraña' (sabio). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 582: Intentó manipular a Irene, pero fue descubierto.
+- Día 582: Intentó manipular a Irene, pero fue descubierto.
+- Día 583: Soñó con 'profundidad_sin_fondo' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 583: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 584: Soñó con 'camino_conocido' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 584: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 584: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 584: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 585: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 585: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Soñó con 'unión_imposible' (self). Insight: En rio lago el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 586: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Soñó con 'figura_que_sigue' (self). Insight: El self ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 587: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 588: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 589: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 590: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 590: Detectó y rechazó un intento de manipulación de Kimon.
+- Día 591: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Día 591: Detectó y rechazó un intento de manipulación de Gaia.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 591: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 592: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 593: Soñó con 'unión_imposible' (self). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 594: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 595: Soñó con 'habitación_prohibida' (madre). Insight: En pantano costero, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 596: Soñó con 'voz_propia_extraña' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 597: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 598: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 599: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 599: Cooperó de forma mutua y armónica con Carme. Su lazo social se fortaleció.
+- Día 599: Cooperó de forma mutua y armónica con Carme. Su lazo social se fortaleció.
+- Día 599: Cooperó de forma mutua y armónica con Carme. Su lazo social se fortaleció.
+- Día 600: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 601: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 602: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 602: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 603: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 604: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 605: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 606: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 606: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 606: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 606: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 606: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 607: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 607: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 607: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 607: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 608: Soñó con 'pregunta_sin_respuesta' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 608: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 608: Cedió ingenuamente ante la manipulación de Molos.
+- Día 609: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 609: Se enfrentó en un choque violento y destructivo contra Euia.
+- Día 609: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 609: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 610: Soñó con 'figura_que_sigue' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 610: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 610: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 610: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 610: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 610: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 611: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 611: Se enfrentó en un choque violento y destructivo contra Doris.
+- Día 611: Se enfrentó en un choque violento y destructivo contra Doris.
+- Día 611: Se enfrentó en un choque violento y destructivo contra Doris.
+- Día 611: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 611: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 612: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 612: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 612: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Día 613: Falleció a causa de deshidratacion.

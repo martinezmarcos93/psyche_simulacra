@@ -1,0 +1,5022 @@
+---
+id: heron
+nombre: Heron
+rol: explorador
+edad: 36
+sexo: F
+is_alive: False
+posicion: [49, 39]
+humor: 0.014
+energia: 0.006
+ansiedad: 1.000
+needs:
+  hambre: 0.358
+  fatiga: 1.000
+  sed: 0.515
+  sociabilidad: 0.240
+arquetipo_dominante: sombra
+estado_conductual: competencia
+arquetipos:
+  self: 0.948
+  persona: 0.940
+  sombra: 1.000
+  anima_animus: 0.813
+  heroe: 0.454
+  sabio: 0.717
+  trickster: 0.830
+  madre: 0.818
+  padre: 0.622
+  nino_divino: 0.194
+  gobernante: 0.115
+  rebelde: 0.034
+---
+# 👤 Persona: Heron
+
+> **Rol:** `explorador` | **Edad:** 36 | **Sexo:** F | **Ubicación:** `(49, 39)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[░░░░░░░░░░]` | 0.01 |
+| **Energía** | `[░░░░░░░░░░]` | 0.01 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓▓▓░░░░░░]` | 0.36 | 🟢 Saciado |
+| **Sed** | `[▓▓▓▓▓░░░░░]` | 0.52 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 | ⚠️ Alerta / Crítico |
+| **Sociabilidad** | `[▓▓░░░░░░░░]` | 0.24 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.948` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Persona** | `0.940` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.813` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Heroe** | `0.454` | `▓▓▓▓▓░░░░░░░` |
+| **Sabio** | `0.717` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.830` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Madre** | `0.818` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Padre** | `0.622` | `▓▓▓▓▓▓▓░░░░░` |
+| **Nino divino** | `0.194` | `▓▓░░░░░░░░░░` |
+| **Gobernante** | `0.115` | `▓░░░░░░░░░░░` |
+| **Rebelde** | `0.034` | `░░░░░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[cteis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eidyia]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[epops]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[estes]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[euros]] | `-0.12` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[helos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[indis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[meroe]] | `-0.02` | `▓▓▓▓▓░░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 488:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- **Día 489:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- **Día 490:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- **Día 491:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- **Día 492:** Soñó con `'raíz_invisible'` (arquetipo `sombra`).
+  - *Insight:* El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- **Día 493:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- **Día 494:** Soñó con `'habitación_prohibida'` (arquetipo `sombra`).
+  - *Insight:* El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster y lo reprimido se toleran esta noche en bosque templado.
+- Día 1: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, el trickster negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 3: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster y colapso civilizatorio se toleran esta noche en pantano costero.
+- Día 4: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- Día 5: Soñó con 'trampa_propia' (trickster). Insight: En lago interior, el trickster toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 6: Soñó con 'reflejo_distorsionado' (trickster). Insight: En rio lago, el trickster toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 7: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Día 8: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En rio lago, el trickster encuentra tregua provisional con colapso civilizatorio.
+- Día 8: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 8: Se impuso competitivamente ante Eidyia, absorbiendo sus recursos biológicos.
+- Día 8: Manipuló con éxito y astucia a Eidyia para ceder recursos.
+- Día 8: Manipuló con éxito y astucia a Eidyia para ceder recursos.
+- Día 9: Soñó con 'río_tranquilo' (trickster). Insight: En valle fertil, colapso civilizatorio pierde fuerza un instante — el trickster respira.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 10: Soñó con 'máscara_adherida' (trickster). Insight: En bosque templado, el trickster encuentra tregua provisional con colapso civilizatorio.
+- Día 11: Soñó con 'centro_sin_lugar' (self). Insight: En cueva, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 12: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en rio lago mientras colapso civilizatorio aguarda en el umbral.
+- Día 13: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pantano costero para no caer.
+- Día 14: Soñó con 'corriente_que_arrastra' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en rio lago para no caer.
+- Día 15: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 16: Soñó con 'mandala_incompleto' (self). Insight: Entre sombras de lago interior, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 17: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en bosque templado.
+- Día 18: Soñó con 'raíz_invisible' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 19: Soñó con 'olor_a_descomposición' (self). Insight: En pantano costero, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 20: Soñó con 'silencio_pleno' (self). Insight: El self y colapso civilizatorio se toleran esta noche en desierto borde.
+- Día 21: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 22: Soñó con 'unión_imposible' (self). Insight: En lago interior, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en costa abierta, lejos de colapso civilizatorio.
+- Día 24: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 25: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en lago interior para no caer.
+- Día 26: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en bosque templado compensando la energía de colapso civilizatorio.
+- Día 27: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 28: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de lago interior, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 29: Soñó con 'unión_imposible' (self). Insight: El self descansa en pradera humeda mientras colapso civilizatorio aguarda en el umbral.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 30: Soñó con 'profundidad_sin_fondo' (self). Insight: Entre sombras de lago interior, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 31: Soñó con 'descenso_inevitable' (self). Insight: En colinas suaves, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 32: Soñó con 'sed_en_el_agua' (self). Insight: El self y colapso civilizatorio se toleran esta noche en rio lago.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 32: Sufrió explotación y hostilidad de Epops, cediendo recursos biológicos.
+- Día 33: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en lago interior para no caer.
+- Día 34: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 35: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 36: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en rio lago compensando la energía de colapso civilizatorio.
+- Día 37: Soñó con 'corriente_que_arrastra' (self). Insight: En rio lago el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 38: Soñó con 'sendero_circular' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 39: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 40: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 41: Soñó con 'reflejo_sin_original' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de lago interior.
+- Día 42: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en lago interior hasta quemar lo que toca.
+- Día 43: Soñó con 'mandala_incompleto' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 44: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 45: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de valle fertil.
+- Día 46: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 47: Soñó con 'horizonte_inmóvil' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 48: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 49: Soñó con 'profundidad_sin_fondo' (self). Insight: En lago interior el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 50: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 51: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 52: Soñó con 'sombra_que_camina' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Día 53: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 54: Soñó con 'luz_oblicua' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 55: Soñó con 'mandala_incompleto' (self). Insight: En lago interior, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 56: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 57: Soñó con 'campo_interminable' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 58: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 59: Soñó con 'unión_imposible' (self). Insight: El cueva amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 60: Soñó con 'hierba_que_corta' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 61: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 62: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 63: Soñó con 'oscuridad_total' (self). Insight: colapso civilizatorio enciende el self en cueva hasta quemar lo que toca.
+- Día 64: Soñó con 'mandala_incompleto' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 65: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 66: Soñó con 'calma_antes_de_algo' (persona). Insight: El persona crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 67: Soñó con 'descenso_inevitable' (persona). Insight: El colinas suaves amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 68: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 69: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 70: Soñó con 'silencio_pleno' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 71: Soñó con 'aplauso_vacío' (persona). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 72: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 73: Soñó con 'centro_sin_lugar' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 74: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 75: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 76: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 77: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 78: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 79: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 80: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 81: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 82: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 83: Soñó con 'raíz_invisible' (sabio). Insight: El pantano costero amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 84: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 85: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 86: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 87: Soñó con 'campo_interminable' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 88: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 89: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 90: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 91: Soñó con 'bifurcación_sin_mapa' (persona). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 91: El colapso de nuestra tribu. Solo quedamos 1.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 92: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 93: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 94: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en cueva, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 95: Soñó con 'unión_imposible' (self). Insight: En rio lago, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 96: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 97: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 98: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 99: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 100: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 101: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 102: Soñó con 'caída_sin_fondo' (sabio). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 103: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 104: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 105: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 106: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 107: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 108: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 109: Soñó con 'unión_imposible' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 110: Soñó con 'mandala_incompleto' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 111: Soñó con 'luz_oblicua' (self). Insight: colapso civilizatorio enciende el self en bosque templado hasta quemar lo que toca.
+- Día 112: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 113: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 114: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 115: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 116: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 117: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 118: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en valle fertil — colapso civilizatorio lo empuja sin nombre.
+- Día 119: Soñó con 'escenario_sin_salida' (persona). Insight: colapso civilizatorio enciende el persona en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 120: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 121: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 122: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 123: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 124: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 125: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 126: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 127: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 128: Soñó con 'silencio_pleno' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 129: Soñó con 'centro_sin_lugar' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 130: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 131: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 132: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En lago interior el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 133: Soñó con 'campo_interminable' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 134: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 135: Soñó con 'fruto_amargo' (persona). Insight: colapso civilizatorio enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 135: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 135: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 135: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 135: Sufrió explotación y hostilidad de Euros, cediendo recursos biológicos.
+- Día 135: Sufrió explotación y hostilidad de Euros, cediendo recursos biológicos.
+- Día 136: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 137: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 138: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 139: Soñó con 'aplauso_vacío' (persona). Insight: El bosque templado amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 140: Soñó con 'niebla_densa' (persona). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 141: Soñó con 'semilla_negra' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 142: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 143: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 144: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En rio lago, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 145: Soñó con 'agua_fría' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Día 146: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 147: Soñó con 'río_que_nutre' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 148: Soñó con 'horizonte_inmóvil' (madre). Insight: En pradera humeda, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 149: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 150: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 151: Soñó con 'árbol_sin_raíces' (sombra). Insight: colapso civilizatorio enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 152: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 153: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 154: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 155: Soñó con 'centro_sin_lugar' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 156: Soñó con 'unión_imposible' (self). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 157: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 158: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 159: Soñó con 'raíz_invisible' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 160: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 161: Soñó con 'nido_que_asfixia' (madre). Insight: El valle fertil amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 162: Soñó con 'luz_oblicua' (madre). Insight: El madre expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 163: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 164: Soñó con 'árbol_que_aprieta' (madre). Insight: En bosque templado, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 165: Soñó con 'luz_oblicua' (persona). Insight: El persona expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 166: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 167: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 168: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 169: Soñó con 'leche_amarga' (madre). Insight: El madre ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 170: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 171: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 172: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 173: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 174: Soñó con 'sombra_que_camina' (persona). Insight: El persona expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 175: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 176: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 177: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 178: Soñó con 'hierba_que_corta' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 179: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 180: Soñó con 'rebelde' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 181: Soñó con 'nino_divino' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 181: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 182: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Día 183: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 184: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: colapso civilizatorio enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 185: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 186: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 187: Soñó con 'semilla_negra' (persona). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 188: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 189: Soñó con 'terreno_que_cede' (self). Insight: El pantano costero amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 190: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 191: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 192: Soñó con 'estrella_que_no_guía' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 193: Soñó con 'camino_conocido' (sabio). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 194: Soñó con 'olor_a_descomposición' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 195: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 196: Soñó con 'camino_conocido' (sabio). Insight: colapso civilizatorio enciende el sabio en bosque templado hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 197: Soñó con 'reflejo_distorsionado' (sabio). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 198: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 199: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en costa abierta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 200: Soñó con 'semilla_negra' (sombra). Insight: colapso civilizatorio enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 201: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 202: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 203: Soñó con 'padre' (sombra). Insight: El sombra crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 204: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 205: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 206: Soñó con 'fondo_que_sube' (madre). Insight: El madre expulsa colapso civilizatorio hacia rio lago: allá afuera, entre los demás.
+- Día 207: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 208: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 209: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 210: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 211: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 212: Soñó con 'silencio_pleno' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de costa abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 213: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 214: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 215: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 216: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 217: Soñó con 'río_que_nutre' (madre). Insight: En bosque templado, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 218: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 219: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 220: Soñó con 'río_que_nutre' (madre). Insight: En lago interior el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 221: Soñó con 'nido_que_asfixia' (madre). Insight: En costa abierta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 222: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 223: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa colapso civilizatorio hacia valle fertil: allá afuera, entre los demás.
+- Día 224: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 225: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 226: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 227: Soñó con 'sombra_ausente' (persona). Insight: El sabana abierta amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 228: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 229: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 230: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 231: Soñó con 'papel_sin_actor' (persona). Insight: colapso civilizatorio enciende el persona en montana alta hasta quemar lo que toca.
+- Día 232: Soñó con 'escenario_sin_salida' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 233: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Estes.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 233: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 233: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 234: Soñó con 'nino_divino' (persona). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 234: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 235: Soñó con 'padre' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 235: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 236: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 236: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Soñó con 'terreno_que_cede' (persona). Insight: El pantano costero amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 237: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 238: Entró en disociación por sombra — melancolia_disociativa.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 238: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Soñó con 'gobernante' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 239: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 240: Soñó con 'nino_divino' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 240: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 241: Soñó con 'raíz_invisible' (persona). Insight: El persona ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 241: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 242: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 242: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 243: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 244: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 245: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 245: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 246: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 246: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 247: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 248: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 249: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 249: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 250: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 250: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 251: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 252: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 252: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 253: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 253: El estado de disociación (melancolia_disociativa) se volvió permanente.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 253: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 254: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 254: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Soñó con 'nino_divino' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 255: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 256: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 256: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 257: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 257: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 258: Soñó con 'gobernante' (madre). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 258: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 259: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 259: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Helos.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 260: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Indis.
+- Día 261: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 262: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 263: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Soñó con 'niebla_densa' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 264: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Soñó con 'gobernante' (persona). Insight: colapso civilizatorio enciende el persona en pantano costero hasta quemar lo que toca.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 265: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Soñó con 'raíz_invisible' (persona). Insight: colapso civilizatorio enciende el persona en pantano costero hasta quemar lo que toca.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 266: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Soñó con 'raíz_invisible' (persona). Insight: En pantano costero, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 267: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 268: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 269: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 270: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 271: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 271: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Soñó con 'papel_sin_actor' (persona). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el persona no se reconoce.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 272: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 273: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Soñó con 'nido_que_asfixia' (madre). Insight: En pantano costero, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 274: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Soñó con 'leche_amarga' (madre). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 275: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 276: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 277: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 278: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 278: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 279: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 280: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 281: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Soñó con 'raíz_invisible' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 283: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 284: Soñó con 'raíz_invisible' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 284: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 285: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 286: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 287: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 288: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 288: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 289: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Soñó con 'nino_divino' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 290: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 291: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 292: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 293: Soñó con 'olor_a_descomposición' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 293: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 294: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 295: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 297: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 298: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Soñó con 'olor_a_descomposición' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 299: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Soñó con 'padre' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Soñó con 'gobernante' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 301: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Soñó con 'raíz_invisible' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Soñó con 'aplauso_vacío' (persona). Insight: El pantano costero amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 304: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 305: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 306: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 307: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 308: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 308: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 309: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 310: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Soñó con 'escenario_sin_salida' (persona). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 311: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Soñó con 'padre' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 312: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 313: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 313: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 314: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 315: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 316: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Soñó con 'nino_divino' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 318: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 318: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 319: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 320: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 321: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 322: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Soñó con 'olor_a_descomposición' (persona). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 323: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 325: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 326: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 327: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 328: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 329: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 330: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 331: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 332: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 333: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Soñó con 'niebla_densa' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 334: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 335: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 336: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 337: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 338: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 339: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 340: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 340: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 341: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Soñó con 'unión_imposible' (self). Insight: En pantano costero, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 342: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 343: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 344: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Soñó con 'silencio_pleno' (self). Insight: En pantano costero el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 345: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Soñó con 'olor_a_descomposición' (self). Insight: El self crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 346: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 347: Soñó con 'terreno_que_cede' (self). Insight: En pantano costero el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 347: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 348: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 349: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Soñó con 'mandala_incompleto' (self). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 350: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 351: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 352: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 353: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 354: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 355: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Soñó con 'niebla_densa' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 356: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 357: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 357: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 358: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 361: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 361: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 362: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 363: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 363: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 364: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 365: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 366: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 367: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 368: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 369: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 370: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 371: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 372: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Soñó con 'olor_a_descomposición' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 373: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Soñó con 'nino_divino' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 374: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 375: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 376: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 377: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Soñó con 'terreno_que_cede' (self). Insight: El self expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 378: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 379: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Soñó con 'gobernante' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 380: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 381: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 382: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 383: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 384: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Soñó con 'niebla_densa' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 385: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 386: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 387: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 388: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 389: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 390: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 391: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 392: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 393: Soñó con 'niebla_densa' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 393: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 394: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 395: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 396: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 397: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 398: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 399: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 400: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 401: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 402: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 402: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 403: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 403: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 404: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Soñó con 'unión_imposible' (self). Insight: El pantano costero amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 405: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Soñó con 'centro_sin_lugar' (self). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 406: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 407: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 408: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 409: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Soñó con 'raíz_invisible' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 410: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 411: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Soñó con 'niebla_densa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 412: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 413: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 414: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 415: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 416: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 417: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 418: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 419: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 420: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 421: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Soñó con 'raíz_invisible' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 422: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 423: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 424: Soñó con 'niebla_densa' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 424: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 425: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 425: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 426: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 427: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 428: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 429: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 430: Soñó con 'raíz_invisible' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 430: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 431: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 432: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 433: Soñó con 'nino_divino' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 433: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Soñó con 'padre' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 434: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 435: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 435: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 436: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 437: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Soñó con 'niebla_densa' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 438: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Soñó con 'olor_a_descomposición' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 439: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 440: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 441: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 443: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 444: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 445: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 446: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 447: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 448: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 449: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 450: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 451: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 451: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 451: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 452: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 453: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 454: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 455: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 456: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pantano costero.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 456: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 457: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 458: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Soñó con 'niebla_densa' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 459: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Soñó con 'espejo_que_miente' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 460: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Soñó con 'terreno_que_cede' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 461: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 462: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 463: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 464: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 464: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 465: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 466: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Soñó con 'nino_divino' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 467: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 468: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 469: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Soñó con 'terreno_que_cede' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 470: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 471: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 472: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 473: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 473: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Soñó con 'olor_a_descomposición' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 474: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 475: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 476: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 477: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 478: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Soñó con 'terreno_que_cede' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 479: Creó 'Objeto Tapu de Muerte' (tipo=perturbador) en estado compulsivo.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Soñó con 'niebla_densa' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 480: El 'Objeto Tapu de Muerte' genera presagios inquietantes.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 480: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 481: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 482: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 483: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 484: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 485: El 'Objeto Tapu de Muerte' genera presagios inquietantes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 485: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Soñó con 'terreno_que_cede' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 486: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Soñó con 'gobernante' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 487: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 488: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 488: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en pantano costero, donde no puede alcanzarlo.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 489: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 490: El 'Objeto Tapu de Muerte' genera presagios inquietantes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 490: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 491: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Soñó con 'raíz_invisible' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 492: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 493: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Cteis.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 494: Se enfrentó en un choque violento y destructivo contra Estes.
+- Día 495: Falleció a causa de causa_liminal_inexplicable.

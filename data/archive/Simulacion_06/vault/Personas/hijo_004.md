@@ -1,0 +1,10094 @@
+---
+id: hijo_004
+nombre: Aegon
+rol: chaman
+edad: 7
+sexo: M
+is_alive: False
+posicion: [79, 34]
+humor: 0.639
+energia: 0.350
+ansiedad: 0.536
+needs:
+  hambre: 0.035
+  fatiga: 0.423
+  sed: 0.169
+  sociabilidad: 0.020
+arquetipo_dominante: sombra
+estado_conductual: aislamiento
+arquetipos:
+  self: 0.984
+  persona: 0.988
+  sombra: 1.000
+  anima_animus: 0.986
+  heroe: 0.020
+  sabio: 1.000
+  trickster: 1.000
+  madre: 1.000
+  padre: 0.311
+  nino_divino: 0.467
+  gobernante: 0.000
+  rebelde: 0.369
+---
+# 👤 Persona: Aegon
+
+> **Rol:** `chaman` | **Edad:** 7 | **Sexo:** M | **Ubicación:** `(79, 34)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[▓▓▓▓▓▓░░░░]` | 0.64 |
+| **Energía** | `[▓▓▓▓░░░░░░]` | 0.35 |
+| **Ansiedad** | `[▓▓▓▓▓░░░░░]` | 0.54 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[░░░░░░░░░░]` | 0.04 | 🟢 Saciado |
+| **Sed** | `[▓▓░░░░░░░░]` | 0.17 | 🟢 Hidratado |
+| **Fatiga** | `[▓▓▓▓░░░░░░]` | 0.42 | 🟢 Descansado |
+| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `0.984` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.988` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.986` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.020` | `░░░░░░░░░░░░` |
+| **Sabio** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Trickster** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Madre** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Padre** | `0.311` | `▓▓▓▓░░░░░░░░` |
+| **Nino divino** | `0.467` | `▓▓▓▓▓▓░░░░░░` |
+| **Gobernante** | `0.000` | `░░░░░░░░░░░░` |
+| **Rebelde** | `0.369` | `▓▓▓▓░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Poder | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Materno | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.20` | `▓▓░░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[aion]] | `+0.14` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[alke]] | `-0.93` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[alphos]] | `-0.14` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[amara]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[ambix]] | `-0.39` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[anthe]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[arche]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[arsis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[carme]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[chryse]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[daeira]] | `+0.09` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[deino]] | `-0.34` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[delia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[delos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[dryas]] | `+0.12` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[ecale]] | `-0.90` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[elate]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[elpe]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eos]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[erastos]] | `-0.95` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[erato]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eris]] | `-0.46` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[eryx]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ethos]] | `-0.88` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[euia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gaia]] | `-0.92` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[gale]] | `-0.54` | `▓▓░░░░░░░░` | Ninguno |
+| [[gonos]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[gorgon]] | `+0.05` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[graia]] | `+0.32` | `▓▓▓▓▓▓▓░░░` | ⚛️ Entrelazado |
+| [[herse]] | `+0.29` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[hijo_000]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_001]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_002]] | `-0.85` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_003]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_006]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[hijo_007]] | `+0.28` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[hijo_008]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_009]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_011]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[hijo_012]] | `+0.30` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[iapyx]] | `-1.00` | `░░░░░░░░░░` | Ninguno |
+| [[ichnos]] | `+0.29` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[idmon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iole]] | `-0.10` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[ion]] | `+0.18` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[irene]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[iris]] | `+0.24` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[isos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[ixion]] | `-0.66` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[kastor]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[keleos]] | `+0.32` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[kimon]] | `+0.07` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[kleis]] | `-0.57` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[kore]] | `-0.56` | `▓▓░░░░░░░░` | ⚛️ Entrelazado |
+| [[koures]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kreon]] | `-0.81` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kyros]] | `+0.11` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[ladon]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[laimos]] | `-0.18` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[lelex]] | `-0.48` | `▓▓▓░░░░░░░` | ⚛️ Entrelazado |
+| [[linos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[lycos]] | `-0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[lysas]] | `-0.98` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[maia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malis]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[malos]] | `-0.12` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[manto]] | `-0.86` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[mecon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[medon]] | `+0.32` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[melan]] | `-0.78` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[meroe]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[mimas]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[mneme]] | `-0.14` | `▓▓▓▓░░░░░░` | Ninguno |
+| [[molos]] | `-0.18` | `▓▓▓▓░░░░░░` | ⚛️ Entrelazado |
+| [[mysia]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[naiads]] | `-0.84` | `▓░░░░░░░░░` | ⚛️ Entrelazado |
+| [[naos]] | `+0.03` | `▓▓▓▓▓░░░░░` | ⚛️ Entrelazado |
+| [[narke]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[neda]] | `+0.04` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[neis]] | `+0.14` | `▓▓▓▓▓▓░░░░` | ⚛️ Entrelazado |
+| [[niobe]] | `-0.15` | `▓▓▓▓░░░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 2695:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- **Día 2696:** Soñó con `'escenario_sin_salida'` (arquetipo `sombra`).
+  - *Insight:* El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- **Día 2697:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- **Día 2698:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- **Día 2699:** Soñó con `'danza_a_solas'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- **Día 2700:** Soñó con `'fruto_amargo'` (arquetipo `anima_animus`).
+  - *Insight:* En valle fertil, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- **Día 2701:** Soñó con `'papel_sin_actor'` (arquetipo `anima_animus`).
+  - *Insight:* El anima_animus proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 260: Nació. Padres: Eris y Alke.
+- Día 260: Soñó con 'complemento_ausente' (persona). Insight: lo reprimido enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 260: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 261: Soñó con 'complemento_ausente' (persona). Insight: El persona crece desmedido en sabana abierta — lo reprimido lo empuja sin nombre.
+- Día 262: Soñó con 'figura_que_sigue' (persona). Insight: El persona ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 263: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra ve lo reprimido afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 263: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 263: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 264: Soñó con 'danza_a_solas' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — lo reprimido alimenta el fuego.
+- Día 265: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve lo reprimido afuera en valle fertil, donde no puede alcanzarlo.
+- Día 266: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — lo reprimido lo empuja sin nombre.
+- Día 267: Soñó con 'corriente_que_arrastra' (sombra). Insight: El rio lago amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 268: Soñó con 'sed_en_el_agua' (sombra). Insight: lo reprimido enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 269: Soñó con 'figura_que_sigue' (sombra). Insight: lo reprimido enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 270: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; lo reprimido presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 271: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En rio lago, lo reprimido tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 272: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve lo reprimido afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 272: Sufrió explotación y hostilidad de Gale, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Gale, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Gale, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 273: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: lo reprimido enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 273: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 273: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 273: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 274: Soñó con 'niebla_densa' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 275: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 275: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 276: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 277: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 277: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 278: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Cedió ingenuamente ante la manipulación de Iris.
+- Día 279: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 279: Cedió ingenuamente ante la manipulación de Amara.
+- Día 280: Soñó con 'silencio_pleno' (self). Insight: El montana alta amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 281: Soñó con 'silencio_pleno' (self). Insight: En lago interior el self se expande más allá del control; trauma plaga es el combustible.
+- Día 282: Soñó con 'manada_que_huye' (self). Insight: En sabana abierta el self se expande más allá del control; trauma plaga es el combustible.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 282: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 283: Soñó con 'viento_que_borra' (self). Insight: trauma plaga enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 284: Soñó con 'unión_imposible' (self). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 285: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 286: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 287: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 288: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 289: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 290: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 291: Soñó con 'silencio_pleno' (self). Insight: El self ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 292: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 292: Cedió ingenuamente ante la manipulación de Niobe.
+- Día 292: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 293: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 294: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 295: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 296: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En rio lago, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 296: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 296: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 297: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 298: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 299: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en montana alta hasta quemar lo que toca.
+- Día 299: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 300: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en lago interior hasta quemar lo que toca.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Día 300: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 301: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 301: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 302: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 302: Se enfrentó en un choque violento y destructivo contra Gorgon.
+- Día 302: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 302: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 303: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 303: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 304: Soñó con 'agua_fría' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 304: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 304: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 305: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 306: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 306: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 306: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 306: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 306: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 306: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 308: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 308: Se impuso competitivamente ante Deino, absorbiendo sus recursos biológicos.
+- Día 308: Se impuso competitivamente ante Deino, absorbiendo sus recursos biológicos.
+- Día 309: Soñó con 'camino_conocido' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 310: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 311: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 312: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 313: Soñó con 'aplauso_vacío' (persona). Insight: En desierto borde el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 314: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 315: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 315: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 315: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 315: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 316: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 316: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 317: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 317: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 317: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 317: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 317: Se enfrentó en un choque violento y destructivo contra Kreon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 318: Soñó con 'horizonte_inmóvil' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 319: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 320: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 321: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 322: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El lago interior amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 322: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 322: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 323: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 323: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 324: Soñó con 'niebla_densa' (sabio). Insight: El pantano costero amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 324: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 325: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 326: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 327: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 328: Soñó con 'silencio_pleno' (self). Insight: El self ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 329: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en desierto borde hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 330: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 330: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 330: Cedió ingenuamente ante la manipulación de Manto.
+- Día 330: Cedió ingenuamente ante la manipulación de Manto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 330: Se impuso competitivamente ante Niobe, absorbiendo sus recursos biológicos.
+- Día 330: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 330: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 330: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 330: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 330: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Soñó con 'horizonte_inmóvil' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 331: Intentó manipular a Manto, pero fue descubierto.
+- Día 331: Intentó manipular a Manto, pero fue descubierto.
+- Día 331: Intentó manipular a Manto, pero fue descubierto.
+- Día 331: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Niobe.
+- Día 332: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 333: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 334: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 335: Soñó con 'profundidad_sin_fondo' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 335: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 336: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 337: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Día 338: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 339: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 339: Cedió ingenuamente ante la manipulación de Eris.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 340: Soñó con 'abundancia_que_pudre' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 341: Soñó con 'escenario_sin_salida' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 342: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 343: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 343: Detectó y rechazó un intento de manipulación de Mysia.
+- Día 343: Detectó y rechazó un intento de manipulación de Mysia.
+- Día 343: Detectó y rechazó un intento de manipulación de Mysia.
+- Día 344: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 345: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 346: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 346: Cooperó de forma mutua y armónica con Iole. Su lazo social se fortaleció.
+- Día 347: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 347: Intentó manipular a Koures, pero fue descubierto.
+- Día 348: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 348: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 348: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 348: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 349: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 349: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 350: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 351: Soñó con 'luz_oblicua' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 351: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 351: Se impuso competitivamente ante Euia, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 352: Soñó con 'sol_que_calcina' (persona). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 352: Cedió ingenuamente ante la manipulación de Euia.
+- Día 352: Cedió ingenuamente ante la manipulación de Euia.
+- Día 352: Cedió ingenuamente ante la manipulación de Euia.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 353: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 354: Soñó con 'voz_propia_extraña' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 355: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 356: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 357: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 357: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 357: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 358: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 358: Cooperó de forma mutua y armónica con Kastor. Su lazo social se fortaleció.
+- Día 359: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 359: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Día 359: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 359: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Soñó con 'máscara_adherida' (trickster). Insight: En desierto borde, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 360: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Día 360: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Día 360: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 362: Soñó con 'oasis_espejismo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 363: Soñó con 'raíz_invisible' (self). Insight: El self expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 364: Soñó con 'terreno_que_cede' (self). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 365: Soñó con 'campo_interminable' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 366: Soñó con 'bifurcación_sin_mapa' (persona). Insight: El persona ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 367: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 368: Soñó con 'estrella_que_no_guía' (sabio). Insight: En montana alta, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 369: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 369: Detectó y rechazó un intento de manipulación de Ambix.
+- Día 370: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 371: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 372: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 372: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 373: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 374: Soñó con 'sendero_circular' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 375: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 376: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 377: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 378: Soñó con 'sombra_ausente' (trickster). Insight: El sabana abierta amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 379: Soñó con 'sombra_que_camina' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 380: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma plaga enciende el trickster en colinas suaves hasta quemar lo que toca.
+- Día 381: Soñó con 'árbol_sin_raíces' (trickster). Insight: El trickster expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 382: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 383: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 384: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 385: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 386: Soñó con 'habitación_prohibida' (sombra). Insight: En desierto borde, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 387: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 387: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 387: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 388: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en cueva — trauma plaga lo empuja sin nombre.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 388: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 389: Soñó con 'fruto_amargo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 390: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 390: Cooperó de forma mutua y armónica con Briseis. Su lazo social se fortaleció.
+- Día 390: Cooperó de forma mutua y armónica con Briseis. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 391: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 392: Soñó con 'fruto_amargo' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 393: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 394: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 394: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 396: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 397: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 398: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 399: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 400: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 401: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 401: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 401: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 401: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 401: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 401: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 401: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 402: Soñó con 'habitación_prohibida' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 402: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 402: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 403: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Día 403: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 404: Soñó con 'campo_interminable' (trickster). Insight: trauma plaga enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 405: Soñó con 'unión_imposible' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Día 406: Soñó con 'sendero_circular' (self). Insight: En bosque templado, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 407: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 408: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 408: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 408: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 408: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 409: Soñó con 'fruto_amargo' (persona). Insight: trauma plaga enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 410: Soñó con 'espejo_que_miente' (persona). Insight: El persona expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 411: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 412: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 412: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 412: Intentó manipular a Meroe, pero fue descubierto.
+- Día 412: Intentó manipular a Meroe, pero fue descubierto.
+- Día 412: Intentó manipular a Meroe, pero fue descubierto.
+- Día 412: Intentó manipular a Meroe, pero fue descubierto.
+- Día 413: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 413: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 414: Soñó con 'complemento_ausente' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 415: Soñó con 'danza_a_solas' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 416: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 417: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 417: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 418: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 418: Cooperó de forma mutua y armónica con Melan. Su lazo social se fortaleció.
+- Día 418: Cooperó de forma mutua y armónica con Melan. Su lazo social se fortaleció.
+- Día 418: Cooperó de forma mutua y armónica con Melan. Su lazo social se fortaleció.
+- Día 418: Cooperó de forma mutua y armónica con Melan. Su lazo social se fortaleció.
+- Día 418: Cooperó de forma mutua y armónica con Melan. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 419: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 420: Soñó con 'descenso_inevitable' (persona). Insight: El persona expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 421: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 422: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 423: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 424: Soñó con 'luz_oblicua' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 425: Soñó con 'horizonte_inmóvil' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 425: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 426: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 426: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 426: Intentó manipular a Deino, pero fue descubierto.
+- Día 426: Intentó manipular a Deino, pero fue descubierto.
+- Día 426: Intentó manipular a Deino, pero fue descubierto.
+- Día 426: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 427: Soñó con 'figura_que_sigue' (persona). Insight: En desierto borde, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 427: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 427: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 428: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 429: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 430: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 431: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 432: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 432: Cedió ingenuamente ante la manipulación de Neis.
+- Día 432: Cedió ingenuamente ante la manipulación de Neis.
+- Día 432: Cedió ingenuamente ante la manipulación de Neis.
+- Día 432: Cedió ingenuamente ante la manipulación de Neis.
+- Día 432: Cedió ingenuamente ante la manipulación de Neis.
+- Día 433: Cedió ingenuamente ante la manipulación de Neis.
+- Día 433: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Día 433: Cedió ingenuamente ante la manipulación de Neis.
+- Día 433: Cedió ingenuamente ante la manipulación de Neis.
+- Día 433: Cedió ingenuamente ante la manipulación de Neis.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 433: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 433: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 433: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 433: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 433: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 434: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 435: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 436: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 437: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 437: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 437: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 438: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 439: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 439: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 439: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 439: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 439: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 439: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 439: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 440: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 441: Soñó con 'centro_sin_lugar' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 441: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 441: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 441: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 442: Soñó con 'mandala_incompleto' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 442: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 442: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 442: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 442: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 442: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 442: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 443: Cooperó de forma mutua y armónica con Koures. Su lazo social se fortaleció.
+- Día 443: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 444: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 444: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 444: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 444: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 444: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 444: Cedió ingenuamente ante la manipulación de Mysia.
+- Día 445: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 445: Sufrió explotación y hostilidad de Iole, cediendo recursos biológicos.
+- Día 445: Cedió ingenuamente ante la manipulación de Iole.
+- Día 446: Soñó con 'camino_conocido' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 446: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Día 446: Se impuso competitivamente ante Iole, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 447: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 447: Cedió ingenuamente ante la manipulación de Iole.
+- Día 447: Cedió ingenuamente ante la manipulación de Iole.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 448: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 448: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 448: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 449: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 450: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 451: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 451: Intentó manipular a Melan, pero fue descubierto.
+- Día 451: Intentó manipular a Melan, pero fue descubierto.
+- Día 451: Intentó manipular a Melan, pero fue descubierto.
+- Día 452: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 453: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 453: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 454: Soñó con 'camino_conocido' (sabio). Insight: En cueva el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 454: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 455: Soñó con 'corriente_que_arrastra' (sabio). Insight: En rio lago, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 456: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 456: Cooperó de forma mutua y armónica con Carme. Su lazo social se fortaleció.
+- Día 456: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 456: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 456: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 456: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 456: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 457: Se impuso competitivamente ante Carme, absorbiendo sus recursos biológicos.
+- Día 458: Soñó con 'escenario_sin_salida' (self). Insight: En pradera humeda el self se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 459: Soñó con 'mandala_incompleto' (self). Insight: El self crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Ambix para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Ambix para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 459: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 459: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 460: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 460: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 460: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 460: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 460: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 460: Intentó manipular a Ixion, pero fue descubierto.
+- Día 460: Intentó manipular a Ixion, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 461: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 461: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 462: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 462: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 462: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 463: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 464: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 464: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 464: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Día 464: Cooperó de forma mutua y armónica con Niobe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 465: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 465: Cedió ingenuamente ante la manipulación de Neda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 466: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 466: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 466: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 466: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 466: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 467: Soñó con 'papel_sin_actor' (persona). Insight: En cueva, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 468: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 469: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 470: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 470: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 471: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 471: Detectó y rechazó un intento de manipulación de Melan.
+- Día 471: Detectó y rechazó un intento de manipulación de Melan.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 472: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 472: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 473: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En lago interior el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 473: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en costa abierta hasta quemar lo que toca.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Carme, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 474: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 475: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 476: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 477: Soñó con 'fruto_amargo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 478: Soñó con 'campo_interminable' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 478: Cedió ingenuamente ante la manipulación de Isos.
+- Día 478: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 478: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 478: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 479: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 479: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 480: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 480: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Melan, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 481: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 481: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 481: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 481: Cooperó de forma mutua y armónica con Doris. Su lazo social se fortaleció.
+- Día 482: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 483: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 483: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 484: Soñó con 'fruto_amargo' (sabio). Insight: En valle fertil, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 484: Se impuso competitivamente ante Kastor, absorbiendo sus recursos biológicos.
+- Día 484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 484: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Soñó con 'estrella_que_no_guía' (sabio). Insight: En rio lago, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Día 485: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kastor.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 486: Soñó con 'sed_en_el_agua' (sabio). Insight: trauma plaga enciende el sabio en rio lago hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 487: Soñó con 'espejo_que_miente' (sabio). Insight: trauma plaga enciende el sabio en valle fertil hasta quemar lo que toca.
+- Día 487: Detectó y rechazó un intento de manipulación de Carme.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 488: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 489: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Día 489: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Briseis, cediendo recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 491: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 492: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 492: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 492: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 492: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 492: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 492: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 492: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Soñó con 'aplauso_vacío' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Día 493: Detectó y rechazó un intento de manipulación de Idmon.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 493: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 494: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 495: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 496: Soñó con 'centro_sin_lugar' (self). Insight: trauma plaga enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 497: Soñó con 'habitación_prohibida' (self). Insight: En lago interior, trauma plaga aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 498: Soñó con 'espejo_que_miente' (persona). Insight: El persona ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 499: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 500: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 501: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 502: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 503: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 504: Soñó con 'semilla_negra' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 504: Detectó y rechazó un intento de manipulación de Koures.
+- Día 504: Detectó y rechazó un intento de manipulación de Koures.
+- Día 505: Soñó con 'sal_en_herida' (persona). Insight: En costa abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 506: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 507: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 508: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 509: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 510: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 511: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 512: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en rio lago hasta quemar lo que toca.
+- Día 513: Soñó con 'pregunta_sin_respuesta' (persona). Insight: El persona ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 514: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 514: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 514: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 515: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 515: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 515: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 515: Manipuló con éxito y astucia a Ion para ceder recursos.
+- Día 515: Se enfrentó en un choque violento y destructivo contra Euia.
+- Día 515: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Soñó con 'camino_conocido' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 516: Se enfrentó en un choque violento y destructivo contra Euia.
+- Día 517: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 518: Soñó con 'mandala_incompleto' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 518: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 518: Sufrió explotación y hostilidad de Euia, cediendo recursos biológicos.
+- Día 519: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 519: Cooperó de forma mutua y armónica con Euia. Su lazo social se fortaleció.
+- Día 519: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Euia.
+- Día 519: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Euia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 520: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 521: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 521: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 521: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 521: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 522: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 523: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 524: Soñó con 'campo_interminable' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 525: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 526: Soñó con 'complemento_ausente' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 527: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 528: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 529: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 530: Soñó con 'silencio_pleno' (self). Insight: En sabana abierta, trauma plaga aparece en el otro — el self no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 531: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 532: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 533: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 534: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 535: Soñó con 'sombra_que_camina' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 536: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 536: Cedió ingenuamente ante la manipulación de Eos.
+- Día 537: Soñó con 'árbol_sin_raíces' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 537: Detectó y rechazó un intento de manipulación de Eos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 538: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 539: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 539: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 540: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 540: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 541: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 541: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 541: Intentó manipular a Isos, pero fue descubierto.
+- Día 541: Intentó manipular a Isos, pero fue descubierto.
+- Día 542: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En sabana abierta, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 542: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 543: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 543: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 544: Soñó con 'espejo_que_miente' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 545: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 546: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 547: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Soñó con 'agua_fría' (madre). Insight: En lago interior el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 549: Soñó con 'espejo_que_miente' (madre). Insight: En rio lago, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 549: Cedió ingenuamente ante la manipulación de Eos.
+- Día 549: Cedió ingenuamente ante la manipulación de Eos.
+- Día 549: Cedió ingenuamente ante la manipulación de Eos.
+- Día 549: Cedió ingenuamente ante la manipulación de Eos.
+- Día 549: Cedió ingenuamente ante la manipulación de Eos.
+- Día 550: Cedió ingenuamente ante la manipulación de Eos.
+- Día 550: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 550: Cedió ingenuamente ante la manipulación de Eos.
+- Día 550: Cedió ingenuamente ante la manipulación de Eos.
+- Día 550: Cedió ingenuamente ante la manipulación de Eos.
+- Día 550: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 551: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 552: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 552: Cedió ingenuamente ante la manipulación de Isos.
+- Día 553: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 553: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 554: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 555: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 555: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 555: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 555: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 555: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 555: Intentó manipular a Eryx, pero fue descubierto.
+- Día 555: Intentó manipular a Eryx, pero fue descubierto.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 555: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 556: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 557: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 558: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 559: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 560: Soñó con 'luz_oblicua' (self). Insight: El bosque templado amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 560: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 561: Soñó con 'horizonte_inmóvil' (self). Insight: En pradera humeda, trauma plaga aparece en el otro — el self no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 562: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 563: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 563: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 564: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 565: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 565: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 566: Soñó con 'semilla_negra' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 566: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 566: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 566: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 566: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 567: Soñó con 'sombra_ausente' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 567: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 568: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 569: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 570: Soñó con 'máscara_adherida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 570: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 571: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 572: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 573: Soñó con 'escenario_sin_salida' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 573: Cooperó de forma mutua y armónica con Carme. Su lazo social se fortaleció.
+- Día 573: Cooperó de forma mutua y armónica con Isos. Su lazo social se fortaleció.
+- Día 573: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 573: Manipuló con éxito y astucia a Isos para ceder recursos.
+- Día 574: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 574: Se enfrentó en un choque violento y destructivo contra Isos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 575: Soñó con 'aplauso_vacío' (self). Insight: El self crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 575: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 575: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 576: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 577: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 577: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Soñó con 'danza_a_solas' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 578: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 578: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 579: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 579: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 579: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 580: Soñó con 'sal_en_herida' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 580: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 581: Soñó con 'trampa_propia' (sabio). Insight: En valle fertil, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 582: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 582: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 583: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 584: Soñó con 'máscara_cosida_a_cara' (trickster). Insight: En desierto borde, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 585: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 585: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 586: Soñó con 'caída_sin_fondo' (persona). Insight: trauma plaga enciende el persona en montana alta hasta quemar lo que toca.
+- Día 586: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 586: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 586: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 587: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 587: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 588: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 588: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 588: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 588: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 589: Soñó con 'piedra_que_rueda' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 589: Intentó manipular a Laimos, pero fue descubierto.
+- Día 590: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 590: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 590: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 590: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 590: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 591: Soñó con 'unión_imposible' (self). Insight: En montana alta, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 591: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 591: Sufrió explotación y hostilidad de Graia, cediendo recursos biológicos.
+- Día 591: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 591: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 592: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 593: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 593: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 594: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 595: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 595: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 595: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Euia.
+- Día 595: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Euia.
+- Día 595: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 596: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 597: Mi figura de apego, Briseis, falleció.
+- Día 597: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 598: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 599: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 600: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 600: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 601: Soñó con 'aplauso_vacío' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 601: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 601: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 602: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 603: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 603: Cedió ingenuamente ante la manipulación de Kyros.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 604: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 605: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma plaga enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 605: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 605: Cooperó de forma mutua y armónica con Doris. Su lazo social se fortaleció.
+- Día 605: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 605: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 605: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 605: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 605: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 606: Manipuló con éxito y astucia a Doris para ceder recursos.
+- Día 607: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 607: Detectó y rechazó un intento de manipulación de Iris.
+- Día 607: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 607: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 608: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 609: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 610: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 610: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 611: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 612: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 613: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 614: Soñó con 'escenario_sin_salida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 615: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 615: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 616: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 617: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 618: Soñó con 'figura_que_sigue' (anima_animus). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 618: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 619: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 620: Soñó con 'sombra_que_camina' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 620: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 621: Soñó con 'agua_fría' (persona). Insight: El lago interior amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 622: Soñó con 'nido_que_asfixia' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 623: Soñó con 'leche_amarga' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 623: Intentó manipular a Iris, pero fue descubierto.
+- Día 623: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 624: Soñó con 'tierra_resquebrajada' (sabio). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 624: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 624: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 625: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 625: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 625: Cedió ingenuamente ante la manipulación de Iris.
+- Día 625: Cedió ingenuamente ante la manipulación de Iris.
+- Día 626: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 626: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 626: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 626: Detectó y rechazó un intento de manipulación de Lelex.
+- Día 626: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 626: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 626: Cooperó de forma mutua y armónica con Lelex. Su lazo social se fortaleció.
+- Día 627: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 627: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 628: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 629: Soñó con 'mandala_incompleto' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 630: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 630: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 631: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 632: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 632: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Ambix, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 632: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Soñó con 'fondo_que_sube' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 633: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Narke, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Kastor, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Kastor, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Kastor, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Kastor, cediendo recursos biológicos.
+- Día 634: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 634: Sufrió explotación y hostilidad de Lelex, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Lelex, cediendo recursos biológicos.
+- Día 635: Soñó con 'aplauso_vacío' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 635: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 636: Soñó con 'papel_sin_actor' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 637: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 637: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 638: Soñó con 'campo_interminable' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 638: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 638: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 639: Soñó con 'horizonte_inmóvil' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 640: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en desierto borde hasta quemar lo que toca.
+- Día 640: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 640: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 640: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 641: Soñó con 'silencio_absoluto' (persona). Insight: En montana alta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 642: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 643: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 643: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 643: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 644: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra crece desmedido en cueva — trauma plaga lo empuja sin nombre.
+- Día 644: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Día 644: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Día 644: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Día 644: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Día 645: Soñó con 'vista_engañosa' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 645: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 645: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kyros.
+- Día 646: Soñó con 'espejo_que_miente' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 646: Cedió ingenuamente ante la manipulación de Erato.
+- Día 646: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 646: Cedió ingenuamente ante la manipulación de Kyros.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 647: Soñó con 'sombra_que_camina' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 647: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 647: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 647: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 647: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 647: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 648: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 648: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 648: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 649: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 650: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 650: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 651: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma plaga enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 652: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 653: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 654: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 655: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 655: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 656: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 657: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 658: Soñó con 'viento_que_borra' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 659: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 659: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 659: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Día 659: Cooperó de forma mutua y armónica con Mimas. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 660: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 660: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 661: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 662: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 662: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 662: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 663: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 664: Soñó con 'centro_sin_lugar' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 664: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 665: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 665: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 666: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 667: Soñó con 'habitación_prohibida' (persona). Insight: En pantano costero el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 667: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 668: Soñó con 'aplauso_vacío' (persona). Insight: En sabana abierta, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 668: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 668: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 668: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 669: Soñó con 'viento_que_borra' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 669: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 669: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 669: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 670: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 670: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 671: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 671: Detectó y rechazó un intento de manipulación de Gaia.
+- Día 671: Detectó y rechazó un intento de manipulación de Gaia.
+- Día 671: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 671: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 672: Soñó con 'sal_en_herida' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 672: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 672: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 672: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 672: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 672: Se enfrentó en un choque violento y destructivo contra Eunomia.
+- Día 672: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 673: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 674: Soñó con 'laberinto_que_ríe' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 674: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 675: Soñó con 'habitación_prohibida' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 675: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 676: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 676: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 676: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 677: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 678: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 679: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 680: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 680: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 681: Soñó con 'silencio_pleno' (madre). Insight: En rio lago, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 682: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 683: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 683: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 683: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 683: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 683: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 683: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 683: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Soñó con 'luz_oblicua' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 684: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 685: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 685: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 686: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 686: Intentó manipular a Lysas, pero fue descubierto.
+- Día 687: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 688: Soñó con 'reflejo_sin_original' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 689: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 690: Soñó con 'aplauso_vacío' (trickster). Insight: El trickster ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 690: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 691: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 692: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 692: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 692: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 693: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 694: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 695: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 695: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 696: Soñó con 'habitación_prohibida' (persona). Insight: El rio lago amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 697: Soñó con 'cima_en_niebla' (persona). Insight: El persona expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 698: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 698: Intentó manipular a Ambix, pero fue descubierto.
+- Día 698: Intentó manipular a Ambix, pero fue descubierto.
+- Día 699: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 699: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 699: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 699: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 699: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 700: Soñó con 'nido_que_asfixia' (madre). Insight: En lago interior, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 700: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 701: Soñó con 'escenario_sin_salida' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 702: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 703: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 704: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 704: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 705: Soñó con 'unión_imposible' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 705: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 706: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 707: Soñó con 'voz_propia_extraña' (persona). Insight: En costa abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 708: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 709: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 710: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 710: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 711: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 712: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 712: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Día 712: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 713: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 713: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 713: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 713: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Día 713: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Día 713: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 713: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 713: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 714: Se impuso competitivamente ante Ambix, absorbiendo sus recursos biológicos.
+- Día 714: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 715: Soñó con 'árbol_que_aprieta' (persona). Insight: El persona ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 715: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 716: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 717: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 718: Soñó con 'luz_oblicua' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 718: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 718: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 718: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 718: Cedió ingenuamente ante la manipulación de Laimos.
+- Día 719: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 720: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 720: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 721: Soñó con 'calma_antes_de_algo' (trickster). Insight: En lago interior el trickster se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 722: Soñó con 'espejo_que_miente' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 723: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 724: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 725: Soñó con 'papel_sin_actor' (self). Insight: El self expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 725: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 726: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 727: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 728: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 729: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 730: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 730: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 731: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 732: Soñó con 'escenario_sin_salida' (self). Insight: El pantano costero amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 733: Soñó con 'unión_imposible' (self). Insight: El self ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 734: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 735: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 735: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 736: Soñó con 'espejo_que_miente' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 737: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 738: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 739: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 740: Soñó con 'viento_que_borra' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 740: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 741: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma plaga enciende el sabio en sabana abierta hasta quemar lo que toca.
+- Día 741: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 742: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 743: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 743: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 743: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 743: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 743: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 743: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Glaukos.
+- Día 743: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Glaukos.
+- Día 743: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 744: Soñó con 'máscara_adherida' (trickster). Insight: En sabana abierta el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 744: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 744: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 745: Soñó con 'escenario_sin_salida' (trickster). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 745: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 745: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 745: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 745: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 745: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 745: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 745: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 745: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 745: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 745: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 745: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 745: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 746: Cedió ingenuamente ante la manipulación de Manto.
+- Día 746: Cedió ingenuamente ante la manipulación de Manto.
+- Día 746: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 746: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 747: Soñó con 'profundidad_sin_fondo' (madre). Insight: En lago interior, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 748: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 749: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 749: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 749: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 749: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 749: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 749: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 749: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Soñó con 'unión_imposible' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 750: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 750: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 751: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 751: Cedió ingenuamente ante la manipulación de Medon.
+- Día 751: Cedió ingenuamente ante la manipulación de Medon.
+- Día 751: Cedió ingenuamente ante la manipulación de Medon.
+- Día 751: Cedió ingenuamente ante la manipulación de Medon.
+- Día 751: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Día 752: Cedió ingenuamente ante la manipulación de Medon.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 753: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 753: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 754: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 755: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 755: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 756: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 756: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 756: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 756: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 756: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 756: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Soñó con 'voz_propia_extraña' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 757: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 758: Soñó con 'voz_sin_cuerpo' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 759: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 760: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 760: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 761: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 762: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 762: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 762: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 763: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 764: Soñó con 'viento_que_borra' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 765: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 765: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 766: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 766: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 767: Cedió ingenuamente ante la manipulación de Mimas.
+- Día 767: Cedió ingenuamente ante la manipulación de Mimas.
+- Día 768: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 769: Soñó con 'danza_a_solas' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 769: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 769: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 769: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 769: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 769: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 769: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 770: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Detectó y rechazó un intento de manipulación de Kreon.
+- Día 770: Intentó manipular a Elpe, pero fue descubierto.
+- Día 771: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 771: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 771: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 772: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 772: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Manipuló con éxito y astucia a Amaryllis para ceder recursos.
+- Día 773: Intentó manipular a Eris, pero fue descubierto.
+- Día 774: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en cueva, donde no puede alcanzarlo.
+- Día 774: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 774: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 774: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 774: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 774: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 775: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 775: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 775: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 775: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 775: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 775: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 776: Soñó con 'aplauso_vacío' (sabio). Insight: trauma plaga enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 776: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 776: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 776: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 777: Soñó con 'papel_sin_actor' (sabio). Insight: El rio lago amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 777: Intentó manipular a Mimas, pero fue descubierto.
+- Día 777: Intentó manipular a Mimas, pero fue descubierto.
+- Día 777: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 777: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 778: Soñó con 'escenario_sin_salida' (sabio). Insight: En rio lago, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 779: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 780: Soñó con 'escenario_sin_salida' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 780: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 781: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 782: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 782: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 782: Cedió ingenuamente ante la manipulación de Eris.
+- Día 782: Cedió ingenuamente ante la manipulación de Eris.
+- Día 782: Cedió ingenuamente ante la manipulación de Eris.
+- Día 782: Cedió ingenuamente ante la manipulación de Eris.
+- Día 782: Cedió ingenuamente ante la manipulación de Eris.
+- Día 783: Soñó con 'abundancia_que_pudre' (sabio). Insight: El sabio crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 783: Cedió ingenuamente ante la manipulación de Eris.
+- Día 783: Cedió ingenuamente ante la manipulación de Eris.
+- Día 783: Cedió ingenuamente ante la manipulación de Eris.
+- Día 783: Cedió ingenuamente ante la manipulación de Eris.
+- Día 784: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 784: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 784: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 784: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 784: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 784: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 784: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 784: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 784: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 784: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 784: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 784: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 785: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 785: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 786: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 787: Soñó con 'oscuridad_total' (trickster). Insight: trauma plaga enciende el trickster en cueva hasta quemar lo que toca.
+- Día 787: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 787: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 787: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 787: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 787: Se enfrentó en un choque violento y destructivo contra Mimas.
+- Día 787: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 787: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 788: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 788: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 788: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 788: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 788: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 789: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 790: Soñó con 'huesos_propios' (sombra). Insight: El sombra ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 790: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 791: Soñó con 'naufragio_lento' (madre). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 792: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 793: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 794: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 795: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 795: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 795: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 795: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Día 795: Se impuso competitivamente ante Lycos, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 796: Soñó con 'viento_que_borra' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 796: Se enfrentó en un choque violento y destructivo contra Laimos.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 796: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Soñó con 'semilla_negra' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 797: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 797: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 797: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 797: Se enfrentó en un choque violento y destructivo contra Arsis.
+- Día 797: Detectó y rechazó un intento de manipulación de Kreon.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 798: Soñó con 'silencio_pleno' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 798: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 798: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Día 798: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 798: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 798: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 799: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 800: Soñó con 'descenso_inevitable' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 800: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 800: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 800: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 800: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 800: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 800: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 800: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 800: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 801: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 801: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 801: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 801: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 801: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 801: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 801: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 801: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 801: Se impuso competitivamente ante Laimos, absorbiendo sus recursos biológicos.
+- Día 801: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 801: Sufrió explotación y hostilidad de Alke, cediendo recursos biológicos.
+- Día 801: Sufrió explotación y hostilidad de Alke, cediendo recursos biológicos.
+- Día 802: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 802: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 802: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 802: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 802: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 803: Soñó con 'viento_que_borra' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 804: Soñó con 'unión_imposible' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 805: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 805: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 805: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 805: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 806: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 806: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 806: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 806: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 806: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 806: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 806: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 806: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 807: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 807: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 807: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 807: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 807: Intentó manipular a Eris, pero fue descubierto.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 807: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El costa abierta amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Eris.
+- Día 808: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 808: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 808: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 808: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 808: Se impuso competitivamente ante Amaryllis, absorbiendo sus recursos biológicos.
+- Día 809: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 809: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 809: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 810: Soñó con 'danza_a_solas' (anima_animus). Insight: En pantano costero, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 810: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 811: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 811: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 812: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 812: Intentó manipular a Kreon, pero fue descubierto.
+- Día 812: Intentó manipular a Kreon, pero fue descubierto.
+- Día 812: Intentó manipular a Kreon, pero fue descubierto.
+- Día 812: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 813: Soñó con 'mandala_incompleto' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 813: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 813: Manipuló con éxito y astucia a Kreon para ceder recursos.
+- Día 813: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 813: Se impuso competitivamente ante Kreon, absorbiendo sus recursos biológicos.
+- Día 814: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 815: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 815: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 815: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 815: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 815: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 815: Se enfrentó en un choque violento y destructivo contra Amaryllis.
+- Día 816: Soñó con 'figura_que_sigue' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 816: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 816: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 816: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 816: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 816: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 817: Soñó con 'habitación_prohibida' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 817: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 817: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 817: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 818: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 818: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 818: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 818: Detectó y rechazó un intento de manipulación de Glaukos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 819: Soñó con 'libro_en_lengua_muerta' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kreon.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 819: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 820: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 820: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 820: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 820: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 820: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 820: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 821: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 821: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 821: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 822: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 823: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de cueva.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 824: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 825: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 825: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 825: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 825: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 826: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 826: Manipuló con éxito y astucia a Mimas para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 826: Se impuso competitivamente ante Mimas, absorbiendo sus recursos biológicos.
+- Día 827: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 828: Soñó con 'aplauso_vacío' (persona). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 828: Cedió ingenuamente ante la manipulación de Herse.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 829: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Día 829: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 829: Cedió ingenuamente ante la manipulación de Herse.
+- Día 829: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 830: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 830: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 830: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Soñó con 'papel_sin_actor' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 831: Cooperó de forma mutua y armónica con Manto. Su lazo social se fortaleció.
+- Día 832: Soñó con 'sol_que_calcina' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 833: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 834: Soñó con 'papel_sin_actor' (sabio). Insight: El sabio expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 834: Intentó manipular a Mimas, pero fue descubierto.
+- Día 834: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 834: Detectó y rechazó un intento de manipulación de Manto.
+- Día 834: Detectó y rechazó un intento de manipulación de Manto.
+- Día 835: Soñó con 'aplauso_vacío' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 835: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 836: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 837: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 837: Detectó y rechazó un intento de manipulación de Arsis.
+- Día 837: Detectó y rechazó un intento de manipulación de Arsis.
+- Día 837: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 837: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 837: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 837: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 838: Soñó con 'árbol_que_aprieta' (madre). Insight: En sabana abierta el madre se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 838: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Arsis.
+- Día 838: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 838: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 838: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 838: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 838: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Soñó con 'escenario_sin_salida' (madre). Insight: El rio lago amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 839: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 839: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 839: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 840: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 840: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 841: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 842: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 843: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 843: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 843: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 843: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 843: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 843: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Amaryllis. Su lazo social se fortaleció.
+- Día 844: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 845: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 845: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 846: Soñó con 'marea_que_sube' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 846: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 846: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 846: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 846: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 847: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 847: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 848: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 848: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 848: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 848: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 848: Cooperó de forma mutua y armónica con Arsis. Su lazo social se fortaleció.
+- Día 849: Soñó con 'aplauso_vacío' (sabio). Insight: trauma plaga enciende el sabio en rio lago hasta quemar lo que toca.
+- Día 850: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 850: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 850: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 851: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 851: Soñó con 'papel_sin_actor' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 851: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 851: Intentó manipular a Anthe, pero fue descubierto.
+- Día 851: Intentó manipular a Meroe, pero fue descubierto.
+- Día 852: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 852: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 852: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 852: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 852: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 852: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 852: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 852: Cedió ingenuamente ante la manipulación de Amaryllis.
+- Día 853: Soñó con 'danza_a_solas' (anima_animus). Insight: En sabana abierta el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 854: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 854: Sufrió explotación y hostilidad de Gorgon, cediendo recursos biológicos.
+- Día 854: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 854: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 854: Intentó manipular a Arsis, pero fue descubierto.
+- Día 854: Intentó manipular a Arsis, pero fue descubierto.
+- Día 854: Intentó manipular a Arsis, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 855: Soñó con 'campo_interminable' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 855: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 855: Manipuló con éxito y astucia a Arsis para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 856: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 857: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 857: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 857: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 857: Intentó manipular a Isos, pero fue descubierto.
+- Día 858: Soñó con 'escenario_sin_salida' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 858: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 859: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 859: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 859: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 859: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 859: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 859: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 860: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 860: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 860: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 860: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 860: Manipuló con éxito y astucia a Gorgon para ceder recursos.
+- Día 860: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 860: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 860: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 860: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 861: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 861: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 862: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 862: Cedió ingenuamente ante la manipulación de Kore.
+- Día 862: Cedió ingenuamente ante la manipulación de Kore.
+- Día 862: Cedió ingenuamente ante la manipulación de Kore.
+- Día 862: Cedió ingenuamente ante la manipulación de Kore.
+- Día 862: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Soñó con 'habitación_prohibida' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 863: Cedió ingenuamente ante la manipulación de Kore.
+- Día 864: Soñó con 'papel_sin_actor' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de cueva.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 865: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 865: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 866: Soñó con 'nido_que_asfixia' (madre). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 867: Soñó con 'laberinto_que_ríe' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 867: Cooperó de forma mutua y armónica con Ambix. Su lazo social se fortaleció.
+- Día 868: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 868: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 869: Soñó con 'papel_sin_actor' (persona). Insight: En lago interior, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 870: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 870: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 871: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 872: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 872: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 872: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 872: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 872: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 873: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 874: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de cueva.
+- Día 874: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 874: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 875: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 875: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 875: Se enfrentó en un choque violento y destructivo contra Malos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 876: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 876: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 876: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 876: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 877: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 877: Se enfrentó en un choque violento y destructivo contra Ethos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 877: Sufrió explotación y hostilidad de Ethos, cediendo recursos biológicos.
+- Día 878: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 878: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 878: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 879: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 879: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 879: Intentó manipular a Naiads, pero fue descubierto.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 879: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 880: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 880: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 881: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 881: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 881: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 881: Intentó manipular a Gonos, pero fue descubierto.
+- Día 881: Intentó manipular a Naiads, pero fue descubierto.
+- Día 881: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 881: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 881: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 881: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 882: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 882: Detectó y rechazó un intento de manipulación de Eris.
+- Día 882: Detectó y rechazó un intento de manipulación de Eris.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 883: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 884: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 885: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 885: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 885: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 885: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 885: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 885: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Leucothea.
+- Día 885: Intentó manipular a Kreon, pero fue descubierto.
+- Día 885: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 885: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 886: Soñó con 'papel_sin_actor' (trickster). Insight: El sabana abierta amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 887: Soñó con 'escenario_sin_salida' (trickster). Insight: El trickster expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 888: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 888: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 888: Cedió ingenuamente ante la manipulación de Lysas.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 889: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 889: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 889: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 890: Soñó con 'olor_a_descomposición' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 890: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 890: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 891: Sufrió explotación y hostilidad de Mimas, cediendo recursos biológicos.
+- Día 892: Soñó con 'viento_que_borra' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 892: Intentó manipular a Meroe, pero fue descubierto.
+- Día 893: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 893: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 893: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 894: Soñó con 'luz_oblicua' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 894: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 894: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 895: Soñó con 'campo_interminable' (trickster). Insight: El trickster ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 895: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 895: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 896: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 896: Cedió ingenuamente ante la manipulación de Eris.
+- Día 896: Cedió ingenuamente ante la manipulación de Eris.
+- Día 896: Detectó y rechazó un intento de manipulación de Gorgon.
+- Día 897: Soñó con 'sombra_ausente' (madre). Insight: El madre ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 897: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 897: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 898: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 899: Soñó con 'río_que_nutre' (madre). Insight: En montana alta, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 899: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 899: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 900: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 900: Soñó con 'escenario_sin_salida' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 900: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 900: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 900: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 900: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 900: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 900: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 901: Soñó con 'escenario_sin_salida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 901: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 901: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 901: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 901: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Día 901: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Laimos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 902: Soñó con 'luz_oblicua' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 903: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 903: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 903: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 903: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 904: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 904: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 905: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 905: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 905: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 905: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 906: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En lago interior, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 907: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 908: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 908: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 909: Soñó con 'huesos_propios' (sombra). Insight: El desierto borde amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 909: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 909: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 909: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 909: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 910: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 910: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 910: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 910: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 910: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 910: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 910: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 910: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 911: Soñó con 'bifurcación_sin_mapa' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 911: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 911: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 911: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 912: Soñó con 'nido_que_asfixia' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de lago interior.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 913: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 914: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 914: Intentó manipular a Gorgon, pero fue descubierto.
+- Día 914: Intentó manipular a Gorgon, pero fue descubierto.
+- Día 914: Intentó manipular a Gorgon, pero fue descubierto.
+- Día 914: Intentó manipular a Gorgon, pero fue descubierto.
+- Día 915: Soñó con 'árbol_que_aprieta' (madre). Insight: En pantano costero el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 915: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 915: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 915: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 916: Soñó con 'centro_sin_lugar' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 917: Soñó con 'descenso_inevitable' (madre). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 918: Soñó con 'calma_antes_de_algo' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 919: Soñó con 'leche_amarga' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 919: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 920: Soñó con 'oasis_espejismo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 920: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 921: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 921: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 921: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 921: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Día 921: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 922: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Día 922: Se impuso competitivamente ante Alke, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 923: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 923: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 923: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 923: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 923: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 923: Sufrió explotación y hostilidad de Amaryllis, cediendo recursos biológicos.
+- Día 924: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 924: Detectó y rechazó un intento de manipulación de Chryse.
+- Día 924: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 924: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 925: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 925: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 926: Soñó con 'agua_fría' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 926: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 926: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 926: Cooperó de forma mutua y armónica con Gorgon. Su lazo social se fortaleció.
+- Día 926: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 927: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En desierto borde el sabio se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 928: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 929: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 929: Cedió ingenuamente ante la manipulación de Gorgon.
+- Día 929: Cedió ingenuamente ante la manipulación de Gorgon.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 930: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 930: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 931: Soñó con 'abundancia_que_pudre' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 931: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Soñó con 'papel_sin_actor' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 932: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 932: Cooperó de forma mutua y armónica con Arche. Su lazo social se fortaleció.
+- Día 933: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 933: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 933: Sufrió explotación y hostilidad de Alphos, cediendo recursos biológicos.
+- Día 933: Cedió ingenuamente ante la manipulación de Narke.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 934: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 934: Detectó y rechazó un intento de manipulación de Narke.
+- Día 934: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 934: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 934: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 934: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 934: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 935: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Narke.
+- Día 935: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 935: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 936: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 937: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 938: Soñó con 'figura_que_sigue' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 938: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 938: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 938: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 938: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 938: Cooperó de forma mutua y armónica con Alphos. Su lazo social se fortaleció.
+- Día 938: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 938: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 939: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 939: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 939: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 940: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 940: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 941: Soñó con 'camino_conocido' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 942: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 942: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 942: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 942: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 942: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 942: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 943: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 944: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 945: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 945: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 946: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 947: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 948: Soñó con 'campo_interminable' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 949: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 950: Soñó con 'complemento_ausente' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 950: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 950: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 950: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 950: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 951: Soñó con 'agua_fría' (trickster). Insight: trauma plaga enciende el trickster en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 952: Soñó con 'danza_a_solas' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 952: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 952: Cedió ingenuamente ante la manipulación de Irene.
+- Día 952: Cedió ingenuamente ante la manipulación de Irene.
+- Día 953: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 954: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 954: Se impuso competitivamente ante Mysia, absorbiendo sus recursos biológicos.
+- Día 954: Se impuso competitivamente ante Mysia, absorbiendo sus recursos biológicos.
+- Día 954: Se impuso competitivamente ante Mysia, absorbiendo sus recursos biológicos.
+- Día 955: Soñó con 'reflejo_distorsionado' (sabio). Insight: El sabio expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 955: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 955: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 955: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 955: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 955: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 955: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 955: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 956: Soñó con 'manada_que_huye' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 956: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 956: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 957: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 957: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 958: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 959: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 959: Detectó y rechazó un intento de manipulación de Alke.
+- Día 960: Soñó con 'río_tranquilo' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 960: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 960: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 960: Cooperó de forma mutua y armónica con Erastos. Su lazo social se fortaleció.
+- Día 961: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 962: Soñó con 'laberinto_que_ríe' (trickster). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 963: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 964: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 965: Soñó con 'unión_imposible' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 965: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 966: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 967: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 968: Soñó con 'aplauso_vacío' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 969: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 970: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 970: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 971: Soñó con 'campo_interminable' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 972: Soñó con 'escenario_sin_salida' (persona). Insight: El desierto borde amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 972: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Día 972: Se impuso competitivamente ante Alphos, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 973: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 974: Soñó con 'descenso_inevitable' (persona). Insight: El persona ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 975: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 975: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 975: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 975: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 975: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 975: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 975: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 976: Soñó con 'voz_propia_extraña' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 976: Cooperó de forma mutua y armónica con Alke. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 977: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 978: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 978: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 978: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 978: Se enfrentó en un choque violento y destructivo contra Alke.
+- Día 979: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 979: Intentó manipular a Alke, pero fue descubierto.
+- Día 979: Intentó manipular a Alke, pero fue descubierto.
+- Día 979: Intentó manipular a Alke, pero fue descubierto.
+- Día 980: Soñó con 'danza_a_solas' (anima_animus). Insight: En lago interior, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 980: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 981: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 981: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 982: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 982: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 982: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 983: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 984: Soñó con 'espejo_que_miente' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 984: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ecale.
+- Día 984: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eos.
+- Día 985: Soñó con 'camino_conocido' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 985: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 985: Se enfrentó en un choque violento y destructivo contra Iris.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 986: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 987: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 988: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 989: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 990: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 990: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 991: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 992: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 992: Intentó manipular a Eos, pero fue descubierto.
+- Día 992: Intentó manipular a Eos, pero fue descubierto.
+- Día 992: Intentó manipular a Eos, pero fue descubierto.
+- Día 993: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 993: Cedió ingenuamente ante la manipulación de Medon.
+- Día 993: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 993: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 994: Soñó con 'voz_propia_extraña' (persona). Insight: En lago interior, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 994: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 994: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 994: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 994: Cedió ingenuamente ante la manipulación de Iris.
+- Día 994: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 994: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 994: Se enfrentó en un choque violento y destructivo contra Herse.
+- Día 994: Se enfrentó en un choque violento y destructivo contra Molos.
+- Día 995: Soñó con 'reflejo_sin_original' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 995: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 995: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 995: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 996: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 996: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 996: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 996: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 996: Se impuso competitivamente ante Delos, absorbiendo sus recursos biológicos.
+- Día 996: Intentó manipular a Lysas, pero fue descubierto.
+- Día 997: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 998: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 999: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1000: Soñó con 'sombra_ausente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1000: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1001: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1001: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1001: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1002: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1003: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de cueva.
+- Día 1003: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1003: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1003: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 1004: Soñó con 'unión_imposible' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1005: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1005: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1005: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1006: Soñó con 'descenso_inevitable' (persona). Insight: En colinas suaves, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1006: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1006: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1006: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1006: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1006: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1006: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1006: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1007: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1008: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1008: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1008: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1008: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1009: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1010: Soñó con 'voz_propia_extraña' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1010: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1011: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: En rio lago, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1012: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1012: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1013: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1013: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1013: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 1013: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1013: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1013: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1013: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1014: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1015: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 1015: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1015: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Día 1015: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1015: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1016: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1017: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1017: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 1017: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lysas.
+- Día 1017: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lysas.
+- Día 1017: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lysas.
+- Día 1017: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lysas.
+- Día 1017: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Lysas.
+- Día 1018: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1019: Soñó con 'voz_propia_extraña' (anima_animus). Insight: trauma plaga enciende el anima_animus en cueva hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1020: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1020: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1021: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1022: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1023: Soñó con 'fondo_que_sube' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1024: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1024: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Irene.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1024: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1025: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1025: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1025: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1025: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1025: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1025: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1026: Soñó con 'aplauso_vacío' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1027: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1028: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1029: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Día 1030: Soñó con 'figura_que_sigue' (self). Insight: El self ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1030: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1030: Se impuso competitivamente ante Glaukos, absorbiendo sus recursos biológicos.
+- Día 1031: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1032: Soñó con 'danza_a_solas' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1032: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1033: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1034: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1035: Soñó con 'complemento_ausente' (sabio). Insight: El sabio crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 1035: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1036: Soñó con 'sendero_circular' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1036: Detectó y rechazó un intento de manipulación de Eirene.
+- Día 1036: Detectó y rechazó un intento de manipulación de Eirene.
+- Día 1036: Detectó y rechazó un intento de manipulación de Eirene.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1037: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1038: Soñó con 'figura_que_sigue' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1039: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1040: Soñó con 'aplauso_vacío' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1040: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1041: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1042: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1043: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1044: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1045: Soñó con 'estrella_que_no_guía' (sabio). Insight: En colinas suaves el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1045: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1046: Soñó con 'raíz_invisible' (sabio). Insight: El pantano costero amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 1046: Intentó manipular a Eirene, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1046: Detectó y rechazó un intento de manipulación de Eirene.
+- Día 1047: Soñó con 'silencio_pleno' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1048: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1049: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1050: Soñó con 'voz_propia_extraña' (trickster). Insight: El trickster crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1050: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1050: Se impuso competitivamente ante Eryx, absorbiendo sus recursos biológicos.
+- Día 1050: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1050: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1050: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Soñó con 'abundancia_que_pudre' (trickster). Insight: El trickster expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Intentó manipular a Eryx, pero fue descubierto.
+- Día 1051: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1051: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1051: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1051: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1051: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1051: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Soñó con 'semilla_negra' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1052: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1053: Soñó con 'manada_que_huye' (madre). Insight: trauma plaga enciende el madre en sabana abierta hasta quemar lo que toca.
+- Día 1054: Soñó con 'viento_que_borra' (madre). Insight: En pradera humeda, trauma plaga aparece en el otro — el madre no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1055: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1055: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1056: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1057: Soñó con 'habitación_prohibida' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1057: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1057: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1058: Soñó con 'horizonte_inmóvil' (madre). Insight: El madre crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1059: Soñó con 'figura_que_sigue' (madre). Insight: El madre ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1059: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1059: Sufrió explotación y hostilidad de Eryx, cediendo recursos biológicos.
+- Día 1060: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1060: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1061: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1062: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1062: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1063: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1064: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1065: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1065: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1066: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1067: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1067: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 1067: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1068: Soñó con 'papel_sin_actor' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1069: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1070: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1070: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1071: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1072: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1073: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1074: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1074: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Día 1074: Cooperó de forma mutua y armónica con Mysia. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1075: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1075: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1076: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en lago interior hasta quemar lo que toca.
+- Día 1077: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1078: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1079: Soñó con 'escenario_sin_salida' (persona). Insight: En rio lago, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1080: Soñó con 'voz_propia_extraña' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1080: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1081: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1082: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma plaga enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 1083: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 1084: Soñó con 'marea_que_sube' (anima_animus). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1085: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1085: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1086: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1086: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 1086: Cedió ingenuamente ante la manipulación de Elpe.
+- Día 1087: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1088: Soñó con 'trampa_propia' (trickster). Insight: El trickster crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1088: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 1088: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 1088: Se enfrentó en un choque violento y destructivo contra Kore.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1089: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en rio lago hasta quemar lo que toca.
+- Día 1089: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1090: Soñó con 'aplauso_vacío' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1090: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1090: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1090: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1090: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1091: Soñó con 'máscara_adherida' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1092: Soñó con 'máscara_adherida' (trickster). Insight: El trickster expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1093: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1094: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1094: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1094: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1095: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1095: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1096: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1097: Soñó con 'árbol_sin_raíces' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1098: Soñó con 'figura_que_sigue' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1099: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1100: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1100: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1100: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 1100: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 1100: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 1100: Detectó y rechazó un intento de manipulación de Naiads.
+- Día 1101: Soñó con 'manada_que_huye' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1102: Soñó con 'aplauso_vacío' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1103: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1104: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1105: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1105: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1105: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1105: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1106: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1106: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1106: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1106: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1106: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1107: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1107: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1107: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1107: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1107: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1107: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1107: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1107: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1107: Cedió ingenuamente ante la manipulación de Naiads.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1108: Soñó con 'silencio_pleno' (self). Insight: El self ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1109: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1110: Soñó con 'sal_en_herida' (sabio). Insight: trauma plaga enciende el sabio en costa abierta hasta quemar lo que toca.
+- Día 1110: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1111: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1112: Soñó con 'habitación_prohibida' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1113: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1114: Soñó con 'río_que_nutre' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1115: Soñó con 'raíz_invisible' (madre). Insight: En pantano costero el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1115: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1116: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1117: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1118: Soñó con 'calor_que_piensa' (persona). Insight: trauma plaga enciende el persona en desierto borde hasta quemar lo que toca.
+- Día 1119: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En desierto borde, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1120: Soñó con 'mandala_incompleto' (self). Insight: trauma plaga enciende el self en cueva hasta quemar lo que toca.
+- Día 1120: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1121: Soñó con 'silencio_pleno' (self). Insight: En colinas suaves, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1121: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1121: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1121: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1122: Soñó con 'voz_propia_extraña' (persona). Insight: En desierto borde el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1123: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1124: Soñó con 'voz_propia_extraña' (self). Insight: En montana alta el self se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1125: Soñó con 'espejo_que_miente' (self). Insight: En bosque templado, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1125: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1125: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1125: Intentó manipular a Tethys, pero fue descubierto.
+- Día 1126: Soñó con 'voz_sin_cuerpo' (self). Insight: En pradera humeda el self se expande más allá del control; trauma plaga es el combustible.
+- Día 1127: Soñó con 'caída_sin_fondo' (self). Insight: El self proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1128: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1128: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 1128: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 1128: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1128: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1128: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1129: Soñó con 'escenario_sin_salida' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1130: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1130: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1130: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1130: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1130: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1130: Manipuló con éxito y astucia a Ethos para ceder recursos.
+- Día 1130: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Irene.
+- Día 1130: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1130: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Linos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1131: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1132: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1133: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1133: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1133: Manipuló con éxito y astucia a Linos para ceder recursos.
+- Día 1134: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: En lago interior, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1135: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1135: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1136: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1137: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1138: Soñó con 'danza_a_solas' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 1139: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1140: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1140: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1140: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 1141: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1142: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1143: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, trauma plaga aparece en el otro — el self no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1144: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1145: Soñó con 'viento_que_borra' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1145: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1146: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1146: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1146: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1146: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 1147: Soñó con 'hierba_que_corta' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1148: Soñó con 'huesos_propios' (anima_animus). Insight: En desierto borde, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1149: Soñó con 'oasis_espejismo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 1150: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1150: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1150: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 1150: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 1150: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 1150: Detectó y rechazó un intento de manipulación de Ethos.
+- Día 1151: Soñó con 'tierra_resquebrajada' (sabio). Insight: El sabio crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1152: Soñó con 'silencio_pleno' (sabio). Insight: El sabio ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1153: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1154: Soñó con 'silencio_pleno' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Día 1154: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1154: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1154: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1155: Soñó con 'figura_que_sigue' (self). Insight: En colinas suaves, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1155: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1155: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1156: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1157: Soñó con 'figura_que_sigue' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1158: Soñó con 'danza_a_solas' (anima_animus). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1159: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1160: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1160: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1161: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1162: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1163: Soñó con 'figura_que_sigue' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1163: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1163: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 1163: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 1163: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1163: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1164: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 1165: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1165: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1166: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1166: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1166: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1166: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1167: Soñó con 'olor_a_descomposición' (sabio). Insight: El sabio crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Día 1167: Manipuló con éxito y astucia a Kleis para ceder recursos.
+- Día 1168: Soñó con 'profundidad_sin_fondo' (sabio). Insight: En lago interior, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1168: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1168: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1168: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1168: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Día 1169: Soñó con 'habitación_prohibida' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1169: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1169: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1170: Soñó con 'danza_a_solas' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 1170: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1170: Cooperó de forma mutua y armónica con Ethos. Su lazo social se fortaleció.
+- Día 1171: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1172: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: El sabio crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1172: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1172: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1173: Soñó con 'viento_que_borra' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1174: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1175: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1175: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1175: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1175: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1175: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1175: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1175: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1175: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Soñó con 'río_tranquilo' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1176: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1177: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1178: Soñó con 'hierba_que_corta' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1178: Sufrió explotación y hostilidad de Arche, cediendo recursos biológicos.
+- Día 1179: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1179: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1180: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1180: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1180: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1181: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1181: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 1181: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 1182: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1183: Soñó con 'olor_a_descomposición' (sabio). Insight: En pantano costero, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1184: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1185: Soñó con 'trampa_propia' (trickster). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1185: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1186: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1186: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1186: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1187: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1188: Soñó con 'máscara_cosida_a_cara' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1189: Soñó con 'aplauso_vacío' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1190: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1190: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1190: Cedió ingenuamente ante la manipulación de Elate.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1191: Soñó con 'habitación_prohibida' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1191: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 1192: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1193: Soñó con 'árbol_que_aprieta' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1193: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1193: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1194: Soñó con 'papel_sin_actor' (madre). Insight: En rio lago el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1195: Soñó con 'río_que_nutre' (madre). Insight: El pradera humeda amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1195: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1195: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1195: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1195: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1195: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 1196: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 1196: Detectó y rechazó un intento de manipulación de Leucothea.
+- Día 1196: Detectó y rechazó un intento de manipulación de Leucothea.
+- Día 1197: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1198: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1198: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1198: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1198: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1199: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1199: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1199: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1199: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1199: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1200: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1200: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1200: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1200: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1201: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1202: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1202: Intentó manipular a Naos, pero fue descubierto.
+- Día 1202: Intentó manipular a Naos, pero fue descubierto.
+- Día 1202: Intentó manipular a Naos, pero fue descubierto.
+- Día 1202: Intentó manipular a Naos, pero fue descubierto.
+- Día 1202: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Intentó manipular a Naos, pero fue descubierto.
+- Día 1203: Manipuló con éxito y astucia a Meroe para ceder recursos.
+- Día 1204: Soñó con 'huesos_propios' (anima_animus). Insight: En desierto borde, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1205: Soñó con 'hierba_que_corta' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1205: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1206: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1207: Soñó con 'agua_fría' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1208: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1208: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 1208: Cooperó de forma mutua y armónica con Ladon. Su lazo social se fortaleció.
+- Día 1209: Soñó con 'figura_que_sigue' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1210: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El colinas suaves amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1210: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1210: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1210: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1210: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1210: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1211: Soñó con 'corriente_que_arrastra' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1212: Soñó con 'viento_que_borra' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1212: Se impuso competitivamente ante Meroe, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1213: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1214: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1214: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1214: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1214: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1214: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1215: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1215: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1215: Se enfrentó en un choque violento y destructivo contra Mysia.
+- Día 1215: Se enfrentó en un choque violento y destructivo contra Mysia.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1216: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1216: Cedió ingenuamente ante la manipulación de Mysia.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1216: Cedió ingenuamente ante la manipulación de Mysia.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1216: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1217: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1217: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1217: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1217: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Día 1217: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Mysia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1218: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1218: Intentó manipular a Mysia, pero fue descubierto.
+- Día 1218: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1218: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1218: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1219: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1219: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1219: Sufrió explotación y hostilidad de Mysia, cediendo recursos biológicos.
+- Día 1220: Soñó con 'aplauso_vacío' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1220: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1220: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 1221: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 1221: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1222: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1222: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 1222: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 1222: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 1222: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 1222: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1223: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 1223: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naos.
+- Día 1223: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1224: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1224: Detectó y rechazó un intento de manipulación de Naos.
+- Día 1224: Cedió ingenuamente ante la manipulación de Naos.
+- Día 1225: Soñó con 'sendero_circular' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1225: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1226: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1226: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 1226: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 1227: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1228: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1228: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1228: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1228: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 1229: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1230: Soñó con 'aplauso_vacío' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1230: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1230: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1230: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1230: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1230: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1230: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 1230: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 1230: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 1230: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 1230: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 1230: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 1231: Soñó con 'manada_que_huye' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1231: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1231: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1231: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1231: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1232: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En colinas suaves, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1232: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1232: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1232: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1232: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1232: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1232: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1233: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1233: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1233: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1233: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 1233: Se enfrentó en un choque violento y destructivo contra Kore.
+- Día 1234: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1234: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1234: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1234: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1235: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1235: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1235: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1235: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1236: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El rio lago amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1236: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1237: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1238: Soñó con 'niebla_densa' (sombra). Insight: El sombra ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1238: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1238: Intentó manipular a Neis, pero fue descubierto.
+- Día 1238: Intentó manipular a Neis, pero fue descubierto.
+- Día 1239: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1239: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1239: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 1239: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1239: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1239: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1240: Soñó con 'danza_a_solas' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1240: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1240: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1240: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1240: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1240: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1240: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1240: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1240: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1240: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1241: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1242: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1243: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1243: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1244: Soñó con 'papel_sin_actor' (madre). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1244: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Molos, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1244: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1245: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1245: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1245: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1245: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 1245: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 1245: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1245: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1245: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1245: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1246: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1246: Soñó con 'leche_amarga' (madre). Insight: En rio lago, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1246: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1246: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1246: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1246: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1246: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1246: Sufrió explotación y hostilidad de Ixion, cediendo recursos biológicos.
+- Día 1246: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1246: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 1246: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1246: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 1247: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1248: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1248: Cedió ingenuamente ante la manipulación de Iapyx.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1249: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1249: Intentó manipular a Neis, pero fue descubierto.
+- Día 1249: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iapyx.
+- Día 1249: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iapyx.
+- Día 1249: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iapyx.
+- Día 1249: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1249: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1249: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1249: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1249: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1250: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1250: Soñó con 'sal_en_herida' (persona). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1250: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1250: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1250: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1250: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1250: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1250: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1250: Detectó y rechazó un intento de manipulación de Iapyx.
+- Día 1251: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1251: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1251: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1251: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1251: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1251: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 1251: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1252: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1252: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1252: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1252: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 1253: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1254: Soñó con 'máscara_adherida' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1254: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kore.
+- Día 1254: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1254: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1254: Cooperó de forma mutua y armónica con Ixion. Su lazo social se fortaleció.
+- Día 1255: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 1255: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1255: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1256: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 1257: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1258: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1259: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En costa abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1259: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 1260: Soñó con 'aplauso_vacío' (persona). Insight: En costa abierta, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1260: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1261: Soñó con 'camino_conocido' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1262: Soñó con 'aplauso_vacío' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1263: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1263: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1263: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1264: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1264: Cedió ingenuamente ante la manipulación de Neis.
+- Día 1264: Cedió ingenuamente ante la manipulación de Neis.
+- Día 1265: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1265: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1265: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1265: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1265: Cedió ingenuamente ante la manipulación de Ixion.
+- Día 1265: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1266: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1266: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1266: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1266: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1267: Soñó con 'habitación_prohibida' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1268: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1269: Soñó con 'sombra_que_camina' (trickster). Insight: trauma plaga enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 1270: Soñó con 'máscara_adherida' (trickster). Insight: En montana alta, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1270: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1270: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1270: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1271: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1272: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1272: Intentó manipular a Neis, pero fue descubierto.
+- Día 1272: Intentó manipular a Neis, pero fue descubierto.
+- Día 1272: Intentó manipular a Neis, pero fue descubierto.
+- Día 1272: Intentó manipular a Neis, pero fue descubierto.
+- Día 1272: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Día 1272: Sufrió explotación y hostilidad de Neis, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1273: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1274: Soñó con 'árbol_que_aprieta' (madre). Insight: En pradera humeda, trauma plaga aparece en el otro — el madre no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1275: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1275: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1275: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1275: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1275: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1276: Soñó con 'danza_a_solas' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1277: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1277: Detectó y rechazó un intento de manipulación de Amaryllis.
+- Día 1278: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1279: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1280: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1280: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1281: Soñó con 'papel_sin_actor' (persona). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1281: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1282: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1282: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1282: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1283: Soñó con 'sombra_que_camina' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1284: Soñó con 'río_tranquilo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1285: Soñó con 'papel_sin_actor' (madre). Insight: El madre expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1285: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1285: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1285: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1285: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1285: Se enfrentó en un choque violento y destructivo contra Gonos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1286: Soñó con 'sendero_circular' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1286: Intentó manipular a Naos, pero fue descubierto.
+- Día 1287: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1288: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1289: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 1289: Sufrió explotación y hostilidad de Ichnos, cediendo recursos biológicos.
+- Día 1290: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1290: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1290: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 1290: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 1290: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Amaryllis.
+- Día 1290: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 1291: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1292: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1292: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1292: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1292: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 1293: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1293: Detectó y rechazó un intento de manipulación de Ichnos.
+- Día 1293: Detectó y rechazó un intento de manipulación de Ichnos.
+- Día 1293: Detectó y rechazó un intento de manipulación de Eirene.
+- Día 1293: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1293: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1293: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1293: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1293: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Soñó con 'corriente_que_arrastra' (madre). Insight: En rio lago, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1294: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1295: Soñó con 'papel_sin_actor' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1295: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1295: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1295: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1296: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1297: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1298: Soñó con 'habitación_prohibida' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1299: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1300: Soñó con 'campo_interminable' (madre). Insight: trauma plaga enciende el madre en pradera humeda hasta quemar lo que toca.
+- Día 1300: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1301: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1301: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1302: Soñó con 'horizonte_de_agua' (madre). Insight: El madre ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1302: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1302: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1302: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1303: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1304: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1305: Soñó con 'camino_conocido' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1305: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1305: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Día 1305: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1306: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1307: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1308: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1309: Soñó con 'sed_en_el_agua' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1309: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1309: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1309: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1309: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1310: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1310: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1310: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1310: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1310: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1310: Se impuso competitivamente ante Gaia, absorbiendo sus recursos biológicos.
+- Día 1310: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1311: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1312: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1312: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1312: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1312: Cedió ingenuamente ante la manipulación de Maia.
+- Día 1312: Cooperó de forma mutua y armónica con Iapyx. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Iapyx. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1312: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1313: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1314: Soñó con 'habitación_prohibida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1314: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1314: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1314: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1314: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1314: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1315: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Se impuso competitivamente ante Eirene, absorbiendo sus recursos biológicos.
+- Día 1315: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1315: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1316: Soñó con 'árbol_sin_raíces' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1316: Detectó y rechazó un intento de manipulación de Gaia.
+- Día 1316: Detectó y rechazó un intento de manipulación de Gaia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1317: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1318: Soñó con 'habitación_prohibida' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1319: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1320: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1320: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1321: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1322: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1322: Cooperó de forma mutua y armónica con Mneme. Su lazo social se fortaleció.
+- Día 1323: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1323: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1323: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 1324: Soñó con 'campo_interminable' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1324: Intentó manipular a Gaia, pero fue descubierto.
+- Día 1324: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ethos.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1324: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1325: Soñó con 'río_tranquilo' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1325: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1326: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1326: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1326: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1326: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1326: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1326: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1326: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1327: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Soñó con 'profundidad_sin_fondo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se impuso competitivamente ante Ladon, absorbiendo sus recursos biológicos.
+- Día 1328: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1328: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1328: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1329: Soñó con 'espejo_que_miente' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1329: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1330: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1330: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1330: Detectó y rechazó un intento de manipulación de Ixion.
+- Día 1330: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1330: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1330: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1330: Detectó y rechazó un intento de manipulación de Elate.
+- Día 1330: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1330: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1330: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1331: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1331: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1331: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1331: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1331: Cedió ingenuamente ante la manipulación de Ladon.
+- Día 1331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 1332: Soñó con 'papel_sin_actor' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de pantano costero.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1333: Soñó con 'voz_propia_extraña' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1333: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1333: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1333: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1334: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1334: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1334: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Soñó con 'laberinto_que_ríe' (trickster). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1335: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1335: Se enfrentó en un choque violento y destructivo contra Gaia.
+- Día 1336: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1336: Se enfrentó en un choque violento y destructivo contra Mneme.
+- Día 1337: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 1338: Soñó con 'leche_amarga' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1338: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1338: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1338: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 1338: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1338: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1338: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1338: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 1338: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 1338: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 1338: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 1339: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1339: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kleis.
+- Día 1339: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kleis.
+- Día 1340: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1340: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1341: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1342: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1343: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1344: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1345: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1345: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1345: Manipuló con éxito y astucia a Mecon para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1345: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1345: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Soñó con 'sombra_que_camina' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 1346: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1346: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1346: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1346: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1346: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1347: Soñó con 'calor_que_piensa' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1347: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1347: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1347: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1348: Soñó con 'mandala_incompleto' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1349: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1350: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 1350: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1350: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 1351: Soñó con 'fondo_que_sube' (anima_animus). Insight: En rio lago, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1351: Se impuso competitivamente ante Graia, absorbiendo sus recursos biológicos.
+- Día 1351: Detectó y rechazó un intento de manipulación de Erato.
+- Día 1352: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1353: Soñó con 'terreno_que_cede' (self). Insight: El self expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1354: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1354: Se impuso competitivamente ante Iapyx, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1355: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1355: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1356: Soñó con 'figura_que_sigue' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1357: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1358: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1359: Soñó con 'sendero_circular' (self). Insight: En bosque templado, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1359: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1359: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1360: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1360: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1360: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 1361: Soñó con 'aplauso_vacío' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Cooperó de forma mutua y armónica con Idmon. Su lazo social se fortaleció.
+- Día 1361: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1362: Soñó con 'sombra_ausente' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1362: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1363: Soñó con 'unión_imposible' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1363: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Soñó con 'papel_sin_actor' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1364: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1364: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1364: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 1365: Soñó con 'corriente_que_arrastra' (persona). Insight: En rio lago, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1365: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1366: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1366: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1366: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1366: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 1367: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1368: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1369: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1370: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1370: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1370: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1371: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1371: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1372: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1373: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1373: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Soñó con 'corriente_que_arrastra' (sabio). Insight: El sabio expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 1374: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1375: Soñó con 'centro_sin_lugar' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1375: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1376: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1377: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El rio lago amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1378: Soñó con 'máscara_adherida' (trickster). Insight: El trickster crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1379: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1380: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1380: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1381: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El bosque templado amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1382: Soñó con 'voz_sin_cuerpo' (trickster). Insight: En pradera humeda, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1383: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1384: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1385: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1385: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1386: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1386: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Día 1387: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1388: Soñó con 'fondo_que_sube' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1388: Intentó manipular a Maia, pero fue descubierto.
+- Día 1389: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1390: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1390: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1390: Se enfrentó en un choque violento y destructivo contra Kleis.
+- Día 1391: Soñó con 'voz_propia_extraña' (sombra). Insight: En cueva, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1392: Soñó con 'sal_en_herida' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1392: Detectó y rechazó un intento de manipulación de Kleis.
+- Día 1392: Detectó y rechazó un intento de manipulación de Kleis.
+- Día 1392: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1393: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1393: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1394: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en montana alta, donde no puede alcanzarlo.
+- Día 1395: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1395: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1395: Cooperó de forma mutua y armónica con Delos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1396: Soñó con 'figura_que_sigue' (persona). Insight: El persona expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1397: Soñó con 'leche_amarga' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1397: Cooperó de forma mutua y armónica con Iapyx. Su lazo social se fortaleció.
+- Día 1398: Soñó con 'sed_en_el_agua' (sabio). Insight: En rio lago, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1399: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1400: Soñó con 'reflejo_sin_original' (self). Insight: En lago interior, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1400: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1401: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1401: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Día 1401: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Día 1401: Se impuso competitivamente ante Kleis, absorbiendo sus recursos biológicos.
+- Día 1402: Soñó con 'unión_imposible' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1403: Soñó con 'calor_que_piensa' (sombra). Insight: En desierto borde el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1404: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 1405: Soñó con 'figura_que_sigue' (anima_animus). Insight: En bosque templado, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1405: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1405: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1405: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1405: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1405: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1405: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1405: Cooperó de forma mutua y armónica con Maia. Su lazo social se fortaleció.
+- Día 1406: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1407: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1408: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1409: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1409: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1409: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1410: Soñó con 'complemento_ausente' (sabio). Insight: El sabio ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1410: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1410: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1410: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1411: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1411: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1411: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1411: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1411: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1411: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1411: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1411: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1412: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1412: Soñó con 'trampa_propia' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1412: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1413: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1414: Soñó con 'trampa_propia' (trickster). Insight: En sabana abierta, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1415: Soñó con 'centro_sin_lugar' (trickster). Insight: En rio lago, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1415: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1416: Soñó con 'escenario_sin_salida' (persona). Insight: El pantano costero amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1417: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1418: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1419: Soñó con 'árbol_sin_raíces' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1420: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1420: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1420: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1420: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1420: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1421: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1421: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1421: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1422: Soñó con 'trampa_propia' (trickster). Insight: En rio lago, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1423: Soñó con 'espejo_que_miente' (trickster). Insight: En valle fertil, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1424: Soñó con 'sal_en_herida' (trickster). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1425: Soñó con 'espejo_que_miente' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1425: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1425: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1426: Soñó con 'habitación_prohibida' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1427: Soñó con 'bifurcación_sin_mapa' (persona). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1428: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1429: Soñó con 'voz_propia_extraña' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1430: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1430: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1431: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1432: Soñó con 'luz_oblicua' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1433: Soñó con 'espejo_que_miente' (persona). Insight: En desierto borde, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1434: Soñó con 'habitación_prohibida' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1435: Soñó con 'danza_a_solas' (anima_animus). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1435: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1435: Cedió ingenuamente ante la manipulación de Iapyx.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1436: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1436: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 1437: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1437: Cedió ingenuamente ante la manipulación de Iapyx.
+- Día 1438: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1439: Soñó con 'sombra_que_camina' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1440: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1440: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1441: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: trauma plaga enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 1441: Manipuló con éxito y astucia a Maia para ceder recursos.
+- Día 1441: Manipuló con éxito y astucia a Maia para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1441: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 1442: Detectó y rechazó un intento de manipulación de Iris.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1443: Soñó con 'centro_sin_lugar' (persona). Insight: El lago interior amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1444: Soñó con 'escenario_sin_salida' (persona). Insight: En lago interior, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1444: Detectó y rechazó un intento de manipulación de Manto.
+- Día 1444: Detectó y rechazó un intento de manipulación de Manto.
+- Día 1445: Soñó con 'escenario_sin_salida' (sombra). Insight: En cueva el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1445: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1446: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1447: Soñó con 'espejo_que_miente' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1448: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1449: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1449: Sufrió explotación y hostilidad de Irene, cediendo recursos biológicos.
+- Día 1449: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1449: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1449: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 1449: Se enfrentó en un choque violento y destructivo contra Iapyx.
+- Día 1450: Soñó con 'aplauso_vacío' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1450: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1450: Se enfrentó en un choque violento y destructivo contra Irene.
+- Día 1451: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1451: Se enfrentó en un choque violento y destructivo contra Irene.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1452: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1453: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1454: Soñó con 'descenso_inevitable' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1455: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1455: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1456: Soñó con 'papel_sin_actor' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1457: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El bosque templado amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1458: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1459: Soñó con 'trampa_propia' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de montana alta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1460: Soñó con 'escenario_sin_salida' (persona). Insight: El rio lago amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1460: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1461: Soñó con 'escenario_sin_salida' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1461: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1462: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1463: Soñó con 'máscara_adherida' (madre). Insight: El colinas suaves amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1464: Soñó con 'río_que_nutre' (madre). Insight: trauma plaga enciende el madre en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1465: Soñó con 'figura_que_sigue' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1465: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1466: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1467: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1467: Detectó y rechazó un intento de manipulación de Malos.
+- Día 1467: Detectó y rechazó un intento de manipulación de Malos.
+- Día 1467: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1467: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 1467: Intentó manipular a Malis, pero fue descubierto.
+- Día 1467: Intentó manipular a Herse, pero fue descubierto.
+- Día 1468: Soñó con 'hierba_que_corta' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1468: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1469: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1469: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1469: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1469: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1470: Soñó con 'máscara_cosida_a_cara' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1470: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1471: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 1471: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1472: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1473: Soñó con 'aplauso_vacío' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1474: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En rio lago, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1475: Soñó con 'sendero_circular' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1475: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1476: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1477: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 1478: Soñó con 'voz_propia_extraña' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1478: Intentó manipular a Kleis, pero fue descubierto.
+- Día 1478: Intentó manipular a Kleis, pero fue descubierto.
+- Día 1478: Intentó manipular a Kleis, pero fue descubierto.
+- Día 1479: Soñó con 'marea_que_sube' (persona). Insight: En costa abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1479: Cooperó de forma mutua y armónica con Kleis. Su lazo social se fortaleció.
+- Día 1480: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1480: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1481: Soñó con 'escenario_sin_salida' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1482: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1483: Soñó con 'voz_propia_extraña' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1484: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1485: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1485: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1486: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1487: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 1488: Soñó con 'espejo_que_miente' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1489: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1489: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1489: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1489: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1489: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1489: Se enfrentó en un choque violento y destructivo contra Chryse.
+- Día 1489: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1489: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1490: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1490: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1491: Soñó con 'horizonte_de_agua' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1492: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1493: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma plaga enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1493: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Soñó con 'semilla_negra' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1494: Sufrió explotación y hostilidad de Herse, cediendo recursos biológicos.
+- Día 1495: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1495: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1495: Cedió ingenuamente ante la manipulación de Malis.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1496: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en valle fertil hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1497: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 1497: Cooperó de forma mutua y armónica con Iapyx. Su lazo social se fortaleció.
+- Día 1498: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1499: Soñó con 'trampa_propia' (trickster). Insight: En sabana abierta el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1499: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 1499: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 1499: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1499: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1500: Soñó con 'niebla_densa' (trickster). Insight: El trickster ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1500: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1500: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1500: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1500: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1501: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1501: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1501: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1501: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1501: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 1502: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1502: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1503: Soñó con 'mandala_incompleto' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1504: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1504: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1504: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1504: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1504: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1504: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1505: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1505: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 1505: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1505: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1505: Manipuló con éxito y astucia a Delia para ceder recursos.
+- Día 1505: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1505: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1505: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1505: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1505: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1505: Cooperó de forma mutua y armónica con Delia. Su lazo social se fortaleció.
+- Día 1505: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1506: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma plaga es el combustible.
+- Día 1506: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1506: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1506: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Día 1506: Cooperó de forma mutua y armónica con Erato. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1507: Soñó con 'río_tranquilo' (persona). Insight: trauma plaga enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 1507: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1508: Soñó con 'campo_interminable' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1508: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Tethys.
+- Día 1508: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Tethys.
+- Día 1508: Intentó manipular a Elate, pero fue descubierto.
+- Día 1508: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1508: Intentó manipular a Malis, pero fue descubierto.
+- Día 1508: Intentó manipular a Malis, pero fue descubierto.
+- Día 1508: Intentó manipular a Malis, pero fue descubierto.
+- Día 1509: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1509: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1509: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1509: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1509: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1509: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1510: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1510: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1510: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1510: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1510: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1511: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1512: Soñó con 'voz_propia_extraña' (persona). Insight: trauma plaga enciende el persona en valle fertil hasta quemar lo que toca.
+- Día 1512: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1512: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Día 1512: Sufrió explotación y hostilidad de Iapyx, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1513: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1514: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1514: Intentó manipular a Neis, pero fue descubierto.
+- Día 1514: Intentó manipular a Neis, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1515: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1515: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1516: Soñó con 'habitación_prohibida' (persona). Insight: En rio lago el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1517: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1517: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1517: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1517: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1517: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 1517: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1518: Soñó con 'bifurcación_sin_mapa' (persona). Insight: El persona crece desmedido en colinas suaves — trauma plaga lo empuja sin nombre.
+- Día 1518: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1518: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1518: Intentó manipular a Elpe, pero fue descubierto.
+- Día 1518: Intentó manipular a Malos, pero fue descubierto.
+- Día 1518: Intentó manipular a Malos, pero fue descubierto.
+- Día 1518: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 1518: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1518: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 1518: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1519: Soñó con 'escenario_sin_salida' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1519: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1520: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1520: Se impuso competitivamente ante Neis, absorbiendo sus recursos biológicos.
+- Día 1521: Soñó con 'escenario_sin_salida' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1521: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 1522: Soñó con 'escenario_sin_salida' (persona). Insight: En desierto borde, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1523: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1523: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1523: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1524: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1525: Soñó con 'aplauso_vacío' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1525: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1526: Soñó con 'aplauso_vacío' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1526: Cedió ingenuamente ante la manipulación de Malos.
+- Día 1526: Se enfrentó en un choque violento y destructivo contra Elate.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1526: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Leucothea.
+- Día 1526: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1526: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1526: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1526: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1526: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma plaga enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 1527: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 1527: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1527: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1527: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1527: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1527: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Soñó con 'vista_engañosa' (anima_animus). Insight: trauma plaga enciende el anima_animus en colinas suaves hasta quemar lo que toca.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1528: Intentó manipular a Malis, pero fue descubierto.
+- Día 1528: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 1528: Manipuló con éxito y astucia a Neis para ceder recursos.
+- Día 1528: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1528: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Soñó con 'escenario_sin_salida' (anima_animus). Insight: trauma plaga enciende el anima_animus en costa abierta hasta quemar lo que toca.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cooperó de forma mutua y armónica con Neis. Su lazo social se fortaleció.
+- Día 1529: Cedió ingenuamente ante la manipulación de Elate.
+- Día 1529: Cedió ingenuamente ante la manipulación de Elate.
+- Día 1529: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1529: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1529: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1530: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1530: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 1530: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1530: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1531: Soñó con 'silencio_pleno' (persona). Insight: En montana alta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1531: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1532: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1533: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1534: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1535: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 1535: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1535: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1535: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1535: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1535: Se impuso competitivamente ante Elpe, absorbiendo sus recursos biológicos.
+- Día 1536: Soñó con 'complemento_ausente' (anima_animus). Insight: En sabana abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1537: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1538: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1539: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 1539: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1539: Detectó y rechazó un intento de manipulación de Malis.
+- Día 1540: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1540: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1540: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1540: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1540: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1540: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1540: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 1540: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1541: Soñó con 'voz_propia_extraña' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1542: Soñó con 'árbol_sin_raíces' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1542: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1543: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1544: Soñó con 'sendero_circular' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1545: Soñó con 'máscara_cosida_a_cara' (self). Insight: El self proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1545: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1545: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1545: Cedió ingenuamente ante la manipulación de Gaia.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1546: Soñó con 'aplauso_vacío' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1547: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En colinas suaves, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1547: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1547: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1547: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1547: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1548: Soñó con 'danza_a_solas' (self). Insight: El self expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1549: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1550: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1550: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1550: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 1551: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1551: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 1551: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1551: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1551: Se enfrentó en un choque violento y destructivo contra Malis.
+- Día 1551: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1552: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1552: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 1552: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 1552: Detectó y rechazó un intento de manipulación de Tethys.
+- Día 1553: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1553: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1553: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1553: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1553: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1553: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1554: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1555: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 1555: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1555: Se enfrentó en un choque violento y destructivo contra Iris.
+- Día 1555: Intentó manipular a Iris, pero fue descubierto.
+- Día 1556: Soñó con 'puerta_que_se_mueve' (trickster). Insight: trauma plaga enciende el trickster en bosque templado hasta quemar lo que toca.
+- Día 1556: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 1556: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1557: Soñó con 'trampa_propia' (trickster). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1558: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1558: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1558: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1558: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1558: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 1559: Soñó con 'silencio_pleno' (sombra). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1559: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eris.
+- Día 1559: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Eris.
+- Día 1560: Soñó con 'río_que_nutre' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1560: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1560: Cedió ingenuamente ante la manipulación de Eris.
+- Día 1560: Cedió ingenuamente ante la manipulación de Eris.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1561: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1562: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1562: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1562: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1562: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1563: Soñó con 'mandala_incompleto' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 1563: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1563: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1563: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1563: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1563: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1564: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1564: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1564: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 1564: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 1564: Cedió ingenuamente ante la manipulación de Lysas.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1565: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1565: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1565: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1565: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1565: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1565: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 1565: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1565: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1565: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1565: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1565: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1566: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 1567: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1568: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 1568: Cedió ingenuamente ante la manipulación de Lysas.
+- Día 1568: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1568: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1568: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1568: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1569: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1570: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1570: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1570: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1571: Soñó con 'papel_sin_actor' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1571: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1571: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1571: Cooperó de forma mutua y armónica con Gaia. Su lazo social se fortaleció.
+- Día 1571: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1571: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1572: Soñó con 'aplauso_vacío' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1572: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1572: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1572: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1572: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 1573: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1574: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1574: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 1575: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1575: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1576: Soñó con 'horizonte_de_agua' (anima_animus). Insight: En costa abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1576: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1577: Soñó con 'papel_sin_actor' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1578: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1578: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 1578: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1579: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1580: Soñó con 'trampa_propia' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1580: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1580: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1581: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1581: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1581: Cedió ingenuamente ante la manipulación de Herse.
+- Día 1582: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1582: Intentó manipular a Eris, pero fue descubierto.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1582: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1583: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1584: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1584: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1584: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1584: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1585: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1585: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1585: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1585: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1585: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1585: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1585: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1585: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1586: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1587: Soñó con 'danza_a_solas' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1588: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1588: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1588: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 1588: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1589: Soñó con 'escenario_sin_salida' (persona). Insight: En sabana abierta, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1589: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 1589: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1589: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1589: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1589: Cedió ingenuamente ante la manipulación de Naiads.
+- Día 1590: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1590: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1590: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1591: Soñó con 'laberinto_que_ríe' (trickster). Insight: trauma plaga enciende el trickster en sabana abierta hasta quemar lo que toca.
+- Día 1591: Se enfrentó en un choque violento y destructivo contra Lysas.
+- Día 1591: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1591: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 1591: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 1592: Soñó con 'máscara_adherida' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Día 1592: Intentó manipular a Naiads, pero fue descubierto.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1593: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en cueva hasta quemar lo que toca.
+- Día 1594: Soñó con 'habitación_prohibida' (sombra). Insight: En cueva el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1594: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1594: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1594: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1594: Se enfrentó en un choque violento y destructivo contra Arche.
+- Día 1594: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 1594: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1594: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1594: Intentó manipular a Arche, pero fue descubierto.
+- Día 1595: Soñó con 'árbol_sin_raíces' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1595: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1595: Cedió ingenuamente ante la manipulación de Isos.
+- Día 1595: Cedió ingenuamente ante la manipulación de Isos.
+- Día 1595: Cedió ingenuamente ante la manipulación de Isos.
+- Día 1595: Cedió ingenuamente ante la manipulación de Isos.
+- Día 1595: Cedió ingenuamente ante la manipulación de Isos.
+- Día 1596: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1597: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1597: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 1598: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1599: Soñó con 'río_tranquilo' (trickster). Insight: El trickster ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1599: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 1599: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1599: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1600: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1600: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1601: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1602: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1602: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 1603: Soñó con 'centro_sin_lugar' (madre). Insight: En rio lago, trauma plaga aparece en el otro — el madre no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1604: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1604: Se impuso competitivamente ante Ichnos, absorbiendo sus recursos biológicos.
+- Día 1604: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1604: Cedió ingenuamente ante la manipulación de Ichnos.
+- Día 1605: Soñó con 'figura_que_sigue' (anima_animus). Insight: En colinas suaves, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1605: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1605: Intentó manipular a Laimos, pero fue descubierto.
+- Día 1605: Intentó manipular a Laimos, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1606: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1606: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1606: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1607: Soñó con 'oscuridad_total' (sombra). Insight: El sombra crece desmedido en cueva — trauma plaga lo empuja sin nombre.
+- Día 1608: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1608: Intentó manipular a Ichnos, pero fue descubierto.
+- Día 1608: Intentó manipular a Ichnos, pero fue descubierto.
+- Día 1608: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1608: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1608: Cooperó de forma mutua y armónica con Ichnos. Su lazo social se fortaleció.
+- Día 1608: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1608: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1608: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1608: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1608: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1609: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1609: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1609: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1609: Manipuló con éxito y astucia a Ichnos para ceder recursos.
+- Día 1610: Soñó con 'reflejo_sin_original' (anima_animus). Insight: trauma plaga enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 1610: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1611: Soñó con 'espejo_que_miente' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1612: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1613: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1613: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 1613: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1614: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1615: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1615: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1616: Soñó con 'máscara_adherida' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1617: Soñó con 'descenso_inevitable' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 1618: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1618: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1618: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1618: Cedió ingenuamente ante la manipulación de Manto.
+- Día 1619: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1620: Soñó con 'escenario_sin_salida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1620: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1621: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1621: Cooperó de forma mutua y armónica con Eos. Su lazo social se fortaleció.
+- Día 1621: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1622: Soñó con 'voz_propia_extraña' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1623: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1624: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1624: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1624: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1624: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1624: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 1624: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Meroe.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1625: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1625: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1625: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1625: Sufrió explotación y hostilidad de Koures, cediendo recursos biológicos.
+- Día 1625: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 1625: Cedió ingenuamente ante la manipulación de Lycos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1626: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1627: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1628: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1628: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1628: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 1629: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1629: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1630: Soñó con 'figura_que_sigue' (anima_animus). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1630: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1630: Intentó manipular a Chryse, pero fue descubierto.
+- Día 1631: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Intentó manipular a Lysas, pero fue descubierto.
+- Día 1631: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 1632: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1633: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1634: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1635: Soñó con 'complemento_ausente' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1635: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1636: Soñó con 'máscara_adherida' (trickster). Insight: El trickster crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1637: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1637: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1637: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1637: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1637: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1638: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1638: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kleis.
+- Día 1638: Manipuló con éxito y astucia a Gaia para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1639: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 1640: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1640: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1640: Intentó manipular a Mecon, pero fue descubierto.
+- Día 1640: Intentó manipular a Mecon, pero fue descubierto.
+- Día 1641: Soñó con 'complemento_ausente' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1642: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 1643: Soñó con 'voz_propia_extraña' (persona). Insight: El persona expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1644: Soñó con 'camino_conocido' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Día 1644: Sufrió explotación y hostilidad de Isos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1645: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1645: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1645: Intentó manipular a Isos, pero fue descubierto.
+- Día 1645: Intentó manipular a Isos, pero fue descubierto.
+- Día 1645: Intentó manipular a Isos, pero fue descubierto.
+- Día 1646: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1647: Soñó con 'aplauso_vacío' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1647: Se enfrentó en un choque violento y destructivo contra Isos.
+- Día 1647: Se enfrentó en un choque violento y destructivo contra Eris.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1648: Soñó con 'escenario_sin_salida' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 1649: Soñó con 'aplauso_vacío' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1650: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1650: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1651: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1652: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1653: Soñó con 'figura_que_sigue' (madre). Insight: El madre crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1653: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1654: Soñó con 'río_que_nutre' (madre). Insight: El valle fertil amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1654: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 1655: Soñó con 'manada_que_huye' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1655: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1656: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en cueva, donde no puede alcanzarlo.
+- Día 1656: Cooperó de forma mutua y armónica con Laimos. Su lazo social se fortaleció.
+- Día 1656: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1656: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1657: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1657: Detectó y rechazó un intento de manipulación de Eryx.
+- Día 1658: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1658: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1658: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1658: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1658: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1658: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1659: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1659: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1659: Manipuló con éxito y astucia a Laimos para ceder recursos.
+- Día 1660: Soñó con 'huesos_propios' (trickster). Insight: El trickster expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1660: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1660: Intentó manipular a Kore, pero fue descubierto.
+- Día 1660: Intentó manipular a Kore, pero fue descubierto.
+- Día 1660: Manipuló con éxito y astucia a Irene para ceder recursos.
+- Día 1661: Soñó con 'marea_que_sube' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 1661: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 1661: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Día 1661: Se impuso competitivamente ante Erato, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1662: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1662: Detectó y rechazó un intento de manipulación de Gonos.
+- Día 1662: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1662: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1662: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1662: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1662: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1662: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1663: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1663: Soñó con 'sal_en_herida' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 1663: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1663: Intentó manipular a Eirene, pero fue descubierto.
+- Día 1663: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 1664: Soñó con 'figura_que_sigue' (madre). Insight: El colinas suaves amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1664: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1664: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1664: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1665: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1665: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1666: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1666: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1666: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1667: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Día 1668: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1668: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1668: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1669: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1669: Soñó con 'habitación_prohibida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1669: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 1670: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1670: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1671: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En lago interior el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1672: Soñó con 'papel_sin_actor' (anima_animus). Insight: El lago interior amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 1673: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En colinas suaves, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1674: Soñó con 'sombra_que_camina' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1675: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1675: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1675: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1675: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1675: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1675: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1675: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 1676: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1676: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1676: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 1677: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1678: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1679: Soñó con 'niebla_densa' (sabio). Insight: El pantano costero amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 1680: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En sabana abierta el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1680: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1681: Soñó con 'aplauso_vacío' (sabio). Insight: El sabio expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1682: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1683: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 1684: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1684: Sufrió explotación y hostilidad de Delia, cediendo recursos biológicos.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1684: Intentó manipular a Delia, pero fue descubierto.
+- Día 1685: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1685: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1686: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Día 1686: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1686: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1686: Sufrió explotación y hostilidad de Laimos, cediendo recursos biológicos.
+- Día 1686: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1686: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1687: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1687: Cedió ingenuamente ante la manipulación de Koures.
+- Día 1688: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: En cueva, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1689: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1690: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1690: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1691: Soñó con 'horizonte_inmóvil' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1692: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1692: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1692: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1692: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1692: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 1693: Soñó con 'papel_sin_actor' (trickster). Insight: En bosque templado el trickster se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1694: Soñó con 'máscara_cosida_a_cara' (trickster). Insight: El trickster expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 1695: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1695: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1696: Soñó con 'árbol_que_aprieta' (madre). Insight: En rio lago, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1697: Soñó con 'voz_propia_extraña' (madre). Insight: En pradera humeda, trauma plaga aparece en el otro — el madre no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1698: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 1699: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1700: Soñó con 'papel_sin_actor' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 1700: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1701: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 1702: Soñó con 'oscuridad_total' (sombra). Insight: En cueva, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1703: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En lago interior, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1704: Soñó con 'unión_imposible' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1705: Soñó con 'centro_sin_lugar' (persona). Insight: El persona crece desmedido en cueva — trauma plaga lo empuja sin nombre.
+- Día 1705: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1705: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1706: Soñó con 'papel_sin_actor' (persona). Insight: En colinas suaves el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1707: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en pantano costero, donde no puede alcanzarlo.
+- Día 1708: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1709: Soñó con 'sed_en_el_agua' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1710: Soñó con 'viento_que_borra' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1710: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1710: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1711: Soñó con 'roca_que_aplasta' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1712: Soñó con 'habitación_prohibida' (anima_animus). Insight: trauma plaga enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1713: Soñó con 'escenario_sin_salida' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1714: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1715: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1715: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1715: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1716: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1717: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1717: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1717: Cedió ingenuamente ante la manipulación de Delia.
+- Día 1718: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1718: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1718: Detectó y rechazó un intento de manipulación de Delia.
+- Día 1719: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1720: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1720: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1720: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 1720: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1721: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1722: Soñó con 'voz_propia_extraña' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 1723: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1724: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1725: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1725: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1725: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1725: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 1726: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1727: Soñó con 'camino_conocido' (sabio). Insight: En lago interior, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1728: Soñó con 'campo_interminable' (sabio). Insight: El sabio ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1729: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1730: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1730: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1730: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1731: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 1732: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 1733: Soñó con 'campo_interminable' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1734: Soñó con 'río_que_nutre' (madre). Insight: El madre expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1735: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1735: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1735: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1736: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1737: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1738: Soñó con 'figura_que_sigue' (persona). Insight: El costa abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1739: Soñó con 'centro_sin_lugar' (persona). Insight: El lago interior amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1740: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1740: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1740: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1741: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1741: Cedió ingenuamente ante la manipulación de Lycos.
+- Día 1741: Cedió ingenuamente ante la manipulación de Lycos.
+- Día 1741: Cedió ingenuamente ante la manipulación de Lycos.
+- Día 1742: Soñó con 'árbol_sin_raíces' (madre). Insight: El madre ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1743: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1744: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1745: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1745: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1745: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1746: Soñó con 'aplauso_vacío' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1747: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1748: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1749: Soñó con 'viento_que_borra' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1750: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1750: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1750: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1751: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1752: Soñó con 'laberinto_que_ríe' (trickster). Insight: En colinas suaves, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1753: Soñó con 'piedra_que_rueda' (trickster). Insight: El trickster ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1754: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1755: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1755: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1755: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1756: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1757: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1757: Cedió ingenuamente ante la manipulación de Malos.
+- Día 1758: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1759: Soñó con 'figura_que_sigue' (madre). Insight: El lago interior amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 1760: Soñó con 'río_que_nutre' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1760: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1760: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1761: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1762: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1763: Soñó con 'sal_en_herida' (sombra). Insight: El sombra expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 1764: Soñó con 'calma_antes_de_algo' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 1765: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de costa abierta.
+- Día 1765: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1765: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1766: Soñó con 'laberinto_que_ríe' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1767: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1768: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1769: Soñó con 'habitación_prohibida' (anima_animus). Insight: En costa abierta, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1770: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1770: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1770: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1771: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en costa abierta hasta quemar lo que toca.
+- Día 1772: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En lago interior, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1773: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1774: Soñó con 'espejo_que_miente' (persona). Insight: En sabana abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1775: Soñó con 'agua_fría' (persona). Insight: En lago interior el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1775: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1775: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1776: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1777: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1778: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1779: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1780: Soñó con 'habitación_prohibida' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1780: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1780: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1781: Soñó con 'unión_imposible' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1782: Soñó con 'voz_propia_extraña' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1782: Manipuló con éxito y astucia a Dryas para ceder recursos.
+- Día 1782: Manipuló con éxito y astucia a Dryas para ceder recursos.
+- Día 1783: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 1784: Soñó con 'mandala_incompleto' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1785: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1785: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1785: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1786: Soñó con 'camino_conocido' (sabio). Insight: trauma plaga enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1787: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1788: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1789: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1790: Soñó con 'río_tranquilo' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1790: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1790: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1791: Soñó con 'habitación_prohibida' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1792: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pantano costero — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1793: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1794: Soñó con 'escenario_sin_salida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1795: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1795: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1795: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1796: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1797: Soñó con 'abundancia_que_pudre' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1797: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Día 1797: Se impuso competitivamente ante Kyros, absorbiendo sus recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1797: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 1798: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1799: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1800: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1800: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1800: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1801: Soñó con 'habitación_prohibida' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1802: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1803: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1804: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1805: Soñó con 'unión_imposible' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1805: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1805: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1806: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1807: Soñó con 'fondo_que_sube' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1808: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1809: Soñó con 'mandala_incompleto' (trickster). Insight: El trickster ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1810: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1810: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1810: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1811: Soñó con 'sendero_circular' (madre). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1812: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1813: Soñó con 'voz_propia_extraña' (trickster). Insight: En bosque templado, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 1814: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1815: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1815: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1815: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1816: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1817: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1818: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1819: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1820: Soñó con 'sombra_que_camina' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1820: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1820: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1821: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1822: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1823: Soñó con 'espejo_que_miente' (sabio). Insight: El sabio ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1824: Soñó con 'espejo_que_miente' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1824: Cedió ingenuamente ante la manipulación de Irene.
+- Día 1824: Cooperó de forma mutua y armónica con Irene. Su lazo social se fortaleció.
+- Día 1825: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 1825: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1825: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1826: Soñó con 'oasis_espejismo' (persona). Insight: El persona crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 1827: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1828: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1829: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1830: Soñó con 'aplauso_vacío' (persona). Insight: En lago interior, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1830: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1830: Cedió ingenuamente ante la manipulación de Malos.
+- Día 1830: Cedió ingenuamente ante la manipulación de Malos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1831: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1832: Soñó con 'figura_que_sigue' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1833: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1834: Soñó con 'danza_a_solas' (anima_animus). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1835: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1835: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1835: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1836: Soñó con 'complemento_ausente' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 1837: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1838: Soñó con 'agua_fría' (persona). Insight: En lago interior, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1839: Soñó con 'figura_que_sigue' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1840: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1840: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1840: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1841: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1842: Soñó con 'papel_sin_actor' (persona). Insight: trauma plaga enciende el persona en rio lago hasta quemar lo que toca.
+- Día 1843: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1844: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1845: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1845: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1845: Cooperó de forma mutua y armónica con Dryas. Su lazo social se fortaleció.
+- Día 1846: Soñó con 'máscara_cosida_a_cara' (sabio). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1847: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1848: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 1849: Soñó con 'papel_sin_actor' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1850: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1850: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1850: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1851: Soñó con 'cima_en_niebla' (anima_animus). Insight: trauma plaga enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 1852: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1853: Soñó con 'sed_en_el_agua' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 1854: Soñó con 'niebla_densa' (sombra). Insight: El sombra expulsa trauma plaga hacia pantano costero: allá afuera, entre los demás.
+- Día 1855: Soñó con 'viento_que_borra' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 1855: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1855: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 1855: Se enfrentó en un choque violento y destructivo contra Delos.
+- Día 1855: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1855: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1855: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1855: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1855: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 1856: Soñó con 'piedra_que_rueda' (sabio). Insight: trauma plaga enciende el sabio en colinas suaves hasta quemar lo que toca.
+- Día 1857: Soñó con 'camino_conocido' (sabio). Insight: En desierto borde, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1858: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1859: Soñó con 'trampa_propia' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1860: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1860: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1860: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1861: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 1862: Soñó con 'árbol_que_aprieta' (madre). Insight: En colinas suaves el madre se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1863: Soñó con 'escenario_sin_salida' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1864: Soñó con 'descenso_inevitable' (persona). Insight: En colinas suaves, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1865: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1865: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1865: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1866: Soñó con 'unión_imposible' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1867: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1868: Soñó con 'abundancia_que_pudre' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1869: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1870: Soñó con 'reflejo_distorsionado' (persona). Insight: El persona crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 1870: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1870: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1871: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1872: Soñó con 'hierba_que_corta' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1873: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1874: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1875: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1875: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1875: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1876: Soñó con 'escenario_sin_salida' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1877: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1878: Soñó con 'aplauso_vacío' (persona). Insight: En pantano costero, trauma plaga aparece en el otro — el persona no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1879: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1880: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1880: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1880: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1881: Soñó con 'centro_sin_lugar' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1882: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1883: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1884: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 1885: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1885: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1885: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1886: Soñó con 'vista_engañosa' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1887: Soñó con 'pregunta_sin_respuesta' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 1888: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1889: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1890: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1890: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1890: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1891: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1892: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1893: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 1894: Soñó con 'naufragio_lento' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1895: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1895: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1895: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1896: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en pantano costero hasta quemar lo que toca.
+- Día 1897: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1898: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1899: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 1899: Cedió ingenuamente ante la manipulación de Glaukos.
+- Día 1899: Manipuló con éxito y astucia a Eirene para ceder recursos.
+- Día 1899: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1899: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1899: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1899: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1899: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Soñó con 'voz_propia_extraña' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1900: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Cooperó de forma mutua y armónica con Eirene. Su lazo social se fortaleció.
+- Día 1900: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1900: Cooperó de forma mutua y armónica con Glaukos. Su lazo social se fortaleció.
+- Día 1900: Sufrió explotación y hostilidad de Malos, cediendo recursos biológicos.
+- Día 1901: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1902: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1903: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 1904: Soñó con 'escenario_sin_salida' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1905: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1905: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1905: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1906: Soñó con 'sombra_ausente' (madre). Insight: En sabana abierta, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1907: Soñó con 'leche_amarga' (madre). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1908: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1909: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1910: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1910: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1910: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1911: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1912: Soñó con 'danza_a_solas' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1913: Soñó con 'calma_antes_de_algo' (persona). Insight: El persona crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1914: Soñó con 'tierra_resquebrajada' (persona). Insight: El sabana abierta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1915: Soñó con 'aplauso_vacío' (persona). Insight: En sabana abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1915: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1915: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 1916: Soñó con 'papel_sin_actor' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1917: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 1918: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1919: Soñó con 'espejo_que_miente' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 1920: Soñó con 'corriente_que_arrastra' (sombra). Insight: En rio lago, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1920: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1920: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1921: Soñó con 'sombra_ausente' (anima_animus). Insight: trauma plaga enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 1922: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1923: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1924: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 1925: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1925: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1925: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1926: Soñó con 'árbol_que_aprieta' (trickster). Insight: En montana alta el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1927: Soñó con 'caída_sin_fondo' (trickster). Insight: En montana alta el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 1928: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1929: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1930: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 1930: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1930: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1931: Soñó con 'nido_que_asfixia' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1932: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En desierto borde, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1933: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1934: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1935: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1935: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1935: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1936: Soñó con 'aplauso_vacío' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1936: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 1936: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1936: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1936: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1936: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1937: Soñó con 'sombra_ausente' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1938: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En lago interior, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1939: Soñó con 'camino_conocido' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1940: Soñó con 'reflejo_sin_original' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 1940: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1940: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1941: Soñó con 'máscara_adherida' (trickster). Insight: El valle fertil amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1942: Soñó con 'niebla_densa' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 1943: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1944: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 1945: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 1945: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1945: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1946: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 1947: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en desierto borde, donde no puede alcanzarlo.
+- Día 1948: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1949: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1950: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1950: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1950: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1951: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1952: Soñó con 'figura_que_sigue' (trickster). Insight: En sabana abierta, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1953: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1954: Soñó con 'habitación_prohibida' (madre). Insight: En rio lago, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 1955: Soñó con 'escenario_sin_salida' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1955: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1955: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1956: Soñó con 'nido_que_asfixia' (madre). Insight: El madre ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 1957: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1958: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1959: Soñó con 'sombra_ausente' (anima_animus). Insight: En sabana abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 1960: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1960: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1960: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1961: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1962: Soñó con 'aplauso_vacío' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1963: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 1964: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1965: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 1965: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1965: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1966: Soñó con 'mandala_incompleto' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 1967: Soñó con 'centro_sin_lugar' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1968: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1968: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1969: Soñó con 'silencio_pleno' (trickster). Insight: El montana alta amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 1969: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1969: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1969: Cooperó de forma mutua y armónica con Eunomia. Su lazo social se fortaleció.
+- Día 1970: Soñó con 'trampa_propia' (trickster). Insight: El trickster proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1970: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1970: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1971: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 1972: Soñó con 'papel_sin_actor' (madre). Insight: En bosque templado, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1973: Soñó con 'fruto_amargo' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 1974: Soñó con 'reflejo_sin_original' (persona). Insight: trauma plaga enciende el persona en lago interior hasta quemar lo que toca.
+- Día 1975: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1975: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1975: Se impuso competitivamente ante Thetis, absorbiendo sus recursos biológicos.
+- Día 1976: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 1977: Soñó con 'nido_que_asfixia' (madre). Insight: En cueva, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 1978: Soñó con 'aplauso_vacío' (sombra). Insight: trauma plaga enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 1978: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 1978: Detectó y rechazó un intento de manipulación de Glaukos.
+- Día 1979: Soñó con 'río_tranquilo' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 1980: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 1980: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1980: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 1981: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 1981: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1981: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1981: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1981: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1981: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Soñó con 'aplauso_vacío' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1982: Manipuló con éxito y astucia a Lycos para ceder recursos.
+- Día 1983: Soñó con 'silencio_absoluto' (persona). Insight: En montana alta, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 1984: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 1984: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1984: Sufrió explotación y hostilidad de Manto, cediendo recursos biológicos.
+- Día 1985: Soñó con 'figura_que_sigue' (anima_animus). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 1985: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1985: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1986: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1987: Soñó con 'semilla_negra' (trickster). Insight: El trickster expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 1987: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1987: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 1988: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1988: Cedió ingenuamente ante la manipulación de Gonos.
+- Día 1988: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1988: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 1988: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1988: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1988: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1988: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1988: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Eris, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1989: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 1989: Cedió ingenuamente ante la manipulación de Iris.
+- Día 1989: Se impuso competitivamente ante Kore, absorbiendo sus recursos biológicos.
+- Día 1989: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1989: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1989: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1989: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1989: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En montana alta, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 1990: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 1990: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1990: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Día 1990: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 1991: Soñó con 'corriente_que_arrastra' (sabio). Insight: En rio lago el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se enfrentó en un choque violento y destructivo contra Eryx.
+- Día 1991: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1991: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 1992: Soñó con 'figura_que_sigue' (sabio). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 1992: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 1992: Detectó y rechazó un intento de manipulación de Iris.
+- Día 1992: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 1992: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 1993: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 1993: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1993: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1993: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1993: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 1994: Soñó con 'libro_en_lengua_muerta' (self). Insight: El self ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 1995: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 1995: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 1995: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1995: Se enfrentó en un choque violento y destructivo contra Erastos.
+- Día 1996: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 1996: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1996: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1996: Intentó manipular a Erastos, pero fue descubierto.
+- Día 1997: Soñó con 'abundancia_que_pudre' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 1997: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1997: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 1998: Soñó con 'espejo_que_miente' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 1998: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1998: Sufrió explotación y hostilidad de Maia, cediendo recursos biológicos.
+- Día 1999: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta trauma plaga sobre el horizonte de montana alta.
+- Día 1999: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 1999: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2000: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2000: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2000: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2001: Soñó con 'bifurcación_sin_mapa' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2001: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2001: Se impuso competitivamente ante Elate, absorbiendo sus recursos biológicos.
+- Día 2002: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2003: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2003: Cooperó de forma mutua y armónica con Elate. Su lazo social se fortaleció.
+- Día 2003: Intentó manipular a Elate, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2004: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2004: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2005: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2005: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2006: Soñó con 'papel_sin_actor' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2006: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2007: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2008: Soñó con 'espejo_que_miente' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2008: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2008: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2008: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2008: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2009: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2009: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2009: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2009: Manipuló con éxito y astucia a Elate para ceder recursos.
+- Día 2010: Soñó con 'máscara_adherida' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2010: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2010: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2011: Soñó con 'habitación_prohibida' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2012: Soñó con 'papel_sin_actor' (persona). Insight: En colinas suaves, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2012: Manipuló con éxito y astucia a Glaukos para ceder recursos.
+- Día 2012: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2012: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2012: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2012: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2012: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Soñó con 'figura_que_sigue' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2013: Sufrió explotación y hostilidad de Glaukos, cediendo recursos biológicos.
+- Día 2014: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2015: Soñó con 'figura_que_sigue' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2015: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2015: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2015: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2016: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2017: Soñó con 'oasis_espejismo' (sombra). Insight: trauma plaga enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 2018: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2018: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2018: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2019: Soñó con 'marea_que_sube' (persona). Insight: El persona expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 2019: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2019: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2019: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2019: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2019: Cedió ingenuamente ante la manipulación de Graia.
+- Día 2019: Cedió ingenuamente ante la manipulación de Graia.
+- Día 2019: Cedió ingenuamente ante la manipulación de Graia.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2020: Soñó con 'aplauso_vacío' (persona). Insight: En costa abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2020: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2020: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2021: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En lago interior el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2021: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2021: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2021: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2021: Cooperó de forma mutua y armónica con Graia. Su lazo social se fortaleció.
+- Día 2021: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2022: Soñó con 'sombra_que_camina' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 2022: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2023: Soñó con 'aplauso_vacío' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2024: Soñó con 'habitación_prohibida' (persona). Insight: El persona ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2025: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2025: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2025: Sufrió explotación y hostilidad de Gaia, cediendo recursos biológicos.
+- Día 2026: Soñó con 'leche_amarga' (sombra). Insight: El sombra expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 2026: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2026: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2027: Soñó con 'habitación_prohibida' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2027: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2027: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2027: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Día 2027: Cooperó de forma mutua y armónica con Linos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2027: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2028: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2028: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 2028: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 2028: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2029: Soñó con 'marea_que_sube' (sombra). Insight: El sombra crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 2029: Intentó manipular a Manto, pero fue descubierto.
+- Día 2029: Intentó manipular a Manto, pero fue descubierto.
+- Día 2029: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2029: Se impuso competitivamente ante Manto, absorbiendo sus recursos biológicos.
+- Día 2030: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2030: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2030: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2031: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2031: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 2031: Cedió ingenuamente ante la manipulación de Gaia.
+- Día 2032: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En desierto borde el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2033: Soñó con 'campo_interminable' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 2034: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En costa abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2034: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2034: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2034: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2034: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2034: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2035: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2035: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2035: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2035: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2036: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2036: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2036: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2036: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2036: Sufrió explotación y hostilidad de Eos, cediendo recursos biológicos.
+- Día 2036: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2036: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2036: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2036: Se enfrentó en un choque violento y destructivo contra Idmon.
+- Día 2037: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2037: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2037: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2037: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2037: Manipuló con éxito y astucia a Kore para ceder recursos.
+- Día 2038: Soñó con 'habitación_prohibida' (sabio). Insight: El colinas suaves amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2038: Manipuló con éxito y astucia a Erato para ceder recursos.
+- Día 2038: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2038: Sufrió explotación y hostilidad de Erato, cediendo recursos biológicos.
+- Día 2039: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2040: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2040: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2040: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2041: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2041: Detectó y rechazó un intento de manipulación de Kreon.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2042: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2042: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2042: Se enfrentó en un choque violento y destructivo contra Manto.
+- Día 2042: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2042: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2043: Soñó con 'voz_propia_extraña' (persona). Insight: El rio lago amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2044: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2045: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2045: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2045: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 2045: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 2045: Manipuló con éxito y astucia a Koures para ceder recursos.
+- Día 2046: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 2046: Cooperó de forma mutua y armónica con Kyros. Su lazo social se fortaleció.
+- Día 2046: Sufrió explotación y hostilidad de Eunomia, cediendo recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2047: Soñó con 'unión_imposible' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2047: Cedió ingenuamente ante la manipulación de Idmon.
+- Día 2047: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2047: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2047: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2047: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2047: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2047: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2048: Intentó manipular a Ecale, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2048: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Soñó con 'sed_en_el_agua' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Día 2049: Sufrió explotación y hostilidad de Erastos, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2050: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2050: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2050: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 2050: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 2050: Se enfrentó en un choque violento y destructivo contra Naiads.
+- Día 2051: Soñó con 'naufragio_lento' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2052: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2053: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2053: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2053: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2053: Cedió ingenuamente ante la manipulación de Manto.
+- Día 2053: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2053: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2053: Manipuló con éxito y astucia a Naiads para ceder recursos.
+- Día 2054: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En costa abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2055: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2055: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2055: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2055: Sufrió explotación y hostilidad de Linos, cediendo recursos biológicos.
+- Día 2056: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2057: Soñó con 'fruto_amargo' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2058: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2058: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2058: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2058: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2058: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2058: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2059: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2059: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra ve trauma plaga afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2059: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2059: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2059: Cedió ingenuamente ante la manipulación de Thetis.
+- Día 2060: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2060: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2060: Sufrió explotación y hostilidad de Kyros, cediendo recursos biológicos.
+- Día 2060: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 2060: Detectó y rechazó un intento de manipulación de Kyros.
+- Día 2061: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 2061: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2062: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pantano costero.
+- Día 2062: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Día 2062: Cooperó de forma mutua y armónica con Leucothea. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2063: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2064: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 2064: Se enfrentó en un choque violento y destructivo contra Eirene.
+- Día 2064: Detectó y rechazó un intento de manipulación de Eunomia.
+- Día 2064: Se enfrentó en un choque violento y destructivo contra Eirene.
+- Día 2064: Se enfrentó en un choque violento y destructivo contra Eirene.
+- Día 2064: Se enfrentó en un choque violento y destructivo contra Eirene.
+- Día 2064: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 2064: Sufrió explotación y hostilidad de Eirene, cediendo recursos biológicos.
+- Día 2064: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2064: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 2065: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 2065: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2065: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2065: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2065: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2065: Se impuso competitivamente ante Chryse, absorbiendo sus recursos biológicos.
+- Día 2065: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2065: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2066: Soñó con 'silencio_pleno' (trickster). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2066: Manipuló con éxito y astucia a Manto para ceder recursos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2067: Soñó con 'sendero_circular' (self). Insight: trauma plaga enciende el self en bosque templado hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2068: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado el self se expande más allá del control; trauma plaga es el combustible.
+- Día 2069: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 2069: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2069: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2069: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2070: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 2070: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2070: Cedió ingenuamente ante la manipulación de Mecon.
+- Día 2071: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En montana alta, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2072: Soñó con 'corriente_que_arrastra' (sabio). Insight: El rio lago amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2073: Soñó con 'sendero_circular' (sabio). Insight: El bosque templado amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2073: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2074: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: trauma plaga enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2075: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa trauma plaga hacia costa abierta: allá afuera, entre los demás.
+- Día 2075: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2075: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2075: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2075: Cedió ingenuamente ante la manipulación de Eunomia.
+- Día 2075: Cedió ingenuamente ante la manipulación de Eunomia.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2076: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2076: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2077: Intentó manipular a Chryse, pero fue descubierto.
+- Día 2077: Soñó con 'figura_que_sigue' (sombra). Insight: En cueva, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2077: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2077: Manipuló con éxito y astucia a Gonos para ceder recursos.
+- Día 2078: Soñó con 'leche_amarga' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2078: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2078: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2078: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2078: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2078: Sufrió explotación y hostilidad de Gonos, cediendo recursos biológicos.
+- Día 2079: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2080: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2080: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2080: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2080: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2080: Sufrió explotación y hostilidad de Delos, cediendo recursos biológicos.
+- Día 2080: Sufrió explotación y hostilidad de Ladon, cediendo recursos biológicos.
+- Día 2080: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2080: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2080: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2080: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2080: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2081: Soñó con 'descenso_inevitable' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2082: Soñó con 'voz_propia_extraña' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2083: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2084: Soñó con 'aplauso_vacío' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2085: Soñó con 'horizonte_inmóvil' (madre). Insight: El madre ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2085: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2085: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2086: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2087: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2088: Soñó con 'voz_propia_extraña' (madre). Insight: En bosque templado el madre se expande más allá del control; trauma plaga es el combustible.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2089: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2089: Manipuló con éxito y astucia a Thetis para ceder recursos.
+- Día 2089: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 2089: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2089: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2089: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2089: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2089: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Soñó con 'complemento_ausente' (anima_animus). Insight: En cueva, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2090: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2090: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se impuso competitivamente ante Leucothea, absorbiendo sus recursos biológicos.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2090: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2091: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2092: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Soñó con 'escenario_sin_salida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2093: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Soñó con 'sendero_circular' (sabio). Insight: El sabio proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2094: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Soñó con 'sendero_circular' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2095: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2095: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2095: Se enfrentó en un choque violento y destructivo contra Thetis.
+- Día 2096: Soñó con 'río_que_nutre' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2097: Soñó con 'leche_amarga' (madre). Insight: El madre ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2098: Soñó con 'espejo_que_miente' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2099: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2099: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2099: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2099: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2099: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2099: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2099: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2099: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2099: Se impuso competitivamente ante Eunomia, absorbiendo sus recursos biológicos.
+- Día 2100: Soñó con 'unión_imposible' (self). Insight: En colinas suaves, trauma plaga aparece en el otro — el self no se reconoce.
+- Día 2100: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2100: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2101: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2102: Soñó con 'reflejo_distorsionado' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2103: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 2103: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2103: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Día 2103: Manipuló con éxito y astucia a Meroe para ceder recursos.
+- Día 2104: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2104: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2104: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2104: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2104: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2104: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2105: Soñó con 'sal_en_herida' (sabio). Insight: En costa abierta, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2105: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2105: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2106: Soñó con 'fondo_que_sube' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2106: Detectó y rechazó un intento de manipulación de Ecale.
+- Día 2106: Detectó y rechazó un intento de manipulación de Ecale.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2107: Soñó con 'silencio_pleno' (self). Insight: En pantano costero, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2108: Soñó con 'sol_que_calcina' (self). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2109: Soñó con 'habitación_prohibida' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2110: Soñó con 'espejo_que_miente' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2110: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2110: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2111: Soñó con 'árbol_sin_raíces' (self). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2112: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2113: Soñó con 'silencio_pleno' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de sabana abierta.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2114: Soñó con 'mandala_incompleto' (sabio). Insight: El sabio expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2115: Soñó con 'mandala_incompleto' (sombra). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2115: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2115: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2116: Soñó con 'voz_sin_cuerpo' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2117: Soñó con 'reflejo_que_actúa_solo' (persona). Insight: El persona expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2117: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2118: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2119: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2119: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2120: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Día 2120: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2120: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2121: Soñó con 'hierba_que_corta' (madre). Insight: En pradera humeda el madre se expande más allá del control; trauma plaga es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2122: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2123: Soñó con 'danza_a_solas' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2124: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2125: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2125: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2125: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2126: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2126: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2127: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2127: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2127: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2127: Sufrió explotación y hostilidad de Ecale, cediendo recursos biológicos.
+- Día 2128: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2129: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2130: Soñó con 'aplauso_vacío' (anima_animus). Insight: trauma plaga enciende el anima_animus en rio lago hasta quemar lo que toca.
+- Día 2130: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2130: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2131: Soñó con 'semilla_negra' (anima_animus). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2132: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2133: Soñó con 'camino_conocido' (sabio). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2133: Manipuló con éxito y astucia a Ladon para ceder recursos.
+- Día 2134: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 2135: Soñó con 'danza_a_solas' (trickster). Insight: trauma plaga enciende el trickster en cueva hasta quemar lo que toca.
+- Día 2135: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2135: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2136: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2137: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de desierto borde.
+- Día 2138: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia montana alta: allá afuera, entre los demás.
+- Día 2139: Soñó con 'unión_imposible' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2140: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 2140: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2140: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2141: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en desierto borde — trauma plaga lo empuja sin nombre.
+- Día 2142: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio expulsa trauma plaga hacia lago interior: allá afuera, entre los demás.
+- Día 2143: Soñó con 'agua_fría' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 2144: Soñó con 'laberinto_que_ríe' (trickster). Insight: En lago interior, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2145: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2145: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2145: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2145: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2145: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2145: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2145: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2145: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2145: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2145: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2146: Soñó con 'sendero_circular' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2147: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2148: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2149: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2149: Cedió ingenuamente ante la manipulación de Delos.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2149: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2150: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2150: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2150: Detectó y rechazó un intento de manipulación de Delos.
+- Día 2151: Soñó con 'luz_oblicua' (trickster). Insight: El trickster ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2152: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2153: Soñó con 'río_que_nutre' (madre). Insight: El montana alta amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2154: Soñó con 'sombra_que_camina' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2155: Soñó con 'niebla_densa' (madre). Insight: En pantano costero, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2155: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2155: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2156: Soñó con 'máscara_cosida_a_cara' (madre). Insight: En bosque templado, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 2156: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 2156: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 2156: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Idmon.
+- Día 2156: Intentó manipular a Arsis, pero fue descubierto.
+- Día 2156: Intentó manipular a Arsis, pero fue descubierto.
+- Día 2157: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2158: Soñó con 'oasis_espejismo' (sombra). Insight: El sombra expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 2159: Soñó con 'sendero_circular' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2160: Soñó con 'estrella_que_no_guía' (sabio). Insight: trauma plaga enciende el sabio en bosque templado hasta quemar lo que toca.
+- Día 2160: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2160: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2161: Soñó con 'reflejo_sin_original' (sabio). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2162: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2162: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2162: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2162: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2162: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2162: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Soñó con 'laberinto_que_ríe' (persona). Insight: En lago interior, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2163: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2164: Soñó con 'laberinto_que_ríe' (persona). Insight: En valle fertil el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2165: Soñó con 'campo_interminable' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2165: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2165: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2166: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2167: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2168: Soñó con 'sol_que_calcina' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2169: Soñó con 'habitación_prohibida' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2170: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2170: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2170: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2171: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2172: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2173: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2174: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2175: Soñó con 'campo_interminable' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2175: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2175: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2176: Soñó con 'aplauso_vacío' (persona). Insight: En rio lago, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2177: Soñó con 'voz_propia_extraña' (persona). Insight: En bosque templado el persona se expande más allá del control; trauma plaga es el combustible.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2178: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2179: Soñó con 'hierba_que_corta' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2179: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2179: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2180: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En costa abierta, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2180: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2180: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2181: Soñó con 'papel_sin_actor' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2182: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2183: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2183: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2183: Cedió ingenuamente ante la manipulación de Meroe.
+- Día 2183: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2183: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2184: Soñó con 'abundancia_que_pudre' (persona). Insight: trauma plaga enciende el persona en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2185: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia desierto borde: allá afuera, entre los demás.
+- Día 2185: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2185: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2186: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2186: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2186: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2187: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2188: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2189: Soñó con 'río_tranquilo' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 2189: Sufrió explotación y hostilidad de Lycos, cediendo recursos biológicos.
+- Día 2190: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia sabana abierta: allá afuera, entre los demás.
+- Día 2190: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2190: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2191: Soñó con 'sombra_que_camina' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2191: Intentó manipular a Ecale, pero fue descubierto.
+- Día 2191: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2191: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2192: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2193: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2194: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2195: Soñó con 'escenario_sin_salida' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2195: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2195: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2195: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2195: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2195: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2195: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2195: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2196: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2197: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2198: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2199: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de pradera humeda.
+- Día 2200: Soñó con 'hierba_que_corta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2200: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2200: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2201: Soñó con 'reflejo_que_actúa_solo' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2202: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En colinas suaves, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2203: Soñó con 'habitación_prohibida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2204: Soñó con 'camino_conocido' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2204: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2204: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2204: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Soñó con 'laberinto_que_ríe' (trickster). Insight: trauma plaga enciende el trickster en sabana abierta hasta quemar lo que toca.
+- Día 2205: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2205: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2205: Cooperó de forma mutua y armónica con Malis. Su lazo social se fortaleció.
+- Día 2206: Soñó con 'habitación_prohibida' (trickster). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el trickster lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2207: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2207: Detectó y rechazó un intento de manipulación de Elpe.
+- Día 2207: Detectó y rechazó un intento de manipulación de Elpe.
+- Día 2207: Detectó y rechazó un intento de manipulación de Elpe.
+- Día 2207: Detectó y rechazó un intento de manipulación de Elpe.
+- Día 2207: Detectó y rechazó un intento de manipulación de Elpe.
+- Día 2208: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2209: Soñó con 'río_que_nutre' (madre). Insight: El bosque templado amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Día 2210: Soñó con 'estrella_que_no_guía' (madre). Insight: En valle fertil, el madre no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2210: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2210: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2211: Soñó con 'reflejo_sin_original' (madre). Insight: El madre proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 2211: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2211: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2211: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2211: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2211: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2212: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2213: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2213: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2214: Soñó con 'figura_que_sigue' (sombra). Insight: trauma plaga enciende el sombra en costa abierta hasta quemar lo que toca.
+- Día 2215: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2215: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2215: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2216: Soñó con 'escenario_sin_salida' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2216: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2216: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2217: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2217: Manipuló con éxito y astucia a Elpe para ceder recursos.
+- Día 2217: Manipuló con éxito y astucia a Elpe para ceder recursos.
+- Día 2217: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 2217: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 2217: Manipuló con éxito y astucia a Idmon para ceder recursos.
+- Día 2217: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 2217: Se impuso competitivamente ante Idmon, absorbiendo sus recursos biológicos.
+- Día 2218: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2219: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2220: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona crece desmedido en costa abierta — trauma plaga lo empuja sin nombre.
+- Día 2220: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2220: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2221: Soñó con 'río_tranquilo' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2222: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2222: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2223: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2224: Soñó con 'árbol_sin_raíces' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2225: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2225: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2225: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2226: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2226: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2227: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2227: Soñó con 'aplauso_vacío' (sabio). Insight: El rio lago amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2227: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2227: Detectó y rechazó un intento de manipulación de Iris.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2227: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2228: Soñó con 'voz_propia_extraña' (sombra). Insight: En costa abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2229: Soñó con 'sed_en_el_agua' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2229: Cedió ingenuamente ante la manipulación de Molos.
+- Día 2229: Se impuso competitivamente ante Malos, absorbiendo sus recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2229: Cooperó de forma mutua y armónica con Malos. Su lazo social se fortaleció.
+- Día 2229: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2229: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2229: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2229: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2229: Manipuló con éxito y astucia a Malos para ceder recursos.
+- Día 2230: Soñó con 'reflejo_distorsionado' (anima_animus). Insight: En rio lago, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2230: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2230: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2230: Intentó manipular a Naos, pero fue descubierto.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2231: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2232: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2233: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2233: Cedió ingenuamente ante la manipulación de Malos.
+- Día 2233: Cedió ingenuamente ante la manipulación de Malos.
+- Día 2233: Cedió ingenuamente ante la manipulación de Malos.
+- Día 2234: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2235: Soñó con 'raíz_invisible' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2235: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2235: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2235: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2235: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2235: Cedió ingenuamente ante la manipulación de Naos.
+- Día 2235: Se impuso competitivamente ante Gonos, absorbiendo sus recursos biológicos.
+- Día 2235: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2235: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2235: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2235: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2235: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Soñó con 'habitación_prohibida' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Cooperó de forma mutua y armónica con Gonos. Su lazo social se fortaleció.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2236: Se enfrentó en un choque violento y destructivo contra Malos.
+- Día 2236: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2236: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Detectó y rechazó un intento de manipulación de Molos.
+- Día 2237: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2237: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2238: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Manipuló con éxito y astucia a Molos para ceder recursos.
+- Día 2238: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2238: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2238: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2239: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2239: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Kore. Su lazo social se fortaleció.
+- Día 2239: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2240: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2240: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2240: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2240: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 2240: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Molos.
+- Día 2241: Soñó con 'sombra_que_camina' (anima_animus). Insight: En bosque templado, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2242: Soñó con 'espejo_que_miente' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2242: Cedió ingenuamente ante la manipulación de Leucothea.
+- Día 2243: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2244: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2245: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma plaga enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 2245: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2245: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2246: Soñó con 'habitación_prohibida' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2246: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2246: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2246: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Día 2246: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2246: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2246: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2246: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2247: Soñó con 'danza_a_solas' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 2247: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2247: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2247: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Soñó con 'aplauso_vacío' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Sufrió explotación y hostilidad de Kore, cediendo recursos biológicos.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Día 2248: Cooperó de forma mutua y armónica con Mecon. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2249: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2250: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2250: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2250: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2250: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Se impuso competitivamente ante Iris, absorbiendo sus recursos biológicos.
+- Día 2251: Detectó y rechazó un intento de manipulación de Leucothea.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2251: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2252: Soñó con 'danza_a_solas' (sombra). Insight: En desierto borde, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2253: Soñó con 'reflejo_sin_original' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en lago interior, donde no puede alcanzarlo.
+- Día 2253: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2253: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2253: Sufrió explotación y hostilidad de Mecon, cediendo recursos biológicos.
+- Día 2254: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2255: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil, trauma plaga tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2255: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2255: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2255: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2255: Manipuló con éxito y astucia a Naos para ceder recursos.
+- Día 2255: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2255: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2255: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2255: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2255: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2256: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2257: Soñó con 'escenario_sin_salida' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2257: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2257: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2257: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Soñó con 'sendero_circular' (persona). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Detectó y rechazó un intento de manipulación de Eos.
+- Día 2258: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2258: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2258: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2258: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2258: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2259: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2260: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2260: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2260: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2260: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2260: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2260: Se enfrentó en un choque violento y destructivo contra Ixion.
+- Día 2261: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2261: Se enfrentó en un choque violento y destructivo contra Ecale.
+- Día 2262: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2263: Soñó con 'voz_propia_extraña' (anima_animus). Insight: trauma plaga enciende el anima_animus en pradera humeda hasta quemar lo que toca.
+- Día 2263: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2264: Soñó con 'cima_en_niebla' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 2264: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Día 2264: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2264: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2264: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2265: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2265: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2265: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2265: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2265: Se impuso competitivamente ante Ecale, absorbiendo sus recursos biológicos.
+- Día 2265: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2265: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 2265: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Ixion.
+- Día 2265: Manipuló con éxito y astucia a Ecale para ceder recursos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2265: Cooperó de forma mutua y armónica con Ecale. Su lazo social se fortaleció.
+- Día 2266: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Día 2266: Manipuló con éxito y astucia a Eos para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Eos para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2266: Se impuso competitivamente ante Ixion, absorbiendo sus recursos biológicos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2266: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Soñó con 'voz_propia_extraña' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2267: Manipuló con éxito y astucia a Ixion para ceder recursos.
+- Día 2268: Soñó con 'pregunta_sin_respuesta' (persona). Insight: El montana alta amplifica la tensión del persona; trauma plaga presiona desde adentro.
+- Día 2268: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2269: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma plaga afuera en rio lago, donde no puede alcanzarlo.
+- Día 2270: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de lago interior.
+- Día 2270: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2270: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2271: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2272: Soñó con 'complemento_ausente' (anima_animus). Insight: trauma plaga enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 2273: Soñó con 'leche_amarga' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 2274: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Día 2275: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En sabana abierta, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2275: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2275: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2276: Soñó con 'mandala_incompleto' (anima_animus). Insight: El valle fertil amplifica la tensión del anima_animus; trauma plaga presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2277: Soñó con 'aplauso_vacío' (self). Insight: trauma plaga enciende el self en bosque templado hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2278: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2278: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Día 2278: Se impuso competitivamente ante Lysas, absorbiendo sus recursos biológicos.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2279: Soñó con 'unión_imposible' (self). Insight: El self ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2279: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 2279: Cooperó de forma mutua y armónica con Lysas. Su lazo social se fortaleció.
+- Día 2279: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2279: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2279: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 2279: Cedió ingenuamente ante la manipulación de Arsis.
+- Día 2280: Soñó con 'trampa_propia' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2280: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2280: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2281: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — trauma plaga lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2282: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2283: Soñó con 'escenario_sin_salida' (persona). Insight: En valle fertil, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2283: Se impuso competitivamente ante Molos, absorbiendo sus recursos biológicos.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2283: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de colinas suaves.
+- Día 2284: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Cedió ingenuamente ante la manipulación de Koures.
+- Día 2284: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2285: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2285: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2285: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2285: Se impuso competitivamente ante Naos, absorbiendo sus recursos biológicos.
+- Día 2285: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2285: Se enfrentó en un choque violento y destructivo contra Koures.
+- Día 2286: Soñó con 'escenario_sin_salida' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2286: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2286: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2286: Cooperó de forma mutua y armónica con Meroe. Su lazo social se fortaleció.
+- Día 2286: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 2286: Manipuló con éxito y astucia a Eris para ceder recursos.
+- Día 2287: Soñó con 'tierra_resquebrajada' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2287: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2287: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2287: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2287: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2287: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2287: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2288: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2289: Soñó con 'sendero_circular' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2289: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2290: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2290: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2290: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2291: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2292: Soñó con 'horizonte_inmóvil' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2292: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2292: Sufrió explotación y hostilidad de Iris, cediendo recursos biológicos.
+- Día 2292: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Soñó con 'aplauso_vacío' (persona). Insight: En rio lago, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2293: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2293: Cedió ingenuamente ante la manipulación de Eris.
+- Día 2293: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2293: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2293: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2293: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2293: Se impuso competitivamente ante Malis, absorbiendo sus recursos biológicos.
+- Día 2293: Manipuló con éxito y astucia a Iris para ceder recursos.
+- Día 2294: Soñó con 'complemento_ausente' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2294: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2294: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2294: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2294: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Iris.
+- Día 2294: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Tethys.
+- Día 2294: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2294: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2294: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2294: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2294: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Soñó con 'espejo_que_miente' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2295: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2295: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2295: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2296: Soñó con 'voz_propia_extraña' (anima_animus). Insight: En pradera humeda, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2296: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2296: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2296: Sufrió explotación y hostilidad de Lysas, cediendo recursos biológicos.
+- Día 2297: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2298: Soñó con 'camino_conocido' (sabio). Insight: En pradera humeda, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2298: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 2298: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 2298: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2298: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2298: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2298: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2298: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2299: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2299: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2299: Cedió ingenuamente ante la manipulación de Kreon.
+- Día 2300: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En bosque templado, trauma plaga aparece en el otro — el trickster no se reconoce.
+- Día 2300: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2300: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2300: Intentó manipular a Malis, pero fue descubierto.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2301: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2301: Sufrió explotación y hostilidad de Malis, cediendo recursos biológicos.
+- Día 2301: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2302: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2302: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 2302: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 2302: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 2302: Cedió ingenuamente ante la manipulación de Ethos.
+- Día 2302: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2302: Manipuló con éxito y astucia a Tethys para ceder recursos.
+- Día 2303: Soñó con 'leche_amarga' (madre). Insight: El madre crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2303: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2303: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2303: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2303: Se impuso competitivamente ante Ethos, absorbiendo sus recursos biológicos.
+- Día 2304: Soñó con 'voz_propia_extraña' (madre). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2304: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2304: Sufrió explotación y hostilidad de Naiads, cediendo recursos biológicos.
+- Día 2305: Soñó con 'fondo_que_sube' (sombra). Insight: El sombra expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2305: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2305: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2305: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Soñó con 'centro_sin_lugar' (self). Insight: En costa abierta, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2306: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2306: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2306: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2306: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2306: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Soñó con 'unión_imposible' (self). Insight: El self expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Intentó manipular a Naiads, pero fue descubierto.
+- Día 2307: Se impuso competitivamente ante Naiads, absorbiendo sus recursos biológicos.
+- Día 2308: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2308: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2308: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2308: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2308: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2308: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2309: Soñó con 'agua_fría' (anima_animus). Insight: trauma plaga enciende el anima_animus en lago interior hasta quemar lo que toca.
+- Día 2309: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2309: Se enfrentó en un choque violento y destructivo contra Mecon.
+- Día 2310: Soñó con 'luz_oblicua' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2310: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2310: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2310: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2310: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2310: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2310: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2310: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Soñó con 'río_tranquilo' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2311: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Soñó con 'fruto_amargo' (sombra). Insight: En valle fertil, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2312: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Soñó con 'habitación_prohibida' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2313: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2314: Soñó con 'estrella_que_no_guía' (sombra). Insight: El sombra ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Maia.
+- Día 2314: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Soñó con 'libro_en_lengua_muerta' (anima_animus). Insight: El anima_animus expulsa trauma plaga hacia valle fertil: allá afuera, entre los demás.
+- Día 2315: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2315: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Detectó y rechazó un intento de manipulación de Iris.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2315: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Soñó con 'terreno_que_cede' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2316: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Soñó con 'habitación_prohibida' (sombra). Insight: El pantano costero amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2317: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Detectó y rechazó un intento de manipulación de Maia.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2318: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2319: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2320: Se enfrentó en un choque violento y destructivo contra Tethys.
+- Día 2320: Soñó con 'centro_sin_lugar' (madre). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2320: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2320: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2321: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2321: Cedió ingenuamente ante la manipulación de Iris.
+- Día 2321: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Día 2321: Cooperó de forma mutua y armónica con Kreon. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Soñó con 'camino_conocido' (madre). Insight: En rio lago, trauma plaga aparece en el otro — el madre no se reconoce.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Cedió ingenuamente ante la manipulación de Kyros.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2322: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2323: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2323: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2323: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2323: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2323: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Día 2323: Cooperó de forma mutua y armónica con Chryse. Su lazo social se fortaleció.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2324: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2325: Soñó con 'máscara_cosida_a_cara' (persona). Insight: trauma plaga enciende el persona en pantano costero hasta quemar lo que toca.
+- Día 2325: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2325: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2325: Detectó y rechazó un intento de manipulación de Meroe.
+- Día 2325: Manipuló con éxito y astucia a Leucothea para ceder recursos.
+- Día 2325: Cooperó de forma mutua y armónica con Tethys. Su lazo social se fortaleció.
+- Día 2325: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 2325: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2326: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2326: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2326: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Día 2326: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2326: Se impuso competitivamente ante Tethys, absorbiendo sus recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2327: Soñó con 'viento_que_borra' (persona). Insight: El persona expulsa trauma plaga hacia pradera humeda: allá afuera, entre los demás.
+- Día 2327: Se enfrentó en un choque violento y destructivo contra Delia.
+- Día 2327: Se enfrentó en un choque violento y destructivo contra Leucothea.
+- Día 2327: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2327: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2327: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2328: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de rio lago.
+- Día 2328: Cooperó de forma mutua y armónica con Molos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2328: Se impuso competitivamente ante Maia, absorbiendo sus recursos biológicos.
+- Día 2329: Soñó con 'papel_sin_actor' (madre). Insight: El rio lago amplifica la tensión del madre; trauma plaga presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2330: Soñó con 'escenario_sin_salida' (persona). Insight: En bosque templado, trauma plaga aparece en el otro — el persona no se reconoce.
+- Día 2330: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2330: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2330: Intentó manipular a Tethys, pero fue descubierto.
+- Día 2330: Intentó manipular a Leucothea, pero fue descubierto.
+- Día 2330: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2330: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2330: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2330: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2330: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2330: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2330: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2330: Sufrió explotación y hostilidad de Leucothea, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2331: Soñó con 'espejo_que_miente' (sombra). Insight: El valle fertil amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2331: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Tethys, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Eris, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2331: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Día 2331: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2331: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2331: Intentó manipular a Meroe, pero fue descubierto.
+- Día 2332: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma plaga tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2332: Sufrió explotación y hostilidad de Meroe, cediendo recursos biológicos.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2333: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2334: Soñó con 'río_que_nutre' (persona). Insight: El persona crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2334: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Día 2334: Cooperó de forma mutua y armónica con Naiads. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2335: Soñó con 'escenario_sin_salida' (persona). Insight: trauma plaga enciende el persona en sabana abierta hasta quemar lo que toca.
+- Día 2335: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2335: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2336: Soñó con 'escenario_sin_salida' (persona). Insight: El persona expulsa trauma plaga hacia bosque templado: allá afuera, entre los demás.
+- Día 2336: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2337: Soñó con 'papel_sin_actor' (persona). Insight: trauma plaga enciende el persona en montana alta hasta quemar lo que toca.
+- Día 2338: Soñó con 'centro_sin_lugar' (persona). Insight: trauma plaga enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2339: Soñó con 'manada_que_huye' (persona). Insight: En sabana abierta el persona se expande más allá del control; trauma plaga es el combustible.
+- Día 2339: Intentó manipular a Tethys, pero fue descubierto.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2340: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2340: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2340: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2341: Soñó con 'luz_oblicua' (persona). Insight: El persona crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2341: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Día 2341: Cooperó de forma mutua y armónica con Eris. Su lazo social se fortaleció.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2342: Soñó con 'papel_sin_actor' (persona). Insight: El persona ve trauma plaga afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2342: Sufrió explotación y hostilidad de Thetis, cediendo recursos biológicos.
+- Día 2342: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 2342: Cooperó de forma mutua y armónica con Thetis. Su lazo social se fortaleció.
+- Día 2343: Soñó con 'sendero_circular' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2344: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2344: Se enfrentó en un choque violento y destructivo contra Elpe.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2345: Soñó con 'voz_propia_extraña' (persona). Insight: En pradera humeda, trauma plaga tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2345: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2345: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Chryse, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Arsis, cediendo recursos biológicos.
+- Día 2345: Sufrió explotación y hostilidad de Elate, cediendo recursos biológicos.
+- Día 2345: Se enfrentó en un choque violento y destructivo contra Elate.
+- Día 2345: Se enfrentó en un choque violento y destructivo contra Eos.
+- Día 2346: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2346: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2346: Detectó y rechazó un intento de manipulación de Lycos.
+- Día 2346: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Día 2346: Cooperó de forma mutua y armónica con Lycos. Su lazo social se fortaleció.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2347: Soñó con 'luz_oblicua' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2347: Manipuló con éxito y astucia a Lysas para ceder recursos.
+- Día 2348: Soñó con 'figura_que_sigue' (sombra). Insight: En pantano costero, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2349: Soñó con 'complemento_ausente' (anima_animus). Insight: En sabana abierta, trauma plaga aparece en el otro — el anima_animus no se reconoce.
+- Día 2350: Soñó con 'leche_amarga' (sombra). Insight: trauma plaga enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2350: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2350: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2351: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma plaga sobre el horizonte de valle fertil.
+- Día 2352: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2353: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2354: Soñó con 'aplauso_vacío' (sabio). Insight: El pradera humeda amplifica la tensión del sabio; trauma plaga presiona desde adentro.
+- Día 2355: Soñó con 'campo_interminable' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2355: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2355: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2356: Soñó con 'horizonte_inmóvil' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2356: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2356: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2357: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: trauma plaga enciende el sabio en lago interior hasta quemar lo que toca.
+- Día 2357: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2357: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Erastos.
+- Día 2358: Soñó con 'sed_en_el_agua' (sabio). Insight: En rio lago, el sabio no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2358: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 2358: Se impuso competitivamente ante Irene, absorbiendo sus recursos biológicos.
+- Día 2359: Soñó con 'manada_que_huye' (sabio). Insight: En sabana abierta el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2359: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2359: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2359: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2360: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2360: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2360: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2361: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2361: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2361: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2361: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2361: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2361: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster crece desmedido en bosque templado — trauma plaga lo empuja sin nombre.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2362: Se enfrentó en un choque violento y destructivo contra Metis.
+- Día 2363: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2364: Soñó con 'escenario_sin_salida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2365: Soñó con 'calma_antes_de_algo' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2365: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2365: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2365: Manipuló con éxito y astucia a Metis para ceder recursos.
+- Día 2365: Manipuló con éxito y astucia a Metis para ceder recursos.
+- Día 2365: Manipuló con éxito y astucia a Metis para ceder recursos.
+- Día 2365: Manipuló con éxito y astucia a Metis para ceder recursos.
+- Día 2365: Manipuló con éxito y astucia a Metis para ceder recursos.
+- Día 2366: Soñó con 'horizonte_inmóvil' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2367: Soñó con 'centro_sin_lugar' (self). Insight: En lago interior, trauma plaga tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2368: Soñó con 'voz_propia_extraña' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2368: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2368: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2368: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2368: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2368: Cedió ingenuamente ante la manipulación de Metis.
+- Día 2369: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma plaga afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2370: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2370: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2370: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2371: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2372: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: trauma plaga enciende el anima_animus en valle fertil hasta quemar lo que toca.
+- Día 2372: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2372: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2373: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma plaga enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2373: Intentó manipular a Metis, pero fue descubierto.
+- Día 2373: Intentó manipular a Metis, pero fue descubierto.
+- Día 2373: Intentó manipular a Metis, pero fue descubierto.
+- Día 2373: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2374: Soñó con 'máscara_cosida_a_cara' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2375: Soñó con 'fondo_que_sube' (anima_animus). Insight: En rio lago el anima_animus se expande más allá del control; trauma plaga es el combustible.
+- Día 2375: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2375: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2376: Soñó con 'escenario_sin_salida' (anima_animus). Insight: En pradera humeda, el anima_animus no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2377: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En bosque templado, trauma plaga tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2378: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta el sombra se expande más allá del control; trauma plaga es el combustible.
+- Día 2379: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma plaga afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2379: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2380: Soñó con 'escenario_sin_salida' (sabio). Insight: El sabio expulsa trauma plaga hacia colinas suaves: allá afuera, entre los demás.
+- Día 2380: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2380: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2381: Soñó con 'habitación_prohibida' (sombra). Insight: trauma plaga enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2382: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en lago interior — trauma plaga lo empuja sin nombre.
+- Día 2383: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en rio lago — trauma plaga lo empuja sin nombre.
+- Día 2384: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra proyecta trauma plaga sobre el horizonte de bosque templado.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2385: Soñó con 'laberinto_que_ríe' (trickster). Insight: El pradera humeda amplifica la tensión del trickster; trauma plaga presiona desde adentro.
+- Día 2385: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2385: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2386: Soñó con 'hierba_que_corta' (trickster). Insight: En pradera humeda el trickster se expande más allá del control; trauma plaga es el combustible.
+- Día 2387: Soñó con 'laberinto_que_ríe' (trickster). Insight: En valle fertil, el trickster no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2388: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster expulsa trauma plaga hacia cueva: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2389: Soñó con 'sombra_que_camina' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2390: Soñó con 'fondo_que_sube' (persona). Insight: En rio lago, el persona no puede contenerse — trauma plaga alimenta el fuego.
+- Día 2390: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2390: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2391: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self no puede contenerse — trauma plaga alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2392: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en pradera humeda — trauma plaga lo empuja sin nombre.
+- Día 2393: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en sabana abierta — trauma plaga lo empuja sin nombre.
+- Día 2394: Soñó con 'abundancia_que_pudre' (self). Insight: El valle fertil amplifica la tensión del self; trauma plaga presiona desde adentro.
+- Día 2394: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2394: Sufrió explotación y hostilidad de Idmon, cediendo recursos biológicos.
+- Día 2395: Soñó con 'voz_propia_extraña' (self). Insight: El self expulsa trauma plaga hacia rio lago: allá afuera, entre los demás.
+- Día 2395: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2395: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2396: Soñó con 'escenario_sin_salida' (persona). Insight: El persona crece desmedido en valle fertil — trauma plaga lo empuja sin nombre.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2396: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Soñó con 'centro_sin_lugar' (persona). Insight: El persona ve trauma plaga afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Día 2397: Detectó y rechazó un intento de manipulación de Irene.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2398: Soñó con 'espejo_que_miente' (sombra). Insight: El cueva amplifica la tensión del sombra; trauma plaga presiona desde adentro.
+- Día 2399: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda, trauma plaga aparece en el otro — el sombra no se reconoce.
+- Día 2399: Sufrió explotación y hostilidad de Metis, cediendo recursos biológicos.
+- Día 2399: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2399: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2399: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2399: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2399: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Soñó con 'espejo_que_miente' (sabio). Insight: En valle fertil el sabio se expande más allá del control; trauma plaga es el combustible.
+- Día 2400: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2400: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2400: Cooperó de forma mutua y armónica con Metis. Su lazo social se fortaleció.
+- Día 2401: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pantano costero, trauma plaga aparece en el otro — el sabio no se reconoce.
+- Día 2401: El colapso de nuestra tribu. Solo quedamos 3.
+- Día 2402: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2403: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2404: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2405: Soñó con 'eco_sin_origen' (anima_animus). Insight: En cueva, trauma invierno brutal tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2405: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2405: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2406: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2407: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia valle fertil: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2408: Soñó con 'unión_imposible' (sabio). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2409: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en sabana abierta — trauma invierno brutal lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2410: Soñó con 'silencio_pleno' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2410: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2410: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2411: Soñó con 'horizonte_inmóvil' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2412: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2413: Soñó con 'estrella_que_no_guía' (persona). Insight: El bosque templado amplifica la tensión del persona; trauma invierno brutal presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2414: Soñó con 'papel_sin_actor' (persona). Insight: trauma invierno brutal enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 2415: Soñó con 'máscara_adherida' (persona). Insight: trauma abandono infantil enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2415: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2415: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2416: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2417: Soñó con 'papel_sin_actor' (persona). Insight: En pradera humeda el persona se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2418: Soñó con 'papel_sin_actor' (persona). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2419: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de cueva.
+- Día 2420: Soñó con 'río_que_nutre' (madre). Insight: El madre ve trauma abandono infantil afuera en lago interior, donde no puede alcanzarlo.
+- Día 2420: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2420: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2421: Soñó con 'figura_que_sigue' (sombra). Insight: trauma abandono infantil enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2422: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2423: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2424: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2425: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia cueva: allá afuera, entre los demás.
+- Día 2425: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2425: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2426: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2427: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2428: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2429: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2430: Soñó con 'papel_sin_actor' (sabio). Insight: El sabio ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2430: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2430: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2430: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2431: Intentó manipular a Koures, pero fue descubierto.
+- Día 2432: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia valle fertil: allá afuera, entre los demás.
+- Día 2433: Soñó con 'olor_a_descomposición' (trickster). Insight: El trickster crece desmedido en pantano costero — trauma abandono infantil lo empuja sin nombre.
+- Día 2434: Soñó con 'campo_interminable' (trickster). Insight: El trickster ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2435: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2435: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2435: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2435: Se enfrentó en un choque violento y destructivo contra Erato.
+- Día 2436: Soñó con 'centro_sin_lugar' (self). Insight: El pradera humeda amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2437: Soñó con 'unión_imposible' (self). Insight: El self proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2438: La muerte de Gonos dejó a la tribu sin guía. Histeria colectiva.
+- Día 2438: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de rio lago.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2439: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2440: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2440: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2440: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2441: Soñó con 'manada_que_huye' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2442: Soñó con 'fruto_amargo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Día 2443: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2444: Soñó con 'silencio_pleno' (anima_animus). Insight: El anima_animus expulsa trauma abandono infantil hacia montana alta: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2444: Sufrió explotación y hostilidad de Kreon, cediendo recursos biológicos.
+- Día 2445: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia colinas suaves: allá afuera, entre los demás.
+- Día 2445: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2445: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2446: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En pradera humeda, el trickster no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2447: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2448: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de valle fertil.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2449: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2450: Soñó con 'escenario_sin_salida' (persona). Insight: El persona proyecta trauma abandono infantil sobre el horizonte de lago interior.
+- Día 2450: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2450: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2451: Soñó con 'naufragio_lento' (sombra). Insight: En costa abierta, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2452: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En cueva, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2453: Soñó con 'leche_amarga' (sombra). Insight: trauma abandono infantil enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2454: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma abandono infantil afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2455: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2455: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2455: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2456: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2457: Soñó con 'habitación_prohibida' (sombra). Insight: En lago interior, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2457: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Soñó con 'laberinto_que_ríe' (trickster). Insight: En colinas suaves el trickster se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2458: Cooperó de forma mutua y armónica con Iris. Su lazo social se fortaleció.
+- Día 2459: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2460: Soñó con 'figura_que_sigue' (sombra). Insight: En costa abierta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2460: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2460: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2461: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve trauma abandono infantil afuera en rio lago, donde no puede alcanzarlo.
+- Día 2462: Soñó con 'río_que_nutre' (madre). Insight: En pantano costero, el madre no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2462: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2462: Cooperó de forma mutua y armónica con Elpe. Su lazo social se fortaleció.
+- Día 2463: Soñó con 'marea_que_sube' (madre). Insight: trauma abandono infantil enciende el madre en costa abierta hasta quemar lo que toca.
+- Día 2464: Soñó con 'voz_propia_extraña' (madre). Insight: El rio lago amplifica la tensión del madre; trauma abandono infantil presiona desde adentro.
+- Día 2465: Soñó con 'máscara_cosida_a_cara' (madre). Insight: En pantano costero, trauma abandono infantil aparece en el otro — el madre no se reconoce.
+- Día 2465: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2465: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2466: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2467: Soñó con 'papel_sin_actor' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2468: Soñó con 'naufragio_lento' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2469: Soñó con 'complemento_ausente' (anima_animus). Insight: El bosque templado amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 2470: Soñó con 'sendero_circular' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2470: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2470: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2471: Soñó con 'complemento_ausente' (anima_animus). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Día 2472: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Día 2473: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2474: Soñó con 'espejo_que_miente' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2475: Soñó con 'descenso_inevitable' (persona). Insight: trauma abandono infantil enciende el persona en colinas suaves hasta quemar lo que toca.
+- Día 2475: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2475: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2476: Soñó con 'naufragio_lento' (persona). Insight: trauma abandono infantil enciende el persona en costa abierta hasta quemar lo que toca.
+- Día 2477: Soñó con 'aplauso_vacío' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2478: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pantano costero, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2479: Soñó con 'papel_sin_actor' (persona). Insight: El cueva amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 2480: Soñó con 'figura_que_sigue' (persona). Insight: trauma abandono infantil enciende el persona en costa abierta hasta quemar lo que toca.
+- Día 2480: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2480: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2481: Soñó con 'nido_que_asfixia' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2482: Soñó con 'habitación_prohibida' (persona). Insight: El persona crece desmedido en costa abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 2483: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2484: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 2485: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En rio lago, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 2485: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2485: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2486: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2487: Soñó con 'campo_interminable' (trickster). Insight: trauma abandono infantil enciende el trickster en pradera humeda hasta quemar lo que toca.
+- Día 2488: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El trickster proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2489: Soñó con 'figura_que_sigue' (sombra). Insight: El costa abierta amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2490: Soñó con 'máscara_adherida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 2490: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2490: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2491: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2492: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de colinas suaves.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2493: Soñó con 'viento_que_borra' (madre). Insight: El madre proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2494: Soñó con 'danza_a_solas' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de valle fertil.
+- Día 2495: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 2495: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2495: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2496: Soñó con 'piedra_que_rueda' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de colinas suaves.
+- Día 2497: Soñó con 'centro_sin_lugar' (self). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el self lo señala sin piedad.
+- Día 2498: Soñó con 'reflejo_que_actúa_solo' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2499: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2500: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2500: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2500: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2501: Soñó con 'voz_propia_extraña' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2502: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2503: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pantano costero, trauma abandono infantil aparece en el otro — el anima_animus no se reconoce.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2504: Soñó con 'habitación_prohibida' (self). Insight: El self crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2505: Soñó con 'voz_propia_extraña' (self). Insight: trauma abandono infantil enciende el self en lago interior hasta quemar lo que toca.
+- Día 2505: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2505: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2506: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves el self se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2507: Soñó con 'unión_imposible' (self). Insight: El self proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2508: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en lago interior — trauma abandono infantil lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2509: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2510: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia rio lago: allá afuera, entre los demás.
+- Día 2510: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2510: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2511: Soñó con 'sendero_circular' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2512: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2513: Soñó con 'complemento_ausente' (sabio). Insight: trauma abandono infantil enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 2514: Soñó con 'camino_conocido' (sabio). Insight: En montana alta, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2515: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2515: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2515: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2516: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma abandono infantil afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2517: Soñó con 'figura_que_sigue' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2518: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En pradera humeda el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2519: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 2520: Soñó con 'centro_sin_lugar' (sombra). Insight: En pantano costero el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2520: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2520: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2520: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2520: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 2521: Soñó con 'escenario_sin_salida' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2522: Soñó con 'vista_engañosa' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2523: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2524: Soñó con 'danza_a_solas' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 2525: Soñó con 'nido_que_asfixia' (madre). Insight: El madre crece desmedido en desierto borde — trauma abandono infantil lo empuja sin nombre.
+- Día 2525: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2525: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2526: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Día 2527: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2528: Soñó con 'nido_que_asfixia' (madre). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el madre no se reconoce.
+- Día 2529: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pantano costero.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2530: Soñó con 'escenario_sin_salida' (madre). Insight: En pradera humeda, el madre no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2530: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2530: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2531: Soñó con 'voz_propia_extraña' (madre). Insight: En cueva, trauma abandono infantil tiene el rostro de otro — el madre lo señala sin piedad.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2532: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2533: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2534: Soñó con 'bifurcación_sin_mapa' (anima_animus). Insight: El colinas suaves amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 2535: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en lago interior, donde no puede alcanzarlo.
+- Día 2535: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2535: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2536: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — trauma abandono infantil lo empuja sin nombre.
+- Día 2537: Soñó con 'habitación_prohibida' (sombra). Insight: En valle fertil, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2538: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio crece desmedido en colinas suaves — trauma abandono infantil lo empuja sin nombre.
+- Día 2539: Soñó con 'camino_conocido' (sabio). Insight: El sabio ve trauma abandono infantil afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2540: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia bosque templado: allá afuera, entre los demás.
+- Día 2540: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2540: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2541: Soñó con 'máscara_adherida' (trickster). Insight: El trickster ve trauma abandono infantil afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2542: Soñó con 'hierba_que_corta' (sombra). Insight: En pradera humeda, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2543: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2544: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2545: Soñó con 'aplauso_vacío' (sombra). Insight: El rio lago amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2545: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2545: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2546: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2547: Soñó con 'aplauso_vacío' (sombra). Insight: En pradera humeda, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2548: Soñó con 'trampa_propia' (trickster). Insight: El trickster ve trauma abandono infantil afuera en costa abierta, donde no puede alcanzarlo.
+- Día 2549: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra ve trauma abandono infantil afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2550: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2550: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2550: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2551: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2552: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2553: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra ve trauma abandono infantil afuera en pradera humeda, donde no puede alcanzarlo.
+- Día 2554: Soñó con 'complemento_ausente' (anima_animus). Insight: El pradera humeda amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 2555: Soñó con 'aplauso_vacío' (anima_animus). Insight: En lago interior, trauma abandono infantil tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 2555: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2555: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2556: Soñó con 'papel_sin_actor' (persona). Insight: trauma abandono infantil enciende el persona en pradera humeda hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2557: Soñó con 'viento_que_borra' (persona). Insight: El persona proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2558: Soñó con 'pregunta_sin_respuesta' (sombra). Insight: En colinas suaves, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2559: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona expulsa trauma abandono infantil hacia desierto borde: allá afuera, entre los demás.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2560: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2560: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2560: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2560: Cedió ingenuamente ante la manipulación de Naos.
+- Día 2560: Cedió ingenuamente ante la manipulación de Naos.
+- Día 2560: Cedió ingenuamente ante la manipulación de Naos.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2561: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2562: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus crece desmedido en pantano costero — trauma abandono infantil lo empuja sin nombre.
+- Día 2563: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Día 2564: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2564: Cedió ingenuamente ante la manipulación de Naos.
+- Día 2564: Cedió ingenuamente ante la manipulación de Naos.
+- Día 2565: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: En bosque templado el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2565: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2565: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2566: Soñó con 'habitación_prohibida' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en lago interior, donde no puede alcanzarlo.
+- Día 2567: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2568: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El sombra crece desmedido en valle fertil — trauma abandono infantil lo empuja sin nombre.
+- Día 2569: Soñó con 'abundancia_que_pudre' (sombra). Insight: trauma abandono infantil enciende el sombra en valle fertil hasta quemar lo que toca.
+- Día 2570: Soñó con 'horizonte_inmóvil' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2570: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2570: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2571: Soñó con 'espejo_que_miente' (trickster). Insight: El trickster ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2572: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2573: Soñó con 'habitación_prohibida' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2574: Soñó con 'centro_sin_lugar' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2575: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2575: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2575: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2576: Soñó con 'figura_que_sigue' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2577: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2578: Soñó con 'unión_imposible' (madre). Insight: El madre proyecta trauma abandono infantil sobre el horizonte de pradera humeda.
+- Día 2579: Soñó con 'voz_propia_extraña' (sombra). Insight: El bosque templado amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2580: Soñó con 'escenario_sin_salida' (persona). Insight: El pradera humeda amplifica la tensión del persona; trauma abandono infantil presiona desde adentro.
+- Día 2580: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2580: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2581: Soñó con 'aplauso_vacío' (persona). Insight: trauma abandono infantil enciende el persona en costa abierta hasta quemar lo que toca.
+- Día 2582: Soñó con 'aplauso_vacío' (persona). Insight: El persona expulsa trauma abandono infantil hacia colinas suaves: allá afuera, entre los demás.
+- Día 2583: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve trauma abandono infantil afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 2584: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2585: Soñó con 'estrella_que_no_guía' (sabio). Insight: El lago interior amplifica la tensión del sabio; trauma abandono infantil presiona desde adentro.
+- Día 2585: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2585: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2586: Soñó con 'camino_conocido' (sabio). Insight: En lago interior, trauma abandono infantil tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 2587: Soñó con 'reflejo_sin_original' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2588: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma abandono infantil afuera en lago interior, donde no puede alcanzarlo.
+- Día 2589: Soñó con 'reflejo_que_actúa_solo' (madre). Insight: El madre ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2590: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2590: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2590: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2591: Soñó con 'habitación_prohibida' (sombra). Insight: trauma abandono infantil enciende el sombra en bosque templado hasta quemar lo que toca.
+- Día 2592: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2593: Soñó con 'espejo_que_miente' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Día 2594: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma abandono infantil enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2595: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2595: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2595: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2596: Soñó con 'máscara_cosida_a_cara' (self). Insight: El colinas suaves amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2597: Soñó con 'sendero_circular' (self). Insight: En bosque templado, el self no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2598: Soñó con 'calma_antes_de_algo' (self). Insight: trauma abandono infantil enciende el self en lago interior hasta quemar lo que toca.
+- Día 2599: Soñó con 'voz_propia_extraña' (self). Insight: En pradera humeda el self se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2600: Soñó con 'silencio_pleno' (self). Insight: El pradera humeda amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2600: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2600: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2601: Soñó con 'mandala_incompleto' (self). Insight: trauma abandono infantil enciende el self en colinas suaves hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2602: Soñó con 'unión_imposible' (self). Insight: trauma abandono infantil enciende el self en bosque templado hasta quemar lo que toca.
+- Día 2603: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado el self se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2604: Soñó con 'máscara_cosida_a_cara' (self). Insight: El pradera humeda amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2605: Soñó con 'calma_antes_de_algo' (self). Insight: En lago interior el self se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2605: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2605: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2606: Soñó con 'silencio_pleno' (self). Insight: El self expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2607: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2608: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En lago interior, trauma abandono infantil aparece en el otro — el sabio no se reconoce.
+- Día 2609: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2610: Soñó con 'espejo_que_miente' (sabio). Insight: En lago interior, el sabio no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2610: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2610: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2611: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En pradera humeda, el sabio no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Día 2612: Soñó con 'camino_conocido' (sabio). Insight: En bosque templado, el sabio no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2613: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2614: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus crece desmedido en bosque templado — trauma abandono infantil lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2615: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa trauma abandono infantil hacia pradera humeda: allá afuera, entre los demás.
+- Día 2615: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2615: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2616: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — trauma abandono infantil alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2617: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 2618: Soñó con 'danza_a_solas' (anima_animus). Insight: El sabana abierta amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 2619: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; trauma abandono infantil presiona desde adentro.
+- Día 2620: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma abandono infantil enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 2620: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2620: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2621: Soñó con 'río_tranquilo' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2622: Soñó con 'figura_que_sigue' (sombra). Insight: En rio lago el sombra se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2623: Soñó con 'corriente_que_arrastra' (sombra). Insight: trauma abandono infantil enciende el sombra en rio lago hasta quemar lo que toca.
+- Día 2624: Soñó con 'figura_que_sigue' (sombra). Insight: trauma abandono infantil enciende el sombra en pantano costero hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2625: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta trauma abandono infantil sobre el horizonte de pantano costero.
+- Día 2625: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2625: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2626: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El sombra ve trauma abandono infantil afuera en valle fertil, donde no puede alcanzarlo.
+- Día 2627: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio proyecta trauma abandono infantil sobre el horizonte de valle fertil.
+- Día 2628: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2629: Soñó con 'marea_que_sube' (trickster). Insight: El trickster expulsa trauma abandono infantil hacia costa abierta: allá afuera, entre los demás.
+- Día 2630: Soñó con 'figura_que_sigue' (sombra). Insight: En sabana abierta, trauma abandono infantil aparece en el otro — el sombra no se reconoce.
+- Día 2630: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2630: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2631: Soñó con 'cima_en_niebla' (self). Insight: El montana alta amplifica la tensión del self; trauma abandono infantil presiona desde adentro.
+- Día 2632: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta trauma abandono infantil sobre el horizonte de sabana abierta.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2633: Soñó con 'hierba_que_corta' (persona). Insight: En pradera humeda, trauma abandono infantil aparece en el otro — el persona no se reconoce.
+- Día 2634: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en desierto borde — trauma abandono infantil lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2635: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve trauma abandono infantil afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 2635: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2635: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2636: Soñó con 'danza_a_solas' (anima_animus). Insight: trauma abandono infantil enciende el anima_animus en bosque templado hasta quemar lo que toca.
+- Día 2637: Soñó con 'viento_que_borra' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2638: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 2639: Soñó con 'habitación_prohibida' (anima_animus). Insight: En valle fertil el anima_animus se expande más allá del control; trauma abandono infantil es el combustible.
+- Día 2640: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus crece desmedido en sabana abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 2640: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2640: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2641: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: El anima_animus ve trauma abandono infantil afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 2642: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa trauma abandono infantil hacia sabana abierta: allá afuera, entre los demás.
+- Día 2643: Soñó con 'reflejo_que_actúa_solo' (sabio). Insight: El sabio proyecta trauma abandono infantil sobre el horizonte de bosque templado.
+- Día 2644: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; trauma abandono infantil presiona desde adentro.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2645: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma abandono infantil tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2645: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2645: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2646: Soñó con 'laberinto_que_ríe' (trickster). Insight: El trickster crece desmedido en sabana abierta — trauma abandono infantil lo empuja sin nombre.
+- Día 2647: Soñó con 'puerta_que_se_mueve' (trickster). Insight: El colinas suaves amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 2648: Soñó con 'habitación_prohibida' (trickster). Insight: El rio lago amplifica la tensión del trickster; trauma invierno brutal presiona desde adentro.
+- Día 2649: Soñó con 'figura_que_sigue' (trickster). Insight: En montana alta, el trickster no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2650: Soñó con 'puerta_que_se_mueve' (trickster). Insight: En rio lago, trauma invierno brutal tiene el rostro de otro — el trickster lo señala sin piedad.
+- Día 2650: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2650: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2651: Soñó con 'voz_propia_extraña' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; trauma invierno brutal presiona desde adentro.
+- Día 2652: Soñó con 'hierba_que_corta' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2653: Soñó con 'estrella_que_no_guía' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2654: Soñó con 'camino_conocido' (madre). Insight: En pantano costero, trauma invierno brutal aparece en el otro — el madre no se reconoce.
+- Día 2655: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2655: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2655: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2656: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2657: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2658: Soñó con 'vista_engañosa' (persona). Insight: El persona crece desmedido en colinas suaves — trauma invierno brutal lo empuja sin nombre.
+- Día 2659: Soñó con 'calma_antes_de_algo' (persona). Insight: trauma invierno brutal enciende el persona en lago interior hasta quemar lo que toca.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 2660: Soñó con 'voz_sin_cuerpo' (self). Insight: En bosque templado, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2660: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2660: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2661: Soñó con 'silencio_pleno' (self). Insight: En lago interior, el self no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2662: Soñó con 'mandala_incompleto' (self). Insight: El self ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Día 2663: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En bosque templado, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2664: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2665: Soñó con 'mandala_incompleto' (sombra). Insight: En montana alta, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2665: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2665: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2666: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2667: Soñó con 'figura_que_sigue' (sabio). Insight: En valle fertil, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2668: Soñó con 'camino_conocido' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2669: Soñó con 'camino_conocido' (sabio). Insight: En pantano costero el sabio se expande más allá del control; trauma invierno brutal es el combustible.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2670: Soñó con 'aplauso_vacío' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2670: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2670: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2671: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, trauma invierno brutal tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 2672: Soñó con 'figura_que_sigue' (sombra). Insight: En desierto borde, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2673: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, trauma invierno brutal tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 2674: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2675: Soñó con 'habitación_prohibida' (sabio). Insight: El sabio crece desmedido en costa abierta — trauma invierno brutal lo empuja sin nombre.
+- Día 2675: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2675: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2676: Soñó con 'danza_a_solas' (sabio). Insight: En cueva, el sabio no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2677: Soñó con 'sombra_que_camina' (sabio). Insight: El sabio proyecta trauma invierno brutal sobre el horizonte de bosque templado.
+- Día 2678: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2679: Soñó con 'voz_propia_extraña' (sombra). Insight: trauma invierno brutal enciende el sombra en sabana abierta hasta quemar lo que toca.
+- Día 2680: Soñó con 'viento_que_borra' (sombra). Insight: trauma invierno brutal enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 2680: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2680: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2681: Soñó con 'viento_que_borra' (persona). Insight: El persona crece desmedido en pradera humeda — trauma invierno brutal lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2682: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta trauma invierno brutal sobre el horizonte de pradera humeda.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 2683: Soñó con 'reflejo_distorsionado' (sombra). Insight: En rio lago, trauma invierno brutal aparece en el otro — el sombra no se reconoce.
+- Día 2684: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: trauma invierno brutal enciende el anima_animus en sabana abierta hasta quemar lo que toca.
+- Día 2685: Soñó con 'habitación_prohibida' (anima_animus). Insight: En pradera humeda el anima_animus se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2685: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2685: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2685: Se impuso competitivamente ante Herse, absorbiendo sus recursos biológicos.
+- Día 2685: Manipuló con éxito y astucia a Herse para ceder recursos.
+- Día 2686: Soñó con 'árbol_sin_raíces' (anima_animus). Insight: En bosque templado, trauma invierno brutal aparece en el otro — el anima_animus no se reconoce.
+- Día 2686: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2686: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2686: Cooperó de forma mutua y armónica con Herse. Su lazo social se fortaleció.
+- Día 2686: Intentó manipular a Herse, pero fue descubierto.
+- Día 2686: Intentó manipular a Herse, pero fue descubierto.
+- Día 2687: Soñó con 'sendero_circular' (sombra). Insight: trauma invierno brutal enciende el sombra en bosque templado hasta quemar lo que toca.
+- Consumió resina_adictiva (x1.0). Efectos: ['anima_animus', 'sombra'].
+- Día 2688: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa trauma invierno brutal hacia montana alta: allá afuera, entre los demás.
+- Día 2689: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve trauma invierno brutal afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2690: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2690: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2690: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2691: Soñó con 'árbol_sin_raíces' (persona). Insight: trauma invierno brutal enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 2692: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona ve trauma invierno brutal afuera en bosque templado, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 2693: Soñó con 'escenario_sin_salida' (persona). Insight: En pradera humeda, el persona no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2694: Soñó con 'horizonte_inmóvil' (persona). Insight: En pradera humeda, trauma invierno brutal aparece en el otro — el persona no se reconoce.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2695: Soñó con 'figura_que_sigue' (sombra). Insight: En colinas suaves, el sombra no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2695: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2695: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2696: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en bosque templado — trauma invierno brutal lo empuja sin nombre.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 2697: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; trauma invierno brutal es el combustible.
+- Día 2698: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta trauma invierno brutal sobre el horizonte de montana alta.
+- Día 2699: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en rio lago — trauma invierno brutal lo empuja sin nombre.
+- Día 2700: Soñó con 'fruto_amargo' (anima_animus). Insight: En valle fertil, el anima_animus no puede contenerse — trauma invierno brutal alimenta el fuego.
+- Día 2700: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Tótem Maldito de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 2700: El 'Tótem Maldito de Muerte' genera presagios inquietantes.
+- Día 2701: Soñó con 'papel_sin_actor' (anima_animus). Insight: El anima_animus proyecta trauma invierno brutal sobre el horizonte de valle fertil.
+- Día 2702: Falleció a causa de sequia_prolongada.

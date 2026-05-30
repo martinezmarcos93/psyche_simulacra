@@ -1,0 +1,8637 @@
+---
+id: misos
+nombre: Misos
+rol: anciano
+edad: 59
+sexo: M
+is_alive: False
+posicion: [51, 27]
+humor: 0.047
+energia: 0.080
+ansiedad: 1.000
+needs:
+  hambre: 0.554
+  fatiga: 0.000
+  sed: 0.045
+  sociabilidad: 0.020
+arquetipo_dominante: self
+estado_conductual: cooperacion
+arquetipos:
+  self: 1.000
+  persona: 0.963
+  sombra: 0.994
+  anima_animus: 0.977
+  heroe: 0.929
+  sabio: 0.754
+  trickster: 0.901
+  madre: 0.830
+  padre: 0.461
+  nino_divino: 0.558
+  gobernante: 0.199
+  rebelde: 0.075
+---
+# 👤 Persona: Misos
+
+> **Rol:** `anciano` | **Edad:** 59 | **Sexo:** M | **Ubicación:** `(51, 27)`
+> **Estado Vital:** **💀 Desconectado / Fallecido**
+
+---
+
+## 📊 Estado Psicobiológico
+
+### Capa Emocional
+| Métrica | Visual | Valor |
+| :--- | :---: | :---: |
+| **Humor** | `[░░░░░░░░░░]` | 0.05 |
+| **Energía** | `[▓░░░░░░░░░]` | 0.08 |
+| **Ansiedad** | `[▓▓▓▓▓▓▓▓▓▓]` | 1.00 |
+
+### Necesidades Biológicas
+| Necesidad | Visual | Valor | Estado |
+| :--- | :---: | :---: | :--- |
+| **Hambre** | `[▓▓▓▓▓▓░░░░]` | 0.55 | 🟢 Saciado |
+| **Sed** | `[░░░░░░░░░░]` | 0.04 | 🟢 Hidratado |
+| **Fatiga** | `[░░░░░░░░░░]` | 0.00 | 🟢 Descansado |
+| **Sociabilidad** | `[░░░░░░░░░░]` | 0.02 | 🟢 Conectado |
+
+---
+
+## 🧠 Perfil Psicológico
+
+### Capa Jungiana: Vector de Arquetipos
+| Arquetipo | Fuerza | Barra Visual |
+| :--- | :---: | :--- |
+| **Self** | `1.000` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Persona** | `0.963` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Sombra** | `0.994` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Anima animus** | `0.977` | `▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **Heroe** | `0.929` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Sabio** | `0.754` | `▓▓▓▓▓▓▓▓▓░░░` |
+| **Trickster** | `0.901` | `▓▓▓▓▓▓▓▓▓▓▓░` |
+| **Madre** | `0.830` | `▓▓▓▓▓▓▓▓▓▓░░` |
+| **Padre** | `0.461` | `▓▓▓▓▓▓░░░░░░` |
+| **Nino divino** | `0.558` | `▓▓▓▓▓▓▓░░░░░` |
+| **Gobernante** | `0.199` | `▓▓░░░░░░░░░░` |
+| **Rebelde** | `0.075` | `▓░░░░░░░░░░░` |
+
+### Complejos Activos
+| Complejo | Intensidad | Barra Visual | Estado |
+| :--- | :---: | :--- | :---: |
+| Abandono | `1.00` | `▓▓▓▓▓▓▓▓▓▓` | 💤 Inactivo |
+| Inferioridad | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Poder | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Culpa | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Materno | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+| Trascendencia | `0.30` | `▓▓▓░░░░░░░` | 💤 Inactivo |
+
+---
+
+## 👥 Red Social e Interacciones
+
+### Vínculos Emocionales
+| Agente Relacionado | Vínculo | Visual Vínculo | Entrelazado |
+| :--- | :---: | :---: | :---: |
+| [[amara]] | `+0.06` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[anthe]] | `+0.30` | `▓▓▓▓▓▓▓░░░` | Ninguno |
+| [[daeira]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[delia]] | `+0.00` | `▓▓▓▓▓░░░░░` | Ninguno |
+| [[dione]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[eidyia]] | `+0.16` | `▓▓▓▓▓▓░░░░` | Ninguno |
+| [[euros]] | `+1.00` | `▓▓▓▓▓▓▓▓▓▓` | ⚛️ Entrelazado |
+| [[keleos]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[kleis]] | `-0.46` | `▓▓▓░░░░░░░` | Ninguno |
+| [[macaon]] | `-1.00` | `░░░░░░░░░░` | ⚛️ Entrelazado |
+| [[naos]] | `-0.92` | `░░░░░░░░░░` | Ninguno |
+| [[nomos]] | `+0.30` | `▓▓▓▓▓▓░░░░` | Ninguno |
+
+---
+
+## 💤 Bitácora Onírica (Últimos Sueños)
+
+- **Día 648:** Soñó con `'voz_propia_extraña'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- **Día 649:** Soñó con `'espejo_que_miente'` (arquetipo `sombra`).
+  - *Insight:* En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- **Día 650:** Soñó con `'figura_que_sigue'` (arquetipo `sombra`).
+  - *Insight:* El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- **Día 651:** Soñó con `'silencio_absoluto'` (arquetipo `self`).
+  - *Insight:* El montana alta amplifica la tensión del self; disociacion sombra presiona desde adentro.
+- **Día 652:** Soñó con `'silencio_pleno'` (arquetipo `self`).
+  - *Insight:* En montana alta, el self no puede contenerse — disociacion sombra alimenta el fuego.
+- **Día 653:** Soñó con `'habitación_prohibida'` (arquetipo `self`).
+  - *Insight:* El self crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- **Día 654:** Soñó con `'roca_que_aplasta'` (arquetipo `self`).
+  - *Insight:* El montana alta amplifica la tensión del self; disociacion sombra presiona desde adentro.
+
+---
+
+## 📖 Crónicas Episódicas (Memoria de Acontecimientos)
+
+- Día 1: Soñó con 'niebla_densa' (sabio). Insight: En pantano costero, lo reprimido pierde fuerza un instante — el sabio respira.
+- Día 1: El colapso de nuestra tribu. Solo quedamos 1.
+- Día 2: Soñó con 'descenso_inevitable' (sabio). Insight: El sabio descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 2: Cooperó de forma mutua y armónica con Eidyia. Su lazo social se fortaleció.
+- Día 2: Cooperó de forma mutua y armónica con Eidyia. Su lazo social se fortaleció.
+- Día 3: Soñó con 'silencio_absoluto' (sabio). Insight: En montana alta, el sabio negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 3: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 3: Sufrió explotación y hostilidad de Naos, cediendo recursos biológicos.
+- Día 4: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio pierde fuerza un instante — el sabio respira.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kleis.
+- Día 4: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Kleis.
+- Día 5: Soñó con 'silencio_absoluto' (sabio). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el sabio respira.
+- Día 6: Soñó con 'semilla_negra' (sabio). Insight: El sabio descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 7: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, el sabio encuentra tregua provisional con colapso civilizatorio.
+- Día 8: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: colapso civilizatorio pesa demasiado — el sabio cede terreno en bosque templado para no caer.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 9: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio se disfraza de su contrario en rio lago, lejos de colapso civilizatorio.
+- Día 10: Soñó con 'estrella_que_no_guía' (sabio). Insight: En pradera humeda, el sabio negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 11: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 12: Soñó con 'viento_que_borra' (sabio). Insight: El sabio se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 13: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio descansa en valle fertil mientras colapso civilizatorio aguarda en el umbral.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 14: Soñó con 'estrella_que_no_guía' (sabio). Insight: En montana alta, el sabio toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 15: Soñó con 'camino_conocido' (sabio). Insight: En valle fertil, el sabio negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 16: Soñó con 'centro_sin_lugar' (self). Insight: El self y colapso civilizatorio se toleran esta noche en cueva.
+- Día 16: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 16: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 17: Soñó con 'silencio_pleno' (self). Insight: En cueva, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 18: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 19: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 20: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 21: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 22: Soñó con 'centro_sin_lugar' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 23: Soñó con 'centro_sin_lugar' (self). Insight: El self descansa en sabana abierta mientras colapso civilizatorio aguarda en el umbral.
+- Día 24: Soñó con 'unión_imposible' (self). Insight: Entre sombras de pantano costero, el self y colapso civilizatorio coexisten sin resolverse.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 25: Soñó con 'hierba_que_corta' (self). Insight: El self y colapso civilizatorio se toleran esta noche en pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 26: Soñó con 'unión_imposible' (self). Insight: El self se disfraza de su contrario en bosque templado, lejos de colapso civilizatorio.
+- Día 27: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 28: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 29: Soñó con 'mandala_incompleto' (self). Insight: El self descansa en colinas suaves mientras colapso civilizatorio aguarda en el umbral.
+- Día 30: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 31: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 32: Soñó con 'silencio_pleno' (self). Insight: El self busca equilibrio en pradera humeda compensando la energía de colapso civilizatorio.
+- Día 33: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en pradera humeda, lejos de colapso civilizatorio.
+- Día 34: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 35: Soñó con 'semilla_negra' (self). Insight: En valle fertil, el self negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 36: Soñó con 'centro_sin_lugar' (self). Insight: En rio lago, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 37: Soñó con 'silencio_pleno' (self). Insight: Entre sombras de valle fertil, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 38: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en colinas suaves, lejos de colapso civilizatorio.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 39: Soñó con 'centro_sin_lugar' (self). Insight: Entre sombras de montana alta, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 40: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en sabana abierta.
+- Día 41: Soñó con 'viento_que_borra' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en pradera humeda para no caer.
+- Día 42: Soñó con 'unión_imposible' (self). Insight: El self y colapso civilizatorio se toleran esta noche en bosque templado.
+- Día 43: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 44: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en sabana abierta para no caer.
+- Día 45: Soñó con 'silencio_pleno' (self). Insight: En bosque templado, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 46: Soñó con 'reflejo_distorsionado' (self). Insight: En rio lago, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 47: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 48: Soñó con 'mandala_incompleto' (self). Insight: El self se disfraza de su contrario en valle fertil, lejos de colapso civilizatorio.
+- Día 49: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 50: Soñó con 'hierba_que_corta' (self). Insight: Entre sombras de pradera humeda, el self y colapso civilizatorio coexisten sin resolverse.
+- Día 51: Soñó con 'unión_imposible' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de rio lago.
+- Día 52: Soñó con 'unión_imposible' (self). Insight: El self expulsa colapso civilizatorio hacia colinas suaves: allá afuera, entre los demás.
+- Día 53: Soñó con 'mandala_incompleto' (self). Insight: El self busca equilibrio en pantano costero compensando la energía de colapso civilizatorio.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 54: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 55: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 56: Soñó con 'centro_sin_lugar' (self). Insight: En colinas suaves el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 57: Soñó con 'roca_que_aplasta' (self). Insight: En montana alta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 58: Soñó con 'mandala_incompleto' (self). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 59: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 60: Soñó con 'bifurcación_sin_mapa' (self). Insight: colapso civilizatorio enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 61: Soñó con 'unión_imposible' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 62: Soñó con 'corriente_que_arrastra' (self). Insight: El rio lago amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 63: Soñó con 'unión_imposible' (self). Insight: En desierto borde el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 64: Soñó con 'centro_sin_lugar' (self). Insight: En pradera humeda el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 65: Soñó con 'agua_fría' (self). Insight: El self crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 66: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 67: Soñó con 'sombra_que_camina' (self). Insight: El self expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 68: Soñó con 'roca_que_aplasta' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 69: Soñó con 'centro_sin_lugar' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 70: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 71: Soñó con 'unión_imposible' (self). Insight: El valle fertil amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 72: Soñó con 'fondo_que_sube' (self). Insight: El self crece desmedido en rio lago — colapso civilizatorio lo empuja sin nombre.
+- Día 73: Soñó con 'unión_imposible' (self). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 74: Soñó con 'unión_imposible' (self). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 75: Soñó con 'silencio_pleno' (self). Insight: El self expulsa colapso civilizatorio hacia lago interior: allá afuera, entre los demás.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 76: Soñó con 'sombra_que_camina' (self). Insight: En bosque templado el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 77: Soñó con 'árbol_sin_raíces' (self). Insight: El self ve colapso civilizatorio afuera en bosque templado, donde no puede alcanzarlo.
+- Día 78: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 79: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 80: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en pradera humeda hasta quemar lo que toca.
+- Día 81: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 82: Soñó con 'unión_imposible' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 83: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 84: Soñó con 'árbol_sin_raíces' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 85: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En valle fertil, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 86: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 87: Soñó con 'hierba_que_corta' (sabio). Insight: En pradera humeda el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 88: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 89: Soñó con 'espejo_que_miente' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 90: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Día 91: Soñó con 'cima_en_niebla' (sabio). Insight: En montana alta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 91: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 92: Soñó con 'estrella_que_no_guía' (sabio). Insight: colapso civilizatorio enciende el sabio en pradera humeda hasta quemar lo que toca.
+- Día 93: Soñó con 'calma_antes_de_algo' (sabio). Insight: En lago interior el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 94: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 95: Soñó con 'caída_sin_fondo' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 96: Soñó con 'tierra_resquebrajada' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 97: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 98: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 99: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia sabana abierta: allá afuera, entre los demás.
+- Día 100: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 101: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 102: Soñó con 'camino_conocido' (sabio). Insight: En rio lago, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 103: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 104: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 105: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 106: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 107: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 108: Soñó con 'silencio_pleno' (self). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 109: Soñó con 'profundidad_sin_fondo' (sombra). Insight: colapso civilizatorio enciende el sombra en lago interior hasta quemar lo que toca.
+- Día 110: Soñó con 'bifurcación_sin_mapa' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de colinas suaves.
+- Día 111: Soñó con 'camino_conocido' (sabio). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 112: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 113: Soñó con 'habitación_prohibida' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 114: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 115: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 116: Soñó con 'unión_imposible' (self). Insight: En sabana abierta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 117: Soñó con 'centro_sin_lugar' (self). Insight: El self crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió hongo_venenoso (x1.0). Efectos: ['sombra', 'heroe'].
+- Día 118: Soñó con 'centro_sin_lugar' (self). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 119: Soñó con 'mandala_incompleto' (self). Insight: En bosque templado, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 120: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 121: Soñó con 'unión_imposible' (self). Insight: El self crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 122: Soñó con 'centro_sin_lugar' (self). Insight: El bosque templado amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 123: Soñó con 'horizonte_de_agua' (self). Insight: El self ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 124: Soñó con 'sendero_circular' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 125: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: colapso civilizatorio enciende el sabio en bosque templado hasta quemar lo que toca.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 126: Soñó con 'camino_conocido' (sabio). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 127: Soñó con 'voz_propia_extraña' (sombra). Insight: El lago interior amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 128: Soñó con 'piedra_que_rueda' (sombra). Insight: En colinas suaves, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 129: Soñó con 'voz_propia_extraña' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió setas_sagradas (x1.0). Efectos: ['sabio', 'sombra', 'self_'].
+- Día 130: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 131: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 131: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 131: Sufrió explotación y hostilidad de Kleis, cediendo recursos biológicos.
+- Día 132: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 132: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 132: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 132: Cooperó de forma mutua y armónica con Naos. Su lazo social se fortaleció.
+- Día 132: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con Naos.
+- Día 132: Intentó manipular a Naos, pero fue descubierto.
+- Día 132: Intentó manipular a Naos, pero fue descubierto.
+- Día 132: Intentó manipular a Naos, pero fue descubierto.
+- Día 132: Intentó manipular a Naos, pero fue descubierto.
+- Día 132: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Soñó con 'camino_conocido' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Intentó manipular a Naos, pero fue descubierto.
+- Día 133: Cedió ingenuamente ante la manipulación de Naos.
+- Día 133: Cedió ingenuamente ante la manipulación de Naos.
+- Día 134: Soñó con 'camino_conocido' (sabio). Insight: El lago interior amplifica la tensión del sabio; colapso civilizatorio presiona desde adentro.
+- Día 135: Soñó con 'eco_sin_origen' (sabio). Insight: En cueva, colapso civilizatorio aparece en el otro — el sabio no se reconoce.
+- Día 136: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 137: Soñó con 'estrella_que_no_guía' (sabio). Insight: En valle fertil el sabio se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 138: Soñó con 'libro_en_lengua_muerta' (sabio). Insight: En sabana abierta, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 139: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia pantano costero: allá afuera, entre los demás.
+- Día 140: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en pantano costero — colapso civilizatorio lo empuja sin nombre.
+- Día 141: Soñó con 'eco_sin_origen' (sombra). Insight: El cueva amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 142: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 143: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio proyecta colapso civilizatorio sobre el horizonte de pradera humeda.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 144: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 145: Soñó con 'habitación_prohibida' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 146: Soñó con 'voz_propia_extraña' (sombra). Insight: El colinas suaves amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 147: Soñó con 'figura_que_sigue' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 148: Soñó con 'vista_engañosa' (self). Insight: El self crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 149: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 150: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 151: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de cueva.
+- Día 152: Soñó con 'horizonte_de_agua' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia costa abierta: allá afuera, entre los demás.
+- Día 153: Soñó con 'descenso_inevitable' (sombra). Insight: En colinas suaves, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 154: Soñó con 'voz_propia_extraña' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 155: Soñó con 'estrella_que_no_guía' (sabio). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 156: Soñó con 'sombra_que_camina' (sombra). Insight: En bosque templado, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 157: Soñó con 'espejo_que_miente' (sombra). Insight: En pantano costero, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 158: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 159: Soñó con 'hierba_que_corta' (sombra). Insight: El sombra crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 160: Soñó con 'horizonte_de_agua' (sombra). Insight: En costa abierta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 161: Soñó con 'sed_en_el_agua' (sombra). Insight: En rio lago el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 162: Soñó con 'sol_que_calcina' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de sabana abierta.
+- Día 163: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 164: Soñó con 'manada_que_huye' (anima_animus). Insight: El anima_animus ve colapso civilizatorio afuera en sabana abierta, donde no puede alcanzarlo.
+- Día 165: Soñó con 'habitación_prohibida' (sombra). Insight: En sabana abierta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 166: Soñó con 'espejo_que_miente' (sombra). Insight: El sabana abierta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 167: Soñó con 'voz_propia_extraña' (sombra). Insight: En pradera humeda, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 168: Soñó con 'campo_interminable' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 169: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en cueva — colapso civilizatorio lo empuja sin nombre.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 170: Soñó con 'horizonte_inmóvil' (persona). Insight: El pradera humeda amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 171: Soñó con 'papel_sin_actor' (persona). Insight: El persona crece desmedido en pradera humeda — colapso civilizatorio lo empuja sin nombre.
+- Día 171: Detectó y rechazó un intento de manipulación de Dione.
+- Día 171: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 171: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 171: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 171: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 171: Detectó y rechazó un intento de manipulación de Dione.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 171: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Soñó con 'aplauso_vacío' (persona). Insight: En montana alta el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 172: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 173: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en pradera humeda hasta quemar lo que toca.
+- Día 174: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 175: Soñó con 'papel_sin_actor' (persona). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 176: Soñó con 'espejo_que_miente' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 177: Soñó con 'corriente_que_arrastra' (sombra). Insight: El sombra ve colapso civilizatorio afuera en rio lago, donde no puede alcanzarlo.
+- Día 178: Soñó con 'voz_propia_extraña' (sombra). Insight: En rio lago, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 179: Soñó con 'vista_engañosa' (sombra). Insight: El sombra crece desmedido en colinas suaves — colapso civilizatorio lo empuja sin nombre.
+- Día 180: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en colinas suaves hasta quemar lo que toca.
+- Día 181: Soñó con 'voz_propia_extraña' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 181: El colapso de nuestra tribu. Solo quedamos 2.
+- Día 182: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: El pantano costero amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 183: Soñó con 'máscara_cosida_a_cara' (persona). Insight: En valle fertil, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 184: Soñó con 'figura_que_sigue' (sombra). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 185: Soñó con 'papel_sin_actor' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 186: Soñó con 'marea_que_sube' (sombra). Insight: El sombra ve colapso civilizatorio afuera en costa abierta, donde no puede alcanzarlo.
+- Día 187: Soñó con 'figura_que_sigue' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 188: Soñó con 'naufragio_lento' (persona). Insight: colapso civilizatorio enciende el persona en costa abierta hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 189: Soñó con 'espejo_que_miente' (persona). Insight: colapso civilizatorio enciende el persona en bosque templado hasta quemar lo que toca.
+- Día 190: Soñó con 'papel_sin_actor' (persona). Insight: En rio lago el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 191: Soñó con 'río_que_nutre' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de bosque templado.
+- Día 192: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Día 193: Soñó con 'figura_que_sigue' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 194: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en valle fertil, donde no puede alcanzarlo.
+- Día 195: Soñó con 'mandala_incompleto' (self). Insight: colapso civilizatorio enciende el self en pradera humeda hasta quemar lo que toca.
+- Día 196: Soñó con 'silencio_pleno' (self). Insight: El self ve colapso civilizatorio afuera en colinas suaves, donde no puede alcanzarlo.
+- Día 197: Soñó con 'habitación_prohibida' (sombra). Insight: El desierto borde amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 197: Se enfrentó en un choque violento y destructivo contra Dione.
+- Día 198: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En pradera humeda, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 199: Soñó con 'unión_imposible' (self). Insight: En rio lago, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Consumió baya_fermentada (x1.0). Efectos: ['persona', 'gobernante'].
+- Día 200: Soñó con 'mandala_incompleto' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 201: Soñó con 'silencio_pleno' (self). Insight: En valle fertil, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 202: Soñó con 'silencio_pleno' (self). Insight: El rio lago amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 203: Soñó con 'centro_sin_lugar' (self). Insight: colapso civilizatorio enciende el self en colinas suaves hasta quemar lo que toca.
+- Día 204: Soñó con 'mandala_incompleto' (self). Insight: El self expulsa colapso civilizatorio hacia cueva: allá afuera, entre los demás.
+- Día 205: Soñó con 'máscara_cosida_a_cara' (persona). Insight: colapso civilizatorio enciende el persona en cueva hasta quemar lo que toca.
+- Día 206: Soñó con 'reflejo_sin_original' (persona). Insight: El persona crece desmedido en lago interior — colapso civilizatorio lo empuja sin nombre.
+- Día 207: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El valle fertil amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 208: Soñó con 'escenario_sin_salida' (persona). Insight: El lago interior amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 209: Soñó con 'luz_oblicua' (persona). Insight: En bosque templado, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 210: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia pradera humeda: allá afuera, entre los demás.
+- Consumió raiz_visionaria (x1.0). Efectos: ['sombra', 'anima_animus', 'trickster'].
+- Día 211: Soñó con 'espejo_que_miente' (sombra). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 212: Soñó con 'tierra_resquebrajada' (anima_animus). Insight: En sabana abierta, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 213: Soñó con 'espejo_que_miente' (sombra). Insight: En lago interior, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 214: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio ve colapso civilizatorio afuera en pradera humeda, donde no puede alcanzarlo.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 215: Soñó con 'espejo_que_miente' (sombra). Insight: En bosque templado el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 216: Soñó con 'campo_interminable' (sombra). Insight: El pradera humeda amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 217: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en desierto borde hasta quemar lo que toca.
+- Día 218: Soñó con 'espejo_que_miente' (sombra). Insight: En cueva el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 219: Soñó con 'voz_propia_extraña' (sombra). Insight: En valle fertil, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 220: Soñó con 'camino_conocido' (sabio). Insight: colapso civilizatorio enciende el sabio en lago interior hasta quemar lo que toca.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 221: Soñó con 'luz_oblicua' (sabio). Insight: El sabio crece desmedido en bosque templado — colapso civilizatorio lo empuja sin nombre.
+- Consumió planta_medicinal (x1.0). Efectos: ['madre'].
+- Día 222: Soñó con 'sombra_que_camina' (sabio). Insight: En bosque templado, el sabio no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 223: Soñó con 'camino_conocido' (sabio). Insight: El sabio expulsa colapso civilizatorio hacia bosque templado: allá afuera, entre los demás.
+- Día 223: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 223: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 223: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 223: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 223: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 223: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 224: Soñó con 'silencio_pleno' (self). Insight: El self crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 224: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 224: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 224: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 224: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 224: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 224: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 225: Soñó con 'caída_sin_fondo' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 225: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 225: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 225: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 225: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 225: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 225: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 225: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 225: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 226: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 226: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 226: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 227: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 227: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 227: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 227: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 227: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 228: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 228: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 228: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 228: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 228: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 228: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 228: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 228: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 229: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 229: Soñó con 'estrella_que_no_guía' (sabio). Insight: El sabio crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 229: Entró en disociación por sombra — estupor_catatonico.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 229: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 229: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 229: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 229: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 230: Soñó con 'trickster' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 230: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 230: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 230: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 230: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 230: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 231: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 231: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 231: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 231: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 231: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 231: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 231: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 232: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 232: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 232: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 232: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 232: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 232: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 232: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 232: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 232: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 232: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 233: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 233: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 233: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 233: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Soñó con 'silencio_absoluto' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 234: Euros integró su sombra.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 234: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 234: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 235: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 235: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 235: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 236: Soñó con 'trickster' (madre). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 236: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 236: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 236: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 237: Soñó con 'trickster' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 237: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 237: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 237: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 238: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 238: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 238: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 238: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 238: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 238: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 238: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 239: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sabio lo señala sin piedad.
+- Día 239: Entró en disociación por sombra — melancolia_disociativa.
+- Día 239: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 239: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 239: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 239: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 239: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 240: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 240: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 240: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 240: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 240: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 240: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 240: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 240: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 241: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 242: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 242: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 243: Soñó con 'nino_divino' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 243: Euros integró su sombra.
+- Día 243: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 243: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 244: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 244: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 244: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Soñó con 'pregunta_sin_respuesta' (sabio). Insight: El sabio ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 245: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 245: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 245: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 245: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Soñó con 'rebelde' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 246: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 246: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 246: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 246: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 246: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 246: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 246: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 247: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 247: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 247: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 247: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Soñó con 'voz_propia_extraña' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 248: Entró en disociación por sombra — estupor_catatonico.
+- Día 248: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 248: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 248: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 248: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 249: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 249: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 249: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 249: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 249: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 249: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 249: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 249: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 250: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 250: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 250: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Soñó con 'leche_amarga' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 251: Euros integró su sombra.
+- Día 251: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 251: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 251: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 251: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 251: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 251: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 251: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 251: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Soñó con 'caída_sin_fondo' (madre). Insight: El madre ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 252: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 252: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 253: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 254: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 254: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 254: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 254: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 254: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 254: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 254: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 254: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 254: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 254: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 255: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 255: Soñó con 'unión_imposible' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 255: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 255: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 255: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 255: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 255: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 255: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 255: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 255: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Soñó con 'caída_sin_fondo' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 256: Entró en disociación por sombra — estupor_catatonico.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 256: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 256: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 257: Soñó con 'figura_que_sigue' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 257: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 257: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 258: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 258: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 258: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 258: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 259: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 259: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 259: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 260: Soñó con 'aplauso_vacío' (persona). Insight: En montana alta el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 260: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 260: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 261: Soñó con 'silencio_absoluto' (persona). Insight: El persona crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 261: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 261: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 261: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 261: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 261: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 261: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 261: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Soñó con 'escenario_sin_salida' (persona). Insight: En montana alta el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 262: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 262: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 262: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 262: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Soñó con 'aplauso_vacío' (persona). Insight: colapso civilizatorio enciende el persona en montana alta hasta quemar lo que toca.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 263: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 263: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 263: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 263: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 263: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 264: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 264: Soñó con 'figura_que_sigue' (persona). Insight: El persona expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 264: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 264: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 264: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 264: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 264: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Soñó con 'máscara_cosida_a_cara' (persona). Insight: El persona proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 265: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 265: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 265: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 265: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 265: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Soñó con 'espejo_que_miente' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 266: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 266: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 266: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 266: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 267: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 267: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 267: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 267: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 267: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 268: Soñó con 'complemento_ausente' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 268: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 268: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 268: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 268: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 269: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 269: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 269: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 269: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 270: Soñó con 'silencio_absoluto' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 270: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 270: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 270: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 270: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 270: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 270: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 271: Soñó con 'nido_que_asfixia' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 271: El estado de disociación (estupor_catatonico) se volvió permanente.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 271: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 271: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 271: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 271: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 271: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 272: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 272: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 272: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 272: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 273: Soñó con 'río_que_nutre' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 273: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 273: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 273: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 274: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 274: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 274: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 274: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 274: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 274: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 275: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 275: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 275: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 276: Soñó con 'nido_que_asfixia' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 276: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 276: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 276: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 276: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 276: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 276: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 276: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 276: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 277: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 277: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 277: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 277: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 277: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 277: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 278: Soñó con 'silencio_absoluto' (madre). Insight: El madre expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 278: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 278: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 278: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 278: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 278: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 278: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 278: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 279: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 279: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 279: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 280: Soñó con 'silencio_absoluto' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 280: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 280: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 281: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 281: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 281: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 281: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Soñó con 'leche_amarga' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 282: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 282: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 283: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 283: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 283: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Soñó con 'voz_propia_extraña' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 284: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 284: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Soñó con 'silencio_absoluto' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 285: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 286: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 286: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 286: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 286: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 286: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 286: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 286: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 286: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 287: Soñó con 'roca_que_aplasta' (madre). Insight: El madre expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 287: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 287: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 287: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 287: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 287: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 287: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 287: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 287: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 287: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 287: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 287: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 288: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 289: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 290: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 290: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 290: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 290: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 290: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 290: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 291: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 291: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 292: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 292: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 292: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 292: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 293: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 293: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 293: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 293: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 294: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 294: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 294: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 295: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 295: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 295: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 295: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 295: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 295: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 296: Soñó con 'espejo_que_miente' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 296: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 296: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 297: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 297: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 297: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 298: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 298: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 298: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 299: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 299: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 299: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 299: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 299: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 299: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 299: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 299: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Soñó con 'río_que_nutre' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 300: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 300: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 301: Soñó con 'río_que_nutre' (madre). Insight: El madre crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 301: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Soñó con 'habitación_prohibida' (madre). Insight: El madre ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 302: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 302: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 302: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 302: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 302: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 302: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 302: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Soñó con 'árbol_que_aprieta' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 303: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 303: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 303: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 304: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 304: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 304: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 304: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 304: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 304: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Soñó con 'caída_sin_fondo' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 305: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 305: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 306: Soñó con 'cima_en_niebla' (madre). Insight: El montana alta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 306: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 306: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 306: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 306: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 307: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 307: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 307: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 307: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 307: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 307: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 308: Soñó con 'voz_propia_extraña' (madre). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 308: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Soñó con 'río_que_nutre' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 309: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 309: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 310: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 310: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 310: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 310: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 310: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 310: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 311: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 311: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 311: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 311: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 311: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 311: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 312: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 312: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 312: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 312: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 312: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 312: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 312: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 312: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Soñó con 'unión_imposible' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 313: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 313: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 313: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 314: Soñó con 'escenario_sin_salida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 314: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 314: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 314: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 314: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 314: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 314: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 314: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 315: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 315: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 315: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 315: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 315: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 315: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 315: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 315: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 315: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 316: Soñó con 'figura_que_sigue' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 316: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 316: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 317: Soñó con 'leche_amarga' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 317: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 317: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 317: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 318: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 318: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 318: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 318: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 318: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Soñó con 'unión_imposible' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 319: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 319: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 319: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 320: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 320: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Soñó con 'nido_que_asfixia' (madre). Insight: El montana alta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 321: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 321: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 321: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 321: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 321: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 321: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 322: Soñó con 'papel_sin_actor' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 322: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 322: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 322: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 322: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 322: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 322: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 323: Soñó con 'árbol_que_aprieta' (madre). Insight: El madre ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 323: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 323: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 323: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 323: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 323: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 323: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 323: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 323: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 323: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 324: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 324: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 324: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Soñó con 'cima_en_niebla' (madre). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 325: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 325: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 325: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 325: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 325: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 326: Soñó con 'voz_propia_extraña' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 326: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 326: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 326: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 326: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 326: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 326: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 326: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 326: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 327: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 327: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 327: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 327: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 327: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 327: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 328: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 328: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 328: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 328: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 328: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 329: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 329: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 329: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 329: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 329: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 330: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 330: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 330: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 330: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 330: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Soñó con 'habitación_prohibida' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 331: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 331: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 331: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 331: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 331: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 331: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 331: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 331: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 331: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 331: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 332: Soñó con 'libro_en_lengua_muerta' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 332: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 332: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 333: Soñó con 'papel_sin_actor' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 333: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 333: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 333: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 333: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 333: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 333: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 334: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 334: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 334: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 334: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 335: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 335: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 335: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 335: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 335: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 335: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 336: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 336: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 336: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 336: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 336: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 337: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 337: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 338: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 338: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 338: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 338: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 338: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 338: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 339: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 339: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 339: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 339: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 339: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 339: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 339: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 340: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 340: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 340: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 340: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 340: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 340: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 340: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 340: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Soñó con 'caída_sin_fondo' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 341: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 341: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 341: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Soñó con 'árbol_que_aprieta' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 342: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 342: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 342: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 342: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 343: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 343: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 344: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 344: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 344: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 344: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 344: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 344: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 345: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 345: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 345: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 345: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 345: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 346: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 346: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 346: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 347: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 347: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 347: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 347: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 347: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 347: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 347: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 347: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 348: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 348: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Soñó con 'mandala_incompleto' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 349: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 349: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 350: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 350: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 350: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 350: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 350: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 350: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 350: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 350: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 351: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 351: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 351: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 351: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 351: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 352: Soñó con 'aplauso_vacío' (persona). Insight: El montana alta amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 352: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 352: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 352: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 352: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 352: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 353: Soñó con 'roca_que_aplasta' (persona). Insight: El persona ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 353: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 354: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 354: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 354: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 354: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 354: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 354: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 354: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 354: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 355: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 355: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 355: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 355: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 355: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 355: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Soñó con 'cima_en_niebla' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 356: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 356: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 356: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 357: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 357: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 357: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 358: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 358: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 358: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 358: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 358: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 358: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 359: Soñó con 'voz_propia_extraña' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 359: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 359: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 360: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 360: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 360: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 360: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Soñó con 'silencio_absoluto' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 361: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 361: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 361: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Soñó con 'silencio_absoluto' (anima_animus). Insight: El anima_animus proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 362: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 362: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 363: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 363: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 363: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 363: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 363: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 364: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 364: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 364: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 364: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 364: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 365: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 365: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 365: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 365: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 365: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 365: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 365: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 366: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 366: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 366: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 366: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 366: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 366: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 366: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 366: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 366: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 366: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 367: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 367: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 367: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 367: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 367: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 367: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 367: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 367: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 367: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 367: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 368: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 368: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 368: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 368: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 368: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 368: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 369: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 369: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 369: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 369: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 369: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 369: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 369: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 369: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 369: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 369: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 370: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 370: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 370: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 370: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 370: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 371: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 371: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 371: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 371: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 371: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 371: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 371: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 371: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 371: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 372: Soñó con 'caída_sin_fondo' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 372: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 372: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 372: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 372: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 373: Soñó con 'centro_sin_lugar' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 373: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 373: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 373: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 373: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 373: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 373: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 374: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 374: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 374: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 374: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 374: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 374: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 374: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 374: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 374: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 374: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 374: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 374: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 375: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 375: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 375: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 375: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 375: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 375: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 375: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 376: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 376: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 376: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 376: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 376: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 376: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 376: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 376: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 376: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 376: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 376: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Soñó con 'mandala_incompleto' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 377: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 377: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 377: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Soñó con 'leche_amarga' (madre). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el madre lo señala sin piedad.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 378: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 378: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 379: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 379: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 379: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 379: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 379: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 379: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 380: Soñó con 'aplauso_vacío' (persona). Insight: En montana alta, el persona no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 380: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 380: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 380: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 380: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 380: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 381: Soñó con 'papel_sin_actor' (persona). Insight: El persona expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 381: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 381: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 381: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 382: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 382: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 382: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 382: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 382: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 382: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Soñó con 'caída_sin_fondo' (persona). Insight: El persona crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 383: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 383: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 383: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 383: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 383: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 384: Soñó con 'habitación_prohibida' (persona). Insight: El montana alta amplifica la tensión del persona; colapso civilizatorio presiona desde adentro.
+- Día 384: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 384: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 384: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 384: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 384: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 384: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 384: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 384: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 384: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 384: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 384: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 385: Soñó con 'cima_en_niebla' (persona). Insight: En montana alta el persona se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 385: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 385: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 385: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 385: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 385: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 385: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 385: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 385: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 386: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 386: Soñó con 'silencio_absoluto' (persona). Insight: El persona crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 386: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 386: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 386: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 386: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 386: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 386: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 386: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 386: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 386: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 386: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 387: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 387: Soñó con 'aplauso_vacío' (persona). Insight: El persona ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 387: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 387: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 387: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 387: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 387: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 388: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 388: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 388: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 389: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 389: Soñó con 'figura_que_sigue' (persona). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el persona lo señala sin piedad.
+- Día 389: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 389: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 389: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 389: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 389: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 389: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 390: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 390: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 390: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 390: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 391: Soñó con 'cima_en_niebla' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 391: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 391: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 391: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 391: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 391: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 391: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 391: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 391: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 392: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 392: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 392: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 392: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 392: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 392: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 392: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 393: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 393: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 393: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 393: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 393: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 393: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 393: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 393: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 393: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 393: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 394: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 394: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 394: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 394: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 394: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 394: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 394: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 394: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 394: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 394: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 395: Soñó con 'voz_propia_extraña' (self). Insight: En montana alta, el self no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 395: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 395: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 395: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 396: Soñó con 'cima_en_niebla' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 396: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 396: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 396: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 396: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 396: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 396: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 397: Soñó con 'figura_que_sigue' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 397: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 397: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 397: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 397: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 397: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 397: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 397: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 398: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 398: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 398: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 398: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 398: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 399: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 399: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 399: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 399: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 400: Soñó con 'figura_que_sigue' (self). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 400: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 400: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 401: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 401: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 401: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 401: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 401: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 401: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 401: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 401: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 401: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 401: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 402: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 402: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 402: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 402: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 402: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 402: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 403: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 403: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 403: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 404: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 404: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 404: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 405: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 405: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 405: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 405: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 405: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 405: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 405: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 406: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 406: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 406: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 406: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 406: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 406: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 406: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 406: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 406: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 406: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 407: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 407: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 407: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 407: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 408: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 408: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 408: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 408: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 408: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 408: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 408: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 408: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 409: Cooperó de forma mutua y armónica con Euros. Su lazo social se fortaleció.
+- Día 409: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 409: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 409: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Soñó con 'habitación_prohibida' (madre). Insight: El madre crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 410: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 410: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 410: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 411: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 411: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 411: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 412: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 412: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 413: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 413: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 414: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 414: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 414: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 414: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 415: Soñó con 'silencio_pleno' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 415: Revivió el recuerdo de Falleció Euros.
+- Día 415: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 415: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 415: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 416: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 416: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 417: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 417: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 418: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 418: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 419: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 419: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 419: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Soñó con 'silencio_pleno' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 420: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 420: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 420: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 420: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 421: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 422: Revivió el recuerdo de Falleció Euros.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 422: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 423: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 423: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 423: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 424: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 425: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 425: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 425: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 425: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 425: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 426: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 426: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 426: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 426: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 427: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 427: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 428: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 428: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 428: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 429: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 429: Revivió el recuerdo de Falleció Euros.
+- Día 429: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 429: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 429: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 430: Soñó con 'leche_amarga' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 430: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 430: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 430: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 431: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 431: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 432: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 432: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 432: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 433: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 433: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 433: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 434: Soñó con 'leche_amarga' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 434: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 434: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 435: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 435: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 435: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 435: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 435: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Soñó con 'leche_amarga' (madre). Insight: El madre expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 436: Revivió el recuerdo de Falleció Euros.
+- Día 436: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 436: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Soñó con 'habitación_prohibida' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 437: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 437: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Soñó con 'voz_propia_extraña' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 438: Presencia inquietante — Euros no tiene lugar de descanso.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 438: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Soñó con 'roca_que_aplasta' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 439: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Soñó con 'habitación_prohibida' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 440: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 440: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 440: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 441: Soñó con 'voz_propia_extraña' (madre). Insight: El madre crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 441: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 441: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Soñó con 'nido_que_asfixia' (madre). Insight: colapso civilizatorio enciende el madre en montana alta hasta quemar lo que toca.
+- Día 442: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 442: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 443: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 443: Revivió el recuerdo de Falleció Euros.
+- Día 443: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 443: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 444: Soñó con 'roca_que_aplasta' (madre). Insight: El madre proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 444: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 444: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 445: Soñó con 'espejo_que_miente' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 445: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 445: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 445: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 446: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 446: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 446: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 447: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 447: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 447: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 448: Soñó con 'mandala_incompleto' (self). Insight: El montana alta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 448: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 448: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Soñó con 'centro_sin_lugar' (self). Insight: El montana alta amplifica la tensión del self; colapso civilizatorio presiona desde adentro.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 449: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 450: Soñó con 'figura_que_sigue' (self). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 450: Revivió el recuerdo de Falleció Euros.
+- Día 450: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 450: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 450: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 450: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 451: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 451: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 452: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 453: Soñó con 'figura_que_sigue' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 453: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 453: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 454: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 454: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 455: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 455: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 455: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Soñó con 'voz_sin_cuerpo' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 456: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 456: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 457: Revivió el recuerdo de Falleció Euros.
+- Día 457: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 457: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Soñó con 'cima_en_niebla' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 458: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 458: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 459: Soñó con 'espejo_que_miente' (madre). Insight: El montana alta amplifica la tensión del madre; colapso civilizatorio presiona desde adentro.
+- Día 459: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 459: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Soñó con 'árbol_que_aprieta' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 460: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 460: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 460: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 460: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 461: Soñó con 'nido_que_asfixia' (madre). Insight: En montana alta, el madre no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 461: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 461: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Soñó con 'habitación_prohibida' (madre). Insight: En montana alta el madre se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 462: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Soñó con 'cima_en_niebla' (madre). Insight: En montana alta, colapso civilizatorio aparece en el otro — el madre no se reconoce.
+- Día 463: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 463: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Soñó con 'figura_que_sigue' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 464: Revivió el recuerdo de Falleció Euros.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 464: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 465: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 465: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 465: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 465: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 466: Soñó con 'habitación_prohibida' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 466: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 466: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 467: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 468: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 468: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 468: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 469: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 469: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 470: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 470: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 470: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 471: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 471: Revivió el recuerdo de Falleció Euros.
+- Día 471: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 471: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 472: Soñó con 'espejo_que_miente' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 472: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 473: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 474: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 474: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 475: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 475: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 475: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 475: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Soñó con 'cima_en_niebla' (sombra). Insight: El montana alta amplifica la tensión del sombra; colapso civilizatorio presiona desde adentro.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 476: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 477: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 477: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 477: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 478: Soñó con 'caída_sin_fondo' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 478: Revivió el recuerdo de Falleció Euros.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 478: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 479: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 480: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 480: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 480: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 480: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 480: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 481: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 481: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 482: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 482: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 483: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 483: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 483: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Soñó con 'aplauso_vacío' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 484: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 484: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 485: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 485: Revivió el recuerdo de Falleció Euros.
+- Día 485: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 485: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 485: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 486: Soñó con 'silencio_absoluto' (self). Insight: colapso civilizatorio enciende el self en montana alta hasta quemar lo que toca.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 486: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 487: Soñó con 'papel_sin_actor' (self). Insight: El self expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 487: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 488: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 489: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 489: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 489: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 490: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 490: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Macaon, cediendo recursos biológicos.
+- Día 490: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 491: Soñó con 'máscara_cosida_a_cara' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 491: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 491: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 492: Revivió el recuerdo de Falleció Euros.
+- Día 492: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 492: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Soñó con 'silencio_absoluto' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 493: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 493: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 494: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, el self encuentra tregua provisional con colapso civilizatorio.
+- Día 495: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 495: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 495: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 496: Soñó con 'voz_propia_extraña' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en montana alta para no caer.
+- Día 496: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 496: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Soñó con 'espejo_que_miente' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 497: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 498: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 498: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 498: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Soñó con 'habitación_prohibida' (self). Insight: El self crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 499: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 499: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 500: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, colapso civilizatorio aparece en el otro — el self no se reconoce.
+- Día 500: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 500: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 500: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 500: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 501: Soñó con 'roca_que_aplasta' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 501: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 501: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 502: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 502: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 502: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Soñó con 'silencio_pleno' (self). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el self lo señala sin piedad.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 503: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 504: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 504: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 504: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 505: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 505: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 505: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 506: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 506: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 506: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 507: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 507: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 507: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Soñó con 'unión_imposible' (sombra). Insight: El sombra y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 508: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 509: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 509: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 509: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 510: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 510: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 510: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 510: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el sombra respira.
+- Día 511: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 511: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 512: Soñó con 'roca_que_aplasta' (self). Insight: El self crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 512: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 512: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 513: Soñó con 'voz_propia_extraña' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en montana alta para no caer.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 513: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 514: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 514: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 514: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 515: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus expulsa colapso civilizatorio hacia montana alta: allá afuera, entre los demás.
+- Día 515: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 515: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 515: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 516: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 516: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 517: Soñó con 'mandala_incompleto' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 517: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 518: Soñó con 'mandala_incompleto' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 518: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 519: Soñó con 'mandala_incompleto' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 519: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 519: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 520: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 520: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 520: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 521: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 521: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 521: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 522: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, el sombra toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 522: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Soñó con 'complemento_ausente' (anima_animus). Insight: El anima_animus descansa en montana alta mientras colapso civilizatorio aguarda en el umbral.
+- Día 523: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 523: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Soñó con 'mandala_incompleto' (self). Insight: El self y colapso civilizatorio se toleran esta noche en montana alta.
+- Día 524: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 524: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Soñó con 'voz_propia_extraña' (self). Insight: El self busca equilibrio en montana alta compensando la energía de colapso civilizatorio.
+- Día 525: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 525: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 525: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 526: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra se disfraza de su contrario en montana alta, lejos de colapso civilizatorio.
+- Día 526: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 526: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 527: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta, el anima_animus negocia con colapso civilizatorio en el único idioma posible: el silencio.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 527: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 528: Soñó con 'silencio_absoluto' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 528: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Soñó con 'habitación_prohibida' (self). Insight: En montana alta, colapso civilizatorio pierde fuerza un instante — el self respira.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 529: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 530: Soñó con 'cima_en_niebla' (self). Insight: colapso civilizatorio pesa demasiado — el self cede terreno en montana alta para no caer.
+- Día 530: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 530: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 530: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 530: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 531: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 532: Soñó con 'habitación_prohibida' (sombra). Insight: colapso civilizatorio enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 532: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 533: Soñó con 'voz_propia_extraña' (sombra). Insight: Entre sombras de montana alta, el sombra y colapso civilizatorio coexisten sin resolverse.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 533: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 534: Soñó con 'silencio_absoluto' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 534: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 534: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 535: Soñó con 'figura_que_sigue' (self). Insight: En montana alta el self se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 535: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 535: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 535: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 535: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 536: Soñó con 'centro_sin_lugar' (self). Insight: El self proyecta colapso civilizatorio sobre el horizonte de montana alta.
+- Día 536: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 536: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 537: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 537: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 537: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra toma prestada la forma opuesta para alejarse de colapso civilizatorio.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 538: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Soñó con 'unión_imposible' (self). Insight: El self ve colapso civilizatorio afuera en montana alta, donde no puede alcanzarlo.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 539: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 540: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 540: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 540: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 541: Soñó con 'danza_a_solas' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 541: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 542: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: colapso civilizatorio enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 542: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 542: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 543: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio aparece en el otro — el sombra no se reconoce.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 544: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 545: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; colapso civilizatorio es el combustible.
+- Día 545: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 545: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 545: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 545: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 546: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 547: Soñó con 'danza_a_solas' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 547: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Soñó con 'danza_a_solas' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 548: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 549: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 550: Soñó con 'reflejo_que_actúa_solo' (anima_animus). Insight: El montana alta amplifica la tensión del anima_animus; colapso civilizatorio presiona desde adentro.
+- Día 550: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 550: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 550: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 550: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 551: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 551: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 551: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Soñó con 'nido_que_asfixia' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 552: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 552: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Soñó con 'habitación_prohibida' (anima_animus). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 553: Sufrió explotación y hostilidad de Keleos, cediendo recursos biológicos.
+- Día 554: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, colapso civilizatorio tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 554: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra crece desmedido en montana alta — colapso civilizatorio lo empuja sin nombre.
+- Día 555: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 555: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 555: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, el sombra no puede contenerse — colapso civilizatorio alimenta el fuego.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 556: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 557: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 558: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 559: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 560: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 560: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 560: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Soñó con 'caída_sin_fondo' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 561: Revivió el recuerdo de Falleció Euros.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 561: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 562: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 563: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 563: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 564: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 565: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 565: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 565: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Soñó con 'silencio_absoluto' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 566: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Soñó con 'figura_que_sigue' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 567: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 568: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 569: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Soñó con 'montaña_que_escalar' (self). Insight: El self proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 570: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 570: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 570: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 571: Revivió el recuerdo de Falleció Euros.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 571: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 572: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: El anima_animus ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 573: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Soñó con 'caída_sin_fondo' (self). Insight: disociacion sombra enciende el self en montana alta hasta quemar lo que toca.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 574: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Soñó con 'habitación_prohibida' (self). Insight: El self expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 575: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 575: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 575: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 576: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, el self no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 577: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Soñó con 'caída_sin_fondo' (self). Insight: En montana alta el self se expande más allá del control; disociacion sombra es el combustible.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 578: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Soñó con 'voz_propia_extraña' (self). Insight: En montana alta el self se expande más allá del control; disociacion sombra es el combustible.
+- Día 579: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 579: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Soñó con 'mandala_incompleto' (self). Insight: En montana alta, disociacion sombra aparece en el otro — el self no se reconoce.
+- Día 580: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 580: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 580: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Soñó con 'espejo_que_miente' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 581: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 582: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 583: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 584: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 584: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Soñó con 'centro_sin_lugar' (self). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el self lo señala sin piedad.
+- Día 585: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 585: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 585: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 586: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 586: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 587: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 588: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 589: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Soñó con 'voz_propia_extraña' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 590: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 590: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 590: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 591: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 592: Soñó con 'mandala_incompleto' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 592: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 592: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Soñó con 'caída_sin_fondo' (anima_animus). Insight: disociacion sombra enciende el anima_animus en montana alta hasta quemar lo que toca.
+- Día 593: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 593: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 594: Soñó con 'figura_que_sigue' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 594: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Soñó con 'voz_sin_cuerpo' (anima_animus). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 595: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 595: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 595: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 596: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 597: Soñó con 'roca_que_aplasta' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 597: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 598: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 599: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Soñó con 'caída_sin_fondo' (anima_animus). Insight: El anima_animus crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 600: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 600: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 600: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Soñó con 'silencio_absoluto' (anima_animus). Insight: En montana alta el anima_animus se expande más allá del control; disociacion sombra es el combustible.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 601: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Soñó con 'espejo_que_miente' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 602: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Soñó con 'caída_sin_fondo' (anima_animus). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el anima_animus lo señala sin piedad.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 603: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 604: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 605: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 605: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 605: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Soñó con 'silencio_absoluto' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 606: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Soñó con 'complemento_ausente' (anima_animus). Insight: En montana alta, el anima_animus no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 607: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Soñó con 'habitación_prohibida' (anima_animus). Insight: En montana alta, disociacion sombra aparece en el otro — el anima_animus no se reconoce.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 608: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra ve disociacion sombra afuera en montana alta, donde no puede alcanzarlo.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 609: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 610: Revivió el recuerdo de Falleció Euros.
+- Día 610: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 610: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 610: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 611: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 611: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Soñó con 'figura_que_sigue' (self). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el self lo señala sin piedad.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 612: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 613: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Soñó con 'espejo_que_miente' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 614: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 615: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 615: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 615: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Soñó con 'figura_que_sigue' (sombra). Insight: En montana alta, el sombra no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 616: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Soñó con 'habitación_prohibida' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 617: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Soñó con 'montaña_que_escalar' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 618: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 618: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 619: Revivió el recuerdo de Falleció Euros.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 619: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Soñó con 'voz_propia_extraña' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 620: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 620: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 620: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el sombra lo señala sin piedad.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 621: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 622: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 623: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Soñó con 'espejo_que_miente' (self). Insight: disociacion sombra enciende el self en montana alta hasta quemar lo que toca.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 624: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Soñó con 'habitación_prohibida' (self). Insight: El self proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 625: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 625: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 625: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 625: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, el sombra no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 626: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 627: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 627: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 628: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Soñó con 'cima_en_niebla' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 629: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 630: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 630: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 630: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Soñó con 'silencio_pleno' (self). Insight: En montana alta, disociacion sombra tiene el rostro de otro — el self lo señala sin piedad.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 631: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 632: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 633: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 633: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 634: Revivió el recuerdo de Falleció Euros.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 634: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Soñó con 'cima_en_niebla' (sombra). Insight: En montana alta, disociacion sombra aparece en el otro — el sombra no se reconoce.
+- Día 635: Revivió el recuerdo de Falleció Euros.
+- Día 635: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 635: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 635: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Soñó con 'espejo_que_miente' (self). Insight: En montana alta el self se expande más allá del control; disociacion sombra es el combustible.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 636: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Soñó con 'centro_sin_lugar' (self). Insight: El self expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 637: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Soñó con 'roca_que_aplasta' (sombra). Insight: En montana alta, el sombra no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 638: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Soñó con 'voz_propia_extraña' (sombra). Insight: En montana alta, el sombra no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 639: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Soñó con 'habitación_prohibida' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 640: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 640: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 640: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra expulsa disociacion sombra hacia montana alta: allá afuera, entre los demás.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 641: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Soñó con 'espejo_que_miente' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 642: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 643: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Soñó con 'espejo_que_miente' (sombra). Insight: El montana alta amplifica la tensión del sombra; disociacion sombra presiona desde adentro.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 644: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Soñó con 'habitación_prohibida' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 645: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 645: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 645: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 646: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 646: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Soñó con 'roca_que_aplasta' (sombra). Insight: disociacion sombra enciende el sombra en montana alta hasta quemar lo que toca.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 647: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Soñó con 'voz_propia_extraña' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 648: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Soñó con 'espejo_que_miente' (sombra). Insight: En montana alta el sombra se expande más allá del control; disociacion sombra es el combustible.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 649: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Soñó con 'figura_que_sigue' (sombra). Insight: El sombra proyecta disociacion sombra sobre el horizonte de montana alta.
+- Día 650: El 'Símbolo Oscuro de Sombra' genera presagios inquietantes.
+- Día 650: El 'Objeto Tapu de Sombra' genera presagios inquietantes.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 650: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Soñó con 'silencio_absoluto' (self). Insight: El montana alta amplifica la tensión del self; disociacion sombra presiona desde adentro.
+- Día 651: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 651: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Soñó con 'silencio_pleno' (self). Insight: En montana alta, el self no puede contenerse — disociacion sombra alimenta el fuego.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 652: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Soñó con 'habitación_prohibida' (self). Insight: El self crece desmedido en montana alta — disociacion sombra lo empuja sin nombre.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 653: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Soñó con 'roca_que_aplasta' (self). Insight: El montana alta amplifica la tensión del self; disociacion sombra presiona desde adentro.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Daeira, cediendo recursos biológicos.
+- Día 654: Sufrió explotación y hostilidad de Dione, cediendo recursos biológicos.
+- Día 655: Falleció a causa de causa_liminal_inexplicable.
