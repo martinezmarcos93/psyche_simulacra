@@ -8,11 +8,13 @@ El formato es: SIM:<8 chars del hostname>:<uuid4 corto>
 
 from __future__ import annotations
 
+import os
 import socket
 import uuid
 from pathlib import Path
 
-_SIM_ID_FILE = Path("data") / "sim_id.txt"
+_DATA_DIR    = Path(os.environ.get("SIM_DATA_DIR", "data"))
+_SIM_ID_FILE = _DATA_DIR / "sim_id.txt"
 
 
 def load_or_create_sim_id() -> str:

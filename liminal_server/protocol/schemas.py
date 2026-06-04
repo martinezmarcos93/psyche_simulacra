@@ -16,10 +16,11 @@ PROTOCOL_VERSION = "0.1.0"
 
 class MsgType(str, Enum):
     # SIM → SERVER
-    SIM_CONNECT        = "sim_connect"
-    AGENT_ENTER        = "agent_enter"
-    MYTH_CRYSTALLIZED  = "myth_crystallized"   # un mito cristalizó en esta sim
-    PING               = "ping"
+    SIM_CONNECT             = "sim_connect"
+    AGENT_ENTER             = "agent_enter"
+    MYTH_CRYSTALLIZED       = "myth_crystallized"    # un mito cristalizó en esta sim
+    DIALOGUE_TURN_RESPONSE  = "dialogue_turn_response"  # sim devuelve un turno generado
+    PING                    = "ping"
 
     # SERVER → SIM
     SIM_REGISTERED   = "sim_registered"
@@ -27,9 +28,12 @@ class MsgType(str, Enum):
     SIM_DISCONNECTED = "sim_disconnected"
     AGENT_PLACED     = "agent_placed"
     AGENT_ARRIVED    = "agent_arrived"
-    AGENT_RETURN     = "agent_return"     # servidor devuelve agente a su sim de origen
-    AGENTS_MEET      = "agents_meet"      # dos agentes de distintas sims en el mismo hex
-    MYTH_BROADCAST   = "myth_broadcast"   # eco de un mito cristalizado en otra sim
+    AGENT_RETURN     = "agent_return"       # servidor devuelve agente a su sim de origen
+    AGENTS_MEET      = "agents_meet"        # dos agentes de distintas sims en el mismo hex
+    MYTH_BROADCAST   = "myth_broadcast"     # eco de un mito cristalizado en otra sim
+    DIALOGUE_START          = "dialogue_start"          # inicio de diálogo (informativo)
+    DIALOGUE_TURN_REQUEST   = "dialogue_turn_request"   # servidor pide un turno de diálogo
+    DIALOGUE_COMPLETE       = "dialogue_complete"       # transcripción completa del diálogo
     PONG             = "pong"
     ERROR            = "error"
 

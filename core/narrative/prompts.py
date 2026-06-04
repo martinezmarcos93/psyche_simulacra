@@ -82,6 +82,57 @@ def prompt_elegia(
     )
 
 
+def prompt_dialogo(
+    agent_name:      str,
+    tribe_name:      str,
+    bioma:           str,
+    local_myths:     list[dict],
+    local_symbols:   dict[str, float],
+    local_lexicon:   list[str],
+    local_memories:  list[str],
+    other_name:      str,
+    other_tribe:     str,
+    other_myths:     list[dict],
+    other_symbols:   dict[str, float],
+    previous_turns:  list[dict],
+    turn_number:     int,
+) -> str:
+    def _fmt_myths(myths: list[dict]) -> str:
+        if not myths:
+            return "ninguno aún"
+        return "; ".join(f'"{m["name"]}" ({m["tipo"]})' for m in myths[:3])
+
+    def _fmt_symbols(symbols: dict[str, float]) -> str:
+        top = sorted(symbols.items(), key=lambda x: x[1], reverse=True)[:3]
+        return ", ".join(f"{k} ({v:.2f})" for k, v in top if v > 0.05) or "ninguno"
+
+    last_said = ""
+    if previous_turns:
+        last = previous_turns[-1]
+        last_said = f'Ellos acaban de decir: "{last["text"]}"\n'
+    else:
+        last_said = "Este es el primer contacto. No ha habido palabras aún.\n"
+
+    return (
+        f"{_SISTEMA}\n\n"
+        f"Eres {agent_name}, del pueblo {tribe_name or 'sin nombre aún'}, "
+        f"nacido/a en {bioma or 'tierras desconocidas'}.\n"
+        f"Los mitos de tu pueblo: {_fmt_myths(local_myths)}.\n"
+        f"Los símbolos que dominan tu espíritu colectivo: {_fmt_symbols(local_symbols)}.\n"
+        f"Las palabras sagradas de tu tribu: {', '.join(local_lexicon[:5]) or 'aún no hay lengua'}.\n"
+        f"Tu memoria reciente: {'; '.join(local_memories[-2:]) or 'nada digno de mención'}.\n\n"
+        f"Frente a ti, en un espacio entre mundos, está {other_name} "
+        f"del pueblo {other_tribe or 'desconocido'}.\n"
+        f"Los mitos de su civilización: {_fmt_myths(other_myths)}.\n"
+        f"Sus símbolos: {_fmt_symbols(other_symbols)}.\n"
+        f"{last_said}\n"
+        f"Responde en primera persona como {agent_name} en 60-80 palabras. "
+        f"Habla desde tu identidad cultural con el tono de alguien que cruza un umbral sagrado. "
+        f"No uses lenguaje moderno ni tecnológico. "
+        f"{'Inicia el encuentro con asombro y una pregunta simbólica.' if turn_number == 0 else 'Responde al mensaje anterior con profundidad mítica.'}"
+    )
+
+
 def prompt_profecia(
     tribe_name:      str,
     arquetipo:       str,

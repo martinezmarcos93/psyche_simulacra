@@ -85,21 +85,38 @@ class LiminalClient:
 
     def send_agent_enter(
         self,
-        agent_id:   str,
-        nombre:     str,
-        archetypes: dict,
-        traits:     dict,
-        tribe_id:   str | None = None,
+        agent_id:         str,
+        nombre:           str,
+        archetypes:       dict,
+        traits:           dict,
+        tribe_id:         str | None = None,
+        cultural_payload: dict | None = None,
     ) -> None:
         """Encola un evento agent_enter para enviarlo al servidor."""
         self._outgoing.put({
-            "type":       "agent_enter",
-            "sim_id":     self.sim_id,
-            "agent_id":   agent_id,
-            "nombre":     nombre,
-            "archetypes": archetypes,
-            "traits":     traits,
-            "tribe_id":   tribe_id,
+            "type":            "agent_enter",
+            "sim_id":          self.sim_id,
+            "agent_id":        agent_id,
+            "nombre":          nombre,
+            "archetypes":      archetypes,
+            "traits":          traits,
+            "tribe_id":        tribe_id,
+            "cultural_payload": cultural_payload or {},
+        })
+
+    def send_dialogue_turn(
+        self,
+        dialogue_id: str,
+        agent_id:    str,
+        text:        str,
+    ) -> None:
+        """Encola la respuesta de un turno de diálogo."""
+        self._outgoing.put({
+            "type":        "dialogue_turn_response",
+            "sim_id":      self.sim_id,
+            "dialogue_id": dialogue_id,
+            "agent_id":    agent_id,
+            "text":        text,
         })
 
     def send_myth_event(

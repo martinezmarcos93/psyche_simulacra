@@ -19,6 +19,7 @@ if TYPE_CHECKING:
 
 _DEFAULT_DB          = "data/db/simulation.db"
 _DEFAULT_CHECKPOINTS = "data/checkpoints"
+_DEFAULT_VAULT       = os.environ.get("VAULT_PATH", "vault")
 _CHECKPOINT_EVERY    = int(os.environ.get("CHECKPOINT_INTERVAL", "10"))  # días simulados
 
 
@@ -36,6 +37,7 @@ class SimulationRunner:
         seed:           int = 42,
         db_path:        str = _DEFAULT_DB,
         checkpoint_dir: str = _DEFAULT_CHECKPOINTS,
+        vault_path:     str = _DEFAULT_VAULT,
     ) -> None:
         self.clock  = SimulationClock(start_dia=0, start_hora=6)
         self.world  = WorldCore(seed=seed)
@@ -44,8 +46,8 @@ class SimulationRunner:
         self.buffer = WriteBuffer(self.db)
         self.cp_mgr = CheckpointManager(checkpoint_dir=checkpoint_dir, db=self.db)
         self.session = SessionLog(self.db)
-        self.obsidian_sync      = ObsidianSync(vault_path="vault")
-        self.narrator           = NarratorEngine(vault_path="vault")
+        self.obsidian_sync      = ObsidianSync(vault_path=vault_path)
+        self.narrator           = NarratorEngine(vault_path=vault_path)
         self.emergence_metrics  = EmergenceMetrics()
         self.metrics_exporter   = MetricsExporter()
 
@@ -419,10 +421,12 @@ class SimulationRunner:
         seed:           int = 42,
         db_path:        str = _DEFAULT_DB,
         checkpoint_dir: str = _DEFAULT_CHECKPOINTS,
+        vault_path:     str = _DEFAULT_VAULT,
     ) -> SimulationRunner:
         """Crea una nueva simulación desde el archivo de semillas."""
         # Limpiar base de datos vieja
         db_file = Path(db_path)
+        db_file.parent.mkdir(parents=True, exist_ok=True)
         if db_file.exists():
             try:
                 db_file.unlink()
@@ -441,7 +445,7 @@ class SimulationRunner:
                     print(f"[new_session] checkpoint cleanup error {f.name}: {e}", file=sys.stderr)
 
         # Limpiar archivos viejos del Obsidian vault
-        vault_dir = Path("vault")
+        vault_dir = Path(vault_path)
         if vault_dir.exists():
             for sub in ["Personas", "Colectivo", "Meta", "Tribus"]:
                 sub_dir = vault_dir / sub
@@ -460,7 +464,7 @@ class SimulationRunner:
                     except Exception as e:
                         print(f"[new_session] vault cleanup error {f.name}: {e}", file=sys.stderr)
 
-        runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
+        runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir, vault_path=vault_path)
         runner.agents = AgentCore.from_yaml(seed_file, runner.world, seed=seed)
         runner.obsidian_sync.sync_from_vault(runner.agents.agents)
         runner._wire_handlers()
@@ -473,6 +477,7 @@ class SimulationRunner:
         checkpoint_path: str | None = None,
         db_path:         str = _DEFAULT_DB,
         checkpoint_dir:  str = _DEFAULT_CHECKPOINTS,
+        vault_path:      str = _DEFAULT_VAULT,
     ) -> SimulationRunner:
         """Reanuda desde el checkpoint más reciente (o uno específico)."""
         tmp_cp = CheckpointManager(checkpoint_dir=checkpoint_dir)
@@ -481,7 +486,7 @@ class SimulationRunner:
         # El seed del mundo está guardado en data["world"]["seed"]
         seed = data.get("world", {}).get("seed", 42)
 
-        runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir)
+        runner = cls(seed=seed, db_path=db_path, checkpoint_dir=checkpoint_dir, vault_path=vault_path)
 
         # Restaurar clock con el día/hora del checkpoint
         runner.clock = SimulationClock.from_dict(data["reloj"])

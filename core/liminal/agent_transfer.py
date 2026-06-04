@@ -8,6 +8,7 @@ dispara el envío al servidor. También procesa los eventos entrantes del servid
 from __future__ import annotations
 
 import logging
+import threading
 from typing import TYPE_CHECKING
 
 from core.time import TimePoint
@@ -17,6 +18,7 @@ if TYPE_CHECKING:
     from core.agents.agent_core import AgentCore
     from core.liminal.liminal_client import LiminalClient
     from core.liminal.portal_hex import PortalHex
+    from core.liminal.dialogue_writer import DialogueWriter
 
 logger = logging.getLogger("liminal.transfer")
 
@@ -43,28 +45,54 @@ _ARCH_RESONANCE: dict[str, str] = {
 _DEFAULT_RESONANCE = "eco_de_otro_mundo"
 
 
+def _fallback_turn(agent_name: str, local: dict, other: dict, turn: int) -> str:
+    """Turno de fallback cuando Ollama no está disponible."""
+    tribe = local.get("tribe_name") or "mi pueblo"
+    other_tribe = other.get("tribe_name") or "vuestra civilización"
+    if turn == 0:
+        return (
+            f"Yo, {agent_name}, del pueblo {tribe}, te encuentro aquí "
+            f"donde los mundos se tocan. ¿Qué fuerzas te guiaron a este umbral?"
+        )
+    return (
+        f"Las palabras de {other_tribe} resuenan en mi espíritu. "
+        f"Mi pueblo conoce un camino diferente, pero reconozco en ti "
+        f"la misma sed de lo sagrado que nos mueve a todos."
+    )
+
+
 class AgentTransferHandler:
     """
     Registrado en SimulationClock a priority=25 (entre AgentCore y persistencia).
     En cada tick:
       1. Detecta agentes que pisaron el portal → los transfiere.
-      2. Procesa eventos entrantes del servidor (agent_arrived, etc.).
+      2. Procesa eventos entrantes del servidor (agent_arrived, diálogos, etc.).
     """
 
     def __init__(
         self,
-        agent_core: AgentCore,
-        portal:     PortalHex,
-        client:     LiminalClient,
+        agent_core:      "AgentCore",
+        portal:          "PortalHex",
+        client:          "LiminalClient",
+        dialogue_writer: "DialogueWriter | None" = None,
     ) -> None:
         self._agents = agent_core
         self._portal = portal
         self._client = client
-        self._in_transit: set[str] = set()      # IDs enviados pero aún sin confirmación
-        self._transit_ticks: dict[str, int] = {}  # agent_id → ticks acumulados en tránsito
-        self._liminal_agents: dict[str, dict] = {}  # agent_id → datos del liminal
-        self._return_cooldown: dict[str, int] = {}  # agent_id → ticks restantes post-retorno
-        self._broadcast_myths: set[str] = set()  # myth.name ya enviados al servidor
+        self._dialogue_writer = dialogue_writer
+
+        self._in_transit: set[str] = set()
+        self._transit_ticks: dict[str, int] = {}
+        self._liminal_agents: dict[str, dict] = {}
+        self._return_cooldown: dict[str, int] = {}
+        self._broadcast_myths: set[str] = set()
+
+        # Diálogos activos: dialogue_id → metadata
+        self._active_dialogues: dict[str, dict] = {}
+
+        # OllamaClient instanciado bajo demanda (lazy) para generación de diálogo
+        self._ollama: object | None = None
+        self._ollama_checked: bool = False
 
     # ── SimulationClock handler ───────────────────────────────────────────────
 
@@ -137,23 +165,22 @@ class AgentTransferHandler:
             if self._portal.agent_at_portal(agent):
                 self._transfer_agent(agent)
 
-    def _transfer_agent(self, agent: Agent) -> None:
+    def _transfer_agent(self, agent: "Agent") -> None:
         logger.info(f"Agente '{agent.nombre}' cruzó el portal → enviando al liminal")
 
-        # Marcar como in_liminal — lo excluye del AgentCore desde el próximo tick
         agent.in_liminal = True
         self._in_transit.add(agent.id)
         self._transit_ticks[agent.id] = 0
 
-        # Serializar arquetipos y rasgos para el protocolo
         archetypes = {k: round(v, 4) for k, v in agent.archetypes.to_dict().items()}
         traits = {k: round(v, 3) for k, v in agent.traits.to_dict().items()}
 
-        # Obtener tribu si existe
-        tribe_id = None
         tm = getattr(self._agents, "tribe_manager", None)
+        tribe_id = None
         if tm is not None:
             tribe_id = getattr(tm, "get_tribe_id", lambda x: None)(agent.id)
+
+        cultural_payload = self._build_cultural_payload(agent, tribe_id)
 
         self._client.send_agent_enter(
             agent_id=agent.id,
@@ -161,7 +188,55 @@ class AgentTransferHandler:
             archetypes=archetypes,
             traits=traits,
             tribe_id=tribe_id,
+            cultural_payload=cultural_payload,
         )
+
+    def _build_cultural_payload(self, agent: "Agent", tribe_id: str | None) -> dict:
+        """Recolecta el contexto cultural del agente y su tribu para el payload liminal."""
+        payload: dict = {
+            "tribe_name":       "",
+            "bioma":            "",
+            "civilization_age": 0,
+            "myths":            [],
+            "symbols":          {},
+            "lexicon":          [],
+            "memories":         [],
+        }
+
+        tm = getattr(self._agents, "tribe_manager", None)
+        if tm is not None and tribe_id:
+            payload["tribe_name"] = getattr(tm, "get_tribe_display_name",
+                                            lambda t, a: t)(tribe_id, self._agents.agents)
+            lf = tm.local_fields.get(tribe_id)
+            if lf:
+                top = sorted(lf.symbols.items(), key=lambda x: x[1], reverse=True)[:3]
+                payload["symbols"] = {k: round(v, 3) for k, v in top if v > 0.05}
+
+            me = tm.local_myths.get(tribe_id)
+            if me:
+                payload["myths"] = [
+                    {"name": m.name, "tipo": m.tipo, "intensity": round(m.intensidad, 2)}
+                    for m in sorted(me.active_myths, key=lambda m: m.intensidad, reverse=True)[:3]
+                ]
+
+        lex_sys = getattr(self._agents, "emergent_lexicon", None)
+        if lex_sys is not None and tribe_id:
+            lex = lex_sys.get(tribe_id)
+            if lex:
+                payload["lexicon"] = list(lex.words.values())[:5]
+
+        if hasattr(agent, "episodic_log") and agent.episodic_log:
+            # Filtra entradas interesantes: sueños, encuentros, mitos
+            notable = [e for e in agent.episodic_log if any(
+                kw in e for kw in ("SUEÑO", "LIMINAL", "MITO", "COMPLEJO", "RITUAL")
+            )][-3:] or agent.episodic_log[-3:]
+            payload["memories"] = notable
+
+        clock = getattr(self._agents, "_clock", None) or getattr(self._agents, "clock", None)
+        if clock is not None:
+            payload["civilization_age"] = getattr(clock, "dia_simulado", 0)
+
+        return payload
 
     # ── Procesamiento de eventos del servidor ─────────────────────────────────
 
@@ -190,6 +265,15 @@ class AgentTransferHandler:
             elif msg_type == "myth_broadcast":
                 self._handle_myth_broadcast(event)
 
+            elif msg_type == "dialogue_start":
+                self._handle_dialogue_start(event)
+
+            elif msg_type == "dialogue_turn_request":
+                self._handle_dialogue_turn_request(event)
+
+            elif msg_type == "dialogue_complete":
+                self._handle_dialogue_complete(event)
+
             elif msg_type == "agent_arrived":
                 nombre   = event.get("nombre", "?")
                 from_sim = event.get("from_sim", "?")
@@ -208,6 +292,148 @@ class AgentTransferHandler:
 
             elif msg_type == "sim_joined":
                 logger.info(f"[LIMINAL] Nueva simulación conectada: {event.get('sim_id')}")
+
+    # ── Diálogo liminal ───────────────────────────────────────────────────────
+
+    def _get_ollama(self):
+        if self._ollama_checked:
+            return self._ollama
+        self._ollama_checked = True
+        try:
+            from core.narrative.ollama_client import OllamaClient
+            client = OllamaClient()
+            if client.is_available():
+                self._ollama = client
+                logger.info("[DIÁLOGO] OllamaClient listo (modelo: %s)", client.model)
+            else:
+                logger.warning("[DIÁLOGO] Ollama no disponible — los turnos usarán fallback")
+        except Exception as exc:
+            logger.warning("[DIÁLOGO] No se pudo inicializar OllamaClient: %s", exc)
+        return self._ollama
+
+    def _handle_dialogue_start(self, event: dict) -> None:
+        dlg_id   = event.get("dialogue_id", "?")
+        name_a   = event.get("agent_a_name", "?")
+        name_b   = event.get("agent_b_name", "?")
+        self._active_dialogues[dlg_id] = event
+        logger.info(f"[DIÁLOGO] Iniciado '{dlg_id}': {name_a} ↔ {name_b}")
+
+    def _handle_dialogue_turn_request(self, event: dict) -> None:
+        """El servidor pide que esta sim genere el próximo turno del diálogo."""
+        dlg_id   = event.get("dialogue_id", "")
+        agent_id = event.get("agent_id", "")
+        logger.info(f"[DIÁLOGO] Turno solicitado para agente {agent_id[:12]}… (diálogo {dlg_id})")
+
+        # Obtener el agente local (puede estar in_liminal=True, lo cual es correcto)
+        agent = self._agents.agents.get(agent_id)
+        agent_name = agent.nombre if agent else event.get("agent_name", "desconocido")
+
+        # Lanzar generación en hilo separado para no bloquear el tick loop
+        t = threading.Thread(
+            target=self._generate_and_send_turn,
+            args=(event, agent_name),
+            daemon=True,
+            name=f"DialogueTurn-{dlg_id[:8]}",
+        )
+        t.start()
+
+    def _generate_and_send_turn(self, event: dict, agent_name: str) -> None:
+        """Corre en hilo de fondo: genera texto con LLM y envía la respuesta."""
+        from core.narrative.prompts import prompt_dialogo
+
+        dlg_id         = event.get("dialogue_id", "")
+        agent_id       = event.get("agent_id", "")
+        local_payload  = event.get("local_payload", {})
+        other_payload  = event.get("other_payload", {})
+        previous_turns = event.get("previous_turns", [])
+        turn_number    = event.get("turn_number", 0)
+
+        text = None
+        ollama = self._get_ollama()
+        if ollama is not None:
+            try:
+                p = prompt_dialogo(
+                    agent_name     = agent_name,
+                    tribe_name     = local_payload.get("tribe_name", ""),
+                    bioma          = local_payload.get("bioma", ""),
+                    local_myths    = local_payload.get("myths", []),
+                    local_symbols  = local_payload.get("symbols", {}),
+                    local_lexicon  = local_payload.get("lexicon", []),
+                    local_memories = local_payload.get("memories", []),
+                    other_name     = event.get("other_agent_name", "el Desconocido"),
+                    other_tribe    = other_payload.get("tribe_name", ""),
+                    other_myths    = other_payload.get("myths", []),
+                    other_symbols  = other_payload.get("symbols", {}),
+                    previous_turns = previous_turns,
+                    turn_number    = turn_number,
+                )
+                text = ollama.generate(p, max_tokens=120)
+                logger.info(f"[DIÁLOGO] Turno generado para '{agent_name}': {len(text or '')} chars")
+            except Exception as exc:
+                logger.warning(f"[DIÁLOGO] Error generando turno: {exc}")
+
+        if not text:
+            text = _fallback_turn(agent_name, local_payload, other_payload, turn_number)
+
+        self._client.send_dialogue_turn(
+            dialogue_id=dlg_id,
+            agent_id=agent_id,
+            text=text,
+        )
+
+    def _handle_dialogue_complete(self, event: dict) -> None:
+        """El diálogo terminó — registrar en memoria, vault y campo colectivo."""
+        dlg_id  = event.get("dialogue_id", "")
+        turns   = event.get("turns", [])
+        a_name  = event.get("agent_a_name", "?")
+        b_name  = event.get("agent_b_name", "?")
+        sim_a   = event.get("sim_a", "?")
+        sim_b   = event.get("sim_b", "?")
+
+        self._active_dialogues.pop(dlg_id, None)
+
+        logger.info(
+            f"[DIÁLOGO] Completo '{dlg_id}': {len(turns)} turnos entre "
+            f"'{a_name}' y '{b_name}'"
+        )
+
+        # Registrar en episodic_log del agente local que participó
+        for entry in (event.get("agent_a_id", ""), event.get("agent_b_id", "")):
+            agent = self._agents.agents.get(entry)
+            if agent and hasattr(agent, "episodic_log"):
+                other = b_name if agent.nombre == a_name else a_name
+                snippet = turns[-1]["text"][:80] if turns else ""
+                agent.episodic_log.append(
+                    f"[DIÁLOGO_LIMINAL] Crucé palabras con {other} de otra civilización. "
+                    f"Sus últimas palabras: «{snippet}»"
+                )
+
+        # Presión mítica: un diálogo inter-civilizacional es un evento mayor
+        intensity = min(1.0, 0.3 * len(turns))
+        self._agents.collective_field.absorb_event("dialogo_liminal", intensity=intensity)
+
+        # Escribir al vault
+        if self._dialogue_writer is not None:
+            local_p = event.get("local_payload", {})
+            other_p = event.get("other_payload", {})
+            # Calcular el día actual
+            dia = local_p.get("civilization_age", 0) or other_p.get("civilization_age", 0)
+            try:
+                self._dialogue_writer.write(
+                    dialogue_id   = dlg_id,
+                    agent_a_name  = a_name,
+                    sim_a         = sim_a,
+                    tribe_a       = local_p.get("tribe_name", "") if sim_a == self._client.sim_id else other_p.get("tribe_name", ""),
+                    agent_b_name  = b_name,
+                    sim_b         = sim_b,
+                    tribe_b       = other_p.get("tribe_name", "") if sim_a == self._client.sim_id else local_p.get("tribe_name", ""),
+                    local_payload = local_p,
+                    other_payload = other_p,
+                    turns         = turns,
+                    dia           = dia,
+                )
+            except Exception as exc:
+                logger.warning(f"[DIÁLOGO] Error escribiendo transcripción: {exc}")
 
     def _handle_agent_return(self, event: dict) -> None:
         """El servidor devuelve un agente a esta simulación con los datos de sus encuentros."""
