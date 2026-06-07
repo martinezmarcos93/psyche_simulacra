@@ -92,6 +92,13 @@ class AffectiveOperator:
         need = max(agent.needs.hambre, agent.needs.sed)
         valence += (stim.benefit - stim.threat) * need * 0.3
 
+        # Apraisal dependiente del estado: un agente ANSIOSO aprecia la misma situación
+        # más negativamente (la ansiedad tiñe lo neutro de amenaza). Es lo que permite
+        # que la MISMA categoría se sienta a veces bien y a veces mal según el estado
+        # interno → ambivalencia → la incoherencia (neurosis) emerge en quien sufre, no
+        # en quien está sereno. Content-free: solo un escalar de estado ya calculado.
+        valence -= agent.ansiedad * 0.4
+
         valence = max(-1.0, min(1.0, valence))
 
         # Arousal: la saliencia es la base; la amenaza activa más que el beneficio.

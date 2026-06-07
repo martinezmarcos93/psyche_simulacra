@@ -28,6 +28,17 @@ if TYPE_CHECKING:
 
 from .neuron import Neuron
 
+
+def neuron_id(significante: str, valence: float) -> str:
+    """
+    Clave de neurona = categoría física + signo de la valencia. Separar por signo es lo
+    que permite la AMBIVALENCIA: la misma categoría sentida a veces bien (+) y a veces
+    mal (−) crea dos neuronas que pueden coexistir y entrar en tensión. Sin esto, la
+    carga se promedia a ~0 y la incoherencia (neurosis) nunca emerge. Content-free: solo
+    el signo de un escalar de Capa A, ningún símbolo del diseñador.
+    """
+    return f"{significante}:{'p' if valence >= 0.0 else 'n'}"
+
 # Umbral de vocabulario: un símbolo del campo cuenta como "cristalizado" (disponible
 # para que una neurona lo tome como arquetipo_resonante) a partir de esta carga.
 # Mismo criterio que el préstamo de frame del InterpretiveFilter (Fase 1).
@@ -37,6 +48,10 @@ _CAP_NEURONAS    = 50      # techo de neuronas; se podan las de menor energía
 _DECAY_FACTOR    = 0.92    # decaimiento diario de energía
 _MIN_ENERGY      = 0.02    # por debajo de esto la neurona se olvida
 _LINK_WEIGHT     = 0.10    # incremento de peso por enlace exitoso
+# Una neurona sigue "caliente" (candidata a enlazarse con lo nuevo) mientras su energía
+# supere esto. Enlazar lo percibido hoy con lo latente —no solo con lo del mismo día—
+# permite que creencias de signo opuesto entren en tensión: la incoherencia EMERGE.
+_LINK_ACTIVE_THRESHOLD = 0.20
 _MAX_ARCH_DELTA  = 0.03    # tope de feedback diario a un arquetipo (como sueños/sustancias)
 
 # Moduladores de la temperatura del colapso por fase de vida (ruido/plasticidad).
@@ -96,10 +111,10 @@ class MentalVault:
         # ── 1. Crear/reforzar ─────────────────────────────────────────────────
         touched: list[Neuron] = []
         for rec in records:
-            nid = rec["significante"]
+            nid = neuron_id(rec["significante"], rec["valence"])
             neuron = self.neurons.get(nid)
             if neuron is None:
-                neuron = Neuron(id=nid, significante=nid)
+                neuron = Neuron(id=nid, significante=rec["significante"])
                 self.neurons[nid] = neuron
             # Energía sube con la intensidad del evento.
             neuron.estado_energetico = min(1.0, neuron.estado_energetico + rec["intensity"])
@@ -113,25 +128,44 @@ class MentalVault:
                 touched.append(neuron)
 
         # ── 2. Enlazado por resonancia (la misma física, a escala individual) ──
-        if len(touched) >= 2 and records:
-            arousal_dia = sum(r["arousal"] for r in records) / len(records)
-            energia_cand = sum(n.estado_energetico for n in touched) / len(touched)
-            fase_factor = _FASE_FACTOR.get(fase_desarrollo, 1.0)
+        # Candidatos = lo percibido hoy ∪ lo que sigue "caliente" en la mente. Enlazar lo
+        # nuevo con lo latente (no solo con lo del mismo día) es lo que permite que
+        # creencias de signo opuesto se conecten y entren en tensión → la incoherencia
+        # (neurosis) emerge. Sigue siendo umbral + azar, igual que un mito. Sin reglas.
+        if touched and records:
+            cand_map = {n.id: n for n in self.neurons.values()
+                        if n.estado_energetico >= _LINK_ACTIVE_THRESHOLD}
+            for n in touched:
+                cand_map[n.id] = n
+            candidates = cand_map
 
-            ctx = ContextoEnunciativo(
-                temperatura_semantica = min(1.0, arousal_dia),
-                intencionalidad       = min(1.0, energia_cand),
-                # La niñez sube el ruido (umbral efectivo más bajo); el adulto lo baja.
-                ruido_ambiental       = min(1.0, ansiedad * fase_factor),
-            )
-            prob = min(1.0, ctx.probabilidad_cristalizacion() * fase_factor)
+            if len(candidates) >= 2:
+                arousal_dia = sum(r["arousal"] for r in records) / len(records)
+                energia_cand = sum(n.estado_energetico for n in candidates.values()) / len(candidates)
+                fase_factor = _FASE_FACTOR.get(fase_desarrollo, 1.0)
 
-            for i in range(len(touched)):
-                for j in range(i + 1, len(touched)):
+                ctx = ContextoEnunciativo(
+                    temperatura_semantica = min(1.0, arousal_dia),
+                    intencionalidad       = min(1.0, energia_cand),
+                    # La niñez sube el ruido (umbral efectivo más bajo); el adulto lo baja.
+                    ruido_ambiental       = min(1.0, ansiedad * fase_factor),
+                )
+                prob = min(1.0, ctx.probabilidad_cristalizacion() * fase_factor)
+
+                # Pares no ordenados: cada neurona nueva con cada candidato. Orden
+                # determinista (sorted) → reproducible con la misma semilla.
+                touched_ids = [n.id for n in touched]
+                pairs: set = set()
+                for a_id in touched_ids:
+                    for b_id in candidates:
+                        if a_id != b_id:
+                            pairs.add(tuple(sorted((a_id, b_id))))
+
+                for id_a, id_b in sorted(pairs):
                     if rng.random() < prob:
-                        a, b = touched[i], touched[j]
-                        a.enlaces[b.id] = min(1.0, a.enlaces.get(b.id, 0.0) + _LINK_WEIGHT)
-                        b.enlaces[a.id] = min(1.0, b.enlaces.get(a.id, 0.0) + _LINK_WEIGHT)
+                        na, nb = candidates[id_a], candidates[id_b]
+                        na.enlaces[id_b] = min(1.0, na.enlaces.get(id_b, 0.0) + _LINK_WEIGHT)
+                        nb.enlaces[id_a] = min(1.0, nb.enlaces.get(id_a, 0.0) + _LINK_WEIGHT)
 
         # ── 3. Resonancia arquetípica emergente (préstamo, gated por umbral) ───
         if field is not None:

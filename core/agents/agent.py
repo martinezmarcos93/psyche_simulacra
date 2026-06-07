@@ -409,6 +409,20 @@ class Agent:
         if not self.is_alive:
             return None
 
+        # Ecuación personal: percibir SIEMPRE (una vez por tick), no solo al decidir
+        # socialmente. Las decisiones de supervivencia hacen override y retornan antes
+        # de llegar al colapso; si solo percibiéramos ahí, el mini cerebro nunca vería
+        # la amenaza/escasez —lo más saliente— y la incoherencia interna no podría
+        # emerger. Aquí solo se percibe y acumula; la modulación del colapso sigue en
+        # _decide_via_collapse, reutilizando este mismo PerceivedEvent.
+        if self._interpretive_filter is not None:
+            stim = self._build_stimulus(snapshot, hay_aliados)
+            self.last_perceived_event = self._interpretive_filter.interpret(
+                stim, self, collective_field
+            )
+            if self.mental_vault is not None:
+                self.mental_vault.accumulate(self.last_perceived_event)
+
         # Disociación por sombra — override de toda la lógica normal (Hito B)
         if self.dissociation_state is not None:
             tipo = self.dissociation_state.tipo
@@ -518,16 +532,17 @@ class Agent:
 
         # Ecuación personal: interpretar el estímulo presente como respuesta afectiva
         # escalar y dejar que module el colapso (canal Capa A, sin contenido simbólico).
+        # Reutiliza el PerceivedEvent ya construido por decide_action en este tick (la
+        # percepción + acumulación al vault ocurren allí). Fallback defensivo si se
+        # llamara fuera de ese flujo.
         interpretive_influence = None
         if self._interpretive_filter is not None:
-            stim = self._build_stimulus(snapshot, hay_aliados)
-            pe = self._interpretive_filter.interpret(stim, self, collective_field)
-            self.last_perceived_event = pe
+            pe = self.last_perceived_event
+            if pe is None:
+                stim = self._build_stimulus(snapshot, hay_aliados)
+                pe = self._interpretive_filter.interpret(stim, self, collective_field)
+                self.last_perceived_event = pe
             interpretive_influence = pe.action_bias()
-            # El mini cerebro acumula la carga escalar del evento para consolidar al fin
-            # del día (Fase 2). Barato: solo guarda escalares de Capa A.
-            if self.mental_vault is not None:
-                self.mental_vault.accumulate(pe)
 
         accion = collapse_state(
             state            = self.behavioral_state,
