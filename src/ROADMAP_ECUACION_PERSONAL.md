@@ -140,6 +140,25 @@ forastero, encuentro liminal. La categoría es física; el significado emerge.
 **Prioridad:** Media · **Riesgo:** Medio · **Valor:** Alto *si la Fase 1 valida*
 **Esfuerzo:** 4–6 sesiones · **Condición de entrada:** la Fase 1 debe mostrar impacto
 medible en divergencia KL antes de comprometer esto.
+**Estado:** ✅ Implementada (2026-06-07) — desactivada por defecto (`MENTAL_VAULT_ENABLED`,
+exige el filtro ON). Decisión explícita: se construyó pese a que la Fase 1 sola no pasó su
+gate arquetípico, porque el diagnóstico mostró que ese gate era estructural (el filtro mueve
+*conducta*, las métricas medían *arquetipos*). Para resolverlo se añadió un **instrumento de
+medición conductual/de campo** (`behavioral_kl`, `field_kl`, dispersión afectiva, coherencia
+de worldview) en `core/metrics/emergence.py`, y se mide A/B/C (OFF / filtro / filtro+vault)
+con `scripts/ab_interpretive.py` antes de diseñar cualquier ajuste.
+
+### Implementación entregada
+
+| Archivo | Rol |
+|---|---|
+| `core/agents/mental_vault/neuron.py` | `Neuron` — slots vacíos; `arquetipo_resonante` nace `None` |
+| `core/agents/mental_vault/mental_vault.py` | `MentalVault` — acumulación por tick + consolidación diaria por colapso (reusa `ContextoEnunciativo.probabilidad_cristalizacion`) |
+| `core/agents/quantum/collapse.py` | canal `noise` (incoherencia interna → entropía conductual) |
+| `core/agents/agent.py` | flag `MENTAL_VAULT_ENABLED`, `consolidate_mind()`, serialización |
+| `core/agents/agent_core.py` | consolidación diaria en `on_day` (paso 9b) |
+| `core/metrics/emergence.py` | instrumento conductual/de campo (camino c) |
+| `tests/test_mental_vault.py` | 13 tests: enlazado estocástico, resonancia emergente, fase, feedback, serialización, ruido |
 
 ### Qué es
 
