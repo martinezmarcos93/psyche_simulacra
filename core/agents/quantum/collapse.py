@@ -5,11 +5,14 @@ import random
 from .superposition import BehavioralState, BEHAVIORAL_STATES
 
 # Cuánto peso tienen cada fuente de influencia en el colapso
-_WEIGHT_ARCHETYPE  = 0.30
-_WEIGHT_COMPLEX    = 0.25
-_WEIGHT_TRAIT      = 0.20
-_WEIGHT_CONTEXT    = 0.15
-_WEIGHT_FIELD      = 0.10
+_WEIGHT_ARCHETYPE    = 0.30
+_WEIGHT_COMPLEX      = 0.25
+_WEIGHT_TRAIT        = 0.20
+_WEIGHT_CONTEXT      = 0.15
+_WEIGHT_FIELD        = 0.10
+# Ecuación personal (Fase 1 — InterpretiveFilter). La interpretación subjetiva del
+# estímulo presente modula el colapso como un canal más. Solo escalares Capa A.
+_WEIGHT_INTERPRETIVE = 0.15
 
 
 def collapse_state(
@@ -19,6 +22,7 @@ def collapse_state(
     complex_biases:   dict[str, float],
     trait_biases:     dict[str, float],
     field_influence:  dict[str, float] | None = None,
+    interpretive_influence: dict[str, float] | None = None,
     rng:              random.Random | None    = None,
 ) -> str:
     """
@@ -33,6 +37,9 @@ def collapse_state(
         complex_biases   : {acción: delta} de ComplexProfile.action_bias()
         trait_biases     : {acción: delta} de TraitProfile.action_bias()
         field_influence  : {acción: delta} del CollectiveField (Fase 7)
+        interpretive_influence : {acción: delta} de la ecuación personal del agente
+                                 (InterpretiveFilter, Fase 1). None si el filtro
+                                 está desactivado.
         rng              : Random opcional para reproducibilidad
 
     Retorna: str — uno de BEHAVIORAL_STATES
@@ -47,10 +54,12 @@ def collapse_state(
         trait_delta   = trait_biases.get(action, 0.0)     * _WEIGHT_TRAIT
         ctx_delta     = _context_bias(action, context)     * _WEIGHT_CONTEXT
         field_delta   = (field_influence or {}).get(action, 0.0) * _WEIGHT_FIELD
+        interp_delta  = (interpretive_influence or {}).get(action, 0.0) * _WEIGHT_INTERPRETIVE
 
         probs[action] = max(
             0.01,
-            probs[action] + arch_delta + complex_delta + trait_delta + ctx_delta + field_delta,
+            probs[action] + arch_delta + complex_delta + trait_delta
+            + ctx_delta + field_delta + interp_delta,
         )
 
     # Renormalizar

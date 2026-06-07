@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import os
 import random
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 from core.interface import ActionType, WorldAction, WorldSnapshot
+from core.interface.perceived_event import PerceivedEvent, Stimulus
+from .psyche.interpretive_filter import InterpretiveFilter
 from core.time import TimePoint
 from core.world.substances import SUBSTANCES, SUBSTANCE_NAMES
 from core.social.perception import PerceptionSystem
@@ -33,6 +36,12 @@ _EDAD_NINEZ           = 6    # hasta esta edad: alta plasticidad, imprinting (R5
 _EDAD_INFANCIA        = 15   # antes de esta edad el agente es dependiente
 _EDAD_VEJEZ_INICIO    = 50   # a partir de aquí hay riesgo de muerte por vejez
 _PROB_BASE_VEJEZ      = 0.01 # probabilidad anual base; se duplica cada 5 años
+
+# Ecuación Personal (Fase 1 — InterpretiveFilter). Desactivado por defecto para
+# preservar la reproducibilidad de corridas existentes. Activar con flag para A/B.
+_INTERPRETIVE_FILTER_ENABLED = (
+    os.environ.get("INTERPRETIVE_FILTER_ENABLED", "0").strip() not in ("0", "false", "no")
+)
 
 
 class Agent:
@@ -134,6 +143,14 @@ class Agent:
 
         # Percepción limitada: radio de visión, rumores y sesgo causal
         self._perception = PerceptionSystem()
+
+        # Ecuación personal (Fase 1): el filtro interpretativo content-free.
+        # Stateless — toda la varianza viene de la psique del agente en cada llamada.
+        self._interpretive_filter: InterpretiveFilter | None = (
+            InterpretiveFilter() if _INTERPRETIVE_FILTER_ENABLED else None
+        )
+        # Última interpretación subjetiva (observabilidad / narrativa LLM). No se serializa.
+        self.last_perceived_event: PerceivedEvent | None = None
 
     # ── Ciclo de vida ────────────────────────────────────────────────────────
 
@@ -459,6 +476,15 @@ class Agent:
         # Obtener influencia del campo memético colectivo
         field_influence = collective_field.radiate() if collective_field is not None else None
 
+        # Ecuación personal: interpretar el estímulo presente como respuesta afectiva
+        # escalar y dejar que module el colapso (canal Capa A, sin contenido simbólico).
+        interpretive_influence = None
+        if self._interpretive_filter is not None:
+            stim = self._build_stimulus(snapshot, hay_aliados)
+            pe = self._interpretive_filter.interpret(stim, self, collective_field)
+            self.last_perceived_event = pe
+            interpretive_influence = pe.action_bias()
+
         accion = collapse_state(
             state            = self.behavioral_state,
             context          = context,
@@ -466,6 +492,7 @@ class Agent:
             complex_biases   = complex_biases,
             trait_biases     = trait_biases,
             field_influence  = field_influence,
+            interpretive_influence = interpretive_influence,
             rng              = self._rng,
         )
 
@@ -521,6 +548,62 @@ class Agent:
             coord    = coord,
             params   = {"socializing": True},
             priority = 0.5,
+        )
+
+    # ── Ecuación personal: estímulo físico ────────────────────────────────────
+
+    def _build_stimulus(self, snapshot: WorldSnapshot, hay_aliados: bool) -> Stimulus:
+        """
+        Extrae el estímulo *físico* dominante de la situación presente. Solo
+        magnitudes y categorías físicas — ningún significado. El InterpretiveFilter
+        lo convierte luego en respuesta afectiva subjetiva.
+        """
+        coord = self.posicion
+
+        # Amenaza física inmediata
+        threat = snapshot.survival_risk
+        if snapshot.catastrofe_activa is not None:
+            threat = min(1.0, threat + 0.40)
+
+        # Beneficio local relativo a recursos en el hex actual
+        benefit = 0.0
+        resources = snapshot.recursos_por_hex.get(coord, {})
+        if resources:
+            benefit = min(1.0, sum(resources.values()))
+        fauna = snapshot.fauna_visible.get(coord, {})
+        if sum(fauna.values()) > 0.10:
+            benefit = min(1.0, benefit + 0.30)
+
+        social = 1.0 if hay_aliados else 0.0
+
+        # Estructura simbólica cercana (tumba sagrada activa dentro del radio)
+        grave_near = any(
+            abs(c[0] - coord[0]) + abs(c[1] - coord[1]) <= 3
+            for c, *_ in snapshot.graves_activos
+        )
+
+        # Categoría física dominante. Se usan nombres compatibles con la atención
+        # arquetípica (perception.ARCHETYPE_ATTENTION) cuando aplica, para que la
+        # resonancia pueda activarse; si no, una categoría genérica sin resonancia.
+        if threat >= 0.60 or snapshot.catastrofe_activa is not None:
+            kind = "clima_extremo" if snapshot.evento_climatico else "amenaza"
+        elif grave_near:
+            kind = "muerte"
+        elif benefit > 0.30:
+            kind = "recurso"
+        elif hay_aliados:
+            kind = "agente"
+        else:
+            kind = "neutro"
+
+        return Stimulus(
+            kind        = kind,
+            stimulus_id = f"{kind}@{coord[0]},{coord[1]}",
+            threat      = threat,
+            benefit     = benefit,
+            social      = social,
+            proximity   = 1.0,
+            raw         = {"coord": list(coord), "dia": snapshot.dia},
         )
 
     # ── Action builders ──────────────────────────────────────────────────────
