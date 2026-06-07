@@ -39,6 +39,10 @@ def _mean(xs):
 
 def main() -> None:
     flag = os.environ.get("INTERPRETIVE_FILTER_ENABLED", "0").strip() not in ("0", "false", "no")
+    vault = (
+        os.environ.get("MENTAL_VAULT_ENABLED", "0").strip() not in ("0", "false", "no")
+        and flag
+    )
 
     world  = WorldCore(seed=_SEED)
     agents = AgentCore.from_yaml(_SEED_FILE, world, seed=_SEED)
@@ -88,6 +92,7 @@ def main() -> None:
     q4 = series[3 * len(series) // 4:] or series
     result = {
         "filter":          flag,
+        "vault":           vault,
         "seed":            _SEED,
         "days_run":        len(series),
         "elapsed_s":       round(elapsed, 1),
@@ -102,6 +107,13 @@ def main() -> None:
         "n_tribes_q4":     round(_mean([m.n_tribes for m in q4]), 3),
         # KL normalizada por el nº de tribus (control aproximado del confound)
         "kl_per_tribe_q4": round(_mean([m.kl_mean for m in q4]) / max(1.0, _mean([m.n_tribes for m in q4])), 6),
+        # ── Instrumento de la Ecuación Personal (camino c) ───────────────────────
+        # Lo que el filtro/vault SÍ cambian primero: conducta, campo y afecto.
+        "behavioral_kl_q4": round(_mean([m.behavioral_kl_mean for m in q4]), 6),
+        "field_kl_q4":      round(_mean([m.field_kl_mean for m in q4]), 6),
+        "valence_std_q4":   round(_mean([m.valence_std for m in q4]), 6),
+        "arousal_std_q4":   round(_mean([m.arousal_std for m in q4]), 6),
+        "worldview_coh_q4": round(_mean([m.worldview_coherence_mean for m in q4]), 6),
     }
     print("AB_RESULT " + json.dumps(result))
 

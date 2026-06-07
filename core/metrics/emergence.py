@@ -6,6 +6,10 @@ from typing import TYPE_CHECKING
 
 _N_BINS = 5  # bins para discretizar arquetipos en el cálculo de MIG
 
+# Las 4 acciones del colapso conductual, en orden canónico (espejo de BEHAVIORAL_STATES).
+# Se define localmente para no acoplar el módulo de métricas a la capa cuántica.
+_ACTIONS: tuple[str, ...] = ("cooperacion", "competencia", "aislamiento", "manipulacion")
+
 if TYPE_CHECKING:
     from core.agents.agent_core import AgentCore
     from core.social.tribe_manager import TribeManager
@@ -40,6 +44,14 @@ class DayMetrics:
     n_alive: int
     n_tribes: int
     n_structures: int
+    # ── Instrumento de medición de la Ecuación Personal (camino c) ───────────────
+    # Las métricas arquetípicas (KL/MIG/IMI) NO detectan lo que el InterpretiveFilter
+    # cambia primero: la conducta y el afecto. Estas lentes complementarias sí.
+    behavioral_kl_mean: float = 0.0   # KL pairwise de distribuciones de acción por tribu
+    field_kl_mean: float = 0.0        # KL pairwise de símbolos entre campos locales
+    valence_std: float = 0.0          # dispersión de valence subjetiva (filtro ON; idiosincrasia)
+    arousal_std: float = 0.0          # dispersión de arousal subjetivo (filtro ON)
+    worldview_coherence_mean: float = 0.0  # coherencia media del MentalVault (vault ON)
 
 
 class EmergenceMetrics:
@@ -71,6 +83,10 @@ class EmergenceMetrics:
         imi                    = self._imi(alive, tribes)
         mig                    = self._mig(alive, tribes)
         n_structures           = len(culture_engine.structures) if culture_engine else 0
+        behavioral_kl_mean     = self._behavioral_divergence(alive, tribes)
+        field_kl_mean          = self._field_divergence(tribe_manager, tribes)
+        valence_std, arousal_std = self._affective_dispersion(alive)
+        worldview_coherence    = self._mean_worldview_coherence(alive)
 
         return DayMetrics(
             dia=dia,
@@ -83,6 +99,11 @@ class EmergenceMetrics:
             n_alive=len(alive),
             n_tribes=len(tribes),
             n_structures=n_structures,
+            behavioral_kl_mean=behavioral_kl_mean,
+            field_kl_mean=field_kl_mean,
+            valence_std=valence_std,
+            arousal_std=arousal_std,
+            worldview_coherence_mean=worldview_coherence,
         )
 
     # ── Distribuciones ────────────────────────────────────────────────────────
@@ -127,6 +148,81 @@ class EmergenceMetrics:
                     self._kl_divergence(tribe_dists[tids[i]], tribe_dists[tids[j]])
                 )
         return sum(kl_vals) / len(kl_vals), max(kl_vals)
+
+    # ── Instrumento de la Ecuación Personal (camino c) ────────────────────────
+
+    def _behavioral_divergence(self, alive: dict, tribes: dict[str, list[str]]) -> float:
+        """
+        KL pairwise medio entre las distribuciones de acción conductual de cada tribu.
+
+        El InterpretiveFilter modula el COLAPSO (cooperar/competir/aislar/manipular),
+        no los arquetipos. Esta lente mide directamente esa capa: si dos tribus actúan
+        de forma cada vez más distinta, la divergencia conductual sube — aunque KL/MIG
+        arquetípicos no se muevan.
+        """
+        dists: dict[str, list[float]] = {}
+        for tribe_id, member_ids in tribes.items():
+            counts = [0.0] * len(_ACTIONS)
+            n = 0
+            for aid in member_ids:
+                a = alive.get(aid)
+                if a is None:
+                    continue
+                accion = a.behavioral_state.ultimo_colapso
+                if accion in _ACTIONS:
+                    counts[_ACTIONS.index(accion)] += 1.0
+                    n += 1
+            if n == 0:
+                continue
+            total = sum(counts) + _EPSILON
+            dists[tribe_id] = [c / total for c in counts]
+        kl_mean, _ = self._pairwise_kl(dists)
+        return kl_mean
+
+    def _field_divergence(self, tribe_manager: "TribeManager", tribes: dict) -> float:
+        """
+        KL pairwise medio entre las distribuciones de símbolos de los campos locales.
+
+        Complementa a vfe_tribe_mean (que solo da entropía INTRA-campo): mide cuán
+        distintos son los inconscientes colectivos de tribus distintas entre sí.
+        """
+        dists: dict[str, list[float]] = {}
+        for tribe_id in tribes:
+            lf = tribe_manager.local_fields.get(tribe_id)
+            if lf is None:
+                continue
+            keys = sorted(lf.symbols.keys())
+            vals = [lf.symbols[k] for k in keys]
+            total = sum(vals) + _EPSILON
+            dists[tribe_id] = [v / total for v in vals]
+        kl_mean, _ = self._pairwise_kl(dists)
+        return kl_mean
+
+    def _affective_dispersion(self, alive: dict) -> tuple[float, float]:
+        """
+        Desviación estándar de valence y arousal subjetivos (de last_perceived_event).
+
+        Mide la idiosincrasia directa del filtro: la MISMA realidad física apreciada de
+        forma dispar entre psiques. 0.0 cuando el filtro está OFF (no hay PerceivedEvent).
+        """
+        valences = []
+        arousals = []
+        for a in alive.values():
+            pe = getattr(a, "last_perceived_event", None)
+            if pe is None:
+                continue
+            valences.append(pe.valence)
+            arousals.append(pe.arousal)
+        return _std(valences), _std(arousals)
+
+    def _mean_worldview_coherence(self, alive: dict) -> float:
+        """Coherencia media del MentalVault entre agentes que lo tienen (vault ON)."""
+        cohs = [
+            a.mental_vault.worldview_coherence()
+            for a in alive.values()
+            if getattr(a, "mental_vault", None) is not None
+        ]
+        return sum(cohs) / len(cohs) if cohs else 0.0
 
     # ── Variational Free Energy proxy ─────────────────────────────────────────
 
@@ -279,6 +375,15 @@ class EmergenceMetrics:
             mig_vals.append(mi / h_zk)
 
         return sum(mig_vals) / len(mig_vals) if mig_vals else 0.0
+
+
+def _std(xs: list[float]) -> float:
+    """Desviación estándar poblacional de una lista (0.0 si hay < 2 elementos)."""
+    if len(xs) < 2:
+        return 0.0
+    mean = sum(xs) / len(xs)
+    var = sum((x - mean) ** 2 for x in xs) / len(xs)
+    return var ** 0.5
 
 
 def _entropy(counts: list[int], total: int) -> float:
