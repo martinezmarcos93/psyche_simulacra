@@ -23,6 +23,7 @@ def collapse_state(
     trait_biases:     dict[str, float],
     field_influence:  dict[str, float] | None = None,
     interpretive_influence: dict[str, float] | None = None,
+    noise:            float                   = 0.0,
     rng:              random.Random | None    = None,
 ) -> str:
     """
@@ -40,6 +41,10 @@ def collapse_state(
         interpretive_influence : {acción: delta} de la ecuación personal del agente
                                  (InterpretiveFilter, Fase 1). None si el filtro
                                  está desactivado.
+        noise            : 0..1 — incoherencia interna del MentalVault (Fase 2). Aplana
+                                 las probabilidades hacia la uniforme: más incoherencia →
+                                 más entropía en el colapso (la "neurosis" emerge). 0.0
+                                 (default) → comportamiento byte-idéntico.
         rng              : Random opcional para reproducibilidad
 
     Retorna: str — uno de BEHAVIORAL_STATES
@@ -65,6 +70,14 @@ def collapse_state(
     # Renormalizar
     total = sum(probs.values())
     weights = [probs[a] / total for a in BEHAVIORAL_STATES]
+
+    # Ruido del MentalVault: interpola hacia la uniforme. A mayor incoherencia interna,
+    # más entropía en la decisión (agente más impredecible). noise=0 → sin efecto.
+    if noise > 0.0:
+        n = len(BEHAVIORAL_STATES)
+        unif = 1.0 / n
+        noise = max(0.0, min(1.0, noise))
+        weights = [(1.0 - noise) * w + noise * unif for w in weights]
 
     # Muestreo estocástico
     r = rng or random.Random()

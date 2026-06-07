@@ -8,6 +8,7 @@ from typing import TYPE_CHECKING
 from core.interface import ActionType, WorldAction, WorldSnapshot
 from core.interface.perceived_event import PerceivedEvent, Stimulus
 from .psyche.interpretive_filter import InterpretiveFilter
+from .mental_vault import MentalVault
 from core.time import TimePoint
 from core.world.substances import SUBSTANCES, SUBSTANCE_NAMES
 from core.social.perception import PerceptionSystem
@@ -41,6 +42,14 @@ _PROB_BASE_VEJEZ      = 0.01 # probabilidad anual base; se duplica cada 5 años
 # preservar la reproducibilidad de corridas existentes. Activar con flag para A/B.
 _INTERPRETIVE_FILTER_ENABLED = (
     os.environ.get("INTERPRETIVE_FILTER_ENABLED", "0").strip() not in ("0", "false", "no")
+)
+
+# Ecuación Personal (Fase 2 — MentalVault). El mini cerebro consume PerceivedEvents,
+# así que EXIGE el filtro ON. Si se pide el vault sin el filtro, se desactiva. También
+# OFF por defecto: corridas existentes byte-idénticas.
+_MENTAL_VAULT_ENABLED = (
+    os.environ.get("MENTAL_VAULT_ENABLED", "0").strip() not in ("0", "false", "no")
+    and _INTERPRETIVE_FILTER_ENABLED
 )
 
 
@@ -151,6 +160,15 @@ class Agent:
         )
         # Última interpretación subjetiva (observabilidad / narrativa LLM). No se serializa.
         self.last_perceived_event: PerceivedEvent | None = None
+
+        # Ecuación personal (Fase 2): el mini cerebro. Neuronas que se enlazan por la
+        # misma física de colapso del proyecto, una escala más abajo. Requiere el filtro.
+        self.mental_vault: MentalVault | None = (
+            MentalVault() if _MENTAL_VAULT_ENABLED else None
+        )
+        # Ruido conductual emergente de la incoherencia interna del vault (se aplica al
+        # colapso). 0.0 → sin efecto.
+        self._mind_ruido: float = 0.0
 
     # ── Ciclo de vida ────────────────────────────────────────────────────────
 
@@ -356,6 +374,28 @@ class Agent:
         if events:
             self.complexes.check_activation(events)
 
+    def consolidate_mind(self, field: "CollectiveField | None", dia: int) -> None:
+        """
+        Consolidación diaria del MentalVault (Fase 2). Llamado una vez por día por
+        AgentCore. Enlaza neuronas por resonancia, hace emerger arquetipos resonantes
+        del campo, y retroalimenta la psique: deltas acotados al ArchetypeVector (como
+        sueños/sustancias) + ruido conductual por incoherencia interna.
+        """
+        if self.mental_vault is None or not self.is_alive:
+            return
+        feedback = self.mental_vault.consolidate(
+            field           = field,
+            fase_desarrollo = self.fase_desarrollo,
+            ansiedad        = self.ansiedad,
+            rng             = self._rng,
+        )
+        for arch_key, delta in feedback["archetype_deltas"].items():
+            attr = "self_" if arch_key == "self" else arch_key
+            if hasattr(self.archetypes, attr):
+                current = getattr(self.archetypes, attr)
+                setattr(self.archetypes, attr, max(0.0, min(1.0, current + delta)))
+        self._mind_ruido = feedback["ruido"]
+
     # ── Decision ─────────────────────────────────────────────────────────────
 
     def decide_action(
@@ -484,6 +524,10 @@ class Agent:
             pe = self._interpretive_filter.interpret(stim, self, collective_field)
             self.last_perceived_event = pe
             interpretive_influence = pe.action_bias()
+            # El mini cerebro acumula la carga escalar del evento para consolidar al fin
+            # del día (Fase 2). Barato: solo guarda escalares de Capa A.
+            if self.mental_vault is not None:
+                self.mental_vault.accumulate(pe)
 
         accion = collapse_state(
             state            = self.behavioral_state,
@@ -493,6 +537,7 @@ class Agent:
             trait_biases     = trait_biases,
             field_influence  = field_influence,
             interpretive_influence = interpretive_influence,
+            noise            = self._mind_ruido,
             rng              = self._rng,
         )
 
@@ -933,6 +978,8 @@ class Agent:
             "dissociation_state":   self.dissociation_state.to_dict() if self.dissociation_state else None,
             "active_griefs":        [g.to_dict() for g in self.active_griefs],
             "resentments":          dict(self.resentments),
+            "mental_vault":     self.mental_vault.to_dict() if self.mental_vault else None,
+            "mind_ruido":       self._mind_ruido,
             "schedule":         self.schedule.to_dict(),
             "archetypes":       self.archetypes.to_dict(),
             "complexes":        self.complexes.to_dict(),
@@ -1010,5 +1057,12 @@ class Agent:
             a.dissociation_state = DissociativeState.from_dict(raw_ds)
         a.active_griefs = [GriefState.from_dict(g) for g in data.get("active_griefs", [])]
         a.resentments   = {k: float(v) for k, v in data.get("resentments", {}).items()}
+
+        # Ecuación personal (Fase 2): restaurar el mini cerebro si el flag está activo
+        # y el checkpoint lo trae. Si el flag está OFF, mental_vault queda None.
+        raw_mv = data.get("mental_vault")
+        if a.mental_vault is not None and raw_mv:
+            a.mental_vault = MentalVault.from_dict(raw_mv)
+        a._mind_ruido = float(data.get("mind_ruido", 0.0))
 
         return a

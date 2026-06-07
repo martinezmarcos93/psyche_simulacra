@@ -394,6 +394,14 @@ class AgentCore:
         # 9. Sueños nocturnos con entrelazamiento
         self._process_nightly_dreams(tp.dia_simulado)
 
+        # 9b. Consolidación del mini cerebro (Ecuación Personal, Fase 2). El inconsciente
+        #     personal cristaliza por la misma física que el colectivo, una escala abajo.
+        #     No-op si el flag MENTAL_VAULT_ENABLED está OFF (mental_vault es None).
+        for agent in self.agents.values():
+            if agent.is_alive and agent.mental_vault is not None:
+                local_field = self.tribe_manager.get_local_field(agent.id) or self.collective_field
+                agent.consolidate_mind(local_field, tp.dia_simulado)
+
         # 10. Contagio emocional: agentes muy ansiosos propagan miedo a sus vínculos (Hito 4)
         self._process_emotional_contagion(tp.dia_simulado)
 
