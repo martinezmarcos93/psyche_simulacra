@@ -117,11 +117,26 @@ class TestInterpretiveFilter:
         hostil = _make_agent(id="hostil")
         hostil.traits = TraitProfile(amabilidad=0.05, extraversion=0.2, paranoia=0.8)
 
+        # Para aislar el efecto de los rasgos, ambos en el mismo estado (sin ansiedad).
+        amable.ansiedad = hostil.ansiedad = 0.0
         pe_amable = f.interpret(stim, amable)
         pe_hostil = f.interpret(stim, hostil)
 
         # Mismo estímulo físico, valence subjetiva distinta.
         assert pe_amable.valence > pe_hostil.valence
+
+    def test_ansiedad_tine_la_valencia_negativamente(self):
+        # Apraisal dependiente de estado: el MISMO estímulo se aprecia peor cuando el
+        # agente ya está ansioso. Es lo que permite que la misma categoría se sienta a
+        # veces bien y a veces mal → ambivalencia → neurosis emergente.
+        f = InterpretiveFilter()
+        stim = Stimulus(kind="neutro", proximity=1.0)
+        sereno = _make_agent(id="sereno"); sereno.ansiedad = 0.0
+        ansioso = _make_agent(id="ansioso"); ansioso.ansiedad = 0.9
+        v_sereno = f.interpret(stim, sereno).valence
+        v_ansioso = f.interpret(stim, ansioso).valence
+        assert v_ansioso < v_sereno
+        assert v_ansioso < 0.0
 
 
 # ── collapse_state: el canal interpretativo modula el colapso ───────────────────
