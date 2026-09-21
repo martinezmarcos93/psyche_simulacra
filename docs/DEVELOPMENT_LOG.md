@@ -201,13 +201,57 @@ pendientes de prioridad media dejados en `handoffs/2026-09-21.md` §7.
   `docs/experiments/` cuando termine, actualizando
   `2026-09-21-fase1-ecuacion-personal.md` con la conclusión revisada.
 
-### Pendiente
+### Cierre de esta sesión (máquina de oficina) — handoff a máquina personal
 
-- Documentar los resultados de ambas corridas de arriba una vez terminen.
+Autorizado explícitamente por el usuario (`autorizo el push`): rama
+`feature/ecuacion-personal-continuacion` pusheada a `origin` (11 commits,
+`a5f87e3`..`90b4391`). `main` no se tocó.
+
+Ambas corridas largas (calibración de mitología, repetición A/B n=15) se
+**interrumpieron**: la máquina de oficina tiene solo 2 núcleos lógicos y cada
+corrida de 300 días tarda ~470-500s (no los ~150s de la sesión original) —
+proyectando >5h para el batch completo, inviable en esa máquina. Se
+reemplazó el bash one-off no versionado por `scripts/run_ab_batch.py`
+(commit `1dda8be`), portable y resumible con `--append`, para continuar en
+la máquina personal:
+
+```
+python scripts/run_ab_batch.py --seeds 42-56 --days 300 \
+    --output data/metrics/ab_interpretive_fase1_n15_2026-09-21.jsonl
+```
+
+**Hallazgo adicional durante la espera** (inspección manual del vault de
+Obsidian generado por el smoke test de `myth_calibration.py`, 600 días,
+seed 42): confirma en formato narrativo la sobre-cristalización ya medida
+numéricamente (3 mitos para el día 7: `Mito_moral_dia2`, `Cosmogonia_dia3`,
+`Mito_moral_dia7`). Más interesante — la `Cronica.md` exportada al día 500
+muestra un patrón saturado y perfectamente repetido: **"Eco del
+Multiverso"**, el arquetipo `muerte` resonando a intensidad máxima (1.00)
+simultáneamente en 14 tribus, idéntico día tras día (497-500). El mecanismo
+(`core/liminal/collective_echo.py`) es un feedback positivo real y
+diseñado: un símbolo que converge lo suficiente entre tribus se amplifica
+globalmente, lo cual facilita que vuelva a converger. Hipótesis abierta (no
+confirmada): la sobre-cristalización temprana de la extensión de
+`on_social_transmission` pudo haber sido la chispa que arrancó este loop de
+monocultivo simbólico — otra señal a favor de que los pesos actuales
+(commit `a5f87e3`) están mal calibrados, más allá del conteo de mitos.
+También se observó que los archivos por tribu/persona/meta del vault se
+congelan en el día ~30 (probablemente porque las tribus fundadoras se
+disuelven en el primer reclustering del escenario y el sistema no genera
+archivos nuevos para las tribus post-reclustering) — anotado como
+limitación conocida, no investigado a fondo por estar fuera de alcance.
+
+### Pendiente (para la sesión en la máquina personal)
+
+- Terminar y documentar el batch A/B n=15 (`run_ab_batch.py`, arriba).
+- Terminar el barrido de calibración de mitología (baseline choque-only vs.
+  pesos reducidos, 1200 días, seed 42 — comando en
+  `docs/experiments/` una vez se redacte ese documento) y fijar los pesos de
+  `_MYTH_TRANSMISSION_INTENSITY` con el resultado, no a ciegas.
+- Investigar si el "Eco del Multiverso" está relacionado causalmente con la
+  sobre-cristalización de la extensión de mitología (correlación observada,
+  no probada).
 - Fase 3 del roadmap Ecuación Personal (observabilidad) sigue sin iniciar —
-  condicionada a que la repetición del A/B con n=20 muestre impacto medible,
-  que es precisamente lo que la corrida en curso va a determinar.
+  condicionada a que la repetición del A/B muestre impacto medible.
 - `attributed_cause`/`moral_judgment` siguen sin ser leídos por
   `MentalVault.accumulate()` — sin cambios desde la sesión anterior.
-- No se hizo `git push` — instrucción explícita del usuario, commits solo
-  locales.
