@@ -97,7 +97,12 @@ SimulationClock (tick = 1 hora simulada)
 - **SocialNetwork** — grafo NetworkX con `bond_strength` ∈ [-1, 1], entrelazamiento cuántico termodinámico
 - **InteractionEngine** — encuentros zonales: cooperación pura, conflicto/explotación, choque violento, manipulación
 - **CollectiveField** — inconsciente colectivo global: 12 símbolos jungianos, `emotional_pressure`, `myth_pressure` (trauma sin narrativa), `confusion` epistémica; `ContextoEnunciativo` (temperatura × intencionalidad + ruido) controla cuándo y cómo colapsa un proto-mito
-- **MythologyEngine** — cristalización N-dimensional probabilística: `ProtoMito` (proto-estado) gana coherencia con cada transmisión social hasta cristalizar en `MythCrystal`. 5 tipos Campbell (cosmogonía/teogonía/antropogonía/escatología/mito_moral) mapeados desde 11 pares simbólicos. Cuando los protagonistas mueren el mito se convierte en `Leyenda` de intensidad decreciente (0.998/día) que irradia efectos sobre toda la tribu
+- **MythologyEngine** — cristalización N-dimensional probabilística: `ProtoMito` (proto-estado) gana coherencia con cada transmisión social hasta cristalizar en `MythCrystal`. 5 tipos Campbell (cosmogonía/teogonía/antropogonía/escatología/mito_moral) mapeados desde 11 pares simbólicos. La transmisión social ocurre en 3 de los 6 desenlaces posibles de un encuentro (choque violento, conflicto/explotación, cooperación pura), con intensidad relativa por tipo (`_MYTH_TRANSMISSION_INTENSITY`, calibrable por variable de entorno — ver `docs/experiments/`). Cuando los protagonistas mueren el mito se convierte en `Leyenda` de intensidad decreciente (0.998/día) que irradia efectos sobre toda la tribu
+
+### Ecuación Personal (percepción y cognición individual)
+- **InterpretiveFilter** (`INTERPRETIVE_FILTER_ENABLED=1`) — cada agente filtra el estímulo físico a través de 4 operadores content-free (atención, causa, evaluación afectiva, comparación social) antes de que llegue al colapso conductual; produce un `PerceivedEvent` con `valence`/`arousal` subjetivos y, por préstamo de vocabulario ya cristalizado (nunca inventado), `narrative_frame`/`attributed_cause`/`moral_judgment`. Desactivado por defecto — el experimento A/B no encontró efecto medible de divergencia cultural a la escala probada (ver `docs/experiments/`)
+- **MentalVault** (`MENTAL_VAULT_ENABLED=1`, requiere el filtro ON) — mini cerebro por agente: grafo de nodos con enlazado probabilístico y resonancia emergente, expone `worldview_coherence()`. Desactivado por defecto, misma razón que arriba
+- Detalle completo de ambos: `docs/AGENT_BRAIN.md`, `docs/MENTAL_VAULT.md`, `docs/EMERGENCE.md`
 
 ### Tribus y divergencia cultural
 - **TribeManager** — clustering via `greedy_modularity_communities` (NetworkX) cada 30 días
@@ -130,6 +135,7 @@ SimulationClock (tick = 1 hora simulada)
 - **VFE proxy** — entropía de Shannon del campo colectivo (incertidumbre del inconsciente)
 - **IMI** — fracción de varianza arquetípica explicada por membresía tribal; R² estilo Jain-Dubes
 - **MIG** — Mean Information Gain: I(z_k;v)/H(z_k) sobre 12 dimensiones arquetípicas; cuantifica cuánta información aporta la tribu sobre la psicología individual (Chen et al. 2018)
+- **Divergencia conductual/de campo (inter-tribu) e idiosincrasia (intra-tribu)** — `behavioral_kl_mean`/`field_kl_mean` miden qué tan distinto actúan y sienten las tribus entre sí; `behavioral_intra_tribe_dispersion` mide la variación de conducta dentro de cada tribu — instrumento pensado para la Ecuación Personal (ver `docs/experiments/`)
 - Exportación automática a `data/metrics/emergence_series.csv` y `emergence_summary.json`
 - `scripts/run_robustness.py` — suite de N ejecuciones con semillas distintas, salida JSON con KL/VFE/IMI/MIG
 - `scripts/plot_emergence.py` — genera PNG con 6 gráficas automáticas (KL, MIG, IMI, VFE, MIG vs tribus, supervivencia)
@@ -267,7 +273,7 @@ PSYCHE SIMULACRA/
 │   ├── plot_emergence.py             Reporte PNG con 6 graficas (KL, MIG, IMI, VFE, scatter, supervivencia)
 │   └── visualizer.py                 Visualizador Pygame en tiempo real
 │
-├── tests/                            390 tests (pytest)
+├── tests/                            434 tests (pytest)
 │   ├── test_agent.py
 │   ├── test_network.py
 │   ├── test_quantum.py
@@ -406,7 +412,7 @@ python scripts/run_robustness.py --runs 10 --days 200
 ## Tests
 
 ```bash
-python -m pytest                        # 390 tests
+python -m pytest                        # 434 tests
 python -m pytest -v                     # verbose
 python -m pytest --tb=short             # traceback corto
 python -m pytest tests/test_metrics.py -v   # solo metricas de emergencia
@@ -426,6 +432,16 @@ NARRATIVE_ENABLED=1                      # 0 para desactivar
 # Simulación
 CHECKPOINT_INTERVAL=10                   # días entre checkpoints automáticos
 DAYS_UNTIL_CLUSTERING=30                # días hasta primer clustering tribal
+
+# Ecuación Personal (desactivada por defecto — ver docs/experiments/)
+INTERPRETIVE_FILTER_ENABLED=0            # 1 activa el InterpretiveFilter
+MENTAL_VAULT_ENABLED=0                   # 1 activa el MentalVault (requiere el filtro ON)
+
+# Mitología (calibración — ver docs/experiments/)
+MYTH_CONTEXT_THRESHOLD=0.25              # umbral de contexto para nacer un proto-mito
+MYTH_TRANSMISSION_CHOQUE_VIOLENTO=1.00       # intensidad de transmisión — choque violento
+MYTH_TRANSMISSION_CONFLICTO_EXPLOTACION=0.50 # intensidad de transmisión — conflicto/explotación
+MYTH_TRANSMISSION_COOPERACION_PURA=0.25      # intensidad de transmisión — cooperación pura
 ```
 
 Todas las variables configurables también desde el launcher NiceGUI (sección **Configuración avanzada**) sin necesidad de editar archivos.
@@ -445,7 +461,7 @@ Todas las variables configurables también desde el launcher NiceGUI (sección *
 | Visualizador alternativo | Pygame (`scripts/visualizer.py`) |
 | Narrativa LLM | Ollama (llama3.2, cliente stdlib sin deps externas) |
 | Zona Liminal (red) | websockets + asyncio (servidor headless) / threading (cliente) |
-| Tests | pytest (388 tests) |
+| Tests | pytest (434 tests) |
 
 ---
 
@@ -455,6 +471,14 @@ Los documentos de diseño están en `src/` y `docs/`:
 
 | Archivo | Contenido |
 |---------|-----------|
+| `docs/ARCHITECTURE.md` | Flujo de un tick y de un día simulado, componentes y dependencias, modos de ejecución, persistencia |
+| `docs/AGENT_BRAIN.md` | El cerebro digital de un agente: percepción, InterpretiveFilter, memoria/sueños, decisión, disociación |
+| `docs/ARCHETYPES.md` | Recorrido completo activación → resonancia → campo → cristalización → mito → conducta |
+| `docs/MENTAL_VAULT.md` | El mini cerebro por agente (Fase 2 de la Ecuación Personal) |
+| `docs/EMERGENCE.md` | Qué está diseñado vs. qué emerge en cada subsistema — checklist de auditoría |
+| `docs/DEVELOPMENT_LOG.md` | Bitácora técnica sesión a sesión |
+| `docs/experiments/` | Experimentos con hipótesis, método, datos e interpretación (A/B de la Ecuación Personal, calibración de mitología) |
+| `docs/handoffs/` | Handoffs de cierre de sesión — estado y pendientes para retomar |
 | `docs/Liminal_Zone.md` | Arquitectura de la Zona Liminal |
 | `src/01-PSYCHE_IDEAS_IMPLEMENTACION.md` | Backlog de ideas con estimaciones |
 | `src/02-PSYCHE_ORIGEN_INCONSCIENTE.md` | Teoria del inconsciente colectivo |
