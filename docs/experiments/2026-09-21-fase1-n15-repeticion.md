@@ -49,10 +49,25 @@ Las mismas del experimento original, más:
 
 ## Resultados
 
-**Corrida en curso al momento de escribir este documento** — se completa esta
-sección con los datos reales cuando termine (45/45 corridas). No se
-completan números por adelantado.
+**Interrumpida.** Se lanzó en una máquina de oficina con solo 2 núcleos
+lógicos; tras más de una hora de cómputo real solo se habían completado 3-4
+de las 45 corridas (~470-500s por corrida de 300 días — mucho más lento que
+los ~150s/corrida de la sesión original, probablemente porque ahora la
+mitología sí cristaliza y aplica efectos activamente en cada día, cosa que
+antes del fix de `a5f87e3` nunca ocurría). Proyección: >5h para terminar,
+inviable en esa máquina.
+
+Se retoma en otra máquina con `scripts/run_ab_batch.py` (commit `1dda8be`,
+reemplaza el bash one-off no versionado que se usó originalmente):
+
+```
+python scripts/run_ab_batch.py --seeds 42-56 --days 300 \
+    --output data/metrics/ab_interpretive_fase1_n15_2026-09-21.jsonl
+```
+
+Soporta `--append` para retomar sin repetir combinaciones (seed, condición)
+ya calculadas, por si se corta de nuevo a mitad de camino.
 
 ## Interpretación y decisión
 
-Pendiente de resultados.
+Pendiente — se completa cuando termine la corrida retomada.
