@@ -102,7 +102,7 @@ SimulationClock (tick = 1 hora simulada)
 ### Tribus y divergencia cultural
 - **TribeManager** — clustering via `greedy_modularity_communities` (NetworkX) cada 30 días
 - **CollectiveField local** — cada tribu tiene su propio inconsciente colectivo (ICL)
-- **MythologyEngine local** — mitos independientes por tribu
+- **MythologyEngine** — instancia única y global (no una por tribu, a diferencia del `CollectiveField`); cada `MythCrystal` queda etiquetado con `tribe_id` para atribución. Ver `docs/EMERGENCE.md` §5
 - **Deriva por bioma** — 0.001/día de push hacia arquetipos del bioma habitado (12 biomas × afinidades)
 
 ### Cultura material

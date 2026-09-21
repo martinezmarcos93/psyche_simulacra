@@ -1,10 +1,21 @@
 # Ecuación Personal y Mini Cerebro — Roadmap (v2, alineado a la filosofía de emergencia)
 
-> Rama de trabajo: `xperiment`
+> Rama de trabajo: `xperiment` (fusionada a `main` el 2026-09-21)
 > Fecha: 2026-06-05
-> Estado: Pendiente de aprobación
+> Estado: Fase 1 y 2 implementadas y auditadas (test filosófico: ✅); **gate de
+> aceptación experimental de la Fase 1: NO se cumplió** (ver
+> `docs/experiments/2026-09-21-fase1-ecuacion-personal.md`). Flags OFF por defecto.
 > Reemplaza la v1. El cambio de fondo: **nada de contenido simbólico se programa. Solo
 > se instalan slots vacíos y el mismo motor de colapso del proyecto, una escala más abajo.**
+>
+> **Actualización 2026-09-21**: se completaron los dos slots de Fase 1 que nunca se
+> habían implementado (`attributed_cause`, `moral_judgment` — ver
+> `docs/AGENT_BRAIN.md` §2.2) y se corrió el experimento A/B completo (5 semillas ×
+> 3 condiciones × 300 días + 1 semilla × 600 días). Ninguna métrica de divergencia
+> (arquetípica, conductual, de campo) mostró un efecto positivo robusto del filtro
+> por encima del ruido entre semillas. Decisión: no activar por defecto, no seguir
+> ajustando pesos a ciegas; registrado como resultado experimental negativo/
+> inconcluso, no como fracaso de implementación (el test filosófico sí pasa).
 
 ---
 
