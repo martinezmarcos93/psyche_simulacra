@@ -212,6 +212,14 @@ class InteractionEngine:
             self._absorb("competencia", "competencia", "choque_violento",
                          collective_field, tribe_manager, a.id, b.id)
 
+            # Un choque violento es la experiencia compartida más intensa del motor de
+            # encuentros — es la que empuja al proto-mito más avanzado hacia la
+            # cristalización (MythologyEngine.on_social_transmission estaba definido
+            # pero nunca conectado desde aquí; sin esto ningún ProtoMito puede
+            # cristalizar jamás, ver docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
+            if mythology_engine is not None:
+                mythology_engine.on_social_transmission(collective_field)
+
         # Caso Manipulación - Cooperación (Éxito de manipulación)
         elif (state_a == "manipulacion" and state_b == "cooperacion") or \
              (state_a == "cooperacion" and state_b == "manipulacion"):

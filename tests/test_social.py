@@ -155,6 +155,38 @@ def test_interaction_engine_resolution():
     assert net.get_bond("a", "b") == 0.0
     assert net.get_bond("b", "a") == 0.0
 
+
+def test_choque_violento_transmite_al_proto_mito():
+    """
+    Regresión: MythologyEngine.on_social_transmission() estaba definido pero nunca
+    se llamaba desde ningún punto del código (ni interaction.py, pese a que su
+    propio docstring decía que sí) — ningún ProtoMito podía cristalizar jamás,
+    sin importar cuántos días corriera la simulación. Ver
+    docs/experiments/2026-09-21-fase1-ecuacion-personal.md.
+
+    Un choque violento (competencia-competencia) es la experiencia compartida más
+    intensa del motor de encuentros; debe empujar la coherencia del proto-mito
+    más avanzado hacia la cristalización.
+    """
+    engine = InteractionEngine()
+    net = SocialNetwork()
+    field = CollectiveField()
+    mythology = MythologyEngine()
+    mythology.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+
+    agent_a = Agent("a", "Agent A", (0, 0), seed=1)
+    agent_b = Agent("b", "Agent B", (0, 0), seed=2)
+    agent_a.behavioral_state.ultimo_colapso = "competencia"
+    agent_b.behavioral_state.ultimo_colapso = "competencia"
+
+    assert mythology.proto_myths[0].coherencia == 0.0
+    engine.resolve_encounter(agent_a, agent_b, net, field, mythology_engine=mythology)
+    assert mythology.proto_myths[0].coherencia > 0.0
+
+    # Sin mythology_engine (compatibilidad hacia atrás): no debe romper nada.
+    engine.resolve_encounter(agent_a, agent_b, net, field)
+
+
 # 4. test_collective_field_decay_and_radiation
 def test_collective_field_decay_and_radiation():
     field = CollectiveField()
