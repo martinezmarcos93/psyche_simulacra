@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import random
 from typing import TYPE_CHECKING
 
@@ -12,18 +13,17 @@ if TYPE_CHECKING:
 
 
 # Intensidad relativa de transmisión mítica por tipo de encuentro (ver
-# MythologyEngine.on_social_transmission). Calibrada a partir de la magnitud de
-# los efectos emocionales ya codificados en cada rama de resolve_encounter:
-# choque_violento (ansiedad +0.20/agente) es la experiencia más intensa;
-# conflicto_explotacion (ansiedad +0.15 en la víctima) es significativa pero
-# unilateral; cooperacion_pura (humor +0.05/ansiedad -0.05, ambos agentes) es
-# la más suave. No se conecta manipulacion_* — fuera del alcance de esta
-# extensión (ver docs/handoffs/2026-09-21.md §7) y su contaminación afectiva es
-# menor y ambigua (engaño exitoso vs. detectado).
+# MythologyEngine.on_social_transmission). Punto de partida teórico: magnitud
+# de los efectos emocionales ya codificados en cada rama de resolve_encounter
+# (choque_violento > conflicto_explotacion > cooperacion_pura). Overridable por
+# env var para calibración empírica (ver scripts/myth_calibration.py) sin
+# recompilar — mismo patrón que MYTH_CONTEXT_THRESHOLD en mythology.py. No se
+# conecta manipulacion_* — fuera de alcance (ver docs/handoffs/2026-09-21.md §7)
+# y su contaminación afectiva es menor y ambigua (engaño exitoso vs. detectado).
 _MYTH_TRANSMISSION_INTENSITY: dict[str, float] = {
-    "choque_violento":       1.00,
-    "conflicto_explotacion": 0.50,
-    "cooperacion_pura":      0.25,
+    "choque_violento":       float(os.getenv("MYTH_TRANSMISSION_CHOQUE_VIOLENTO", "1.00")),
+    "conflicto_explotacion": float(os.getenv("MYTH_TRANSMISSION_CONFLICTO_EXPLOTACION", "0.50")),
+    "cooperacion_pura":      float(os.getenv("MYTH_TRANSMISSION_COOPERACION_PURA", "0.25")),
 }
 
 
