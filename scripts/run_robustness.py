@@ -19,6 +19,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+# Windows: consola cp1252 no imprime el emoji narrativo de algunos
+# subsistemas (objetos sagrados, deidades) — evita un UnicodeEncodeError
+# ajeno a la suite de robustez en corridas largas.
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from core.simulation import SimulationRunner
 from core.metrics.emergence import EmergenceMetrics
 
