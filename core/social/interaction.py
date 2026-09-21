@@ -11,6 +11,22 @@ if TYPE_CHECKING:
     from core.social.tribe_manager import TribeManager
 
 
+# Intensidad relativa de transmisión mítica por tipo de encuentro (ver
+# MythologyEngine.on_social_transmission). Calibrada a partir de la magnitud de
+# los efectos emocionales ya codificados en cada rama de resolve_encounter:
+# choque_violento (ansiedad +0.20/agente) es la experiencia más intensa;
+# conflicto_explotacion (ansiedad +0.15 en la víctima) es significativa pero
+# unilateral; cooperacion_pura (humor +0.05/ansiedad -0.05, ambos agentes) es
+# la más suave. No se conecta manipulacion_* — fuera del alcance de esta
+# extensión (ver docs/handoffs/2026-09-21.md §7) y su contaminación afectiva es
+# menor y ambigua (engaño exitoso vs. detectado).
+_MYTH_TRANSMISSION_INTENSITY: dict[str, float] = {
+    "choque_violento":       1.00,
+    "conflicto_explotacion": 0.50,
+    "cooperacion_pura":      0.25,
+}
+
+
 class InteractionEngine:
     """
     Motor de Interacciones Sociales. Procesa y resuelve encuentros entre agentes
@@ -155,6 +171,11 @@ class InteractionEngine:
             self._absorb("cooperacion", "cooperacion", "cooperacion_pura",
                          collective_field, tribe_manager, a.id, b.id)
 
+            if mythology_engine is not None:
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["cooperacion_pura"]
+                )
+
         # Caso Cooperación - Competencia (Conflicto / Explotación)
         elif (state_a == "cooperacion" and state_b == "competencia") or \
              (state_a == "competencia" and state_b == "cooperacion"):
@@ -189,6 +210,11 @@ class InteractionEngine:
             self._absorb("cooperacion", "competencia", "conflicto_explotacion",
                          collective_field, tribe_manager, a.id, b.id)
 
+            if mythology_engine is not None:
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["conflicto_explotacion"]
+                )
+
         # Caso Competencia - Competencia (Choque Violento)
         elif state_a == "competencia" and state_b == "competencia":
             # Caída mutua severa de vínculos
@@ -213,12 +239,12 @@ class InteractionEngine:
                          collective_field, tribe_manager, a.id, b.id)
 
             # Un choque violento es la experiencia compartida más intensa del motor de
-            # encuentros — es la que empuja al proto-mito más avanzado hacia la
-            # cristalización (MythologyEngine.on_social_transmission estaba definido
-            # pero nunca conectado desde aquí; sin esto ningún ProtoMito puede
-            # cristalizar jamás, ver docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
+            # encuentros (intensity=1.0, ver _MYTH_TRANSMISSION_INTENSITY) — es la que
+            # más empuja al proto-mito más avanzado hacia la cristalización.
             if mythology_engine is not None:
-                mythology_engine.on_social_transmission(collective_field)
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["choque_violento"]
+                )
 
         # Caso Manipulación - Cooperación (Éxito de manipulación)
         elif (state_a == "manipulacion" and state_b == "cooperacion") or \

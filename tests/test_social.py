@@ -187,6 +187,49 @@ def test_choque_violento_transmite_al_proto_mito():
     engine.resolve_encounter(agent_a, agent_b, net, field)
 
 
+def test_cooperacion_pura_y_conflicto_explotacion_transmiten_con_intensidad_menor():
+    """
+    Extensión (2026-09-21, prioridad media del handoff previo): la transmisión
+    social hacia el proto-mito no debe depender solo del choque violento —
+    cooperación pura y conflicto/explotación son también experiencias
+    emocionales compartidas significativas, aunque menos intensas. Cada una
+    debe transmitir *menos* coherencia que un choque violento (intensity=1.0),
+    en la proporción de core.social.interaction._MYTH_TRANSMISSION_INTENSITY.
+    """
+    from core.social.interaction import _MYTH_TRANSMISSION_INTENSITY
+
+    engine = InteractionEngine()
+    net = SocialNetwork()
+    field = CollectiveField()
+
+    # Cooperación pura (cooperacion-cooperacion)
+    mythology_coop = MythologyEngine()
+    mythology_coop.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+    a1 = Agent("a1", "A1", (0, 0), seed=1)
+    b1 = Agent("b1", "B1", (0, 0), seed=2)
+    a1.behavioral_state.ultimo_colapso = "cooperacion"
+    b1.behavioral_state.ultimo_colapso = "cooperacion"
+    engine.resolve_encounter(a1, b1, net, field, mythology_engine=mythology_coop)
+    coherencia_coop = mythology_coop.proto_myths[0].coherencia
+    assert coherencia_coop > 0.0
+    assert coherencia_coop == pytest.approx(_MYTH_TRANSMISSION_INTENSITY["cooperacion_pura"])
+
+    # Conflicto/explotación (cooperacion-competencia)
+    mythology_expl = MythologyEngine()
+    mythology_expl.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+    a2 = Agent("a2", "A2", (0, 0), seed=1)
+    b2 = Agent("b2", "B2", (0, 0), seed=2)
+    a2.behavioral_state.ultimo_colapso = "cooperacion"
+    b2.behavioral_state.ultimo_colapso = "competencia"
+    engine.resolve_encounter(a2, b2, net, field, mythology_engine=mythology_expl)
+    coherencia_expl = mythology_expl.proto_myths[0].coherencia
+    assert coherencia_expl > 0.0
+    assert coherencia_expl == pytest.approx(_MYTH_TRANSMISSION_INTENSITY["conflicto_explotacion"])
+
+    # Orden de intensidad esperado: violento > explotación > cooperación
+    assert _MYTH_TRANSMISSION_INTENSITY["choque_violento"] > coherencia_expl > coherencia_coop
+
+
 # 4. test_collective_field_decay_and_radiation
 def test_collective_field_decay_and_radiation():
     field = CollectiveField()
