@@ -404,6 +404,7 @@ class Agent:
         snapshot: WorldSnapshot,
         collective_field: CollectiveField | None = None,
         hay_aliados: bool = False,
+        mythology_engine: "MythologyEngine | None" = None,
     ) -> WorldAction | None:
         """Devuelve una WorldAction o None. Integra psicología en la decisión."""
         if not self.is_alive:
@@ -418,7 +419,7 @@ class Agent:
         if self._interpretive_filter is not None:
             stim = self._build_stimulus(snapshot, hay_aliados)
             self.last_perceived_event = self._interpretive_filter.interpret(
-                stim, self, collective_field
+                stim, self, collective_field, mythology_engine
             )
             if self.mental_vault is not None:
                 self.mental_vault.accumulate(self.last_perceived_event)
@@ -448,11 +449,11 @@ class Agent:
 
         # Aislamiento crítico: el agente busca interacción aunque no sea su hora de socializar
         if self.needs.social_override_active():
-            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados)
+            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados, mythology_engine)
 
         # Colapso cuántico para decisiones no-críticas
         if actividad == "interactuar":
-            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados)
+            return self._decide_via_collapse(tp, snapshot, collective_field, hay_aliados, mythology_engine)
 
         # Rutina normal de la agenda
         if actividad in ("dormir", "descansar"):
@@ -499,6 +500,7 @@ class Agent:
         snapshot: WorldSnapshot,
         collective_field: CollectiveField | None = None,
         hay_aliados: bool = False,
+        mythology_engine: "MythologyEngine | None" = None,
     ) -> WorldAction | None:
         """
         Usa el motor cuántico para decidir la acción en horas sociales.
@@ -540,7 +542,7 @@ class Agent:
             pe = self.last_perceived_event
             if pe is None:
                 stim = self._build_stimulus(snapshot, hay_aliados)
-                pe = self._interpretive_filter.interpret(stim, self, collective_field)
+                pe = self._interpretive_filter.interpret(stim, self, collective_field, mythology_engine)
                 self.last_perceived_event = pe
             interpretive_influence = pe.action_bias()
 

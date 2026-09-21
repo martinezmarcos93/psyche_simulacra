@@ -165,6 +165,17 @@ class PerceptionSystem:
             self._causal_assocs = self._causal_assocs[-15:]
         return nuevas
 
+    def strongest_cause(self, outcome: str, min_fuerza: float = 0.0) -> str | None:
+        """
+        Precursor causal más fuerte que este agente ya asoció con `outcome` (o None).
+        Consulta el tabú/creencia YA formado por `check_causal_bias`; no crea nada.
+        """
+        candidatos = [c for c in self._causal_assocs
+                      if c.outcome == outcome and c.fuerza >= min_fuerza]
+        if not candidatos:
+            return None
+        return max(candidatos, key=lambda c: c.fuerza).precursor
+
     # ── Serialización ─────────────────────────────────────────────────────────
 
     def to_dict(self) -> dict:

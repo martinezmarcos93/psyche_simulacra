@@ -10,12 +10,16 @@ Verifican el contrato filosófico además del funcional:
 import random
 
 from core.interface.perceived_event import PerceivedEvent, Stimulus
-from core.agents.psyche.interpretive_filter import InterpretiveFilter, _VOCAB_THRESHOLD
+from core.agents.psyche.interpretive_filter import (
+    InterpretiveFilter, _VOCAB_THRESHOLD, _CAUSE_THRESHOLD,
+)
 from core.agents.psyche.archetypes import ArchetypeVector
 from core.agents.psyche.traits import TraitProfile
 from core.agents.quantum.superposition import BehavioralState
 from core.agents.quantum.collapse import collapse_state
 from core.social.collective_field import CollectiveField
+from core.social.perception import CausalAssociation
+from core.social.mythology import MythCrystal
 from core.agents import Agent
 
 
@@ -137,6 +141,73 @@ class TestInterpretiveFilter:
         v_ansioso = f.interpret(stim, ansioso).valence
         assert v_ansioso < v_sereno
         assert v_ansioso < 0.0
+
+
+# ── attributed_cause / moral_judgment: préstamo, nunca invención ────────────────
+
+class _StubMythologyEngine:
+    """Solo expone lo que InterpretiveFilter necesita: la lista de mitos activos."""
+    def __init__(self, myths):
+        self.active_myths = myths
+
+
+class TestBorrowedCauseAndJudgment:
+
+    def test_sin_asociacion_causal_propia_no_hay_atribucion(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        stim = Stimulus(kind="hambruna", threat=0.5, proximity=1.0)
+        assert f.interpret(stim, agent).attributed_cause is None
+
+    def test_atribuye_causa_ya_asociada_por_el_propio_agente(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        # Simula que PerceptionSystem ya formó este tabú causal por co-ocurrencia
+        # (lo mismo que produce agent_core._process_causal_bias en una corrida real).
+        agent._perception._causal_assocs.append(
+            CausalAssociation(precursor="forastero", outcome="hambruna", fuerza=0.80)
+        )
+        stim = Stimulus(kind="hambruna", threat=0.5, proximity=1.0)
+        assert f.interpret(stim, agent).attributed_cause == "forastero"
+
+    def test_asociacion_debil_no_alcanza_para_atribuir(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        agent._perception._causal_assocs.append(
+            CausalAssociation(precursor="eclipse", outcome="hambruna",
+                               fuerza=_CAUSE_THRESHOLD - 0.05)
+        )
+        stim = Stimulus(kind="hambruna", threat=0.5, proximity=1.0)
+        assert f.interpret(stim, agent).attributed_cause is None
+
+    def test_sin_mito_moral_compatible_no_hay_juicio(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        stim = Stimulus(kind="muerte", threat=0.4, proximity=1.0)
+        engine = _StubMythologyEngine([MythCrystal(name="LaGranSequía", tipo="cosmogonia",
+                                                     par=("madre", "sabio"))])
+        assert f.interpret(stim, agent, mythology_engine=engine).moral_judgment is None
+
+    def test_juicio_solo_si_resuena_con_mito_moral_ya_cristalizado(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        stim = Stimulus(kind="muerte", threat=0.4, proximity=1.0)
+
+        pe0 = f.interpret(stim, agent)
+        assert pe0.archetype_activation, "kind 'muerte' debería activar resonancia"
+        top = max(pe0.archetype_activation, key=pe0.archetype_activation.get)
+        otro = next(a for a in ("heroe", "sombra", "gobernante") if a != top)
+
+        engine = _StubMythologyEngine([
+            MythCrystal(name="ElVeredictoDeOkelos", tipo="mito_moral", par=(top, otro)),
+        ])
+        assert f.interpret(stim, agent, mythology_engine=engine).moral_judgment == "ElVeredictoDeOkelos"
+
+    def test_sin_motor_de_mitologia_no_hay_juicio(self):
+        f = InterpretiveFilter()
+        agent = _make_agent()
+        stim = Stimulus(kind="muerte", threat=0.4, proximity=1.0)
+        assert f.interpret(stim, agent, mythology_engine=None).moral_judgment is None
 
 
 # ── collapse_state: el canal interpretativo modula el colapso ───────────────────

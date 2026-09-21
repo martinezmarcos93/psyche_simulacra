@@ -20,10 +20,16 @@ from core.social.perception import ARCHETYPE_ATTENTION
 if TYPE_CHECKING:
     from core.agents.agent import Agent
     from core.social.collective_field import CollectiveField
+    from core.social.mythology import MythologyEngine
 
 # Un símbolo del campo cuenta como "vocabulario disponible" (cristalizado) a partir
 # de esta carga. Solo entonces el agente puede tomarlo prestado como narrative_frame.
 _VOCAB_THRESHOLD = 0.55
+
+# Fuerza mínima de una asociación causal propia del agente para poder nombrarla como
+# `attributed_cause`. Mismo umbral que agent_core._process_causal_bias usa para
+# registrar el tabú en la memoria cultural — por debajo de eso es ruido, no creencia.
+_CAUSE_THRESHOLD = 0.40
 
 # Mapa inverso de ARCHETYPE_ATTENTION: kind físico → arquetipos que lo atienden.
 # Se construye una sola vez. NO asigna significado: solo dice qué arquetipo "mira"
@@ -169,6 +175,7 @@ class InterpretiveFilter:
         stim:  Stimulus,
         agent: "Agent",
         field: "CollectiveField | None" = None,
+        mythology_engine: "MythologyEngine | None" = None,
     ) -> PerceivedEvent:
         salience            = self.attention.salience(stim, agent)
         valence, arousal    = self.affective.appraise(stim, agent, salience)
@@ -185,11 +192,13 @@ class InterpretiveFilter:
             raw_stimulus         = dict(stim.raw),
         )
 
-        # Préstamo de vocabulario emergente — NO invención.
-        # Si el arquetipo que más resonó coincide con un símbolo que YA cristalizó
-        # en el campo (carga ≥ umbral), el agente puede nombrar el frame con él.
-        # Si no hay vocabulario, narrative_frame queda None: siente pero no nombra.
-        pe.narrative_frame = self._borrow_frame(activation, field)
+        # Préstamo de vocabulario emergente — NO invención. Los tres slots de Capa B
+        # solo se rellenan por referencia a algo que YA cristalizó en otro sistema del
+        # proyecto; si ese vocabulario no existe todavía, el slot queda None: el
+        # agente siente pero no nombra/juzga/atribuye.
+        pe.narrative_frame  = self._borrow_frame(activation, field)
+        pe.attributed_cause = self._borrow_cause(stim, agent)
+        pe.moral_judgment   = self._borrow_judgment(activation, mythology_engine)
         return pe
 
     @staticmethod
@@ -204,3 +213,38 @@ class InterpretiveFilter:
         if charge >= _VOCAB_THRESHOLD:
             return top_arch    # el nombre del símbolo cristalizado, prestado
         return None
+
+    @staticmethod
+    def _borrow_cause(stim: Stimulus, agent: "Agent") -> str | None:
+        """
+        Present-day: consulta el tabú causal que el propio agente ya formó
+        (`PerceptionSystem.check_causal_bias`) — nunca infiere una causa nueva
+        aquí. Si nunca asoció nada a este tipo de estímulo, queda None.
+        """
+        perception = getattr(agent, "_perception", None)
+        if perception is None:
+            return None
+        return perception.strongest_cause(stim.kind, min_fuerza=_CAUSE_THRESHOLD)
+
+    @staticmethod
+    def _borrow_judgment(
+        activation: dict[str, float],
+        mythology_engine: "MythologyEngine | None",
+    ) -> str | None:
+        """
+        Un mito ya cristalizado de tipo 'mito_moral' ES el veredicto colectivo sobre
+        una tensión arquetípica — no hay que inventar un enum justo/injusto: alcanza
+        con reconocer si lo que se activó hoy resuena con un par que la tribu ya
+        mitologizó como moral. Se toma prestado el `name` del mito (más intenso si
+        hay varios). Sin mito compatible, el agente no juzga todavía.
+        """
+        if mythology_engine is None or not activation:
+            return None
+        active_archs = set(activation.keys())
+        candidatos = [
+            m for m in mythology_engine.active_myths
+            if m.tipo == "mito_moral" and active_archs.intersection(m.par)
+        ]
+        if not candidatos:
+            return None
+        return max(candidatos, key=lambda m: m.intensidad).name

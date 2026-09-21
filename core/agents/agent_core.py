@@ -202,7 +202,10 @@ class AgentCore:
             hay_aliados = pos_counts.get(agent.posicion, 0) > 1
             # Usa el campo tribal local (si existe) para el colapso cuántico
             local_field = self.tribe_manager.get_local_field(agent.id) or self.collective_field
-            action = agent.decide_action(tp, snapshot, local_field, hay_aliados)
+            action = agent.decide_action(
+                tp, snapshot, local_field, hay_aliados,
+                mythology_engine=self.mythology_engine,
+            )
             if action is not None:
                 actions.append(action)
 
