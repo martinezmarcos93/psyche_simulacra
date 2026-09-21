@@ -22,6 +22,13 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Windows: consola cp1252 no imprime el emoji narrativo de algunos
+# subsistemas (objetos sagrados, deidades) — evita un UnicodeEncodeError
+# ajeno al experimento en corridas largas.
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from core.time import SimulationClock, ClockPriority
 from core.world import WorldCore
 from core.agents import AgentCore
@@ -111,6 +118,11 @@ def main() -> None:
         # Lo que el filtro/vault SÍ cambian primero: conducta, campo y afecto.
         "behavioral_kl_q4": round(_mean([m.behavioral_kl_mean for m in q4]), 6),
         "field_kl_q4":      round(_mean([m.field_kl_mean for m in q4]), 6),
+        # Contraparte INTRA-tribu de behavioral_kl_q4 (ver docs/handoffs/2026-09-21.md
+        # §7, "instrumentar divergencia intra-tribu vs. inter-tribu por separado").
+        # El filtro puede aumentar esto sin mover behavioral_kl_q4 si la idiosincrasia
+        # que genera queda contenida dentro de cada tribu.
+        "behavioral_intra_q4": round(_mean([m.behavioral_intra_tribe_dispersion for m in q4]), 6),
         "valence_std_q4":   round(_mean([m.valence_std for m in q4]), 6),
         "arousal_std_q4":   round(_mean([m.arousal_std for m in q4]), 6),
         "worldview_coh_q4": round(_mean([m.worldview_coherence_mean for m in q4]), 6),

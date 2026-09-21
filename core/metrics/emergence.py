@@ -47,8 +47,15 @@ class DayMetrics:
     # ── Instrumento de medición de la Ecuación Personal (camino c) ───────────────
     # Las métricas arquetípicas (KL/MIG/IMI) NO detectan lo que el InterpretiveFilter
     # cambia primero: la conducta y el afecto. Estas lentes complementarias sí.
-    behavioral_kl_mean: float = 0.0   # KL pairwise de distribuciones de acción por tribu
-    field_kl_mean: float = 0.0        # KL pairwise de símbolos entre campos locales
+    behavioral_kl_mean: float = 0.0   # KL pairwise de distribuciones de acción por tribu (INTER-tribu)
+    field_kl_mean: float = 0.0        # KL pairwise de símbolos entre campos locales (INTER-tribu)
+    # Contraparte INTRA-tribu de behavioral_kl_mean (mismo patrón que
+    # vfe_tribe_mean/field_kl_mean para el campo simbólico — ver docs/handoffs/
+    # 2026-09-21.md §7 y docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
+    # behavioral_kl_mean puede quedarse plano aunque el filtro SÍ esté generando
+    # variación conductual, si esa variación queda contenida dentro de cada
+    # tribu en vez de separar tribus entre sí — esta métrica hace visible ese caso.
+    behavioral_intra_tribe_dispersion: float = 0.0  # entropía normalizada [0,1] de la acción DENTRO de cada tribu
     valence_std: float = 0.0          # dispersión de valence subjetiva (filtro ON; idiosincrasia)
     arousal_std: float = 0.0          # dispersión de arousal subjetivo (filtro ON)
     worldview_coherence_mean: float = 0.0  # coherencia media del MentalVault (vault ON)
@@ -85,6 +92,7 @@ class EmergenceMetrics:
         n_structures           = len(culture_engine.structures) if culture_engine else 0
         behavioral_kl_mean     = self._behavioral_divergence(alive, tribes)
         field_kl_mean          = self._field_divergence(tribe_manager, tribes)
+        behavioral_intra_disp  = self._behavioral_intra_tribe_dispersion(alive, tribes)
         valence_std, arousal_std = self._affective_dispersion(alive)
         worldview_coherence    = self._mean_worldview_coherence(alive)
 
@@ -101,6 +109,7 @@ class EmergenceMetrics:
             n_structures=n_structures,
             behavioral_kl_mean=behavioral_kl_mean,
             field_kl_mean=field_kl_mean,
+            behavioral_intra_tribe_dispersion=behavioral_intra_disp,
             valence_std=valence_std,
             arousal_std=arousal_std,
             worldview_coherence_mean=worldview_coherence,
@@ -178,6 +187,39 @@ class EmergenceMetrics:
             dists[tribe_id] = [c / total for c in counts]
         kl_mean, _ = self._pairwise_kl(dists)
         return kl_mean
+
+    def _behavioral_intra_tribe_dispersion(self, alive: dict, tribes: dict[str, list[str]]) -> float:
+        """
+        Entropía de Shannon media (normalizada a [0,1]) de la distribución de
+        acción conductual DENTRO de cada tribu — complementa a
+        _behavioral_divergence(), que solo mide INTER-tribu.
+
+        0.0 → todos los miembros de cada tribu colapsan siempre a la misma
+        acción (comportamiento tribal uniforme). 1.0 → dentro de cada tribu las
+        cuatro acciones se reparten parejo (máxima idiosincrasia individual).
+
+        Necesaria porque el InterpretiveFilter opera a nivel de cada agente:
+        puede aumentar la variación individual sin que eso separe una tribu de
+        otra (lo cual behavioral_kl_mean por sí solo no puede distinguir de
+        "no hay efecto").
+        """
+        max_h = math.log(len(_ACTIONS))
+        dispersions: list[float] = []
+        for tribe_id, member_ids in tribes.items():
+            counts = [0] * len(_ACTIONS)
+            n = 0
+            for aid in member_ids:
+                a = alive.get(aid)
+                if a is None:
+                    continue
+                accion = a.behavioral_state.ultimo_colapso
+                if accion in _ACTIONS:
+                    counts[_ACTIONS.index(accion)] += 1
+                    n += 1
+            if n < 2:
+                continue
+            dispersions.append(_entropy(counts, n) / max_h)
+        return sum(dispersions) / len(dispersions) if dispersions else 0.0
 
     def _field_divergence(self, tribe_manager: "TribeManager", tribes: dict) -> float:
         """
