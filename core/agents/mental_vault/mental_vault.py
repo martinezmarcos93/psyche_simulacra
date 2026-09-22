@@ -77,6 +77,15 @@ class MentalVault:
         """
         Guarda la carga escalar de un PerceivedEvent para consolidar al fin del día.
         Content-free: solo escalares de Capa A. No crea enlaces aquí.
+
+        Si el evento ya viene nombrado por préstamo (Capa B — `attributed_cause`/
+        `moral_judgment`, ver `PerceivedEvent`), el vault también forma una
+        neurona para ese nombre. Es el mismo mecanismo de siempre (una neurona
+        más, misma física de enlazado); no se agrega ningún campo nuevo a
+        `Neuron` ni contenido que el vault no haya recibido ya por préstamo. Sin
+        activación arquetípica propia — ya fue contabilizada por la neurona del
+        estímulo físico; evita doble conteo del mismo evento. Ver
+        `docs/MENTAL_VAULT.md` §9.
         """
         self._day_records.append({
             "significante": pe.stimulus_type,
@@ -85,6 +94,16 @@ class MentalVault:
             "intensity":    pe.intensity(),
             "activation":   dict(pe.archetype_activation),
         })
+        for nombre in (pe.attributed_cause, pe.moral_judgment):
+            if nombre is None:
+                continue
+            self._day_records.append({
+                "significante": nombre,
+                "valence":      pe.valence,
+                "arousal":      pe.arousal,
+                "intensity":    pe.intensity(),
+                "activation":   {},
+            })
 
     # ── Consolidación diaria (el colapso, no el arbitraje) ────────────────────
 
