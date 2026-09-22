@@ -203,13 +203,24 @@ class EmergenceMetrics:
         Complementa a vfe_tribe_mean (que solo da entropía INTRA-campo): mide cuán
         distintos son los inconscientes colectivos de tribus distintas entre sí.
         """
+        local_fields = {
+            tribe_id: lf
+            for tribe_id in tribes
+            if (lf := tribe_manager.local_fields.get(tribe_id)) is not None
+        }
+        if len(local_fields) < 2:
+            return 0.0
+
+        # Unión de claves entre TODAS las tribus: cada campo local acumula solo
+        # los símbolos que efectivamente vio, así que dos tribus pueden tener
+        # vocabularios de distinto tamaño. Comparar con las claves de un solo
+        # campo local (bug: IndexError si difieren en longitud) rompía el KL
+        # pairwise apenas dos tribus divergían en qué símbolos conocían.
+        all_keys = sorted({k for lf in local_fields.values() for k in lf.symbols})
+
         dists: dict[str, list[float]] = {}
-        for tribe_id in tribes:
-            lf = tribe_manager.local_fields.get(tribe_id)
-            if lf is None:
-                continue
-            keys = sorted(lf.symbols.keys())
-            vals = [lf.symbols[k] for k in keys]
+        for tribe_id, lf in local_fields.items():
+            vals = [lf.symbols.get(k, 0.0) for k in all_keys]
             total = sum(vals) + _EPSILON
             dists[tribe_id] = [v / total for v in vals]
         kl_mean, _ = self._pairwise_kl(dists)

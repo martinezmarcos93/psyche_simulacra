@@ -265,6 +265,42 @@ class TestComputeDay:
         assert 0.0 <= m.imi <= 1.0 + 1e-6
 
 
+# ── Tests de _field_divergence ────────────────────────────────────────────────
+# Regresión: encontrado corriendo el barrido A/B n=20 (seed 46, condición FILTER,
+# ver docs/experiments/2026-09-21-fase1-ecuacion-personal-n20.md) — IndexError
+# cuando dos tribus tienen campos locales con distinto número de símbolos
+# conocidos (cada campo local solo acumula lo que efectivamente vio).
+
+class TestFieldDivergence:
+
+    def _make_tribe_manager(self, local_fields):
+        tm = MagicMock()
+        tm.local_fields = local_fields
+        return tm
+
+    def test_vocabularios_de_distinto_tamano_no_rompe(self):
+        em = EmergenceMetrics()
+        lf1 = _make_field({"heroe": 0.5, "sombra": 0.3, "trickster": 0.1})
+        lf2 = _make_field({"heroe": 0.2})  # menos símbolos que lf1
+        tm = self._make_tribe_manager({"t1": lf1, "t2": lf2})
+        kl = em._field_divergence(tm, {"t1": [], "t2": []})
+        assert kl >= 0.0
+
+    def test_una_sola_tribu_da_cero(self):
+        em = EmergenceMetrics()
+        lf1 = _make_field({"heroe": 0.5})
+        tm = self._make_tribe_manager({"t1": lf1})
+        assert em._field_divergence(tm, {"t1": []}) == 0.0
+
+    def test_campos_identicos_dan_cero(self):
+        em = EmergenceMetrics()
+        lf1 = _make_field({"heroe": 0.5, "sombra": 0.3})
+        lf2 = _make_field({"heroe": 0.5, "sombra": 0.3})
+        tm = self._make_tribe_manager({"t1": lf1, "t2": lf2})
+        kl = em._field_divergence(tm, {"t1": [], "t2": []})
+        assert kl == pytest.approx(0.0, abs=1e-6)
+
+
 # ── Tests de descomposición intra/inter-tribu ─────────────────────────────────
 # Ver docs/handoffs/2026-09-21.md §7: el instrumento anterior (behavioral_kl_mean,
 # valence_std/arousal_std globales) no distinguía si una fuente de variación
