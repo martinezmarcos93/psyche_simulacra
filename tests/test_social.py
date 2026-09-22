@@ -187,6 +187,51 @@ def test_choque_violento_transmite_al_proto_mito():
     engine.resolve_encounter(agent_a, agent_b, net, field)
 
 
+def test_cooperacion_pura_transmite_al_proto_mito():
+    """
+    Regresión: extensión de on_social_transmission (ver §7 del handoff
+    2026-09-21) a la cooperación pura, para diversificar las causas de
+    cristalización mítica más allá del choque violento.
+    """
+    engine = InteractionEngine()
+    net = SocialNetwork()
+    field = CollectiveField()
+    mythology = MythologyEngine()
+    mythology.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+
+    agent_a = Agent("a", "Agent A", (0, 0), seed=1)
+    agent_b = Agent("b", "Agent B", (0, 0), seed=2)
+    agent_a.behavioral_state.ultimo_colapso = "cooperacion"
+    agent_b.behavioral_state.ultimo_colapso = "cooperacion"
+
+    assert mythology.proto_myths[0].coherencia == 0.0
+    engine.resolve_encounter(agent_a, agent_b, net, field, mythology_engine=mythology)
+    assert mythology.proto_myths[0].coherencia > 0.0
+
+
+def test_conflicto_explotacion_transmite_al_proto_mito():
+    """
+    Regresión: extensión de on_social_transmission (ver §7 del handoff
+    2026-09-21) al conflicto/explotación (cooperación vs. competencia), para
+    diversificar las causas de cristalización mítica más allá del choque
+    violento.
+    """
+    engine = InteractionEngine()
+    net = SocialNetwork()
+    field = CollectiveField()
+    mythology = MythologyEngine()
+    mythology.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+
+    agent_a = Agent("a", "Agent A", (0, 0), seed=1)
+    agent_b = Agent("b", "Agent B", (0, 0), seed=2)
+    agent_a.behavioral_state.ultimo_colapso = "cooperacion"
+    agent_b.behavioral_state.ultimo_colapso = "competencia"
+
+    assert mythology.proto_myths[0].coherencia == 0.0
+    engine.resolve_encounter(agent_a, agent_b, net, field, mythology_engine=mythology)
+    assert mythology.proto_myths[0].coherencia > 0.0
+
+
 # 4. test_collective_field_decay_and_radiation
 def test_collective_field_decay_and_radiation():
     field = CollectiveField()

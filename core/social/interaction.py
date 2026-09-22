@@ -155,6 +155,12 @@ class InteractionEngine:
             self._absorb("cooperacion", "cooperacion", "cooperacion_pura",
                          collective_field, tribe_manager, a.id, b.id)
 
+            # Cooperación pura también es una experiencia compartida significativa
+            # (aunque menos intensa que un choque violento) — empuja al proto-mito
+            # más avanzado hacia la cristalización, igual que la competencia mutua.
+            if mythology_engine is not None:
+                mythology_engine.on_social_transmission(collective_field)
+
         # Caso Cooperación - Competencia (Conflicto / Explotación)
         elif (state_a == "cooperacion" and state_b == "competencia") or \
              (state_a == "competencia" and state_b == "cooperacion"):
@@ -189,6 +195,12 @@ class InteractionEngine:
             self._absorb("cooperacion", "competencia", "conflicto_explotacion",
                          collective_field, tribe_manager, a.id, b.id)
 
+            # La explotación (traición de la cooperación) es una experiencia
+            # compartida intensa para ambas partes — también empuja al proto-mito
+            # más avanzado hacia la cristalización.
+            if mythology_engine is not None:
+                mythology_engine.on_social_transmission(collective_field)
+
         # Caso Competencia - Competencia (Choque Violento)
         elif state_a == "competencia" and state_b == "competencia":
             # Caída mutua severa de vínculos
@@ -212,11 +224,10 @@ class InteractionEngine:
             self._absorb("competencia", "competencia", "choque_violento",
                          collective_field, tribe_manager, a.id, b.id)
 
-            # Un choque violento es la experiencia compartida más intensa del motor de
-            # encuentros — es la que empuja al proto-mito más avanzado hacia la
-            # cristalización (MythologyEngine.on_social_transmission estaba definido
-            # pero nunca conectado desde aquí; sin esto ningún ProtoMito puede
-            # cristalizar jamás, ver docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
+            # Un choque violento es la experiencia compartida más intensa del motor
+            # de encuentros — empuja al proto-mito más avanzado hacia la
+            # cristalización (igual que cooperación pura y conflicto/explotación,
+            # ver docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
             if mythology_engine is not None:
                 mythology_engine.on_social_transmission(collective_field)
 
