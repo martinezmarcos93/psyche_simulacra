@@ -16,7 +16,8 @@ from core.agents.quantum.collapse import collapse_state
 from core.agents.quantum.superposition import BehavioralState, BEHAVIORAL_STATES
 
 
-def _pe(kind, valence=0.5, arousal=0.8, relevance=0.8, activation=None):
+def _pe(kind, valence=0.5, arousal=0.8, relevance=0.8, activation=None,
+        attributed_cause=None, moral_judgment=None):
     return PerceivedEvent(
         stimulus_type        = kind,
         stimulus_id          = f"{kind}@0,0",
@@ -24,6 +25,8 @@ def _pe(kind, valence=0.5, arousal=0.8, relevance=0.8, activation=None):
         arousal              = arousal,
         relevance_to_self    = relevance,
         archetype_activation = activation or {},
+        attributed_cause     = attributed_cause,
+        moral_judgment       = moral_judgment,
     )
 
 
@@ -79,6 +82,44 @@ def test_ninez_genera_al_menos_tantos_enlaces_como_adulto():
         return sum(len(n.enlaces) for n in mv.neurons.values())
 
     assert count_links("niñez") >= count_links("adulto")
+
+
+# ── Préstamo de Capa B (attributed_cause/moral_judgment) — item pendiente,
+#    ver docs/MENTAL_VAULT.md §9 ──────────────────────────────────────────────
+
+def test_sin_causa_ni_juicio_solo_forma_neurona_del_estimulo():
+    mv = MentalVault()
+    mv.accumulate(_pe("hambre"))
+    mv.consolidate(field=None, fase_desarrollo="adulto", ansiedad=0.2, rng=random.Random(0))
+    assert len(mv.neurons) == 1
+    assert neuron_id("hambre", 0.5) in mv.neurons
+
+
+def test_attributed_cause_forma_neurona_adicional():
+    mv = MentalVault()
+    mv.accumulate(_pe("hambre", attributed_cause="sequia_prolongada"))
+    mv.consolidate(field=None, fase_desarrollo="adulto", ansiedad=0.2, rng=random.Random(0))
+    assert neuron_id("hambre", 0.5) in mv.neurons
+    assert neuron_id("sequia_prolongada", 0.5) in mv.neurons
+
+
+def test_moral_judgment_forma_neurona_adicional():
+    mv = MentalVault()
+    mv.accumulate(_pe("conflicto", attributed_cause=None, moral_judgment="el_traidor_castigado"))
+    mv.consolidate(field=None, fase_desarrollo="adulto", ansiedad=0.2, rng=random.Random(0))
+    assert neuron_id("el_traidor_castigado", 0.5) in mv.neurons
+
+
+def test_neurona_de_causa_no_duplica_activacion_arquetipica():
+    """La activación arquetípica ya la contabiliza la neurona del estímulo físico;
+    la neurona de la causa prestada no debe sumar activación propia (evita doble
+    conteo del mismo evento en el feedback a arquetipos)."""
+    mv = MentalVault()
+    mv.accumulate(_pe("muerte", activation={"heroe": 0.5}, attributed_cause="guerra_ancestral"))
+    assert mv._day_records[0]["significante"] == "muerte"
+    assert mv._day_records[0]["activation"] == {"heroe": 0.5}
+    assert mv._day_records[1]["significante"] == "guerra_ancestral"
+    assert mv._day_records[1]["activation"] == {}
 
 
 # ── Resonancia arquetípica EMERGENTE (test filosófico Capa A/B) ────────────────

@@ -178,13 +178,15 @@ distribuyen y contradicen* los símbolos que el colectivo ya produjo.
 ## 9. Límites actuales (honestos)
 
 - `attributed_cause` y `moral_judgment` del `PerceivedEvent` (ver
-  `AGENT_BRAIN.md` §2.2) **no** son leídos por `accumulate()` — el vault solo ve
-  Capa A (valence/arousal/intensity/activation). Completar esos dos slots
-  (sesión 2026-09-21, ver `experiments/`) no cambió ninguna métrica del vault
-  por esta razón; si en el futuro se quiere que el vault represente también
-  causas/juicios ya nombrados, hay que decidir explícitamente cómo (¿otra
-  neurona por causa atribuida? ¿un campo adicional en `Neuron`?) sin violar la
-  regla de "solo por préstamo".
+  `AGENT_BRAIN.md` §2.2) **sí son leídos** por `accumulate()` desde la sesión
+  2026-09-21 (segunda parte): cuando vienen nombrados por préstamo, el vault
+  forma una neurona adicional por ese nombre (misma física de enlazado, sin
+  campo nuevo en `Neuron`, sin activación arquetípica propia para evitar doble
+  conteo del mismo evento — ver el docstring de `accumulate()`). Sigue sin
+  violar "solo por préstamo": el nombre ya fue vetado por el `InterpretiveFilter`
+  antes de llegar acá. Pendiente de validar con una corrida real si esto mueve
+  `worldview_coherence` de forma medible (no se corrió ese experimento todavía,
+  solo se validó con tests unitarios).
 - No hay tab de observabilidad todavía (Fase 3 del roadmap, opcional) — el único
   modo de inspeccionar un vault hoy es leer el JSON serializado o instrumentar
   código ad hoc.
