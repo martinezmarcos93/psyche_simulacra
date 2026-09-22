@@ -89,6 +89,9 @@ def _std(xs: list[float]) -> float:
 _METRICS = [
     "kl_mean_q4", "mig_q4", "imi_q4", "behavioral_kl_q4", "field_kl_q4",
     "valence_std_q4", "arousal_std_q4", "worldview_coh_q4",
+    "behavioral_entropy_intra_q4",
+    "valence_std_intra_q4", "valence_std_inter_q4",
+    "arousal_std_intra_q4", "arousal_std_inter_q4",
 ]
 
 

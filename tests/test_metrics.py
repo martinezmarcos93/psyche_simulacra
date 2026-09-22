@@ -265,6 +265,104 @@ class TestComputeDay:
         assert 0.0 <= m.imi <= 1.0 + 1e-6
 
 
+# ── Tests de descomposición intra/inter-tribu ─────────────────────────────────
+# Ver docs/handoffs/2026-09-21.md §7: el instrumento anterior (behavioral_kl_mean,
+# valence_std/arousal_std globales) no distinguía si una fuente de variación
+# actúa DENTRO de una tribu (invisible al KL inter-tribu) o ENTRE tribus.
+
+def _agent_with_action(agent_id: str, accion: str):
+    a = MagicMock()
+    a.id = agent_id
+    a.is_alive = True
+    a.behavioral_state.ultimo_colapso = accion
+    return a
+
+
+def _agent_with_affect(agent_id: str, valence: float, arousal: float):
+    a = MagicMock()
+    a.id = agent_id
+    a.is_alive = True
+    a.last_perceived_event.valence = valence
+    a.last_perceived_event.arousal = arousal
+    return a
+
+
+class TestBehavioralEntropyIntra:
+
+    def test_tribu_uniforme_tiene_entropia_cero(self):
+        em = EmergenceMetrics()
+        alive = {f"a{i}": _agent_with_action(f"a{i}", "cooperacion") for i in range(4)}
+        tribes = {"t1": list(alive.keys())}
+        assert em._behavioral_entropy_intra(alive, tribes) == pytest.approx(0.0, abs=1e-6)
+
+    def test_tribu_con_acciones_variadas_tiene_entropia_mayor_a_cero(self):
+        em = EmergenceMetrics()
+        alive = {
+            "a0": _agent_with_action("a0", "cooperacion"),
+            "a1": _agent_with_action("a1", "competencia"),
+            "a2": _agent_with_action("a2", "aislamiento"),
+            "a3": _agent_with_action("a3", "manipulacion"),
+        }
+        tribes = {"t1": list(alive.keys())}
+        assert em._behavioral_entropy_intra(alive, tribes) > 0.5
+
+    def test_tribu_con_un_solo_miembro_no_aporta(self):
+        em = EmergenceMetrics()
+        alive = {"a0": _agent_with_action("a0", "cooperacion")}
+        tribes = {"t1": ["a0"]}
+        assert em._behavioral_entropy_intra(alive, tribes) == 0.0
+
+    def test_sin_tribus_retorna_cero(self):
+        em = EmergenceMetrics()
+        assert em._behavioral_entropy_intra({}, {}) == 0.0
+
+
+class TestAffectiveDispersionIntraInter:
+
+    def test_todas_las_tribus_identicas_intra_alto_inter_cero(self):
+        em = EmergenceMetrics()
+        alive = {}
+        tribes = {}
+        for t in ("t1", "t2"):
+            members = []
+            for i, v in enumerate([0.2, 0.8]):
+                aid = f"{t}_{i}"
+                alive[aid] = _agent_with_affect(aid, valence=v, arousal=0.5)
+                members.append(aid)
+            tribes[t] = members
+
+        v_intra, v_inter, a_intra, a_inter = em._affective_dispersion_intra_inter(alive, tribes)
+        assert v_intra > 0.0
+        assert v_inter == pytest.approx(0.0, abs=1e-6)
+        assert a_intra == pytest.approx(0.0, abs=1e-6)
+        assert a_inter == pytest.approx(0.0, abs=1e-6)
+
+    def test_tribus_separadas_afectivamente_dan_inter_alto_intra_cero(self):
+        em = EmergenceMetrics()
+        alive = {
+            "t1_0": _agent_with_affect("t1_0", valence=0.1, arousal=0.5),
+            "t1_1": _agent_with_affect("t1_1", valence=0.1, arousal=0.5),
+            "t2_0": _agent_with_affect("t2_0", valence=0.9, arousal=0.5),
+            "t2_1": _agent_with_affect("t2_1", valence=0.9, arousal=0.5),
+        }
+        tribes = {"t1": ["t1_0", "t1_1"], "t2": ["t2_0", "t2_1"]}
+
+        v_intra, v_inter, a_intra, a_inter = em._affective_dispersion_intra_inter(alive, tribes)
+        assert v_intra == pytest.approx(0.0, abs=1e-6)
+        assert v_inter > 0.0
+
+    def test_sin_perceived_event_retorna_cero(self):
+        em = EmergenceMetrics()
+        a = MagicMock()
+        a.id = "a0"
+        a.is_alive = True
+        a.last_perceived_event = None
+        alive = {"a0": a}
+        tribes = {"t1": ["a0"]}
+        v_intra, v_inter, a_intra, a_inter = em._affective_dispersion_intra_inter(alive, tribes)
+        assert (v_intra, v_inter, a_intra, a_inter) == (0.0, 0.0, 0.0, 0.0)
+
+
 # ── Tests del exportador ──────────────────────────────────────────────────────
 
 class TestMetricsExporter:

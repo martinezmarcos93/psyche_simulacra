@@ -114,6 +114,13 @@ def main() -> None:
         "valence_std_q4":   round(_mean([m.valence_std for m in q4]), 6),
         "arousal_std_q4":   round(_mean([m.arousal_std for m in q4]), 6),
         "worldview_coh_q4": round(_mean([m.worldview_coherence_mean for m in q4]), 6),
+        # ── Descomposición intra/inter-tribu (pending item, ver
+        # docs/handoffs/2026-09-21.md §7) ────────────────────────────────────
+        "behavioral_entropy_intra_q4": round(_mean([m.behavioral_entropy_intra_mean for m in q4]), 6),
+        "valence_std_intra_q4":        round(_mean([m.valence_std_intra for m in q4]), 6),
+        "valence_std_inter_q4":        round(_mean([m.valence_std_inter for m in q4]), 6),
+        "arousal_std_intra_q4":        round(_mean([m.arousal_std_intra for m in q4]), 6),
+        "arousal_std_inter_q4":        round(_mean([m.arousal_std_inter for m in q4]), 6),
     }
     print("AB_RESULT " + json.dumps(result))
 

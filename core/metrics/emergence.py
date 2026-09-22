@@ -52,6 +52,15 @@ class DayMetrics:
     valence_std: float = 0.0          # dispersión de valence subjetiva (filtro ON; idiosincrasia)
     arousal_std: float = 0.0          # dispersión de arousal subjetivo (filtro ON)
     worldview_coherence_mean: float = 0.0  # coherencia media del MentalVault (vault ON)
+    # ── Descomposición intra-tribu vs. inter-tribu (pending item, ver
+    # docs/handoffs/2026-09-21.md §7: "el instrumento actual no distingue si el
+    # InterpretiveFilter aumenta la variación DENTRO de una tribu, invisible a
+    # behavioral_kl_mean/valence_std/arousal_std tal como estaban definidos"). ──
+    behavioral_entropy_intra_mean: float = 0.0  # entropía media de la acción DENTRO de cada tribu
+    valence_std_intra: float = 0.0    # media de la std de valence DENTRO de cada tribu
+    valence_std_inter: float = 0.0    # std de la valence media ENTRE tribus
+    arousal_std_intra: float = 0.0    # media de la std de arousal DENTRO de cada tribu
+    arousal_std_inter: float = 0.0    # std de la arousal media ENTRE tribus
 
 
 class EmergenceMetrics:
@@ -87,6 +96,9 @@ class EmergenceMetrics:
         field_kl_mean          = self._field_divergence(tribe_manager, tribes)
         valence_std, arousal_std = self._affective_dispersion(alive)
         worldview_coherence    = self._mean_worldview_coherence(alive)
+        behavioral_entropy_intra_mean = self._behavioral_entropy_intra(alive, tribes)
+        (valence_std_intra, valence_std_inter,
+         arousal_std_intra, arousal_std_inter) = self._affective_dispersion_intra_inter(alive, tribes)
 
         return DayMetrics(
             dia=dia,
@@ -104,6 +116,11 @@ class EmergenceMetrics:
             valence_std=valence_std,
             arousal_std=arousal_std,
             worldview_coherence_mean=worldview_coherence,
+            behavioral_entropy_intra_mean=behavioral_entropy_intra_mean,
+            valence_std_intra=valence_std_intra,
+            valence_std_inter=valence_std_inter,
+            arousal_std_intra=arousal_std_intra,
+            arousal_std_inter=arousal_std_inter,
         )
 
     # ── Distribuciones ────────────────────────────────────────────────────────
@@ -214,6 +231,73 @@ class EmergenceMetrics:
             valences.append(pe.valence)
             arousals.append(pe.arousal)
         return _std(valences), _std(arousals)
+
+    def _behavioral_entropy_intra(self, alive: dict, tribes: dict[str, list[str]]) -> float:
+        """
+        Entropía de Shannon media de la distribución de acción DENTRO de cada
+        tribu (cuán variado es el comportamiento entre los miembros de una misma
+        tribu), promediada entre tribus.
+
+        Complementa a `_behavioral_divergence` (que mide divergencia ENTRE
+        tribus): un filtro que aumenta la idiosincrasia individual sin romper el
+        consenso tribal subiría esto sin mover el KL inter-tribu.
+        """
+        entropies: list[float] = []
+        for member_ids in tribes.values():
+            counts = [0] * len(_ACTIONS)
+            n = 0
+            for aid in member_ids:
+                a = alive.get(aid)
+                if a is None:
+                    continue
+                accion = a.behavioral_state.ultimo_colapso
+                if accion in _ACTIONS:
+                    counts[_ACTIONS.index(accion)] += 1
+                    n += 1
+            if n < 2:
+                continue
+            entropies.append(_entropy(counts, n))
+        return _mean(entropies)
+
+    def _affective_dispersion_intra_inter(
+        self, alive: dict, tribes: dict[str, list[str]]
+    ) -> tuple[float, float, float, float]:
+        """
+        Descompone la dispersión afectiva (valence/arousal) en:
+          - intra: media de la std DENTRO de cada tribu (idiosincrasia individual
+            que no rompe cohesión tribal).
+          - inter: std de las medias de tribu ENTRE sí (tribus que se separan
+            afectivamente unas de otras).
+
+        Igual que `_behavioral_entropy_intra`, complementa a `_affective_dispersion`
+        (que mezcla ambas fuentes en una sola std global).
+        """
+        tribe_valences: dict[str, list[float]] = {}
+        tribe_arousals: dict[str, list[float]] = {}
+        for tribe_id, member_ids in tribes.items():
+            vals, arls = [], []
+            for aid in member_ids:
+                a = alive.get(aid)
+                if a is None:
+                    continue
+                pe = getattr(a, "last_perceived_event", None)
+                if pe is None:
+                    continue
+                vals.append(pe.valence)
+                arls.append(pe.arousal)
+            if vals:
+                tribe_valences[tribe_id] = vals
+                tribe_arousals[tribe_id] = arls
+
+        valence_intra = _mean([_std(v) for v in tribe_valences.values() if len(v) >= 2])
+        arousal_intra = _mean([_std(a) for a in tribe_arousals.values() if len(a) >= 2])
+
+        tribe_valence_means = [_mean(v) for v in tribe_valences.values()]
+        tribe_arousal_means = [_mean(a) for a in tribe_arousals.values()]
+        valence_inter = _std(tribe_valence_means) if len(tribe_valence_means) >= 2 else 0.0
+        arousal_inter = _std(tribe_arousal_means) if len(tribe_arousal_means) >= 2 else 0.0
+
+        return valence_intra, valence_inter, arousal_intra, arousal_inter
 
     def _mean_worldview_coherence(self, alive: dict) -> float:
         """Coherencia media del MentalVault entre agentes que lo tienen (vault ON)."""
@@ -375,6 +459,11 @@ class EmergenceMetrics:
             mig_vals.append(mi / h_zk)
 
         return sum(mig_vals) / len(mig_vals) if mig_vals else 0.0
+
+
+def _mean(xs: list[float]) -> float:
+    """Media aritmética de una lista (0.0 si está vacía)."""
+    return sum(xs) / len(xs) if xs else 0.0
 
 
 def _std(xs: list[float]) -> float:
