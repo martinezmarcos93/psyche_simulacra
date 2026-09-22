@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import random
 
 from .superposition import BehavioralState, BEHAVIORAL_STATES
@@ -12,7 +13,10 @@ _WEIGHT_CONTEXT      = 0.15
 _WEIGHT_FIELD        = 0.10
 # Ecuación personal (Fase 1 — InterpretiveFilter). La interpretación subjetiva del
 # estímulo presente modula el colapso como un canal más. Solo escalares Capa A.
-_WEIGHT_INTERPRETIVE = 0.15
+# Configurable via env var únicamente para el experimento de sensibilidad de
+# docs/experiments/2026-09-21-fase1-ecuacion-personal.md §7 (pending item) — el
+# default preserva el comportamiento byte-idéntico previo.
+_WEIGHT_INTERPRETIVE = float(os.getenv("INTERPRETIVE_WEIGHT", "0.15"))
 
 
 def collapse_state(
