@@ -109,10 +109,18 @@ vocabulario compartido.
    de mito posibles está prefijada (como los arquetipos mismos); *cuál* par
    cristaliza y *cuándo* no lo está.
 3. **`on_social_transmission`**: cuando dos agentes comparten una experiencia
-   emocional intensa, el proto-mito más avanzado (mayor coherencia) recibe
-   `transmitir(+1.0)`. Necesita `coherencia ≥ 3.0` (`_COHERENCE_TO_CRYSTALLIZE`)
-   para cristalizar — es decir, **transmisión social real entre agentes**, no un
-   contador de tiempo. Un proto-mito que nadie comparte nunca cristaliza.
+   emocional significativa (`InteractionEngine.resolve_encounter`, tres de los
+   seis desenlaces posibles — choque violento, conflicto/explotación,
+   cooperación pura; no manipulación), el proto-mito más avanzado (mayor
+   coherencia) recibe `transmitir(delta)`, con `delta = 1.0 × intensity` y
+   `intensity` según el tipo de encuentro
+   (`interaction._MYTH_TRANSMISSION_INTENSITY`, overridable por env var —
+   ver `docs/experiments/` para la calibración vigente). Necesita
+   `coherencia ≥ 3.0` (`_COHERENCE_TO_CRYSTALLIZE`) para cristalizar — es
+   decir, **transmisión social real entre agentes**, no un contador de tiempo.
+   Un proto-mito que nadie comparte nunca cristaliza. (Hasta el 2026-09-21 este
+   método existía pero no se llamaba desde ningún lugar — ningún mito de este
+   sistema N-dimensional había cristalizado jamás; ver `DEVELOPMENT_LOG.md`.)
 4. Al cristalizar: `MythCrystal(name, tipo, par, protagonista_id, antagonista_id,
    tribe_id, ...)`. El `name` es generado (ver `_deity_name`, hash determinista
    por arquetipo+tribu → epíteto), no elegido de una lista de nombres con

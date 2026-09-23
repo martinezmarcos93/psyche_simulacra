@@ -134,3 +134,124 @@ poder estadístico, o que el efecto real esté en una dimensión no instrumentad
   según el orden de prioridades de esta sesión.
 - No se hizo `git push` — instrucción explícita del usuario, commits solo
   locales.
+
+---
+
+## 2026-09-21 (continuación) — Modo autónomo: pendientes de prioridad media del handoff anterior
+
+**Punto de partida**: repo re-clonado en una máquina nueva (mismo remoto,
+`main` limpio en el commit `466ec65`), rama de trabajo
+`feature/ecuacion-personal-continuacion` creada desde `main`. Objetivo:
+resolver, en modo autónomo y sin pausar por aprobación intermedia, los tres
+pendientes de prioridad media dejados en `handoffs/2026-09-21.md` §7.
+
+### Hecho
+
+1. **Entorno**: `.venv` con miniconda Python 3.9.12, dependencias instaladas
+   vía el workaround de certificado CA de Avast (ver Ley Red-y-SSL del vault
+   del estudio — no aplica a este proyecto personal, pero el mismo mecanismo
+   de exportar el store de Windows a PEM funcionó igual).
+2. **Baseline confirmado**: 431/434 tests pasan antes de tocar nada; 1 fallo
+   (`TestPerformance::test_metricas_disponibles_tras_correr`, `ZeroDivisionError`
+   intermitente en `SimulationClock.get_performance_metrics()` — 50 ticks
+   headless pueden medir `elapsed_real == 0.0` en esta máquina). No es
+   regresión de la sesión anterior, es dependiente de la velocidad del
+   hardware. **Corregido** con un piso de `1e-6`s (commit `0bd0432`);
+   verificado estable en 5 corridas consecutivas.
+3. **Extendida `on_social_transmission`** (commit `a5f87e3`) a cooperación
+   pura (intensity=0.25) y conflicto/explotación (intensity=0.5), además del
+   choque violento ya conectado (intensity=1.0) — proporcional a la magnitud
+   emocional ya codificada en cada rama de `resolve_encounter`. No se tocó
+   manipulación (fuera de alcance, contaminación afectiva ambigua). 2 tests
+   nuevos verifican la intensidad relativa; `test_social.py` 117/117 y
+   `test_culture_r7.py` 8/8 (incluido el test de cobertura mítica) pasan.
+4. **Bug sistémico encontrado y corregido**: cualquier simulación headless
+   suficientemente larga crashea con `UnicodeEncodeError` al imprimir el
+   emoji narrativo de objetos sagrados/deidades en una consola Windows
+   cp1252. Reproducido con `scripts/myth_calibration.py` (script nuevo, ver
+   punto 6). **Corregido** (commit `b82fee1`) forzando UTF-8 en
+   stdout/stderr al inicio de todos los entry points reales: `main.py`,
+   `run_simulation.py`, `run_overnight.py`, `run_robustness.py`,
+   `ab_interpretive.py`, `myth_calibration.py`.
+5. **Nueva métrica `behavioral_intra_tribe_dispersion`** (commit `575a9d8`):
+   entropía normalizada de la acción conductual *dentro* de cada tribu,
+   contraparte de `behavioral_kl_mean` (que solo mide *entre* tribus).
+   Resuelve la ambigüedad que dejó abierta el experimento A/B de la Fase 1:
+   si el filtro aumenta idiosincrasia individual sin separar tribus entre sí,
+   ahora es visible. Expuesta como `behavioral_intra_q4` en
+   `ab_interpretive.py`. 5 tests nuevos, `test_metrics.py` 29/29 pasan.
+6. **Arnés `scripts/myth_calibration.py`** (commit `f13d0ee`): mide, por
+   semilla, día de primera cristalización y total de `MythCrystal` al final,
+   para calibrar la extensión del punto 3 contra el objetivo original del
+   Roadmap 7 (3000-6000 días → ≥3 mitos/leyendas) sin adivinar a ciegas.
+
+### En curso al momento de escribir esta entrada
+
+- **Calibración de mitología**: corrida headless en background
+  (`scripts/myth_calibration.py --seeds 42 --days 600` como smoke test;
+  corridas más largas de 4000-6000 días planeadas a continuación). Resultado
+  pendiente de completar — se documentará en `docs/experiments/` cuando
+  termine.
+- **Repetición del experimento A/B de la Fase 1 con más poder estadístico**:
+  batch headless en background, 20 semillas (42-61) × 3 condiciones (OFF /
+  filtro / filtro+vault) × 300 días, ya incluyendo `behavioral_intra_q4`.
+  Reemplaza la corrida original de n=5 semillas por la potencia estadística
+  que el handoff anterior pedía (n≥15-20) antes de descartar la hipótesis de
+  la Fase 1 con más confianza. Resultado pendiente — se documentará en
+  `docs/experiments/` cuando termine, actualizando
+  `2026-09-21-fase1-ecuacion-personal.md` con la conclusión revisada.
+
+### Cierre de esta sesión (máquina de oficina) — handoff a máquina personal
+
+Autorizado explícitamente por el usuario (`autorizo el push`): rama
+`feature/ecuacion-personal-continuacion` pusheada a `origin` (11 commits,
+`a5f87e3`..`90b4391`). `main` no se tocó.
+
+Ambas corridas largas (calibración de mitología, repetición A/B n=15) se
+**interrumpieron**: la máquina de oficina tiene solo 2 núcleos lógicos y cada
+corrida de 300 días tarda ~470-500s (no los ~150s de la sesión original) —
+proyectando >5h para el batch completo, inviable en esa máquina. Se
+reemplazó el bash one-off no versionado por `scripts/run_ab_batch.py`
+(commit `1dda8be`), portable y resumible con `--append`, para continuar en
+la máquina personal:
+
+```
+python scripts/run_ab_batch.py --seeds 42-56 --days 300 \
+    --output data/metrics/ab_interpretive_fase1_n15_2026-09-21.jsonl
+```
+
+**Hallazgo adicional durante la espera** (inspección manual del vault de
+Obsidian generado por el smoke test de `myth_calibration.py`, 600 días,
+seed 42): confirma en formato narrativo la sobre-cristalización ya medida
+numéricamente (3 mitos para el día 7: `Mito_moral_dia2`, `Cosmogonia_dia3`,
+`Mito_moral_dia7`). Más interesante — la `Cronica.md` exportada al día 500
+muestra un patrón saturado y perfectamente repetido: **"Eco del
+Multiverso"**, el arquetipo `muerte` resonando a intensidad máxima (1.00)
+simultáneamente en 14 tribus, idéntico día tras día (497-500). El mecanismo
+(`core/liminal/collective_echo.py`) es un feedback positivo real y
+diseñado: un símbolo que converge lo suficiente entre tribus se amplifica
+globalmente, lo cual facilita que vuelva a converger. Hipótesis abierta (no
+confirmada): la sobre-cristalización temprana de la extensión de
+`on_social_transmission` pudo haber sido la chispa que arrancó este loop de
+monocultivo simbólico — otra señal a favor de que los pesos actuales
+(commit `a5f87e3`) están mal calibrados, más allá del conteo de mitos.
+También se observó que los archivos por tribu/persona/meta del vault se
+congelan en el día ~30 (probablemente porque las tribus fundadoras se
+disuelven en el primer reclustering del escenario y el sistema no genera
+archivos nuevos para las tribus post-reclustering) — anotado como
+limitación conocida, no investigado a fondo por estar fuera de alcance.
+
+### Pendiente (para la sesión en la máquina personal)
+
+- Terminar y documentar el batch A/B n=15 (`run_ab_batch.py`, arriba).
+- Terminar el barrido de calibración de mitología (baseline choque-only vs.
+  pesos reducidos, 1200 días, seed 42 — comando en
+  `docs/experiments/` una vez se redacte ese documento) y fijar los pesos de
+  `_MYTH_TRANSMISSION_INTENSITY` con el resultado, no a ciegas.
+- Investigar si el "Eco del Multiverso" está relacionado causalmente con la
+  sobre-cristalización de la extensión de mitología (correlación observada,
+  no probada).
+- Fase 3 del roadmap Ecuación Personal (observabilidad) sigue sin iniciar —
+  condicionada a que la repetición del A/B muestre impacto medible.
+- `attributed_cause`/`moral_judgment` siguen sin ser leídos por
+  `MentalVault.accumulate()` — sin cambios desde la sesión anterior.

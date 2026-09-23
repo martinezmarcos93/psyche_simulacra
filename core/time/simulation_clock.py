@@ -281,6 +281,10 @@ class SimulationClock:
         if self._ticks_this_session == 0:
             return {}
         elapsed_real     = time.monotonic() - self._session_start_real
+        # En máquinas rápidas, N ticks headless (sin I/O real) pueden completarse
+        # dentro de la resolución del reloj monotónico y medir 0.0s exactos —
+        # sin este piso, la división de abajo lanza ZeroDivisionError.
+        elapsed_real     = max(elapsed_real, 1e-6)
         ticks_per_second = self._ticks_this_session / elapsed_real
         dias_per_minute  = (ticks_per_second * 60) / self.TICKS_PER_DAY
 

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import random
 from typing import TYPE_CHECKING
 
@@ -11,6 +12,21 @@ if TYPE_CHECKING:
     from core.social.collective_field import CollectiveField
     from core.social.mythology import MythologyEngine
     from core.social.tribe_manager import TribeManager
+
+
+# Intensidad relativa de transmisión mítica por tipo de encuentro (ver
+# MythologyEngine.on_social_transmission). Punto de partida teórico: magnitud
+# de los efectos emocionales ya codificados en cada rama de resolve_encounter
+# (choque_violento > conflicto_explotacion > cooperacion_pura). Overridable por
+# env var para calibración empírica (ver scripts/myth_calibration.py) sin
+# recompilar — mismo patrón que MYTH_CONTEXT_THRESHOLD en mythology.py. No se
+# conecta manipulacion_* — fuera de alcance (ver docs/handoffs/2026-09-21.md §7)
+# y su contaminación afectiva es menor y ambigua (engaño exitoso vs. detectado).
+_MYTH_TRANSMISSION_INTENSITY: dict[str, float] = {
+    "choque_violento":       float(os.getenv("MYTH_TRANSMISSION_CHOQUE_VIOLENTO", "1.00")),
+    "conflicto_explotacion": float(os.getenv("MYTH_TRANSMISSION_CONFLICTO_EXPLOTACION", "0.50")),
+    "cooperacion_pura":      float(os.getenv("MYTH_TRANSMISSION_COOPERACION_PURA", "0.25")),
+}
 
 
 class InteractionEngine:
@@ -217,7 +233,9 @@ class InteractionEngine:
             # (aunque menos intensa que un choque violento) — empuja al proto-mito
             # más avanzado hacia la cristalización, igual que la competencia mutua.
             if mythology_engine is not None:
-                mythology_engine.on_social_transmission(collective_field)
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["cooperacion_pura"]
+                )
 
             self._reinterpret_pair(a, b, "cooperacion_mutua", "cooperacion_mutua",
                                     network, collective_field, mythology_engine, tribe_manager)
@@ -260,7 +278,9 @@ class InteractionEngine:
             # compartida intensa para ambas partes — también empuja al proto-mito
             # más avanzado hacia la cristalización.
             if mythology_engine is not None:
-                mythology_engine.on_social_transmission(collective_field)
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["conflicto_explotacion"]
+                )
 
             self._reinterpret_pair(victim, exploiter, "explotado", "explotador",
                                     network, collective_field, mythology_engine, tribe_manager)
@@ -288,12 +308,15 @@ class InteractionEngine:
             self._absorb("competencia", "competencia", "choque_violento",
                          collective_field, tribe_manager, a.id, b.id)
 
-            # Un choque violento es la experiencia compartida más intensa del motor
-            # de encuentros — empuja al proto-mito más avanzado hacia la
-            # cristalización (igual que cooperación pura y conflicto/explotación,
-            # ver docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
+            # Un choque violento es la experiencia compartida más intensa del motor de
+            # encuentros (intensity=1.0, ver _MYTH_TRANSMISSION_INTENSITY) — es la que
+            # más empuja al proto-mito más avanzado hacia la cristalización (igual
+            # que cooperación pura y conflicto/explotación, ver
+            # docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
             if mythology_engine is not None:
-                mythology_engine.on_social_transmission(collective_field)
+                mythology_engine.on_social_transmission(
+                    collective_field, intensity=_MYTH_TRANSMISSION_INTENSITY["choque_violento"]
+                )
 
             self._reinterpret_pair(a, b, "choque_violento", "choque_violento",
                                     network, collective_field, mythology_engine, tribe_manager)

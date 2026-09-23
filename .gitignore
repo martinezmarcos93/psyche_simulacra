@@ -88,6 +88,9 @@ logs/
 .mypy_cache/
 .ruff_cache/
 
+# ── Certificados locales (workaround SSL de interceptación de red) ──────────
+ca-bundle.pem
+
 # ── Documentos privados de diseño ────────────────────────────────────────────
 _privado/
 _PRIVADO*/

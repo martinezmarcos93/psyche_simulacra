@@ -347,19 +347,24 @@ class MythologyEngine:
         self._distort_myths(field, agents, dia)
         self._decay_myths()
 
-    def on_social_transmission(self, field: CollectiveField) -> None:
+    def on_social_transmission(self, field: CollectiveField, intensity: float = 1.0) -> None:
         """
-        Llamado cuando dos agentes comparten una experiencia emocional intensa.
+        Llamado cuando dos agentes comparten una experiencia emocional significativa.
         Aumenta la coherencia del proto-mito más avanzado.
 
         Análogo a la 'medición débil' de Saussure-Quantum: cada interacción
-        empuja el proto-mito un paso hacia la cristalización.
+        empuja el proto-mito un paso hacia la cristalización. `intensity` escala
+        ese empujón según qué tan intensa fue la experiencia compartida — un
+        choque violento (intensity=1.0, ver `interaction._MYTH_TRANSMISSION_INTENSITY`)
+        no es igual de significativo que una cooperación armónica, pero ambos
+        cuentan como transmisión social (ver docs/EMERGENCE.md y
+        docs/experiments/2026-09-21-fase1-ecuacion-personal.md).
         """
         if not self.proto_myths:
             return
         # El proto-mito más avanzado recibe la transmisión
         most_advanced = max(self.proto_myths, key=lambda p: p.coherencia)
-        most_advanced.transmitir(_COHERENCE_PER_TRANSMISSION)
+        most_advanced.transmitir(_COHERENCE_PER_TRANSMISSION * intensity)
 
     # ── Proto-mitos ────────────────────────────────────────────────────────────
 

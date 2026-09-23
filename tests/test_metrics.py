@@ -265,6 +265,18 @@ class TestComputeDay:
         assert 0.0 <= m.imi <= 1.0 + 1e-6
 
 
+# ── Tests de dispersión conductual intra-tribu ─────────────────────────────────
+
+def _make_behavioral_agent(agent_id: str, accion: str, alive: bool = True):
+    """Agent mock con behavioral_state.ultimo_colapso — para métricas conductuales."""
+    a = MagicMock()
+    a.id       = agent_id
+    a.is_alive = alive
+    a.archetypes = _make_archetype(_UNIFORM_ARCH)
+    a.behavioral_state.ultimo_colapso = accion
+    return a
+
+
 # ── Tests de _field_divergence ────────────────────────────────────────────────
 # Regresión: encontrado corriendo el barrido A/B n=20 (seed 46, condición FILTER,
 # ver docs/experiments/2026-09-21-fase1-ecuacion-personal-n20.md) — IndexError
@@ -312,6 +324,76 @@ def _agent_with_action(agent_id: str, accion: str):
     a.is_alive = True
     a.behavioral_state.ultimo_colapso = accion
     return a
+
+
+class TestBehavioralIntraTribeDispersion:
+
+    def _make_tribe_manager(self, tribes, local_fields=None):
+        tm = MagicMock()
+        tm.tribes = tribes
+        tm.local_fields = local_fields or {}
+        return tm
+
+    def test_tribu_uniforme_da_dispersion_cero(self):
+        """Todos los miembros colapsan a la misma acción -> entropía intra-tribu 0."""
+        em = EmergenceMetrics()
+        agents = {f"a{i}": _make_behavioral_agent(f"a{i}", "cooperacion") for i in range(5)}
+        tm = self._make_tribe_manager({"t1": list(agents.keys())})
+        assert em._behavioral_intra_tribe_dispersion(agents, tm.tribes) == pytest.approx(0.0, abs=1e-6)
+
+    def test_tribu_maximamente_repartida_da_dispersion_uno(self):
+        """Las 4 acciones repartidas parejo dentro de la tribu -> entropía normalizada 1.0."""
+        em = EmergenceMetrics()
+        acciones = ["cooperacion", "competencia", "aislamiento", "manipulacion"]
+        agents = {f"a{i}": _make_behavioral_agent(f"a{i}", acciones[i]) for i in range(4)}
+        tm = self._make_tribe_manager({"t1": list(agents.keys())})
+        assert em._behavioral_intra_tribe_dispersion(agents, tm.tribes) == pytest.approx(1.0, abs=1e-6)
+
+    def test_tribu_de_un_solo_miembro_se_ignora(self):
+        """Con < 2 miembros con acción válida no hay entropía intra-tribu que medir."""
+        em = EmergenceMetrics()
+        agents = {"a0": _make_behavioral_agent("a0", "cooperacion")}
+        tm = self._make_tribe_manager({"t1": ["a0"]})
+        assert em._behavioral_intra_tribe_dispersion(agents, tm.tribes) == pytest.approx(0.0, abs=1e-6)
+
+    def test_es_independiente_de_behavioral_kl_mean(self):
+        """
+        Dos tribus internamente uniformes pero cada una en una acción distinta:
+        divergencia INTER alta, dispersión INTRA nula. El caso inverso (mismo
+        reparto interno idéntico en ambas tribus, pero disperso) da INTER nula
+        e INTRA alta — son ejes ortogonales, no la misma medición dos veces.
+        """
+        em = EmergenceMetrics()
+
+        # Caso A: separación entre tribus, uniformidad interna.
+        agents_a = {
+            **{f"t1_{i}": _make_behavioral_agent(f"t1_{i}", "cooperacion") for i in range(3)},
+            **{f"t2_{i}": _make_behavioral_agent(f"t2_{i}", "competencia") for i in range(3)},
+        }
+        tribes_a = {"t1": [f"t1_{i}" for i in range(3)], "t2": [f"t2_{i}" for i in range(3)]}
+        inter_a = em._behavioral_divergence(agents_a, tribes_a)
+        intra_a = em._behavioral_intra_tribe_dispersion(agents_a, tribes_a)
+        assert inter_a > 0.0
+        assert intra_a == pytest.approx(0.0, abs=1e-6)
+
+        # Caso B: mismo reparto (50/50 cooperación/competencia) en ambas tribus.
+        agents_b = {
+            **{f"t1_{i}": _make_behavioral_agent(f"t1_{i}", "cooperacion" if i % 2 == 0 else "competencia") for i in range(4)},
+            **{f"t2_{i}": _make_behavioral_agent(f"t2_{i}", "cooperacion" if i % 2 == 0 else "competencia") for i in range(4)},
+        }
+        tribes_b = {"t1": [f"t1_{i}" for i in range(4)], "t2": [f"t2_{i}" for i in range(4)]}
+        inter_b = em._behavioral_divergence(agents_b, tribes_b)
+        intra_b = em._behavioral_intra_tribe_dispersion(agents_b, tribes_b)
+        assert inter_b == pytest.approx(0.0, abs=1e-6)
+        assert intra_b > 0.0
+
+    def test_compute_day_incluye_el_campo(self):
+        em = EmergenceMetrics()
+        agents = {f"a{i}": _make_behavioral_agent(f"a{i}", "cooperacion") for i in range(3)}
+        tm = self._make_tribe_manager({"t1": list(agents.keys())})
+        cf = _make_field({"heroe": 0.5})
+        m = em.compute_day(0, agents, tm, cf)
+        assert m.behavioral_intra_tribe_dispersion == pytest.approx(0.0, abs=1e-6)
 
 
 def _agent_with_affect(agent_id: str, valence: float, arousal: float):

@@ -13,6 +13,14 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT))
 
+# Windows: la consola por defecto usa cp1252 y no puede imprimir el emoji
+# narrativo que loguean algunos subsistemas (objetos sagrados, deidades) —
+# sin esto, una simulación larga crashea con UnicodeEncodeError en un print
+# que no tiene nada que ver con la lógica que estaba corriendo.
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 DB_PATH         = ROOT / "data" / "db" / "simulation.db"
 CHECKPOINTS_DIR = ROOT / "data" / "checkpoints"
 ARCHIVE_DIR     = ROOT / "data" / "archive"

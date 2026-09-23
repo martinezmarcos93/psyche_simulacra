@@ -190,49 +190,47 @@ def test_choque_violento_transmite_al_proto_mito():
     engine.resolve_encounter(agent_a, agent_b, net, field)
 
 
-def test_cooperacion_pura_transmite_al_proto_mito():
+def test_cooperacion_pura_y_conflicto_explotacion_transmiten_con_intensidad_menor():
     """
-    Regresión: extensión de on_social_transmission (ver §7 del handoff
-    2026-09-21) a la cooperación pura, para diversificar las causas de
-    cristalización mítica más allá del choque violento.
+    Extensión (2026-09-21, prioridad media del handoff previo): la transmisión
+    social hacia el proto-mito no debe depender solo del choque violento —
+    cooperación pura y conflicto/explotación son también experiencias
+    emocionales compartidas significativas, aunque menos intensas. Cada una
+    debe transmitir *menos* coherencia que un choque violento (intensity=1.0),
+    en la proporción de core.social.interaction._MYTH_TRANSMISSION_INTENSITY.
     """
+    from core.social.interaction import _MYTH_TRANSMISSION_INTENSITY
+
     engine = InteractionEngine()
     net = SocialNetwork()
     field = CollectiveField()
-    mythology = MythologyEngine()
-    mythology.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
 
-    agent_a = Agent("a", "Agent A", (0, 0), seed=1)
-    agent_b = Agent("b", "Agent B", (0, 0), seed=2)
-    agent_a.behavioral_state.ultimo_colapso = "cooperacion"
-    agent_b.behavioral_state.ultimo_colapso = "cooperacion"
+    # Cooperación pura (cooperacion-cooperacion)
+    mythology_coop = MythologyEngine()
+    mythology_coop.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+    a1 = Agent("a1", "A1", (0, 0), seed=1)
+    b1 = Agent("b1", "B1", (0, 0), seed=2)
+    a1.behavioral_state.ultimo_colapso = "cooperacion"
+    b1.behavioral_state.ultimo_colapso = "cooperacion"
+    engine.resolve_encounter(a1, b1, net, field, mythology_engine=mythology_coop)
+    coherencia_coop = mythology_coop.proto_myths[0].coherencia
+    assert coherencia_coop > 0.0
+    assert coherencia_coop == pytest.approx(_MYTH_TRANSMISSION_INTENSITY["cooperacion_pura"])
 
-    assert mythology.proto_myths[0].coherencia == 0.0
-    engine.resolve_encounter(agent_a, agent_b, net, field, mythology_engine=mythology)
-    assert mythology.proto_myths[0].coherencia > 0.0
+    # Conflicto/explotación (cooperacion-competencia)
+    mythology_expl = MythologyEngine()
+    mythology_expl.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
+    a2 = Agent("a2", "A2", (0, 0), seed=1)
+    b2 = Agent("b2", "B2", (0, 0), seed=2)
+    a2.behavioral_state.ultimo_colapso = "cooperacion"
+    b2.behavioral_state.ultimo_colapso = "competencia"
+    engine.resolve_encounter(a2, b2, net, field, mythology_engine=mythology_expl)
+    coherencia_expl = mythology_expl.proto_myths[0].coherencia
+    assert coherencia_expl > 0.0
+    assert coherencia_expl == pytest.approx(_MYTH_TRANSMISSION_INTENSITY["conflicto_explotacion"])
 
-
-def test_conflicto_explotacion_transmite_al_proto_mito():
-    """
-    Regresión: extensión de on_social_transmission (ver §7 del handoff
-    2026-09-21) al conflicto/explotación (cooperación vs. competencia), para
-    diversificar las causas de cristalización mítica más allá del choque
-    violento.
-    """
-    engine = InteractionEngine()
-    net = SocialNetwork()
-    field = CollectiveField()
-    mythology = MythologyEngine()
-    mythology.proto_myths.append(ProtoMito(tipo="mito_moral", par=("heroe", "sombra")))
-
-    agent_a = Agent("a", "Agent A", (0, 0), seed=1)
-    agent_b = Agent("b", "Agent B", (0, 0), seed=2)
-    agent_a.behavioral_state.ultimo_colapso = "cooperacion"
-    agent_b.behavioral_state.ultimo_colapso = "competencia"
-
-    assert mythology.proto_myths[0].coherencia == 0.0
-    engine.resolve_encounter(agent_a, agent_b, net, field, mythology_engine=mythology)
-    assert mythology.proto_myths[0].coherencia > 0.0
+    # Orden de intensidad esperado: violento > explotación > cooperación
+    assert _MYTH_TRANSMISSION_INTENSITY["choque_violento"] > coherencia_expl > coherencia_coop
 
 
 # 4. test_collective_field_decay_and_radiation
