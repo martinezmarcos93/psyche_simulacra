@@ -3,6 +3,8 @@ from __future__ import annotations
 import random
 from typing import TYPE_CHECKING
 
+from core.social import communication
+
 if TYPE_CHECKING:
     from core.agents import Agent
     from core.social.network import SocialNetwork
@@ -81,6 +83,55 @@ class InteractionEngine:
                 la.absorb_interaction(state_a, state_b, outcome)
             if lb is not None and lb is not la:
                 lb.absorb_interaction(state_a, state_b, outcome)
+
+    def _local_context(
+        self,
+        agent_id:         str,
+        global_field:     CollectiveField,
+        global_mythology: MythologyEngine | None,
+        tribe_manager:    TribeManager | None,
+    ) -> tuple[CollectiveField, MythologyEngine | None]:
+        """
+        Resuelve el campo/mitología que le corresponde a un agente para
+        reinterpretar un encuentro: los de SU tribu si tiene una y existen,
+        el global si no. Misma resolución local/global que ya usa `_absorb`
+        para alimentar el campo — aquí, en la otra dirección, para leerlo.
+
+        Que cada agente reinterprete con el vocabulario de su propia tribu
+        (en vez de uno único compartido) es lo que permite que el mismo
+        encuentro cristalice significados distintos según quién lo viva
+        (multiacentualidad — Voloshinov).
+        """
+        if tribe_manager is None:
+            return global_field, global_mythology
+        local_field = tribe_manager.get_local_field(agent_id)
+        tribe_id = tribe_manager.get_tribe_id(agent_id)
+        local_mythology = tribe_manager.local_myths.get(tribe_id) if tribe_id else None
+        return (local_field or global_field), (local_mythology or global_mythology)
+
+    def _reinterpret_pair(
+        self,
+        a:                Agent,
+        b:                Agent,
+        role_a:           str,
+        role_b:           str,
+        network:          SocialNetwork,
+        collective_field: CollectiveField,
+        mythology_engine: MythologyEngine | None,
+        tribe_manager:    TribeManager | None,
+    ) -> None:
+        """
+        Cada agente reinterpreta el encuentro ya resuelto a través de su
+        propia Ecuación Personal (ver core/social/communication.py). No-op
+        si `communication.REINTERPRETATION_ENABLED` está apagado (por
+        defecto) — no altera en nada el comportamiento existente.
+        """
+        if not communication.REINTERPRETATION_ENABLED:
+            return
+        field_a, myth_a = self._local_context(a.id, collective_field, mythology_engine, tribe_manager)
+        field_b, myth_b = self._local_context(b.id, collective_field, mythology_engine, tribe_manager)
+        communication.reinterpret_encounter(a, b, role_a, network, field_a, myth_a)
+        communication.reinterpret_encounter(b, a, role_b, network, field_b, myth_b)
 
     def resolve_encounter(
         self,
@@ -161,6 +212,9 @@ class InteractionEngine:
             if mythology_engine is not None:
                 mythology_engine.on_social_transmission(collective_field)
 
+            self._reinterpret_pair(a, b, "cooperacion_mutua", "cooperacion_mutua",
+                                    network, collective_field, mythology_engine, tribe_manager)
+
         # Caso Cooperación - Competencia (Conflicto / Explotación)
         elif (state_a == "cooperacion" and state_b == "competencia") or \
              (state_a == "competencia" and state_b == "cooperacion"):
@@ -201,6 +255,9 @@ class InteractionEngine:
             if mythology_engine is not None:
                 mythology_engine.on_social_transmission(collective_field)
 
+            self._reinterpret_pair(victim, exploiter, "explotado", "explotador",
+                                    network, collective_field, mythology_engine, tribe_manager)
+
         # Caso Competencia - Competencia (Choque Violento)
         elif state_a == "competencia" and state_b == "competencia":
             # Caída mutua severa de vínculos
@@ -231,6 +288,9 @@ class InteractionEngine:
             if mythology_engine is not None:
                 mythology_engine.on_social_transmission(collective_field)
 
+            self._reinterpret_pair(a, b, "choque_violento", "choque_violento",
+                                    network, collective_field, mythology_engine, tribe_manager)
+
         # Caso Manipulación - Cooperación (Éxito de manipulación)
         elif (state_a == "manipulacion" and state_b == "cooperacion") or \
              (state_a == "cooperacion" and state_b == "manipulacion"):
@@ -256,6 +316,9 @@ class InteractionEngine:
             self._absorb("manipulacion", "cooperacion", "exito_manipulacion",
                          collective_field, tribe_manager, a.id, b.id)
 
+            self._reinterpret_pair(cooperator, manipulator, "manipulado_exitosamente", "manipulador_exitoso",
+                                    network, collective_field, mythology_engine, tribe_manager)
+
         # Caso Manipulación - Competencia (Fracaso de manipulación)
         elif (state_a == "manipulacion" and state_b == "competencia") or \
              (state_a == "competencia" and state_b == "manipulacion"):
@@ -277,6 +340,9 @@ class InteractionEngine:
             self._absorb("manipulacion", "competencia", "fracaso_manipulacion",
                          collective_field, tribe_manager, a.id, b.id)
 
+            self._reinterpret_pair(manipulator, competitor, "manipulador_fracasado", "manipulacion_resistida",
+                                    network, collective_field, mythology_engine, tribe_manager)
+
         # Caso Manipulación - Manipulación (Juegos Mentales)
         elif state_a == "manipulacion" and state_b == "manipulacion":
             # Resistencia mutua
@@ -288,3 +354,6 @@ class InteractionEngine:
 
             a.episodic_log.append(f"Día {dia}: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con {b.nombre}.")
             b.episodic_log.append(f"Día {dia}: Se vio envuelto en intrigas de manipulación mutua y juegos mentales con {a.nombre}.")
+
+            self._reinterpret_pair(a, b, "juego_mental_mutuo", "juego_mental_mutuo",
+                                    network, collective_field, mythology_engine, tribe_manager)

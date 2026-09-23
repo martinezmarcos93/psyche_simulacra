@@ -9,6 +9,9 @@ from core.social.collective_field import CollectiveField
 from core.social.mythology import MythologyEngine, MythCrystal, ProtoMito
 from core.social.interaction import InteractionEngine
 from core.social.perception import PerceptionSystem, ARCHETYPE_ATTENTION
+from core.social.tribe_manager import TribeManager
+from core.social import communication
+from core.agents.psyche.interpretive_filter import InterpretiveFilter
 from core.world import WorldCore
 from core.simulation import SimulationRunner
 
@@ -2236,3 +2239,125 @@ class TestHito10EmergentCriterion:
         d     = core.to_dict()
         core2 = AgentCore.from_dict(d, world)
         assert core2.knowledge.has(agents[0].id, "fuego_ritual")
+
+
+# ── Reinterpretación del receptor (core/social/communication.py) ──────────────
+
+class TestReinterpretacionReceptorWiring:
+    """
+    Verifica que InteractionEngine.resolve_encounter esté correctamente
+    conectado a la reinterpretación del receptor (core/social/communication.py)
+    y que la resolución de campo/mitología por tribu (multiacentualidad,
+    Voloshinov) funcione. El flag está OFF por defecto: estos tests lo
+    activan explícitamente vía monkeypatch, sin tocar el env var real.
+    """
+
+    def test_off_por_defecto_no_altera_comportamiento_existente(self):
+        assert communication.REINTERPRETATION_ENABLED is False
+
+    def test_resolve_encounter_reinterpreta_si_flag_activo(self, monkeypatch):
+        monkeypatch.setattr(communication, "REINTERPRETATION_ENABLED", True)
+
+        engine = InteractionEngine()
+        net = SocialNetwork()
+        field = CollectiveField()
+
+        agent_a = Agent("a", "Agent A", (0, 0), seed=1)
+        agent_b = Agent("b", "Agent B", (0, 0), seed=2)
+        agent_a._interpretive_filter = InterpretiveFilter()
+        agent_b._interpretive_filter = InterpretiveFilter()
+
+        agent_a.behavioral_state.ultimo_colapso = "cooperacion"
+        agent_b.behavioral_state.ultimo_colapso = "cooperacion"
+
+        engine.resolve_encounter(agent_a, agent_b, net, field)
+
+        assert agent_a.last_perceived_event is not None
+        assert agent_b.last_perceived_event is not None
+
+    def test_resolve_encounter_no_reinterpreta_si_flag_inactivo(self):
+        engine = InteractionEngine()
+        net = SocialNetwork()
+        field = CollectiveField()
+
+        agent_a = Agent("a", "Agent A", (0, 0), seed=1)
+        agent_b = Agent("b", "Agent B", (0, 0), seed=2)
+        agent_a._interpretive_filter = InterpretiveFilter()
+        agent_b._interpretive_filter = InterpretiveFilter()
+
+        agent_a.behavioral_state.ultimo_colapso = "cooperacion"
+        agent_b.behavioral_state.ultimo_colapso = "cooperacion"
+
+        engine.resolve_encounter(agent_a, agent_b, net, field)
+
+        assert agent_a.last_perceived_event is None
+        assert agent_b.last_perceived_event is None
+
+    def test_victima_y_explotador_reinterpretan_el_mismo_encuentro_distinto(self, monkeypatch):
+        """
+        El punto central del diseño: conflicto_explotacion es UN encuentro
+        objetivo, pero víctima y explotador reciben roles con física opuesta
+        (ver communication._ROLE_PHYSICS) y por lo tanto pueden divergir en
+        valence aunque compartan el mismo InteractionEngine y el mismo tick.
+        """
+        monkeypatch.setattr(communication, "REINTERPRETATION_ENABLED", True)
+
+        engine = InteractionEngine()
+        net = SocialNetwork()
+        field = CollectiveField()
+
+        victima = Agent("v", "Victima", (0, 0), seed=1)
+        explotador = Agent("e", "Explotador", (0, 0), seed=2)
+        victima._interpretive_filter = InterpretiveFilter()
+        explotador._interpretive_filter = InterpretiveFilter()
+
+        victima.behavioral_state.ultimo_colapso = "cooperacion"
+        explotador.behavioral_state.ultimo_colapso = "competencia"
+        victima.needs.hambre = 0.2
+        explotador.needs.hambre = 0.8
+
+        engine.resolve_encounter(victima, explotador, net, field)
+
+        assert victima.last_perceived_event is not None
+        assert explotador.last_perceived_event is not None
+        assert victima.last_perceived_event.valence < explotador.last_perceived_event.valence
+
+
+class TestLocalContext:
+    """_local_context: resolución de campo/mitología local por tribu (Voloshinov)."""
+
+    def test_cae_a_global_sin_tribe_manager(self):
+        engine = InteractionEngine()
+        global_field = CollectiveField()
+        resolved_field, resolved_myth = engine._local_context("a", global_field, None, None)
+        assert resolved_field is global_field
+        assert resolved_myth is None
+
+    def test_resuelve_campo_propio_por_tribu(self):
+        """
+        Dos agentes en tribus distintas deben resolver a DOS objetos de campo
+        distintos, no al mismo campo global compartido — condición necesaria
+        para que el mismo encuentro pueda cristalizar vocabulario distinto
+        según la tribu que lo vive.
+        """
+        engine = InteractionEngine()
+        tm = TribeManager()
+        tm.agent_to_tribe = {"a": "tribu_a", "b": "tribu_b"}
+        field_a = CollectiveField()
+        field_b = CollectiveField()
+        tm.local_fields = {"tribu_a": field_a, "tribu_b": field_b}
+        global_field = CollectiveField()
+
+        resolved_a, _ = engine._local_context("a", global_field, None, tm)
+        resolved_b, _ = engine._local_context("b", global_field, None, tm)
+
+        assert resolved_a is field_a
+        assert resolved_b is field_b
+        assert resolved_a is not resolved_b
+
+    def test_cae_a_global_si_agente_sin_tribu_asignada(self):
+        engine = InteractionEngine()
+        tm = TribeManager()  # sin agent_to_tribe poblado
+        global_field = CollectiveField()
+        resolved_field, _ = engine._local_context("a", global_field, None, tm)
+        assert resolved_field is global_field
