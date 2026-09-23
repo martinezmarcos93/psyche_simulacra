@@ -150,30 +150,37 @@ class InteractionEngine:
         state_a = a.estado_conductual or "aislamiento"
         state_b = b.estado_conductual or "aislamiento"
 
-        # 1. Influencia de Mitología Activa en la percepción mutua
-        hero_id, monster_id = None, None
-        if mythology_engine:
-            hero_id, monster_id = mythology_engine.get_myth_hero_monster()
+        # 1. Influencia de Mitología Activa en la percepción mutua. Cada agente
+        # reconoce héroe/monstruo según SU PROPIA mitología (la de su tribu si
+        # tiene una asignada vía tribe_manager; la global si no) — no una
+        # única mitología compartida por toda la simulación. El mismo agente
+        # puede así ser Héroe para su tribu y una figura sin estatus mítico
+        # (o el propio Monstruo) para otra que cristalizó un mito distinto
+        # sobre el mismo par arquetípico (multiacentualidad — Voloshinov).
+        _, myth_a = self._local_context(a.id, collective_field, mythology_engine, tribe_manager)
+        _, myth_b = self._local_context(b.id, collective_field, mythology_engine, tribe_manager)
+        hero_for_a, monster_for_a = myth_a.get_myth_hero_monster() if myth_a is not None else (None, None)
+        hero_for_b, monster_for_b = myth_b.get_myth_hero_monster() if myth_b is not None else (None, None)
 
-        # Si A o B es el Héroe, inspira al otro a cooperar
-        if hero_id:
-            if a.id == hero_id and state_b in ("competencia", "manipulacion"):
-                # 50% de probabilidad de que el héroe inspire cooperación en B
-                if b._rng.random() < 0.50:
-                    state_b = "cooperacion"
-            elif b.id == hero_id and state_a in ("competencia", "manipulacion"):
-                # 50% de probabilidad de que el héroe inspire cooperación en A
-                if a._rng.random() < 0.50:
-                    state_a = "cooperacion"
+        # B reconoce a A como Héroe (según la mitología de B) → A lo inspira a cooperar
+        if hero_for_b and a.id == hero_for_b and state_b in ("competencia", "manipulacion"):
+            # 50% de probabilidad de que el héroe inspire cooperación en B
+            if b._rng.random() < 0.50:
+                state_b = "cooperacion"
+        # A reconoce a B como Héroe (según la mitología de A) → B lo inspira a cooperar
+        if hero_for_a and b.id == hero_for_a and state_a in ("competencia", "manipulacion"):
+            # 50% de probabilidad de que el héroe inspire cooperación en A
+            if a._rng.random() < 0.50:
+                state_a = "cooperacion"
 
-        # Si A o B es el Monstruo (chivo expiatorio), genera hostilidad o aislamiento
-        if monster_id:
-            if a.id == monster_id and state_b == "cooperacion":
-                # La cooperación se convierte en competencia (hostilidad) o aislamiento
-                state_b = b._rng.choice(["competencia", "aislamiento"])
-            elif b.id == monster_id and state_a == "cooperacion":
-                # La cooperación se convierte en competencia (hostilidad) o aislamiento
-                state_a = a._rng.choice(["competencia", "aislamiento"])
+        # B reconoce a A como el Monstruo (chivo expiatorio de B) → hostilidad en B
+        if monster_for_b and a.id == monster_for_b and state_b == "cooperacion":
+            # La cooperación se convierte en competencia (hostilidad) o aislamiento
+            state_b = b._rng.choice(["competencia", "aislamiento"])
+        # A reconoce a B como el Monstruo (chivo expiatorio de A) → hostilidad en A
+        if monster_for_a and b.id == monster_for_a and state_a == "cooperacion":
+            # La cooperación se convierte en competencia (hostilidad) o aislamiento
+            state_a = a._rng.choice(["competencia", "aislamiento"])
 
         # 2. Matriz de Resolución de Encuentros
         # Caso Aislamiento: no ocurre interacción significativa

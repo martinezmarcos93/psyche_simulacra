@@ -2361,3 +2361,71 @@ class TestLocalContext:
         global_field = CollectiveField()
         resolved_field, _ = engine._local_context("a", global_field, None, tm)
         assert resolved_field is global_field
+
+
+class TestHeroeMonstruoPorTribu:
+    """
+    resolve_encounter: cada agente reconoce héroe/monstruo según la
+    mitología de SU PROPIA tribu, no una única compartida globalmente
+    (multiacentualidad -- Voloshinov). Ver InteractionEngine._local_context.
+    """
+
+    def test_heroe_reconocido_solo_por_la_tribu_que_lo_mitologizo(self):
+        """
+        Solo la tribu de B mitologizó a A como Héroe (mitología global
+        ausente, tribu de A sin mito propio) -- la inspiración a cooperar
+        debe ocurrir igual, porque B consulta su propia mitología local,
+        no una compartida.
+        """
+        import types
+
+        engine = InteractionEngine()
+        net = SocialNetwork()
+        global_field = CollectiveField()
+        tm = TribeManager()
+
+        a = Agent("hero_a", "Hero", (0, 0), seed=1)
+        b = Agent("b", "Agente B", (0, 0), seed=2)
+        # RNG de B determinista: siempre "inspirado", siempre la primera opción.
+        b._rng = types.SimpleNamespace(random=lambda: 0.0, choice=lambda seq: seq[0])
+
+        tm.agent_to_tribe = {"hero_a": "tribu_a", "b": "tribu_b"}
+        tm.local_fields = {"tribu_a": CollectiveField(), "tribu_b": CollectiveField()}
+
+        myth_b = MythologyEngine()
+        myth_b.active_myths.append(MythCrystal(
+            name="mito_de_tribu_b", tipo="mito_moral", par=("heroe", "sombra"),
+            protagonista_id="hero_a",
+        ))
+        tm.local_myths = {"tribu_a": MythologyEngine(), "tribu_b": myth_b}
+
+        a.behavioral_state.ultimo_colapso = "competencia"
+        b.behavioral_state.ultimo_colapso = "competencia"
+
+        engine.resolve_encounter(a, b, net, global_field, mythology_engine=None, tribe_manager=tm)
+
+        # B fue inspirado a cooperar por el héroe de SU mitología -> cae en la
+        # rama cooperación(B)-competencia(A): víctima=B, explotador=A(hero_a).
+        assert net.get_bond("b", "hero_a") == -0.18
+
+    def test_sin_tribe_manager_se_comporta_como_mitologia_unica_global(self):
+        """Compatibilidad: sin tribe_manager, ambos agentes consultan la misma
+        mitología global -- mismo comportamiento que antes de introducir el
+        reconocimiento por tribu."""
+        engine = InteractionEngine()
+        net = SocialNetwork()
+        field = CollectiveField()
+
+        mythology = MythologyEngine()
+        mythology.active_myths.append(MythCrystal(
+            name="mito_global", tipo="mito_moral", par=("heroe", "sombra"),
+            protagonista_id="hero_a",
+        ))
+
+        a = Agent("hero_a", "Hero", (0, 0), seed=1)
+        b = Agent("b", "Agente B", (0, 0), seed=2)
+        a.behavioral_state.ultimo_colapso = "competencia"
+        b.behavioral_state.ultimo_colapso = "competencia"
+
+        # No debe lanzar excepción ni requerir tribe_manager.
+        engine.resolve_encounter(a, b, net, field, mythology_engine=mythology)
