@@ -614,6 +614,30 @@ class Agent:
 
     # ── Ecuación personal: estímulo físico ────────────────────────────────────
 
+    def perceive_social_event(
+        self,
+        stim:             Stimulus,
+        collective_field: "CollectiveField | None" = None,
+        mythology_engine: "MythologyEngine | None" = None,
+    ) -> PerceivedEvent | None:
+        """
+        Reinterpreta un estímulo *social* (p. ej. un encuentro con otro agente)
+        a través de la Ecuación Personal de este agente. Mismo contrato que el
+        estímulo del entorno en `decide_action`: si el filtro está desactivado,
+        no hace nada y devuelve None (reproducibilidad de corridas existentes).
+
+        Factoriza el patrón ya usado en `decide_action`/`_decide_via_collapse`
+        para que quien llame (p. ej. `core/social/communication.py`) no tenga
+        que acceder a `_interpretive_filter` directamente.
+        """
+        if self._interpretive_filter is None:
+            return None
+        pe = self._interpretive_filter.interpret(stim, self, collective_field, mythology_engine)
+        self.last_perceived_event = pe
+        if self.mental_vault is not None:
+            self.mental_vault.accumulate(pe)
+        return pe
+
     def _build_stimulus(self, snapshot: WorldSnapshot, hay_aliados: bool) -> Stimulus:
         """
         Extrae el estímulo *físico* dominante de la situación presente. Solo
